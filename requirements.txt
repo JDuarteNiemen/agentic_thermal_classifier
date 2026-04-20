@@ -1,0 +1,4 @@
+pip install langgraph
+pip install -qU deepagents langchain-google-genai
+pip install -U langchain-ollama
+pip install langchain_core langchain-anthropic langgraph

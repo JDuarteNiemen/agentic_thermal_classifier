@@ -1,0 +1,12 @@
+Characterization of the nucleoside monophosphate kinase from Thermus thermophilus phage p23-45 and its application in the biosynthesis of deoxynucleoside triphosphates.
+
+Nucleoside monophosphate kinases (NMKs) are essential enzymes in nucleotide biosynthesis. In this
+study, an NMK from Thermus thermophilus phage p23-45 (ϕNMK) was overexpressed and characterized,
+which exhibited relatively low sequence similarity (∼20%) to cellular NMKs. The enzyme demonstrated
+broad specificity for all 4 deoxynucleoside monophosphates (dNMPs) (KM: 0.27-0.45 m m), optimal
+activity at 70 °C, and retained 95% activity after 8 h at 37 °C. Structural modeling and site-
+directed mutagenesis identified key catalytic roles for K39 and R66. A one-pot deoxyribonucleoside
+triphosphate (dNTP) synthesis workflow using ϕNMK and T. thermophilus pyruvate kinase enhanced ATP
+regeneration efficiency compared to acetate kinases, achieving >85% conversion of all dNMPs to
+dNTPs. These findings highlight ϕNMK's thermostability and efficiency, establishing it as a
+promising candidate for industrial dNTP production.

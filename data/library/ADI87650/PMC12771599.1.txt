@@ -1,0 +1,445 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Microb Biotechnol
+Journal ID: Microb Biotechnol
+Journal ID: MBT2
+
+Microbial Biotechnology
+
+EISSN: 1751-7915
+Publisher: Wiley
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC12771599
+PMID: 41491636
+DOI: 10.1111/1751-7915.70289
+Article ID: MBT270289
+Article ID: MICROBIO-2025-441-RAR
+Article version: 1
+Subjects: Research Article, Research Article
+
+Characterisation of a Novel Jumbo Lytic Aeromonas dhakensis Bacteriophage P19 and Its Endolysin
+
+Ansari Farhat https://orcid.org/0009-0001-0558-5402 1 2
+Nagar Vandan https://orcid.org/0000-0001-6556-8068 1 2 vnagar@barc.gov.in
+
+1 Food Technology Division Bhabha Atomic Research Centre Mumbai India
+2 Homi Bhabha National Institute Mumbai India
+* Correspondence:
+Vandan Nagar (vnagar@barc.gov.in)
+
+Electronic publication date: 2026 Jan 5
+Publication date: 2026 Jan
+Volume: 19
+Issue: 1
+Electronic Location ID: e70289
+Revised 2025 Nov 20; Received 2025 Aug 6; Accepted 2025 Dec 11
+Copyright: © 2026 The Author(s). Microbial Biotechnology published by John Wiley & Sons Ltd.
+License: This is an open access article under the terms of the http://creativecommons.org/licenses/by-nc-nd/4.0/ License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.
+License URL: https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Keywords: Aeromonas dhakensis, antibacterial activity, bacteriophage, endolysin, gram‐negative bacteria
+
+Funding: Department of Atomic Energy, Government of India 10.13039/501100001502
+Figure count: 9
+Table count: 1
+Page count: 17
+
+source-schema-version-number: 2.0
+cover-date: January 2026
+details-of-publishers-convertor: Converter:WILEY_ML3GV2_TO_JATSPMC version:6.6.6 mode:remove_FC converted:06.01.2026
+
+Ansari, F. , and V. Nagar . 2026. “Characterisation of a Novel Jumbo Lytic Aeromonas dhakensis Bacteriophage P19 and Its Endolysin.” Microbial Biotechnology 19, no. 1: e70289. 10.1111/1751-7915.70289.
+
+==============================
+ABSTRACT
+
+Aeromonas dhakensis is an emerging multidrug‐resistant (MDR) bacterial pathogen that presents significant threats to public health and aquaculture. This study reports the isolation and comprehensive characterisation of jumbo bacteriophage P19. It is a lytic phage with a long, contractile tail and is placed in the genus Ceceduovirus of the family Straboviridae. P19 possesses a large genome typical of jumbo phages, which likely contributes to its enhanced replication efficiency and adaptability. P19 exhibited strong lytic activity with a high efficiency of plating (EOP) against multiple A. dhakensis strains, a burst size of approximately 50 plaque‐forming units (PFU) per cell, and a latent period of 30 min. It remained highly stable across pH 6–10 and temperatures up to 60°C. Genomic analysis revealed a 228 kb genome with 414 open reading frames (ORFs) and absence of genes related to lysogeny, antibiotic resistance or virulence, indicating its potential for safe therapeutic and biocontrol applications. ORF_358 encodes a stable and soluble T4‐type lysozyme endolysin (molecular weight 18.8 kDa) belonging to the glycoside hydrolase family 24. Molecular docking analysis demonstrated strong binding affinity (−6.4 kcal/mol) between P19_358 and the peptidoglycan NAG‐NAM dimer. Recombinant P19_358 endolysin exhibited 99.98% relative lytic activity against Gram‐positive bacterium Bacillus subtilis at a concentration of 75 μg/mL without EDTA pre‐treatment; whereas, it showed broad‐spectrum antibacterial activity against several Gram‐negative pathogens, including A. dhakensis, Shigella flexneri, Salmonella Typhimurium, Pseudomonas aeruginosa and Escherichia coli, with relative activity ranging from 71% to 97% following pre‐treatment with 100 mM EDTA. These findings collectively indicate that phage P19 and its endolysin P19_358 possess potent lytic activity and favourable stability profiles, supporting their development as promising antimicrobial agents against MDR Gram‐negative pathogens.
+
+A jumbo, lytic myovirus phage P19 against multidrug‐resistant (MDR) Aeromonas dhakensis was isolated from river water. P19 demonstrated robust lytic activity, high thermal and pH stability (pH 6–10, up to 60°C), and no genes associated with lysogeny, virulence or antimicrobial resistance. ORF_358 of P19 encodes for T4‐type lysozyme. The recombinant P19_358 endolysin exhibited broad‐spectrum antibacterial activity against MDR Gram‐negative bacteria (A. dhakensis, S. flexneri , S. typhimurium , P. aeruginosa and E. coli ) following EDTA pre‐treatment, and strong activity against Bacillus subtilis without EDTA. These findings highlight the potential of P19 and its endolysin P19_358 as alternative antimicrobial agents in combating emerging MDR infections.
+
+1 Introduction
+
+The rapid emergence of antimicrobial‐resistant (AMR) cases related to Gram‐negative bacteria presents a serious global threat to public health, food safety and the environment (Salam et al. 2023). Aeromonas dhakensis has emerged as a clinically significant, multidrug‐resistant (MDR) pathogen with zoonotic potential, found frequently in tropical and aquatic environments (Bartie and Desbois 2024). It is often misidentified as A. hydrophila due to phenotypic similarities, leading to underreporting of A. dhakensis‐related infections in epidemiological studies. Comparative studies have shown that A. dhakensis exhibits higher virulence and resistance profiles compared to A. hydrophila (Fernández‐Bravo and Figueras 2020). A. dhakensis is associated with severe infections, including gastroenteritis, wound infections and bacteraemia. Epidemiological data suggest that A. dhakensis contributes to roughly 30% of Aeromonas bacteraemia cases (Wu et al. 2015), which is less frequent compared to major pathogens in the ESKAPEE group ( Enterococcus faecium , Staphylococcus aureus , Klebsiella pneumoniae , Acinetobacter baumannii , Pseudomonas aeruginosa , Enterobacter spp. and Escherichia coli ). However, the mortality rate associated with A. dhakensis infections ranges from 25% to 37.5%, significantly higher than those caused by other Aeromonas species (Wu et al. 2015; Chen et al. 2014). These infections are particularly severe in immunocompromised patients and those with systemic diseases.
+
+Complete removal of A. dhakensis from both biotic and abiotic surfaces is difficult due to its ability to form biofilms in response to environmental cues and surface properties (Bartie and Desbois 2024). Notably, many clinical (Chen et al. 2014) and environmental (Nagar et al. 2025) strains of A. dhakensis exhibit moderate to strong biofilm production capabilities. Alarmingly, genomic analysis studies report resistance to carbapenems and third‐generation cephalosporins, mainly caused by chromosomally encoded β‐lactamases and plasmid‐mediated horizontal gene transfer (Chen et al. 2025).
+
+Following several decades of antibiotic misuse in healthcare, agricultural and environmental contexts, the evolution and spread of resistant strains have been greatly accelerated. A total of 117 A. dhakensis isolates exhibited high resistance to doripenem (62.4%), imipenem (87.2%) and meropenem (41.9%) (Puah et al. 2022). Biofilm formation further enhances the antibiotic resistance by protecting bacteria from antibiotics and host defenses (Chen et al. 2016). The growing threat of AMR highlights the urgent need for innovative antimicrobial strategies capable of keeping pace with bacterial evolution. In this regard, lytic bacteriophages have gained attention as promising alternatives due to their ability to selectively infect and lyse specific bacterial cells, their self‐replicating nature, which ensures targeted action with minimal ecological disruption (Kortright et al. 2019). Although various phage‐based commercial products against pathogens like Listeria monocytogenes (ListShield) and Salmonella (SalmoFresh) are available, still no commercial product currently targets A. dhakensis, despite its rising clinical and economic burden (Pereira et al. 2022). Previous studies on Aeromonas phages have primarily focused on A. hydrophila and A. salmonicida species (Rai et al. 2023; Vincent et al. 2017), with only a few reports on A. dhakensis phages (Sawaengwong et al. 2023, 2024).
+
+Advances in genomic sequencing technologies have accelerated phage discovery, enhanced biosafety assessments and expanded the knowledge of phage‐host interactions. This has also led to the identification of genes with significant biotechnological potential, such as endolysin, depolymerases and tail fibres (Klumpp et al. 2012). Collectively, these developments make phages highly promising candidates for biocontrol applications in aquaculture, agriculture, food safety and human health (Jaglan et al. 2022).
+
+Bacteriophages Having Double‐Stranded DNA Use Peptidoglycan‐Degrading Enzymes, Endolysins, in Their Late Lytic Cycle. These enzymes break open bacterial cell walls and release new virions by targeting the peptidoglycan layer. Endolysins naturally target Gram‐positive bacteria, but they can also kill Gram‐negative bacteria when the outer membrane is disrupted (e.g., with EDTA) or when they are engineered as artilysins. This makes them a promising broad‐spectrum alternative to antibiotics and bacteriophages (Defraine et al. 2016). Endolysins cause rapid bacterial lysis with high specificity, minimising the impact on beneficial microbiota. They target conserved cell wall components, reducing resistance risk. Unlike whole phages, they do not require bacterial replication and can be engineered to enhance activity and outer membrane penetration. Using outer membrane permeabilizers like chelators is an effective way to overcome Gram‐negative barriers, expanding their application against multidrug‐resistant infections. These enzymes are categorised as: n‐acetylmuramidases, endopeptidases, amidases and lytic transglycosylases, depending on their cleavage sites within the bacterial cell wall.
+
+Although A. dhakensis is an important pathogen, a well‐characterised repository of phages specific to this species is currently lacking. Comprehensive phage collections, with detailed genomic and phenotypic characterisation, are the foundational step for developing effective phage therapies. However, translating these phages into clinically viable treatments requires extensive in vivo studies. These studies include investigations on optimal dosing strategies, pharmacokinetics, therapeutic efficacy, safety and immunological responses, followed by preclinical and clinical evaluation. This integrated approach can guide the development of reliable application of phage‐based therapies against A. dhakensis. In this research work, we isolated a lytic phage P19, belonging to the genus Ceceduovirus and family Straboviridae, which infects virulent and antibiotic‐resistant A. dhakensis strains. Comprehensive characterisation, including host range, morphology, growth dynamics, stability studies and genome analysis relevant to safety and taxonomy, were performed. These findings contribute to addressing a critical gap by providing crucial phage resources that could be used for future biocontrol and therapeutic applications against A. dhakensis strains. Moreover, we also identified a T4‐type endolysin, P19_358, and evaluated its bactericidal activity against Gram‐positive Bacillus subtilis MTCC 121T and multiple Gram‐negative pathogens, including E. coli, Shigella, Salmonella, Pseudomonas and Aeromonas.
+
+Our results highlight the potential of endolysins as next‐generation antimicrobials due to their rapid bacteriolytic activity. These enzymes target highly conserved bonds of the bacterial peptidoglycan, essential for cell wall integrity and survival, making resistance development unlikely as mutations in these regions are often lethal to bacteria (Schmelcher and Loessner 2016). A few studies have reported no development of resistance over multiple bacterial generations (Liu et al. 2023). However, further investigations are needed, especially for Gram‐negative bacteria, where the outer membrane poses a significant barrier to naturally occurring endolysins.
+
+2 Material and Methods
+
+2.1 Microbial Strains and Growth Conditions
+
+The bacterial strains included Aeromonas dhakensis CECT 5744T (Spanish Type Culture Collection; source, antibiotic resistance and virulence gene details in Table S1), A. dhakensis LMG 24688 (Belgian Coordinated Collections of Microorganisms), and A. dhakensis A2 (Nagar et al. 2025), alongside Escherichia coli MTCC 1625, Shigella flexneri MTCC 1457, Salmonella Typhimurium MTCC 98 (Microbial Type Culture Collection), Pseudomonas aeruginosa NCIM 2036 (National Collection of Industrial Microorganisms), Bacillus subtilis MTCC 121T, Bacillus pumilus 1640T, Staphylococcus aureus MTCC 1430T, Micrococcus luteus MTCC 106T, Lactococcus lactis MTCC 1484T, and Rhodococcus rhodochrous MTCC 265T. All Aeromonas strains were cultured in tryptic soy broth (TSB) at 30°C, whereas all non‐Aeromonas strains were cultured in TSB at 37°C. The confirmed plasmid (pET28a::P19_358) transformed in E. coli BL21 (DE3) was grown in Luria broth (LB) at 37°C with kanamycin until optical density at 600 nm (OD600) reached 0.4–0.6. Protein expression was induced with 0.5 mM IPTG, followed by incubation at 18°C and 150 rpm for 16 h.
+
+2.2 Bacteriophage Isolation and Purification
+
+Five water samples were collected from natural sources in Mumbai, Maharashtra, and Prayagraj, Uttar Pradesh, India. Samples were pre‐treated with 1% chloroform to reduce bacterial contamination. The sample was centrifuged at 10,000×g for 10 min, and the obtained supernatant was used for phage enrichment as described by Nagar et al. (2024), with minor modifications. Briefly, a 1% (v/v) inoculum of overnight grown A. dhakensis CECT 5744T was mixed with an equivalent volume of 2× TSB and clarified river water, supplemented with 1 mM CaCl2. Following overnight incubation at 30°C with shaking, the mixture was centrifuged and filtered through a 0.22 μm sterile syringe filter (Sartorius, Germany). The resulting supernatant was used to access lytic activity by spot assay. Individual phage plaques were purified by 3–4 repeated rounds of the double‐layer agar method to ensure clonal purity (Kortright et al. 2019). Plaque morphology was assessed after 16 h of incubation on double‐layer tryptic soya agar (TSA) plates supplemented with 1 mM CaCl2 at 30°C. Purified phages were stored at 4°C in SM buffer (50 mM Tris–HCl pH 7.5, 100 mM NaCl, 8 mM MgSO4 and 0.01% gelatin) until further use.
+
+2.3 Phage Morphology
+
+Transmission electron microscopy (TEM) was performed to observe phage morphology. A high‐titre phage suspension (1011–1012 PFU/mL) was obtained by enrichment followed by PEG (polyethylene glycol) precipitation using 8% (wt/vol) PEG 8000 and 1 M NaCl (Sambrook and Russell 2006). The phage suspension was then concentrated and washed three times with 0.1 M ammonium acetate (pH 7.5). Fixed with 2% paraformaldehyde and placed on the carbon‐coated side of a copper grid, stained negatively with 2% uranyl acetate, and visualised using a JEM‐1400 TEM (120 kV) at ACTREC, Navi Mumbai (Ackermann 2012; Kortright et al. 2019).
+
+2.4 Host Range and Efficiency of Plating (EOP)
+
+Phage host specificity was assessed by spot assays on 43 bacterial strains (27 Aeromonas spp. and 16 non‐Aeromonas spp.) as described by Kutter (2009). Bacterial lawns (108 CFU/mL) were overlaid on TSA plates supplemented with 1 mM CaCl2, and 5 μL of phage lysate (109 PFU/mL) was spotted onto each lawn. Plates were incubated at 30°C for 16 h and examined for lysis zones, recorded as (+) for clear lysis and (−) for no lysis. Bacterial hosts showing a positive spot test were further confirmed by spotting serial dilutions of phage lysate onto the respective bacterial lawns.
+
+For EOP analysis, 100 μL of phage suspension was mixed with 100 μL of overnight grown bacterial culture at different MOIs ranging from 10−3 to 10−7. After 2 min adsorption, phage titre was determined by double layer agar method using TSA plates supplemented with 1 mM CaCl2. EOP was defined as PFU/mL on the target strain divided by PFU/mL on the host strain; values approaching 1 indicate high infectivity.
+
+2.5 Bactericidal Activity of Phage P19
+
+Lytic activity of phage P19 was evaluated by a time‐kill assay by measuring reduction in turbidity at 600 nm, as described by O'Flaherty et al. (2005). 100 μL of mid‐log phase A. dhakensis CECT 5744T (106 CFU/mL) was mixed with 100 μL phage at MOIs of 0.01, 0.1, 1, and 10. A total of 200 μL suspension was incubated at 30°C, and OD600 was recorded at every 10 min for 7 h using a microtiter plate reader (BioTek Synergy H1 plate reader, Germany). Bacterial suspensions with SM buffer (no phage) were considered as controls.
+
+2.6 One‐Step Growth Curve
+
+Phage infection dynamics were assessed by a one‐step growth experiment as described by Kropinski (2018). Mid‐log phase culture of A. dhakensis CECT 5744T was infected with phage P19 at MOI of 0.01 and allowed to adsorb for 10 min. After removal of unbound phages and two washes with TSB, the pellet was resuspended in 1 mL TSB. An aliquot of 100 μL was inoculated into 9.9 mL TSB supplemented with 1 mM CaCl2 and incubated at 30°C with shaking at 150 rpm. Samples were collected every 5 min up to 15 min, and then every 30 min up to 6 h. Each aliquot was centrifuged at 8000×g for 2 min, and the supernatant was filtered through a 0.22 μm syringe filter. Phage titres were then determined using the DAO method.
+
+2.7 pH And Thermal Stability Assays
+
+Phage stability was assessed as described by Kropinski et al. (2009). For pH stability, 100 μL phage suspension (107 PFU/mL) was mixed with 900 μL of sterile SM buffer, adjusted to pH 2–12, and incubated at 30°C for 2.5 h; after incubation, phage titres were determined by double layer agar method. For thermal stability, 1 mL phage suspension (107 PFU/mL) was incubated at 4°C, 30°C, 50°C, 60°C, 70°C and 80°C. Hundred microlitre aliquots were collected at 20, 40 and 60 min intervals and phage titres were determined using DAO method.
+
+2.8 DNA Extraction, Whole Genome Sequencing and Genomic Analysis
+
+Phage P19 genomic DNA was extracted using the phenol‐chloroform method (Sambrook and Russell 2006). Sequencing libraries (QIASeq FX DNA Library Kit, TruSeq adapters) were prepared and sequenced on an Illumina HiSeq 4000 platform (151 bp paired‐end). Raw reads were processed with Cutadapt v4.4 (Martin 2011) and Trimmomatic v0.38.1 (Bolger et al. 2014), and their quality was assessed by FastQC v0.74 (Andrews 2010). De‐novo assembly was performed with SPAdes v3.15.3 (Bankevich et al. 2012) and visualised using Bandage v2022.09 (Wick et al. 2015). Genome termini were predicted with PhageTerm (Garneau et al. 2017). Gene prediction and annotation were performed using RASTtk (Brettin et al. 2015); and tRNAs were identified with tRNAscan‐SE (Lowe and Eddy 1997). Screening for antibiotic resistance and virulence genes was done using ResFinder v4.1 (Florensa et al. 2022), while lifestyle prediction employed PhageAI (Tynecki et al. 2020). Additional features (transcription terminators, CRISPR arrays, anti‐CRISPR proteins) were identified with PhageScope v1.3 (Wang et al. 2024), and integrons with IntegronFinder (Néron et al. 2022) on the Galaxy platform.
+
+2.9 Genomic Similarity and Phylogenetic Analysis
+
+Phage P19 genome sequence was compared to known phages using BLASTn (NCBI database) and the Virus Intergenomic Distance Calculator (VIRIDIC) tool as well, with similarity thresholds of > 70% (genus‐level) and > 95% (species‐level). To determine genome similarity, a comparative analysis with the closest relatives of phage P19 was performed using DiGAlign (Nishimura et al. 2024). For phylogenetic and taxonomic analysis (species, genus and family), the Virus Classification and Tree Building Online Resource (VICTOR) tool was utilised, employing the Genome‐BLAST Distance Phylogeny (GBDP) method with 100 pseudo‐bootstrap replicates, and clustering was done by the OPTSIL algorithm. Resultant phylogenetic tree was visualised using FigTree v1.4.3 (http://tree.bio.ed.ac.uk/software/figtree/). Additionally, proteomic relationships between P19 and other phages were analysed using the Viral Proteomic Tree (ViPTree) version 4.0, with rectangular genome comparison diagrams generated for closely related phages (ViPTree SG score threshold > 0.1309) (Table S2).
+
+2.10 In Silico Analysis of P19_358 Endolysin
+
+During genome annotation of P19 phage, an ORF_358 encoding a putative lysozyme was identified. The corresponding amino acid sequence of the endolysin, designated P19_358 (protein ID: UKM62846.1), was retrieved for further characterisation. Functional domain architecture and family classification were determined using the InterPro database (Blum et al. 2021). Conserved domains were further identified through the NCBI Conserved Domain Database (Lu et al. 2020). Comparative modelling and structural predictions were performed to assess the presence of characteristic endolysin motifs and to infer potential catalytic and binding domains, following established protocols for phage endolysin annotation (Oliveira et al. 2013; Walmagh et al. 2012).
+
+2.11 Phylogenetic and Physicochemical Characterisation of P19_358 Endolysin
+
+Phylogenetic analysis was performed based on sequence similarity. Sequences with over 60% similarity under BLASTp search were screened for phylogenetic analysis (Table S3). A phylogenetic tree was constructed under the Maximum Likelihood method in MEGA_11 (Tamura et al. 2021) and visualised with iTOL v6.0 (Letunic and Bork 2024).
+
+Topological arrangement was predicted by CCTOP server (Dobson et al. 2015) and TMpred (Hofmann and Stoffel 1993) for the presence of transmembrane or spanning regions. Physicochemical characteristics, including instability index, extinction coefficient, half‐life estimation and grand average of hydropathicity (GRAVY), were computed by ExPASy ProtParam tool (Wilkins et al. 1999) to predict protein stability and solubility. Subcellular localisation was predicted by the CELLO v.2.5 server (Yu et al. 2014).
+
+2.12 Three‐Dimensional Structure Prediction, Refinement, Active Site Identification of P19_358 Endolysin
+
+Three‐dimensional structure of the P19_358 endolysin was predicted using AlphaFold V3 server (Abramson et al. 2024) and visualised using PyMOL v2.0 (Schrödinger LLC 2015). Model quality was assessed using multiple validation tools. The SAVES v6.0 meta‐server provided comprehensive evaluation, including PROCHECK (Thornton et al. 1993) for generating Ramachandran plots to analyse backbone dihedral angles, Verify3D (Eisenberg et al. 1997) for assessing sequence structure compatibility, and ERRAT (Colovos and Yeates 1993) for evaluating non‐bonded atomic interactions and identifying structural anomalies. Potential active sites and surface accessible pockets were identified using the CASTp 3.0 server (Tian et al. 2018).
+
+2.13 Docking of P19_358 Endolysin With Peptidoglycan and Similar Residue
+
+For molecular docking studies, the P19_358 endolysin structure was prepared as the receptor, and NAG‐NAM dimer (GlcNAc‐β(1 → 4)‐MurNAc; PubChem CID 72210857), a core unit of bacterial peptidoglycan, along with five structurally similar ligands {GlcNAc(b1‐4)a‐MurNAc6Ac (PubChem CID 163084087), GlcN(b1‐4)a‐MurNAc (PubChem CID 168358202), GlcN(b1‐4)MurNAc(a)‐O‐Pr (PubChem CID 102143278), Fuc(b1‐3)[GlcNAc(b1‐4)]b‐GlcNAc (PubChem CID 91859121) and GlcNAc(b1‐4)a‐MurNAc (PubChem CID 91850781)}, were used as ligands. Receptor and ligand preparation included the addition of polar hydrogens, assignment of Gasteiger/Kollman charges, and atom type definition according to AutoDock4 specifications. Docking grids were generated covering the complete receptor, and simulations were performed using AutoDock Vina. Binding affinities and ligand orientations within the catalytic site were analysed using BIOVIA Discovery Studio Visualizer (DSV), and the best binding poses were visualised with DSV and PyMOL.
+
+2.14 Cloning, Expression, and Purification of Recombinant P19_358 Endolysin
+
+The gene encoding P19_358 endolysin was amplified by PCR using Phusion High‐Fidelity DNA Polymerase (New England Biolabs) with gene‐specific primers designed to include BamHI and XhoI restriction sites, that is, forward primer sequence F: 5′‐GGTTCGGATCCATGTTAGAAAAAATGCTTAAATTCG‐3′ and reverse primer sequence R: 5′‐GGAATTCCTCGAGTTATGCGAATGGATAACCTTTG‐3′. The resulting PCR product was purified using a PCR purification kit (Genaxy Scientific Pvt. Ltd., India), followed by double digestion with enzymes BamHI and XhoI. The digested fragments were purified and ligated into a BamHI/XhoI‐digested pET‐28a (+) expression vector (Novagen), which carries 6×‐Histag at N terminal for affinity purification. The recombinant construct was transformed into E. coli DH5α for propagation. Positive clones were subjected to colony PCR and confirmed by restriction digestion and by Sanger sequencing. The confirmed plasmid was then transformed in E. coli BL21 (DE3) for protein expression.
+
+For protein expression, the transformed culture was grown in LB medium supplemented with 50 μg/mL kanamycin at 37°C until OD600 reached 0.4–0.6. Protein expression was induced with 0.5 mM IPTG, followed by incubation at 18°C and 150 rpm for 16 h. The cells were harvested by centrifugation at 8,000 rpm for 10 min at 4°C, and cell lysis was performed by sonication (6 cycles of 30 s pulses with 30 s rest intervals) on ice. The lysate was centrifuged at 13,000 rpm for 10 min at 4°C and clear supernatant was applied on a Ni‐NTA affinity chromatography column. The column was incubated on ice for 1–2 h to facilitate the binding of the recombinant protein to Ni‐NTA beads. After discarding the flow through, the bound protein was eluted with increasing concentrations of imidazole, up to 350 mM. The eluted protein fraction was dialysed overnight at 4°C in 1× PBS buffer (0.137 M NaCl, 0.0027 M KCl, 0.01 M Na2HPO4, 0.0018 M KH2PO4; pH 7.4) using a Spectra/Por dialysis membrane. Qualitative assessment was done by 18% SDS‐PAGE, and the concentration was determined using a NanoPhotometer NP80 (Implen, Germany).
+
+2.15 Determination of Minimum Effective Concentration of P19_358 Endolysin
+
+The lytic activity of P19_358 endolysin was evaluated using a turbidity reduction assay, as previously described by Jeong et al. (2023). A. dhakensis CECT 5744T overnight culture was centrifuged at 10,000×g for 5 min. The resulting pellet was resuspended in PBS with 100 mM EDTA and incubated for 10 min to permeabilise the outer membrane, a critical step for enabling endolysin access to the peptidoglycan layer (Chu et al. 2024). After EDTA treatment, cells were washed three times with PBS to remove residual EDTA. A 150 μL aliquot of the treated bacterial suspension was mixed with 50 μL of purified P19_358 endolysin (final concentration 2.5–75 μg/mL). EDTA‐treated cells with PBS instead of enzyme were used as control. The mixture was transferred to a microplate, and OD600 was monitored at 1‐min intervals for 60 min using a microplate reader.
+
+2.16 Assessment of Antibacterial Activity of P19_358 Endolysin
+
+The antibacterial activity of P19_358 endolysin against both Gram‐positive bacteria ( Bacillus subtilis MTCC 121T, Bacillus pumilus 1640T, Staphylococcus aureus MTCC 1430T, Micrococcus luteus MTCC 106T, Lactococcus lactis MTCC 1484T, and Rhodococcus rhodochrous MTCC 265T) and Gram‐negative bacteria (A. dhakensis CECT 5744T, A. dhakensis LMG 24688, A. dhakensis A2, E. coli MTCC 1625, S. flexneri MTCC 1457, S. Typhimurium MTCC 98, and P. aeruginosa NCIM 2036) was assessed by turbidity reduction and colony‐forming unit (CFU) assays.
+
+For the turbidity assay, Gram‐positive cultures were adjusted to an OD600 of approx. 0.6. For Gram‐negative bacteria, cultures were harvested by centrifugation at 10,000×g for 5 min and then treated with 0.1 M EDTA in 1× PBS for 10 min at room temperature to permeabilise the outer membrane. After treatment, the cells were washed three times with PBS before further use. A final reaction volume of 200 μL was prepared by mixing bacterial suspensions with P19_358 endolysin at a final concentration of 75 μg/mL. EDTA‐treated cells without endolysin (PBS only) served as a negative control. Endolysin‐only and buffer‐only reactions were included as additional controls. The mixtures were incubated at 30°C, and the absorbance at 600 nm was recorded every min for up to 2 h using a microplate reader.
+
+For CFU enumeration, B. subtilis MTCC 121T cells were diluted to ~106 CFU/mL in 50 mM Tris–HCl buffer (pH 7.4), and treated with 75 μg/mL endolysin at 30°C for 2 h. For Gram‐negative bacteria, EDTA‐treated and washed cells were adjusted to 10 (Bankevich et al. 2012)–107 CFU/mL and incubated with 75 μg/mL endolysin at 30°C. Samples were taken at 10 min and 60 min, serially diluted, plated on Luria agar (LA), and incubated overnight at the appropriate temperature. Colonies were enumerated and relative lytic activity was calculated as follows: Relative activity%=CFU_control−CFU_test/CFU_controlat0min×100.
+
+2.17 Scanning Electron Microscopy
+
+To observe the cell wall degradation, samples were examined using scanning electron microscopy (SEM). For sample preparation, an overnight culture of A. dhakensis CECT 5744T was pre‐treated with EDTA and the P19_358 endolysin for 30 min. As a control, bacterial cells were treated with EDTA alone. Samples were first fixed with 2.5% glutaraldehyde followed by another fixation with 1% osmium tetroxide. After fixation, the samples were washed with PBS and dehydrated through a graded ethanol concentration up to 100%. Imaging was performed using a Zeiss SmartSEM at magnifications up to 12,000× with an accelerating voltage of 20 kV.
+
+2.18 Size Determination of P19_358 Endolysin by Dynamic Light Scattering
+
+The hydrodynamic diameter of purified P19_358 endolysin was determined using dynamic light scattering (DLS) on a Zetasizer Nano‐ZS system (Malvern Panalytical Ltd., UK), a non‐destructive technique for measuring protein size and aggregation in solution (Lorber et al. 2012). For sample preparation, the protein solution was centrifuged at 3000×g for 25 min, and a 1 mg/mL aliquot of the clear supernatant was loaded on a low‐volume disposable sizing cuvette. DLS data were collected at a backscattering angle of 173°, following a 30‐s equilibration period and two measurements at 10°C. The size distribution was reported as relative volume (%) versus hydrodynamic diameter (nm), providing information on the mono‐dispersity and aggregation state of the protein sample.
+
+2.19 Stability Assessment of P19_358 Endolysin Under Varying pH, Buffer and Salt Conditions
+
+Thermal stability of P19_358 endolysin was determined using differential scanning fluorimetry (DSF), a sensitive and high‐throughput method for analysing protein unfolding and melting temperature (T m) (Baljinnyam et al. 2020). A 5× Sypro Orange dye was mixed with the purified protein and equilibrated at 25°C for 30 s. The sample was exposed to a temperature gradient ranging from 25°C to 95°C at a ramp rate of 0.5°C/min in a qTOWER (Andrews 2010) Real‐Time PCR thermocycler (Analytik Jena, Germany). Fluorescence changes were monitored, and the T m was calculated based on the first derivative of the fluorescence curve.
+
+For pH stability analysis, the protein was incubated in CHC buffer across a pH range of 4–10. Buffer and salt compatibility were systematically screened using the RUBIK Buffer Screening Kit (BN006, MDI‐97) and the DURHAM Salt Screening Kit (BN003, MDI‐102), which are optimised for DSF‐based protein stability assays and allow rapid identification of optimal stabilisation conditions. This combined approach enabled a comprehensive assessment of P19_358 endolysin stability under diverse physicochemical environments.
+
+2.20 Statistics
+
+All assays were performed with a minimum of three independent biological replicates, and the data are presented as mean ± standard deviation. Statistical analyses were performed using OriginPro 8.5.0 SR1 (Build 161). A one‐way ANOVA was used to access single‐variable significance, and a two‐way ANOVA was applied for analyses involving two variables. Statistical significance was set to p < 0.05 for all variables and interactions. When ANOVA indicated significant differences, Tukey's post hoc test was used for mean comparison, and different letters were assigned to denote statistically significant differences at p < 0.05.
+
+3 Results
+
+3.1 Phage Isolation and Morphology of P19 Phage
+
+A single lytic bacteriophage, designated P19, was isolated from Ganga river water (Prayagraj, Uttar Pradesh) using A. dhakensis CECT 5744T as the host for selective enrichment. Plaques formed by P19 on the bacterial lawn were clear, dot‐shaped, and measured 1.465 ± 0.089 mm in diameter (average ± SD) (Figure S1). TEM analysis showed a typical long‐tailed, contractile phage morphology with an icosahedral head measuring 82.53 ± 2.3 nm (average ± SD) and a contractile tail approximately 94.83 ± 1.9 nm (average ± SD) in length (Figure 1).
+
+FIGURE 1 TEM micrograph of A. dhakensis phage P19 stained with 2% uranyl acetate. Scale bars represent 100 nm and 50,000× magnification.
+
+3.2 Host Range
+
+The P19 phage exhibited genus‐level specificity, lysing only Aeromonas strains within the tested bacterial panel. A gradual decrease in the clarity of the lytic spots was observed upon decreasing titre of phage against the bacterial lawn of susceptible hosts (Figure S2). The phage showed lytic activity mainly against A. dhakensis (CECT 5744T, LMG 24688, and A2), A. caviae (A91) and A. hydrophila (CECT 839T) strains. No lytic activity was observed against tested non‐Aeromonas Gram‐negative or Gram‐positive species (Table S4).
+
+3.3 Bactericidal Activity of Phage P19
+
+The lytic activity of phage P19 was assessed by a turbidity reduction assay at MOIs of 0.01, 0.1, 1 and 10 (Figure 2A). Significant decline in absorbance at 600 nm was observed in all tested MOIs, persistent for over 7 h, indicating efficient, sustained and robust lytic efficacy of phage P19 across a wide range of infection doses. The lytic activity was dose‐dependent, with higher MOIs resulting in greater and more rapid reductions in turbidity.
+
+FIGURE 2 Functional characterisation of A. dhakensis phage P19, (A) Time‐kill assay of phage P19 against A. dhakensis CECT 5744T at MOI (0.01, 0.1, 1 and 10). Data points represent the mean ± SD of absorbance at 600 nm at every 10 min till 7 h. (B) One step growth curve of A. dhakensis phage P19 at MOI 0.01. Data points represent mean ± SD of PFU/mL at different intervals during the experiment time. The results are the average of three independent replications. Statistically significant with one‐way ANOVA. Different letters represent different mean comparison with (p < 0.05).
+
+3.4 Efficiency of Plating (EOP)
+
+The efficiency of plating (EOP) was assessed to determine the infectivity of phage P19 against non‐host Aeromonas strains relative to its original host using the DAO method. Phage P19 exhibited high specificity and notable infectivity across selected A. dhakensis strains, with EOP values of 0.67 and 0.79 with strains LMG 24688 and A2, respectively, indicating strong lytic potential even against strains not originally used for phage enrichment (Table S5).
+
+3.5 One‐Step Growth Curve
+
+To observe the infectivity cycle of phage P19, a one‐step growth experiment was performed. Upon infection of phage P19 with host A. dhakensis 5744T at MOI of 0.01, there was a latent period of 30 min and a burst size of approximately 50 ± 8 PFU/cell (mean ± SD), reflecting its efficient replication cycle within the host (Figure 2B).
+
+3.6 pH And Thermal Stability
+
+Phage P19 demonstrated high stability across a broad pH spectrum, with optimal retention of infectivity observed at pH 8 (Figure 3A). Minimal reductions in titre were observed at pH 10 (0.6 log PFU/mL) and pH 6 (0.9 log PFU/mL), and moderate reductions at pH 4 (1.1 log PFU/mL); whereas significant loss of viability occurred at extreme pH 12 (2.4 log PFU/mL).
+
+FIGURE 3 Stability assessment of A. dhakensis phage P19. (A) pH stability of phage P19 across a pH range of 2 to 12. Statistical significance was evaluated using one‐way ANOVA. Different letters (a–c) above the bars indicate significant differences (p < 0.05) in phage titers among pH groups, whereas identical letters denote no significant difference (p > 0.05), as determined by Tukey's post hoc test. (B) Thermal stability of phage P19 across temperatures ranging from 4°C to 80°C at different time points. Each line represents a specific temperature. Data points represent the mean ± SD of log10 PFU/mL of three independent experiments. Statistical significance was assessed using two‐way ANOVA. Different letters (a–c) beside the lines indicate significant differences (p < 0.05) in phage titers after 60 min exposure. Capital letters (A, B) above the X‐axis denote significant differences (p < 0.05) across temperatures at different time points, based on Tukey's post hoc test.
+
+For temperature stability, phage P19 retained viability at temperatures ranging from 30°C to 60°C, showing minimal reduction in phage titre even after 1 h of incubation (Figure 3B). However, exposure to 70°C and 80°C resulted in sharp declines in phage viability, with titre reductions of 3.5 and 4‐log units, respectively, within 20 min.
+
+3.7 Genome Sequencing, Annotation and Bioinformatics Analysis
+
+Whole genome sequencing of phage P19 yielded high quality paired‐end reads, which were de novo assembled into a single contig of 228,239 base pairs with an average coverage depth of 215× and a GC content of 38.8%. PhageTerm analysis indicated a circularly permuted genome with randomly distributed 5′ and 3′ ends, a common feature of phages with headful packaging mechanisms (Garneau et al. 2017). The whole genome sequence has been submitted in the NCBI GenBank database under Accession number OM339718.1.
+
+RASTtk pipeline and Prodigal algorithm annotated 414 open reading frames (ORFs), of which 106 (25.6%) were assigned putative functions, whereas the remaining were annotated as hypothetical proteins (Table S6). The ORFs were further categorised based on their predicted roles in the phage replication cycle, including host recognition and infection (17 ORFs), DNA replication (32 ORFs), structural assembly (17 ORFs), regulation (27 ORFs), DNA packaging (6 ORFs) and host cell lysis (7 ORFs), similar to functional annotation approaches used in recent phage genomics studies (Iyer et al. 2021). Five rho‐independent terminators and eight tRNA genes were also found to be present in the genome (Table 1). Importantly, no genes related to lysogeny, antibiotic resistance or virulence were detected, further supporting the lytic nature and biosafety of phage P19 for potential applications (Table 1). These comprehensive genomic analyses provide a foundation for understanding the biology and therapeutic potential of phage P19.
+
+TABLE 1 Overview of A. dhakensis phage P19.
+
+	P19	
+GenBank accession number	OM339718	
+Class	Caudoviricetes	
+Family	Straboviridae	
+Genus	Ceceduovirus	
+Genome size (GC%)	228,239 bp (38.8)	
+Shape (circular/linear)	Linear	
+No. of ORFs	414	
+No. of tRNAs	8	
+CRISPR Array	0	
+Anti‐CRISPR protein	0	
+Integron	0	
+Temperate lifestyle genes	No	
+No. of rho‐independent transcription terminators	5	
+No. of antibiotic resistance genes	None	
+No. of virulence genes	None	
+Nearest neighbours based on BLASTn analysis—Name (% identity, accession number)	Aeromonas phage vB_AdhaM_G2 (98.9%, PQ066597)
+
+Aeromonas phage AS‐szw (98.5%, MF498773)
+
+	
+
+P19 phage showed a strong preference for ATG (methionine) as the start codon for its ORFs, with a few exceptions of ORFs 24, 72, 130, 285, 304, 351 and 391, which utilised GTG, and ORFs 140, 249 and 364, which initiated with TTG. Genes associated with phage functions, like DNA replication, repair, and structural components, were assembled together in the genome, often interspersed with ORFs involved in host lysis, phage DNA transcription, and other functions (Figure 4).
+
+FIGURE 4 Proksee‐derived linear schematic map of A. dhakensis phage P19 genome. The bottom line represents genome coordinates and GC skew, with positive GC skew shown in green and negative GC skew in purple. The uppermost line shows identified open reading frames (black arrows) and the results of the genome annotation process.
+
+3.8 Phylogenetic Classification of Phage P19
+
+To determine the evolutionary relationships and taxonomic placement of phage P19, comprehensive phylogenetic analyses were performed. BLASTn comparison of the P19 genome against the NCBI nucleotide database revealed the highest similarity to Aeromonas phage vB_AdhaM_G2 (Accession No. PQ066597), with query coverage of 99% and nucleotide identity of 98.9%, followed by Aeromonas phage AS‐szw (Accession No. MF498773), which showed 97% query coverage and 98.5% identity (Table 1). VIRDIC analysis further confirmed high intergenomic similarities between P19 and vB_AdhaM_G2 (97.6%), AS‐zj (93.8%), and AS‐sw (92.7%), supporting their close genetic relationship (Figure S3). Phylogenomic clustering using VICTOR showed that P19, vB_AdhaM_G2, AS‐sw, and AS‐zj form a distinct, well‐supported cluster separate from other Aeromonas and non‐Aeromonas phages (Figure 5). These phages were classified as distinct species within the genus Ceceduovirus, family Straboviridae. OPTSIL analysis (F‐value = 0.5) delineated 18 species, 9 genera and 9 family‐level clusters within the phylogenetic tree (Figure S4), further supporting the distinctiveness of the P19 cluster.
+
+FIGURE 5 Phylogenetic tree by VICTOR analysis of A. dhakensis phage P19 (highlighted with the red colour outline) and closely related phage genomes. Bootstrap values are indicated by coloured branches. Branches pointing toward A. dhakensis phage P19 are moreover of neutral colours (cyan, purple, yellow and green) indicated confidence level of 24–83. Phage names are classified as family (F), genus (G) and species (S). The scale bar of 0.03 represents the number of nucleotide substitutions per site, indicating evolutionary distance between sequences.
+
+Proteomic tree construction using ViPTree, based on tBLASTx genome‐wide similarities, placed P19 alongside other Straboviridae members infecting the phylum Pseudomonadota (Figure 6A). Whole‐genome comparison studies indicated that P19 clusters closely with Aeromonas phages AS‐sw, AS‐zj, CC2 and vB_AdhaM_G2, all belonging to the genus Ceceduovirus (Figure 6B). A whole‐genome tBLASTx phylogenetic comparison using DiGAlign showed that P19 and the phages vB_AdhaM_G2, AS‐zj, AS‐sw, and CC2 share high similarity with overlapping protein‐coding regions (Figure S5). Collectively, nucleotide‐ and protein‐level analyses support the classification of phage P19 as a novel member under the genus Ceceduovirus within the family Straboviridae, closely related but genetically distinct from previously described Aeromonas phages.
+
+FIGURE 6 Proteomic tree generated by ViPTree of A. dhakensis phage P19. (A) Circular proteomic tree of top BLASTn hits, and related phages of RefSeq genomes. (B) Rectangular proteomic tree, generated by ViPTree, of A. dhakensis phage P19 (highlighted with the red colour outline) with a subset of the closely related phages of SG value > 0.1309.
+
+3.9 In Silico and Phylogenetic Analyses of P19_358 Endolysin
+
+The in silico characterisation of the P19_358 endolysin, encoded by ORF_358 of phage P19 (Accession No. OM339718.1; protein id UKM62846.1), revealed a 166 amino acid protein with a molecular weight of 18.8 kDa. Conserved domain analysis by the NCBI database identified the protein as a member of the baseplate hub subunit and tail lysozyme family (SUPERFAMILY: PHA02596), suggesting a functional role in phage particle assembly and host cell wall degradation. InterProScan further classified P19_358 as a T4‐type lysozyme (IPR001165) within the glycoside hydrolase family 24 (IPR002196), supporting its putative enzymatic activity in peptidoglycan hydrolysis, a key mechanism for phage‐induced bacterial lysis (Table S7).
+
+CCTOP and TMpred predictions for topology indicated the absence of transmembrane domains, suggesting that P19_358 endolysin is a soluble protein. Physicochemical analysis showed an instability index of 24.55, indicating the protein as stable under standard conditions, while an aliphatic index of 75.7 and a GRAVY score of −0.479 indicated a hydrophilic and potentially thermostable nature. Phylogenetic analysis revealed that P19_358 endolysin is evolutionarily related to endolysins from Aeromonas phages vB_AdhaM_G2, CC2, AS‐sw and AS‐zj, forming a well‐supported clade indicative of the conserved lytic modules (Figure S6).
+
+3.10 Modelling and Validation of the 3D Structure of P19_358 Endolysin
+
+The 3D structure of P19_358 endolysin was predicted using the AlphaFold V3 server and visualised in PyMOL for further inspection (Figure 7A,B). The predicted structure was statistically validated, showing a very high plDDT score (> 90), an almost negligible expected position error (in Angstrom), and a predicted template modelling (pTM) score of 0.9 (Figure S7).
+
+FIGURE 7 Predicted 3D structure of P19_358 visualised by PyMOL. (A) Cartoon structure of P19_358 endolysin. (B) The surface structure of P19_358 (Rainbow colour coding represents N to C terminus of amino acid sequence). (C) Ramachandran plot analysis using the PROCHECK programme, indicating 92.4% residues falling in favourable region and the rest 7.6% falling in additional allowed region.
+
+PROCHECK analysis showed that 92.4% of residues fell within the most favoured regions of the Ramachandran plot, and the remaining 7.6% were in additionally allowed regions (Figure 7C). ERRAT yielded a strong structural quality factor of 99.367 (Figure S8), while Verify3D confirmed that 100% of residues had average 3D‐1D scores ≥ 0.1 (Figure S9). These results demonstrate that the predicted structure is reliable and suitable for further functional studies.
+
+Active‐site analysis of the P19_358 endolysin using the CASTp 3.0 server identified prominent active sites, with the most optimal active site pocket characterised by a surface area of 440.313 Å2 and a volume of 463.584 Å3, suggesting a well‐defined and accessible catalytic region. These structural features suggest efficient substrate binding and enzymatic activity, providing valuable insights into the functional potential of P19_358 endolysin.
+
+3.11 Docking Analysis of P19_358 Endolysin With Peptidoglycan Ligands
+
+To Assess the binding efficacy of P19_358 endolysin toward peptidoglycan, molecular docking studies were performed using various short peptidoglycan fragments as ligands. The docking results revealed a favourable interaction between P19_358 and the NAG‐NAM dimer, exhibiting the most stable binding energy of −6.4 kcal/mol (Figure S10A,B). A detailed 2D interaction diagram (Figure S10C) illustrated multiple non‐covalent interactions contributing to the ligand stability and specificity. Key conventional hydrogen bond interactions were identified between the ligand and THR A:25, ASP A:72, LEU A:31 and GLY A:29, indicating strong polar contacts essential for anchoring the ligand within the pocket. A π–sigma interaction was identified with PHE A:106, suggesting aromatic stacking that may enhance binding affinity through hydrophobic stabilisation. Additionally, a carbon‐hydrogen bond involving GLY A:109 further supported stabilisation of the ligand via weak electrostatic interaction. Adjacent residues such as TYR A:23, GLU A:21, HIS A:30, SER A:79, ILE A:28 and various VAL residues were found to be involved in van der Waals contacts, contributing to a tight fit and further enhancing the stability of the ligand‐receptor complex.
+
+Docking simulations with six additional peptidoglycan fragments displayed a range of binding energies from −5.9 to −6.9 kcal/mol (Figure S11), indicating a consistently strong affinity of P19_358 for various peptidoglycan motifs. These interactions involved multiple combinations of hydrogen bonding, π‐stacking, van der Waals forces, and hydrophobic contacts (Table S8). Therefore, they indicate strong accommodation of peptidoglycan substrates within the enzyme, further supporting the potential of P19_358 endolysin as an effective antibacterial agent against the bacterial cell wall.
+
+3.12 Molecular Cloning, Expression and Antibacterial Activity of P19_358 Endolysin
+
+The endolysin gene (ORF 358, 501 bp) from phage P19 was successfully cloned into the pET‐28a (+) vector, incorporating a 6xHis tag at the N‐terminal to facilitate purification. The recombinant plasmid was expressed in E. coli BL21 (DE3), and protein expression was confirmed by SDS‐PAGE. Following dialysis, a soluble 18.8 kDa P19_358 endolysin was obtained, suitable for downstream functional assays (Figure S12). To determine the optimal lytic concentration, EDTA‐treated A. dhakensis CECT 5744T cells were exposed to increasing concentrations of purified P19_358 (2.5–75 μg/mL). No lysis was observed at 2.5 μg/mL, whereas a clear concentration‐dependent decrease in turbidity was seen at concentrations ≥ 75 μg/mL. Therefore, 75 μg/mL was established as the working concentration for subsequent antibacterial assays (Figure S13).
+
+Among the tested Gram‐positive bacterial strains, only B. subtilis MTCC 121T exhibited notable susceptibility to P19_358 endolysin, as determined by the turbidity reduction assay, whereas all EDTA‐treated Gram‐negative bacteria showed an observable lytic response to P19_358 endolysin. Due to the absence of an outer membrane and exposed peptidoglycan layer, B. subtilis MTCC 121T required no pre‐treatment, whereas in Gram‐negative strains pre‐treatment with EDTA was required to permeabilise the outer membrane and enable endolysin to reach the peptidoglycan layer.
+
+In turbidity reduction assays, P19_358 endolysin exhibited rapid bacteriolytic activity against all tested Gram‐negative strains within 10 min. The OD600 values decreased from 0.55 to 0.20, 0.34 and 0.31 for A. dhakensis CECT 5744T, LMG 24688 and A2, respectively, and declined similarly for P. aeruginosa (to 0.28), S. flexneri (to 0.13) and S. Typhimurium (from 0.60 to 0.30). However, E. coli MTCC 1625 exhibited a slower yet significant reduction in turbidity from 0.53 to 0.28 over 260 min (Figure S14). Endolysin and buffer‐only controls showed no significant absorbance change, maintaining OD600 less than 0.08 at all time points (Figure S14A). The Gram‐positive bacterium B. subtilis MTCC 121T also displayed a significant decrease in OD600 from 0.60 to 0.17 over 120 min, indicating effective peptidoglycan degradation (Figure S15A).
+
+Colony‐forming unit (CFU) reduction assays further confirmed the rapid bacteriolytic action of P19_358 endolysin, showing a significant decline in viable cell counts within the first 10 min of treatment. After 60 min of treatment with enzyme, the highest reduction in CFUs was recorded for S. flexneri MTCC 1457 (96.9%), followed by A. dhakensis CECT 5744T and LMG 24688 (93.3% each), S. Typhimurium MTCC 98 (92.3%), A. salmonicida Y567 (91.2%), P. aeruginosa NCIM 2036 (90.6%), A. dhakensis A2 (79%) and E. coli MTCC 1625 (71%) (Figure 8). These results demonstrate that P19_358 endolysin effectively lysed all eight tested Gram‐negative pathogens with varying effectiveness. In B. subtilis , P19_358 induced a 99.98% reduction in viable counts (3.81 log reduction) within 120 min, confirming strong antibacterial efficacy against Gram‐positive targets as well (Figure S15B).
+
+FIGURE 8 Percentage relative lytic activity was calculated as the reduction in viable bacterial counts (CFU/mL) in phage‐treated samples compared to untreated controls, normalised to the initial bacterial counts. Two‐way ANOVA (p < 0.05) indicated significant effects of both strain and time. Letters above the error bars represent results from Tukey's post hoc test. Uppercase letters indicate significant differences between time points (A = 60 min, B = 10 min), lowercase letters (a–e) indicate significant differences among strains, and combinations of letters (ab, cd) indicate partial overlap. All differences were considered statistically significant at p < 0.05.
+
+3.13 Effect of P19_358 Endolysin on A. Dhakensis CECT 5744T Observed by Scanning Electron Microscopy
+
+The morphology of A. dhakensis CECT 5744T following treatment with P19_358 endolysin was observed under scanning electron microscopy (SEM). The treated cells exhibited noticeable membrane shrinkage and deformation compared to the untreated cells (Figure S16).
+
+3.14 Physicochemical Characterisation and Stability Profile of P19_358 Endolysin
+
+Dynamic light scattering (DLS) analysis indicated that P19_358 endolysin exists predominantly as a monomer in solution, with a hydrodynamic diameter of 5.89 nm (Figure S17). The stability profile of P19_358 endolysin for temperature and pH was determined using differential scanning fluorimetry (DSF) with SYPRO Orange dye. The enzyme displayed optimal structural stability within a pH range of 5.5 to 7.0, with maximum stability at pH 6.0, where the melting temperature (T m) was determined to be 54.5°C (Figure S18).
+
+A comprehensive evaluation of various salts, buffers, and additives (Table S9) revealed that the presence of urea, imidazole, EGTA and L‐arginine caused a significant decline in T m exceeding 2°C, suggesting a destabilising effect on the protein. This reduction likely resulted from interference with protein folding or hydrogen bonding, resulting in reduced structural integrity at high temperatures. Conversely, the addition of divalent metal ions such as Mn2+, Ca2+, Co2+, Mg2+ and Cu2+ at concentrations ranging from 10 μM to 5 mM showed no significant effect on T m, indicating no interference of these metals with the protein structure under the tested conditions.
+
+Furthermore, buffer composition also showed a significant impact on protein stability. Maximum stability was observed in HEPES buffer, with no significant variation in T m values. This highlights the importance of selecting appropriate buffer systems to maintain protein structure and activity, especially in applications requiring thermal differences. Overall, these results demonstrate the physicochemical properties and stability profile of P19_358 endolysin, required to develop strategies for its formulation and storage in biotechnological applications.
+
+4 Discussion
+
+The emergence of MDR A. dhakensis in both clinical and aquaculture environments underscores the urgent need for alternative antimicrobials. Bacteriophages offer a highly specific, environmentally friendly solution with minimal impact on surrounding microbiota. Moreover, phage‐derived endolysins present a similar promising novel antimicrobial option in food safety, agriculture and clinical therapy (Jaglan et al. 2022). In this study, we report the isolation and characterisation of phage P19, a novel lytic phage with a long, contractile tail, from the river Ganga. Phage P19 is characterised by its robust lytic activity against A. dhakensis, demonstrated by the formation of clear plaques and persistent bacteriolysis for over a long period across various MOIs. Morphologically, P19 phage resembles previously described Aeromonas phages AS‐szw (Chen et al. 2018) and vB_AdhM_TS9 (Sawaengwong et al. 2024).
+
+High EOP values confirm strong infectivity across different Aeromonas isolates. Phage P19 showed rapid host cell lysis, characterised by a short latent period and an average burst size. This is in agreement with previously reported A. dhakensis (Sawaengwong et al. 2024) and A. hydrophila phages (Nagar et al. 2024), which exhibited latent periods of 20 to 50 min and burst sizes of 30–180 PFU/cell. Phage P19 maintained viability across a wide pH range and remained stable at higher temperatures, demonstrating environmental resilience suitable for diverse applications. In contrast, previously reported A. dhakensis phages (vB_AdhM_DL, vB_AdhS_TS3, vB_AdhM_TS9 and vB_AdhS_M4) and the A. hydrophila phage Ahy‐Yong1 showed no viability above 45°C (Sawaengwong et al. 2024; Pan et al. 2022). However, the loss of viability of phage P19 at pH below 4 or above 12, as well as temperatures ≥ 70°C, is likely due to denaturation of its structural capsid proteins (Bujak et al. 2022).
+
+Genomic analysis revealed phage P19 as the first jumbo phage against A. dhakensis from the genus Ceceduovirus of the Straboviridae family. Its large 228‐kilobase genome distinguishes it from other reported A. dhakensis phages (Sawaengwong et al. 2024) having smaller genomes in the range of 42–116 kb. Headful packaging and circular permutation are the common features of jumbo aquatic phages which facilitate genomic plasticity and adaptability to host environments mainly due to their encoded broad array of genes related to replication, regulation and metabolism (Gittrich et al. 2025). Also, comparative genomics revealed high sequence similarity of phage P19 to Aeromonas phages vB_AdhaM_G2, AS‐zj and AS‐sw. Further phylogenomic placement by ViPTree and VICTOR supports its classification as a novel species within the genus Ceceduovirus. This reflects evolutionary conservation among phages infecting Pseudomonadota, consistent with recent genome‐based reclassification, which has transitioned previous Myoviridae into families like Straboviridae (Zhu et al. 2022). Protein function annotation identified 414 ORFs, with ~26% involved in major phage functions such as replication, structural assembly, DNA packaging and lysis. This modular genome architecture is a characteristic feature of jumbo phages. Moreover, no lysogeny, virulence or antimicrobial resistance related genes were detected, confirming the strictly lytic and biosafe nature of P19 phage, making it suitable for biocontrol and therapeutic applications. The presence of rho‐independent terminators and tRNA genes in the phage genome further indicates an enhanced optimisation for effective expression across various hosts, a strategy also observed in other jumbo phages like phiKMV (Ceyssens et al. 2020).
+
+The genome‐based taxonomic classification of P19 phage supports a shift from morphology to genome‐based taxonomy, according to ICTV standards (Valencia‐Toxqui and Ramsey 2024). Currently, there is no commercial phage‐based product targeting A. dhakensis. The comprehensive characterisation of phage P19 addresses an important gap in the field by expanding the genomic repository of the Straboviridae family.
+
+During genome annotation, an ORF_358 encoding a tail lysozyme was identified. The corresponding endolysin exhibited strong phylogenetic conservation, displaying high amino acid sequence similarity to endolysins of Aeromonas phages CC2 and vB_AdhaM_G2. Further analysis using NCBI‐CDD, domain architecture and family classification by the InterPro database confirmed it as a T4‐type lysozyme (IPR001165) within the glycoside hydrolase family 24 (IPR002196). These analyses confirmed its lytic nature, and the protein was prioritised for experimental validation. Moreover, the absence of transmembrane region supports its predicted cytoplasmic localisation, consistent with canonical holin‐endolysin pathways. The P19_358 endolysin presents favourable physicochemical properties, such as moderate thermostability, hydrophilicity and structural robustness, similar to T4‐type lysozymes such as LysKP213 (Chu et al. 2024).
+
+The three‐dimensional structure of P19_358 endolysin was predicted using AlphaFold 3 and validated using post‐modelling statistics, ERRAT, Verify3D and Ramachandran plots. The active site analysis revealed a broad, accessible catalytic cleft within the enzymatic structure, characteristic of Gram‐negative phage endolysins consisting of a single‐domain protein. This architecture supports rapid substrate interaction and efficient peptidoglycan degradation, as observed in Ts2631 endolysin (Plotka, Sancho‐Vaello, et al. 2019).
+
+Gram‐negative endolysins are relatively underexplored due to hindrance from the outer membrane, which limits direct access of endolysins to the peptidoglycan layer. In silico analysis of P19_358 endolysin revealed a lack of intrinsic membrane‐permeabilising motifs such as amphipathic helices or polycationic tails, suggesting that P19_358 endolysin may not be able to penetrate the outer membrane independently. Molecular docking with peptidoglycan fragments revealed strong binding affinity with the NAG‐NAM dimer and other structurally similar residues, involving multiple hydrogen bonds, π‐sigma interactions and van der Waals interactions. This binding aligns with well‐characterised endolysins such as PlyG and EndoT5 (Sainathrao et al. 2009; Kutyshenko et al. 2020). Notably, P19_358 endolysin is the first A. dhakensis phage‐encoded endolysin to be characterised. The purified recombinant P19_358 endolysin demonstrated rapid and robust lytic activity only against B. subtilis MTCC 121T among the tested Gram‐positive bacteria. Previous studies have shown that endolysins such as LysPBC1 and Lys10 exhibit lytic activity against Bacillus cereus and Enterococcus faecalis , respectively, while being inactive against other Gram‐positive bacteria (Kong and Ryu 2015; Noormohammadi et al. 2018).
+
+In this study, EDTA was used as an outer membrane permeabilizer to enable P19_358 endolysin access to the peptidoglycan layer of Gram‐negative pathogens, including A. dhakensis, A. salmonicida, E. coli, S. flexneri, S. Typhimurium and P. aeruginosa . This approach aligns with previous reports on membrane‐permeabilised endolysins (Defraine et al. 2016). EDTA chelates divalent cations, thereby destabilising the outer membrane and enhancing the antimicrobial action of endolysins. Chu et al. (2024) reported a reduction of up to 1‐log CFU/mL of Gram‐negative bacteria when endolysins from the Lyz‐like superfamily were applied to bacteria treated with 0.5 M EDTA as OMPs.
+
+P19_358 endolysin demonstrated rapid bacteriolytic activity within the initial 10 min by both turbidity reduction and CFU enumeration methods. Differential lytic activity was observed among the tested Gram‐negative strains at the same protein concentration, with S. flexneri exhibiting the highest susceptibility and E. coli showing relative resistance. These variations are primarily attributed to species‐specific differences in outer membrane composition and peptidoglycan accessibility. In contrast, as Gram‐positive bacteria lack an outer membrane and possess exposed peptidoglycan, the P19_358 endolysin showed strong antibacterial activity against B. subtilis MTCC 121T, resulting in a 3.81‐log reduction in CFU counts without the need for EDTA. Approximately a 3‐log reduction in bacterial counts was observed in B. subtilis using the LysB4 endolysin (Son et al. 2012). Overall, P19_358 endolysin shows natural antibacterial activity against B. subtilis MTCC 121T. Its effectiveness is enhanced when used in combination with a permeabilizer like EDTA, particularly against Gram‐negative bacteria. While promising as a versatile antimicrobial, further in vitro and in vivo studies are needed to confirm its practical use. The physicochemical properties of P19_358 endolysin underscore its stability and structural characteristics indicative of single‐domain type of endolysin, simultaneously displaying properties relevant to biocontrol applications. Its hydrodynamic diameter (5.89 nm) aligns with other reported endolysins like LysAm24, which show similar dimensions and a lack of oligomerisation because of their compact globular architecture (Lendel et al. 2024). This monomeric structure supports stability by reducing aggregation and promoting predictable pharmacokinetics.
+
+P19_358 endolysin is most stable at pH 6.0. Other endolysins that target Gram‐negative bacteria, such as LysPA26 and PlyKp104, also function optimally in mildly acidic conditions characteristic of the host periplasm (Briers et al. 2014; Walmagh et al. 2013). Its denaturation in the presence of urea and imidazole is well reported for T4 lysozyme, indicating the importance of hydrogen bonding and hydrophobic interactions in maintaining structural integrity (Yamamori and Matubayasi 2017). P19_358 endolysin, unlike metallo‐endolysins such as OBPgp279, maintained its thermal stability in the presence of divalent metal ions such as Mn2+ and Ca2+. This indicates that it does not depend on metal cofactors for structural integrity (Plotka, Kapusta, et al. 2019).
+
+In HEPES buffer, P19_358 endolysin showed improved stability, similar to other endolysins such as PlyC and LysK, wherein zwitterionic buffers preserve proper protein conformation by mitigating ionic stress (Fischetti 2018). Overall, the P19_358 endolysin demonstrates desirable features including stability across a broad pH and temperature range, no effect of metal ion on enzyme activity, and a monomeric structure. These characteristics make it a promising candidate for further studies.
+
+5 Conclusion
+
+This study reports the isolation and detailed characterisation of phage P19, a lytic phage with a long, contractile tail belonging to the genus Ceceduovirus within the family Straboviridae. Phage P19 exhibits strong lytic activity against several tested A. dhakensis strains and few other Aeromonas species, thereby expanding the repertoire of jumbo phages against A. dhakensis. Phage P19 displays several favourable characteristics for therapeutic and biocontrol applications, including robust bacteriolytic efficacy, broad environmental stability, and the absence of lysogeny‐related, virulence, or antibiotic resistance genes. Furthermore, its P19_358 endolysin, the first A. dhakensis phage‐encoded endolysin to be characterised, is a glycoside hydrolase. It effectively lyses several Gram‐negative bacteria in the presence of EDTA, and Gram‐positive bacteria without EDTA. Its favourable physicochemical properties make it a well‐suited candidate to further explore for biocontrol and post‐harvest applications. Therefore, phage P19 and its endolysin represent promising candidates for developing innovative strategies to combat A. dhakensis and other Gram‐negative bacteria. Future research will focus on engineering the P19_358 endolysin into an artilysin by fusing it with membrane‐disrupting peptides, such as cecropin or SMAP29. This modification aims to avoid the use of EDTA and enhance its biocontrol potential. Moreover, phage P19 will be further explored to optimise its formulation for practical applications in food safety and aquaculture.
+
+Author Contributions
+
+Farhat Ansari: conceptualization, methodology, investigation, formal analysis, writing – original draft. Vandan Nagar: conceptualization, methodology, formal analysis, supervision, writing – review and editing, funding acquisition, investigation, data curation.
+
+Funding
+
+This work was supported by the Department of Atomic Energy, Government of India.
+
+Disclosure
+
+Permission to Reproduce Material From Other Sources: Not applicable. All data, figures, and materials presented in this manuscript are original and have not been reproduced from other sources requiring permission. Clinical Trial Registration: Not applicable. This research does not involve any clinical experiments.
+
+Ethics Statement
+
+The authors have nothing to report.
+
+Consent
+
+The authors have nothing to report.
+
+Conflicts of Interest
+
+The authors declare no conflicts of interest.
+
+Supporting information
+
+Appendix S1: mbt270289‐sup‐0001‐TableS2‐S9.xlsx.
+
+Appendix S2: mbt270289‐sup‐0002‐FigureS1‐S18‐TableS1‐S8.docx.
+
+Acknowledgements
+
+This work was funded by the Department of Atomic Energy, Government of India. The authors are grateful to Dr. R. Shashidhar, Dr. S.C. Bihani, and Mr. Atif Khan for their critical suggestions in improving the manuscript. We gratefully acknowledge Dr. Valérie Leclère, Université des Sciences et Technologies de Lille USTL, Villeneuve d'Ascqcedex, France for her generous gift of A. hydrophila CECT 839T, A. veronii bv. Veronii CECT 4257T, A. veronii bv. sobria CECT 4246, A. dhakensis CECT 5744T, A. jandaei CECT 4228Tand A. bivalvium CECT 7113T cultures.
+
+Data Availability Statement
+
+All data included in this study will be made available upon request. Whole genome sequence of Aeromonas dhakensis phage P19 has been submitted to GenBank at NCBI (Accession number: OM339718).
+
+
+References
+
+Abramson, J. , J. Adler , J. Dunger , et al. 2024. “Accurate Structure Prediction of Biomolecular Interactions With AlphaFold 3.” Nature 630, no. 8016: 493–500.38718835 10.1038/s41586-024-07487-w PMC11168924
+Ackermann, H.‐W. 2012. “Bacteriophage Electron Microscopy.” Advances in Virus Research 82: 1–32.22420849 10.1016/B978-0-12-394621-8.00017-0
+Andrews, S. 2010. “FastQC: A Quality Control Tool for High Throughput Sequence Data.” http://www.bioinformatics.babraham.ac.uk/projects/fastqc/.
+Baljinnyam, B. , M. Ronzetti , A. Yasgar , and A. Simeonov . 2020. “Applications of Differential Scanning Fluorometry and Related Technologies in Characterization of Protein‐Ligand Interactions.” In Methods in Molecular Biology. Springer.10.1007/978-1-0716-0163-1_4 31773647
+Bankevich, A. , S. Nurk , D. Antipov , et al. 2012. “SPAdes: A New Genome Assembly Algorithm and Its Applications to Single‐Cell Sequencing.” Journal of Computational Biology 19, no. 5: 455–477.22506599 10.1089/cmb.2012.0021 PMC3342519
+Bartie, K. L. , and A. P. Desbois . 2024. “ Aeromonas Dhakensis: A Zoonotic Bacterium of Increasing Importance in Aquaculture.” Pathogens 13, no. 6: 465.38921763 10.3390/pathogens13060465 PMC11207067
+Blum, M. , H.‐Y. Chang , S. Chuguransky , et al. 2021. “The InterPro Protein Families and Domains Database: 20 Years on.” Nucleic Acids Research 49, no. D1: D344–D354.33156333 10.1093/nar/gkaa977 PMC7778928
+Bolger, A. M. , M. Lohse , and B. Usadel . 2014. “Trimmomatic: A Flexible Trimmer for Illumina Sequence Data.” Bioinformatics 30, no. 15: 2114–2120.24695404 10.1093/bioinformatics/btu170 PMC4103590
+Brettin, T. , J. J. Davis , T. Disz , et al. 2015. “RASTtk: A Modular and Extensible Implementation of the RAST Algorithm for Building Custom Annotation Pipelines and Annotating Batches of Genomes.” Scientific Reports 5: 8365.25666585 10.1038/srep08365 PMC4322359
+Briers, Y. , M. Walmagh , V. Van Puyenbroeck , et al. 2014. “Engineered Endolysin‐Based ‘Artilysins’ to Combat Multidrug‐Resistant Gram‐Negative Pathogens.” MBio 5, no. 4: e01379‐01314.24987094 10.1128/mBio.01379-14 PMC4161244
+Bujak, K. , P. Decewicz , M. Kitowicz , and M. Radlinska . 2022. “Characterization of Three Novel Virulent Aeromonas Phages Provides Insights Into the Diversity of the Autographiviridae Family.” Viruses 14, no. 5: 1016.35632757 10.3390/v14051016 PMC9145550
+Ceyssens, P.‐J. , J. De Smet , J. Wagemans , et al. 2020. “The Phage‐Encoded N‐Acetyltransferase Rac Mediates Inactivation of Pseudomonas Aeruginosa Transcription by Cleavage of the RNA Polymerase Alpha Subunit.” Viruses 12, no. 9: 976.32887488 10.3390/v12090976 PMC7552054
+Chen, L. , S. Yuan , Q. Liu , G. Mai , J. Yang , and D. Deng . 2018. “In Vitro Design and Evaluation of Phage Cocktails Against Aeromonas salmonicida .” Frontiers in Microbiology 9: 1476.30034378 10.3389/fmicb.2018.01476 PMC6043867
+Chen, P. L. , C. J. Wu , C. S. Chen , P. J. Tsai , H. J. Tang , and W. C. Ko . 2014. “A Comparative Study of Clinical Aeromonas dhakensis and Aeromonas hydrophila Isolates in Southern Taiwan: A. Dhakensis Is More Predominant and Virulent.” Clinical Microbiology and Infection 20, no. 7: O428–O434.24237662 10.1111/1469-0691.12456
+Chen, P.‐L. , B. Lamy , and W.‐C. Ko . 2016. “ Aeromonas dhakensis, an Increasingly Recognized Human Pathogen.” Frontiers in Microbiology 7: 793.27303382 10.3389/fmicb.2016.00793 PMC4882333
+Chen, Y.‐W. , Y.‐C. Su , W.‐Y. Chen , et al. 2025. “Comprehensive Genomic Analysis of Antimicrobial Resistance in Aeromonas dhakensis .” Microbial Drug Resistance (Larchmont, N.Y.) 31, no. 4: 97–106.40100768 10.1089/mdr.2024.0212
+Chu, D. , J. Lan , L. Liang , et al. 2024. “The Antibacterial Activity of a Novel Highly Thermostable Endolysin, LysKP213, Against Gram‐Negative Pathogens Is Enhanced When Combined With Outer Membrane Permeabilizing Agents.” Frontiers in Microbiology 15: 1454618.39439944 10.3389/fmicb.2024.1454618 PMC11493673
+Colovos, C. , and T. O. Yeates . 1993. “Verification of Protein Structures: Patterns of Nonbonded Atomic Interactions.” Protein Science: A Publication of the Protein Society 2, no. 9: 1511–1519.8401235 10.1002/pro.5560020916 PMC2142462
+Defraine, V. , J. Schuermans , B. Grymonprez , et al. 2016. “Efficacy of Artilysin Art‐175 Against Resistant and Persistent Acinetobacter baumannii .” Antimicrobial Agents and Chemotherapy 60, no. 6: 3480–3488.27021321 10.1128/AAC.00285-16 PMC4879360
+Dobson, L. , I. Reményi , and G. E. Tusnády . 2015. “CCTOP: A Consensus Constrained TOPology Prediction Web Server.” Nucleic Acids Research 43, no. W1: W408–W412.25943549 10.1093/nar/gkv451 PMC4489262
+Eisenberg, D. , R. Lüthy , and J. U. Bowie . 1997. “VERIFY3D: Assessment of Protein Models With Three‐Dimensional Profiles.” Methods in Enzymology 277: 396–404.9379925 10.1016/s0076-6879(97)77022-8
+Fernández‐Bravo, A. , and M. J. Figueras . 2020. “An Update on the Genus Aeromonas: Taxonomy, Epidemiology, and Pathogenicity.” Microorganisms 8, no. 1: 129.31963469 10.3390/microorganisms8010129 PMC7022790
+Fischetti, V. A. 2018. “Development of Phage Lysins as Novel Therapeutics: A Historical Perspective.” Viruses 10, no. 6: 310.29875339 10.3390/v10060310 PMC6024357
+Florensa, A. F. , R. S. Kaas , C. Lanken , D. Aytan‐Aktug , and F. M. Aarestrup . 2022. “ResFinder – An Open Online Resource for Identification of Antimicrobial Resistance Genes in Next‐Generation Sequencing Data and Prediction of Phenotypes From Genotypes.” Microbial Genomics 8, no. 3: 000748.35072601 10.1099/mgen.0.000748 PMC8914360
+Garneau, J. R. , F. Depardieu , L.‐C. Fortier , D. Bikard , and M. Monot . 2017. “PhageTerm: A Tool for Fast and Accurate Determination of Phage Termini and Packaging Mechanism Using Next‐Generation Sequencing Data.” Scientific Reports 7, no. 1: 8292.28811656 10.1038/s41598-017-07910-5 PMC5557969
+Gittrich, M. R. , C. M. Sanderson , J. M. Wainaina , et al. 2025. “Isolation and Characterization of 24 Phages Infecting the Plant Growth‐Promoting Rhizobacterium Klebsiella Sp. M5al.” PLoS One 20, no. 2: e0313947.39982899 10.1371/journal.pone.0313947 PMC11845039
+Hofmann, K. , and W. Stoffel . 1993. “Tmbase—A Database of Membrane Spanning Protein Segments.” Biological Chemistry Hoppe‐Seyler 374: 166.
+Iyer, M. L. , V. Anantharaman , A. Krishnan , A. M. Burroughs , and L. Aravind . 2021. “Jumbo Phages: A Comparative Genomic Overview of Core Functions and Adaptions for Biological Conflicts.” Viruses 13, no. 1: 63.33466489 10.3390/v13010063 PMC7824862
+Jaglan, A. B. , T. Anand , R. Verma , et al. 2022. “Tracking the Phage Trends: A Comprehensive Review of Applications in Therapy and Food Production.” Frontiers in Microbiology 13: 993990.36504807 10.3389/fmicb.2022.993990 PMC9730251
+Jeong, T.‐H. , H.‐W. Hong , M. S. Kim , M. Song , and H. Myung . 2023. “Characterisation of Three Different Endolysins Effective Against Gram‐Negative Bacteria.” Viruses 15, no. 3: 679.36992387 10.3390/v15030679 PMC10053066
+Klumpp, J. , D. E. Fouts , and S. Sozhamannan . 2012. “Next Generation Sequencing Technologies and the Changing Landscape of Phage Genomics.” Bacteriophage 2, no. 3: 190–199.23275870 10.4161/bact.22111 PMC3530529
+Kong, M. , and S. Ryu . 2015. “Bacteriophage PBC1 and Its Endolysin as an Antimicrobial Agent Against Bacillus cereus .” Applied and Environmental Microbiology 81, no. 7: 2274–2283.25595773 10.1128/AEM.03485-14 PMC4357929
+Kortright, K. E. , B. K. Chan , J. L. Koff , and P. E. Turner . 2019. “Phage Therapy: A Renewed Approach to Combat Antibiotic‐Resistant Bacteria.” Cell Host & Microbe 25, no. 2: 219–232.30763536 10.1016/j.chom.2019.01.014
+Kropinski, A. M. , A. Mazzocco , T. E. Waddell , E. Lingohr , and R. P. Johnson . 2009. “Enumeration of Bacteriophages by Double Agar Overlay Plaque Assay.” Methods in Molecular Biology (Clifton, N.J.) 501: 69–76.10.1007/978-1-60327-164-6_7 19066811
+Kropinski, A. M. 2018. “Practical Advice on the One‐Step Growth Curve.” Methods in Molecular Biology (Clifton, N.J.) 1681: 41–47.10.1007/978-1-4939-7343-9_3 29134585
+Kutter, E. 2009. “Phage Host Range and Efficiency of Plating.” Methods in Molecular Biology (Clifton, N.J.) 501: 141–149.10.1007/978-1-60327-164-6_14 19066818
+Kutyshenko, V. P. , G. V. Mikoulinskaia , D. A. Prokhorov , N. V. Molochkov , A. Y. Yegorov , and V. N. Uversky . 2020. “On the Roles of Calcium and Zinc Ions in the Formation of a Catalytically Active Form of the Metalloenzyme, l‐Alanyl‐d‐Glutamate Peptidase of the Bacteriophage T5 (EndoT5).” International Journal of Biological Macromolecules 164: 2711–2716.32841672 10.1016/j.ijbiomac.2020.08.161
+Lendel, A. M. , N. P. Antonova , I. V. Grigoriev , E. V. Usachev , V. A. Gushchin , and D. V. Vasina . 2024. “Biofilm‐Disrupting Effects of Phage Endolysins LysAm24, LysAp22, LysECD7, and LysSi3: Breakdown the Matrix.” World Journal of Microbiology and Biotechnology 40, no. 6: 186.38683213 10.1007/s11274-024-03999-9
+Letunic, I. , and P. Bork . 2024. “Interactive Tree of Life (ITOL) v6: Recent Updates to the Phylogenetic Tree Display and Annotation Tool.” Nucleic Acids Research 52, no. W1: W78–W82.38613393 10.1093/nar/gkae268 PMC11223838
+Liu, H. , Z. Hu , M. Li , Y. Yang , S. Lu , and X. Rao . 2023. “Therapeutic Potential of Bacteriophage Endolysins for Infections Caused by Gram‐Positive Bacteria.” Journal of Biomedical Science 2023, no. 30: 29.10.1186/s12929-023-00919-1 PMC10131408 37101261
+Lorber, B. , F. Fischer , M. Bailly , H. Roy , and D. Kern . 2012. “Protein Analysis by Dynamic Light Scattering: Methods and Techniques for Students.” Biochemistry and Molecular Biology Education 40, no. 6: 372–382.23166025 10.1002/bmb.20644
+Lowe, T. M. , and S. R. Eddy . 1997. “tRNAscan‐SE: A Program for Improved Detection of Transfer RNA Genes in Genomic Sequence.” Nucleic Acids Research 25, no. 5: 955–964.9023104 10.1093/nar/25.5.955 PMC146525
+Lu, S. , J. Wang , F. Chitsaz , et al. 2020. “CDD/SPARCLE: The Conserved Domain Database in 2020.” Nucleic Acids Research 48, no. D1: D265–D268.31777944 10.1093/nar/gkz991 PMC6943070
+Martin, M. 2011. “Cutadapt Removes Adapter Sequences From High‐Throughput Sequencing Reads.” EMBnet.Journal 17, no. 1: 10–12.
+Nagar, V. , F. Ansari , M. Vaiyapuri , and T. C. Joseph . 2025. “Virulent and Multidrug‐Resistant Aeromonas in Aquatic Environments of Kerala, India: Potential Risks to Fish and Humans.” Brazilian Journal of Microbiology 56, no. 1: 303–311.39808244 10.1007/s42770-024-01601-w PMC11885762
+Nagar, V. , L. P. Godambe , S. K. Newase , and A. Tyagi . 2024. “Characterisation and Genome Analyses of the Novel Phages P2 and VB_AhydM‐H1 Targeting Aeromonas hydrophila .” PHAGE (New Rochelle, NY) 5, no. 3: 162–172.10.1089/phage.2024.0014 PMC11447392 39372357
+Néron, B. , E. Littner , M. Haudiquet , A. Perrin , J. Cury , and E. P. C. Rocha . 2022. “IntegronFinder 2.0: Identification and Analysis of Integrons Across Bacteria, With a Focus on Antibiotic Resistance in Klebsiella .” Microorganisms 2, no. 4: 700.10.3390/microorganisms10040700 PMC9024848 35456751
+Nishimura, Y. , K. Yamada , Y. Okazaki , and H. Ogata . 2024. “DiGAlign: Versatile and Interactive Visualization of Sequence Alignment for Comparative Genomics.” Microbes and Environments 39, no. 1: ME23061.38508742 10.1264/jsme2.ME23061 PMC10982109
+Noormohammadi, H. , S. Abolmaali , and S. D. A. Astaneh . 2018. “Identification and Characterisation of an Endolysin – Like From Bacillus subtilis .” Microbial Pathogenesis 119: 221–224.29678741 10.1016/j.micpath.2018.04.028
+O'Flaherty, S. , R. P. Ross , J. Flynn , W. J. Meaney , G. F. Fitzgerald , and A. Coffey . 2005. “Isolation and Characterisation of Two Anti‐Staphylococcal Bacteriophages Specific for Pathogenic Staphylococcus aureus Associated With Bovine Infections.” Letters in Applied Microbiology 41, no. 6: 482–486.16305674 10.1111/j.1472-765X.2005.01781.x
+Oliveira, H. , L. D. Melo , S. B. Santos , et al. 2013. “Molecular Aspects and Comparative Genomics of Bacteriophage Endolysins.” Journal of Virology 87, no. 8: 4558–4570.23408602 10.1128/JVI.03277-12 PMC3624390
+Pan, L. , D. Li , W. Lin , et al. 2022. “Novel Aeromonas Phage Ahy‐Yong1 and Its Protective Effects Against Aeromonas hydrophila in Brocade Carp (Cyprinus aka Koi).” Viruses 14, no. 11: 2498.36423108 10.3390/v14112498 PMC9697113
+Pereira, C. , J. Duarte , P. Costa , M. Braz , and A. Almeida . 2022. “Bacteriophages in the Control of Aeromonas sp. in Aquaculture Systems: An Integrative View.” Antibiotics 11, no. 2: 163.35203766 10.3390/antibiotics11020163 PMC8868336
+Plotka, M. , M. Kapusta , S. Dorawa , A.‐K. Kaczorowska , and T. Kaczorowski . 2019. “Ts2631 Endolysin From the Extremophilic Thermus scotoductus Bacteriophage VB_Tsc2631 as an Antimicrobial Agent Against Gram‐Negative Multidrug‐Resistant Bacteria.” Viruses 11, no. 7: 657.31323845 10.3390/v11070657 PMC6669862
+Plotka, M. , E. Sancho‐Vaello , S. Dorawa , et al. 2019. “Structure and Function of the Ts2631 Endolysin of Thermus scotoductus Phage VB_Tsc2631 With Unique N‐Terminal Extension Used for Peptidoglycan Binding.” Scientific Reports 9, no. 1: 1261.30718611 10.1038/s41598-018-37417-6 PMC6361986
+Puah, S. M. , W. C. Khor , K. T. Aung , T. T. V. Lau , S. D. Puthucheary , and K. H. Chua . 2022. “ Aeromonas dhakensis: Clinical Isolates With High Carbapenem Resistance.” Pathogens (Basel, Switzerland) 11, no. 8: 833.35894056 10.3390/pathogens11080833 PMC9394330
+Rai, S. , A. Tyagi , B. T. N. Kumar , and S. V. Reddy . 2023. “Isolation and Characterization of Aeromonas hydrophila Lytic Phage, and Evaluation of a Phage Cocktail Against A. hydrophila Contamination in Fish Fillet.” Food Control 145: 109570.
+Sainathrao, S. , K. V. K. Mohan , and C. Atreya . 2009. “Gamma‐Phage Lysin PlyG Sequence‐Based Synthetic Peptides Coupled With Qdot‐Nanocrystals Are Useful for Developing Detection Methods for Bacillus anthracis by Using Its Surrogates, B. anthracis‐Sterne and B. cereus‐4342.” BMC Biotechnology 9: 67.19624851 10.1186/1472-6750-9-67 PMC2722591
+Salam, M. A. , M. Y. Al‐Amin , M. T. Salam , et al. 2023. “Antimicrobial Resistance: A Growing Serious Threat for Global Public Health.” Healthcare (Basel) 11, no. 13: 1946.37444780 10.3390/healthcare11131946 PMC10340576
+Sambrook, J. , and D. W. Russell . 2006. “Standard Ethanol Precipitation of DNA in Microcentrifuge Tubes.” CSH Protocols 1: prot4456.10.1101/pdb.prot4456 22485787
+Sawaengwong, T. , S. Sunthornthummas , K. Surachat , et al. 2023. “Isolation and Characterisation of Lytic Bacteriophages Against Aeromonas dhakensis Isolated From Water in Thailand.” Journal of Current Science and Technology 13, no. 3: 551–563.
+Sawaengwong, T. , S. Sunthornthummas , R. Wongyoo , et al. 2024. “Isolation and Characterisation of the Lytic Bacteriophages and Their Application in Combination With Amoxicillin Against Aeromonas dhakensis .” Journal of King Saud University, Science 36, no. 4: 103111.
+Schmelcher, M. , and M. J. Loessner . 2016. “Bacteriophage Endolysins: Applications for Food Safety.” CurrOpinBiotechnol 37: 76–87.10.1016/j.copbio.2015.10.005 26707470
+Schrödinger LLC . 2015. “The PyMOL Molecular Graphics Development Component, Version 1.8.”
+Son, B. , J. Yun , J.‐A. Lim , H. Shin , S. Heu , and S. Ryu . 2012. “Characterisation of LysB4, an Endolysin From the Bacillus cereus‐Infecting Bacteriophage B4.” BMC Microbiology 12: 33.22416675 10.1186/1471-2180-12-33 PMC3315420
+Tamura, K. , G. Stecher , and S. Kumar . 2021. “MEGA11: Molecular Evolutionary Genetics Analysis Version 11.” Molecular Biology and Evolution 38, no. 7: 3022–3027.33892491 10.1093/molbev/msab120 PMC8233496
+Thornton, J. M. , R. A. Laskowski , M. W. Macarthur , and D. S. Moss . 1993. “ProCheck: A Program to Check the Stereochemical Quality of Protein Structures.” Journal of Applied Crystallography 26: 283–291.
+Tian, W. , C. Chen , X. Lei , J. Zhao , and J. Liang . 2018. “CASTp 3.0: Computed Atlas of Surface Topography of Proteins.” Nucleic Acids Research 46, no. W1: W363–W367.29860391 10.1093/nar/gky473 PMC6031066
+Tynecki, P. , A. Guziński , J. Kazimierczak , et al. 2020. “PhageAI – Bacteriophage Life Cycle Recognition With Machine Learning and Natural Language Processing.” bioRxiv. 2020.07.11.198606 (preprint).
+Valencia‐Toxqui, G. , and J. Ramsey . 2024. “How to Introduce a New Bacteriophage on the Block: A Short Guide to Phage Classification.” Journal of Virology 98, no. 10: e0182123.39264154 10.1128/jvi.01821-23 PMC11494874
+Vincent, A. T. , V. E. Paquet , A. Bernatchez , D. M. Tremblay , S. Moineau , and S. J. Charette . 2017. “Characterization and Diversity of Phages Infecting Aeromonas salmonicida subsp. Salmonicida.” Scientific Reports 7, no. 1: 7054.28765570 10.1038/s41598-017-07401-7 PMC5539321
+Walmagh, M. , B. Boczkowska , B. Grymonprez , Y. Briers , Z. Drulis‐Kawa , and R. Lavigne . 2013. “Characterisation of Five Novel Endolysins From Gram‐Negative Infecting Bacteriophages.” Applied Microbiology and Biotechnology 97, no. 10: 4369–4375.22832988 10.1007/s00253-012-4294-7
+Walmagh, M. , Y. Briers , S. dos Branco Santos , J. Azeredo , and R. Lavigne . 2012. “Characterisation of Modular Bacteriophage Endolysins From Myoviridae Phages OBP, 201φ2‐1 and PVP‐SE1.” PLoS One 7, no. 5: e36991.22615864 10.1371/journal.pone.0036991 PMC3352856
+Wang, R. H. , S. Yang , Z. Liu , et al. 2024. “PhageScope: A Well‐Annotated Bacteriophage Database With Automatic Analyses and Visualizations.” Nucleic Acids 52: 756–761.10.1093/nar/gkad979 PMC10767790 37904614
+Wick, R. R. , M. B. Schultz , J. Zobel , and K. E. Holt . 2015. “Bandage: Interactive Visualization of de Novo Genome Assemblies.” Bioinformatics 31, no. 20: 3350–3352.26099265 10.1093/bioinformatics/btv383 PMC4595904
+Wilkins, M. R. , E. Gasteiger , A. Bairoch , et al. 1999. “Protein Identification and Analysis Tools in the ExPASy Server.” Methods in Molecular Biology (Clifton, N.J.) 112: 531–552.10.1385/1-59259-584-7:531 10027275
+Wu, C. J. , P. L. Chen , P. R. Hsueh , et al. 2015. “Clinical Implications of Species Identification in Monomicrobial Aeromonas Bacteremia.” PLoS One 10, no. 2: e0117821.25679227 10.1371/journal.pone.0117821 PMC4334500
+Yamamori, Y. , and N. Matubayasi . 2017. “Interaction‐Component Analysis of the Effects of Urea and Its Alkylated Derivatives on the Structure of T4‐Lysozyme.” Journal of Chemical Physics 146, no. 22: 225103.29166064 10.1063/1.4985222
+Yu, C.‐S. , C.‐W. Cheng , W.‐C. Su , et al. 2014. “CELLO2GO: A Web Server for Protein SubCELlularLOcalization Prediction With Functional Gene Ontology Annotation.” PLoS One 9, no. 6: e99368.24911789 10.1371/journal.pone.0099368 PMC4049835
+Zhu, Y. , J. Shang , C. Peng , and Y. Sun . 2022. “Phage Family Classification Under Caudoviricetes: A Review of Current Tools Using the Latest ICTV Classification Framework.” Frontiers in Microbiology 13: 1032186.36590402 10.3389/fmicb.2022.1032186 PMC9800612

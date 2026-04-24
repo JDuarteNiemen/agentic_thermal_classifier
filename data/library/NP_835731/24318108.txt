@@ -1,0 +1,17 @@
+Isolation, growth and genome of the Rhodothermus RM378 thermophilic bacteriophage.
+
+Several bacteriophages that infect different strains of the thermophilic bacterium Rhodothermus
+marinus were isolated and their infection pattern was studied. One phage, named RM378 was cultivated
+and characterized. The RM378 genome was also sequenced and analyzed. The phage was grouped as a
+member of the Myoviridae family with A2 morphology. It had a moderately elongated head, with
+dimensions of 85 and 95 nm between opposite apices and a 150 nm long tail, attached with a connector
+to the head. RM378 showed a virulent behavior that followed a lytic cycle of infection. It routinely
+gave lysates with 10(11) pfu/ml, and sometimes reached titers as high as 10(13) pfu/ml. The titer
+remained stable up to 65 °C but the phage lost viability when incubated at higher temperatures.
+Heating for 30 min at 96 °C lowered the titer by 10(4). The RM378 genome consisted of ds DNA of
+129.908 bp with a GC ratio of 42.0% and contained about 120 ORFs. A few structural proteins, such as
+the major head protein corresponding to the gp23 in T4, could be identified. Only 29 gene products
+as probable homologs to other proteins of known function could be predicted, with most showing only
+low similarity to known proteins in other bacteriophages. These and other studies based on sequence
+analysis of a large number of phage genomes showed RM378 to be distantly related to all other known
+T4-like phages.

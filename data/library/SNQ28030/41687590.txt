@@ -1,0 +1,21 @@
+Synergistic air disinfection by far-UVC and negative air ions in a portable device.
+
+Localized air disinfection is an effective strategy for reducing airborne pathogen transmission,
+though combining methods may yield only additive effects or, in some cases, synergistic efficacy.
+This study experimentally examined the single-pass disinfection efficiency of individual and
+combined Far-UVC and negative ionizers in a custom-built portable disinfection unit. Several
+influencing factors were comprehensively investigated: light-redistribution, number of ionizers,
+Far-UVC lamp arrangement, flow rate, and microbial type. Four microorganisms, including two common
+bacteria (Escherichia coli and Staphylococcus epidermidis) and two bacteriophages representing
+viruses (MS2 and P22), were tested at various airflow rates ranging from 81 to 144 m3/h. The results
+showed that light‑redistribution by enhancing wall reflection increased disinfection efficiency by
+20-110 % compared to the control condition without light‑redistribution. Microbial susceptibility
+was evaluated for Far-UVC light, and sensitivity to negative ions was also determined. The results
+demonstrated that airborne E. coli was the most susceptible to Far-UVC. In contrast to the bacteria,
+the airborne viruses MS2 and P22 were more sensitive to negative ions. The results revealed that the
+combination of Far-UVC and ionizers exhibited a synergistic effect for those tested bacteria,
+producing a disinfection efficiency greater than the sum of their individual contributions.
+Furthermore, a horizontal arrangement of two Far-UVC lamps provided better disinfection than a
+vertical arrangement. The findings from this work offer valuable insights into strategies to enhance
+air disinfection performance, facilitating the development of novel portable devices that
+effectively disinfect bioaerosols.

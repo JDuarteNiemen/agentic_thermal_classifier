@@ -11,3 +11,10 @@ CREATE THE CURATED DATABASE
 Does not have to be phage proteins, just any proteins with its accession and optimal temperature.
 
 
+Try to get temp from original protein paper
+if not avaliable then look to get the host organism
+with host organism query search using terms such as  (isolation, optimal growth temp)
+parse these papers to see if optimal temperature can be dedecuded
+ 
+
+methods section will most likely be the section with the optimal growth temperatures

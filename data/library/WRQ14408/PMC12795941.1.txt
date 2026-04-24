@@ -1,0 +1,169 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Microb Ecol
+Journal ID: Microb Ecol
+
+Microbial Ecology
+
+ISSN: 0095-3628
+EISSN: 1432-184X
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC12795941
+PMID: 41381925
+DOI: 10.1007/s00248-025-02665-3
+Article ID: 2665
+Article version: 1
+Subjects: Brief Report
+
+Global Transcriptomic Profiling Reveals Conserved and Phage-specific Responses to Phage Infection in Escherichia Coli
+
+González-Villalobos Edgar edgar.villalobos@comunidad.unam.mx
+1 2
+Aranda Alicia 1
+de Almeida Ana C. M. 1 3
+Balcázar José L. jlbalcazar@icra.cat
+1
+1 https://ror.org/04zfaj906 grid.424734.2 0000 0004 6095 0737 Catalan Institute for Water Research (ICRA-CERCA), 17003 Girona, Spain
+2 https://ror.org/01tmp8f25 grid.9486.3 0000 0001 2159 0001 Research Division, Department of Public Health, Faculty of Medicine UNAM, 04510 Mexico City, Mexico
+3 Independent Environmental Consultant, 01100 Viterbo, Italy
+Electronic publication date: 2025 Dec 11
+Print publication date: 2026
+Volume: 89
+Issue: 1
+Electronic Location ID: 23
+Received 2025 Aug 12; Accepted 2025 Nov 17
+Copyright: © The Author(s) 2025
+Copyright year: 2025
+License: Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Keywords: Phages, Phage-host interactions, Stress response
+
+Funding: EU Horizon 2020 Programme (Marie Skłodowska-Curie ) 792686
+issue-copyright-statement: © Springer Science+Business Media, LLC, part of Springer Nature 2026
+
+==============================
+Although phages shape bacterial evolution and physiology, the specificity of host transcriptomic responses to phage infection remains incompletely understood. Here, we performed global transcriptomic profiling of Escherichia coli exposed to two lytic phages, ΦX174 and T4, and the temperate phage λ, to explore both conserved and phage-specific host responses. All infections induced stress-related genes, including SOS and general stress pathways, along with repression of anabolic processes such as purine and amino acid biosynthesis, suggesting a metabolic shift to conserve resources. Notably, ΦX174 strongly activated the phage shock protein operon, while both ΦX174 and λ selectively induced soxS, a regulator of oxidative stress. Despite infecting the same host, each phage triggered distinct transcriptional signatures. These findings highlight the complexity of bacterial responses and the value of transcriptomics in decoding host-phage interactions, offering insights into resistance, survival, and co-evolution.
+
+Supplementary Information
+
+The online version contains supplementary material available at 10.1007/s00248-025-02665-3.
+
+Bacteriophages, or phages, are the most abundant and diverse biological entities on Earth, playing a key role in shaping microbial communities by infecting bacteria, facilitating horizontal gene transfer, and driving bacterial evolution through sustained selective pressure [1]. During infection, especially via lytic cycles, phages can activate bacterial defense mechanisms that help mitigate cellular damage and enhance survival.
+
+In Escherichia coli, infection by the lytic phage P1vir induces oxidative stress and activates the transcription factor soxS, which regulates genes involved in detoxifying reactive oxygen species [2]. Although the soxS-mediated response is well characterized, broader transcriptional changes during lytic phage infection remain largely unexplored. Most studies have focused on a few stress markers or well-known systems such as the phage shock protein operon (pspA to pspE), which responds to membrane stress during filamentous phage infection [3]. In contrast, the potential of lytic phages to trigger other stress-response pathways, such as those related to envelope integrity, protein homeostasis, or DNA repair has not been thoroughly investigated.
+
+To better elucidate the complex bacterial responses to lytic phage infection, we performed transcriptomic profiling of E. coli ATCC 700078 following exposure to two lytic phages, ΦX174 (ATCC 13706-B1) and T4 (ATCC 11303-B4), and the temperate phage λ (ATCC 23724-B2). This approach allowed us to uncover both conserved and phage-specific patterns of stress-related gene expression.
+
+Briefly, cultures were grown in Luria–Bertani broth at 37 °C for 4 h to a density of 108 CFU/mL, and then independently exposed in triplicate to each phage at a multiplicity of infection (MOI) of 1.0. Under a Poisson model of phage adsorption, the expected fraction of cells receiving at least one phage particle is 1 − e−MOI; thus, at MOI = 1, approximately 63% of cells are predicted to be infected [4, 5]. Exposure was maintained for 1 h to account for differences in adsorption dynamics and latent periods among the phages, thereby ensuring that the bacterial population was broadly challenged (doubling time under our conditions was ~ 25 min) and allowing measurable physiological effects to develop. This design was intended to capture a population-level transcriptomic snapshot of host responses to phage challenge, rather than early infection kinetics. A triplicate control without phage was also included. After exposure, bacterial cells were collected by centrifugation at 2,500 g for 2 min and subjected to RNA extraction using the RNeasy Plus Mini Kit (Qiagen, Hilden, Germany), according to the manufacturer’s instructions. Ribosomal RNA was depleted, and cDNA libraries were prepared using the Illumina Stranded Total RNA Prep with Ribo-Zero Plus kit (Illumina, San Diego, CA). Sequencing (2 × 150 bp) was performed on a NovaSeq 6000 platform (Illumina, San Diego, CA). Reads were trimmed, quality-checked, and initially aligned to the E. coli ATCC 700078 genome (= E. coli WG5; GenBank accession CP024090). To ensure robustness, reads were also aligned to E. coli K-12 substr. MG1655 [6] using Bowtie2 with default parameters (https://github.com/BenLangmead/bowtie2). This strain was used as the reference genome for RNA-seq analysis due to its extensive curation and functional annotation. This enabled reliable read mapping, differential expression assessment, and pathway interpretation. Differential expression and enrichment analyses were performed using the edgeR [7] and limma [8] packages from Bioconductor (https://bioconductor.org) in combination with the DAVID database [9].
+
+Because the 1-h time point likely includes cells at different infection stages and potentially a minority of surviving or resistant cells, our analyses emphasize global transcriptional patterns at the population level. This population-snapshot interpretation is consistent with established RNA-seq studies of phage-host interactions [10, 11] and reflects the collective physiological state of the culture rather than stage-specific infection responses. Based on established infection kinetics, this 1-h snapshot is expected to capture early-to-mid infection for ΦX174 and T4, which initiate host takeover rapidly after adsorption, whereas λ-infected cells are likely in early infection or entering the lysogeny-lysis decision phase. Consequently, the transcriptomic profile reflects a mixed population in which cells occupy different infection stages depending on the phage. This clarification indicates that the observed responses represent aggregated population-level effects rather than synchronized infection kinetics. Such an approach enables the identification of overarching functional trends across treatments.
+
+Consistent with this population-level perspective, gene ontology enrichment analysis revealed that while some enriched categories were represented by only a few genes, thus providing limited evidence of pathway-level activation, others such as flagellar assembly and chemotaxis were supported by multiple genes, indicating more robust and coordinated transcriptional changes. Reflecting this variability, genes associated with flagellar rotation, chemotaxis, fimbriae and flagellum biogenesis, phosphate transport, and bacterial stress responses, including genes involved in the SOS response, were upregulated following phage exposure (Fig. 1a). In contrast, downregulated genes were primarily associated with nitrogen fixation, purine biosynthesis, glycerol metabolism, and amino acid biosynthesis, including lysine and branched-chain amino acids (Fig. 1b). These transcriptional shifts suggest a reprogramming of metabolism away from anabolic activity, possibly to conserve energy or restrict resources available to the phage [12].Fig. 1 Gene ontology (GO) enrichment analysis following phage exposure. Fold enrichment (bars) and false discovery rate (FDR)-corrected p-values (circles) for significantly enriched GO biological processes among upregulated (a) and downregulated (b) transcriptomic responses to the lytic phages ΦX174 (orange) and T4 (green), and the temperate phage λ (aegean)
+
+To further delineate these responses, we next analyzed individual differentially expressed genes. This assessment revealed both shared and phage-specific transcriptional responses (Supplementary Figure S1). A closer inspection showed consistent induction of dinI, umuC, umuD, recA, sulA, yafP, and dinB, with recX displaying the strongest upregulation among these genes (log2FC = 3.14, 3.58, 4.69 for λ, ΦX174, and T4, respectively) (Fig. 2). These genes are key markers of the bacterial SOS response, which is typically activated in response to DNA damage or replication stress [13]. Their coordinated upregulation suggests that phage infection, particularly with ΦX174, induces DNA- or replication-associated stress sufficient to trigger this pathway. Among them, recA and recX participate in homologous recombination and DNA repair, whereas umuC and umuD encode components of DNA polymerase V, which mediates mutagenic translesion synthesis. Moreover, sulA inhibits cell division to allow time for repair, while dinI and yafP have been associated with fine-tuning the SOS response and broader stress tolerance. Notably, dinB, which encodes DNA polymerase IV, was also significantly induced. This enzyme enables replication across damaged DNA templates, thereby contributing to stress tolerance but also potentially introducing mutations [14]. Although the SOS system is classically associated with genotoxic agents, it is well established that phage infection can also activate this pathway, particularly through mechanisms linked to replication stress, DNA damage or interference with host nucleases. In E. coli, some phages, including λ, are known to induce the SOS response during infection, and this regulatory connection has been previously documented [15–17]. Our results are therefore consistent with previous observations and expand them by providing transcriptome-wide evidence of SOS activation and by showing that the magnitude of induction varies among ΦX174, T4 and λ.Fig. 2 Phage exposure induces distinct transcriptomic profiles in E. coli. Volcano plots show the transcriptomic responses induced by the lytic phages ΦX174 and T4, and the temperate phage λ. Labeled genes represent the most strongly upregulated genes associated with the SOS response and general stress response, exhibiting the highest log2 fold changes
+
+Several genes associated with general stress responses were also strongly induced across phage treatments, indicating that E. coli activates multiple protective pathways upon infection. Notably, the envelope-stress marker cpxP showed very high induction (log2FC = 7.88, 7.15, and 4.70 for λ, ΦX174 and T4, respectively), together with uspF (6.41, 11.57, and 4.79, respectively) and the heat-shock chaperone ibpB (8.11, 8.19, and 6.75, respectively), reflecting pronounced envelope and proteotoxic stress. Among these upregulated genes, cpxP encodes a periplasmic protein involved in the Cpx envelope-stress response, typically triggered by misfolded proteins or inner-membrane disruption [18]. The uspF gene, a member of the universal stress protein family, was also highly expressed, consistent with its role in adaptation to oxidative stress and nutrient limitation [19]. The ydbK gene, although less characterized, encodes a putative oxidoreductase likely involved in maintaining redox homeostasis. Increased expression of nusA, a transcription elongation and termination factor, may reflect host efforts to modulate transcription under phage-induced stress or interference by phage-encoded regulatory proteins [20]. In addition to its established role in transcription elongation, nusA is functionally linked to modulation of the SOS response and RNA polymerase activity under DNA damage [20], thereby reinforcing the connection between phage infection and DNA repair pathways. Furthermore, ibpA and ibpB, which encode small heat shock proteins functioning as molecular chaperones, were significantly upregulated, suggesting proteotoxic stress and the accumulation of misfolded proteins during infection.
+
+We also observed selective induction of the phage shock protein (psp) operon, a stress-response system that helps maintain the proton motive force and protect inner-membrane integrity under envelope stress. This response was strongest upon ΦX174 infection, supporting the idea that small lytic phages disturb membrane-associated processes and thereby activate the Psp system. Notably, pspA and pspB reached their highest induction with ΦX174 (log2FC = 4.19 and 4.32, respectively), far exceeding the levels observed with λ or T4. In contrast, T4 and λ triggered only weak or partial activation. The coordinated upregulation of pspA, pspB, and pspC during ΦX174 infection suggests a targeted response to envelope stress, potentially acting early to limit membrane damage [21, 22].
+
+In addition to envelope stress responses, we observed selective induction of soxS, a redox-sensitive regulator activated by oxidative stress. This occurred specifically upon ΦX174 and λ infection (log2FC = 5.65 and 4.66, respectively), but not with T4 (log2FC = 1.06), suggesting that these phages differentially trigger reactive oxygen species signaling. These findings are consistent with previous reports of strong soxS induction in E. coli following P1vir infection [2]. Our study extends these observations by demonstrating soxS activation at the transcriptome-wide level and by revealing distinct, phage-specific expression patterns. In line with this broader reprogramming, patterns linked to enhanced motility and chemotaxis may reflect a generalized stress adaptation rather than a phage-specific response. Such behavioral shifts could facilitate escape from localized phage predation or relocation to more favorable environments, consistent with previous descriptions of bacterial survival strategies under phage pressure [23, 24].
+
+These phage-specific responses can also be interpreted in relation to the well-described lifestyles of ΦX174, T4, and λ. The strong activation of the psp operon by ΦX174 likely reflects its capacity, as a small icosahedral ssDNA phage whose lysis protein E targets MraY, to perturb envelope integrity [25]. The selective induction of soxS by ΦX174 and λ suggests oxidative stress linked to their infection mechanisms, with λ further contributing heterogeneity through its dual potential for lysogeny and lytic replication [15]. In contrast, T4, a large dsDNA lytic phage with a tightly regulated and rapid replication cycle, triggered comparatively weaker envelope- and oxidative-stress responses, consistent with its extensive host-takeover arsenal that rapidly reprograms bacterial physiology [26].
+
+It should be noted, however, that infections were performed at an MOI of 1, which does not ensure that every cell was infected. It is therefore likely that uninfected cells contributed to the transcriptomic profiles, and the results should be interpreted as reflecting the population-level response of E. coli to phage exposure rather than the transcriptome of infected cells alone.
+
+Taken together, phage infection in E. coli elicited a multifaceted stress response, including activation of the SOS system, envelope- and oxidative-stress pathways, and general adaptive mechanisms, along with repression of metabolic functions. This transcriptional landscape highlights substantial physiological changes even under controlled conditions. A key limitation of this study is the focus on a single post-exposure time point (1 h), which provides limited temporal resolution and does not capture early infection dynamics. Future studies should include multiple sampling points across the infection cycle to capture early and late dynamics. In summary, while all three phages triggered conserved stress programs (SOS, envelope, and general stress), each also produced distinct signatures consistent with its infection strategy. ΦX174 strongly activated the psp system, λ selectively induced oxidative-stress responses in line with its dual developmental program, and T4 elicited comparatively weaker host-stress signatures, likely due to efficient host takeover. This combination of shared and phage-specific patterns highlights the value of transcriptomics in disentangling conserved defense mechanisms from phage-specific adaptive responses.
+
+Supplementary Information
+
+Below is the link to the electronic supplementary material.Supplementary file1 (PDF 26 KB)
+
+Acknowledgements
+
+This work received funding from the European Union’s Horizon 2020 Research and Innovation Programme under the Marie Skłodowska-Curie grant agreement no. 792686. The authors acknowledge funding from the Generalitat de Catalunya through Consolidated Research Group 2021 SGR 01282 and the CERCA Program, as well as the New Lecturer Research Grant from the Society for Applied Microbiology. E.G.V. thanks the National Council for Science and Technology (CONACYT, Mexico) for the postdoctoral fellowship (CVU no. 441304).
+
+Author Contributions
+
+E.G.V.: Investigation, Methodology, Formal analysis, Writing – Original Draft Preparation, Writing – Review and editing. A.A.: Investigation, Methodology, Formal analysis, Writing – Review and editing. A.C.M.A.: Investigation, Methodology, Formal analysis, Writing – Review and editing. J.L.B.: Conceptualization, Investigation, Methodology, Formal analysis, Visualization, Funding acquisition, Writing – Original Draft Preparation, Writing – Review and editing.
+
+Funding
+
+This work was supported by the EU Horizon 2020 Programme (Marie Skłodowska-Curie Grant no. 792686), and the CERCA Program. E.G.V. acknowledges CONACYT for a postdoctoral fellowship (CVU no. 441304).
+
+Data Availability
+
+Raw transcriptomic reads have been deposited in NCBI under BioProject accession no. PRJNA1287543.
+
+Declarations
+
+Ethics Statement
+
+This study did not involve any human participants or animal subjects.
+
+Conflicts of interest
+
+The authors declare no competing interests.
+
+Publisher's Note
+
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+
+References
+
+1. González-Villalobos E Balcázar JL Does phage-mediated horizontal gene transfer represent an environmental risk? Trends Microbiol 2022 30 1022 1024 10.1016/j.tim.2022.07.011 35970720
+González-Villalobos E, Balcázar JL (2022) Does phage-mediated horizontal gene transfer represent an environmental risk? Trends Microbiol 30:1022–102435970720 10.1016/j.tim.2022.07.011
+2. Dong TG Dong S Catalano C Moore R Liang X Mekalanos JJ Generation of reactive oxygen species by lethal attacks from competing microbes Proc Natl Acad Sci USA 2015 112 2181 2186 10.1073/pnas.1425007112 25646446 PMC4343105
+Dong TG, Dong S, Catalano C, Moore R, Liang X, Mekalanos JJ (2015) Generation of reactive oxygen species by lethal attacks from competing microbes. Proc Natl Acad Sci USA 112:2181–218625646446 10.1073/pnas.1425007112 PMC4343105
+3. Weiner L Brissette JL Model P Stress-induced expression of the Escherichia coli phage shock protein operon is dependent on sigma 54 and modulated by positive and negative feedback mechanisms Genes Dev 1991 5 1912 1923 10.1101/gad.5.10.1912 1717346
+Weiner L, Brissette JL, Model P (1991) Stress-induced expression of the Escherichia coli phage shock protein operon is dependent on sigma 54 and modulated by positive and negative feedback mechanisms. Genes Dev 5:1912–19231717346 10.1101/gad.5.10.1912
+4. Abedon ST How simple maths can inform our basic understanding of phage therapy Clin Infect Dis 2023 77 S401 S406 10.1093/cid/ciad480 37932116 PMC11487152
+Abedon ST (2023) How simple maths can inform our basic understanding of phage therapy. Clin Infect Dis 77:S401–S40637932116 10.1093/cid/ciad480 PMC11487152
+5. Kasman LM Kasman A Westwater C Dolan J Schmidt MG Norris JS Overcoming the phage replication threshold: a mathematical model with implications for phage therapy J Virol 2002 76 5557 5564 10.1128/JVI.76.11.5557-5564.2002 11991984 PMC137030
+Kasman LM, Kasman A, Westwater C, Dolan J, Schmidt MG, Norris JS (2002) Overcoming the phage replication threshold: a mathematical model with implications for phage therapy. J Virol 76:5557–556411991984 10.1128/JVI.76.11.5557-5564.2002 PMC137030
+6. Moore LR Caspi R Boyd D Berkmen M Mackie A Paley S Karp PD Revisiting the y-ome of Escherichia coli Nucleic Acids Res 2024 52 12201 12207 10.1093/nar/gkae857 39373482 PMC11551758
+Moore LR, Caspi R, Boyd D, Berkmen M, Mackie A, Paley S, Karp PD (2024) Revisiting the y-ome of Escherichia coli. Nucleic Acids Res 52:12201–1220739373482 10.1093/nar/gkae857 PMC11551758
+7. Chen Y Chen L Lun ATL Baldoni PL Smyth GK EdgeR v4: powerful differential analysis of sequencing data with expanded functionality and improved support for small counts and larger datasets Nucleic Acids Res 2025 53 gkaf018 10.1093/nar/gkaf018 39844453 PMC11754124
+Chen Y, Chen L, Lun ATL, Baldoni PL, Smyth GK (2025) EdgeR v4: powerful differential analysis of sequencing data with expanded functionality and improved support for small counts and larger datasets. Nucleic Acids Res 53:gkaf01839844453 10.1093/nar/gkaf018 PMC11754124
+8. Ritchie ME Phipson B Wu D Hu Y Law CW Shi W Smyth GK Limma powers differential expression analyses for RNA-sequencing and microarray studies Nucleic Acids Res 2015 43 e47 10.1093/nar/gkv007 25605792 PMC4402510
+Ritchie ME, Phipson B, Wu D, Hu Y, Law CW, Shi W, Smyth GK (2015) Limma powers differential expression analyses for RNA-sequencing and microarray studies. Nucleic Acids Res 43:e4725605792 10.1093/nar/gkv007 PMC4402510
+9. Sherman BT Panzade G Imamichi T Chang W DAVID ortholog: an integrative tool to enhance functional analysis through orthologs Bioinformatics 2024 40 btae615 10.1093/bioinformatics/btae615 39412445 PMC11520416
+Sherman BT, Panzade G, Imamichi T, Chang W (2024) DAVID ortholog: an integrative tool to enhance functional analysis through orthologs. Bioinformatics 40:btae61539412445 10.1093/bioinformatics/btae615 PMC11520416
+10. Leskinen K Blasdel BG Lavigne R Skurnik M RNA-sequencing reveals the progression of phage-host interactions between φR1-37 and Yersinia enterocolitica Viruses 2016 8 111 10.3390/v8040111 27110815 PMC4848604
+Leskinen K, Blasdel BG, Lavigne R, Skurnik M (2016) RNA-sequencing reveals the progression of phage-host interactions between φR1-37 and Yersinia enterocolitica. Viruses 8:11127110815 10.3390/v8040111 PMC4848604
+11. Brandão A Pires DP Coppens L Voet M Lavigne R Azeredo J Differential transcription profiling of the phage LUZ19 infection process in different growth media RNA Biol 2021 18 1778 1790 10.1080/15476286.2020.1870844 33448239 PMC8583145
+Brandão A, Pires DP, Coppens L, Voet M, Lavigne R, Azeredo J (2021) Differential transcription profiling of the phage LUZ19 infection process in different growth media. RNA Biol 18:1778–179033448239 10.1080/15476286.2020.1870844 PMC8583145
+12. De Smet J Zimmermann M Kogadeeva M Ceyssens PJ Vermaelen W Blasdel B Bin Jang H Sauer U Lavigne R High coverage metabolomics analysis reveals phage-specific alterations to Pseudomonas aeruginosa physiology during infection ISME J 2016 10 1823 1835 10.1038/ismej.2016.3 26882266 PMC5029163
+De Smet J, Zimmermann M, Kogadeeva M, Ceyssens PJ, Vermaelen W, Blasdel B, Bin Jang H, Sauer U, Lavigne R (2016) High coverage metabolomics analysis reveals phage-specific alterations to Pseudomonas aeruginosa physiology during infection. ISME J 10:1823–183526882266 10.1038/ismej.2016.3 PMC5029163
+13. Courcelle J Khodursky A Peter B Brown PO Hanawalt PC Comparative gene expression profiles following UV exposure in wild-type and SOS-deficient Escherichia coli Genetics 2001 158 41 64 10.1093/genetics/158.1.41 11333217 PMC1461638
+Courcelle J, Khodursky A, Peter B, Brown PO, Hanawalt PC (2001) Comparative gene expression profiles following UV exposure in wild-type and SOS-deficient Escherichia coli. Genetics 158:41–6411333217 10.1093/genetics/158.1.41 PMC1461638
+14. Wagner J Fujii S Gruz P Nohmi T Fuchs RP The beta clamp targets DNA polymerase IV to DNA and strongly increases its processivity EMBO Rep 2000 1 484 488 10.1093/embo-reports/kvd109 11263491 PMC1083781
+Wagner J, Fujii S, Gruz P, Nohmi T, Fuchs RP (2000) The beta clamp targets DNA polymerase IV to DNA and strongly increases its processivity. EMBO Rep 1:484–48811263491 10.1093/embo-reports/kvd109 PMC1083781
+15. Oppenheim AB Kobiler O Stavans J Court DL Adhya S Switches in bacteriophage lambda development Annu Rev Genet 2005 39 409 429 10.1146/annurev.genet.39.073003.113656 16285866
+Oppenheim AB, Kobiler O, Stavans J, Court DL, Adhya S (2005) Switches in bacteriophage lambda development. Annu Rev Genet 39:409–42916285866 10.1146/annurev.genet.39.073003.113656
+16. Campoy S Hervàs A Busquets N Erill I Teixidó L Barbé J Induction of the SOS response by bacteriophage lytic development in Salmonella enterica Virology 2006 351 360 367 10.1016/j.virol.2006.04.001 16713610
+Campoy S, Hervàs A, Busquets N, Erill I, Teixidó L, Barbé J (2006) Induction of the SOS response by bacteriophage lytic development in Salmonella enterica. Virology 351:360–36716713610 10.1016/j.virol.2006.04.001
+17. Rokney A Kobiler O Amir A Court DL Stavans J Adhya S Oppenheim AB Host responses influence on the induction of lambda prophage Mol Microbiol 2008 68 29 36 10.1111/j.1365-2958.2008.06119.x 18298445 PMC2327240
+Rokney A, Kobiler O, Amir A, Court DL, Stavans J, Adhya S, Oppenheim AB (2008) Host responses influence on the induction of lambda prophage. Mol Microbiol 68:29–3618298445 10.1111/j.1365-2958.2008.06119.x PMC2327240
+18. Raivio TL Silhavy TJ Transduction of envelope stress in Escherichia coli by the Cpx two-component system J Bacteriol 1997 179 7724 7733 10.1128/jb.179.24.7724-7733.1997 9401031 PMC179735
+Raivio TL, Silhavy TJ (1997) Transduction of envelope stress in Escherichia coli by the Cpx two-component system. J Bacteriol 179:7724–77339401031 10.1128/jb.179.24.7724-7733.1997 PMC179735
+19. Kvint K Nachin L Diez A Nyström T The bacterial universal stress protein: function and regulation Curr Opin Microbiol 2003 6 140 145 10.1016/S1369-5274(03)00025-0 12732303
+Kvint K, Nachin L, Diez A, Nyström T (2003) The bacterial universal stress protein: function and regulation. Curr Opin Microbiol 6:140–14512732303 10.1016/s1369-5274(03)00025-0
+20. Gusarov I Nudler E Control of intrinsic transcription termination by N and NusA: the basic mechanisms Cell 2001 107 437 449 10.1016/S0092-8674(01)00582-7 11719185
+Gusarov I, Nudler E (2001) Control of intrinsic transcription termination by N and NusA: the basic mechanisms. Cell 107:437–44911719185 10.1016/s0092-8674(01)00582-7
+21. Kobayashi R Suzuki T Yoshida M Escherichia coli phage-shock protein A (PspA) binds to membrane phospholipids and repairs proton leakage of the damaged membranes Mol Microbiol 2007 66 100 109 10.1111/j.1365-2958.2007.05893.x 17725563
+Kobayashi R, Suzuki T, Yoshida M (2007) Escherichia coli phage-shock protein A (PspA) binds to membrane phospholipids and repairs proton leakage of the damaged membranes. Mol Microbiol 66:100–10917725563 10.1111/j.1365-2958.2007.05893.x
+22. Joly N Engl C Jovanovic G Huvet M Toni T Sheng X Stumpf MP Buck M Managing membrane stress: the phage shock protein (Psp) response, from molecular mechanisms to physiology FEMS Microbiol Rev 2010 34 797 827 10.1111/j.1574-6976.2010.00240.x 20636484
+Joly N, Engl C, Jovanovic G, Huvet M, Toni T, Sheng X, Stumpf MP, Buck M (2010) Managing membrane stress: the phage shock protein (Psp) response, from molecular mechanisms to physiology. FEMS Microbiol Rev 34:797–82720636484 10.1111/j.1574-6976.2010.00240.x
+23. Koskella B Hernandez CA Wheatley RM Understanding the impacts of bacteriophage viruses: from laboratory evolution to natural ecosystems Annu Rev Virol 2022 9 57 78 10.1146/annurev-virology-091919-075914 35584889
+Koskella B, Hernandez CA, Wheatley RM (2022) Understanding the impacts of bacteriophage viruses: from laboratory evolution to natural ecosystems. Annu Rev Virol 9:57–7835584889 10.1146/annurev-virology-091919-075914
+24. Holtappels D Alfenas-Zerbini P Koskella B Drivers and consequences of bacteriophage host range FEMS Microbiol Rev 2023 47 fuad038 10.1093/femsre/fuad038 37422441
+Holtappels D, Alfenas-Zerbini P, Koskella B (2023) Drivers and consequences of bacteriophage host range. FEMS Microbiol Rev 47:fuad03837422441 10.1093/femsre/fuad038
+25. Bernhardt TG Struck DK Young R The lysis protein E of phi X174 is a specific inhibitor of the MraY-catalyzed step in peptidoglycan synthesis J Biol Chem 2001 276 6093 6097 10.1074/jbc.M007638200 11078734
+Bernhardt TG, Struck DK, Young R (2001) The lysis protein E of phi X174 is a specific inhibitor of the MraY-catalyzed step in peptidoglycan synthesis. J Biol Chem 276:6093–609711078734 10.1074/jbc.M007638200
+26. Miller ES Kutter E Mosig G Arisaka F Kunisawa T Rüger W Bacteriophage T4 genome Microbiol Mol Biol Rev 2003 67 86 156 10.1128/MMBR.67.1.86-156.2003 12626685 PMC150520
+Miller ES, Kutter E, Mosig G, Arisaka F, Kunisawa T, Rüger W (2003) Bacteriophage T4 genome. Microbiol Mol Biol Rev 67:86–15612626685 10.1128/MMBR.67.1.86-156.2003 PMC150520

@@ -1,0 +1,14 @@
+Regulation of Supramolecular Interactions: RNA:DNA Folding and Nanopore Sensing Applications.
+
+The intersection of DNA/RNA nanotechnology and single-molecule solid-state nanopore sensing enables
+precise detection of low-abundance biomolecules. However, a significant challenge persists that
+nucleic acid molecules readily fold during nanopore translocation, which gives rise to ambiguous
+current signatures, reduces the number of usable data points, and compromises detection accuracy.
+Herein, a recent advancement by the Platnich group is highlighted, wherein urea is employed as a
+noncovalent modulator to participate in the isothermal assembly of MS2 bacteriophage RNA with DNA
+barcodes. This modulator stably binds to the RNA:DNA hybrids through supramolecular interactions
+after removal of free urea by buffer exchange. Nanopore assays showed a ≈50% reduction in fold-shift
+events in the urea-treated group. Atomic force microscopy characterization shows that the
+persistence length of the hybrids is enhanced by ≈40%. This strategy provides a new noncovalent
+regulatory tool for nucleic acid nanotechnology and pushes the nanopore sensing technology toward
+the precision detection of low-abundance RNA.

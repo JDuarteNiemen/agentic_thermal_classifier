@@ -1,0 +1,15 @@
+Diversity-generating retroelements for programmable targeted hypermutagenesis.
+
+Diversity-generating retroelements (DGRs) are natural systems that accelerate the evolution of
+diverse bacterial functions through targeted hypermutation. We establish a method using DGRs coupled
+to recombineering (DGRec), which enables the diversification of any sequence of interest in
+Escherichia coli. Detailed characterization of reverse transcriptase sequence biases demonstrates
+how it maximizes the exploration of the sequence space while avoiding nonsense mutations. By
+leveraging the high error rate of the DGR reverse transcriptase at adenines, DGRec can efficiently
+diversify user-defined sequence windows of 50-200 bp. Mutations can be focused at specific
+positions, with rates reaching up to 1.38 × 10-2 per base per generation, allowing up to 24
+mutations to accumulate within a single target sequence after 48 h. We apply DGRec to phage λ host-
+range engineering, to the evolution of dCas9 variants and to accelerated evolution of specific
+nanobodies through a bacterial display setup. Lastly, we establish the feasibility of DGR-mediated
+mutagenesis in yeast by adapting a recombination and selection strategy previously developed for
+retrons.

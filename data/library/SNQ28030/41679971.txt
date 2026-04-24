@@ -1,0 +1,20 @@
+Mechanisms of bacteria, virus, and turbidity removal by chitosan coagulation in water.
+
+Chitosan is a promising coagulant for bacteria, viruses and turbidity in water, but needs
+identification of optimal dose-polymer combinations. This research tested chitosans to identify dose
+range and characteristics that provide highest simultaneous reduction of bacteria, viruses, and
+turbidity, and possible coagulation mechanisms, including charge neutralization, sweep coagulation,
+and electrostatic patch. Three molecular weights (MW) and degrees of deacetylation (DD) were tested
+at doses 1, 3, 10 and 30 mg/L using jar tests in water containing clays, E. coli, and bacteriophage
+MS2. Turbidity removal was 93-99% at 1 and 3 mg/L, with no significant difference between MW. MW, DD
+and dose significantly affected viral and bacterial reduction. Across doses, MW 100,000 Da had
+highest mean log10 MS2 (3.5) and E. coli (3.5) reductions. The 100,000 Da/10 mg combination had the
+highest mean log10 E. coli (4.5) and MS2 (3.5) reductions simultaneously. Overall, 100,000 Da/3 mg
+and 1,000,000 Da/3 mg maximize reduction of turbidity and MS2, but not E. coli. 100,000 Da/10 mg
+maximized E. coli reduction and gave MS2 reductions similar to 100,000 Da/3 mg, but turbidity
+reduction was lower. Chitosan reduced turbidity, bacteria, and viruses in water, influenced by MW,
+DD, and dose. Data suggests that there is no single dose/MW/DD combination that produced
+significantly higher reductions of all three contaminants simultaneously but good removal of all
+three can be achieved with 100,000 Da at 3 or 10 mg/L. Chitosans can be effective coagulant-
+flocculants in water at reasonably achievable doses using polymer characteristics that are
+commercially available.

@@ -1,0 +1,7 @@
+Di-His-Cu(II)-NTA spin labels for probing protein dynamics: Support from a combined crystallographic/EPR study.
+
+In this issue of Structure, Besaw et al.1 report a well-designed study combining electron
+paramagnetic resonance measurements and structural analyses of di-histidine-Cu(II)-nitrilotriacetate
+binding sites in T4 lysozyme. The gained insights could have broad implications for the use of
+double electron-electron resonance spectroscopy in the elucidation of subtle protein conformational
+variations.

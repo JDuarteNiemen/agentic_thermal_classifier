@@ -1,0 +1,15 @@
+Bacteriophage lysin P26ly combats multidrug-resistant Escherichia coli O157 and methicillin-resistant Staphylococcus aureus via cell wall degradation and membrane disruption.
+
+To address the growing challenge of antimicrobial resistance, we evaluated P26ly, a novel 17-kDa
+lysin derived from Shigella-infecting phage DS8 with a conserved lambda_lys-like domain. The
+antimicrobial effects of P26ly were assessed via turbidimetric, time-kill, and viability assays.
+Membrane disruption and reactive oxygen species (ROS) accumulation were evaluated using
+fluorescence-based assays with multiple functional probes. Cellular damage was observed through
+scanning electron microscopy. P26ly was found to exhibit significant antibacterial and antibiofilm
+activities against multidrug-resistant Escherichia coli O157 (Gram-negative) and methicillin-
+resistant Staphylococcus aureus (Gram-positive). Notably, P26ly effectively degraded bacterial cell
+walls and disrupted cell membrane integrity, as evidenced by reduced membrane fluidity and proton
+motive force dissipation. These effects led to excessive ROS production and substantial ATP leakage,
+ultimately causing cell death. The dual mechanism of action of P26ly-cell wall degradation and
+membrane disruption-positions it as a promising candidate for bypassing conventional resistance
+mechanisms and effectively combating multidrug-resistant bacteria.

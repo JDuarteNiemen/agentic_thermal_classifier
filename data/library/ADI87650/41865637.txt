@@ -1,0 +1,22 @@
+DNA tetrahedron-radiated nanonetwork for the dual-mode detection of FEN1 and T4 PNK activities.
+
+The sensitive and accurate detection of FEN1 and T4 PNK activities is of vital significance for the
+early diagnosis and therapeutic monitoring of cancer. Herein, we constructed a DNA tetrahedron-
+radiated nanonetwork (DTRN) based on multi-stage rolling circle amplifications (RCAs) for sensitive
+and dual-mode detection of FEN1 and T4 PNK activities. Specifically, the design included a DNA
+tetrahedron nanoprobe with four first-stage trigger sequences for first-stage RCAs, recognition
+elements and circular substrates serving as RCA templates, as well as a hairpin probe with multi-
+stage trigger sequence for multi-stage RCAs. Initially, FEN1 or T4 PNK-specific recognition events
+initiated ligation reactions, which induced the first-stage trigger sequences to activate first-
+stage RCAs, synthesizing long single-stranded DNAs with repetitive sequences. By recognizing these
+repetitive sequences, the hairpin probes initiated multi-site second-stage RCAs and further
+activated multi-stage RCAs. Eventually, numerous multi-stage trigger sequences extended
+simultaneously from different sites, generating a nanonetwork centered on the DNA tetrahedron, while
+concomitantly producing fluorescent and UV-vis absorption signals for quantification. The DTRN
+system achieved exponential enhancement in amplification efficiency through multi-stage RCAs on the
+DNA tetrahedron, improving detection sensitivity. The detection limit were as low as
+4.58 × 10-3 U mL-1 of FEN1 and 5.76 × 10-4 U mL-1 of T4 PNK in fluorescent mode, 2.45 × 10-2 U mL-1
+of FEN1 and 3.75 × 10-3 U mL-1 of T4 PNK in colorimetric mode. Moreover, the dual-mode detection
+facilitated mutual verification and complementation, enhancing detection accuracy. Furthermore, the
+successful detection of dual enzyme activities in cellular extracts confirmed that the DTRN system
+is a highly potent detection tool.

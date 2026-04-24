@@ -1,0 +1,18 @@
+Genomic analysis of cold-active Colwelliaphage 9A and psychrophilic phage-host interactions.
+
+The 104 kb genome of cold-active bacteriophage 9A, which replicates in the marine psychrophilic
+gamma-proteobacterium Colwellia psychrerythraea strain 34H (between -12 and 8 °C), was sequenced and
+analyzed to investigate elements of molecular adaptation to low temperature and phage-host
+interactions in the cold. Most characterized ORFs indicated closest similarity to gamma-
+proteobacteria and their phages, though no single module provided definitive phylogenetic grouping.
+A subset of primary structural features linked to psychrophily suggested that the majority of
+annotated phage proteins were not psychrophilic; those that were, primarily serve phage-specific
+functions and may also contribute to 9A's restricted temperature range for replication as compared
+to host. Comparative analyses suggest ribonucleotide reductase genes were acquired laterally from
+host. Neither restriction modification nor the CRISPR-Cas system appeared to be the predominant
+phage defense mechanism of Cp34H or other cold-adapted bacteria; we hypothesize that psychrophilic
+hosts rely more on the use of extracellular polymeric material to block cell surface receptors
+recognized by phages. The relative dearth of evidence for genome-specific defenses, genetic transfer
+events or auxiliary metabolic genes suggest that the 9A-Cp34H system may be less tightly coupled
+than are other genomically characterized marine phage-host systems, with possible implications for
+phage specificity under different environmental conditions.

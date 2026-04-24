@@ -4,3 +4,5 @@ pip install -U langchain-ollama
 pip install langchain_core langchain-anthropic langgraph
 Biopython
 Entrez
+pandas
+lxml

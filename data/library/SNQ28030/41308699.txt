@@ -1,0 +1,20 @@
+Construction and application of MS2 bacteriophage virus-like particles for SARS-CoV-2 detection using a single-plasmid system.
+
+Research on the compatibility of MS2 bacteriophage virus-like particles (VLPs), which are used for
+the detection of a range of RNA viruses, with commercially available detection kits is limited.
+Here, we aimed to construct a positive control for RNA virus nucleic acid detection using MS2
+bacteriophage VLPs and evaluate its compatibility with commercial nucleic acid detection kits to
+support the standardization of molecular diagnostic quality control systems. We generated
+recombinant plasmids expressing MS2 bacteriophage maturation enzyme, capsid proteins, and severe
+acute respiratory syndrome coronavirus 2 (SARS-CoV-2) target genes (ORF1ab, N, and E) using a
+single-plasmid dual-expression system (pACYCDuet-1). The plasmids were expressed in Escherichia coli
+BL21, and then MS2 VLPs were purified. The VLPs were characterized, and their performance as a
+positive control was validated for homogeneity and stability; their detection compatibility with
+five commercial SARS-CoV-2 nucleic acid detection kits was also examined. We successfully generated
+MS2 VLPs carrying SARS-CoV-2 target genes, with a uniform particle size of 23-28 nm and target gene
+copy number of 1.99 × 1010 copies/μL. Sodium dodecyl sulfate-polyacrylamide gel electrophoresis
+confirmed the expression of MS2 proteins, whereas functional validation revealed excellent nuclease
+resistance, batch-batch homogeneity, and stability at 4 °C for ≥20 days. Importantly, the positive
+control exhibited consistent detection performance across all five commercial kits, confirming its
+practicality for routine laboratory workflows. The established positive control is readily
+applicable for standardizing quality control in molecular diagnostics.

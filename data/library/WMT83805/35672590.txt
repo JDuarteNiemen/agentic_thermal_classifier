@@ -1,0 +1,12 @@
+Isolation and Complete Sequence of One Novel Marine Bacteriophage PHS21 Infecting Pseudoalteromonas marina.
+
+PHS21 against Pseudoalteromonas is isolated from Qingdao offshore seawater. The phage was
+characterized and identified by morphological examination, stability, whole genome sequencing, and
+bioinformatics analysis. Morphological analysis of PHS21 by transmission electron microscopy shows
+that belonged to the Siphoviridae family. PHS21 showed strong tolerance with a wide range of
+temperatures and pH. One-step growth assay indicates that the latent period is about 48 min and the
+burst size is approximately 218 PFU/cell (plaque forming unit/cell). Its complete genomic sequence
+is 35,802-bp long with 50 putative open reading frames. Phage PHS21 and PHS3 displayed a very close
+evolutionary relationship; however, having different DNA packaging proteins indicates that they may
+have already evolved distinct ways to package DNA in host cells. This study provides the detailed
+description and genomic characterization of a novel Pseudoalteromonas phage.

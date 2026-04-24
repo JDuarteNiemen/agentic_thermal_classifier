@@ -1,0 +1,17 @@
+Multiple adsorptions shape collective T-even phage lysis dynamics: Insights from an individual-based model.
+
+Bacteria infected by T-even bacteriophages exhibit a variety of multiplicity of infection (MOI)
+dependent behaviours, including lysis from without (LO), cell lysis induced by an exceptionally high
+number of secondary adsorptions, and lysis inhibition (LIN), a phenomenon in which host cell lysis
+is delayed as the same bacterium adsorbs multiple phages. We propose an individual-based model that
+captures these MOI-dependent dynamics phenomenologically. The model takes into account the
+development of LO resistance (LOR) after the primary infection, and LIN is modelled by a fixed
+average delay in latent period per secondary adsorption with stochastic variability. The model
+successfully reproduces the experimentally observed multiple peaks in phage production following
+controlled phage addition. We extend the model to simulate batch culture growth and demonstrate that
+synchronized collapse of LINed culture can emerge as a collective phenomenon when LOR cells have a
+high, but finite, LO threshold (LOR cell lysis from withOut, LORO). Finally, we apply the model to a
+spatially structured bacterial colony under phage attack. We find that, if the burst size is
+comparable to the LO thresholds, especially LORO may play a role in colony survival due to locally
+elevated MOI near lysing cells. These results highlight the importance of spatial dynamics and
+secondary adsorption thresholds in phage-host population outcomes.

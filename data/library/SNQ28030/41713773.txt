@@ -1,0 +1,21 @@
+Inactivation of bio-aerosolized viruses by applying pulsed electric field.
+
+Coronavirus disease 19 (COVID-19) pandemic has highlighted the need for effective countermeasures to
+prevent the transmission of infectious viruses contained in bio-aerosols, particularly in indoor
+environments with limited ventilation. Pulsed electric fields (PEF) can electrically capture
+aerosols and inactivate microorganisms within these aerosols. Our study, with the goal of
+establishing a new spatial purification technology utilizing PEF, aimed to clarify the inactivation
+effect of PEF on bio-aerosolized viruses. Bacteriophages phi6 and MS2 were used as viral surrogates
+representing enveloped and non-enveloped viruses, respectively. Preliminary studies were conducted
+to optimize the experimental conditions of the bench-scale aerosolized virus inactivation
+experimental chamber constructed to evaluate the performance of aerosolized virus removal. Based on
+the recovery efficiency of phi6 and the time efficiency, condition A (aerosolized amount: 1 mL,
+vacuum pump flow rate: 20 L/min, and recovery time: 1 min) was determined to be the preferable
+condition for inactivation experiments. Under the PEF application condition at 10 kV for 15 min, the
+maximum log reduction values (LRVs) for phi6 and MS2 were 3.62 ± 0.33 and 3.56 ± 0.08, respectively.
+Therefore, PEF showed a high reduction of both enveloped and non-enveloped viruses in bio-aerosol,
+indicating that PEF can effectively inactivate viruses independent of differences in virus particle
+structures. Conversely, cDNA concentrations of both bacteriophages did not change under all PEF
+application conditions (p > 0.05), suggesting that PEF possibly inactivated viruses by altering the
+protein structures of their host recognition sites, thereby causing them to lose their infectious
+capacity.

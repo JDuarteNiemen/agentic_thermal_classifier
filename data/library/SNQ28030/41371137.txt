@@ -1,0 +1,17 @@
+Co-generated particles, but not ambient particles, shield bioaerosols from Far-UVC inactivation and increase exposure to viable bioaerosols.
+
+Far-UVC radiation can be an efficient and secure approach for bioaerosol sterilization in occupied
+high-risk settings like healthcare facilities. In dental clinics, aerosols produced by dental
+procedures are characterized by the existence of co-generated particles such as grind tooth
+fragments, restorative materials, and dental calculus. In this study, the influence of particles on
+far-UVC disinfection efficiency was investigated. First, the susceptibility of aerosolized bacteria
+and viruses to far-UVC radiation was experimentally measured under three conditions, i.e., without
+particles, with co-generated particles, and with ambient particles. The findings indicated that co-
+generated particles, but not ambient particles, shielded bioaerosols from far-UVC inactivation. The
+far-UVC susceptibility of aerosolized E. coli and MS2 with co-generated particles was only 49 % and
+40 % of that without particles, respectively. Then, the impact of co-generated particles on far-UVC
+disinfection performance and occupational exposure to viable bioaerosols in a dental clinic was
+investigated by numerical method. It was found that, due to the shielding effect of co-generated
+particles on bioaerosols against far-UVC inactivation, the dentist's exposure to viable bioaerosols
+increased by 41 %. Thus, it is crucial to consider the shielding effect of co-generated particles
+during the far-UVC system design to ensure reliable bioaerosol inactivation.

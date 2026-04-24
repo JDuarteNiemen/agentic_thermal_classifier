@@ -1,0 +1,17 @@
+Protective efficacy of miR-155 encapsulated using MS2 bacteriophage-based virus-like particle (MS2-VLP) against viral hemorrhagic septicemia virus (VHSV) in olive flounder.
+
+MicroRNAs (miRNAs) play important roles in the antiviral immunity of teleosts; however, their use as
+vaccines is limited by instability and delivery challenges. This study developed an MS2
+bacteriophage virus-like particle (MS2-VLP) to encapsulate precursor miR-155, which has been
+reported to exhibit antiviral activity against viral hemorrhagic septicemia virus (VHSV).
+Recombinant MS2-VLP-miR-155, expressed in Escherichia coli, demonstrated a uniform 27 nm morphology,
+along with resistance to nuclease degradation. In addition, it remained stable under various
+temperature exposure, long-term storage, and repeated freeze-thaw cycles. In immunization trials,
+the miR-155-containing MS2-VLP group exhibited greater protective efficacy against VHSV challenge
+than miRNC-containing MS2-VLP and PBS control groups. At a challenge dose of 1 × 106 PFU/fish,
+cumulative mortality was significantly lower in the miR-155-containing MS2-VLP group (26 %) than in
+the PBS (80 %) and miRNC-containing MS2-VLP (66.6 %) groups. Furthermore, mature miR-155 was
+significantly detected in kidney tissue 3 days post-immunization, thereby confirming successful in
+vivo delivery and processing of the precursor. Collectively, these findings demonstrate that
+MS2-VLPs are a stable and effective platform for functional miRNA delivery in teleosts, with
+potential applications in the development of miRNA-based vaccines for aquaculture.

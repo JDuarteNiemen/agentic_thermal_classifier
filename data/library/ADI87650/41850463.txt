@@ -1,0 +1,17 @@
+NPmut- and M2e-decorated T4 phage nanoparticles induce mucosal immunity and cross-group protection against influenza A virus.
+
+Inducing cross-group protection against diverse influenza A virus (IAV) subtypes remains a major
+goal in next-generation influenza vaccine development. Nucleoprotein (NP) and the extracellular
+domain of matrix protein 2 (M2e) are attractive conserved targets, but face distinct hurdles: NP co-
+purified from Escherichia coli often contains pro-inflammatory bacterial RNA, raising safety
+concerns, while its nucleic-acid-binding-deficient version (NPmut) improves safety but suffers from
+reduced immunogenicity. In addition, M2e alone is weakly immunogenic. To address these limitations,
+we developed a dual-antigen T4 phage-based nanoparticle vaccine by assembling an NPmut-3M2e fusion
+protein, containing three tandem M2e segments (3M2e), onto T4 phage capsids. Adjuvant-free
+intranasal immunization in mice elicited robust mucosal and systemic immunity, including high sIgA
+and IgG titers and potent CD8+ T-cell responses. It also conferred significant cross-group
+protection against lethal challenge with IAV strains from distinct hemagglutinin (HA) groups, as
+evidenced by improved survival, reduced body weight loss, and attenuated lung pathology. These
+findings support intranasal NPmut-3M2e-T4 VLP as a promising vaccine candidate that combines
+conserved cross-group antigens with a T4-based delivery platform to achieve cross-group protection
+against IAV.

@@ -1,0 +1,21 @@
+Nanoplastics induce prophage activation and quorum sensing to enhance biofilm mechanical and chemical resilience.
+
+Despite the prevalence of nanoplastics (NPs) in natural and engineered water systems and their
+association with microbial risks, bacterium-phage interactions have been largely overlooked in the
+context of biofilm formation. Here, we investigated the effects of positively (PS-NH₂) and
+negatively (PS-COOH) charged polystyrene nanoplastics (PS-NPs) on dual-species biofilms composed of
+Escherichia coli (λ+) and Pseudomonas aeruginosa. PS-NPs promoted biofilm formation and stability at
+environmentally relevant concentrations (e.g., 100-1000 ng/L), with PS-NH₂ exhibiting higher
+influence. The cellular internalization of PS-NPs increased the reactive oxygen species (ROS) levels
+by 2.18-2.25 folds, triggered prophage λ activation followed by lysis of E. coli (λ+) after exposure
+to PS-NPs. Transcriptomic analyses revealed that PS-NPs, especially PS-NH₂, activated the SOS
+response (2.35-2.63-fold), λ phage replication (2.68-3.97-fold), and interspecies quorum sensing
+(2.24-5.13-fold), which was verified by the proteomic analyses. Therefore, PS-NPs stimulated
+protective extracellular polymeric substances (EPS) secretion with eDNA content increased to
+325.8-433.8 μg/cm2. Enhanced EPS production contributed to improved biofilm mechanical properties
+(1.46-1.57-fold as measured by atomic force microscopy) and increased resistance to chlorine
+disinfection. Metagenomic analysis of pipeline biofilm demonstrated that PS-NPs promoted bacterium-
+phage interactions and enhanced bacterial antiviral defense systems, which stimulated multi-species
+biofilm formation and enhanced environmental resilience. Overall, our findings provide novel
+insights into the interplay between nanoplastics and bacterium-phage dynamics, highlighting
+increased microbial risks associated with waterborne nanoplastics.

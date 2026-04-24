@@ -1,0 +1,160 @@
+Accession: ADI87650
+Paper: PMC12930573.1.txt
+Host: Acinetobacter baumannii
+Reasoning: The paper title explicitly states 'Phage vB_AbaM_MU1 for biocontrol of carbapenem-resistant Acinetobacter baumannii (CRAB)'. The abstract mentions 'A novel lytic Acinetobacter phage vB_AbaM_MU1 was isolated'. The Methods section specifies 'Eighteen CRAB clinical isolates were obtained... Acinetobacter baumannii M13 isolate... was selected as the host strain'. The Results section confirms 'Out of Seventeen CRAB, nine CRAB strains were recorded as sensitive to vB_AbaM_MU1'.
+
+Accession: WXH46553
+Paper: PMC12799730.1.txt
+Host: Escherichia coli
+Reasoning: The paper explicitly identifies the host bacterium in the Methods section under 'Bacteriophage T7 Simulations', stating that the model accounts for events including 'down-regulation of the E. coli transcription machinery'. Additionally, the text frequently references 'E. coli' in the context of tRNA abundance and codon usage data used for calibration (e.g., 'Co-variation of tRNA abundance and codon usage in escherichia coli', 'Correlation between the abundance of Escherichia coli transfer RNAs...'). The modeling of T7 infection dynamics relies on the host's cellular resources, confirming E. coli as the host.
+
+Accession: WRQ14408
+Paper: PMC12795941.1.txt
+Host: Escherichia coli
+Reasoning: The host species is explicitly identified in the title ('Global Transcriptomic Profiling Reveals Conserved and Phage-specific Responses to Phage Infection in Escherichia Coli'), the abstract ('Here, we performed global transcriptomic profiling of Escherichia coli exposed to two lytic phages...'), and the methods section ('To better elucidate the complex bacterial responses to lytic phage infection, we performed transcriptomic profiling of E. coli ATCC 700078...'). The text consistently refers to the host organism as E. coli throughout the study.
+
+Accession: XYW65533
+Paper: PMC12795941.1.txt
+Host: Escherichia coli
+Reasoning: The host species is explicitly identified in the title ('Global Transcriptomic Profiling Reveals Conserved and Phage-specific Responses to Phage Infection in Escherichia Coli'), the abstract ('Here, we performed global transcriptomic profiling of Escherichia coli exposed to two lytic phages...'), and the methods section ('To better elucidate the complex bacterial responses to lytic phage infection, we performed transcriptomic profiling of E. coli ATCC 700078...'). The text consistently refers to the host organism as E. coli throughout the study.
+
+Accession: SNQ28030
+Paper: PMC13030880.1.txt
+Host: Pseudomonas syringae, Escherichia coli
+Reasoning: According to Table 1 in the paper, the bacteriophages Phi6, Qbeta, and MS2 were used with their respective bacterial hosts: Phi6 infects Pseudomonas syringae, while Qbeta and MS2 infect Escherichia coli. Additionally, Section 2.1 states: 'the bacterial strains were cultivated overnight in lysogenic broth (LB, Carl Roth GmbH + Co., Kg, Karlsruhe, Germany) containing CaCl2 (Merck KGaA, Darmstadt, Germany) at 25 °C ± 2 °C (P. syringae) or at 36 °C ± 2 °C (E. coli)'.
+
+Accession: A7XXB7
+Paper: PMC3018760.1.txt
+Host: Thermus thermophilus
+Reasoning: The abstract explicitly states: 'Regulation of gene expression during infection of the thermophilic bacterium Thermus thermophilus (T. th.) HB8 with the bacteriophage P23-45 was investigated.' The introduction further confirms: 'In this work we studied the temporal regulation of transcription of another T. th. HB8 phage, P23-45...' and the experimental procedures section mentions using 'freshly grown T. th. HB8 culture'.
+
+Accession: QAY18187
+Paper: QAY18187.json
+Host: Thermus sp. TC4
+Reasoning: The provided text explicitly contains the field 'host' with the value 'Thermus sp. TC4', which identifies the bacterial species infected by the phage.
+
+Accession: YP_001285867
+No high-confidence result found.
+
+Accession: NP_835731
+Paper: 15579472.txt
+Host: Rhodothermus marinus
+Reasoning: The paper explicitly states: "A polynucleotide kinase from the thermophilic bacteriophage RM378 that infects the thermophilic eubacterium Rhodothermus marinus was identified, expressed, and purified."
+
+Accession: YP_874174
+Paper: 37423744.txt
+Host: Thermus thermophilus
+Reasoning: The title identifies the phage as a 'Thermus thermophilus phage'. The first sentence states: 'A Thermus thermophilus lytic phage was isolated from a Japanese hot spring using a type IV pili-deficient strain as an indicator host'. Additionally, the text mentions 'adsorption to the Thermus host cell' and 'host Thermus cells', confirming the host species.
+
+Accession: XJP07760
+No high-confidence result found.
+
+Accession: WMT83805
+Paper: PMC9228384.1.txt
+Host: Acinetobacter baumannii
+Reasoning: The title explicitly states the phage is 'Infecting Multidrug-Resistant Acinetobacter baumannii'. The abstract confirms this by stating: 'In this study, we isolated and characterized the phage vB_AbaS_TCUP2199 (TCUP2199), which can infect MDRAB.' Furthermore, Section 2.1 notes 'Strains of A. baumannii included in this study were as follows' and Section 3.2 states 'The host range of TCUP2199 was determined using 208 clinical isolates of A. baumannii'.
+
+Accession: YP_009790355
+Paper: 30594742.txt
+Host: Shewanella baltica and Shewanella putrefaciens
+Reasoning: The paper explicitly states in the title: "Isolation and characterization of virulent phages infecting Shewanella baltica and Shewanella putrefaciens". Additionally, the text confirms: "virulent phages infecting 4 S. baltica and 6 S. putrefaciens strains were isolated" and concludes that the cocktail is a "promising biological agent against S. baltica and S. putrefaciens".
+
+Accession: YP_006489335
+Paper: YP_006489335.json
+Host: Colwellia psychrerythaea
+Reasoning: The provided metadata record explicitly lists the 'lab_host' field with the value "Colwellia psychrerythaea strain 34H", which identifies the bacterial host species for the phage.
+
+Accession: YP_009209738
+Paper: PMC4615864.1.txt
+Host: Polaribacter sp.
+Reasoning: The paper explicitly identifies the host in the title as 'a marine Polaribacter strain' and in the abstract and Virus information section states: 'P12002L and P12002S are lytic phages that infect the bacterial strain Polaribacter sp. IMCC12002.' The text further clarifies that the strain was 'phylogenetically assigned to the genus Polaribacter' but does not specify the exact species name, using 'sp.' to denote an unspecified species within the genus.
+
+========================================================================================================================
+                                                                New run
+========================================================================================================================
+Accession: ADI87650
+Paper: PMC12929587.1.txt
+Host: Escherichia coli
+Reasoning: The paper explicitly states in the Introduction section: 'The bacteriophage (phage) T4 is a contractile tailed phage that infects Escherichia coli bacterium.' Additionally, the Methods section describes infection assays using 'E. coli strains NM22565 (Hfq-plus) and NM22540 Dhfq::cat-sacB (Hfq-minus)' and infecting them with WT T4 phage.
+
+Accession: WXH46553
+Paper: PMC13028683.1.txt
+Host: Escherichia coli B
+Reasoning: The paper text describes the use of the T7 phage display system but does not explicitly name the bacterial host species in the article body. It notes that 'Importantly, although T7 phages can enter mammalian cells, they do not replicate within them'. However, the provided metadata explicitly states 'host': 'Escherichia coli B', which identifies the specific bacterial host for the T7 phage used.
+
+Accession: ADI87650
+Paper: PMC12930573.1.txt
+Host: Acinetobacter baumannii
+Reasoning: The host species is explicitly stated in the paper text. The text identifies the host strain as 'Acinetobacter baumannii M13 isolate' and states the phage targets 'carbapenem-resistant Acinetobacter baumannii (CRAB)'. Specifically, the Methods section notes: 'Acinetobacter baumannii M13 isolate recovered from a wound infection... was selected as the host strain'. The Results section confirms: 'A novel lytic Acinetobacter phage vB_AbaM_MU1 was isolated... It showed lytic efficiency against 9/17 CRAB strains.'
+========================================================================================================================
+                                                            Latest Run
+========================================================================================================================
+
+Accession: ADI87650
+Paper: PMC12930573.1.txt
+Host: Acinetobacter baumannii
+Reasoning: The host species is explicitly stated in the paper text. The text identifies the host strain as 'Acinetobacter baumannii M13 isolate' and states the phage targets 'carbapenem-resistant Acinetobacter baumannii (CRAB)'. Specifically, the Methods section notes: 'Acinetobacter baumannii M13 isolate recovered from a wound infection... was selected as the host strain'. The Results section confirms: 'A novel lytic Acinetobacter phage vB_AbaM_MU1 was isolated... It showed lytic efficiency against 9/17 CRAB strains.'
+
+Accession: WXH46553
+Paper: PMC13028683.1.txt
+Host: Escherichia coli B
+Reasoning: The paper text describes the use of a T7 phage display system for vaccine delivery but does not explicitly state the bacterial host species for the T7 phage itself. However, the metadata for the sequence explicitly specifies the host as 'Escherichia coli B' in the 'host' field. According to the rules, when the paper does not explicitly state the host, metadata may be used if it directly specifies the host.
+
+Accession: WRQ14408
+Paper: 41741653.txt
+Host: Escherichia coli
+Reasoning: The host species was identified from the paper text. The text explicitly states that the defense system localizes to the bacterial cell membrane in Escherichia coli to block phage λ infection. Quote: 'localizes to the bacterial cell membrane in Escherichia coli to block phage λ infection'.
+
+Accession: XYW65533
+Paper: PMC12771599.1.txt
+Host: Aeromonas dhakensis
+Reasoning: The paper text explicitly states the host species multiple times. For example, the abstract states: 'A jumbo, lytic myovirus phage P19 against multidrug‐resistant (MDR) Aeromonas dhakensis was isolated from river water.' Additionally, the Introduction notes: 'we isolated a lytic phage P19... which infects virulent and antibiotic‐resistant A. dhakensis strains.' The Results section (3.2 Host Range) confirms: 'The P19 phage exhibited genus‐level specificity, lysing only Aeromonas strains... mainly against A. dhakensis'. The metadata provided refers to a different phage (T2) and is inconsistent with the paper's content; per the rules, the paper text is the primary source of truth.
+
+Accession: SNQ28030
+Paper: PMC13030880.1.txt
+Host: Escherichia coli
+Reasoning: The host species was explicitly stated in the paper text. In Table 1 ('Bacteriophages and their bacterial hosts used in this study'), the entry for MS2 lists the bacterial host as 'Escherichia coli (E. coli)'. The metadata also supports this with the 'old_name' field 'Escherichia virus MS2', indicating the host genus is Escherichia.
+
+Accession: A7XXB7
+Paper: PMC3018760.1.txt
+Host: Thermus thermophilus
+Reasoning: The host species is explicitly stated in the paper text. The title identifies the organism as 'Thermus thermophilus bacteriophage P23-45', and the abstract states: 'Regulation of gene expression during infection of the thermophilic bacterium Thermus thermophilus (T. th.) HB8 with the bacteriophage P23-45 was investigated.' The metadata also confirms the host as 'Thermus thermophilus'.
+
+Accession: QAY18187
+Paper: 24816701.txt
+Host: Thermus sp. TC4
+Reasoning: The paper text mentions the phage infects 'Thermus' bacteria (e.g., 'Thermus bacteriophages', 'Thermus and its predator') but does not explicitly state the specific host species name. The metadata explicitly specifies the host as 'Thermus sp. TC4'. Per the rules, metadata is used when the paper does not explicitly state the host.
+
+Accession: YP_001285867
+Paper: 18573317.txt
+Host: Geobacillus
+Reasoning: The provided paper text describes the bacteriophage GVE2 but does not explicitly state the host species name within the text. However, the metadata explicitly specifies the host as 'Geobacillus' (metadata field: 'host': 'Geobacillus'). Therefore, the host species is determined from the metadata.
+
+Accession: NP_835731
+Paper: 15579472.txt
+Host: Rhodothermus marinus
+Reasoning: The host species is explicitly stated in the paper text. The abstract states: 'A polynucleotide kinase from the thermophilic bacteriophage RM378 that infects the thermophilic eubacterium Rhodothermus marinus was identified...'
+
+Accession: YP_874174
+Paper: 37423744.txt
+Host: Thermus thermophilus
+Reasoning: The host species is explicitly stated in the paper text. The title identifies the phage as a 'Thermus thermophilus phage' and the first sentence states 'A Thermus thermophilus lytic phage was isolated'. The text further confirms the host cell type as 'Thermus' during adsorption analysis.
+
+Accession: XJP07760
+Paper: XJP07760.json
+Host: Pseudoalteromonas sp. YM19
+Reasoning: The host species was explicitly stated in the provided text under the 'host' field. Direct quote: 'host': 'Pseudoalteromonas sp. YM19'.
+
+Accession: WMT83805
+Paper: PMC9228384.1.txt
+Host: Acinetobacter baumannii
+Reasoning: The host species is explicitly stated in the paper text. The title of the article is 'Isolation and Characterization of a Novel Siphoviridae Phage, vB_AbaS_TCUP2199, Infecting Multidrug-Resistant Acinetobacter baumannii', and the abstract states the phage 'can infect MDRAB' (Multidrug-Resistant Acinetobacter baumannii). The methods section further confirms the use of 'Strains of A. baumannii'. Per the rules, information from the paper text is prioritized over metadata.
+
+Accession: YP_009790355
+No high-confidence result found.
+
+Accession: YP_006489335
+Paper: 23224375.txt
+Host: Colwellia psychrerythraea strain 34H
+Reasoning: The paper text explicitly states that bacteriophage 9A 'replicates in the marine psychrophilic gamma-proteobacterium Colwellia psychrerythraea strain 34H'. This direct statement in the primary source confirms the host species.
+

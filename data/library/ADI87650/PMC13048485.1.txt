@@ -1,0 +1,754 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: PLoS One
+Journal ID: PLoS One
+Journal ID: plos
+
+PLOS One
+
+EISSN: 1932-6203
+Publisher: PLOS
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC13048485
+PMID: 41931571
+DOI: 10.1371/journal.pone.0335829
+Article ID: PONE-D-25-56221
+Article version: 1
+Subjects: Research Article, Physical Sciences, Physics, Thermodynamics, Free Energy, Biology and life sciences, Biochemistry, Proteins, DNA-binding proteins, Nucleases, Biology and Life Sciences, Biochemistry, Enzymology, Enzymes, Hydrolases, Nucleases, Biology and Life Sciences, Biochemistry, Proteins, Enzymes, Hydrolases, Nucleases, Biology and Life Sciences, Biochemistry, Enzymology, Enzymes, Lysozyme, Biology and Life Sciences, Biochemistry, Proteins, Enzymes, Lysozyme, Biology and Life Sciences, Biochemistry, Biochemical Simulations, Biology and Life Sciences, Computational Biology, Biochemical Simulations, Biology and Life Sciences, Molecular Biology, Macromolecular Structure Analysis, Protein Structure, Protein Folding, Biology and Life Sciences, Biochemistry, Proteins, Protein Structure, Protein Folding, Physical Sciences, Physics, Thermodynamics, Biology and Life Sciences, Molecular Biology, Macromolecular Structure Analysis, Protein Structure, Biology and Life Sciences, Biochemistry, Proteins, Protein Structure, Physical Sciences, Chemistry, Computational Chemistry, Molecular Dynamics
+
+Benchmarking free energy calculations: Analysis of single and double mutations across two simulation software platforms for two protein systems
+
+Benchmarking free energy calculations: Single and double mutant analysis using two simulation platforms
+
+https://orcid.org/0000-0001-5212-1996 Gupta Shivani Data curation Formal analysis Investigation Methodology Software Validation Visualization Writing – original draft Writing – review & editing 2
+Sun Qinfang Conceptualization Formal analysis Investigation Methodology Resources Software Supervision Validation Visualization Writing – review & editing 1 2 *
+https://orcid.org/0000-0001-8696-5177 Levy Ronald M. Conceptualization Funding acquisition Investigation Project administration Supervision Validation Visualization Writing – review & editing 1 2 *
+1 Center for Biophysics and Computational Biology, Temple University, Philadelphia, Pennsylvania, United States of America
+2 Department of Chemistry, Temple University, Philadelphia, Pennsylvania, United States of America
+Wang Yong Editor
+Zhejiang University College of Life Sciences, CHINA
+* E-mail: qinfang.sun@temple.edu (QS); ronlevy@temple.edu (RML)Competing Interests: The authors declare no competing interests.
+
+Electronic publication date: 2026 Apr 3
+Publication date: 2026
+Volume: 21
+Issue: 4
+Electronic Location ID: e0335829
+Received 2025 Oct 16; Accepted 2026 Mar 7
+Copyright: © 2026 Gupta et al
+Copyright year: 2026
+Copyright holder: Gupta et al
+License: This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Benchmarking Free Energy Calculations: Analysis of Single and Double Mutations Across Two Simulation Software Platforms for Two Protein Systems 20 10 2025 2025.10.19.683321 bioRxiv 10.1101/2025.10.19.683321 PMC12633250 41280129
+Benchmarking free energy calculations: Analysis of single and double mutations across two simulation software platforms for two protein systems. 21 4 3 4 2026 e0335829 e0335829 PLoS One 10.1371/journal.pone.0335829 41931571
+Benchmarking free energy calculations: Analysis of single and double mutations across two simulation software platforms for two protein systems. 21 4 3 4 2026 e0335829 e0335829 PLoS One 10.1371/journal.pone.0335829 41931571
+
+Funding: NIH Grant R35 GM132090 https://orcid.org/0000-0001-8696-5177 Levy Ronald M. This study was supported by the National Institutes of Health (NIH) Grant R35 GM132090. The funder had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+
+Figure count: 6
+Table count: 0
+Page count: 1
+Data Availability: All relevant data are within the manuscript and its Supporting information files.
+
+Data Availability
+
+All relevant data are within the manuscript and its Supporting information files.
+
+==============================
+Mutation analysis of single and double mutations of proteins including the two widely studied proteins: Staphylococcus nuclease (S. nuclease) and T4 lysozyme, provides critical insights into their stability and fitness. Furthermore, such analysis facilitates a deeper understanding of the complex interplay between a protein's sequence, structural conformation, and functional output. Free Energy Perturbation (FEP) is an alchemical, all-atom molecular dynamics based computational approach that determines the free energy change (ΔΔG) from wild type to mutant states. Two widely adopted software platforms used for this purpose are Schrödinger and GROMACS. We have compared the results of FEP simulations for mutations using these platforms, employing the OPLS4 force field implemented in Schrödinger, and the Amber99SB-ILDN force field implemented in GROMACS for this work. For the 38 single mutants of S. nuclease, the Pearson r between the experimental and the calculated free energy change (ΔΔG) was 0.86 using Schrödinger and 0.87 using GROMACS. The reliability of the FEP method using the two software platforms with the specified force fields was further demonstrated by its performance on 24 single mutants of T4 lysozyme, yielding strong correlation between predicted and experimental ΔΔG values, with Pearson r of 0.80 for Schrödinger and 0.85 for GROMACS. Additionally, the computed folding free energy changes for 45 double mutations in S. nuclease (ΔΔGWTAB) using Schrödinger correlated well with both experimental measurements (Pearson r = 0.74) and previously reported GROMACS values (Pearson r = 0.71). Correspondingly, the nonadditivities (δWTAB) of the double mutations derived using Schrödinger for these 45 double mutants of S. nuclease were also found to be in good agreement with the experimental values (Pearson r = 0.79), as well as with the previously reported GROMACS results (Pearson r = 0.61). A good correlation was also observed between computed values from Schrödinger and GROMACS, with a Pearson r of 0.71 for double mutants and 0.61 for their nonadditivities. Collectively, these findings establish the efficiency, accuracy, and reliability of Schrödinger FEP+ and GROMACS in predicting mutation-induced free energy changes in S. nuclease and T4 lysozyme. The integration of FEP based computational methodologies with experimental validation provides a framework for quantifying mutation-induced changes in protein thermostability, which can be used as a tool for protein engineering and design.
+
+Introduction
+
+Mutational analysis serves as a powerful tool for elucidating the complex interdependencies among protein sequence, structure, and function [1]. By systematically assessing the impact of specific amino acid substitutions on protein thermostability [2] and consequently on functional activity, researchers can uncover fundamental principles governing protein folding, molecular interactions, and evolutionary fitness [3,4]. This approach provides critical insights into the intrinsic trade-offs between stability and function, thereby enabling rational protein engineering and aiding the interpretation of pathogenic or disease associated variants.
+
+The impact of mutations on protein thermostability has been extensively studied across diverse protein systems [5–9]. A protein's ability to remain properly folded and functionally active at elevated temperatures is governed by its thermostability, making it a critical parameter for understanding degradation, aggregation, and denaturation over time. Thermostable proteins are of significant industrial relevance due to their broad-spectrum applications. Their pivotal roles as biocatalysts in chemical synthesis, components in biofuel production, agents in food processing, and additives in detergents are inherently dependent on their structural and functional stability under thermal stress [10]. In the pharmaceutical industry, thermostable therapeutics such as monoclonal antibodies, enzymes, and cytokines exhibit enhanced stability during manufacturing, storage, and transportation, making them more suitable for clinical and commercial applications [11].
+
+Accurate prediction of protein thermostability through computational approaches provides a potentially efficient complement to experimental techniques [12]. In this context, various physics based approaches such as Molecular Mechanics Generalized Born Surface Area (MM/GBSA) [13,14] and Free Energy Perturbation [15–17] methods have gained attention. Unlike data driven machine learning models, which may be constrained by the quality, bias, or representativeness of their training datasets, these methods are founded on fundamental physical principles and provide predictive insights that are independent of empirical training data.
+
+Free energy perturbation (FEP) [18–21] is an alchemical free energy simulation method, firmly rooted in statistical thermodynamics that can be used to estimate free energy differences, provided sufficiently long simulation times, together with enhanced sampling techniques and an accurate potential energy function are employed. It is an explicit solvent, molecular dynamics (MD) based method, offering a framework for evaluating the thermodynamic impact of amino acid substitutions on protein stability. The term ‘alchemical’ refers to the generation of a series of nonphysical intermediate states connecting two physical end states typically the wild-type (initial) and mutant (final) forms, facilitating the estimation of the difference between the free energy to fold the wild-type and mutant proteins. The transformation from wild-type to mutant residues, for single mutants(SMs), has been performed in both the folded and unfolded states of the protein that follows a thermodynamic cycle, as illustrated in Fig 1 of the Methodology section. Similarly, the thermodynamic cycle representing double mutations and their corresponding nonadditivity has been depicted in Fig 2 of the Methodology section.
+
+10.1371/journal.pone.0335829.g001 Fig 1 Thermodynamic Cycle to calculate Stability Change of Single Mutant T22C (ΔΔ𝐆 ).
+
+The green color highlights wild-type residue and blue represents the mutated residue, with rest colored as red, being same in both states. The folding free energy change upon single amino acid mutation is ΔΔ𝐆=ΔGMut−ΔGWT=ΔG1−ΔG2.
+
+10.1371/journal.pone.0335829.g002 Fig 2 Double mutant cycle with three different pathways (blue, orange, and green) to calculate the double mutation free energy change and the corresponding nonadditivity (δ).
+
+Here in ΔΔGWTA, the Subscript WT = Reference/Initial state, Superscript A = Mutated/Final state and same for others. In principle free energy change from all three routes should be the same. If δWTAB ≠ 0 then mutation A and B are nonadditive, highly correlated and exhibit a thermodynamic coupling.
+
+Staphylococcal nuclease (S. nuclease) is a small extracellular protein of 149 amino acid residue length with no cysteines, secreted by Staphylococcus aureus. Its ability to degrade both DNA and RNA in the presence of free Ca2+ ions, finds various applications in nucleic acid chemistry since 1956 [22,23]. Its simple solution behavior being soluble in both native and denatured states has made it a benchmark system used for studies on protein folding [24,25] and NMR spectroscopy [26]. The experimental values for both single and double mutants (DMs) in S. nuclease were sourced from the extensive work of Shortle et al in S. nuclease [27–29]. A second benchmark protein we focus on in the present study is T4 lysozyme (164 residues) [30], Schellman and co-workers [31] have measured the entropy, enthalpy and free energy change for the wild-type protein and a large number of mutants [32]. A diverse set of experimentally characterized SMs for T4 lysozyme, along with their corresponding ΔΔG values indicating changes in protein stability, has been compiled from the literature [33–41] and considered for the present study.
+
+The present study investigates a total of 62 SMs across two proteins: S. nuclease (38 mutants) and T4 lysozyme (24 mutants), and 45 double mutations of S. nuclease using the Schrödinger (FEP+) and GROMACS packages. These codes are both widely used for studying free energy changes associated with protein-ligand binding in explicit solvent, and more recently for studying the effects of mutations on protein stability. There have been few efforts to directly compare the performance of these codes on the same benchmark systems.
+
+This study provides the first systematic comparison of free energy change predictions obtained from the Schrödinger and GROMACS simulation platforms across a comprehensive set of single and double mutations in S. Nuclease and a set of single mutations in T4 lysozyme, for which extensive experimental stability data are available. Despite methodological distinctions and differences in the underlying potential energy functions between the two platforms, both yield results that are broadly consistent with experimental measurements and in close agreement with each other.
+
+Methods
+
+Dataset selection and preparation
+
+SMs for two proteins under investigation: S. nuclease and T4 lysozyme were curated from the studies by Duan et al (2020) [42] and de Groot et al. (2021) [43]. The initial dataset comprised of 27 SMs of S. nuclease (PDB ID: 1EY0) and 26 SMs of T4 lysozyme (PDB IDs: 2LZM and 1L63), with all experimental measurements performed at pH 7 ± 1. An additional 18 SMs from the dataset associated with PDB: 1STN [43] were incorporated, augmenting the initial 27 mutations and resulting in a total of 45 single mutations analyzed for S. nuclease. After excluding three overlapping mutations, the final dataset comprised of 42 unique SMs. Among these, only 38 mutations were successfully simulated using the Schrödinger and GROMACS platforms, while the remaining four were omitted due to technical issues involving proline residues. Furthermore, a set of 45 DMs [43] for the S. nuclease was also analyzed. These DMs were simulated using only Schrödinger to estimate the free energy changes (ΔΔG) and assess their corresponding nonadditive effects. For T4 lysozyme, although the initial dataset contained 26 SMs, two proline-related mutations were excluded due to similar technical constraints, resulting in a final set of 24 single mutations. No double mutant simulations were performed for T4 lysozyme owing to the lack of reliable experimental data for benchmarking. The experimental values were sourced from comprehensive studies by Shortle (for S. nuclease) [27–29] and Matthews (for T4 lysozyme) [34,35,37–41], as mentioned above, serving as benchmark for evaluating the calculated free energy changes from Schrödinger and GROMACS simulations across SM and DM datasets for these two proteins.
+
+Before discussing the methodology for FEP calculations using Schrödinger and GROMACS, it is important to first understand the underlying thermodynamic cycle and the associated coupling parameter that are common to both platforms.
+
+Description of the alchemical thermodynamic cycles
+
+The alchemical thermodynamic cycles provide a conceptual framework for the transformations from the wild-type to single and double mutants, as illustrated in Fig 1 and Fig 2, respectively. The corresponding nonadditive effects associated with the DMs are also depicted in Fig 2. The transformations include both physical and alchemical (non-physical) states and since free energy is a state function, its value depends only on the initial and final states and hence independent of the pathway taken.
+
+The objective is to compute the folding free energy change resulting from a single mutation, transitioning from the wild-type (WT) to the mutant (Mut) state. Rather than directly simulating the folding process for each state, which is computationally intensive, an alchemical approach has been employed. As illustrated in Fig 1, the physical pathways represent the folding of the WT and Mut state from their respective unfolded structure, with the associated folding free energy denoted as ΔGWT (path WT) and ΔGMut (path Mut) respectively. The alchemical pathways consist of the free energy associated with mutating WT to Mut in the folded state denoted as ΔG1 (path 1) and in the unfolded state denoted as ΔG2(path 2). Since the free energy is a state function, the sum of the ΔG around the thermodynamic cycle is zero. Consequently, the effect of the mutation on protein stability (ΔΔG) can be estimated using Equation 1, which relates the differences in folding free energies of the WT and mutant states via the alchemical transformations.
+
+ΔΔG=ΔGMut−ΔGWT=ΔG1−ΔG2 (1)
+
+The unfolded state of the protein, for both the wild-type and mutant forms, is represented by a capped tripeptide, which preserves the original sequence environment by placing the residue of interest in the central position. The use of a capped tripeptide offers a more realistic and chemically accurate representation for alchemical transformations compared to an uncapped peptide, by mimicking the local backbone environment and minimizing end effects [44].
+
+For DMs an additional thermodynamic cycle has been constructed, as shown in Fig 2. In this cycle, the transformation from the wild-type (WT) to the double mutant (Mut AB) final state can proceed via three distinct routes. In route 1, the transformation proceeds from WT to Mut A, followed by a second mutation to reach state Mut AB. In Route 2, the path goes from WT to Mut B, and then to Mut AB. Route 3 represents a direct transformation from WT to Mut AB, where both mutations A and B are introduced simultaneously. Since free energy is a state function, the total free energy change associated with the double mutation, denoted as (ΔΔGWTAB in Equation 2), must be independent of the transformation path. Therefore, all three routes should theoretically yield identical ΔΔGWTAB values. However, in practice, Route 3 (the direct transformation) is employed because experimentally determined PDB structures for the mutated states A or B are not available
+
+ΔΔGWTAB=ΔΔGWTA+ΔΔGAAB=ΔΔGWTB+ΔΔGBAB (2)
+
+In the case of double mutations, the combined effect may deviate from the sum of the individual single mutation effects, a phenomenon referred to as nonadditivity (δWTAB in Equation 3). When δWTAB≠ 0, the two mutations are energetically coupled and therefore nonadditive. Conversely, if δWTAB= 0, the mutations are additive and independent. Within the framework of alchemical FEP, the contribution from the unfolded state is assumed to be additive. Consequently, it cancels out during the calculation of nonadditivity, simplifying the analysis. As a result, the nonadditivity is evaluated solely based on the free energy differences between the single and double mutations in the folded state as formally represented in Equation 3.
+
+δWTAB=ΔΔGWTAB−(ΔΔGWTA+ΔΔGWTB) (3)
+
+Coupling parameter (λ).
+
+In alchemical free energy simulations, the coupling parameter (λ) is a dimensionless variable used to denote a transition between two thermodynamic states commonly, state A (wild-type) and state B (mutant).18 As λ progresses from 0 to 1, the system's Hamiltonian is gradually modified in a series of steps from HA to HB. Mathematically, the interpolated Hamiltonian is represented in Equation 4.
+
+H(λ)=(1−λ)HA+λHB (4)
+
+This parameter governs the pattern of the transformation and serves as a foundational component for computing free energy differences using FEP methods.
+
+With the theoretical framework established, the following sections provide a detailed description of the methodologies employed on each platform. First, we outline the workflow implemented in Schrödinger, followed by the methodology employed in GROMACS for FEP calculations.
+
+FEP calculations using Schrödinger (FEP+)
+
+The FEP+ module from the Schrödinger Release 2024−3 (FEP + , Schrödinger, LLC, New York, NY, 2024) was employed to perform FEP calculations. Initial protein structures for different proteins were retrieved from the Protein Data Bank (PDB) and prepared using Maestro's Protein Preparation Wizard. The crystal water molecules were retained, hydrogen atoms were added, and hydrogen-bonding networks were optimized. PropKa was used to predict the ionization states of residues at pH 7.0. Subsequently, the structures underwent restrained minimization of heavy atoms using the OPLS4 force field [45], and the process was terminated once the root mean square deviation (RMSD) of heavy atoms reached 0.3 Å. Each system was solvated using a cubic SPC water box (default water model), extending 5 Å from the protein in all directions. To simulate physiological conditions, counter ions Na⁺ or Cl⁻ were added to both folded and unfolded systems, followed by the addition of excess Na⁺ and Cl⁻ ions to achieve a final salt concentration of 0.15 M NaCl. All ions were randomly distributed throughout the simulation box. For unfolded models, capped tripeptides extracted from the crystal structures of the corresponding native proteins, containing the mutation site at the central position in the peptide were used [42]. The capping groups consisted of an acetyl group at the N-terminus and an N-methyl group at the C-terminus.
+
+The protein FEP+ calculations were performed using a dual topology algorithm, in which multiple MD simulations were performed to transform the system from wild-type (WT) to the mutated state. During this alchemical transformation, the electrostatic and van der Waals interactions of the WT side chain gradually turned off, while those of the mutant side chain were simultaneously turned on. The mutated residue was included in the Replica Exchange Solute Tempering (REST2) region [46,47], which effectively raises the temperature for enhanced sampling of that residue. The FEP + /REST2 framework combines solute tempering with replica exchange to improve sampling of sidechain conformational flexibility near the mutation site, typically within 5 Å. The solvated systems were then relaxed and equilibrated using the default protocol of the Desmond Molecular Dynamics System (D. E. Shaw Research, New York, NY) [48] as implemented in Maestro. This protocol involves a series of energy minimizations and short MD simulations with restraints. Each perturbation was simulated over 16–24 λ windows (where λ denotes the alchemical intermediate states or coupling factor as explained above), depending on the mutation type. The charge conserving mutations were simulated using 16 λ windows while charge altering mutations used 24 λ windows. The λ schedule followed the default settings in Schrödinger FEP+. Electrostatic and van der Waals transformations were integrated across the same λ schedule. Each λ-window was simulated for 10 ns which was extended up to 100 ns to ensure convergence for challenging cases. For charge changing mutations, a co-alchemical water approach was employed to mitigate long range electrostatic artifacts. The electrostatic interactions were handled using the Particle Mesh Ewald (PME) approach [49,50] with a real-space cutoff of 1.0 nm. Van der Waals interactions were also gradually shifted to zero at this same cutoff distance. Final production simulations were conducted with the default ensemble using the Desmond engine and free energy differences between alchemical states were computed using Multistate Bennett Acceptance Ratio (MBAR) [51] in Schrödinger. Predicted FEP uncertainties were calculated using the cycle closure method [46], as implemented in Schrödinger’s Protein FEP + .
+
+FEP calculations using GROMACS
+
+The alchemical FEP calculations for both protein systems were also performed using GROMACS 2022.6 [52,53] which included 38 SMs from S. nuclease and 23 SMs from T4 lysozyme. The dual topology and the hybrid coordinate files for the mutated protein were generated using the pmx server [54]. Similarly, the tripeptide structures, extracted from the full length protein using Maestro, were processed by pmx server to obtain their corresponding dual topology representations and hybrid tripeptides. The AMBER99sb*ILDN force field [55–57] has been applied for these transformation in both the cases as this force field has been widely adopted for FEP calculations, as supported by several studies [15,58]. The crystal waters from the protein structure were retained during topology processing of the hybrid protein. Each hybrid system (protein and tripeptide) was solvated in a TIP3P [59] water box with a 10 Å buffer. The counterions Na⁺ or Cl⁻ were added to both the systems to neutralize the charge and achieve the final salt concentration of 0.15 M, consistent with standard FEP simulation practices. The retention of crystallographic water and the use of 0.15 M salt concentration align with established FEP protocols in both Schrӧdinger and GROMACS frameworks.
+
+Then the hybrid protein and tripeptide systems underwent energy minimization using the steepest descent algorithm across 27 λ windows (from λ = 0 to λ = 26). The λ schedule varied as 0.00 0.0125 0.025 0.0375 0.05 0.10 0.15 0.20 0.25 0.30 0.35 0.40 0.45 0.50 0.55 0.60 0.65 0.70 0.75 0.80 0.85 0.90 0.95 0.9625 0.975 0.9875 1.00 from 0 to 26 λ windows correspondingly. The 27 λ windows were partitioned into electrostatic decoupling (10 λ windows) and van der Waals decoupling (17 λ windows), with soft-core potentials applied to enable smooth interpolation of non-bonded interactions. This was followed by an additional minimization using the l-bfgs integrator for further relaxation. Subsequently, the systems were equilibrated under the NVT ensemble for 10 ps using the velocity-rescaling thermostat [60]. This step was followed by NPT equilibration ensemble, performed sequentially using the Berendsen and Parrinello-Rahman barostats [61] each for 30 ps. The electrostatic interactions were treated using the Particle Mesh Ewald (PME) method [49,50] and a real space cutoff of 1.0 nm was applied. The van der Waals interactions were gradually shifted to zero at the same cutoff distance (1.0 nm). All bonds involving hydrogen atoms were constrained using the LINCS [50] algorithm (order = 6). Following equilibration, replicas were simulated for 50 ns with NPT ensemble for both the hybrid protein and the tripeptide systems. The free energy differences between the wild-type and the mutant forms were computed using the Bennett Acceptance Ratio (BAR) [62,63] method, implemented via the gmx_bar module in GROMACS. Alchemical free energy calculations were also analyzed using the pymbar package based on ∂H/∂λ data obtained from GROMACS simulations. The robustness of the free energy estimates by MBAR was verified through two primary diagnostics: 1) To ensure reliable reweighting of configurations across states, ∂H/∂λ overlap matrices were generated for representative mutations. These matrices (S5 and S6 Figs) confirm appreciable overlap between adjacent λ-windows for both the S. nuclease (e.g., T41C, T41V) and T4 lysozyme (e.g., T59G, G77A) systems. 2) Convergence was assessed by monitoring the change of ΔG as a function of simulation time. Representative convergence plots (S7 and S8 Figs) for mutants such as L25I and T33V (S. nuclease) and S44A and D47A (T4 lysozyme) demonstrate that the free energy differences reach a stable plateau. This behavior indicates that convergence was achieved over the simulation time for both the tripeptide reference and the full protein. Predicted uncertainties were estimated by partitioning each simulation trajectory into three equal segments and calculating the standard deviation of the ΔΔG values across these sub-blocks.
+
+In summary, to assess the impact of mutations on protein free energy landscapes, we performed a comparative analysis of single and double mutations FEP protocols implemented in GROMACS and Schrödinger’s FEP+ framework. Although both platforms utilize alchemical transformation methods, they differ markedly in system setup, topology handling, and sampling strategies. This study aims to evaluate the consistency and reliability of predicted ΔΔGvalues across these two distinct, widely used, computational platforms.
+
+Results and discussion
+
+Experimental determination of mutation-induced changes in protein thermostability,  typically using chemical or thermal denaturation techniques, remains the gold standard for validation. However, these methods are often time-consuming, resource-intensive, and low-throughput, making them more difficult for large-scale mutational screening. Moreover, while such methods yield valuable thermodynamic data, they offer limited insight into the atomic level interactions underlying protein stability changes. In contrast, computational methods such as FEP, which leverage all-atom MD simulations, potentially provide a faster, scalable, and cost-effective alternative provided they have sufficient accuracy. These methods not only enable high-throughput in silico mutagenesis but also deliver atomistic insights into stability mechanisms, allowing simulations of various protein conformational states to better understand folding landscapes and thermostability. Recent advances in high performance computing including GPU acceleration as well as improvements in force fields and simulation algorithms, have enhanced the predictive accuracy of these computational approaches.
+
+In this work, we employed two widely used MD platforms: Schrödinger and GROMACS, for FEP simulations, each offering distinct advantages and limitations. GROMACS is an open-source, freely available MD engine noted for its flexibility, extensive customizability, and support for a broad range of force fields including AMBER, CHARMM, OPLS and GROMOS. However, its implementation for FEP workflows requires manual setup, command-line proficiency, and greater time investment, making it less accessible to non-expert users. In contrast, Schrödinger FEP + is a commercial, closed-source platform that supports only the modified OPLS force field. While it offers less flexibility, its user-friendly graphical interface, built-in FEP workflow as FEP+ module, and enhanced sampling methods such as REST (Replica Exchange with Solute Tempering) streamline the simulation process and significantly reduce setup complexity and computational overhead. Despite the widespread use of both platforms for FEP-based protein stability predictions, a systematic comparison of their performance using experimental data as a benchmark has been lacking. In this work, we address this gap by directly evaluating and comparing free energy changes for single and double mutations using Schrödinger and GROMACS against experimental thermostability data, thereby providing insights into their relative accuracy, usability, and computational efficiency.
+
+The free energy changes (ΔΔG) for 38 single mutations of S. nuclease were predicted using the two MD platforms: Schrödinger and GROMACS. These results, along with the ΔΔG values calculated via MBAR from the GROMACS data, are provided in Supporting Information (S1 Table). Correlation plots comparing experimentally determined free energy changes with predictions calculated using Schrӧdinger and GROMACS are shown in Fig 3A and 3B respectively. Both platforms demonstrated state-of-the-art accuracy in reproducing experimental measurements, with Pearson correlation coefficients of 0.86 for Schrödinger (Fig 3A) and 0.87 for GROMACS (Fig 3B) between calculated and experimental ΔΔG values, indicating strong linear agreement. Additionally, the mean absolute difference also referred to as the average unsigned error (AUE), was further calculated to evaluate predictive accuracy. The AUE values were found to be 0.99 kcal/mol for Schrödinger and 0.61 kcal/mol for GROMACS, both within the generally accepted accuracy threshold of ~1 kcal/mol for reliable free energy predictions. Notably, these AUE values are comparable to those reported for FEP+ protocol in predicting small molecule protein relative binding affinities [64,65], supporting the robustness of our results. Benchmarking results revealed strong agreement between computational predictions and experimental values. Specifically, the RMSE was 0.13 kcal/mol for GROMACS (via BAR) and 0.24 kcal/mol for Schrödinger. Additionally, a secondary check using MBAR on the GROMACS data resulted in an RMSE of 0.13 kcal/mol. Correlation was further evaluated using Kendall’s tau, which yielded values of 0.54 (GROMACS/BAR), 0.62 (Schrödinger), and 0.50 (GROMACS/MBAR). These statistical indicators, provided in S1 Table, highlight the high predictive accuracy of both platforms. The strong Pearson r of 0.87 between the previously reported [42] and our calculated folding free energy changes (ΔΔG) highlights the reliability and robustness of these calculations, as shown in S1 Fig and S1 Table. The high correlation and low AUE observed in this study are consistent with previously reported FEP studies [42,66], where correlations between computed and experimental ΔΔG values ranged from 0.64 to 0.82, further validating the reliability of both platforms. Overall, these findings establish both Schrödinger and GROMACS as accurate and reliable tools for predicting protein thermostability changes induced by single mutations using FEP-based approaches.
+
+10.1371/journal.pone.0335829.g003 Fig 3 Correlation plots of the free energy changes for 38 SMs for S. nuclease between the experimental values and calculated ones from (A) Schrödinger and (B) GROMACS.
+
+Pearson correlation coefficient (r) and coefficient of determination (R²) are indicated. The data plotted here is provided in S1 Table.
+
+The analysis was extended to evaluate folding free energy change for 45 DMs of S. nuclease represented as ΔΔGWTAB. The values calculated using Schrödinger and previously reported values using GROMACS [43] alongside experimental measurements, which continue to serve as the benchmark, were summarized in S2 Table. The calculated ΔΔGWTAB using Schrödinger yielded a Pearson correlation coefficient of 0.74 when compared with the experimental data (Fig 4A). A similarly strong correlation (r = 0.71) was observed between the previously reported GROMACS values and experimental results, as shown in Fig 4B. The AUE was found to be 0.79 kcal/mol for Schrödinger and 0.76 kcal/mol for GROMACS, both within the generally accepted threshold of 1 kcal/mol. Moreover, we compared previously reported GROMACS values with those calculated using Schrödinger, yielding a Pearson correlation of 0.71 (S2 Fig). Comparable accuracy and low AUE values demonstrate that both Schrödinger (OPLS4 force field) and GROMACS (AMBER99sb*ILDN force field) gave consistent and reliable results for double mutations in the S. nuclease protein. The results demonstrate high predictive accuracy, reflected in low RMSE values of 0.13 kcal/mol for both GROMACS and Schrödinger when compared to experimental data. This strong agreement is further supported by Kendall’s tau (τ) values of 0.52 for GROMACS and 0.57 for Schrödinger. These metrics, provided in S2 Table, validate the reliability of both software platforms for benchmarking free energy calculations.
+
+10.1371/journal.pone.0335829.g004 Fig 4 Correlation plots of the free energy changes for S. nuclease’s 45 DMs between the experimental values and calculated ones with (A) Schrödinger and (B) GROMACS.
+
+Pearson correlation coefficient (r) and coefficient of determination (R²) are indicated. The data plotted here is provided in S2 Table.
+
+In the case of DMs, the free energy changes can deviate significantly from the sum of the individual single mutations, a phenomenon known as nonadditivity (δWTAB). The corresponding nonadditivities for the 45 DMs have been calculated employing the FEP+ protocol in Schrӧdinger. For comparison, previously reported free energy changes calculated using GROMACS [43] were included. Experimental values continue to serve as the benchmark for this study, consistent with the analyses of single and double mutations. Schrödinger predictions of nonadditivity yielded a Pearson r of 0.79 with experimental data (Fig 5A), whereas the previously reported GROMACS values showed a correlation of 0.63 (Fig 5B). The AUE was found to be 0.31 kcal/mol for Schrödinger and 0.35 kcal/mol for GROMACS relative to experimental values. Additionally, a Pearson r of 0.61 was observed for the nonadditivity values (δWTAB) of 45 DMs of S. nuclease between previously reported GROMACS predictions and our calculated Schrödinger values, as illustrated in S3 Fig. All these nonadditivity values obtained from experimental measurements, GROMACS and Schrӧdinger calculations were tabulated in S3 Table. The calculated RMSE values were notably low, at 0.07 kcal/mol for GROMACS and 0.06 kcal/mol for Schrödinger relative to experimental data, indicating high predictive accuracy. As an additional metric, Kendall’s tau (τ) was found to be moderate, 0.48 for GROMACS and 0.44 for Schrödinger. These results, which support the benchmarking of both free energy calculation platforms, are summarized in S3 Table.
+
+10.1371/journal.pone.0335829.g005 Fig 5 Correlation plots for the corresponding nonadditivity for S. nuclease’s 45 DMs between experimental values and calculated ones with (A) Schrödinger and (B) GROMACS.
+
+Pearson correlation coefficient (r) and coefficient of determination (R²) are indicated. The data plotted here is provided in S3 Table.
+
+We have extended our analysis further to another widely studied protein system, T4 lysozyme in order to gain more confidence in thermostability predictions using computational approaches. The dataset consists of 24 single mutations for T4 lysozyme protein, for which free energy changes (ΔΔG) were calculated using both the FEP+ module of Schrödinger and the GROMACS. However, DMs were not included for the T4 lysozyme system, as experimental ΔΔGWTAB values were not available.
+
+To assess the agreement between calculated and experimental values, correlation analyses were performed. Fig 6A shows the correlation between experimental ΔΔG values and those calculated using Schrödinger (Pearson r = 0.85), while Fig 6B presents the correlation between experimental values and GROMACS predictions (Pearson r = 0.80). The corresponding AUEs were 0.63 kcal/mol for Schrödinger and 0.55 kcal/mol for GROMACS. A direct comparison of computed ΔΔG values with Schrödinger and GROMACS yielded a Pearson r of 0.81 (Fig 6C). Furthermore, a Pearson r of 0.96 was observed between previously reported⁴² Schrödinger results and the ΔΔG values calculated using Schrödinger in this study (S4 Fig). All free energy changes: experimental, calculated via GROMACS and Schrödinger, and previously reported Schrödinger values were summarized in S4 Table. Collectively, these results demonstrate the effectiveness in modeling free energy changes arising from single mutations in T4 lysozyme [42] by GROMACS and Schrödinger. Additional performance metrics, including RMSE and Kendall’s tau, are provided in the sub-tables of S4 Table. The low RMSE values-0.13 kcal/mol for GROMACS (BAR), 0.16 kcal/mol for Schrödinger, and 0.13 kcal/mol for GROMACS (MBAR) demonstrate strong agreement with experimental data and high predictive accuracy. Similarly, Kendall’s tau values of 0.61, 0.68, and 0.61, respectively, further validate the benchmarking of these two software platforms for free energy calculations.
+
+10.1371/journal.pone.0335829.g006 Fig 6 Correlation plots of the free energy changes for T4 lysozyme 24 SMs between the experimental and calculated values with (A) Schrödinger and (B) GROMACS and (C) Schrödinger vs GROMACS.
+
+Pearson correlation coefficient (r) and coefficient of determination (R²) are indicated. The data plotted here is provided in S4 Table.
+
+To investigate potential correlations, we analyzed prediction errors as a function of mutation type and location (S5-S6 Tables). Prediction accuracy was highest for mutations involving no change in side-chain size, with errors increasing significantly as side-chain bulk increased. Additionally, charged mutations exhibited larger errors than neutral ones. Location-wise, surface mutations generally yielded higher errors than buried residues.
+
+Conclusion
+
+FEP methods are increasingly employed to estimate changes in protein thermostability caused by mutations. In this study, we compared two widely used MD platforms: GROMACS and Schrödinger’s FEP + , to perform FEP-based calculations for SMs of S. nuclease and T4 lysozyme proteins. Additionally, FEP-based predictions were extended to DMs of S. nuclease, including the assessment of their corresponding nonadditivity effects. Our results showed strong correlation between experimental and computed free energy changes (ΔΔG) for 62 SMs in two different proteins using GROMACS and Schrödinger. Schrödinger accurately captured the free energy changes (ΔΔGWTAB) and their corresponding nonadditivities (δWTAB) for 45 DMs of S. nuclease protein, showing good correlation with experimental values. A strong Pearson correlation for free energy changes and nonadditivity for 45 DMs of S. nuclease, has also been observed between the previously reported GROMACS values and those calculated in this study using Schrödinger. The findings demonstrate the robustness of both Schrödinger and GROMACS in modeling single and double mutations, accurately predicting their free energy changes and nonadditivity. The strong correlation between experimental and computed free energy changes further highlights the consistency and accuracy of these platforms in capturing the thermodynamic effects of mutations.
+
+The choice between two platforms depends on factors such as the complexity of the system under study, the cost of the software involved, preference towards a specific force field or enhanced sampling technique, and user familiarity. While FEP is not a substitute for experimental validation, it offers a rapid, scalable, and mechanistically informative approach to mutation analysis in proteins. Importantly, FEP enables atomic level insights into the effects of mutations, which are not directly accessible through experimental denaturation assays alone. Therefore, integrating FEP-based computational predictions (either by GROMACS or Schrӧdinger) with experimental measurements presents a powerful and complementary strategy for protein engineering and thermostability optimization.
+
+Supporting information
+
+S1 Table Folding free energy changes (ΔΔG) in kcal/mol for 38 SMs of the S. nuclease protein.
+
+The experimental values and previously reported values using Schrödinger or GROMACS alongside values calculated in this study using both platforms are provided for comparison.
+
+(PDF)
+
+S1 Fig Correlation plot of free energy changes (ΔΔG) for 38 SMs in the S. nuclease protein, comparing previously reported values using Schrödinger or GROMACS with values calculated in this study using Schrödinger.
+
+Pearson correlation coefficient (r) and coefficient of determination (R²) are indicated.
+
+(PDF)
+
+S2 Table Folding free energy changes (ΔΔGWTAB)  in kcal/mol for 45 DMs of the S. nuclease protein.
+
+The experimental values and previously reported values using GROMACS alongside values calculated in this study using Schrödinger are shown for comparison.
+
+(PDF)
+
+S2 Fig Correlation plot of free energy changes (ΔΔGWTAB) for 45 DMs in the S. nuclease protein, comparing previously reported values from GROMACS with values calculated in this study using Schrödinger.
+
+Pearson correlation coefficient (r) and coefficient of determination (R²) are shown.
+
+(PDF)
+
+S3 Table Nonadditivity values (δWTAB) in kcal/mol for 45 DMs of the S. nuclease protein.
+
+The experimental data and previously reported GROMACS values are presented alongside values calculated in this study using Schrödinger for comparative analysis.
+
+(PDF)
+
+S3 Fig Correlation plot of nonadditivity (δWTAB) for 45 DMs in the S. nuclease protein, comparing previously reported values from GROMACS with values calculated in this study using Schrödinger.
+
+Pearson correlation coefficient (r) and coefficient of determination (R²) are shown.
+
+(PDF)
+
+S4 Table Folding free energy changes (ΔΔG) in kcal/mol for 24 SMs of the T4 lysozyme protein.
+
+The experimental values and previously reported values using Schrödinger alongside values calculated in this study using GROMACS and Schrӧdinger are provided for comparison.
+
+(PDF)
+
+S4 Fig Correlation plot of free energy changes (ΔΔG) for 24 SMs in the T4 lysozyme protein, comparing previously reported values with calculated values from Schrödinger.
+
+Pearson correlation coefficient (r) and coefficient of determination (R²) are shown.
+
+(PDF)
+
+S5 Fig Overlap matrix plots for representative S. nuclease mutations (T41C and T41V) with all first off-diagonal entries well above 0.03, the suggested threshold.
+
+Each of the four Figs consists of two panels: the upper panel displays the overlap for the tripeptide, while the lower panel displays the overlap for the full protein system.
+
+(PDF)
+
+S6 Fig Overlap matrix plots for representative T4 lysozyme mutants T59G and G77A with all first off-diagonal entries well above 0.03, the suggested threshold.
+
+Each of the four Figs consists of two panels: the upper panel displays the overlap for the tripeptide, while the lower panel displays the overlap for the full protein system.
+
+(PDF)
+
+S7 Fig Free energy convergence for representative S. nuclease mutants L25I and T33V.
+
+The plots show ΔΔG versus simulation time across four Figs. In each case, the top panel corresponds to the tripeptide simulation (unfolded state proxy) and the bottom panel corresponds to the full protein simulation (folded state).
+
+(PDF)
+
+S8 Fig Free energy convergence for representative T4 lysozyme mutants S44A and D47A.
+
+The plots show ΔΔG versus simulation time across four Figs. In each case, the top panel corresponds to the tripeptide simulation (unfolded state proxy) and the bottom panel corresponds to the full protein simulation (folded state).
+
+(PDF)
+
+S5 Table Calculated free energy changes (kcal/mol) for 38SMs of S. nuclease using Schrödinger and GROMACS, compared against experimental values.
+
+The mutations are categorized by charge, size, and location within the protein structure.
+
+(PDF)
+
+S6 Table Calculated free energy changes (kcal/mol) for 24 SMs of T4 lysozyme using Schrödinger and GROMACS, compared against experimental values.
+
+The mutations are categorized by charge, size, and location within the protein structure.
+
+(PDF)
+
+DOI: 10.1371/journal.pone.0335829.r001
+
+Decision Letter 0
+
+Wang Yong Academic Editor
+Copyright: © 2026 Yong WangYong WangYong WangYong Wang
+Copyright year: 2026
+Copyright holder: Yong WangYong WangYong WangYong Wang
+License: This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited., which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited., which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited., which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Submission Version: 0
+
+11 Nov 2025
+
+Dear Dr. Levy,
+
+Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE’s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.
+
+Please submit your revised manuscript by Dec 26 2025 11:59PM. If you will need more time than this to complete your revisions, please reply to this message or contact the journal office at plosone@plos.org. When you're ready to submit your revision, log on to https://www.editorialmanager.com/pone/ and select the 'Submissions Needing Revision' folder to locate your manuscript file.. When you're ready to submit your revision, log on to https://www.editorialmanager.com/pone/ and select the 'Submissions Needing Revision' folder to locate your manuscript file.. When you're ready to submit your revision, log on to https://www.editorialmanager.com/pone/ and select the 'Submissions Needing Revision' folder to locate your manuscript file.. When you're ready to submit your revision, log on to https://www.editorialmanager.com/pone/ and select the 'Submissions Needing Revision' folder to locate your manuscript file.
+
+A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). You should upload this letter as a separate file labeled 'Response to Reviewers'.
+
+A marked-up copy of your manuscript that highlights changes made to the original version. You should upload this as a separate file labeled 'Revised Manuscript with Track Changes'.
+
+An unmarked version of your revised paper without tracked changes. You should upload this as a separate file labeled 'Manuscript'.
+
+If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter. Guidelines for resubmitting your figure files are available below the reviewer comments at the end of this letter.
+
+If applicable, we recommend that you deposit your laboratory protocols in protocols.io to enhance the reproducibility of your results. Protocols.io assigns your protocol its own identifier (DOI) so that it can be cited independently in the future. For instructions see: https://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols. Additionally, PLOS ONE offers an option for publishing peer-reviewed Lab Protocol articles, which describe protocols hosted on protocols.io. Read more information on sharing protocols at . Additionally, PLOS ONE offers an option for publishing peer-reviewed Lab Protocol articles, which describe protocols hosted on protocols.io. Read more information on sharing protocols at . Additionally, PLOS ONE offers an option for publishing peer-reviewed Lab Protocol articles, which describe protocols hosted on protocols.io. Read more information on sharing protocols at . Additionally, PLOS ONE offers an option for publishing peer-reviewed Lab Protocol articles, which describe protocols hosted on protocols.io. Read more information on sharing protocols at https://plos.org/protocols?utm_medium=editorial-email&utm_source=authorletters&utm_campaign=protocols....
+
+We look forward to receiving your revised manuscript.
+
+Kind regards,
+
+Yong Wang
+
+Academic Editor
+
+PLOS ONE
+
+Journal Requirements:
+
+When submitting your revision, we need you to address these additional requirements.
+
+1.Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at
+
+https://journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf and
+
+https://journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf
+
+2. Please note that PLOS One has specific guidelines on code sharing for submissions in which author-generated code underpins the findings in the manuscript. In these cases, we expect all author-generated code to be made available without restrictions upon publication of the work. Please review our guidelines at https://journals.plos.org/plosone/s/materials-and-software-sharing#loc-sharing-code and ensure that your code is shared in a way that follows best practice and facilitates reproducibility and reuse.
+
+3. Thank you for stating the following financial disclosure:
+
+“NIH Grant R35 GM132090”
+
+Please state what role the funders took in the study.  If the funders had no role, please state: "The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript."
+
+If this statement is not correct you must amend it as needed.
+
+Please include this amended Role of Funder statement in your cover letter; we will change the online submission form on your behalf.
+
+4. Thank you for stating the following in the Acknowledgments Section of your manuscript:
+
+“This work was supported in part by NIH Grant R35 GM132090.”
+
+We note that you have provided funding information that is not currently declared in your Funding Statement. However, funding information should not appear in the Acknowledgments section or other areas of your manuscript. We will only publish funding information present in the Funding Statement section of the online submission form.
+
+Please remove any funding-related text from the manuscript and let us know how you would like to update your Funding Statement. Currently, your Funding Statement reads as follows:
+
+“NIH Grant R35 GM132090”
+
+Please include your amended statements within your cover letter; we will change the online submission form on your behalf.
+
+5. Please provide a complete Data Availability Statement in the submission form, ensuring you include all necessary access information or a reason for why you are unable to make your data freely accessible. If your research concerns only data provided within your submission, please write "All data are in the manuscript and/or supporting information files" as your Data Availability Statement.
+
+6. If the reviewer comments include a recommendation to cite specific previously published works, please review and evaluate these publications to determine whether they are relevant and should be cited. There is no requirement to cite these works unless the editor has indicated otherwise.
+
+[Note: HTML markup is below. Please do not edit.]
+
+Reviewer's Responses to Questions
+
+Comments to the Author
+
+1. Is the manuscript technically sound, and do the data support the conclusions?
+
+Reviewer #1: Partly
+
+Reviewer #2: Yes
+
+**********
+
+2. Has the statistical analysis been performed appropriately and rigorously? -->?>
+
+Reviewer #1: No
+
+Reviewer #2: Yes
+
+**********
+
+3. Have the authors made all data underlying the findings in their manuscript fully available??>
+
+The PLOS Data policy requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data—e.g. participant privacy or use of data from a third party—those must be specified.requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data—e.g. participant privacy or use of data from a third party—those must be specified.-->
+
+Reviewer #1: No
+
+Reviewer #2: Yes
+
+**********
+
+4. Is the manuscript presented in an intelligible fashion and written in standard English??>
+
+Reviewer #1: Yes
+
+Reviewer #2: Yes
+
+**********
+
+Reviewer #1: The paper is about the benchmark of mutation ddG on two software platforms (FEP+ and Gromacs), on 2 protein system.
+
+1. Correlation should not be the main matrix of comparison. RMSE, kendall tau, or AUE (already being used in the results and discussion), can also be used to evaluate the quality of free energy calculations. And Correlation of ddG is not well defined, because of the following reason. There is not really a direction of A to B and B to A, but plotting some ddG edges of A to B or B to A will give different correlation analysis results.
+
+2. In the method section of “FEP calculations using GROMACS”. Please more clearly explain: 1. What soft-core potential is used? Beutler or Gapsys 2. Soft-core potential is applied to both vdw and coulomb or vdw only. 3. “from λ= 0 to λ = 26 …” is confusing and inconsistent with equation 4 in which λ ϵ [0,1]. 4. Are those 27 windows simulated separately or together with Hamiltonian replica exchange. Hamiltonian replica exchange is an available enhanced sampling method in the native Gromacs mdrun. It does not affect simulation through put while bringing in sampling enhancement. If not using, please justify the reason for not using. 5. “AMBER99sb*ILDN” was stated in method, but “Amber99SB-ILDN” was stated in the abstract. 6. How was the charge neutralized when a charge mutation was applied? 7. Which ion parameters were used? 8. Please clarify the exact lambda schedule for example: 0.0, 0.05, … 1.00 for electrostatic … 9. As a benchmark, all the input files (structure, Gromacs mdp files for every steps), analysis files, and results files (e.i. ddG values in csv file) should be provided, either in SI or a openly available repository. Not only should the value of free energy estimation be reported, the uncertainties of each free energy estimation should also be reported.
+
+3. Please make the x-y axis aspect equal when comparing experiment and computed delta G. As 1 kcal/mol in the experiment means the same as 1 kcal/mol in the experiment.
+
+4. Two platforms (FEP+ and gromacs) are using different force fields, enhanced sampling algorithms, and sampling time. From the benchmark results, can we get some insight about the advantages and disadvantages about OPLS4 vs amber99*ildn and REST2 with 16/24 lambda vs 27 lambda with no replica exchange?
+
+5. Does the magnitude of the error correlate with the type of mutation (sides of the amino acid, neutral or charged mutation). Does the error correlate with the place of the mutation (the surface of the protein or in the core of the protein.) With this benchmark, can we get some insight about what kind of mutation is more difficult to calculate with alchemical free energy calculations.
+
+Reviewer #2: This manuscript presents a systematic benchmarking study comparing FEP calculations using Schrödinger FEP+ and GROMACS platforms for predicting mutation-induced stability changes in S. nuclease and T4 lysozyme. The work is methodologically sound and addresses an important gap in the field by directly comparing two widely-used computational platforms. However, several areas require clarification and improvement before publication.
+
+(1)The manuscript reports good correlations between calculated and experimental ΔΔG values. However, I notice that no statistical uncertainties (e.g., standard deviations or confidence intervals) are provided for the computed free energy changes. Given the stochastic nature of molecular dynamics simulations, it would be valuable to assess the statistical reliability of these predictions. Could the authors clarify whether multiple independent simulations were performed for each mutation? If not, it would be feasible to estimate statistical uncertainties using block averaging or bootstrap methods.
+
+(2)The study employs different numbers of λ-windows between the two platforms: 16-24 for Schrödinger and 27 for GROMACS. I am curious about the specific λ-scheduling strategies used in each platform. Could the authors provide details on: (1) the exact distribution of λ values (uniform vs. non-uniform spacing), (2) whether additional λ-windows were placed in critical regions where electrostatic-to-van der Waals transitions occur, and (3) how the different λ-schedules might affect the precision of free energy integration, particularly in regions of poor phase space overlap? Including supplementary data showing dH/dλ distributions or overlap matrices would help readers assess the adequacy of sampling at each λ-window.
+
+(3)I note that Schrödinger (using MBAR) and GROMACS (using BAR) utilized different free energy estimators. While MBAR is theoretically advantageous, its performance often relies on sufficient λ-window sampling. Did the authors evaluate the specific impact of this methodological difference on the comparative results? For instance, would post-processing the GROMACS data with MBAR yield results significantly different from those obtained with BAR?
+
+(4)I notice that the simulation setup differs between platforms regarding the solvent box size: a 5 Å buffer for Schrödinger versus a 10 Å buffer for GROMACS. The authors need to clarify the rationale behind this difference.
+
+(5)The conclusions of the manuscript heavily rely on the convergence of the simulations. Beyond simulation length, the most compelling evidence would be the time-evolution of the free energy for key calculations. The authors need provide convergence plots of ΔΔG vs. simulation time for some representative mutants (e.g., the best and worst predicted cases) to visually demonstrate the convergence and stability of the calculations?
+
+(6) The dataset includes charge-changing mutations, which introduce net charge artifacts under periodic boundary conditions with PME electrostatics—a well-documented source of systematic error in alchemical free energy calculations. I note that the manuscript briefly mentions the use of a "co-alchemical water" approach in Schrödinger to mitigate this issue, but provides no details on its implementation or validation. More critically, there is no discussion of how GROMACS handles net charge corrections for the same mutations. Could the authors clarify: (1) the exact protocol for the co-alchemical water method and whether it fully compensates for finite-size artifacts, (2) whether GROMACS employs any net charge correction schemes (e.g., the analytical correction by Rocklin et al., J. Chem. Theory Comput. 2013, 9, 3072-3083) or simply relies on a neutralizing background plasma, and (3) how these potentially different treatments between platforms might systematically bias the comparative results? This concern is particularly important given the different box sizes noted in point (4), as finite-size effects scale with system size. I would recommend either: (a) a sensitivity analysis quantifying the magnitude of net charge artifacts for a subset of charge-changing mutations, or (b) a thorough literature-based justification demonstrating that the chosen approaches yield negligible systematic errors under the simulation conditions employed.
+
+(7) A fundamental methodological concern is that this study simultaneously compares two different software platforms, two different force fields (OPLS4 in Schrödinger vs. AMBER99SB*ILDN in GROMACS), two different water models (SPC vs. TIP3P), and different enhanced sampling strategies (REST2 in Schrödinger vs. standard MD in GROMACS). This multifactorial design makes it challenging to disentangle whether the observed differences in performance arise from: (1) software implementation details, (2) force field parameterization, (3) water model effects, or (4) sampling methodology. While I recognize that systematically testing all possible combinations may be beyond the scope of this benchmarking study, this confounding factor represents a significant limitation that should be explicitly acknowledged in both the Discussion and Limitations sections.
+
+**********
+
+what does this mean?). If published, this will include your full peer review and any attached files.). If published, this will include your full peer review and any attached files.). If published, this will include your full peer review and any attached files.). If published, this will include your full peer review and any attached files.
+
+If you choose “no”, your identity will remain anonymous but your review may still be made public.
+
+Do you want your identity to be public for this peer review? For information about this choice, including consent withdrawal, please see our For information about this choice, including consent withdrawal, please see our For information about this choice, including consent withdrawal, please see our For information about this choice, including consent withdrawal, please see our Privacy Policy..-->
+
+Reviewer #1: Yes:Chenggong HuiChenggong HuiChenggong HuiChenggong Hui
+
+Reviewer #2: No
+
+**********
+
+[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files.]
+
+To ensure your figures meet our technical requirements, please review our figure guidelines: https://journals.plos.org/plosone/s/figures
+
+You may also use PLOS’s free figure tool, NAAS, to help you prepare publication quality figures: https://journals.plos.org/plosone/s/figures#loc-tools-for-figure-preparation.
+
+NAAS will assess whether your figures meet our technical requirements by comparing each figure against our figure specifications.
+
+Attachment Submitted filename: review.docx
+
+DOI: 10.1371/journal.pone.0335829.r002
+
+Author response to Decision Letter 1
+
+Submission Version: 1
+
+12 Feb 2026
+
+Authors: We thank both reviewers for the time and effort spent on reviewing our manuscript. Their comments/questions have been very helpful for improving the paper.
+
+Reviewer #1: The paper is about the benchmark of mutation ddG on two software platforms (FEP+ and Gromacs), on 2 protein systems.
+
+1. Correlation should not be the main matrix of comparison. RMSE, kendall tau, or AUE (already being used in the results and discussion), can also be used to evaluate the quality of free energy calculations. And Correlation of ddG is not well defined, because of the following reason. There is not really a direction of A to B and B to A, but plotting some ddG edges of A to B or B to A will give different correlation analysis results.
+
+Authors: We agree that correlation alone does not fully capture the quality of ΔΔG predictions. In response, we have added RMSE, Kendall’s τ, and AUE as additional metrics to assess the accuracy and consistency of the free energy calculations across platforms on sections to provide a more comprehensive and direction-independent evaluation of performance. We have calculated RMSE and Kendall tau values for the comparisons of the experiments with the results of the simulations; they are listed in table S1-S4 and have also been added on page 9 (line # 314-320), page 10 (line # 341-347), page 10 (line # 361- 366) and page 11 (line # 384-391). All these lines have been highlighted in yellow in the main manuscript. The correlation of ΔΔG (Wild type → Mutated) quantifies the agreement between computational predictions and experimental measurements of Gibbs free energy changes upon mutation.
+
+2. In the method section of “FEP calculations using GROMACS”. Please more clearly explain: 1. What soft-core potential is used? Beutler or Gapsys 2. Soft-core potential is applied to both vdw and coulomb or vdw only. 3. “from λ= 0 to λ = 26 …” is confusing and inconsistent with equation 4 in which λ ϵ [0,1]. 4. Are those 27 windows simulated separately or together with Hamiltonian replica exchange. Hamiltonian replica exchange is an available enhanced sampling method in the native Gromacs mdrun. It does not affect simulation through put while bringing in sampling enhancement. If not using, please justify the reason for not using. 5. “AMBER99sb*ILDN” was stated in method, but “Amber99SB-ILDN” was stated in the abstract. 6. How was the charge neutralized when a charge mutation was applied? 7. Which ion parameters were used? 8. Please clarify the exact lambda schedule for example: 0.0, 0.05, … 1.00 for electrostatic … 9. As a benchmark, all the input files (structure, Gromacs mdp files for every steps), analysis files, and results files (e.i. ddG values in csv file) should be provided, either in SI or a openly available repository. Not only should the value of free energy estimation be reported, the uncertainties of each free energy estimation should also be reported.
+
+Authors: The Methods section has been revised to clarify all points as follows:
+
+Soft-core potential: The Beutler soft-core potential (Beutler et al., J. Comput. Chem. 1994; https://pubs.acs.org/doi/10.1021/ct300220p) is used in GROMACS.
+
+Application: The soft-core potential was applied to both van der Waals and Coulomb interactions to ensure a smooth decoupling process.
+
+λ notation: We have clarified the text to read “from λ index 0 to λ index 26”, corresponding to 27 windows over λ ∈ [0,1].
+
+Not Replica exchange: The 27 windows were simulated separately.
+
+Force field naming: The inconsistency has been corrected to “AMBER99sb*ILDN” throughout the manuscript.
+
+Charge neutralization: For charge-changing mutations, a counter-ion (Na⁺ or Cl⁻) was mutated to water to maintain charge neutrality.
+
+Ion parameters: Na⁺ and Cl⁻ ion parameters compatible with the TIP3P water model were used, consistent with the AMBER99sb*ILDN force field.
+
+λ schedule: The λ schedule has been added explicitly in the revised Methods section. This has been added for Schrodinger and GROMACS on page 6 and 7 in line no. 218-219, and pg- 244-246 respectively.
+
+Data availability: All input files (system structures, GROMACS input and output files, analysis scripts, and ΔΔG results with uncertainties) are stored on our laboratory server. We will make them available upon request or upload them to an open-access repository in the final submission to ensure full reproducibility.
+
+3. Please make the x-y axis aspect equal when comparing experiment and computed delta G. As 1 kcal/mol in the experiment means the same as 1 kcal/mol in the experiment.
+
+Authors: The figures comparing experimental and computed ΔG values have been updated to use equal x–y axis scaling, ensuring a one-to-one correspondence between the two datasets.
+
+4. Two platforms (FEP+ and gromacs) are using different force fields, enhanced sampling algorithms, and sampling time. From the benchmark results, can we get some insight about the advantages and disadvantages about OPLS4 vs amber99*ildn and REST2 with 16/24 lambda vs 27 lambda with no replica exchange?
+
+Authors: As noted on page 9, we have discussed the complementary strengths and limitations of the two platforms:
+
+“In this work, we employed two widely used MD platforms – Schrödinger FEP+ and GROMACS – for FEP simulations, each offering distinct advantages and limitations. GROMACS is an open-source, freely available MD engine known for its flexibility, extensive customizability, and support for a broad range of force fields, including AMBER, CHARMM, OPLS, and GROMOS. However, its implementation for FEP workflows requires manual setup, command-line proficiency, and greater time investment, making it less accessible to non-expert users.
+
+In contrast, Schrödinger FEP+ is a commercial, closed-source platform that employs a modified OPLS4 force field. While it provides less flexibility, its user-friendly interface, automated FEP+ workflow, and enhanced sampling via REST2 (Replica Exchange with Solute Tempering) streamline the process and enhance convergence, particularly for systems with significant conformational heterogeneity.”
+
+5. Does the magnitude of the error correlate with the type of mutation (sides of the amino acid, neutral or charged mutation). Does the error correlate with the place of the mutation (the surface of the protein or in the core of the protein.) With this benchmark, can we get some insight about what kind of mutation is more difficult to calculate with alchemical free energy calculations.
+
+Authors: To investigate these possible correlations, we analyzed the magnitude of the prediction error as a function of both mutation type and location (shown in Table S5 and S6). We have tabulated the error distribution by mutation type (neutral or charged) and by mutation location (surface vs. buried residues). There is a direct correlation between the magnitude of size change and the error. Mutations with No Change (NC) are the most accurate. As we move to Size Increases, the error rises significantly. Charged mutations have larger errors than neutral ones, particularly for the Schrödinger dataset. Overall, Surface mutations tend to have higher errors than Buried mutations. The most difficult scenario identified is charge-changing mutations at the protein-solvent interface and bulky side-chain growth.
+
+Reviewer #2: This manuscript presents a systematic benchmarking study comparing FEP calculations using Schrödinger FEP+ and GROMACS platforms for predicting mutation-induced stability changes in S. nuclease and T4 lysozyme. The work is methodologically sound and addresses an important gap in the field by directly comparing two widely-used computational platforms. However, several areas require clarification and improvement before publication.
+
+(1) The manuscript reports good correlations between calculated and experimental ΔΔG values. However, I notice that no statistical uncertainties (e.g., standard deviations or confidence intervals) are provided for the computed free energy changes. Given the stochastic nature of molecular dynamics simulations, it would be valuable to assess the statistical reliability of these predictions. Could the authors clarify whether multiple independent simulations were performed for each mutation? If not, it would be feasible to estimate statistical uncertainties using block averaging or bootstrap methods.
+
+Authors: We have now calculated and reported statistical uncertainties for all computed ΔΔG values. These uncertainties were obtained from multiple independent simulations performed for each mutation. The resulting error bars are now included in the revised manuscript/Supplementary Information and figures to reflect the statistical reliability of our free energy estimates.
+
+(2) The study employs different numbers of λ-windows between the two platforms: 16-24 for Schrödinger and 27 for GROMACS. I am curious about the specific λ-scheduling strategies used in each platform. Could the authors provide details on: (1) the exact distribution of λ values (uniform vs. non-uniform spacing), (2) whether additional λ-windows were placed in critical regions where electrostatic-to-van der Waals transitions occur, and (3) how the different λ-schedules might affect the precision of free energy integration, particularly in regions of poor phase space overlap? Including supplementary data showing dH/dλ distributions or overlap matrices would help readers assess the adequacy of sampling at each λ-window.
+
+Authors: We thank the reviewer for this suggestion.
+
+The exact λ-schedules used in GROMACS and Schrödinger FEP+ are now provided in the revised manuscript.
+
+In both platforms, denser λ-spacing was applied near the end states to improve phase-space overlap and sampling stability.
+
+To further evaluate sampling adequacy, we have included dH/dλ overlap matrices plots for representative mutations in the Supplementary Information. These analyses confirm sufficient overlap between neighboring λ-windows for reliable free energy integration. Figures S5 and S6 provide overlap matrix plots for the S. nuclease (mutation T41C and T41V) and T4 lysozyme (mutation T59G and G77A) systems.
+
+(3)I note that Schrödinger (using MBAR) and GROMACS (using BAR) utilized different free energy estimators. While MBAR is theoretically advantageous, its performance often relies on sufficient λ-window sampling. Did the authors evaluate the specific impact of this methodological difference on the comparative results? For instance, would post-processing the GROMACS data with MBAR yield results significantly different from those obtained with BAR?
+
+Authors: We have re-analyzed the GROMACS data using MBAR and found that the resulting ΔΔG values are very similar to those obtained with BAR, indicating that the choice of estimator does not significantly affect the comparative conclusions. The corresponding results are provided in Table S1 and Table S4 of the Supplementary Information.
+
+(4)I notice that the simulation setup differs between platforms regarding the solvent box size: a 5 Å buffer for Schrödinger versus a 10 Å buffer for GROMACS. The authors need to clarify the rationale behind this difference.
+
+Authors: The solvent box sizes used in each platform (5 Å buffer for Schrödinger and 10 Å buffer for GROMACS) reflect the default/common-used settings of the respective workflows. These defaults have been chosen to balance computational efficiency and simulation stability.
+
+(5) The conclusions of the manuscript heavily rely on the convergence of the simulations. Beyond simulation length, the most compelling evidence would be the time-evolution of the free energy for key calculations. The authors need provide convergence plots of ΔΔG vs. simulation time for some representative mutants (e.g., the best and worst predicted cases) to visually demonstrate the convergence and stability of the calculations?
+
+Authors: We thank the reviewer for this important suggestion. The convergence plots of ΔΔG versus simulation time for representative mutants (mutation L25I and T33V in S nuclease, mutation S44A and D47A in T4) have been added to the Supplementary Information (Figures S7 and S8). These plots demonstrate that the free energy estimates for both systems are stable and sufficiently converged over the simulation trajectory.
+
+(6) The dataset includes charge-changing mutations, which introduce net charge artifacts under periodic boundary conditions with PME electrostatics—a well-documented source of systematic error in alchemical free energy calculations. I note that the manuscript briefly mentions the use of a "co-alchemical water" approach in Schrödinger to mitigate this issue but provides no details on its implementation or validation. More critically, there is no discussion of how GROMACS handles net charge corrections for the same mutations. Could the authors clarify: (1) the exact protocol for the co-alchemical water method and whether it fully compensates for finite-size artifacts, (2) whether GROMACS employs any net charge correction schemes (e.g., the analytical correction by Rocklin et al., J. Chem. Theory Comput. 2013, 9, 3072-3083) or simply relies on a neutralizing background plasma, and (3) how these potentially different treatments between platforms might systematically bias the comparative results? This concern is particularly important given the different box sizes noted in point (4), as finite-size effects scale with system size. I would recommend either: (a) a sensitivity analysis quantifying the magnitude of net charge artifacts for a subset of charge-changing mutations, or (b) a thorough literature-based justification demonstrating that the chosen approaches yield negligible systematic errors under the simulation conditions employed.
+
+Authors: We clarify the treatment of charge-changing mutations in both platforms as follows: Schrödinger FEP+ (co-alchemical water): For charge-changing mutations, co-alchemical ions (Specifically, the co-alchemical ion is a Na+ if the charged residue is negative, or a Cl− if the residue is positively charged.) were mutated to water using the co-alchemical water approach, which is designed to maintain overall charge neutrality during the alchemical transformation and mitigate finite-size artifacts. This method has been previously validated in the literature (https://pmc.ncbi.nlm.nih.gov/articles/PMC6453258/)
+
+GROMACS: We employed a similar strategy, introducing counter-ions in the alchemical transformation to neutralize charge changes, effectively implementing a “co-alchemical ion” scheme analogous to that in FEP+.
+
+Comparative impact: Our benchmark results for charge-changing mutations indicate that the ΔΔG predictions remain consistent between platforms, suggesting that the chosen neutralization schemes do not introduce significant systematic bias.
+
+Given our observed agreement between platforms and the small magnitude of potential artifacts, we consider the applied neutralization schemes adequate for this benchmark.
+
+(7) A fundamental methodological concern is that this study simultaneously compares two different software platforms, two different force fields (OPLS4 in Schrödinger vs. AMBER99SB*ILDN in GROMACS), two different water models (SPC vs. TIP3P), and different enhanced sampling strategies (REST2 in Schrödinger vs. standard MD in GROMACS). This multifactorial design makes it challenging to disentangle whether the observed differences in performance arise from: (1) software implementation details, (2) force field parameterization, (3) water model effects, or (4) sampling methodology. While I recognize that systematically testing all possible combinations may be beyond the scope of this benchmarking study, this confounding factor represents a significant limitation that should be explicitly acknowledged in both the Discussion and Limitations sections.
+
+Authors: We have updated the Discussion and Limitations sections to explicitly acknowledge that the multifactorial differences between platforms - including software implementations, force fields, water models, and sampling protocols -
+
+Attachment Submitted filename: Response-to-Reviews_020926.docx
+
+DOI: 10.1371/journal.pone.0335829.r003
+
+Decision Letter 1
+
+Wang Yong Academic Editor
+Copyright: © 2026 Yong WangYong WangYong WangYong Wang
+Copyright year: 2026
+Copyright holder: Yong WangYong WangYong WangYong Wang
+License: This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited., which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited., which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited., which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Submission Version: 1
+
+9 Mar 2026
+
+Benchmarking Free Energy Calculations: Analysis of Single and Double Mutations Across Two Simulation Software Platforms for Two Protein Systems
+
+PONE-D-25-56221R1
+
+Dear Dr. Levy,
+
+We’re pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it meets all outstanding technical requirements.
+
+Within one week, you’ll receive an e-mail detailing the required amendments. When these have been addressed, you’ll receive a formal acceptance letter and your manuscript will be scheduled for publication.
+
+An invoice will be generated when your article is formally accepted. Please note, if your institution has a publishing partnership with PLOS and your article meets the relevant criteria, all or part of your publication costs will be covered. Please make sure your user information is up-to-date by logging into Editorial Manager at Editorial Manager® and clicking the ‘Update My Information' link at the top of the page. For questions related to billing, please contact  and clicking the ‘Update My Information' link at the top of the page. For questions related to billing, please contact  and clicking the ‘Update My Information' link at the top of the page. For questions related to billing, please contact  and clicking the ‘Update My Information' link at the top of the page. For questions related to billing, please contact billing support....
+
+If your institution or institutions have a press office, please notify them about your upcoming paper to help maximize its impact. If they’ll be preparing press materials, please inform our press team as soon as possible -- no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact onepress@plos.org.
+
+Kind regards,
+
+Yong Wang
+
+Academic Editor
+
+PLOS One
+
+Additional Editor Comments (optional):
+
+Reviewers' comments:
+
+Reviewer's Responses to Questions
+
+Comments to the Author
+
+Reviewer #1: All comments have been addressed
+
+Reviewer #2: All comments have been addressed
+
+**********
+
+2. Is the manuscript technically sound, and do the data support the conclusions??>
+
+Reviewer #1: Yes
+
+Reviewer #2: Yes
+
+**********
+
+3. Has the statistical analysis been performed appropriately and rigorously? -->?>
+
+Reviewer #1: Yes
+
+Reviewer #2: Yes
+
+**********
+
+4. Have the authors made all data underlying the findings in their manuscript fully available??>
+
+The PLOS Data policy requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data—e.g. participant privacy or use of data from a third party—those must be specified.requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data—e.g. participant privacy or use of data from a third party—those must be specified.-->
+
+Reviewer #1: Yes
+
+Reviewer #2: Yes
+
+**********
+
+5. Is the manuscript presented in an intelligible fashion and written in standard English??>
+
+Reviewer #1: Yes
+
+Reviewer #2: Yes
+
+**********
+
+Reviewer #1: All the questions have been addressed.
+
+Reviewer #2: (No Response)
+
+**********
+
+what does this mean?). If published, this will include your full peer review and any attached files.). If published, this will include your full peer review and any attached files.). If published, this will include your full peer review and any attached files.). If published, this will include your full peer review and any attached files.
+
+If you choose “no”, your identity will remain anonymous but your review may still be made public.
+
+Do you want your identity to be public for this peer review? For information about this choice, including consent withdrawal, please see our For information about this choice, including consent withdrawal, please see our For information about this choice, including consent withdrawal, please see our For information about this choice, including consent withdrawal, please see our Privacy Policy..-->
+
+Reviewer #1: Yes:Chenggong HuiChenggong HuiChenggong HuiChenggong Hui
+
+Reviewer #2: No
+
+**********
+
+DOI: 10.1371/journal.pone.0335829.r004
+
+Acceptance letter
+
+Wang Yong Academic Editor
+Copyright: © 2026 Yong WangYong WangYong WangYong Wang
+Copyright year: 2026
+Copyright holder: Yong WangYong WangYong WangYong Wang
+License: This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited., which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited., which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited., which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+PONE-D-25-56221R1
+
+PLOS One
+
+Dear Dr. Levy,
+
+I'm pleased to inform you that your manuscript has been deemed suitable for publication in PLOS One. Congratulations! Your manuscript is now being handed over to our production team.
+
+At this stage, our production department will prepare your paper for publication. This includes ensuring the following:
+
+* All references, tables, and figures are properly cited
+
+* All relevant supporting information is included in the manuscript submission,
+
+* There are no issues that prevent the paper from being properly typeset
+
+You will receive further instructions from the production team, including instructions on how to review your proof when it is ready. Please keep in mind that we are working through a large volume of accepted articles, so please give us a few days to review your paper and let you know the next and final steps.
+
+Lastly, if your institution or institutions have a press office, please let them know about your upcoming paper now to help maximize its impact. If they'll be preparing press materials, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact onepress@plos.org.
+
+You will receive an invoice from PLOS for your publication fee after your manuscript has reached the completed accept phase. If you receive an email requesting payment before acceptance or for any other service, this may be a phishing scheme. Learn how to identify phishing emails and protect your accounts at https://explore.plos.org/phishing.
+
+If we can help with anything else, please email us at customercare@plos.org.
+
+Thank you for submitting your work to PLOS ONE and supporting open access.
+
+Kind regards,
+
+PLOS ONE Editorial Office Staff
+
+on behalf of
+
+Dr. Yong Wang
+
+Academic Editor
+
+PLOS One
+
+
+References
+
+1 Soskine M , Tawfik DS . Mutational effects and the evolution of new protein functions. Nat Rev Genet. 2010;11(8):572–82. doi: 10.1038/nrg2808 20634811
+2 Nisthal A , Wang CY , Ary ML , Mayo SL . Protein stability engineering insights revealed by domain-wide comprehensive mutagenesis. Proc Natl Acad Sci U S A. 2019;116(33):16367–77. doi: 10.1073/pnas.1903888116 31371509 PMC6697890
+3 Mannige R . Dynamic new world: refining our view of protein structure, function and evolution. Proteomes. 2014;2:128–53.28250374 10.3390/proteomes2010128 PMC5302727
+4 Dill KA , MacCallum JL . The protein-folding problem, 50 years on. Science. 2012;338(6110):1042–6. doi: 10.1126/science.1219021 23180855
+5 Pack SP , Yoo YJ . Protein thermostability: structure-based difference of amino acid between thermophilic and mesophilic proteins. J Biotechnol. 2004;111(3):269–77. doi: 10.1016/j.jbiotec.2004.01.018 15246663
+6 Duan J , Nilsson L , Lambert B . Structural and functional analysis of mutations at the human hypoxanthine phosphoribosyl transferase (HPRT1) locus. Hum Mutat. 2004;23(6):599–611. doi: 10.1002/humu.20047 15146465
+7 Stefl S , Nishi H , Petukh M , Panchenko AR , Alexov E . Molecular mechanisms of disease-causing missense mutations. J Mol Biol. 2013;425(21):3919–36. doi: 10.1016/j.jmb.2013.07.014 23871686 PMC3796015
+8 Petukh M , Kucukkal TG , Alexov E . On human disease-causing amino acid variants: statistical study of sequence and structural patterns. Hum Mutat. 2015;36(5):524–34. doi: 10.1002/humu.22770 25689729 PMC4409542
+9 Ponnuswamy PK , Muthusamy R , Manavalan P . Amino acid composition and thermal stability of proteins. Int J Biol Macromol. 1982;4:186–90.
+10 Rigoldi F , Donini S , Redaelli A , Parisini E , Gautieri A . Review: Engineering of thermostable enzymes for industrial applications. APL Bioeng. 2018;2(1):011501. doi: 10.1063/1.4997367 31069285 PMC6481699
+11 McConnell AD , Zhang X , Macomber JL , Chau B , Sheffer JC , Rahmanian S , et al. A general approach to antibody thermostabilization. MAbs. 2014;6(5):1274–82. doi: 10.4161/mabs.29680 25517312 PMC4623350
+12 Scarabelli G , Oloo EO , Maier JKX , Rodriguez-Granillo A . Accurate Prediction of Protein Thermodynamic Stability Changes upon Residue Mutation using Free Energy Perturbation. J Mol Biol. 2022;434(2):167375. doi: 10.1016/j.jmb.2021.167375 34826524
+13 Wang C , Zhao T , Li Y , Huang G , White MA , Gao J . Investigation of endosome and lysosome biology by ultra pH-sensitive nanoprobes. Adv Drug Deliv Rev. 2017;113:87–96. doi: 10.1016/j.addr.2016.08.014 27612550 PMC5339051
+14 Srinivasan J , Miller J , Kollman PA , Case DA . Continuum solvent studies of the stability of RNA hairpin loops and helices. J Biomol Struct Dyn. 1998;16(3):671–82. doi: 10.1080/07391102.1998.10508279 10052623
+15 Gapsys V , Michielssens S , Seeliger D , de Groot BL . Accurate and Rigorous Prediction of the Changes in Protein Free Energies in a Large-Scale Mutation Scan. Angew Chem Int Ed Engl. 2016;55(26):7364–8. doi: 10.1002/anie.201510054 27122231 PMC5074281
+16 Dang LX , Merz KM , Kollman PA . Free energy calculations on protein stability: Thr-157.fwdarw. Val-157 mutation of T4 lysozyme. J Am Chem Soc. 1989;111:8505–8.
+17 Jespers W , et al. QresFEP: An automated protocol for free energy calculations of protein mutations. J Chem Theory Comput. 2019;15:5461–73.31436990 10.1021/acs.jctc.9b00538
+18 Jorgensen WL , Ravimohan C . Monte Carlo simulation of differences in free energies of hydration. J Chem Phys. 1985;83:3050–4.
+19 Beveridge DL , DiCapua FM . Free energy via molecular simulation: applications to chemical and biomolecular systems. Annu Rev Biophys Biophys Chem. 1989;18:431–92.2660832 10.1146/annurev.bb.18.060189.002243
+20 Pohorille A , Jarzynski C , Chipot C . Good practices in free-energy calculations. J Phys Chem B. 2010;114(32):10235–53. doi: 10.1021/jp102971x 20701361
+21 Zwanzig RW . High-Temperature Equation of State by a Perturbation Method. I. Nonpolar Gases. J Chem Phys. 1954;22:1420–6.
+22 Flanagan JM , Kataoka M , Shortle D , Engelman DM . Truncated staphylococcal nuclease is compact but disordered. Proc Natl Acad Sci U S A. 1992;89(2):748–52. doi: 10.1073/pnas.89.2.748 1731350 PMC48316
+23 Shortle D . Staphylococcal nuclease: a showcase of m-value effects. Adv Protein Chem. 1995;46:217–47. doi: 10.1016/s0065-3233(08)60336-8 7771319
+24 Tucker PW , Hazen EE , Cotton FA . Staphylococcal nuclease reviewed: A prototypic study in contemporary enzymology. Mol Cell Biochem. 1979;23:131–41.90333 10.1007/BF00219452
+25 Anfinsen CB . Principles that govern the folding of protein chains. Science. 1973;181(4096):223–30. doi: 10.1126/science.181.4096.223 4124164
+26 Jarde fzky O, Wade- Jarde fzky NG. Nuclear magnetic resonance as a structural method.
+27 Shortle D , Stites WE , Meeker AK . Contributions of the large hydrophobic amino acids to the stability of staphylococcal nuclease. Biochemistry. 1990;29(35):8033–41. doi: 10.1021/bi00487a007 2261461
+28 Green SM , Meeker AK , Shortle D . Contributions of the polar, uncharged amino acids to the stability of staphylococcal nuclease: evidence for mutational effects on the free energy of the denatured state. Biochemistry. 1992;31(25):5717–28. doi: 10.1021/bi00140a005 1610820
+29 Green SM , Shortle D . Patterns of nonadditivity between pairs of stability mutations in staphylococcal nuclease. Biochemistry. 1993;32.10.1021/bi00089a032 8399139
+30 Alber, T. & Matthews, BW. Structure and thermal stability of phage T4 lysozyme. in Methods in Enzymology. 1987;154:511–33.10.1016/0076-6879(87)54093-9 3323816
+31 Schellman JA , Lindorfer M , Hawkes R , Grutter M . Mutations and protein stability. Biopolymers. 1981;20:1989–99.7306671 10.1002/bip.1981.360200921
+32 Becktel WJ , Baase WA . Thermal denaturation of bacteriophage T4 lysozyme at neutral pH. Biopolymers. 1987;26(5):619–23. doi: 10.1002/bip.360260505 3297180
+33 Cornish VW , Kaplan MI , Veenstra DL , Kollman PA , Schultz PG . Stabilizing and destabilizing effects of placing beta-branched amino acids in protein alpha-helices. Biochemistry. 1994;33(40):12022–31. doi: 10.1021/bi00206a003 7918421
+34 Nicholson H , Tronrud DE , Becktel WJ , Matthews BW . Analysis of the effectiveness of proline substitutions and glycine replacements in increasing the stability of phage T4 lysozyme. Biopolymers. 1992;32(11):1431–41. doi: 10.1002/bip.360321103 1457724
+35 Matsumura M , Becktel WJ , Matthews BW . Hydrophobic stabilization in T4 lysozyme determined directly by multiple substitutions of Ile 3. Nature. 1988;334(6181):406–10. doi: 10.1038/334406a0 3405287
+36 Heinz DW , et al. Accommodation of amino acid insertions in an α-helix of T4 lysozyme. J Mol Biol. 1994;236:869–86.8114100 10.1006/jmbi.1994.1195
+37 Sun DP , Sauer U , Nicholson H , Matthews BW . Contributions of engineered surface salt bridges to the stability of T4 lysozyme determined by directed mutagenesis. Biochemistry. 1991;30(29):7142–53. doi: 10.1021/bi00243a015 1854726
+38 Bell JA , Becktel WJ , Sauer U , Baase WA , Matthews BW . Dissection of Helix Capping in T4 Lysozyme by Structural and Thermodynamic Analysis of Six Amino Acid Substitutions at Thr 59. Biochemistry. 1992;31:3590–6.1567817 10.1021/bi00129a006
+39 Matthews BW , Nicholson H , Becktel WJ . Enhanced protein thermostability from site-directed mutations that decrease the entropy of unfolding. Proc Natl Acad Sci U S A. 1987;84(19):6663–7. doi: 10.1073/pnas.84.19.6663 3477797 PMC299143
+40 Heinz DW , Baase WA , Matthews BW . Folding and function of a T4 lysozyme containing 10 consecutive alanines illustrate the redundancy of information in an amino acid sequence. Proc Natl Acad Sci U S A. 1992;89(9):3751–5. doi: 10.1073/pnas.89.9.3751 1570293 PMC525568
+41 Nicholson H , Anderson DE , Dao-pin S , Matthews BW . Analysis of the interaction between charged side chains and the alpha-helix dipole using designed thermostable mutants of phage T4 lysozyme. Biochemistry. 1991;30(41):9816–28. doi: 10.1021/bi00105a002 1911773
+42 Duan J , Lupyan D , Wang L . Improving the Accuracy of Protein Thermostability Predictions for Single Point Mutations. Biophys J. 2020;119(1):115–27. doi: 10.1016/j.bpj.2020.05.020 32533939 PMC7335905
+43 Werner M , Gapsys V , de Groot BL . One plus one makes three: triangular coupling of correlated amino acid mutations. J Phys Chem Lett. 2021;12:3195–201.33760609 10.1021/acs.jpclett.1c00380 PMC8041375
+44 Markthaler D , Kraus H , Hansen N . Overcoming Convergence Issues in Free-Energy Calculations of Amide-to-Ester Mutations in the Pin1-WW Domain. J Chem Inf Model. 2018;58(11):2305–18. doi: 10.1021/acs.jcim.8b00581 30339754
+45 Lu C , et al. OPLS4: Improving force field accuracy on challenging regimes of chemical space. J Chem Theory Comput. 2021;17:4291–300.34096718 10.1021/acs.jctc.1c00302
+46 Wang L , Deng Y , Knight JL , Wu Y , Kim B , Sherman W , et al. Modeling Local Structural Rearrangements Using FEP/REST: Application to Relative Binding Affinity Predictions of CDK2 Inhibitors. J Chem Theory Comput. 2013;9(2):1282–93. doi: 10.1021/ct300911a 26588769
+47 Wang L , Berne BJ , Friesner RA . On achieving high accuracy and reliability in the calculation of relative protein-ligand binding affinities. Proc Natl Acad Sci U S A. 2012;109(6):1937–42. doi: 10.1073/pnas.1114017109 22308365 PMC3277581
+48 Bowers KJ , Chow DE , Xu H , Dror RO , Eastwood MP , Gregersen BA , et al. Scalable Algorithms for Molecular Dynamics Simulations on Commodity Clusters. In: ACM/IEEE SC 2006 Conference (SC’06), 2006. 43–43. doi: 10.1109/sc.2006.54
+49 Darden T , York D , Pedersen L . Particle mesh Ewald: An N ⋅log(N) method for Ewald sums in large systems. J Chem Phys. 1993;98:10089–92.
+50 Essmann U , et al. A smooth particle mesh Ewald method. J Chem Phys. 1995;103:8577–93.
+51 Shirts MR , Chodera JD . Statistically optimal analysis of samples from multiple equilibrium states. J Chem Phys. 2008;129(12):124105. doi: 10.1063/1.2978177 19045004 PMC2671659
+52 Van Der Spoel D , Lindahl E , Hess B , Groenhof G , Mark AE , Berendsen HJC . GROMACS: fast, flexible, and free. J Comput Chem. 2005;26(16):1701–18. doi: 10.1002/jcc.20291 16211538
+53 Kohnke B , Kutzner C , Grubmüller H . A GPU-Accelerated Fast Multipole Method for GROMACS: Performance and Accuracy. J Chem Theory Comput. 2020;16(11):6938–49. doi: 10.1021/acs.jctc.0c00744 33084336 PMC7660746
+54 Gapsys V , de Groot BL . pmx Webserver: A User Friendly Interface for Alchemistry. J Chem Inf Model. 2017;57(2):109–14. doi: 10.1021/acs.jcim.6b00498 28181802
+55 Lindorff-Larsen K , Piana S , Palmo K , Maragakis P , Klepeis JL , Dror RO , et al. Improved side-chain torsion potentials for the Amber ff99SB protein force field. Proteins. 2010;78(8):1950–8. doi: 10.1002/prot.22711 20408171 PMC2970904
+56 Best RB , Hummer G . Optimized molecular dynamics force fields applied to the helix-coil transition of polypeptides. J Phys Chem B. 2009;113(26):9004–15. doi: 10.1021/jp901540t 19514729 PMC3115786
+57 Hornak V , Abel R , Okur A , Strockbine B , Roitberg A , Simmerling C . Comparison of multiple Amber force fields and development of improved protein backbone parameters. Proteins. 2006;65(3):712–25. doi: 10.1002/prot.21123 16981200 PMC4805110
+58 Aldeghi M , Gapsys V , de Groot BL . Accurate Estimation of Ligand Binding Affinity Changes upon Protein Mutation. ACS Cent Sci. 2018;4(12):1708–18. doi: 10.1021/acscentsci.8b00717 30648154 PMC6311686
+59 Jorgensen WL , Chandrasekhar J , Madura JD , Impey RW , Klein ML . Comparison of simple potential functions for simulating liquid water. J Chem Phys. 1983;79:926–35.
+60 Bussi G , Donadio D , Parrinello M . Canonical sampling through velocity rescaling. J Chem Phys. 2007;126(1):014101. doi: 10.1063/1.2408420 17212484
+61 Parrinello M , Rahman A . Polymorphic transitions in single crystals: A new molecular dynamics method. J Appl Phys. 1981;52:7182–90.
+62 Bennett CH . Efficient estimation of free energy differences from Monte Carlo data. J Comput Phys. 1976;22:245–68.
+63 Shirts MR , Pande VS . Comparison of efficiency and bias of free energies computed by exponential averaging, the Bennett acceptance ratio, and thermodynamic integration. J Chem Phys. 2005;122(14):144107. doi: 10.1063/1.1873592 15847516
+64 Abel R , Wang L , Harder ED , Berne BJ , Friesner RA . Advancing Drug Discovery through Enhanced Free Energy Calculations. Acc Chem Res. 2017;50(7):1625–32. doi: 10.1021/acs.accounts.7b00083 28677954
+65 Abel R , Wang L , Mobley DL , Friesner RA . A Critical Review of Validation, Blind Testing, and Real- World Use of Alchemical Protein-Ligand Binding Free Energy Calculations. Curr Top Med Chem. 2017;17(23):2577–85. doi: 10.2174/1568026617666170414142131 28413950
+66 Steinbrecher T , Zhu C , Wang L , Abel R , Negron C , Pearlman D , et al. Predicting the Effect of Amino Acid Single-Point Mutations on Protein Stability-Large-Scale Validation of MD-Based Relative Free Energy Calculations. J Mol Biol. 2017;429(7):948–63. doi: 10.1016/j.jmb.2016.12.007 27964946

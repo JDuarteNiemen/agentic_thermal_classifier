@@ -1,0 +1,14 @@
+Characterization and genomic analysis of a novel Pseudoalteromonas phage PS_L5.
+
+Pseudoalteromonas is a widely distributed bacterial genus that is associated with marine algae.
+However, there is still limited knowledge about their bacteriophage. In this study, we reported the
+isolation of a novel lytic bacteriophage that infects Pseudoalteromonas marina. Transmission
+electron microscopy revealed that PS_L5 had an icosahedral head of 52.6 ± 2 nm and a non-contractile
+tail with length of 96.5 ± 2 nm. The genome sequence of this phage was 34, 257 bp and had a GC
+content of 40.75%. Furthermore, this genome contained 61 predicted open reading frames (ORFs), which
+involved in various functions such as phage structure, packaging, DNA metabolism, host lysis and
+other additional functions. Additionally, the phylogenetic analysis based on major capsid protein
+showed that the phage PS_L5 was closely related to five other Pseudoalteromonas phages, namely PHS3,
+PHS21, AL, SL25 and Pq0 which also possessed the non-contractile long tail. This study provided the
+fundamental insights into the evolutionary dynamics of Pseudoalteromonas phages and the interaction
+between phage and host.

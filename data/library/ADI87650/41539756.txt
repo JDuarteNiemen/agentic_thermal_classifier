@@ -1,0 +1,15 @@
+Multivalent bacteriophage nanoemulsions enhance T4 phage gastrointestinal stability and retention for bactericidal activity.
+
+Bacteriophages are promising antibacterial agents across the farm-to-fork continuum. Oral phage
+efficacy against infections, however, is limited by poor digestion tolerance. To enhance oral phage
+delivery, we synthesized T4 phage-chitosan conjugates and self-assembled them with phospholipids
+into protective nanoemulsions. We evaluated chitosan concentration effects on grafting efficiency,
+phage viability in simulated gastrointestinal (GI) conditions, and antibacterial activity.
+Nanoemulsions with moderate chitosan concentrations (50-100 μg/mL) optimally protected phages during
+gastric transit, rescuing ∼5 log10 PFU/mL viability versus free phages. Higher concentrations
+impaired phage viability and release, while lower concentrations provided inadequate assembly. The
+optimized formulation (Phage-CL-50) showed superior efficacy against invasive bacteria and biofilms
+in intestinal epithelia, enabling recoverable transepithelial transport. In mice, Phage-CL-50
+significantly enhanced GI phage retention and antibacterial performance. This nanoemulsion strategy
+offers a rational approach for developing robust oral phage formulations in food industry
+applications through targeted formulation optimization.

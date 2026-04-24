@@ -1,0 +1,16 @@
+Metabolites from intact phage-infected Synechococcus chemotactically attract heterotrophic marine bacteria.
+
+Chemical cues mediate interactions between marine phytoplankton and bacteria, underpinning
+ecosystem-scale processes including nutrient cycling and carbon fixation. Phage infection alters
+host metabolism, stimulating the release of chemical cues from intact plankton, but how these
+dynamics impact ecology and biogeochemistry is poorly understood. Here we determine the impact of
+phage infection on dissolved metabolite pools from marine cyanobacteria and the subsequent
+chemotactic response of heterotrophic bacteria using time-resolved metabolomics and microfluidics.
+Metabolites released from intact, phage-infected Synechococcus elicited strong chemoattraction from
+Vibrio alginolyticus and Pseudoalteromonas haloplanktis, especially during early infection stages.
+Sustained bacterial chemotaxis occurred towards live-infected Synechococcus, contrasted by no
+discernible chemotaxis towards uninfected cyanobacteria. High-throughput microfluidics identified
+5'-deoxyadenosine and 5'-methylthioadenosine as key attractants. Our findings establish that, before
+lysis, phage-infected picophytoplankton release compounds that attract motile heterotrophic
+bacteria, suggesting a mechanism for resource transfer that might impact carbon and nutrient fluxes
+across trophic levels.

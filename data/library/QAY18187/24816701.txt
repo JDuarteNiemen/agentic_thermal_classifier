@@ -1,0 +1,14 @@
+Identification and characterization of a helicase-like protein encoded by a Thermus siphoviridae phage 4 gene.
+
+DNA helicases are essential motor proteins that unwind duplex DNA to yield the transient single-
+stranded DNA intermediates required for replication, recombination, and repair. As laboratory model
+strains of thermostable bacteria, the roles of Thermus have been studied and discussed extensively.
+In this study, one gene (ORF42) encoding a helicase-like protein of TSP4 (Thermus Siphoviridae phage
+4) was identified and characterized. The results showed that ORF42 protein shared a higher homology
+to the DnaB helicases of Thermus bacteriophages P74-26 and P24-46. DNA helicase assay and atomic
+force microscopy (AFM) revealed that ORF42 protein was an Mg(2+)-dependent helicase with ATPase
+activity and involved in DNA unwinding. These evidences indicated that ORF42 protein, homologue of
+DnaB, probably acts as a helicase in TSP4. This study will not only contribute to explore the co-
+evolution of Thermus phages and their hosts but also shed a new light on the "arm-race" pattern
+between Thermus and its predator (TSP4), providing a basis for the theoretical investigations of new
+generation bacteriophage therapy.

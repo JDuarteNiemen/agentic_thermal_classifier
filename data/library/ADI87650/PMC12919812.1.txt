@@ -1,0 +1,726 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: PLoS One
+Journal ID: PLoS One
+Journal ID: plos
+
+PLOS One
+
+EISSN: 1932-6203
+Publisher: PLOS
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC12919812
+PMID: 41712621
+DOI: 10.1371/journal.pone.0343131
+Article ID: PONE-D-25-61226
+Article version: 1
+Subjects: Research Article, Biology and Life Sciences, Organisms, Viruses, Bacteriophages, Computer and Information Sciences, Software Engineering, Computer Software, Engineering and Technology, Software Engineering, Computer Software, Research and Analysis Methods, Spectrum Analysis Techniques, Spectrophotometry, Cytophotometry, Flow Cytometry, Research and Analysis Methods, Equipment Preparation, Equipment Sterilization, Filter Sterilization, Physical Sciences, Physics, Scattering, Mie Scattering, Biology and Life Sciences, Biochemistry, Nucleic Acids, Engineering and Technology, Instrumentation, Research and Analysis Methods, Microscopy, Light Microscopy, Fluorescence Microscopy
+
+Rapid bacteriophage quantification with a particle size analyzer combined with polarization intensity differential scattering (PIDS) detector
+
+Rapid quantification of bacteriophage
+
+https://orcid.org/0000-0001-9089-2601 Carroll-Portillo Amanda Conceptualization Data curation Formal analysis Methodology Software Supervision Validation Writing – original draft Writing – review & editing 1 *
+Braun Cody A Data curation Methodology 2
+Martinez Edgar Methodology Software Validation 3
+Lin Henry C Conceptualization Funding acquisition Writing – review & editing 1 4 *
+1 Division of Gastroenterology and Hepatology, University of New Mexico, Albuquerque, New Mexico, United States of America
+2 Biomedical Research Institute of New Mexico, Albuquerque, New Mexico, United States of America
+3 Beckman Coulter, Inc., Miami Campus, Miami, Florida, United States of America
+4 Medicine Service, New Mexico VA Health Care System, Albuquerque, New Mexico, United States of America
+Faezi Ghasemi Mohammad Editor
+Islamic Azad University, IRAN, ISLAMIC REPUBLIC OF
+Competing Interests: I have read the journal’s policy and the authors of this manuscript have the following competing interests: E. Martinez is an employee of Beckman Instruments. All PSA instrumentation was purchased from Beckman Instruments. Authors A. Carroll-Portillo, C. Braun, and H.C. Lin have no competing financial interests and received no financial support from Beckman Instruments for this study. Beckman Instruments had no editorial control over the content of this paper.
+
+* E-mail: acarroll-Portillo@salud.unm.edu (ACP); helin@salud.unm.edu (HCL)
+Electronic publication date: 2026 Feb 19
+Publication date: 2026
+Volume: 21
+Issue: 2
+Electronic Location ID: e0343131
+Received 2025 Nov 13; Accepted 2026 Feb 2
+License: This is an open access article, free of all copyright, and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the Creative Commons CC0 public domain dedication.
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+
+Rapid bacteriophage quantification with a particle size analyzer combined with polarization intensity differential scattering (PIDS) detector. 21 2 19 2 2026 e0343131 e0343131 PLoS One 10.1371/journal.pone.0343131 41712621
+Rapid bacteriophage quantification with a particle size analyzer combined with polarization intensity differential scattering (PIDS) detector. 21 2 19 2 2026 e0343131 e0343131 PLoS One 10.1371/journal.pone.0343131 41712621
+
+Funding: Winkler Bacterial Overgrowth Research Fund BRINM 217 Lin Henry C This work was supported by the Winkler Bacterial Overgrowth Research Fund (BRINM 217). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+
+Figure count: 5
+Table count: 2
+Page count: 14
+Data Availability: All relevant data are within the paper and its Supporting Information files.
+
+Data Availability
+
+All relevant data are within the paper and its Supporting Information files.
+
+==============================
+The study of bacteriophages (phages) and effects on their microenvironments expanded exponentially within the last decade. While there are multiple described methods for phage quantitation, there is still a need for a rapid, label-free method. To this end, we established a procedure for rapid phage quantitation through novel use of a particle size analyzer with Polarization Intensity Differential (PIDS) technology and eliminated the need for labels or knowledge of bacterial host. We validated the procedure and analysis method, termed PhageFOTO (Fast Optical Tallying of Objects) using several physiologically different phages ranging from ~6 nm capsid width (Inoviridae) to ~90 nm capsid width (Caudoviricetes). PhageFOTO demonstrated 89 ± 4.3%, 98 ± 1.7%, and 94 ± 2.7% accuracy for quantitating PhiX, M13, and T4 phages/mL respectively as compared to the gold standard plaque assay with limit of detection for particle concentration occurring around 107 phages/mL. PhageFOTO proved to be a novel, rapid, label free method for phage counting that does not rely on knowledge of the bacterial host presenting unique capability for quantitation of phage samples.
+
+Introduction
+
+Bacteriophages (phages) are ubiquitous, bacteria-targeting viruses with profound impact on their microenvironments. Phage effects increasingly are found to influence health, medicine, and the food and drug industries [1]. An essential part of this research requires quantitation of viral particles within any given sample, an ongoing challenge given their small size and lack of consensus genetic sequence (i.e., 16S or 18S). Currently, there are a variety quantitation methods of varying ease and expense as reviewed partially by Acs N, et al. [2]. Of these methods, Transmission Electron Microscopy (TEM) is the most accurate involving direct visualization of the morphology and number of phages within a sample. However, this method is time consuming, requires expensive equipment and experience with the technique, and has a high level of bias as to what is counted as a phage. Other methods that are used with more frequency include the plaque assay or fluorescent labeling for either epifluorescent microscopy or flow cytometry. The plaque assay involves enumerating phage-derived plaques, or plaque forming units (PFU), on a plated lawn of that phage’s specific bacterial host thus determining the active phage numbers in a sample. Counts from PFU of a known dilution of phage stock solution allows for back calculation of the phage titer in the original sample. While the gold standard for phage quantitation, this method is insufficient when working with an environmental sample (multiple types of bacterial hosts), a bacterial host that is difficult to grow (e.g., anaerobic bacteria), or when plaques are minuscule or hazy in appearance making counting difficult if not impossible.
+
+As such, for environmental sampling, where microbial communities contain phages for a variety of bacterial hosts, or other difficult samples fluorescence-based methods of epifluorescent microscopy or flow cytometry are used for quantitation [2–6]. These methods both require labeling of phage nucleic acid or proteins with fluorescent dyes. Epifluorescent microscopy (EFM) involves counting fluorescent phages labeled with an intercalating dye (e.g., SYBR Green) applied to 0.02 µm filters with vacuum. Error in EFM is introduced through non-uniform labeling of nucleic acid, non-phage particle labeling (i.e., exosomes containing nucleic acid), or resolution limitations of the microscope itself (more than one phage per “spot”).
+
+The alternative to EFM is flow cytometry. This method also uses labeling of phages to provide quantitative results [3,4,7–9] with either nucleic acid intercalators or fluorophores conjugated to or expressed by the phages of interest [10,11]. Quantitation of phages with standard flow cytometry works at the edge of the detection limit of the instrument. While rapid, sample handling greatly effects results [3,6] with stringent need for use of appropriate controls [5,9,12].
+
+With these caveats in mind for current protocols, we developed a novel method of phage quantitation with a particle size analyzer for the first time to generate rapid results (within an hour) without need of fluorescent labeling or knowledge of bacterial host. Particle size analyzers (PSA) have long been used for characterization of small particles in the explosives and air quality fields to detect aerosolized particles within a sample [13,14]. Nanochemistry applications have also employed particle counters to quantify a variety of synthesized particles (i.e., quantum dots) within solutions [15,16]. A newer PSA with advanced Polarization Intensity Differential Scattering (PIDS) technology (LS 13320XR) detects particle size distributions within the range phages are found introducing a new application for this instrumentation.
+
+All particles scatter light, but smaller particles do so at higher angles making their size distribution more difficult to measure. By employing PIDS, which utilizes detection of scattering due to three different wavelengths at two different polarizations, in combination with Mie scattering theory for spherical particles [17], we are able to detect particles in the nanometer size distribution (at a lower threshold of ~10nm). This ability moves detection of PSAs into the range where even the smallest phages could, in theory, be detectable by these instruments. In this method, we describe use of the PSA with PIDS technology for characterizing and quantifying phages within individual phage preparations. We describe use of the PSA across a range of phage sizes and shapes. As this method offers rapid results through an optical method for detecting particles, we have termed this procedure for phage detection PhageFast Optical Tallying of Objects, or PhageFOTO.
+
+Methods
+
+Instrumentation
+
+The particle size analyzer, LS 13 320 XR with Polarization Intensity Differential Scattering (PIDS) technology and the universal liquid module (ULM), was purchased from Beckman Coulter (Indianapolis, IN, USA). A refractometer (J457 Automatic Refractometer) was purchased from Rudolph Research Analytical (Hackettstown, NJ) to determine the refractive index (RI) of each phage-containing solution prior to sampling on the PSA. The RI is a necessary software input to allow for accurate particle detection by the PIDS. MilliQ water was used as the carrier fluid for all samples.
+
+Instrument settings
+
+The PSA software settings for all individual phage samples were as follows:
+
+Procedure tab – Runs: 4, Run Time: 120 seconds, Sample Loading: 10%, Target range: ± 2%
+
+Module settings tab – Debubble: checked, Circulation speed: 10%, Rinse cycles: 3, Drain time: 10 seconds
+
+Advanced settings tab – ADAPT mode selected
+
+Sample properties tab – Enable PIDS: checked, Always include PIDS data when solving: checked, Manage materials: phage to be tested selected (Refractive indices for all samples were manually entered into the software. For individual phages tested, the refractive index for SM Buffer (1.3351) was used), Carrier fluid: water (RI = 1.3330)
+
+SM Buffer was selected as the RI setting for all individual phage protocols as this was the buffer phage-containing solutions were exchanged to prior to sampling (see “Bacteriophage” section).
+
+Bacteriophage
+
+Individual phages: T4, PhiX 174 (ΦX), and M13 coliphages as well as their Escherichia coli host (E. coli, strain B) were purchased from ATCC (Manassas, VA). All individual phages were propagated on E. coli, Strain B as previously described [18]. Briefly, 1mL of 1x108 plaque forming units (PFU)/mL phage stock was added to 10 mL mid-log bacterial culture in Luria-Bertani broth (Miller) (MilliporeSigma, St. Louis, MO) and allowed to continue shaking at 37°C for an additional 3–4 hours to allow for phage propagation and bacterial lysis. Bacterial remnants were pelleted with centrifugation in a swinging bucket rotor at 4000 rpm for 15 min. Supernatants were filter sterilized with a 0.45 μm PTFE syringe filter and concentrated with Amicon Ultra 10000 molecular weight cutoff (10K MWCO) centrifugal filters (MilliporeSigma, St. Louis, MO) in a swinging bucket rotor at 4000 rpm for 15 min at room temperature (or until volume was reduced to 200–500 μL). Concentrated volumes were then brought back up to 5 mL in SM Buffer (100mM NaCl, 8mM MgSO4·7H2O, 50mM Tris-Cl, pH 7.5) and either applied to the PSA for analysis or diluted for plaque overlay assay. For sensitivity assays, Cesium chloride (CsCl) purified phages were used. This was achieved by layering filter sterilized, concentrated T4 onto a gradient consisting of 3 mL layers of 1.7, 1.5, and 1.3 density CsCl resuspended in CsCl buffer (50mM Tris pH 7.6; 100 mM MgCl2). Samples were centrifuged for 2 hours at 100,000 x g at 4ºC. Phage bands were withdrawn with a glass pipette and dialyzed in 1 L volume of SM Buffer with dialysis cassettes (10K MWCO, Thermo-Fisher, Waltham, MA) overnight at 4ºC.
+
+Phage detection and quantitation
+
+PSA detection: Phage containing samples were read on the PSA in triplicate three separate times (Fig 1). Each phage sample was subjected to one or two consecutive reads with 4 runs/read. Results from individual phages (T4, ΦX, and M13) were used for instrument validation. Volume percent data, mean peak size, obscuration numbers (PIDS (%)), and sample volume were input into the PhageFOTO macro (green highlighted fields in S1 File) to calculate estimated particle number/mL for each read.
+
+10.1371/journal.pone.0343131.g001 Fig 1 Phage detection and quantitation.
+
+Workflow of phage type and processing with PhageFOTO and plaque overlay assay to validate use of the PSA with PIDS for phage quantitation.
+
+Plaque overlay assay quantification: To quantify phages in individual phage solutions, plaque overlay assays were performed as previously described [19]. Briefly, prepared phage cultures were serially diluted in SM buffer so that plated volumes would result in 30–300 plaques per plate to make counting possible. Luria-Bertani (LB) soft agar (0.7%) was heated to boiling and 5 mL aliquots were maintained at a temperature of 50ºC until use. For plating, the soft agar tube was cooled to touch, 250 μL of an overnight (~15hrs) culture of E. coli, strain B was added along with either 10 μL or 100 μL of diluted phage. Tube contents were immediately added to the top of an LB plate with gentle swirling to ensure even coverage and mixing without bubbles. Plates were allowed to solidify completely before being inverted and incubated at 37ºC overnight to allow for bacterial lawn growth and plaque formation. The following day, plaques were assessed and the plate dilutions with plaque numbers in the desired range were counted. Plaque counts and dilution were used to determine the amount of phage in the original stock solution. Plating was performed in triplicate with bacteria alone as a negative control.
+
+Data analysis and graphing
+
+For analyzing run data and application of the macro, Microsoft Excel software was used. To generate the graphs and perform analysis of the accuracy of the macro, GraphPad PRISM software (GraphPad, Boston, MA) was employed.
+
+Results
+
+Detection of bacteriophage with a particle size analyzer plus PIDS
+
+Derivations of particle size analyzers have been commonly used in a variety of chemistry-based applications for the quality analysis (QC/QA) of manufactured emulsions, suspensions, and dry powders (e.g., [20,21]). The inclusion of PIDS technology means that particle detection by the PSA now extends to particles of the smallest size (10nm-500nm), the size range bacteriophages fall into. With this technological advance, we hypothesized that detection of nanometer scale biological particles, such as bacteriophages, would be possible with the PSA.
+
+To test this hypothesis, 500 μL of T4 phage was added to the sample port of the PSA and analyzed using PIDS with the parameters described in Methods section 2.2. After three runs, the software provided a differential volume (%) histogram depiction of particle size distribution detected within the solution (Fig 2A) with a dominant peak occurring around 55 nm (Fig 2B, Mean (μm)) indicating that use of the PSA with PIDS would allow for detection of bacteriophages in solution.
+
+10.1371/journal.pone.0343131.g002 Fig 2 Detection of T4 on PSA.
+
+Sample of T4 run on the PSA with 4 reads resulted in (A) detection of a single differential volume (%) peak with mean particle size distribution at approximately 55 nm. (B) Statistics accompanying run of T4 with breakdown of D10, D50, D90, mean, mode, standard deviation (StDev), and total (%) of sample account for each run. Column values for each run are denoted with different color matching the line color associated in histogram (A). Average and CV(%) for all runs are provided on the far right of the statistical table (B).
+
+Generation of macro for phage quantification
+
+The PSA is typically used for characterization of size and distribution of particles within a sample, not quantitation of those particles. While we knew we could detect phage using the PSA, true utility of this instrument in phage research would require the ability to quantitate phage particles within a sample. To do this, a computational macro in Excel was developed by Beckman Coulter to allow for input of data from the PSA to be converted into a phage/mL output. Development of a macro was completed by comparing counts of 300nm latex beads from a particle counter, in this case the Multisizer 4e, with results from the PSA. The Multisizer 4e is a particle counter which uses the Coulter principle [22] to quantitate particle number in samples but it cannot accurately detect or quantitate particles below a 200 nm cut off, meaning that it does not have the same capacity as the PSA to detect phages. Several aliquots of different volumes from the same sample of 300 nm latex beads in electrolyte solution were run side by side in the PSA and the Multisizer 4e to establish an algorithm for quantitating beads/mL using the PSA. The subsequent algorithm, which was eventually embedded into the PhageFOTO macro, calculated number of beads/mL using data from the PSA with PIDS and matching it to the same sample counts acquired on the Multisizer 4e (Tables 1 and 2).
+
+10.1371/journal.pone.0343131.t001 Table 1 Comparison of beads/mL values obtained with the algorithm from PSA data as compared to the actual counts obtained with the Multisizer 4e.
+
+Volume of Bead
+
+Solution Added	Multisizer 4e
+
+(Beads/mL)	PSA
+
+(Beads/mL)	
+50 μL	1.17x1010
+
+1.28x1010	1.29x1010
+
+1.27x1010	
+100 μL	1.18x1010
+
+1.31x1010	1.28x1010
+
+1.25x1010	
+150 μL	1.21x1010
+
+1.23x1010	1.20x1010
+
+1.19x1010	
+200 μL	1.15x1010
+
+1.01x1010	6.49x1010
+
+1.11x1010	
+250 μL	1.38x1010
+
+1.08x1010	1.02x1010
+
+1.02x1010	
+
+10.1371/journal.pone.0343131.t002 Table 2 Comparison of PSA and Multisizer 4e beads/mL quantitation of 300nm beads.
+
+	Overall PSA	Overall
+
+Multisizer 4e	Average	SD	C.V.	
+Average	1.18x1010	1.2x1010	1.19x1010	5.7x107	0.48%	
+C.V.	8.36%	9%	8.68x10-2	2.25x10-3	2.59%	
+SD	9.89x108	1.08x109	1.03x109	3.09x107	2.99%	
+Maximum	1.29x1010	1.38x1010	1.33x1010	3.05x108	2.29%	
+Minimum	1.02x1010	1.01x1010	1.01x1010	6.43x107	0.63%	
+
+The necessary data from the PSA to be input into this macro included the volume percent (Vol%) data, Particle size (μm)/volume distribution, the PIDS percent (PIDS (%)) obscuration, the total volume (in μL) of the PSA sample reservoir (130mL), and the sample volume (in mL) (Fig 3A and 3B; green highlighted fields in S1 File). The equation for the algorithm was as follows:
+
+10.1371/journal.pone.0343131.g003 Fig 3 Elements from PSA data for inclusion into PhageFOTO macro for phages/mL quantitation.
+
+PhageFOTO macro input data required from the PSA exported Excel file for each read includes (A) the volume percent (vol%) data for each run (large red rectangle) and the PIDS (%) Obscuration data (small purple rectangle) found within the “Data” tab and (B) mean (μm) particle size for each run (blue rectangle) found within the “Statistics” tab. (C) Within the PhageFOTO macro, sample volume (in mL) is input (orange rectangle) along with mean particle size (μm) for each run (blue rectangle) in a phage specific section (T4, ΦX, M13, or mixed; see S1 File). Calculation of phages/mL is found below mean particle size as the first numerical value displayed (green rectangle). This value is reported as phages/mL.
+
+Vol% x (Particle size (μm)/ Volume) x PIDS (%) obscuration x (volume of sample reservoir (μL)/4/sample volume (mL)) where the ”4” is the correction factor necessary to match data from the PSA to the Multisizer 4e.
+
+Quantification of bacteriophages
+
+With the macro in place, we sought to validate use of the PSA to quantify phages of different sizes and shapes accurately. As described in Methods (Phage Detection and Quantitation) and Fig 1, we acquired data from samples containing one of three physiologically different phages (T4- tailed, prolate icosahedron [23], M13- filamentous [24], and ΦX- non-tailed, small icosahedron [25]; See Fig 1 for shapes). The total runs for each of the phages tested from which data was analyzed included 68 runs for T4, 56 runs for ΦX, and 60 runs for M13. Concurrent plaque overlay assays were performed on these same samples to provide a benchmark number with which to compare the phage/mL results generated by the macro using the PSA data for each phage.
+
+Analysis of particle distributions across all runs for individual phages tested found that mean peak sizes for each phage fell into a patterned distribution (Fig 4). T4 peaks were found in ranges from 10–60nm (22 runs), 70–150nm (42 runs), or >150nm (4 runs) (Fig 4A). ΦX peaks were found in ranges from 15–20nm (1 run), 35–90nm (39 runs), and >100nm (16 runs) (Fig 4B). M13 peaks were found in ranges from 10–30nm (10 runs), 45–70nm (45 runs), and >100nm (5 runs) (Fig 4C). That each phage resulted in a distribution of peak sizes suggested a variety of factors influenced peak outcomes. It has been shown that the non-spherical nature of these phages influenced peak shifts due to diffraction of the light occurring differently depending on the plane it hits [26]. Larger peak sizes were likely indication of phage propensity to aggregate and smaller than expected peaks could have been due to breakage of phage structure associated with sample handling. Detection peaks were only found in samples containing phages as application of either SM buffer alone or the flow through fraction from phage concentration resulted in no particles detected by the PSA.
+
+10.1371/journal.pone.0343131.g004 Fig 4 Distribution of mean particle size on PSA.
+
+Histogram representation of the mean peak sizes of particle distribution for each run as a function of the number of runs for (A) T4, (B) ΦX, and (C) M13. Each column width represents a 5 nm range with the X-axis on a logarithmic scale.
+
+To quantitate phages/mL for all runs of each phage tested, PSA data for each run was input into the macro generated from comparison of 300nm beads on the PSA and the Multisizer 4e (as described above). The phages/mL numbers generated by the original macro were compared to the comparable phages/mL numbers generated by the corresponding plaque overlay assays. Results showed that PSA numbers were off by one or several logs and that this variance depended on mean particle size. To compensate for differences seen in the macro and the actual phage counts from plaque assay, the mean particle size for each run was then included as part of the calculation and a multiplicative factor specific to each phage was used to allow for close approximation of PSA data to actual phage counts thus creating the final version of the PhageFOTO macro (S1 File). In PhageFOTO, mean peak size from PSA data was copied into the section for the specific phage tested (i.e., “T4, peak mean” in Fig 3C) along with the volume of sample (“mL added”, Fig 3C) allowing for enumeration of phages based on the parameters determined for best fit. A series of outputs for each run was shown beneath the mean peak size and the numerical output that came first represented the enumerative calculation for that specific run (Fig 3C).
+
+Once the PhageFOTO macro was created, we determined the number of times it accurately calculated phages/mL as compared to the corresponding plaque assays (± 0.5 log) (S2 File; T4, M13, and PhiX tabs). The accuracy of PhageFOTO for each phage are shown (Fig 5) where the number of correct predictions (connected points, right y-axis) were overlaid with the histogram distribution of the number of runs (columns, left y-axis) that fell within any given mean peak size (nm, x-axis) for each phage tested. From these comparisons, we found that PhageFOTO was highly accurate for quantitation (phages/mL) of all individual phages tested as compared to the plaque overlay assay. Results were 94 ± 2.7% accurate for T4 (Fig 5A), 89 ± 4.3% accurate for PhiX (Fig 5B) and 98 ± 1.7% accurate for M13 (Fig 5C).
+
+10.1371/journal.pone.0343131.g005 Fig 5 Validation of accuracy of PhageFOTO macro for quantitation.
+
+Number of correct phages/mL predictions by the PhageFOTO macro (connected dots, right axis) for each series of runs across the distribution of mean peak sizes (gray columns, left axis) for (A) T4, (B) ΦX, and (C) M13. Each column width represents a 5 nm range with the X-axis on a logarithmic scale.
+
+Limit of detection of particle size analyzer with PIDS
+
+The lower limit of detection of the PSA is ~ 10nm due to the incorporated PIDS system. However, there were several parameters that could be adjusted to allow for higher sensitivity towards smaller particles. These included using low speed within the sampling chamber (the small size of the particles means that they won’t settle within the sampling chamber over typical measuring times), using gentle pipetting within the sample chamber after sample addition to ensure particles are distributed across the imaging window, increased read times, and allowing for more reads per sample. All these protocol modifiers worked to increase the amount of time a sample within the detection window was analyzed. To characterize the particle concentration limit of detection using our defined instrument set-up, a stock solution of CsCl gradient purified T4 phages of 109 phages/mL was diluted with a 10-fold serial dilution into SM Buffer. Counter settings were maintained at 10% pump speed, 120 second read time, and 3 reads for each sample. Samples from each dilution were loaded into the counter sample port starting with a 0.25 mL volume and increasing by 0.25 mL increments up to a 1 mL final volume depending on whether the PSA detected anything. We found upon several repetitions with these serial dilutions that counter detection of 108 and 109 phages/mL occurred consistently with 0.25–0.5 mL of sample. Dilution to 107 phages/mL required higher sample volumes of 0.75–1 mL, and dilutions with <107 phages/mL were undetectable by the PSA regardless of volume tested (up to 5 mL).
+
+Discussion
+
+In order to perform bacteriophage research, it is essential to know the number of phage particles that exist within a sample. However, inherent challenges have included their small size, challenging purification, and lack of a consensus sequence such as 16S or 18S. To this end, several different methods have been developed to address the enumeration of phages within samples [2,3,6]. For instances where phages and their bacterial hosts are known and understood, enumeration is easier with the plaquing method or qPCR with phage specific primers. For samples that are more challenging (i.e., environmental isolates), labeling and examination by microscopy (TEM or EFM) or flow cytometry have been employed. These methods are time consuming, can require expensive instrumentation and expertise, and have been shown to have variable reliability dependent on sample handling procedures [6]. Thus, development of a rapid, consistent, simple method for quantitation of phages in solution is desirable. Herein, we described novel use of a particle size analyzer with PIDS detector and fluidic ULM module (comparable in cost to a flow cytometer or confocal microscope) for rapid quantitation of phages without need for fluorescent labeling or prior knowledge of bacterial host. The combination of the principles outlined by the Mie scattering theory for spherical particles [17] with light scattering data acquired by the PIDS detectors from three different wavelengths and two polarizations allowed for definition of the size distribution of particles in the submicron range down to 10 nm, ideal for phage detection. Examination of phage size distributions in individual phage preps demonstrated a frequency distribution with some peak sizes more frequently represented in a phage-specific way. For example, the most frequent peak sizes were found in the 90–155 nm range for T4, 70–90 nm range for ΦX, and 50–65 nm range for M13. In an ideal situation, phage solutions would contain uniformly monodisperse phages resulting in generation of a consistent, single peak associated with the expected particle size for a single phage. However, only for T4 do the most frequent peak sizes correspond with what would be expected for an individual phage particle, and even for T4 samples there is a broad distribution. This distribution was partially due to the non-spherical nature of phages [26] and their heterogeneity and polydispersity within any given sample. In fact, several environmental factors contribute to phage aggregation [27,28] and M13 and ΦX were more likely to aggregate as compared to T4 resulting in scattering patterns consistent with a mean peak size larger than would be expected for individual M13 or ΦX phages. Additionally, while ΦX structure was the closest to the spherical particles that Mie scattering was based on, filamentous M13 was the furthest from this structure meaning that its scattering properties were farthest from the models fitting spherical particles, and thus farther from conforming to an expected mean peak size associated with the PSA software.
+
+The physical shape and density of phages (aggregated versus monodisperse) also influenced the likelihood that the PhageFOTO macro would accurately quantitate the number of phages/mL [26]. As more data is collected for individual phages of all types across the spectrum of mean peak sizes, the PhageFOTO macro can be adjusted to ensure that enumeration is as accurate as possible. All data has been provided in supplementary info to aid the user in determining best fit for their needs and to outline how data on other phage types should be collected (S2 File). The particle detection limit for this method was on par with other methods such as EFM and flow cytometry where detection of 107–109 viral like particles/mL is possible [6]. Next steps will include not only working to increase sensitivity of this detection limit but to collect data from mixed phage solutions to begin building models that will allow for use of this instrumentation in enumeration of phages from environmental samples. In this manner, PhageFOTO provides a rapid and reproducible method to quantitate phages from any phage-containing sample.
+
+Supporting information
+
+S1 File PhageFOTO Excel macro.
+
+Excel macro for determining phage counts/mL. Green highlighted regions indicate areas where data from PSA is input. “Run(vol%)” data from all runs is inserted on the left, “PIDS(%)” from the data is input in I5, the peak means obtained from the statistics tab in the data file is input for the phage type tested, and the volume of sample added is input in mL format in cell I138. Counts are generated in the cells underneath the input peak mean values with the lowest count representing the counts/mL.
+
+(XLSX)
+
+S2 File Phage counts obtained from PSA compared to plaque overlay.
+
+Counts/mL for each phage tested (T4, M13, and PhiX) from either the plaque assay (“PFU” column) or the PSA (“Macro” column). Column D is mean peak size found for each sample of each type of phage, and Column E denotes whether PSA finding fall within 0.5 log of counts determined with plaque assay (Y = yes, N = No).
+
+(XLSX)
+
+The Edgar Martinez of Beckman Coulter particle counter technical support team provided information on technical specifications of instrument, Multisizer 4e vs LSXR data, the original macro for counting phages, and follow on support for analysis of instrument data.
+
+DOI: 10.1371/journal.pone.0343131.r001
+
+Decision Letter 0
+
+Faezi Ghasemi Mohammad Academic Editor
+Copyright: © 2026 Mohammad Faezi Ghasemi
+Copyright year: 2026
+Copyright holder: Mohammad Faezi Ghasemi
+License: This is an open access article, free of all copyright, and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the Creative Commons CC0 public domain dedication.
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+
+Submission Version: 0
+
+15 Dec 2025
+
+Dear Dr. Carroll-Portillo,
+
+Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE’s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.
+
+Dear respected Authors, Based on the reports that we received from our reviewers, I have decided that your manuscript needs a major revision. Please follow the recommendations raised by evaluators and resubmit your revised manuscript. Best regards,
+
+Please submit your revised manuscript by Jan 29 2026 11:59PM. If you will need more time than this to complete your revisions, please reply to this message or contact the journal office at plosone@plos.org . When you're ready to submit your revision, log on to https://www.editorialmanager.com/pone/ and select the 'Submissions Needing Revision' folder to locate your manuscript file.
+
+A letter that responds to each point raised by the academic editor and reviewer(s). You should upload this letter as a separate file labeled 'Response to Reviewers'.
+
+A marked-up copy of your manuscript that highlights changes made to the original version. You should upload this as a separate file labeled 'Revised Manuscript with Track Changes'.
+
+An unmarked version of your revised paper without tracked changes. You should upload this as a separate file labeled 'Manuscript'.
+
+If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter. Guidelines for resubmitting your figure files are available below the reviewer comments at the end of this letter.
+
+If applicable, we recommend that you deposit your laboratory protocols in protocols.io to enhance the reproducibility of your results. Protocols.io assigns your protocol its own identifier (DOI) so that it can be cited independently in the future. For instructions see: https://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols . Additionally, PLOS ONE offers an option for publishing peer-reviewed Lab Protocol articles, which describe protocols hosted on protocols.io. Read more information on sharing protocols at https://plos.org/protocols?utm_medium=editorial-email&utm_source=authorletters&utm_campaign=protocols .
+
+We look forward to receiving your revised manuscript.
+
+Kind regards,
+
+Mohammad Faezi Ghasemi, Ph.D
+
+Academic Editor
+
+PLOS One
+
+Journal Requirements:
+
+When submitting your revision, we need you to address these additional requirements.
+
+1. Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at
+
+https://journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf and
+
+https://journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf
+
+2. Please note that PLOS One has specific guidelines on code sharing for submissions in which author-generated code underpins the findings in the manuscript. In these cases, we expect all author-generated code to be made available without restrictions upon publication of the work. Please review our guidelines at https://journals.plos.org/plosone/s/materials-and-software-sharing#loc-sharing-code and ensure that your code is shared in a way that follows best practice and facilitates reproducibility and reuse.
+
+3. Thank you for stating the following in the Acknowledgments Section of your manuscript:
+
+“This work was supported by the Winkler Bacterial Overgrowth Research Fund (BRINM 217)”
+
+We note that you have provided funding information that is not currently declared in your Funding Statement. However, funding information should not appear in the Acknowledgments section or other areas of your manuscript. We will only publish funding information present in the Funding Statement section of the online submission form.
+
+Please remove any funding-related text from the manuscript and let us know how you would like to update your Funding Statement. Currently, your Funding Statement reads as follows:
+
+“the Winkler Bacterial Overgrowth Research Fund (BRINM 217)”
+
+Please include your amended statements within your cover letter; we will change the online submission form on your behalf.
+
+4. Thank you for stating the following financial disclosure:
+
+“the Winkler Bacterial Overgrowth Research Fund (BRINM 217)”
+
+Please state what role the funders took in the study.  If the funders had no role, please state: "The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript."
+
+If this statement is not correct you must amend it as needed.
+
+Please include this amended Role of Funder statement in your cover letter; we will change the online submission form on your behalf.
+
+5. If the reviewer comments include a recommendation to cite specific previously published works, please review and evaluate these publications to determine whether they are relevant and should be cited. There is no requirement to cite these works unless the editor has indicated otherwise.
+
+[Note: HTML markup is below. Please do not edit.]
+
+Reviewers' comments:
+
+Reviewer's Responses to Questions
+
+Comments to the Author
+
+1. Is the manuscript technically sound, and do the data support the conclusions?
+
+Reviewer #1: Yes
+
+Reviewer #2: Yes
+
+**********
+
+2. Has the statistical analysis been performed appropriately and rigorously? -->?>
+
+Reviewer #1: Yes
+
+Reviewer #2: N/A
+
+**********
+
+3. Have the authors made all data underlying the findings in their manuscript fully available??>
+
+The PLOS Data policy
+
+Reviewer #1: Yes
+
+Reviewer #2: Yes
+
+**********
+
+4. Is the manuscript presented in an intelligible fashion and written in standard English??>
+
+Reviewer #1: Yes
+
+Reviewer #2: Yes
+
+**********
+
+Reviewer #1: - To enhance the informativeness of the abstract, consider incorporating key performance metrics such as the method's detection limit and the quantitative accuracy such as percent recovery achieved for each phage type.
+
+- The specificity of the assay requires further validation. The inclusion of negative controls (phage-free lysate or buffer-only samples) is necessary to demonstrate that background signals do not significantly contribute to the reported peaks.
+
+- Please expand the Discussion to provide a quantitative analysis of how deviations from ideal sphericity impact particle size estimation and the subsequent accuracy of phage enumeration using the PhageFOTO macro.
+
+- The Discussion would benefit from a more direct comparative analysis, situating PhageFOTO among current rapid methods (specific flow cytometry or microscopy protocols). A comparison focusing on practical parameters like cost, hands-on time, required expertise, and sample volume would be valuable.
+
+-
+
+Reviewer #2: This study introduces a novel application of a particle size analyzer with PIDS technology (PhageFOTO) for rapid quantification of bacteriophages. The core idea is innovative and addresses a genuine need for faster, label-free phage enumeration. The method is validated against the plaque assay using three distinct phages, demonstrating promising accuracy. However, the manuscript in its current form requires revision to improve clarity, methodological rigor, and scholarly presentation before it is suitable for publication.
+
+**********
+
+what does this mean? ). If published, this will include your full peer review and any attached files.
+
+If you choose “no”, your identity will remain anonymous but your review may still be made public.
+
+Do you want your identity to be public for this peer review? For information about this choice, including consent withdrawal, please see our Privacy Policy
+
+Reviewer #1: No
+
+Reviewer #2: No
+
+**********
+
+[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files.]
+
+To ensure your figures meet our technical requirements, please review our figure guidelines: https://journals.plos.org/plosone/s/figures
+
+You may also use PLOS’s free figure tool, NAAS, to help you prepare publication quality figures: https://journals.plos.org/plosone/s/figures#loc-tools-for-figure-preparation.
+
+NAAS will assess whether your figures meet our technical requirements by comparing each figure against our figure specifications.
+
+Attachment Submitted filename: PONE-D-25-61226_reviewer.docx
+
+DOI: 10.1371/journal.pone.0343131.r002
+
+Author response to Decision Letter 1
+
+Submission Version: 1
+
+19 Jan 2026
+
+The authors would like to thank the reviewers for taking the time and effort necessary to critique this article and provide suggestions for its betterment. Please find our responses to comments and suggestions below.
+
+Reviewer 1:
+
+1. The abstract lacks quantitative results; it does not provide numerical values, particle size ranges, or statistical indicators. Additionally, the final sentence fails to clearly state the main conclusion or its implications.
+
+We have revised the abstract to include the range of phage sizes tested and statistics for PSA measurements. We have also stated our main conclusion and implications more clearly. See lines 20-27
+
+2. Inconsistent use of verb tenses was observed. The entire abstract should be rewritten in the past simple tense. For example, in line 23, "has expanded" (present perfect) and in line 33, "We demonstrate" (present simple) should both be converted to the past simple tense.
+
+Verb tenses are now consistent.
+
+3. The limit of detection is not mentioned in the abstract.
+
+The limit of detection has been added to the abstract. See lines 24-25
+
+4. The literature review is fragmented and lacks logical coherence. Several references are outdated and should be replaced with more recent studies published after 2019. For example, references cited on lines 392 (2000) and 395 (2009) are outdated. It is recommended to include more recent systematic reviews published after 2020.
+
+There are limited systematic reviews on phage quantitation methods. We have added more recent references relating to flow cytometry detection of phages.
+
+5. The explanation of fluorescent microscopy methods in lines 64–75 is somewhat lengthy and could be more concise.
+
+We have rewritten this section to be more succinct. See lines 53-57.
+
+6. The scientific knowledge gap is not clearly defined. The novelty and specific contribution of the study remain unclear. Although lines 87–96 mention the limitations of existing methods, they do not explicitly state the specific problem that this new method addresses, which others cannot solve.
+
+We now state that this method uses a rapid, label-free method that does not require knowledge of the bacterial host (Lines 92-95).
+
+7. It should be explicitly stated in lines 96–107 that this is the first application of PSA combined with PIDS for phage counting.
+
+We have done this (Line 92)
+
+8. The sample preparation procedures are inadequately described. Key details such as initial concentrations, incubation times, and temperatures are missing. Although lines 136–139 mention an incubation time of 3–4 hours at 37°C, the initial concentrations of bacteria or phages are not provided.
+
+More information has been added. See throughout methods section.
+
+9. Line 141: The text mentions a µm syringe filter, but it does not specify the brand or the material of the filter.
+
+The filter material has been added (PTFE). Several brands have been used with all being equally effective, as such no one brand is listed.
+
+10. Critical details regarding the Amicon Ultra protocol, including membrane cutoff, centrifugation speed, duration, and washing steps, are missing, severely limiting reproducibility. While the cutoff (10 kDa MWCO) and speed (4000 rpm) are specified, the exact centrifugation time—stated only as volume is reduced to 200–500 µL vague. Additionally, washing or equilibration steps are not described. The centrifugation temperature should also be provided.
+
+Additional information has been added to the protocol where necessary. Speed, temperature, duration, and cutoff have all been included. The time of centrifugation has been put in but is a suggested starting point as it can be insufficient for generating the final 200-500ul volume. Getting to that final volume is the more important point. Washing and equilibration steps are not performed, just centrifugation to concentration. See lines 119-123.
+
+11. The exact volumes of the bacterial suspension and phage dilution are unclear, and the order of mixing is not specified. Line 171 mentions the bacterial volume (250 µL) and phage volume (10 or 100 µL), but the bacterial concentration (OD600) is not reported. Although the mixing order is implied, it could be stated more explicitly.
+
+Text states using overnight cultures of bacteria with added information of how long growth was allowed. OD600 is variable in overnight cultures but as long as there is turbid growth, it is sufficient for this protocol to work. Aiming for a specific OD600 is not necessary if using an overnight culture. Mixing order has been clarified further. See lines 143-157.
+
+12. Line 175: “Plates were allowed to solidify completely,” but the solidification time is not specified.
+
+No solidification time is listed as it varies by environmental conditions. The important thing is to have it completely solidified prior to inversion for incubation overnight.
+
+13. No information is provided regarding the number of replicates or the use of positive and negative controls. Line 154 mentions “in triplicate three separate times,” but negative controls (e.g., blank buffer) and positive controls (e.g., standard particles) are not clearly described.
+
+Description of controls has been added where necessary. In methods, use of bacteria alone is described as the negative control for plaquing assays (Line 161). Use of SM Buffer alone has been described as the negative control for PSA experiments (Lines 249-251).
+
+14. The Particle size distribution results are presented without adequate textual interpretation or clear connection to the main research objective. Although lines 263–267 report peak ranges, the interpretation of multi-peak phenomena (e.g., aggregation) is not thoroughly addressed in the Results section and is instead deferred to the Discussion.
+
+We have added the observation and associated reference to explain the peak distribution to the results section (lines 270-272) and have left the more detailed description in the discussion section.
+
+15. The discussion primarily reiterates the results instead of offering interpretation. Comparisons with previous studies are limited. Although lines 334–353 explain the reasons for size distributions, direct comparisons with other counting methods (e.g., flow cytometry) are minimal.
+
+We have expanded in the discussion to include further discussion on interpretation, comparison with other counting methods, and instrumentation cost.
+
+16. The Practical limitations of the method, such as the cost of the instruments, should be emphasized more in the Discussion section.
+
+We have included the instrument cost relative to instrumentation for other methods. See line 322.
+
+17. Numerous grammatical errors, overly long sentences, and inconsistent tense usage are present. A major revision of the English language is required.
+
+We have reviewed with focus on clarification of the language and matching verb tense.
+
+18. Line 64: “Sybr” should be “SYBR.”
+
+This has been changed. See line 54.
+
+19. Line 148: The term “CsCl” is used without prior explanation; it should be introduced as cesium chloride (CsCl) when first mentioned to ensure clarity.
+
+CsCl has been defined at its first use in line 126
+
+20. Line 306: “We needed to understand” should be changed to “We needed to understand” in the past simple tense.
+
+We removed this
+
+21. Long sentences, such as those in lines 73–75, could be broken up for better readability.
+
+We have reviewed and changed sentence structure to be succinct
+
+22. In the References section (lines 390–460), there are formatting inconsistencies, such as irregular capitalization and punctuation.
+
+References were input using EndNote Vancouver style of citation
+
+Reviewer #2: This study introduces a novel application of a particle size analyzer with PIDS technology (PhageFOTO) for rapid quantification of bacteriophages. The core idea is innovative and addresses a genuine need for faster, label-free phage enumeration. The method is validated against the plaque assay using three distinct phages, demonstrating promising accuracy. However, the manuscript in its current form requires revision to improve clarity, methodological rigor, and scholarly presentation before it is suitable for publication.
+
+We thank this reviewer for their input. We have edited this article substantially to increase clarity, better demonstrate our methodological rigor, and improve presentation of our results and discussion.
+
+Attachment Submitted filename: Response to Reviewers.docx
+
+DOI: 10.1371/journal.pone.0343131.r003
+
+Decision Letter 1
+
+Faezi Ghasemi Mohammad Academic Editor
+Copyright: © 2026 Mohammad Faezi Ghasemi
+Copyright year: 2026
+Copyright holder: Mohammad Faezi Ghasemi
+License: This is an open access article, free of all copyright, and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the Creative Commons CC0 public domain dedication.
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+
+Submission Version: 1
+
+3 Feb 2026
+
+Rapid bacteriophage quantification with a particle size analyzer combined with Polarization Intensity Differential Scattering (PIDS) detector
+
+PONE-D-25-61226R1
+
+Dear Dr. Carroll-Portillo,
+
+We’re pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it meets all outstanding technical requirements.
+
+Within one week, you’ll receive an e-mail detailing the required amendments. When these have been addressed, you’ll receive a formal acceptance letter and your manuscript will be scheduled for publication.
+
+An invoice will be generated when your article is formally accepted. Please note, if your institution has a publishing partnership with PLOS and your article meets the relevant criteria, all or part of your publication costs will be covered. Please make sure your user information is up-to-date by logging into Editorial Manager at Editorial Manager®  and clicking the ‘Update My Information' link at the top of the page. For questions related to billing, please contact billing support .
+
+If your institution or institutions have a press office, please notify them about your upcoming paper to help maximize its impact. If they’ll be preparing press materials, please inform our press team as soon as possible -- no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact onepress@plos.org.
+
+Kind regards,
+
+Mohammad Faezi Ghasemi, Ph.D
+
+Academic Editor
+
+PLOS One
+
+Additional Editor Comments (optional):
+
+Reviewers' comments:
+
+Reviewer's Responses to Questions
+
+Comments to the Author
+
+Reviewer #1: All comments have been addressed
+
+Reviewer #2: (No Response)
+
+**********
+
+2. Is the manuscript technically sound, and do the data support the conclusions??>
+
+Reviewer #1: Yes
+
+Reviewer #2: Yes
+
+**********
+
+3. Has the statistical analysis been performed appropriately and rigorously? -->?>
+
+Reviewer #1: Yes
+
+Reviewer #2: N/A
+
+**********
+
+4. Have the authors made all data underlying the findings in their manuscript fully available??>
+
+The PLOS Data policy
+
+Reviewer #1: Yes
+
+Reviewer #2: Yes
+
+**********
+
+5. Is the manuscript presented in an intelligible fashion and written in standard English??>
+
+Reviewer #1: Yes
+
+Reviewer #2: No
+
+**********
+
+Reviewer #1: Dear editor,
+
+The comments have been addressed.The findings reported in the Results section are now fully derived from the collected data and performed analyses, with clear consistency established between these two sections. The Discussion section has been significantly expanded and strengthened. The current findings are now comprehensively compared with the existing literature. The Conclusion has been rewritten and focused to concisely and clearly reflect the main objectives of the research, its most significant findings, and suggested directions for future work. The article is acceptable.
+
+Reviewer #2: I. Linguistic and Grammatical Deficiencies
+
+These errors undermine the professionalism and clarity of the manuscript.
+
+The abstract inconsistently uses verb tenses, mixing the present perfect and simple past forms.
+
+• Subject-Verb Agreement Error: A fundamental grammatical mistake persists (Page 11, Line 206): "The necessary data... includes..." Data is a plural noun; it should be "The necessary data... include..."
+
+• Several sentences are awkwardly phrased and unclear; they need to be rewritten to improve clarity.
+
+• Example (Page 4, Lines 57–58): "Errors in EFM arise from inconsistent nucleic acid labeling, fluorescent signals from non-phage particles, or limitations in instrumental resolution.
+
+• Misuse of Articles and Prepositions: The incorrect use of articles such as "the," as well as prepositions, is frequent, resulting in unnatural English. For example, on page 5, line 80, the phrase "moves detection of PSAs into the range" should be revised to "extends the detection range of PSAs.
+
+• Inconsistent Terminology: The method's name is written variably as "PhageFOTO" and "phagefOTO." It should be standardized as "PhageFOTO" throughout. Brand names such as "SYBR Green" require consistent capitalization.
+
+II. Methodological Ambiguities and Omissions
+
+These issues significantly undermine the reproducibility of the study, which is a cornerstone of scientific research.
+
+• Insufficient details provided about the protocol.
+
+• Centrifugation Time (Page 7, Ln 123): The instruction "or until the volume is reduced to 200-500 μL" is vague. It is recommended to specify a precise time range (e.g., "for 15–30 minutes") alongside the volume target to ensure clarity and consistency.
+
+• Bacterial Host Concentration (Page 8, Line 150): The phrase "an overnight culture for plaque assays is imprecise. It is essential to use a standardized metric, such as OD600 or a mid-log phase culture, to ensure reproducibility.
+
+• Filter Specification (Page 6, Line 122): While "0.45 μm PTFE" is specified, the brand or source should be included for critical materials to ensure consistency and reproducibility.
+
+• Inadequate Description of Controls: Although negative controls (e.g., SM buffer alone) are mentioned in the responses, their description in the main Methods section (Page 8) is too brief. A dedicated sentence should explicitly list all controls used for both PSA and plaque assays to ensure clarity and reproducibility.
+
+III. Scientific Limitations and Presentation Flaws
+
+The discussion and results sections should more critically and clearly address the limitations of the method.
+
+• High Detection Limit: The stated limit of detection (~10⁷ phages/mL) (Page 15, Line 310) represents a significant limitation when analyzing dilute environmental samples. This constraint should be explicitly emphasized and compared with other detection methods in the Discussion section.
+
+• Intrinsic Method Limitation – Aggregation and Shape: The results (Page 13, Lines 250–251) correctly note that larger peaks likely indicate phage aggregation. This observation highlights a fundamental limitation of the technique, especially for phages such as M13 and ΦX, which are prone to aggregation. The Discussion section (Page 17) should include a dedicated paragraph explaining how particle aggregation and non-spherical morphology fundamentally challenge Mie theory-based detection and quantification, thereby compromising accuracy.
+
+- Lack of Validation on Complex Samples: The study validates the method exclusively on pure, isolated phage preparations. The authors' mention of future work involving "mixed phage solutions" (Page 17, Line 357) implicitly acknowledges this significant limitation for environmental applications. This gap should be explicitly stated as a current limitation in the manuscript's conclusion.
+
+Calibration Dependency: The requirement for a "multiplicative factor specific to each phage" (Page 13, Line 267) indicates that the macro is not a universal calculator. Each new phage type must be calibrated against a gold standard. This crucial aspect of the method's reliance on prior calibration should be emphasized in the Discussion section rather than being buried in the Results.
+
+Repetitive and Descriptive Discussion: The Discussion section (pages 16–17) excessively reiterates the results (e.g., explanations for peak size distribution) instead of offering a thorough interpretation of their implications. It should provide a more comprehensive comparison with existing methods (e.g., flow cytometry, EFM) and address practical limitations of the method, such as instrument cost.
+
+IV. Structural and Stylistic Recommendations
+
+Streamline the introduction by making the literature review on existing methods (e.g., EFM) more concise to better emphasize the identified research gap.
+
+- Improve Figure and Table Integration: Actively refer to figures and tables within the results narrative (e.g., "As shown in Figure 2A...").
+
+The manuscript requires a thorough edit by a native English speaker with expertise in scientific writing to correct all grammatical errors, improve sentence flow, and ensure a formal academic tone.
+
+**********
+
+what does this mean? ). If published, this will include your full peer review and any attached files.
+
+If you choose “no”, your identity will remain anonymous but your review may still be made public.
+
+Do you want your identity to be public for this peer review? For information about this choice, including consent withdrawal, please see our Privacy Policy
+
+Reviewer #1: Yes: Ashraf Kariminik
+
+Reviewer #2: No
+
+**********
+
+DOI: 10.1371/journal.pone.0343131.r004
+
+Acceptance letter
+
+Faezi Ghasemi Mohammad Academic Editor
+Copyright: © 2026 Mohammad Faezi Ghasemi
+Copyright year: 2026
+Copyright holder: Mohammad Faezi Ghasemi
+License: This is an open access article, free of all copyright, and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the Creative Commons CC0 public domain dedication.
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+
+PONE-D-25-61226R1
+
+PLOS One
+
+Dear Dr. Carroll-Portillo,
+
+I'm pleased to inform you that your manuscript has been deemed suitable for publication in PLOS One. Congratulations! Your manuscript is now being handed over to our production team.
+
+At this stage, our production department will prepare your paper for publication. This includes ensuring the following:
+
+* All references, tables, and figures are properly cited
+
+* All relevant supporting information is included in the manuscript submission,
+
+* There are no issues that prevent the paper from being properly typeset
+
+You will receive further instructions from the production team, including instructions on how to review your proof when it is ready. Please keep in mind that we are working through a large volume of accepted articles, so please give us a few days to review your paper and let you know the next and final steps.
+
+Lastly, if your institution or institutions have a press office, please let them know about your upcoming paper now to help maximize its impact. If they'll be preparing press materials, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact onepress@plos.org.
+
+You will receive an invoice from PLOS for your publication fee after your manuscript has reached the completed accept phase. If you receive an email requesting payment before acceptance or for any other service, this may be a phishing scheme. Learn how to identify phishing emails and protect your accounts at https://explore.plos.org/phishing.
+
+If we can help with anything else, please email us at customercare@plos.org.
+
+Thank you for submitting your work to PLOS ONE and supporting open access.
+
+Kind regards,
+
+PLOS ONE Editorial Office Staff
+
+on behalf of
+
+Dr. Mohammad Faezi Ghasemi
+
+Academic Editor
+
+PLOS One
+
+
+References
+
+1 García-Cruz JC , Huelgas-Méndez D , Jiménez-Zúñiga JS , Rebollar-Juárez X , Hernández-Garnica M , Fernández-Presas AM , et al. Myriad applications of bacteriophages beyond phage therapy. PeerJ. 2023;11:e15272. doi: 10.7717/peerj.15272 37101788 PMC10124553
+2 Acs N , Gambino M , Brondsted L . Bacteriophage Enumeration and Detection Methods. Front Microbiol. 2020;11:594868.33193274 10.3389/fmicb.2020.594868 PMC7644846
+3 Brussaard CPD . Enumeration of bacteriophages using flow cytometry. Methods Mol Biol. 2009;501:97–111. doi: 10.1007/978-1-60327-164-6_11 19066815
+4 Brussaard CP , Marie D , Bratbak G . Flow cytometric detection of viruses. J Virol Methods. 2000;85(1–2):175–82. doi: 10.1016/s0166-0934(99)00167-6 10716350
+5 Fernandes C , Persaud AT , Chaphekhar D , Burnie J , Belanger C , Tang VA , et al. Flow virometry: recent advancements, best practices, and future frontiers. J Virol. 2025;99(2):e0171724. doi: 10.1128/jvi.01717-24 39868829 PMC11853038
+6 Kaletta J , Pickl C , Griebler C , Klingl A , Kurmayer R , Deng L . A rigorous assessment and comparison of enumeration methods for environmental viruses. Sci Rep. 2020;10(1):18625. doi: 10.1038/s41598-020-75490-y 33122683 PMC7596560
+7 Picot J , Guerin CL , Le Van Kim C , Boulanger CM . Flow cytometry: retrospective, fundamentals and recent instrumentation. Cytotechnology. 2012;64(2):109–30. doi: 10.1007/s10616-011-9415-0 22271369 PMC3279584
+8 Bellanger M , Visscher P , White RA 3rd. Viral enumeration using cost-effective wet-mount epifluorescence microscopy for aquatic ecosystems and modern microbialites. Appl Environ Microbiol. 2023;89(12):e0174423. doi: 10.1128/aem.01744-23 38014959 PMC10734538
+9 Dlusskaya EA , Dey R . Flow virometry: a fluorescence-based approach to enumerate bacteriophages in liquid samples. Methods Mol Biol. 2024;2738:175–84. doi: 10.1007/978-1-0716-3549-0_11 37966599
+10 Kaźmierczak Z , Piotrowicz A , Owczarek B , Hodyra K , Miernikiewicz P , Lecion D , et al. Molecular imaging of T4 phage in mammalian tissues and cells. Bacteriophage. 2014;4(1):e28364. doi: 10.4161/bact.28364 24653943 PMC3956486
+11 Mullaney JM , Thompson RB , Gryczynski Z , Black LW . Green fluorescent protein as a probe of rotational mobility within bacteriophage T4. J Virol Methods. 2000;88(1):35–40. doi: 10.1016/s0166-0934(00)00166-x 10921840
+12 Dlusskaya EA , Atrazhev AM , Ashbolt NJ . Colloid chemistry pitfall for flow cytometric enumeration of viruses in water. Water Res X. 2019;2:100025. doi: 10.1016/j.wroa.2019.100025 31194069 PMC6549941
+13 Belosi F , Santachiara G , Prodi F . Performance evaluation of four commercial optical particle counters. Atmospheric and Climate Sciences. 2013;Vol.03No.01:6.
+14 Sang-Nourpour N , Olfert JS . Calibration of optical particle counters with an aerodynamic aerosol classifier. J Aerosol Sci. 2019;138:105452. doi: 10.1016/j.jaerosci.2019.105452
+15 Schmoll LH , Peters TM , O’Shaughnessy PT . Use of a condensation particle counter and an optical particle counter to assess the number concentration of engineered nanoparticles. J Occup Environ Hyg. 2010;7(9):535–45. doi: 10.1080/15459624.2010.496072 20614365 PMC10440832
+16 Jankovic JT , Hollenbeck SM , Zontek TL . Ambient air sampling during quantum-dot spray deposition. Int J Occupational Environ Health. 2010;16:388–98.10.1179/107735210799159941 21222383
+17 Stratton JA . Electromagnetic Theory. Mcgraw Hill Book Company. 1941.
+18 Carroll-Portillo A , Coffman CN , Varga MG , Alcock J , Singh SB , Lin HC . Standard bacteriophage purification procedures cause loss in numbers and activity. Viruses. 2021;13(2):328. doi: 10.3390/v13020328 33672780 PMC7924620
+19 Panec M , Katz DS , Brigati J , Franklin P , Godfrey S , Gyure R , et al. Plaque Assay Protocols. 2006.
+20 Dobrowolska K , Emeryk A , Janeczek K , Krzosa R , Pirozynski M , Sosnowski TR . Influence of physicochemical properties of budesonide micro-suspensions on their expected lung delivery using a vibrating mesh nebulizer. Pharmaceutics. 2023;15(3).10.3390/pharmaceutics15030752 PMC10059591 36986613
+21 Kotova OB , Razmyslov IN , Kurovics E , Lvovsky AI , Gömze LA . Effect of bauxite grain size distribution on beneficiation and improvement of materials. Epitoanyag-J Silicate Based and Composite Materials. 2020;72:140–3.
+22 Graham MD . The coulter principle: foundation of an Industry. JALA: Journal of the Association for Laboratory Automation. 2003;8(6):72–81.
+23 Yap ML , Rossmann MG . Structure and function of bacteriophage T4. Future Microbiol. 2014;9(12):1319–27. doi: 10.2217/fmb.14.91 25517898 PMC4275845
+24 Wang R , Li H-D , Cao Y , Wang Z-Y , Yang T , Wang J-H . M13 phage: a versatile building block for a highly specific analysis platform. Anal Bioanal Chem. 2023;415(18):3927–44. doi: 10.1007/s00216-023-04606-w 36867197 PMC9982796
+25 Novak CR , Fane BA . The functions of the N terminus of the phiX174 internal scaffolding protein, a protein encoded in an overlapping reading frame in a two scaffolding protein system. J Mol Biol. 2004;335(1):383–90. doi: 10.1016/j.jmb.2003.09.050 14659765
+26 Xu R , Di Guida OA . Comparison of sizing small particles using different technologies. Powder Technology. 2003;132(2–3):145–53. doi: 10.1016/s0032-5910(03)00048-2
+27 Drab M . Phage Aggregation-Dispersion by Ions: Striving beyond Antibacterial Therapy. Trends Biotechnol. 2018;36(9):875–81. doi: 10.1016/j.tibtech.2018.03.002 29650392
+28 Jończyk E , Kłak M , Międzybrodzki R , Górski A . The influence of external factors on bacteriophages--review. Folia Microbiol (Praha). 2011;56(3):191–200. doi: 10.1007/s12223-011-0039-8 21625877 PMC3131515

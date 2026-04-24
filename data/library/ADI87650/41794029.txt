@@ -1,0 +1,14 @@
+Structural characterization of the Cu(II)-NTA spin label on α-helices by X-ray crystallography and electron paramagnetic resonance.
+
+Site-directed Cu(II)-labelling in pulsed electron paramagnetic resonance (EPR) spectroscopy has
+demonstrated narrow Cu(II)-Cu(II) distance distributions suitable to resolve subtle protein
+conformational changes. The high precision derives from a double histidine (dHis) mutation that
+effectively locks a Cu(II)-nitrilotriacetic acid (Cu(II)-NTA) moiety in place. To date, no
+structures featuring the dHis-Cu(II)-NTA motif have been resolved. This work presents the atomic-
+resolution X-ray crystal structures of seven α-helical dHis sites of T4 lysozyme (T4L) in the
+presence and absence of Cu(II)-NTA. Our research captured the rigid octahedral coordination of the
+dHis-Cu(II)-NTA complex as well as non-conventional binding modes, which provide valuable insight
+into dHis site selection. Pulsed EPR experiments on double dHis T4L mutants displayed remarkable
+agreement to the crystallography-derived distances. This research showcases the rigid configuration
+of the dHis-Cu(II)-NTA motif, providing geometric constraints that can be leveraged in modeling and
+molecular dynamics programs to extract protein structural details from EPR experiments.

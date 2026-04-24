@@ -1,0 +1,13 @@
+Development of a novel method for recovery of intracellular biopolymer polyhydroxyalkanoate from Bacillus flexus by regulating a lambda phage lytic system.
+
+Polyhydroxyalkanoates (PHAs), biodegradable biopolyesters produced by bacteria, offer an eco-
+friendly alternative to synthetic plastics. However, current methods of recovering intracellular PHA
+require complex cell lysis steps, which contribute to high production costs. In this study, we
+developed a novel approach for efficient PHA recovery by engineering an autolytic strain of Bacillus
+flexus using the lytic gene system from lambda (λ) phage. The λ-phage lytic gene was inserted into
+the Escherichia coli - B. subtilis shuttle vector pSG1154, under the control of a xylose-inducible
+promoter, and integrated into the chromosomal amyE locus of B. flexus. Upon the addition of xylose
+to induce lysis, the recombinant strain showed a significantly higher release of PHA, reaching up to
+70% of total polymer yield compared to 20% in the wild type. This study marks the first successful
+use of a λ-phage lytic gene, typically specific to Gram-negative bacteria, to induce autolysis in
+Gram-positive B. flexus for PHA recovery.

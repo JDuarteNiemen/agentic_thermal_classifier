@@ -1,0 +1,263 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Acta Naturae
+Journal ID: Acta Naturae
+Journal ID: ActaNaturae
+
+Acta Naturae
+
+ISSN: 2075-8251
+Publisher: National Research University Higher School of Economics
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC12755874
+PMID: 41479566
+DOI: 10.32607/actanaturae.27764
+Article version: 1
+Subjects: Research Article, Molecular Biology
+
+Whole-Genome Sequencing Uncovers Metabolic and Immune System Variations in Propionibacterium freudenreichii Isolates
+
+Antipenko I. D. iantipenko@hse.ru
+Venedyukhina S. A.
+Sorokina N. P.
+Kucherenko I. V.
+Smirnova T. S.
+Rogov G. N.
+Shkurnikov M. Yu.
+Laboratory for Research on Molecular Mechanisms of Longevity, Department of Biology and Biotechnology, HSE University, Moscow, 101000 Russia
+All-Russian Research Institute of Butter and Cheese Making, Branch of the Gorbatov Federal Research Center for Food Systems, Uglich, 109316 Russia
+Print publication date: 2025 Oct-Dec
+Volume: 17
+Issue: 4
+First page: 72
+Last page: 82
+Received 2025 Jul 31; Accepted 2025 Sep 29
+Copyright: Copyright ® 2025 National Research University Higher School of Economics.
+Copyright year: 2025
+License: This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+License URL: https://creativecommons.org/licenses/by/2.0/
+
+Keywords: Propionibacterium, whole-genome sequencing, metabolism, CRISPR-Cas, bacteriophages
+
+==============================
+Propionibacterium freudenreichii plays a crucial role in the production of Swiss-type cheeses; however, genomic variability among strains, which affects their technological traits, remains insufficiently explored. In this study, whole-genome sequencing and comparative analysis were performed on five industrial P. freudenreichii strains. Despite their overall high genomic similarity, the strains proved different in gas production and substrate metabolism. Phylogenetic analysis revealed a close relationship between strain FNCPS 828 and P. freudenreichii subsp. shermanii (z-score = 0.99948), with the latter being unable to reduce nitrates but being able to metabolize lactose. The narG gene encoding the nitrate reductase alpha subunit was detected in only one of the five analyzed strains - FNCPS 828 - and in 39% of previously described P. freudenreichii genomes, suggesting its potential as a marker of nitrate-reducing capability. Analysis of 112 genomes showed that the I-G CRISPR-Cas system was present in more than 90% of the strains, whereas the type I-E system was found in approximately 25%. All the five study strains harbored the type I-G system; strain FNCPS 3 additionally contained a complete type I-E system with the highest number of CRISPR spacers, some of which matched previously published bacteriophage sequences. The most prevalent anti-phage defense systems included RM I, RM IV, AbiE, PD-T4-6, HEC-06, and ietAS. These findings highlight the genetic diversity of P. freudenreichii strains, which is of great importance in their industrial applications. The identification of narG as a potential marker of nitrate-reducing activity, along with detailed mapping of CRISPR- Cas systems, boosts opportunities for the rational selection and engineering of starter cultures with tailored metabolic properties and increased resistance to bacteriophages.
+
+INTRODUCTION
+
+Members of the genus Propionibacterium play an important role in the food industry. In particular, Propionibacterium freudenreichii strains are widely used in the ripening of Swiss-type cheeses [1]. The key metabolic pathway in P. freudenreichii is the Wood-Werkmann cycle, where lactate is first converted to pyruvate and then metabolized: one portion is converted to propionate that gives the cheese its characteristic flavor, and the other portion is converted to acetate and carbon dioxide that form the characteristic “eyes” [2].
+
+Each P. freudenreichii strain is characterized by a unique set of enzymes that underlies the specific features of its metabolic activity [3], which affects fermented carbohydrates and provides the taste of the final product [4]. Furthermore, these bacteria synthesize vitamins B9 and B12, conjugated linoleic acid, trehalose, bacteriocins, and organic acids and exhibit probiotic properties [5].
+
+Bacteriophage contamination is a serious problem for the dairy industry, because it can result in fermentation failure and product defects. Bacteriophages are detected in approximately half of Swiss-type cheeses at a concentration of at least 105 PFU/g; they multiply as propionic acid bacteria grow in a warm chamber during cheese ripening [6]. Given the key role of P. freudenreichii in shaping the organoleptic characteristics of cheeses, investigation of their immune defense systems is of great practical importance for identifying phage-resistant strains and minimizing the risk of process failures during the ripening stage [7].
+
+Despite the industrial significance of P. freudenreichii, genomic characterization of industrial strains of this species is very limited. Whole-genome sequencing identifies interstrain variations and reveals links between genotype and technological properties, including metabolism, stress resistance, and defense systems [4].
+
+In this study, we present the results of whole-genome sequencing of five P. freudenreichii strains used in the dairy industry and comprehensive genomic characterization of these strains, focusing on their metabolic characteristics, defense mechanisms, and functional gene variability
+
+EXPERIMENTAL
+
+Strains and culture conditions
+
+In this study, we used five P. freudenreichii strains: FNCPS 2 (GCA_044990475.1), FNCPS 3 (GCA_044990455.1), FNCPS 4 (GCA_044990515.1), FNCPS 6 (GCA_044990495.1), and FNCPS 828 (GCA_044990435.1) received from the collection of the All-Russian Research Institute of Butter and Cheese Making of the Dairy Industry (VNIIMS, a branch of the Gorbatov Federal Research Center for Food Systems of the Russian Academy of Sciences). Strains FNCPS 2 and FNCPS 3 were isolated from raw milk samples, and the others were isolated from cheese samples. All strains were isolated from dairy products manufactured in Altai Krai, Russia.
+
+Propionibacterium bacteria were cultivated in a liquid culture medium containing peptone (10 g), yeast extract (10 g), cobalt chloride (0.01 g), potassium monobasic phosphate (1 g), and 20 cm³ of 40% lactic acid. These components were dissolved in 1 L of distilled water, the pH was adjusted to 7.1 ± 0.1, and the mixture was then poured into test tubes and sterilized at 121 ± 2°C for 15 min. The same medium was used to study the gas-producing activity of P. freudenreichii strains.
+
+The effect of milk protein proteolysis products on gas production by propionibacterium was studied using the same culture medium. However, the components were added to pancreatin-hydrolyzed skim milk diluted with distilled water at a ratio of 1 : 2.
+
+To produce propionibacterium cultures, the culture medium was inoculated with 1% of the inoculum and incubated in a thermostat at 30 ± 1°C for 72 h.
+
+Phenotypic characterization of the strains
+
+The rate of gas production and the volume of released gas were measured during culturing in graduated Dunbar tubes with a 1% inoculum dose at 30 ± 1°C. The volume of released gas was measured daily for 15 days. The rate of gas production was calculated as the maximum gas volume divided by the number of culture days.
+
+The effect of temperature on the gas-producing activity of the cultures was assessed by culturing cells in graduated Dunbar tubes with a 1% inoculum dose at 18 ± 1°C, 22 ± 1°C, and 30 ± 1°C. The gas volume was measured daily for 15 days.
+
+Anaerobic bacteria were identified by measurements of the biochemical activity of the cultures using the API 20A test system (bioMérieux, France) according to the manufacturer’s instructions. Test strip results were analyzed using the APIWEB online database (bioMérieux).
+
+Bacterial genome sequencing and assembly
+
+DNA for genome sequencing was isolated using an ExtractDNA Blood and Cells kit (Eurogen, Russia) according to the manufacturer’s instructions. DNA libraries were prepared using the MGIEasy Fast FS DNA Library Prep Set V2.0 (Cat. No. 940-001196-00, MGI, China) according to the manufacturer’s protocol. Library quality was assessed using a Qubit 1X dsDNA High Sensitivity DNA Assay kit (Cat. No. Q33230, Thermo Fisher Scientific, USA) and a Qubit Fluorometer (Thermo Fisher Scientific). The length of DNA library fragments was estimated using QIAxcel Advanced capillary gel electrophoresis with a QX DNA Fast Analysis kit (Cat. No. 929008, Qiagen, Germany). Sequencing was performed using an FCS flow cell on an MGI DNBSEQ-G50 platform (BGI, China) in the PE150 mode.
+
+Bacterial genomes were assembled using SPAdes [8] in the “isolate” mode. To improve final assembly quality, raw reads were aligned to contigs using Bowtie2 [9], after which the alignment files were sorted and indexed using SAMtools [10] and transferred to Pilon [11] to correct assembly inaccuracies. Assembly quality was assessed using QUAST [12], and the completeness of the assembled genomes was evaluated using BUSCO [13]. The assembled genomic sequences were deposited in the NCBI database (BioProject: PRJNA1184111).
+
+Genome analysis
+
+Genome annotation and functional analysis were performed using the NCBI Prokaryotic Genome Annotation Pipeline [14] and the BV-BRC platform [15] that employs the RASTtk algorithm [16]. Comparative analysis of gene presence in propionibacterium was performed using the BV-BRC platform based on high-quality, open-access complete P. freudenreichii genome assemblies (n = 112).
+
+Identification of bacterial immune systems
+
+Bacterial immune systems were identified using the PADLOC software (v2.0.0) [17]. CRISPR repeats and spacers were identified using the CRISPR-Cas Finder tool (v4.3.2) [18], and Cas proteins were annotated using PADLOC. To identify potential targets, spacers were aligned to bacterial phage genomes using Bowtie2 v2.5.4 [19]. Nucleotide sequences of 575 phage genomes were obtained from the NCBI database (accessed July 4, 2025).
+
+Phylogenetic analysis
+
+Phylogenetic identification and determination of closely related strains were performed using tetranucleotide correlation analysis via the JSpeciesWS web service [20]. Average nucleotide identity (ANI) was compared using the OrthoANI algorithm [21].
+
+RESULTS
+
+General genomic characterization
+
+Whole-genome sequencing is considered the gold standard for genetic characterization of microorganisms. General characteristics of the genomic sequences of the five strains are presented in Table 1.
+
+Table 1 Genomic characteristics of the study P. freudenreichii strains, based on whole-genome sequencing data
+
+P. freudenreichii	FNCPS 2	FNCPS 3	FNCPS 4	FNCPS 6	FNCPS 828	
+Contigs	599	205	159	446	83	
+GC content	65.95	67.04	66.68	66.38	67.24	
+Contig L50	9	11	5	11	9	
+Genome length, bp	2806765	2894278	2649124	2734816	2579802	
+Contig N50	101.834	63836	169499	79634	93772	
+CDS	2.684	2.768	2.497	2.603	2.349	
+tRNA	48	173	44	58	45	
+Repeat regions	44	48	13	46	38	
+rRNA	3	3	4	3	4	
+Hypothetical proteins	935	933	790	845	670	
+Proteins with functional annotation	1.749	1.835	1.707	1.758	1.679	
+
+Tetracorrelation analysis revealed that the type strain P. freudenreichii subsp. shermanii CCUG 36819 had the closest similarity to the study strains P. freudenreichii FNCPS 828, 2, 6, and 4 (z-score: 0.99948, 0.96457, 0.97622, and 0.98812, respectively). P. freudenreichii subsp. freudenreichii DSM 20271 was closest to strain FNCPS 3 (z-score = 0.98812). Calculation of OrthoANI values among all the study strains and the reference genomes showed a high phylogenetic closeness (ANI > 98%), which indicates that they probably belong to the same clonal group. The results are presented as a pairwise similarity matrix (Fig. 1).
+
+Fig. 1 ...
+
+Strain phenotyping
+
+Gas production. Gas production (CO2 production) is one of the key technological characteristics of propionic acid bacteria, which enables the formation of “eyes” in Emmental-type cheeses [22]. The main CO2 producer during ripening is P. freudenreichii that metabolizes lactic acid to form propionate, acetate, and CO2 .
+
+To assess gas-producing activity, we conducted experiments using two types of culture media: with and without milk hydrolyzate. The results are presented in Fig. 2A,B.
+
+Fig. 2 ...
+
+Strain P. freudenreichii FNCPS 2 growing on the medium without milk hydrolyzate was characterized by the highest rate and volume of gas production, whereas these indicators in strains FNCPS 3 and FNCPS 4 were low. On the medium with hydrolyzed milk, the differences among the strains decreased: activity of P. freudenreichii FNCPS 2 remained high, indicators of FNCPS 6 and FNCPS 828 significantly increased, while the volume of released gas in FNCPS 3 was low. Thus, strain FNCPS 2 is characterized by stable and high gas production, whereas FNCPS 3 exhibits low activity, regardless of culture conditions.
+
+Fig. 3 ...
+
+Metabolic profiling of bacteria
+
+Metabolic profiling of the strains was performed using the BioMérieux system. The results are presented in Fig. 4.
+
+Fig. 4 ...
+
+According to the data, the only substrates metabolized by all the strains were D-mannose, D-glucose, and D-lactose. Strain FNCPS 3, unlike the other strains, was not able to utilize glycerol and lacked catalase activity. P. freudenreichii FNCPS 2 had the broadest metabolic profile (12 of 20 substrates tested). In addition, strains FNCPS 828 and FNCPS 4 were able to degrade gelatin, which was not typical of the other strains.
+
+Genome analysis
+
+Analysis of the coding sequences at the role level of annotated biological gene functions revealed that all strains possessed a comparable number of unique functional groups (from 738 to 750), of which 724 were common to all (Fig. 5). The most related strains were FNCPS 4 and 828, which shared 16 unique functional gene groups.
+
+Fig. 5 ...
+
+Polymorphic variants of a number of genes in the study strains may play a key role in the cheese ripening process, influencing the organoleptic properties of products, the efficiency of metabolic pathways, and the overall nutritional value. For example, only strains P. freudenreichii FNCPS 4 and FNCPS 828 were found to contain a complete set of genes encoding the enzymes involved in 1,2-propanediol metabolism and components of the propanediol dehydratase complex (PduA, PduB, PduJ, PduK, PduN, PduU, and PduV genes), which indicates the ability of these strains to anaerobically convert propanediol into propanol and propionate [23].
+
+Strains FNCPS 2, 3, and 6 contain aspartate racemase [EC 5.1.1.13] involved in the synthesis of D-aspartate, as well as the OppB gene encoding a component of an oligopeptide transporter that ensures the uptake of peptides from the environment - an important source of nitrogen in the fermentation matrix.
+
+The only difference at the functional class level was the absence of genes belonging to the Nitrogen Metabolism class in strain FNCPS 828.
+
+Subspecies identification
+
+The P. freudenreichii species is traditionally divided into two subspecies: freudenreichii and shermanii. The main traits differentiating these subspecies are the ability to reduce nitrates and ferment lactose [4]. Usually, ssp. freudenreichii strains reduce nitrates but do not metabolize lactose, whereas ssp. shermanii are able to ferment lactose but not able to reduce nitrates [24].
+
+Fig. 6 ...
+
+The key enzyme involved in nitrate reduction is the respiratory nitrate reductase complex [EC 1.7.99.4]. This enzyme functions as a final electron acceptor under anaerobic conditions, participating in energy generation. Genomic analysis revealed that strain FNCPS 828 lacked the narG gene encoding the respiratory nitrate reductase alpha chain that directly reduces nitrate to nitrite [25]. The lack of this gene was detected in 44 of 112 (39%) analyzed P. freudenreichii genomes (Fig. 6A). In this case, none of the narG gene-containing strains had been previously classified as a shermanii subspecies.
+
+The only difference in the genetic profile of strain FNCPS 828 from the other study strains was the lack of the gene encoding α-galactosidase, an enzyme that breaks down α-D-galactooligosaccharides and polysaccharides, including melibiose, raffinose, stachyose, and verbascose. The α-galactosidase gene was detected in only 14% of P. freudenreichii genomes and was not identified in any of the typical representatives of ssp. freudenreichii (Fig. 6B).
+
+Characterization of bacterial defense systems
+
+General characterization. Bacteriophages represent a serious threat to propionic acid bacteria, because their infection decreases cellular metabolic activity, which is very important under production conditions [26]. During evolution, bacteria have developed a variety of defense systems against a bacteriophage infection.
+
+Fig. 7 ...
+
+Analysis of 112 previously published P. freudenreichii genomes revealed that abortive infection (AbiE, PD-T4-6) and type I and IV restriction-modification (RM) systems were the most common bacterial immune systems, present in over 90% of the genomes. The type I-G CRISPR-Cas system was also quite common, being identified in 74% of the strains (83 of 112) (Fig. 7). All of these defense mechanisms were also identified in the five study strains.
+
+In addition to the widespread systems, less well-studied anti-phage mechanisms were also found in the five analyzed genomes. For example, the HEC06 system, which uses nucleases to recognize and degrade modified phage DNA [27], was identified in all strains, except FNCPS 6. In the P. freudenreichii population, it is present in 44% of the genomes. The IetAS system, which is characteristic of 54% of strains in this species, is present in all study genomes, except FNCPS 3. Although its mechanism of action has not yet been fully elucidated, it is believed to function synergistically with other defense systems [28].
+
+Interestingly, despite the relatively high detection frequency of systems such as SoFic (20%) and Uzume (25%) in P. freudenreichii strains, they were absent in all five study genomes. However, systems less common in the population, Hachiman I (11%) and Pycsar (9%), were identified in three of the five strains.
+
+CRISPR-Cas
+
+CRISPR-Cas is one of the best-known adaptive defense systems, which provides immunity to previously encountered phages by integrating fragments of their DNA into the bacterial genome [29]. The presence and composition of CRISPR-Cas systems in the five study P. freudenreichii strains were analyzed (Table 2).
+
+Table 2 Characterization of CRISPR-Cas systems in the P. freudenreichii strains studied
+
+P. freudenreichii
+strain	CRISPR‒Cas
+system, type	Cas proteins,
+number	Unique spacers,
+number	Unique CRISPRs,
+number	
+FNCPS 2	I‒G	6	44	2	
+FNCPS 3	I‒G, I‒E	14	170	5	
+FNCPS 4	I‒G	6	13	3	
+FNCPS 6	I‒G	6	62	4	
+FNCPS 828	I‒G	5	37	2	
+
+Strains FNCPS 2, FNCPS 4, and FNCPS 6 were found to possess a complete type I-G system including all the necessary proteins: Cas1, Cas2, Cas3, Cas56, Cas7, and Cas8, which indicates its potential functionality. Strain FNCPS 3 contains two CRISPR-Cas systems: complete I-G and I-E clusters (Cas1, Cas2, Cas3, Cas5, Cas6, Cas7, Cas8, and Cas11), which may provide increased resistance to foreign DNA.
+
+Strain FNCPS 828 was found to possess an incomplete I-G CRISPR-Cas system: it lacked the Cas2 protein involved in inserting new spacers into the CRISPR array. However, other key components were present.
+
+Fig. 8 ...
+
+A total of 326 unique spacers were identified in the five P. freudenreichii strains. To search for potential targets of CRISPR-Cas systems, we aligned the identified spacers with the previously published genomes of 575 bacteriophages infecting bacteria used in the dairy industry. The analysis revealed matches of 69 spacers (21%) with the genomes of nine different phages, all of which infect propionibacterium (Fig. 8).
+
+DISCUSSION
+
+This paper presents the results of an analysis of five phylogenetically related P. freudenreichii strains with significant phenotypic differences. Despite a high degree of genomic identity (orthoANI > 99.9), strains P. freudenreichii FNCPS 2 and FNCPS 3 differed significantly in a number of phenotypic traits. P. freudenreichii FNCPS 2 exhibited stable and high gas-producing activity, both in standard medium and in medium with milk hydrolyzate, whereas FNCPS 3 produced gas only in the presence of hydrolyzate. Both strains were grouped into a single cluster based on their metabolic profiles, indicating adaptation to the environment of their common origin. However, FNCPS 3 did not utilize L-arabinose, D-raffinose, and glycerol, compounds potentially present in the dairy medium, whereas FNCPS 2 metabolized the largest number of substrates, which is consistent with its pronounced gas-forming activity. Previously, the intensity of gas production in P. freudenreichii was shown to be directly related to the availability of metabolites, primarily lactate: upon nutrient depletion, the fermentation level and CO2 release decreased [30]. Also, the use of carbon substrates, such as whey lactose and glycerol, affects fermentation and gas production in P. freudenreichii ssp. shermanii, confirming the dependence of this process on the type and diversity of nutrient sources [31, 32]. Thus, differences in the metabolism of easily digestible carbon sources likely explain the observed differences in gas production among strains [33].
+
+Recent studies have demonstrated that the traditional division of P. freudenreichii into the subspecies freudenreichii and shermanii, based on the ability to ferment lactose and reduce nitrates, does not reflect the actual genetic and phenotypic diversity of this species. Strains with various combinations of these traits have been reported [24, 34], and phylogenetic analysis using MLST has not revealed a clear clustering consistent with the existing subspecies classification [34]. A recent phenotype-based reclassification showed that more than 45% of the strains examined could not be assigned to any of the subspecies [24]. In addition, some strains were probably misclassified as non-nitrate-reducing due to insufficient incubation time [24]. In this regard, the development of genetic markers to correctly distinguish subspecies and predict phenotypes is becoming topical.
+
+Strain FNCPS 828 demonstrated high phylogenetic closeness to type strain P. freudenreichii subsp. shermanii CCUG 36819 (ESK = 0.99948) and was capable of lactose metabolism, but lacked the full set of genes required for nitrate reduction. The only variable gene associated with this ability in P. freudenreichii strains was narG encoding the respiratory nitrate reductase alpha subunit, which makes it a potential marker for subspecies identification.
+
+To date, a limited number of studies have been devoted to the defense systems of P. freudenreichii. The most common defense mechanism in bacteria is the restriction-modification system [35] also identified in P. freudenreichii [36]. As previously reported, the most common CRISPR-Cas system in these bacteria is type I-G, although type I-E is also present [37]. Our analysis of 112 P. freudenreichii strains confirmed the predominance of the I-G system, whereas the I-E system was present in approximately 25% of the strains. In addition, AbiE, PD-T4-6, and type I and IV restriction-modification systems were found in more than 90% of the strains analyzed.
+
+All the five study strains contained the type I-G CRISPR-Cas system. In strain FNCPS 828, this system was incomplete and lacked the gene encoding the Cas2 protein. Strain FNCPS 3, in addition to the type I-G system, also possessed an additional type I-E CRISPR-Cas system. This strain was also characterized by the highest number of spacer sequences, including the highest number of spacers whose targets matched previously reported propionibacterium phages. Previously, P. freudenreichii strains were reported to contain spacers to phages B22, Anatole, E1, Doucette, E6, G4, and B3 [38]. In our study, only strain FNCPS 3 had spacers to all previously described phages, except E1, and also contained additional spacers to phages B5, PFR1, and PFR2, which reflects significant viral pressure during the co-evolution of the strain with bacteriophages. In addition to CRISPR- Cas systems, all strains were found to possess the most common defense mechanisms in P. freudenreichii, as well as the less studied HEC-06 and ietAS complexes, which indicates a layered antiviral defense system in members of this species.
+
+CONCLUSIONS
+
+In this study, we analyzed both the common traits and intraspecific diversity of P. freudenreichii strains, which has direct implications for the dairy industry. Differences in gas-producing activity, the range of metabolized substrates, and bacterial defense systems reflect the adaptation of strains to various technological conditions and underscore the need for their targeted selection to optimize starter cultures. The identification of the narG gene as a potential marker for nitrate reduction and the description of defense system diversity, including CRISPR-Cas, open up prospects for more accurate strain typing and prediction of their technological properties. These findings provide the basis for the development of starter cultures with increased stability, predictable characteristics, and resistance to bacteriophages, which ultimately facilitates the generation of more reliable and functional industrial cultures adapted to the profile of specific fermentation processes.
+
+This work was supported by a grant from the Ministry of Science and Higher Education of the Russian Federation for major research projects in priority areas of scientific and technological development (No. 075-15-2024-483).
+
+Abbreviations
+
+
+References
+
+1 IntechOpen Propionibacterium freudenreichii: General characteristics and probiotic traits. Prebiotics and Probiotics-From Food to Health. 2021 10.5772/intechopen.97560 de Rezende Rodovalho V. Rodrigues DLN. Jan G. Le Loir Y. de Azevedo VA. Guédon E.
+2 Food Microbiol. Genomic rearrangements in the aspA-dcuA locus of Propionibacterium freudenreichii are associated with aspartase activity. 2022 106 10.1016/j.fm.2022.104030 Turgay M. Falentin H. Irmler S. 10.1016/j.fm.2022.104030 35690437
+3 BMC Genomics. Mutations and genomic islands can explain the strain dependency of sugar utilization in 21 strains of Propionibacterium freudenreichii. 2015 16 1 10.1186/s12864-015-1467-7 296 Loux V. Mariadassou M. Almeida S. 25886522 10.1186/s12864-015-1467-7 PMC4437456
+4 Biomolecules. Sequencing and analysis of the genome of Propionibacterium freudenreichii T82 strain: Importance for industry. 2020 10 2 10.3390/biom10020348 348 Piwowarek K. Lipińska E. Hać-Szymańczuk E. Kieliszek M. Kot AM. 10.3390/biom10020348 PMC7072396 32102319
+5 Front Microbiol. Propionibacteria as promising tools for the production of pro-bioactive scotta: A proof-of-concept study. 2023 14 10.3389/fmicb.2023.1223741 1223741 Coronas R. Zara G. Gallo A. 10.3389/fmicb.2023.1223741 PMC10425813 37588883
+6 Appl Environ Microbiol. Occurrence of Propionibacterium freudenreichii bacteriophages in Swiss cheese. 1995 61 7 10.1128/aem.61.7.2572-2576.1995 2572 2576 Gautier M. Rouault A. Sommer P. Briandet R. 10.1128/aem.61.7.2572-2576.1995 PMC167529 7618869
+7 BMC Microbiol. Complete genomic sequences of Propionibacterium freudenreichii phages from Swiss cheese reveal greater diversity than Cutibacterium (formerly Propionibacterium) acnes phages. 2018 18 1 10.1186/s12866-018-1159-y 19 Cheng L. Marinelli LJ. Grosset N. 29490612 10.1186/s12866-018-1159-y PMC5831693
+8 Curr Protoc Bioinformatics. Using SPAdes de novo assembler. 2020 70 1 10.1002/cpbi.102 Prjibelski A. Antipov D. Meleshko D. Lapidus A. Korobeynikov A. 10.1002/cpbi.102 32559359
+9 BioData Min. Performance of genetic programming optimised Bowtie2 on genome comparison and analytic testing (GCAT) benchmarks. 2015 8 1 10.1186/s13040-014-0034-0 1 Langdon WB. 25621011 10.1186/s13040-014-0034-0 PMC4304608
+10 Bioinformatics. The sequence alignment/map format and SAMtools. 2009 25 16 10.1093/bioinformatics/btp352 2078 2079 Li H. Handsaker B. Wysoker A. 10.1093/bioinformatics/btp352 PMC2723002 19505943
+11 PLoS One. Pilon: an integrated tool for comprehensive microbial variant detection and genome assembly improvement. 2014 9 11 10.1371/journal.pone.0112963 Walker BJ. Abeel T. Shea T. 10.1371/journal.pone.0112963 PMC4237348 25409509
+12 Bioinformatics. QUAST: quality assessment tool for genome assemblies. 2013 29 8 10.1093/bioinformatics/btt086 1072 1075 Gurevich A. Saveliev V. Vyahhi N. Tesler G. 10.1093/bioinformatics/btt086 PMC3624806 23422339
+13 Methods Mol Biol. BUSCO: assessing genome assembly and annotation completeness. 2019 1962 10.1007/978-1-4939-9173-0_14 227 245 Seppey M. Manni M. Zdobnov EM. 10.1007/978-1-4939-9173-0_14 31020564
+14 Nucleic Acids Res. NCBI prokaryotic genome annotation pipeline. 2016 44 14 10.1093/nar/gkw569 6614 6624 Tatusova T. DiCuccio M. Badretdin A. 10.1093/nar/gkw569 PMC5001611 27342282
+15 Nucleic Acids Res. Introducing the Bacterial and Viral Bioinformatics Resource Center (BV-BRC): a resource combining PATRIC, IRD and ViPR. 2023 51 D1 10.1093/nar/gkac1003 D678 D689 Olson RD. Assaf R. Brettin T. 10.1093/nar/gkac1003 PMC9825582 36350631
+16 Sci Rep. RASTtk: A modular and extensible implementation of the RAST algorithm for building custom annotation pipelines and annotating batches of genomes. 2015 5 10.1038/srep08365 8365 Brettin T. Davis JJ. Disz T. 10.1038/srep08365 PMC4322359 25666585
+17 Nucleic Acids Res. PADLOC: a web server for the identification of antiviral defence systems in microbial genomes. 2022 50 W1 10.1093/nar/gkac400 W541 W550 Payne LJ. Meaden S. Mestre MR. 10.1093/nar/gkac400 PMC9252829 35639517
+18 Nucleic Acids Res. CRISPRCasFinder, an update of CRISRFinder, includes a portable version, enhanced performance and integrates search for Cas proteins. 2018 46 W1 10.1093/nar/gky425 W246 W251 Couvin D. Bernheim A. Toffano-Nioche C. 10.1093/nar/gky425 PMC6030898 29790974
+19 Nat Methods. Fast gapped-read alignment with Bowtie 2. 2012 9 4 10.1038/nmeth.1923 357 359 Langmead B. Salzberg SL. 10.1038/nmeth.1923 PMC3322381 22388286
+20 Bioinformatics. JSpeciesWS: a web server for prokaryotic species circumscription based on pairwise genome comparison. 2016 32 6 10.1093/bioinformatics/btv681 929 931 Richter M. Rosselló-Móra R. Oliver Glöckner F. Peplies J. 10.1093/bioinformatics/btv681 PMC5939971 26576653
+21 Int J Syst Evol Microbiol. OrthoANI: An improved algorithm and software for calculating average nucleotide identity. 2016 66 2 10.1099/ijsem.0.000760 1100 1103 Lee I. Ouk Kim Y. Park SC. Chun J. 10.1099/ijsem.0.000760 26585518
+22 Vet Sci Pract. Biochemical Processes During Cheese Ripening. 2024 19 3 10.17094/vetsci.1609184 174 182 Atasever M. Mazlum H.
+23 Enzyme Microb Technol. The roles of diol dehydratase from pdu operon on glycerol catabolism in Klebsiella pneumoniae. 2022 157 10.1016/j.enzmictec.2022.110021 110021 Shu L. Wang Q. Jiang W. 10.1016/j.enzmictec.2022.110021 35231673
+24 Dairy Sci Technol. New insights about phenotypic heterogeneity within Propionibacterium freudenreichii argue against its division into subspecies. 2015 95 4 10.1007/s13594-015-0229-2 465 477 de Freitas R. Madec MN. Chuat V. 10.1007/s13594-015-0229-2 PMC4471392 26097645
+25 Biochim Biophys Acta. Respiratory nitrate reductase from haloarchaeon Haloferax mediterranei: biochemical and genetic analysis. 2004 1674 1 10.1016/j.bbagen.2004.05.007 50 59 Lledó B. Martínez-Espinosa RM. Marhuenda-Egea FC. Bonete MJ. 10.1016/j.bbagen.2004.05.007 15342113
+26 Food Microbiol. Viruses in fermented foods: Are they good or bad? Two sides of the same coin. 2021 98 10.1016/j.fm.2021.103794 103794 Maske BL. de Melo Pereira GV. da Silva Vale A. Marques Souza DS. De Dea Lindner J. Soccol CR. 10.1016/j.fm.2021.103794 PMC7992106 33875222
+27 bioRxiv. New antiviral defences are genetically embedded within prokaryotic immune systems. 2024 10.1101/2024.01.29.577857 Payne LJ. Hughes TCD. Fineran PC. Jackson SA.
+28 Science. Diverse enzymatic activities mediate antiviral immunity in prokaryotes. 2020 369 6507 10.1126/science.aba0372 1077 1084 Gao L. Altae-Tran H. Böhning F. 10.1126/science.aba0372 PMC7985843 32855333
+29 Nat Rev Microbiol. Evolutionary classification of CRISPR–Cas systems: a burst of class 2 and derived variants. 2020 18 2 10.1038/s41579-019-0299-x 67 83 Makarova KS. Wolf YI. Iranzo J. 10.1038/s41579-019-0299-x PMC8905525 31857715
+30 BMC Genomics. Adaptation of Propionibacterium freudenreichii to long-term survival under gradual nutritional shortage. 2016 17 1 10.1186/s12864-016-3367-x 1007 Aburjaile FF. Rohmer M. Parrinello H. 27931189 10.1186/s12864-016-3367-x PMC5146858
+31 Pol J Environ Stud. Propionic acid production by Propionibacterium freudenreichii ssp. shermanii using crude glycerol and whey lactose industrial wastes. 2010 19 6 1249 1253 Kośmider A. Drożdżyńska A. Blaszka K. Leja K. Czaczyk K.
+32 Food Bioproc Tech. High cell density culture of dairy propionibacterium sp. and acidipropionibacterium sp.: A review for food industry applications. 2022 15 4 10.1007/s11947-021-02748-2 734 749 de Assis DA. Machado C. Matte C. Ayub MAZ. 10.1007/s11947-021-02748-2 PMC8761093 35069966
+33 Curr Opin Food Sci. Expanded metabolic diversity of Propionibacterium freudenreichii potentiates novel applications in food biotechnology. 2023 52 10.1016/j.cofs.2023.101048 101048 Dank A. Abee T. Smid EJ.
+34 Int J Food Microbiol. Multilocus sequence typing of Propionibacterium freudenreichii. 2011 145 1 10.1016/j.ijfoodmicro.2010.11.037 113 120 Dalmasso M. Nicolas P. Falentin H. 10.1016/j.ijfoodmicro.2010.11.037 21176990
+35 Nat Rev Microbiol. The highly diverse antiphage defence systems of bacteria. 2023 21 10 10.1038/s41579-023-00934-x 686 700 Georjon H. Bernheim A. 10.1038/s41579-023-00934-x 37460672
+36 BMC Genomics. De novo assembly of genomes from long sequence reads reveals uncharted territories of Propionibacterium freudenreichii. 2017 18 1 10.1186/s12864-017-4165-9 790 Deptula P. Laine PK. Roberts RJ. 29037147 10.1186/s12864-017-4165-9 PMC5644110
+37 Acta Naturae. Comparative Analysis of Spacer Targets in CRISPR-Cas Systems of Starter Cultures. 2024 16 4 10.32607/actanaturae.27533 81 85 Fatkulin AA. Chuksina TA. Sorokina NP. 10.32607/actanaturae.27533 PMC11771843 39877015
+38 Compr Rev Food Sci Food Saf. Propionic acid bacteria in the food industry: An update on essential traits and detection methods. 2021 20 5 10.1111/1541-4337.12804 4299 4323 Bücher C. Burtscher J. Domig KJ. 10.1111/1541-4337.12804 34355493

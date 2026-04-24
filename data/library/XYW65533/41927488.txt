@@ -1,0 +1,13 @@
+Bicyclic δ-Thiolactone Glycomimetics: Stereoselective Synthesis and Discovery of Stereocontrolled Antiphage Activity.
+
+A stereocontrolled synthesis of bicyclic thiolactones from methyl α-mannopyranoside and methyl
+α-galactopyranoside was achieved via iodination, selective protection, Bernet-Vasella fragmentation,
+and Knoevenagel-hetero-Diels-Alder domino reaction under polar, anhydrous, and inert conditions.
+d-mannoside derivatives cyclized with complete diastereoselectivity, whereas d-galactoside analogues
+showed substituent-dependent stereochemical outcomes. Structural assignments were confirmed by two-
+dimensional NMR spectroscopy and X-ray analyses. Spontaneous tautomerization of thioamides generated
+C═N bonds and new stereocenters, providing a predictable route to carbohydrate-derived thiolactones.
+Among the synthesized compounds, thiolactone 29 selectively inactivated bacteriophage T4 (>2-log
+reduction in PFU) without affecting Escherichia coli viability. These results demonstrate that
+stereochemical control dictates antiphage activity, establishing a framework for designing
+selective, non-toxic virucidal agents.

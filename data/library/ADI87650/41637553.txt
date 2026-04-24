@@ -1,0 +1,20 @@
+Parallel Bipolar Electrode Array Modified by Hetero-Charged Silica Nanochannels for Ratiometric Electrochemiluminescence Detection of Escherichia coli Lysed by T4 Phage.
+
+Development of user-friendly biosensors for bacterial detection remains a critical concern in public
+health. The bipolar electrode-based electrochemiluminescence (BPE-ECL) systems are distinguished by
+their inherent spatial separation of sensing and reporting functions, representing a promising
+approach for biosensor development. This work innovatively presents a parallel BPE-ECL biosensor,
+wherein the cathodes are interdigitally inserted and the anodes are functionalized with vertically
+ordered mesoporous silica films (VMSFs) bearing negative and positive charges, to achieve dual-
+channel ratiometric ECL detection. The infection of Escherichia coli (E. coli) by T4 phage induces
+host cell lysis, resulting in a significant increase in the surrounding conductivity. This
+conductivity alteration within the sensing cell of VMSFs/pBPE-ECL leads to a decrease in the ECL
+signal of Ru(bpy)32+/TPrA in detection channel 1 and an increase in the ECL signal of Luminol/H2O2
+in detection channel 2 independently, due to the enhanced polarization of the BPEs and the
+nanoconfinement effects of hetero-charged silica nanochannels on the ECL luminophors. By using the
+ratio of ECL intensities (ILu/IRu) from the two detection channels, E. coli can be detected with
+improved accuracy and resistance to interference. This biosensing approach is operationally
+straightforward, avoiding complicated probe immobilization or modification, rendering it a user-
+friendly platform for bacterial detection. Moreover, by replacing the specific phage-bacteria lysis
+bioreaction, this biosensing platform could be used for various bacterial detections, highlighting
+its promising applications.

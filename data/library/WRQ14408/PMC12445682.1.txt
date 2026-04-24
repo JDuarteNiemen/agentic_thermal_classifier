@@ -1,0 +1,469 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Nucleic Acids Res
+Journal ID: Nucleic Acids Res
+Journal ID: nar
+
+Nucleic Acids Research
+
+ISSN: 0305-1048
+EISSN: 1362-4962
+Publisher: Oxford University Press
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC12445682
+PMID: 40966496
+DOI: 10.1093/nar/gkaf874
+Article ID: gkaf874
+Article version: 1
+Subjects: AcademicSubjects/SCI00010, Nucleic Acid Enzymes
+
+OLD amputates the anticodon arm of tRNAs during P2–Lambda interference
+
+https://orcid.org/0000-0001-7112-9811 Govande Apurva A Data curation Formal analysis Investigation Methodology Writing - original draft Writing - review & editing New England Biolabs, 240 County Road, Ipswich, MA 01938, United States
+
+https://orcid.org/0009-0006-1729-9434 Matibag Brian D Data curation Formal analysis Writing - review & editing New England Biolabs, 240 County Road, Ipswich, MA 01938, United States
+
+Ünlü Irem Data curation Formal analysis Writing - review & editing New England Biolabs, 240 County Road, Ipswich, MA 01938, United States
+
+Wolf Eric J Data curation Formal analysis Investigation New England Biolabs, 240 County Road, Ipswich, MA 01938, United States
+
+Sargen Molly R Data curation Formal analysis Investigation Department of Microbiology, Harvard Medical School, Boston, MA 02115, United States
+
+Ramsey Brooke Data curation Formal analysis Investigation Center for Biophysics and Quantitative Biology, University of Illinois Urbana–Champaign, Urbana, IL 61801, United States
+
+Kim Sangjin Data curation Formal analysis Funding acquisition Investigation Resources Center for Biophysics and Quantitative Biology, University of Illinois Urbana–Champaign, Urbana, IL 61801, United States
+Department of Physics, University of Illinois Urbana-Champaign, Urbana, IL 61801, United States
+
+Helaine Sophie Data curation Formal analysis Funding acquisition Investigation Resources Department of Microbiology, Harvard Medical School, Boston, MA 02115, United States
+
+https://orcid.org/0000-0002-3169-6878 Corrêa Ivan R Jr. Investigation Project administration Supervision New England Biolabs, 240 County Road, Ipswich, MA 01938, United States
+
+https://orcid.org/0000-0001-8463-8375 Lim Hoong Chuin Conceptualization Data curation Formal analysis Investigation Methodology Project administration Supervision Writing - original draft Writing - review & editing New England Biolabs, 240 County Road, Ipswich, MA 01938, United States
+
+To whom correspondence should be addressed. Email: hlim@neb.com
+Publication date: 2025 Sep 23
+Electronic publication date: 2025 Sep 12
+Volume: 53
+Issue: 17
+Electronic Location ID: gkaf874
+Accepted 2025 Aug 19; Revised 2025 Jul 18; Received 2025 May 22
+Copyright: © The Author(s) 2025. Published by Oxford University Press.
+Copyright year: 2025
+License: This is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial License (https://creativecommons.org/licenses/by-nc/4.0/), which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited. For commercial re-use, please contact reprints@oup.com for reprints and translation rights for reprints. All other permissions can be obtained through our RightsLink service via the Permissions link on the article page on our site—for further information please contact journals.permissions@oup.com.
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+
+Funding: National Science Foundation Center for Physics of Living Cells 1430124 National Science Foundation Science and Technology Center for Quantitative Cell Biology 2243257 National Institutes of Health 10.13039/100000002 R35 GM143203 F31 1F31AI176589-01 Star Friedman Challenge award New England Biolabs 10.13039/100004774
+Page count: 19
+
+==============================
+Abstract
+
+ATPase-coupled Toprim (Topoisomerase-primase) nucleases, known as Overcoming Lysogenization Defect (OLD) proteins, are crucial for diverse antiphage defenses. The first OLD protein was discovered in phage P2 in 1970 as the factor responsible for executing P2–Lambda interference. In this classic phage conflict, P2–OLD halts phage Lambda replication in host cells carrying the P2 prophage by causing cell death through a poorly understood mechanism. We discovered P2–OLD causes cell death by degrading host threonyl–tRNA with the UGU anticodon (tRNAThrU). Phage-encoded threonyl–tRNAs with the same anticodon rescued P2–OLD-induced cell death by replacing the degraded host version. Our analysis revealed that P2–OLD cleaves tRNAs containing a paired pseudo-palindromic CNG motif in the anticodon stem, with a preference for tRNAThrU. P2–OLD cuts after the cytosine within the CNG motif on both strands, resulting in a staggered cut that detaches the anticodon stem. Phage threonyl–tRNAs resist P2–OLD cleavage due to CNG motif alterations and a shorter anticodon stem. Notably, phage tRNA repair systems cannot restore tRNAs cleaved by P2–OLD. Our findings unveil a novel tRNA inactivation mechanism involving anticodon arm amputation, providing new insights into the mechanism and specificity of Toprim nucleases and finally resolving a long-standing mystery of P2–Lambda interference.
+
+Graphical Abstract
+
+Graphical Abstract
+
+Introduction
+
+The selective pressure of interphage competition has resulted in the frequent inclusion of antiphage defense systems within prophages—dormant phage genomes residing in the bacterial host genome during lysogeny [1, 2]. These prophage-encoded strategies protect the host by preventing subsequent phage entry, blocking replication of injected phage genomes, or triggering cell death to halt phage spread through the entire colony [1, 2]. The ongoing exploration of newly discovered prophage defense systems continues to yield fascinating discoveries, exposing previously unknown mechanisms and complexities [3–6]. Thus, it’s imperative to also consider poorly understood prophage-encoded systems discovered decades ago [7], as these too could be a valuable source of unexplored novelty.
+
+First reported in the 1950s, the P2–Lambda interference phenomenon is a classic example of phage rivalry [8]. In this phenomenon, phage Lambda is unable to replicate in Escherichia coli strains harboring the P2 prophage. Lambda restriction relies on the P2 factor Overcoming Lysogenization Defect (OLD), which is constitutively expressed in the lysogen [9]. Normally nontoxic, P2–OLD becomes toxic upon sensing the inactivation of the RecBCD complex—essential components of homologous DNA repair pathway—by the Lambda factor Gam [10]. This explains why OLD was initially isolated as a factor whose inactivation enables P2 to lysogenize E. coli with recBC deficiency [11], and why Lambda lacking the RecB inhibitor Gam evades P2–OLD restriction [9].
+
+Even almost six decades after its discovery, how P2–OLD induces cell death upon activation is still incompletely understood. Early observations hinted at a link to DNA targeting, as mutations affecting DNA recombination [12, 13] and Lambda DNA replication initiation [14] were found to alter the toxicity of P2–OLD. This model gained further support with the realization that P2–OLD contains a Toprim (Topoisomerase-primase) domain, found in many enzymes with polynucleotide cleaving activity [15]. Additionally, purified P2–OLD and homologs have been shown to cleave DNA in vitro [16, 17]. Despite this evidence, P2–OLD has never been shown to cleave DNA in a physiological setting. Compounding this complexity, many active site mutations in the ATPase or the Toprim domain of P2–OLD abolish its toxicity in recBC-deficient E. coli but do not affect its in vitro DNA nuclease activities [17]. This discrepancy suggests that P2–OLD might have another toxic activity within cells.
+
+This elusive toxic mechanism could be tied to protein synthesis arrest, a well-characterized early feature of P2–Lambda interference [9, 12, 14, 18, 19] that occur due to host transfer tRNA (tRNA) inactivation [19]. However, its direct role in P2–Lambda interference has not received sufficient attention [12, 14, 16, 17, 20, 21], and the precise nature of tRNA inactivation and its link to P2–OLD have remained unknown. Here, we report that P2–OLD functions as a tRNA endoribonuclease with a previously undescribed anticodon stem amputation activity. Using a novel genetic approach, we directly implicate P2–OLD cleavage of the host threonyl–tRNA with the UGU anticodon as a primary cause of P2–OLD toxicity, thereby overturning the prevailing DNA-centric model.
+
+Materials and methods
+
+Reagents
+
+Q5 High-Fidelity DNA polymerase (NEB, M0494)
+
+LB Broth (Teknova, L5150)
+
+Bio-Rad MicroPulser Electroporation Cuvette (Bio-Rad, 1652089)
+
+Bio-Rad MicroPulser Electroporator (Bio-Rad, 1652100)
+
+SOC (NEB, B9035S)
+
+Qubit™ 1× dsDNA High Sensitivity (HS) Assay (Invitrogen, Q33266)
+
+NEBNext® Sample Purification Beads (NEB, E7104)
+
+E. cloni 10G Elite Electrocompetent Cells (Biosearch Technologies, 60052-1)
+
+Monarch® Plasmid Miniprep Kit (NEB, T1010S)
+
+10% Novex TBE-Urea Gel containing 7M Urea (Invitrogen, EC68755BOX)
+
+XCell SureLock Mini-Cell system (Invitrogen, EI0001)
+
+Positively charged nylon membrane (Invitrogen, LC2003)
+
+XCell II Blot Module (Invitrogen, EI0002)
+
+ULTRAhyb Ultrasensitive Hybridization Buffer (Invitrogen, AM8670)
+
+NorthernMax Low Stringency Wash Buffer (Invitrogen, AM8673)
+
+One Shot™ BL21 Star™ chemical competent cells (Invitrogen™ C601003)
+
+IPTG (Teknova)
+
+EDTA-free complete Protease Inhibitor Cocktail (Roche 5892791001)
+
+Qsonica Q700 sonicator
+
+Ni-NTA resin (NEB)
+
+NEBnext sample purification beads (NEB, E6177)
+
+HiScribe® T7 Quick High Yield RNA Synthesis Kit (NEB, E2040)
+
+DNase I (RNase-free) (NEB, M0303)
+
+Monarch RNA clean up kit (NEB, T2040)
+
+rCutsmart buffer (NEB, B6004)
+
+Novex 2xTBE quenching buffer (Thermo, LC6876)
+
+Low-range ssRNA ladder (NEB, N0364)
+
+MicroRNA marker (NEB, N2102)
+
+SYBR gold (Thermo, S11494)
+
+Total E. coli tRNAs—extracted from E. coli MRE strain—is a component of PURExpress® (aa, tRNA) kit sold by NEB, E6800
+
+Biological resources
+
+Escherichia coli str. K-12 substr. MG1655 New England Biolabs NCBI:txid511145
+
+NEB 5alpha New England Biolabs C2988J
+
+MS5106 Laub Lab (MIT) E. coli MFDλpir/pMS749
+
+MS5170 Laub Lab (MIT) E. coli C ΦP2 Δold
+
+MS5977 Laub Lab (MIT) E. coli C Φλ ΦP2 Δ5070lamB::kan
+
+MS5978 Laub Lab (MIT) E. coli C Φλ Δ5070lamB::kan
+
+MS5979 Laub Lab (MIT) E. coli C Φλ ΦP2 Δold Δ5070lamB::kan
+
+Plasmid construction, bacterial strains, and growth conditions
+
+Plasmids were constructed either by Genscript or in-house by assembling the inserts and the vector with NEBuilder Hifi DNA Assembly Master Mix. The inserts were either synthesized by IDT as gBlocks or amplified by polymerase chain reaction (PCR) using the Q5 High-Fidelity DNA polymerase (NEB). Linearized vectors were generated by PCR amplification using the Q5 High-Fidelity DNA polymerase. The sequences were confirmed by either Sanger or whole-plasmid sequencing. Sequences of all plasmids can be found in Supplementary Table S1.
+
+All strains generated and used in this study were cultured in LB Broth [1.0% tryptone, 0.5% yeast extract, and 1.0% sodium chloride (Teknova, L5150)]. For agar plate-based assays, all strains were grown on Rich media agar plates (1.0% soy tryptone, 0.5% yeast extract, 0.5% sodium chloride, and 1.5% agar). When necessary, antibiotics were added to liquid and solid media at the following concentrations: tetracycline at 10 μg/ml (Tet10), chloramphenicol at 15 μg/ml (Cm15), and spectinomycin at 50 μg/ml (Spec50). Strains carrying genes under arabinose-inducible expression were cultured with 0.2% arabinose (Ara0.2) or 0.2% glucose (Glu0.2) to induce or suppress expression, respectively. Likewise, strains carrying genes under heat-inducible expression were induced or suppressed by incubation at 42°C or 30°C, respectively.
+
+Growth curves
+
+E. coli strains were grown in LB supplemented with 0.2% arabinose and the appropriate antibiotics at 30°C for 90 min to induce P2–OLD expression before the cultures were shifted to 42°C to induce Gam expression. Time was set to 0 once the temperature was shifted to 42°C to induce Gam expression. The culture was sampled every 20 min for measuring growth curve viability and microscopy, or every 30 min for isolating genomic and plasmid DNA. OD600 indicates optical density measured at a wavelength of 600 nm. For measurement of colony-forming units (CFUs), at each indicated time point the sampled culture was serially diluted 10-fold. A 5 μl aliquot of each dilution was spotted on plain LB agar.
+
+Preparation of electrocompetent cells
+
+Overnight cultures were used to seed 50 ml subcultures at OD600 = 0.05. Subcultures were grown at 37°C or 30°C (for temperature-sensitive strains) until OD600 = 0.5, upon which they were chilled on ice for 30 min. The subcultures were then washed three times by centrifugation at 5500 RPM for 5 min at 4°C followed by resuspension of the cell pellet in 45 ml of 10% glycerol. After the last wash, the cell pellet was resuspended in 550 μl of 10% glycerol and divided into 55 μl aliquots in 1.5 ml Eppendorf tubes. Aliquoted electrocompetent cells were used immediately or stored at −80°C until use.
+
+Electroporation
+
+10–50 ng of each desired plasmid(s) was added to the thawed electrocompetent cells, mixed by pipetting up and down once, and transferred to a chilled Bio-Rad MicroPulser Electroporation Cuvette (Bio-Rad, 1652089). Electroporation was carried out with a Bio-Rad MicroPulser Electroporator (Bio-Rad, 1652100) using the Ec1 Bacteria setting. 950 μl of SOC (New England Biolabs, B9035S) was immediately added to the cuvette and mixed. The cell suspensions were incubated at 37°C or 30°C (for temperature-sensitive strains) while shaking at 220 rpm for 1 h to recover and subsequently spread onto agar plates supplemented with the appropriate antibiotics. Plates were incubated at 37°C or 30°C overnight (∼16–20 h) or 25°C over the weekend (∼64–68 h).
+
+Spot dilution assays
+
+Cultures were set up by inoculating LB medium supplemented with Glu0.2 and the appropriate antibiotics with the indicated strains. Cells were grown in a shaking incubator at 30°C to an OD600 of 0.5–1.0. After normalizing OD600 = 0.5, the cultures were serially 10-fold diluted five times in a sterile 96-well plate by serially transferring 25 μl of cell suspension into 225 μl of LB after mixing by pipetting up and down. 5 μl of the desired dilutions was spotted on two replicate sets of agar plates containing the appropriate antibiotics and inducers. The agar plates were incubated overnight at the appropriate temperatures. Images of the agar plates were taken with a Nikon D3500 camera with a Nikon AF-S DX Micro NIKKOR 40mm f/2.8G Lens. The large colonies in the strains with pNEB10 and pNEB242 likely accumulated mutations that inactivated P2–OLD or Gam. Sanger sequencing revealed that five out of six pNEB37 plasmids expressing P2–OLD contained transposon insertions in the old gene (data not shown).
+
+Cloning the phage tRNA library
+
+The 245 coliphage tRNA sequences flanked by BsaI cut sites and primer binding sites were synthesized as a Twist Oligo Pool from Twist Biosciences. The oligos were PCR amplified using the Q5 polymerase (NEB, M0494) by preparing 50 μl reactions with 3 ng of oligo pool and running the following program: 1 cycle of 98°C for 30 s; 8 cycles of 98°C for 5 s, 60°C for 15 s, and 72°C for 10 s; 1 cycle of 72°C for 2 min. Four 50 μl reactions were combined and the amplified DNA was purified by adding 200 μl NEBNext® Sample Purification Beads (NEB, E7104) and 200 μl of 200 Proof isopropanol. The tube was mixed thoroughly by pipetting the suspension up and down and incubated at room temperature for 3 min. The magnetic beads were collected using a magnet, and the supernatant was removed completely. Then, the beads were washed in 200 μl of 80% ethanol. After removing the wash solution, the tube containing the magnetic beads was spun down briefly and placed in a 37°C heat block for a few minutes to dry the beads. Elution was carried out by thoroughly resuspending the magnetic beads in 50 μl of nuclease-free water (NEB, B1500). The magnetic beads were collected using a magnetic stand and eluent was transferred to a new tube. The concentration of the purified DNA was determined using the Qubit™ 1× dsDNA High Sensitivity (HS) Assay (Invitrogen, Q33266).
+
+The amplified DNA was cloned into pNEB-10 between constitutive E. coli proK promoter and proK terminator using the Golden Gate Assembly method. A 20 μl reaction composed of 8.5 ng DNA, 71.2 ng pNEB-10, 1 μl of NEB Golden Gate BsaI-HFv2 Assembly Mix, 2 μl of 10× T4 DNA Ligase Buffer (NEB, E1601L), and nuclease-free water. The reaction was carried out by incubating at 37°C for 60 min and 60°C for 3 min. 20 μl of the reaction was pipetted onto a 0.025 μm filter and dialyzed against water for 1 h. 10 μl of the dialyzed reaction was electroporated into 50 μl of E. cloni 10G Elite Electrocompetent Cells (Biosearch Technologies, 60052-1) as described previously. After 1 h recovery, 100 μl of the undiluted, 10× diluted, and 100× diluted cell suspensions were plated on Rich medium agar plates containing Spec50, which were incubated at 37°C overnight. We recovered ∼50 000 transformants, indicating 200× coverage of tRNA diversity was achieved. The colonies were pooled, and the plasmid library was isolated using the Monarch® Plasmid Miniprep Kit (NEB, T1010).
+
+Pooled library screening
+
+The phage tRNA library and the pNEB-10 empty vector were separately electroporated into the indicated E. coli strains by electroporation. Transformants were selected on rich medium agar plates under permissive conditions. After 72 h of incubation at 25°C, transformants (∼20 000) were scraped from the agar plates and resuspended in 3 ml of LB. An aliquot of this cell suspension (Input) was set aside for plasmid extraction. The cell density was normalized to OD600 = 0.5 and serially diluted 10-fold in 250 μl of LB. The remaining volume of the suspensions was miniprepped using Monarch® Plasmid Miniprep Kit (NEB, T1010S). Ten-fold serial dilutions were then performed in a sterile 96-well plate by serially transferring 25 μl of cell suspension into 225 μl of LB after mixing by pipetting up and down. 100 μl of the 10×, 100×, 1000×, and 10 000× diluted cell suspensions were plated on Rich media agar supplemented with Tet10, Cm15, Spec50, and Ara0.2 and incubated at 42°C to induce old and gam expression. After overnight growth, the dilution at which the number of CFUs visible on the tRNA library strain plates vastly outnumbered those on the empty vector strain plates were scraped and miniprepped using the Monarch® Plasmid Miniprep Kit (NEB, T1010S). The concentrations of all minipreps were determined using the Qubit™ 1× dsDNA High Sensitivity (HS) Assay (Invitrogen, Q33266).
+
+NGS sample preparation and sequencing to identify rescue tRNAs
+
+NGS was carried out to profile the tRNA content of the phage tRNA library pre- and post-screening. The phage tRNA sequences on the plasmids were PCR amplified using the Q5 polymerase (NEB, M0494), primers containing the p5 and p7 adaptor sequence (supplement) and miniprepped plasmids as the template by preparing 50 μl reactions with 50 ng of plasmid and running the following program: 1 cycle of 98°C for 30 s; 15 cycles of 98°C for 5 s, 60°C for 15 s, and 72°C for 10 s; 1 cycle of 72°C for 2 min. The amplified products were then PCR amplified with Q5 and primers with the Illumina i5 and i7 index adaptor sequences by preparing 50 μl reactions with 1 μl of the amplified product and running the same program as above, except that only six cycles of amplification. The adapted and indexed amplicons were combined and purified via magnetic bead purification as described previously. Once purified, the amplicons were diluted in 10 mM Tris–HCl pH 8 and loaded into the iSeq 100 System using the 300-cycle iSeq 100 i1 Reagent v2 (Illumina, 20031371) for single-end sequencing.
+
+Analysis pipeline to identify rescue tRNA
+
+The FASTQ read files generated from NGS on the pre- and post-screening phage tRNA plasmids were first converted to CSV files using FastQ_converter (Balhar 2017; https://github.com/frenzymadness/FastQ_converter/tree/master). The converted read files, along with CSVs containing the name and sequence of each phage tRNA in the library, were imported into Rstudio, operating on R v4.3.1 (R Core Team 2023; https://www.R-project.org/), as dataframes. The reads were mapped to the tRNA sequences and filtered to only include mapped reads using the dplyr v1.1.4 (Wickham et al. 2023; https://CRAN.R-project.org/package=dplyr) and stringr v1.5.1 (Wickham 2023; https://CRAN.R-project.org/package=stringr) packages. The number of mapped reads that corresponded with each of the unique tRNA sequences was counted using the stringdist_left_join function, set to a max_dist value of 0, from fuzzyjoin v0.1.6 (Robinson et al. 2020; https://CRAN.R-project.org/package=fuzzyjoin) package. The counts were used to determine the relative frequencies of each tRNA pre- and post-screen, which were then used to calculate the fold change in each tRNA. Finally, fold change values (i.e. enrichment scores) were plotted using the ggplot v3.5.1 (Wickham 2024; https://CRAN.R-project.org/package=ggplot2) package. To determine counts and enrichment for each anticodon and amino acid, individual tRNA counts were grouped by their associated anticodon and amino acid, respectively, and fold change was calculated from for those groups. Data are deposited and can be accessed using SRA# PRJNA1265467.
+
+Microscopy
+
+Colonies were inoculated in LB and incubated overnight at 30°C with shaking at 220 rpm. The overnight cell culture was diluted 1:100 with additional antibiotics and 0.2% arabinose. The cells continued to grow at 30°C with shaking at 220 rpm until they reached an optical density 0.2 OD600 (∼90 min after dilution). Next, the culture tube was moved to 42°C with continuous shaking. This time of temperature shift marks time zero. Cells taken right before the temperature shift was imaged as a t = 0 sample. Cells were taken every 20 min afterward for imaging.
+
+For imaging, 1% w/v agarose pad was created by melting agarose in LB (55°C) with appropriate antibiotics and 0.2% arabinose and put on a glass slides (Fisher 12-544-1). Once cells were spotted on the agar pad, a #1.5 coverslip (VWR 16004-344) was placed on top and sealed with valap. The sample was imaged immediately within 10 min.
+
+Imaging of OLD plus Gam variants was performed using an Eclipse Ti-2 microscope (Nikon) equipped with a Sola SE II 365 light engine (Lumencor), a Plan Apochromat 100×/1.45 NA phase contrast objective (Nikon), and an Orca-R2 CCD camera (Hamamatsu Photonics). The mCherry filter cube (Nikon 96365) was used to visualize nucleoid area within the cells. All images were captured using Nikon Elements software (Nikon).
+
+Northern Blot
+
+Total cellular RNAs (6 μg) or in vitro tRNA cleavage (5 μg) reactions were loaded onto a 10% Novex TBE-Urea Gel containing 7 M Urea (Invitrogen, EC68755BOX) and ran for 1 h at 180 V using the XCell SureLock Mini-Cell system (Invitrogen, EI0001). After gel electrophoresis, RNAs were transferred onto a positively charged nylon membrane (Invitrogen, LC2003) with XCell II Blot Module (Invitrogen, EI0002) at 25 V for 20 min and crosslinked at 200 000 microjoules/cm2. The membrane was then prehybridized with ULTRAhyb Ultrasensitive Hybridization Buffer (Invitrogen, AM8670) at 45°C for 30 min before FAM-, IRDye 700-, or IRDye 800-labeled probes (Supplementary Table S1) were added at 10 nM final concentration for overnight incubation at 45°C. At the end of the hybridization, the membrane was washed three times with NorthernMax Low Stringency Wash Buffer (Invitrogen, AM8673) for a total of 30 min at 45°C. Finally, the image of the blot was acquired with Odyssey M imaging system (LI-COR Biosciences).
+
+RNA oligonucleotide UHPLC-MS/MS
+
+Ultra-high performance Liquid Chromatography (UHPLC) separation of RNA oligonucleotides was performed on a Vanquish Horizon UHPLC system equipped with a Waters Acquity Premier BEH C18 130A, 1.7 μm 2.1 × 100 mm reverse phase column, heated to 70°C. A 20-min, 7%–35% gradient of solvent A [1% hexafluoroisopropanol (HFIP), 0.1% diisopropylethylamine (DIEA), and 1 μM EDTA in water] and solvent B [90% methanol, 0.075% HFIP, 0.0375% DIEA, and 1 μM EDTA] was applied at a flow rate of 300 μl/min for oligonucleotide separation.
+
+Tandem mass spectrometry (MS/MS) data were acquired on an Orbitrap Eclipse Fusion mass spectrometer (Thermo). Intact oligonucleotide mass data were acquired at an Orbitrap resolution of 120 000. MS2 data were acquired in data-dependent mode (ddMS2). Precursors between 600 and 1500m/z with a charge state between 25 and 0 were selected for ddMS2 using a 3 Da isolation window. Oligonucleotide dissociation was performed with a normalized stepped HCD energy of 22%, 24%, and 26% at an Orbitrap resolution of 60 000.
+
+RNA oligonucleotide ddMS2 data were interpreted utilizing Oligonucleotide Mode in BiopharmaFinder 5.2 (Thermo). High-confidence oligonucleotides were reported utilizing a minimum confidence score cutoff of 90 and a maximum delta mass of 5 ppm. Intact Oligonucleotide MS1 data were processed utilizing Intact Mass Analysis mode in BiopharmaFinder 5.2 (Thermo). Matched masses to select cleavage products and/or ligation products within a monoisotopic mass difference cutoff of 10 ppm are reported.
+
+Strain generation for single and double lysogens
+
+P2 + λ lysogens and E. coli C strain without prophages were a gift from the Laub lab (MIT). The deletion of old was performed by allelic exchange with pMS749 [22]. pMS749 was constructed by Gibson assembly of two PCR products generating a scarless deletion of P2 old into the pTOX3 plasmid at the SwaI site [22]. This plasmid was transformed into the auxotrophic MFDλpir strain for conjugation into E.coli [23]. Selection for MFDλpir transformants was performed with chloramphenicol and 300 μM m-diaminopimelic acid.Integrants were selected on chloramphenicol after conjugation and counter-selection was performed on LB plates with 2% rhamnose. To delete lamB in E. coli C for an indicator strain to detect P2 particles, the ΔlamB::kan was transduced from the Keio collection [24].
+
+Measurement of prophage-induced lysis
+
+P2 + λ lysogens were grown overnight in LB medium for 16 h. After subculture 1:100 in fresh medium for 2 h, the OD was recorded and a final concentration of 1 μg/ml Mitomycin C (MMC) was added to each culture. OD was subsequently measured in 1:10 dilutions at 1- or 2-h intervals for 6–8 h. Bacterial survival was measured by plating serial dilutions of induced cultures on LB plates with 2% glucose.
+
+Quantification of phage particles
+
+Lysates were prepared by treating supernatants of bacterial cultures with chloroform (5% v/v). Plaque assays were performed in LB using the double layer agar overlay method with a lawn of the indicator strain in 0.5% top agar over a 1.5% agar base. Indicator strains were grown to stationary phase in LB prior to the assay. Phage stocks were diluted in a 10-fold series in PBS. 3 μl drops of each dilution were plated in duplicate on the top agar. Drops were allowed to dry at room temperature before incubating the plates at 37°C. Phage plaques were counted after overnight incubation.
+
+Visualization of tRNA cleavage
+
+Total RNA was extracted from bacterial pellets using acidified phenol–chloroform and precipitation with ethanol. 20 μg of total RNA was run on 10.8% AU–PAGE gels [25]. RNA was visualized using the Coomassie blue setting on a BioRad ChemiDoc after methylene blue staining overnight.
+
+tRNA-sequencing
+
+Total RNA was extracted from bacterial pellets using acidified phenol–chloroform and precipitation with ethanol. 20–40 μg of total RNA was run on 15% AU–PAGE gel. tRNA and cleaved tRNA were cut out of AU–PAGE gels, extracted, and precipitated with isopropanol prior to library prep. Sequencing libraries were constructed as described previously [26]. In brief, tRNAs were deacytylated with alkaline treatment (100 mM Tris, pH 9) and ligated to 5′ adenylated and 3′ end-blocked oligos (linkers_D701-D708) using T4 RNA ligase (NEB). Ligated tRNAs were gel extracted and reverse transcribed with TGIRT-III (InGex) and the RT primer. The resulting complementary DNA was gel extracted and then circularized with CircLigase II (Epicenter) and amplified with Phusion Polymerase (NEB) with the index_D501 and univ_r primers. PCR products were gel extracted. Single-end sequencing was performed with a Mi-Seq sequencer (Illumina). Reads from tRNA-sequencing were analyzed using a previously described pipeline [26], with slight modifications: trimming adaptor sequences and the last two nucleotides at the 5′ end (to remove the nontemplated terminal nucleotide and the penultimate nucleotide, which exhibits a high error rate and therefore reduces mapping efficiency), mapping to tRNAs exported from tRNA-db with bowtie v1.2.2 [27], and tabulation of 5′ read endpoints using samtools v1.1 [28] and bedtools v2.27.1 [29]. The frequency of 5′ termination sites from samples in which P2–OLD was present was normalized to samples in which P2–OLD was deleted to identify tRNAs that were truncated at an increased frequency in the presence of P2–OLD. GraphPad prism was used to generate heatmaps of normalized truncation signals. tRNA seq data have been deposited and can be accessed using SRA# PRJNA1257021.
+
+Protein expression and purification
+
+pET28a-based vectors encoding wild-type OLD (pNEB143), OLDH332A (pNEB244), OLDE402A (pNEB245), and OLDH332A/E402A (pNEB243) were transformed into One Shot™ BL21 Star™ chemical competent cells (Invitrogen™ C601003) and plated on LB agar plates supplemented with 50 μg/ml kanamycin (Kan50). The next day, colonies were scraped into a 5 ml of LB culture, and 1 L of LB (Teknova) was inoculated at a final OD600 of 0.05 with Kan50 and grown shaking at 210 RPM at 37°C for ∼5 h until cultures reached OD600 ∼ 1. Cultures were chilled to 4°C and OLD expression was induced with 500 μM Isopropyl β-D-1-thiogalactopyranoside (Teknova) and grown overnight at 18°C shaking at 210 RPM. The next day, cells were pelleted by centrifugation at 6000 × g for 15 min at 4°C and stored at −80°C. The cell pellet was resuspended in 40 ml of lysis buffer (20 mM sodium phosphate pH 7, 500 mM NaCl, and 10% glycerol) that was supplemented with 1 tablet of EDTA-free complete Protease Inhibitor Cocktail (Roche 5892791001). Following addition of 1 ml of lysozyme (25 mg/ml), the cell suspension was incubated at 4°C for 30 min before sonication was carried out using a Qsonica Q700 sonicator (50% power, 3 s on, 6 s off for a total of 2 min). Cell debris was pelleted by centrifugation at 30 000 × g for 20 min, and the clarified lysate was passed over 5 ml of Ni-NTA resin (NEB) that has been pre-equilibrated with lysis buffer by gravity flow. The resin was washed with 5 column volume lysis buffer supplemented to 10 mM imidazole, and protein was eluted using lysis buffer supplemented to 300 mM imidazole. Proteins were dialyzed overnight into Heparin Loading buffer (20 mM Tris–HCl buffer pH 8, 25 mM NaCl, 10% glycerol, 1 mM EDTA, and 1 mM Dithiothreitol). Protein was purified using a combination of IEX/SEC, first using a 5-ml HiTrap Heparin column and eluting with a 0.5 M NaCl salt gradient over ten column volumes. Fractions containing OLD were pooled, concentrated using Amicon Ultra Centrifugal Filter, 30 kDa MWCO (Millipore UFC9030) before a final purification step using a Superdex S200 pg 16/600 column (Cytiva) in 20 mM Tris–HCl pH 8, 200 mM KCl, 10% glycerol, and 1 mM Tris(2-carboxyethyl)phosphine hydrochloride. Fractions containing dimeric OLD were pooled, aliquoted, and flash frozen.
+
+In vitro transcription
+
+DNA templates were generated by either annealing complementary Ultramers (IDT) or amplification of plasmids encoding the indicated tRNA. For tRNA encoded in plasmids, the tRNA template was first amplified using primers containing the T7 promoter using Q5® Hot Start High-Fidelity 2× Master Mix (NEB). PCR product was purified using NEBnext sample purification beads (NEB) and used as a template for in vitro transcription with the HiScribe® T7 Quick High Yield RNA Synthesis Kit (NEB). Ultramers containing the T7 promoter were combined in an in vitro transcription reaction with HiScribe® T7 Quick High Yield RNA Synthesis Kit (NEB) following the reaction protocol. In vitro transcription reactions were incubated overnight at 37°C. The next day, reactions were treated with DNase I (RNase-free) (NEB) for 15 min at 37°C and inactivated by heating to 75°C for 5 min. In vitro transcribed tRNA was purified using the Monarch RNA clean up kit (NEB) and was then diluted into 20 mM Tris, 10 mM Mg-acetate, and 50 mM K-acetate buffer pH 7.9 to a final concentration of 80 ng/μl. To ensure folding, diluted tRNA was incubated at 95°C for 5 min and allowed to cool slowly to room temperature prior to use in biochemical assays.
+
+OLD in vitro cleavage assays
+
+OLD cleavage assays were performed in 1× rCutsmart buffer (20 mM Tris, 10 mM Mg-acetate, and 50 mM K-acetate at pH 7.9, NEB) in 10 μl reactions, unless indicated otherwise. When indicated, K+ concentration was adjusted using K-acetate, while maintaining 20 mM Tris, 10 mM Mg-acetate at pH 7.9. 5 mM working stocks of ATP, ATP analogs, other NTPs, and dNTPs were pre-incubated with equimolar Mg-acetate prior to use. Typically, the final reaction contained 500 μM Mg-ATP, 80 ng tRNA, and 950 nM P2–OLD proteins and was incubated at 37°C for 1 h in a thermocycler with a lid temperature of 55°C. Reactions were quenched with 10 μl of 2× Novex TBE-Urea Sample buffer (Thermo) and incubated for 3 min at 72°C. RNA ladder was prepared by combining 2 μl of Low Range ssRNA Ladder (NEB) with 8 μl of nuclease-free water (NEB), and 10 μl of 2× Novex TBE–Urea Sample Buffer (Thermo) before incubating at 72°C for 3 min with a lid temperature of 55°C. After incubation, 6 μl of microRNA marker (NEB) was spiked into the ladder mixture. 3 μl of ladder and 4 μl of reaction were run on a 15 well 15% TBE–Urea gel at 180 V for 45 min. Gels were stained with SYBR gold (Thermo) in 1× TBE buffer before imaging using an Amersham Typhoon in fluorescence mode with the Cy2 filter.
+
+Total E. coli tRNAs—extracted from E. coli MRE strain—is a component of PURExpress® (aa, tRNA) kit sold by NEB.
+
+Weblogo generation
+
+tRNA anticodon loop sequences spanning the anticodon (-9, +9) were analyzed by Weblogo [30].
+
+Anticodon loop column separation
+
+2 μg of tRNAThrU was incubated with 950 nM P2–OLD and 500 μM Mg-ATP at 37°C for 1 h. The reaction was split into two aliquots, one of which was centrifuged through a Micro Bio-Spin P-6 gel column with a 6-kDa molecular weight cut off. The held-out aliquot (in) and the flow-through (out) were resolved on a 15% TBE–Urea gel as described above.
+
+tRNA repair with T4 RNA ligase 1 and T4 RNA ligase 2
+
+80 ng tRNAThrU was incubated with the indicated purified P2–OLD with 1 mM ATP at 37°C for 2 h. The reaction was split into three aliquots, to which ligase buffer, T4 RNA ligase 1 (NEB), or T4 RNA ligase 2 (NEB) was added with the corresponding ligation buffers. Ligation reactions were carried out at 37°C for 1 h. Reactions were resolved on a gel as described above.
+
+Quantification of OLD cleavage assays
+
+Gel images were analyzed and quantified using Fiji (Fiji Is Just Image J, [31]). Total peak intensity in each reaction lane was quantified and summed, and peak intensity of the total tRNA band was divided by the sum intensity to establish a % remaining tRNA for each reaction lane and condition. Each % remaining value was subtracted from 1 to calculate a % cleaved.
+
+Results
+
+A two-plasmid genetic system to recapitulate P2–OLD activation
+
+We developed a two-plasmid system to recapitulate the defect induced by P2–OLD. One plasmid expresses P2 old from an arabinose promoter. The second plasmid expresses Lambda gam, a potent RecBCD inhibitor [32], from a tightly regulated heat-inducible promoter to induce recBC deficiency, which activates P2–OLD (Fig. 1A). E. coli MG1655 with these plasmids grew normally under noninducing conditions or when P2–OLD was produced alone. Cells expressing Gam alone showed a slight growth defect, similar to recBC deletion [33]. However, co-expression of P2–OLD and Gam resulted in a 105-fold reduction in CFUs. This validates that P2–OLD toxicity can be induced by expressing both P2–OLD and Gam from plasmids. Importantly, co-expressing P2–OLD and Abc2, the anti-RecBCD factor from phage P22 that binds RecC [34], was nontoxic. Meanwhile, Gp5.9 from phage T7, which binds the same site of RecB as Gam [34, 35], induced P2–OLD toxicity, albeit less than Gam. Thus, this system not only recapitulates P2–OLD toxicity but is also sensitive to the precise mode of RecBCD inactivation [36].
+
+Figure 1. A two-plasmid system for on-demand induction of P2–OLD toxicity in E. coli. (A) Spot dilution assay showing growth defects of E. coli MG1655 producing P2–OLD alongside Gam from Lambda (λ) or Gp5.9 from T7. Data are representative of n > 3 independent experiments. (B) Experimental workflow for activating P2–OLD through temperature-induced Gam expression used in panel (C–G). Culture sampling intervals: 15 min for measuring cell growth and viability, 20 min for microscopy, or 30 min for isolating genomic and plasmid DNA. (C) Growth curves of MG1655 cultures producing either wild-type (WT) P2–OLD or P2–OLD H332A E402A mutant upon induction of Gam expression. Data presented are from technical replicates and are representative of n = 2 independent experiments. (D) CFUs of MG1655 cultures producing WT P2–OLD or the P2–OLD H332A E402A mutant upon induction of Gam expression. Data presented are average of n = 2 independent experiments. (Eand F) Integrity of genomic and plasmid DNA extracted from growing MG1655 cultures expressing WT or mutant P2–OLD at each indicated time point. 100 ng of DNA was loaded and resolved in 1% E-Gel EX with SYBR Gold II. Data are representative of n = 2 independent experiments. (G) Phase contrast and fluorescence micrographs showing nucleoid compaction upon P2–OLD activation. Relevant plasmids are indicated in parentheses. Phase contrast images are overlaid with mCherry fluorescence images (pseudo-colored red). Null indicates SK589 without plasmids. (H) Visualization of total RNA extracted from cultures expressing WT Old or Old mutant and Gam at indicated intervals. Data shown are representative of n = 2 independent experiments. (I) Visualization of total RNA extracted from cultures 2 h after treatment with Mitomycin C. RNA is run on an acid–Urea–PAGE gel and stained with methylene blue. Data shown are representative of n = 3 independent experiments.
+
+Our plasmid-based system also replicated P2–OLD toxicity in liquid culture, mimicking viability loss seen during Lambda induction from E. coli carrying both Lambda and P2 prophages [14]. We induced P2–OLD expression by growing E. coli with arabinose for 90 min at 30°C (to repress Gam expression). Gam expression was then induced to activate P2–OLD by shifting the culture to 42°C, before monitoring cell growth and viability (Fig. 1B). E. coli expressing wild-type P2–OLD showed a sharp drop in viability between 30 and 45 min after Gam expression, with no further decrease over the next 75 min (Fig. 1C and D). This cell killing is P2–OLD-dependent; E. coli expressing the nontoxic P2–OLD mutant (H332A in ATPase and E402A in nuclease, Supplementary Fig. S1A) showed only a mild growth defect post Gam expression, as expected from RecBCD inhibition [33].
+
+Genomic and plasmid DNA extracted from cells experiencing P2–OLD toxicity remained intact (Fig. 1E and F), indicating that P2–OLD does not cleave DNA indiscriminately. To further investigate the cellular effects of P2–OLD, we performed single-cell microscopy. We induced P2–OLD activation in SK589 (an MG1655 E. coli strain producing mCherry-tagged HU to label the nucleoid) as described before (Fig. 1B) and sampled the culture at 20-min intervals for phase-contrast and fluorescence imaging. Interestingly, the nucleoid, normally a diffuse fluorescent “cloud” at the cell’s center, became visibly compacted after 40 min (Fig. 1G). This roughly coincided with the timing of viability loss (Fig. 1D). Nucleoid compaction did not occur in cells lacking plasmids, expressing the ALFA-Tag peptide instead of Gam, or expressing the inactive P2–OLD H332A/E402A mutant. In E. coli, nucleoid compaction is a known sign of protein synthesis inhibition, often induced by translation inhibitors like chloramphenicol [37, 38]. Our system thus appeared to reproduce protein synthesis arrest observed during P2–Lambda interference [19].
+
+Previous research had implicated tRNA inactivation as a cause of this arrest [19], though the molecular nature of this defect remained unclear. To investigate this further, we assessed RNA integrity and detected P2–OLD-dependent RNA fragments (Fig. 1H). To confirm that this RNA fragmentation was relevant to P2–Lambda interference, we constructed an E. coli strain carrying both P2 and Lambda prophages. In this strain, we confirmed P2–OLD restricts Lambda’s lytic cycle (Supplementary Fig. S1B–D). Importantly, induction of the Lambda prophage with Mitomycin C in this strain also led to RNA fragmentation (Fig. 1I), indicating its relevance P2–Lambda interference.
+
+Harnessing phage tRNAs to identify the target of tRNA nucleases
+
+We hypothesized that the RNA fragments we found were, in fact, cleaved tRNAs. If tRNA cleavage is indeed responsible for the P2–OLD-dependent growth defects, then supplying the cell with nuclease-resistant tRNAs encoded by phages should effectively “rescue” the situation by replacing the damaged tRNAs [39, 40], thereby restoring normal cell growth. Moreover, by isolating these “rescue tRNAs,” we can precisely pinpoint which specific tRNAs are being cleaved and causing the observed growth defect.
+
+To validate our approach, we cloned the nuclease components of retron-Eco7 and PARIS from E. coli B185 (Ec B185)—specifically PtuAB and AriB—into a plasmid under an arabinose-inducible promoter (Supplementary Fig. S2A). PtuAB and AriB cleave tyrosyl–tRNAs (tRNAsTyr-GUA) and lysl–tRNAs (tRNAsLys-UUU), respectively [39, 40]. E. coli NEB5α cells harboring these plasmids exhibited normal growth without nuclease expression. Consistent with prior observations [39, 41], nuclease expression significantly reduced cell viability (Supplementary Fig. S2B). We then aimed to identify phage-encoded tRNAs that confer resistance to these nucleases. For this screen, we randomly selected 245 coliphage tRNA sequences, synthesized them as an oligopool, and cloned them downstream of a E. coli promoter and upstream of tandem terminators to construct a phage tRNA library, as detailed in Fig. 2A and the “Materials and methods” section.
+
+Figure 2. Suppressor screen with phage tRNA identifies phage threonyl–tRNAs partially suppress the lethal effect of P2–OLD and help Lambda survive P2–OLD restriction. (A) Workflow for cloning the phage tRNA library. Details in “Materials and methods” section. (B) Experimental workflow to screen for phage tRNAs that suppress the toxicity of tRNA nucleases. See “Materials and methods” section for a detailed description. (C) Bar chart showing enrichment of plasmids encoding phage tyrosyl–tRNAs with the GUA anticodon in the screen with PtuAB of retron–Eco7 expressed in NEB5α. The Illumina read count for each tRNA was normalized by the total read count of each sample. Enrichment was calculated by dividing the normalized read count in the input by the normalized read count in the output. Top 20 tRNAs with the highest enrichment are shown. (D) Bar chart showing enrichment of plasmids encoding phage lysyl–tRNAs with the UUU anticodon in the screen with AriB of Ec B185 PARIS expressed in NEB5α. Top 20 tRNAs with the highest enrichment are shown. Data are from n = 2 independent experiments. (E) Spot dilution assay validating the protective effect of tRNATyr_UUU and tRNALys_UUU in NEB5α cells producing PtuAB and AriB, respectively. Data are representative of n = 2 independent experiments. (F) Experimental workflow to screen for rescue tRNAs that suppressed P2–OLD toxicity in E. coli MG1655. The toxicity of P2–OLD was induced by co-expression of Gam. The workflow was identical to (B) except two notable differences: (i) the input library was grown at 25°C for 72 h, and (ii) the selection was done at 42°C. (G) Bar chart showing enrichment of plasmids encoding phage threonyl–tRNAs with the UGU anticodon in cells that survived P2–OLD toxicity. Top 20 tRNAs with the highest enrichment are shown. Data are from n = 2 independent experiments. (H) Spot dilution assay validating the protective effect of phage tRNAThr_UGU in MG1655 cells producing both P2–OLD and Gam. Data are representative of n > 3 independent experiments. The large colonies in the strains with pNEB10 and pNEB242 accumulated mutations that inactivated P2–OLD (pNEB37). (I) Quantification of the spot dilution assay as presented in panel (H). Data are from n = 2 independent experiments.
+
+We next transformed the test strains with either an empty vector or the phage tRNA library (Fig. 2B). Transformed cells were recovered by plating under a permissive condition with glucose to repress expression of the nucleases. The resulting colonies were then pooled (as the Input) and plated under the restrictive condition with arabinose to induce PtuAB or AriB expression. We estimated the phage tRNA library improved the viability of cells producing PtuAB and AriB by ∼30- and 100-fold, respectively, compared to the control (Supplementary Fig. S2C and D). Notably, PtuAB survivors formed normal-sized colonies (Supplementary Fig. S2C), while AriB survivors formed small colonies (Supplementary Fig. S2D). Despite the phenotypic differences, these results suggest that certain phage tRNAs in the library can suppress the toxicity of these nucleases.
+
+To identify the rescue tRNAs, survivors were combined, and their plasmids were isolated and sequenced (Fig. 2B). Analysis showed that the PtuAB screen exclusively enriched for plasmids encoding phage tRNAsTyr (Fig. 2C and Supplementary Table S2), while the AriB screen exclusively selected for plasmids encoding phage tRNAsLys (Fig. 2D and Supplementary Table S2). Importantly, the GUA and UUU anticodons of these rescue tRNAsTyr and tRNAsLys perfectly matched the anticodons of the known tRNA targets of retron-Eco7 and Ec B185 PARIS [39, 40]. For validation, specific tRNAs from each screen were tested and shown to specifically rescue the growth defect caused by the corresponding nuclease (Fig. 2E). These findings validated our suppressor screen as an effective genetic method for identifying the target of tRNA nucleases.
+
+Phage threonyl–tRNAs partially rescue the growth defects induced by P2–OLD
+
+We next screened for phage tRNAs capable of rescuing the growth defect induced by P2–OLD in E. coli (Fig. 2F). Cells expressing both P2–OLD and Gam (Old+ Gam+ cells) with the phage tRNA library produced ∼100 times more survivors than those with the empty vector (Supplementary Fig. S2E), but much like the survivors in the AriB screen, the resulting colonies were small. This finding indicates that the toxicity of P2–OLD is only partially suppressed. Like the PtuAB and AriB screen (Fig. 2C and D), this screen enriched for a single type of phage tRNAs. All the eight enriched phage tRNAs have the UGU anticodon that is essential for deciphering ACA as threonine (Fig. 2G). Four hits chosen for validation, but not the tRNATyr3 control, each increased the viability of Old+ Gam+ cells by at least 1000-fold, though the resulting colonies remained small (Fig. 2H and I). Interestingly, phage 21, a close relative of Lambda, encodes a tRNAThr with a UGU anticodon in its genome. This tRNA (now denoted tRNAThr21), not originally in our library, also protected against P2–OLD. Overall, these results show that phage tRNAsThr with the UGU anticodon can suppress P2–OLD toxicity.
+
+Phage tRNAsThr rescue a defect in protein synthesis by restoring decoding of the ACA codon
+
+How might phage tRNAsThr with the UGU anticodon suppress P2–OLD toxicity? tRNAThrU is the sole tRNA with the UGU anticodon in E. coli MG1655, so its inactivation would likely stall ribosomes at ACA codons. Indeed, the isolation of rescue tRNAs exclusively with the UGU anticodon in the screen suggested that this sequence is functionally important (Fig. 2G). Supporting this, changing the anticodon of tRNAThr6 to UAC (disrupting both charging and ACA decoding) or CGU (impairing only decoding) [42] completely abolished its protective function (Fig. 3A and Supplementary Fig. S3A). Furthermore, expression of tRNAThr6, unlike the inactive tRNAThr6(UAC) or tRNATyr3, diminished P2–OLD-induced nucleoid compaction (Fig. 3B). The imperfect reversal of nucleoid compaction likely reflects residual protein synthesis issues, which explains the remaining growth defects (Fig. 2H). Nevertheless, these findings implicate inactivation of host tRNAThrU as a primary cause of P2–OLD-induced protein synthesis and growth defects.
+
+Figure 3. Phage rescue tRNAsThr delay translation inhibition caused by degradation of a E. coli tRNAThrU isoacceptor. (A) Bar chart showing that the UGU anticodon of tRNAThr6 is required for suppressing the P2–OLD toxicity. The spot dilution assay was carried out as described in the “Materials and methods” section. MG1655 E. coli expressing OLD and Gam were transformed with plasmids expressing tRNAThr6, tRNAThr6(UAC), or RNAThr6(CGU). (B) Schematic for inducing P2–OLD activation and micrograph showing that P2–OLD-induced nucleoid compaction is delayed and mitigated by rescue tRNAThr6, further detailed in the “Materials and methods” section. Experiments were performed with SK589 expressing OLD and Gam and a third plasmid (in parenthesis) for expressing the indicated phage tRNAs. Phase contrast images are overlaid with mCherry fluorescence images (red pseudo color). Null is indicated when the strain does not carry any plasmid. Images in the top two rows also appear in Fig. 1G. (C) Northern blot analysis showing depletion of tRNAThrU over time upon P2–OLD activation while tRNAThrT and tRNAThrW remain intact. Total RNAs extracted from E. coli MG1655 expressing P2–OLD or the P2–OLD H332A E402A mutant and Gam at the indicated time point. tRNAThrV, which only differs by four bases from tRNAThrT was omitted from this analysis.
+
+ATP hydrolysis activates P2–OLD to sever the anticodon stem of tRNAThrU
+
+To determine how tRNAThrU becomes inactivated, we monitored its level after inducing P2–OLD activation with Gam expression (Fig. 3C). Northern blotting using a probe specific to tRNAThrU (Supplementary Fig. S3B) revealed that full-length tRNAThrU became severely depleted 20 min after Gam was expressed (Fig. 3C and Supplementary S3C). This depletion requires intact P2–OLD (Fig. 3C), as it was not observed with a P2–OLD mutant that does not induce translation inhibition (Fig. 1G). Notably, the other isoacceptors tRNAThrT with the GGU and tRNAThrW with CGU anticodon remained constant (Fig. 3C).
+
+Given that certain proteins with Toprim domains function as ribonucleases [15, 40, 41, 43], we hypothesized that P2–OLD might directly degrade tRNAThrU. To test this, we performed in vitro studies using purified P2–OLD, expressed with an N-terminal His-MBP-bdSUMO tag (Supplementary Fig. S4A and B). For simplicity, we will refer to this fusion protein as P2–OLD. To assay for nuclease activity, we incubated P2–OLD with all four tRNAsThr, both with and without ATP. Incubation with P2–OLD led to fragmentation of tRNAThrU, regardless of ATP presence (Fig. 4A). However, ATP addition significantly increased the extent of fragmentation with additional bands becoming visible that are consistent with tRNAThrU being cleaved at multiple sites. Furthermore, we found that dATP also stimulated tRNAThrU fragmentation with an apparent Km comparable to ATP (Supplementary Fig. S4C and D), suggesting that the 2′-hydroxy group in the ribose moiety is not critical for this activity. In contrast, tRNAThrT and tRNAThrV remained intact, and tRNAThrW showed very limited cleavage only when ATP was present (Fig. 4A). This specific degradation tRNAThrU mirrors northern blot findings (Fig. 3C).
+
+Figure 4. Purified P2–OLD hydrolyzes ATP to make a staggered cut across the anticodon loop of tRNAThrU. (A) P2–OLD specifically cleaves E. coli tRNAThrU with and without ATP. Data shown are representative of n = 3 independent experiments. (B) Schematic showing the secondary structure of tRNAThrU and cleavage sites. (C) Mass spectra showing the monoisotopic masses of tRNAThrU fragments following P2–OLD treatment, with and without ATP. Each fragment is labeled by the first and last nucleotides. Parentheses indicate nontemplated nucleotide additions to the 3′ end of tRNAThrU during in vitro transcription. (D) Effect of ATPase- and Toprim-inactivating mutations, alone or in combination, on tRNAThrU cleavage. Representative of n = 3 independent experiments. (E) Slowly- and nonhydrolyzable ATP analogs fail to activate P2–OLD to cleave tRNAThrU. Representative of n = 3 independent experiments.
+
+To map the cleavage sites, we used mass spectrometry. Without ATP, we detected a single cleavage site between nucleotides 28 and 29 (Site 1) within the anticodon stem (Fig. 4B and C). Site 1 cleavage yielded 28- and 48-nucleotide fragments corresponding to bands “b” and “a” respectively, in Fig. 4A. With ATP, a second cleavage occurred after nucleotide 40 (Site 2). This site is located on the opposing strand of the anticodon stem, one base staggered from Site 1 (Fig. 4B and C). Informed by this result, we identified the major bands in ATP-containing reactions as 12-, 28-, and 36-nucleotide fragments (bands “d”, “b,” and “c,” respectively, in Fig. 4A). The 48-nucleotide fragment (band “a”) corresponds to a small fraction of tRNAThrU with only a single cut. Our mass spectrometry analysis also revealed that the cleaved ends retain 5′-phosphate and 3′-hydroxyl groups (Supplementary Table S3), consistent with a metal-dependent cleavage mechanism conserved among Toprim nucleases [15, 40, 41, 43, 44].
+
+To determine the roles of the ATPase and Toprim domains of P2–OLD, we generated and purified active-site mutants in either or both domains to assess their nuclease activity (Supplementary Fig. S4A). The elution profiles of these mutants during gel filtration were similar to wild-type counterpart (Supplementary Fig. S4B). A Toprim domain mutant (E402A) completely lacked tRNAThrU cleavage activity with or without ATP (Fig. 4D), confirming that P2–OLD is directly responsible for the observed endoribonuclease activity (Fig. 4A). In contrast, an ATPase domain mutant (H332A) can only cleave Site 1, even in the presence of ATP, indicating that Site 1 cleavage is ATP-independent. This suggests that ATP hydrolysis is necessary for P2–OLD to make the second cut. Consistent with this, using hydrolysis-resistant ATP analogs (ATPγS and AMPPNP) resulted in cleavage only at Site 1 (Fig. 4E). Thus, P2–OLD is an ATPase-powered endoribonuclease that makes two specific cuts at the anticodon stem of tRNAThrU.
+
+Previous studies reported DNA nuclease activity for P2–OLD and its homolog [16, 17]. However, our purified P2–OLD failed to cleave plasmid and Lambda DNA, even with ATP (Supplementary Fig. S5A). P2–OLD also showed no activity against a double-stranded DNA fragment with a pseudo-palindromic motif derived from Lambda genome, a substrate efficiently cleaved by GajA, the OLD homolog in the Gabija defense system (Supplementary Fig. S5B) [44, 45]. However, we detected a weak ATP-independent activity, likely exonuclease, toward single-stranded DNA (Supplementary Fig. S5C). Furthermore, P2–OLD lacked activity on two structured RNAs tested (Supplementary Fig. S5D and E). Thus, our findings indicate that the observed ATP-dependent P2–OLD nuclease activity is specific to tRNAThrU.
+
+P2–OLD cleaves multiple E. coli tRNAs but favors tRNAThrU
+
+Curiously, the study that first suggested tRNAs inactivation during P2–Lambda interference reported normal threonine aminoacylation efficiency [19]. This apparent contradiction can be explained by our observation that the other three host tRNAsThr isoacceptors are resistant to P2–OLD (Figs 3C and 4A). Nonetheless, our finding that P2–OLD cleaves tRNAThrU strongly suggests that P2–OLD’s nuclease activity may also be responsible for the other aminoacylation defects observed in the Bregegere study [19].
+
+To investigate this possibility, we assessed the sensitivity of commercially available total E. coli tRNAs with purified P2–OLD in reaction buffers containing ATP and either 50 or 150 mM K+. The resulting depletion pattern indicated that multiple tRNAs were cleaved under both conditions (Fig. 5A). Subsequent mass spectrometry analysis identified cleaved tRNAs with a significant overlap with the specific tRNAs (Arg, Val, Ala, Asp, Lys, Gln, and Cys) previously suggested to be inactivated during P2–Lambda interference (Fig. 5B, and Supplementary Fig. S6A and Supplementary Table S4) [19]. Moreover, cleavage sites within these tRNAs predominantly mapped to sites corresponding to Site 1 and Site 2 on tRNAThrU (Supplementary Fig. S6B). This result indicates that P2–OLD cleaves tRNAs using a conserved cleavage mechanism. However, we failed to detect tRNAThrU fragments in this analysis, despite clear evidence of cleavage via northern blotting (see below). Its low abundance [46] or distinct modification profile compared to the reference might prevent detection by mass spectrometry.
+
+Figure 5. P2–OLD preferentially cleaves tRNAThrU and tRNAs with the CNG motif in their anticodon stem within cells. (A) Commercially purchased total E. coli tRNA (5 μg) was incubated with P2–OLD and ATP for 2 h in buffers containing either 50 or 150 mM K+. Representative of n = 2 independent experiments. (B) Comparison of aminoacylation deficient tRNAs identified by Bregegere et al., 1974 [19] and cleaved tRNAs from (A) identified by mass spectrometry in buffers containing 50 or 150 mM K+. The complete dataset is available in Supplementary Table S4. (C) Heatmap showing the fold difference in termination rates at indicated nucleotide positions for all tRNAs quantified by tRNA-seq [26]. RNA was extracted from E. coli cells expressing P2–OLD or P2–OLDH332A/E402A 20 min after inducing Gam expression. Data shown are from one experiment. (D) Northern blot analysis of total E. coli tRNAs treated with P2–OLD and ATP in a reaction buffer containing 50 mM K+ for the indicated times. (E) Depletion kinetics of the indicated full-length tRNAs over time upon activation of P2–OLD in E. coli. Corresponding northern blots are shown in Fig. 3C and Supplementary S6D. (F) WebLogos [30] showing the enrichment of A37 and two CNG motifs (nucleotide 28–30 and 40–41) in the anticodon arms of tRNAs cleaved by P2–OLD in vitro. E. coli tRNAs were categorized as cleaved and uncleaved based on mass spectrometry analysis. For each category, the anticodon and nine upstream and downstream nucleotides were aligned. ThrU* samples were collected from cells expressing mutant P2-OLDH332A/E402A.
+
+To verify cleavage of these tRNAs in cells, we performed tRNA-seq after activating P2–OLD in E. coli, either by co-expressing Gam or inducing the Lambda prophage from the double lysogen (Fig. 1H and I). Both sample types provided similar data (Fig. 5C and Supplementary Fig. S6C). We focused our analysis on the P2–OLD and Gam co-expression samples because the signal is stronger, likely due to earlier RNA harvest (20 min versus 2 h post-induction). This analysis revealed increased fragmentation signals for multiple tRNAs, including tRNAThrU (Fig. 5C), and these tRNAs overlapped significantly with the P2–OLD substrates identified through mass spectrometry (Fig. 5B and Supplementary Fig. S6A). Remarkably, for all affected tRNAs, except tRNAsLys_UUU (see “Discussion” section), this analysis also revealed increased sequencing read terminations at two distinct sites, matching the Site 1 and Site 2 (Figs 4 and 5B, and Supplementary S6B). These in vivo results corroborate the two-cut mechanism observed in vitro with purified components, establishing its role in preventing completion of the Lambda lytic cycle.
+
+This finding raises a new question: Given that P2–OLD cleaves multiple E. coli tRNAs, why is its toxicity specifically suppressed by phage tRNAs with the UGU anticodon (Fig. 2G and H)? To address this, we compared the in vitro cleavage kinetics of tRNAThrU with a set of other tRNAs: tRNALys_UUU, tRNAAsn_GUU, and tRNAVal_UAC. We incubated total E. coli tRNAs with P2–OLD and ATP for varying time points and then monitored cleavage via northern blotting. We observed that tRNAThrU was cleaved most rapidly (Fig. 5D). Consistently, the hierarchy of tRNA cleavage by P2–OLD in vitro mirrored the relative rate (Figs. 3C and 5E) and extent of cleavage within cells (Fig. 5E and Supplementary S6D and E). We interpret these results as strong evidence that tRNAThrU is the primary target of P2–OLD both in vitro and in cells. Thus, these findings suggest that while P2–OLD cleaves many tRNAs, only the rapid and near-complete cleavage of tRNAThrU crosses a critical threshold that leads to cell lethality. This explains why only phage tRNAsThr_UGU significantly improves viability. These other affected tRNAs are likely responsible for the remaining growth defects (Fig. 2H).
+
+P2–OLD substrates shared a cleavage motif in the anticodon stem
+
+Next, we looked for features in the anticodon arm that differentiated tRNAs susceptible to P2–OLD cleavage from those that were not, since this is where cleavage happens (Figs 4 and 5). Sequence alignment of cleaved anticodon arms revealed an invariant adenine at nucleotide 37 (A37) and an enrichment of two CNG motifs, present in cleaved tRNAs and lacking in uncleaved or total tRNA alignments (Fig. 5F and Supplementary Table S4). Between these features, the two CNG motifs are particularly interesting. Located on both strands of the anticodon stem, these motifs form a pseudo-palindrome that overlaps with Site 1 and Site 2 (Figs 4B and 5F). P2–OLD generates the staggered cut by cleaving after the first cytosine on both strands of this pseudo-palindrome. Consistently, this “consensus” CNG motif is absent from host tRNAThrT and tRNAThrV (both have ACC instead), which are completely refractory to P2–OLD cleavage. Meanwhile, this motif is partially mutated (CGC) in the mildly susceptible tRNAThrW (Fig. 4A).
+
+Phage rescue tRNAsThr are partially resistant to P2–OLD cleavage
+
+Interestingly, the CNG pseudo palindrome is also partially mutated from the anticodon stem of phage threonyl–tRNAs that rescue P2 toxicity, suggesting that they too might be resistant to P2–OLD. To confirm this, we tested the susceptibility of phage threonyl–tRNAs to P2–OLD in cells. Northern blot analysis revealed that full-length tRNAThr6 remained largely intact even 40 min after P2–OLD activation, showing only minor degradation (Fig. 6A). This resistance doesn’t appear to be due to competitive inhibition, as tRNAThr6 expression did not prevent the depletion of endogenous tRNAThrU. Furthermore, host tRNAsThr, including tRNAThrU, offered little to no protection against P2–OLD toxicity (Supplementary Fig. S7A). Taken together, these findings indicate that the rescue tRNAsThr counteract P2–OLD toxicity not by protecting endogenous tRNAs but by resisting cleavage themselves and replacing the degraded tRNAThrU. This restores translation of ACA codons to threonine, thus allowing protein production.
+
+Figure 6. The length and sequence of the anticodon stem influence sensitivity toward P2–OLD. (A) Northern blot showing limited degradation of phage tRNAThr6 during P2–OLD activation. P2–OLD activation was induced as described in Fig. 1A. Total RNA was extracted at the indicated times from MG1655 harboring pNEB37, pNEB64, and pNEB233 and probed for both tRNAThr6 and tRNAThrU. (B) Cleavage of tRNAThrU, tRNAThr6, and tRNAThr21 by purified P2–OLD without ATP. n > 3 independent experiments. (C) Cleavage of tRNAThrU, tRNAThr6,and tRNAThr21 by purified P2–OLD in buffers with ATP and indicated K+ levels. n = 3 independent experiments. (D) Mass spectra revealing the monoisotopic masses of tRNA fragments following incubation with P2–OLD and ATP. Each fragment is labeled by the first and last nucleotides. Parentheses indicate nontemplated nucleotide additions to the 3′ end of tRNA during in vitro transcription. (E) Schematic showing the predicted secondary structure of tRNAThrU and tRNAThr6. tRNAThr21 is shown in Supplementary Fig. S5A. Highlighted nucleotides differ from tRNAThrU. (F) Bar chart showing tRNAs with the anticodon arm of tRNAThr6 enhance the viability of MG1655 E. coli expressing P2–OLD and Gam (P2–OLD+ Gam+ cells). Arm sources in hybrid tRNAs are color-coded as indicated. (G) Bar chart (left) quantifying the viability of P2–OLD+ Gam+ cells expressing tRNAThr6, tRNAThrU, and tRNAThrU variants with the mutations. Bar chart (right) quantifying the percent cleavage of the corresponding tRNAs by purified P2–OLD in vitro. Reaction buffers contained 150 mM K+, where the most pronounced difference in percent cleavage between tRNAThr6 and tRNAThrU was most observable. A representative gel is shown in Supplementary Fig. S5C. n = 3 independent experiments; error bar: standard deviation.
+
+Consistent with our cell-based results (Fig. 6A), in vitro transcribed rescue tRNAsThr displayed resistance to cleavage by purified P2–OLD (Fig. 6B and C). Without ATP, P2–OLD partially cleaves tRNAThrU at Site 1 but is unable to cleave tRNAThr6 and tRNAThr21 (Fig. 6B). Furthermore, with ATP, physiological potassium concentration (150 mM K+) [47, 48] significantly diminishes P2–OLD cleavage of both phage tRNAsThr, while tRNAThrU remains susceptible (Fig. 6C and Supplementary Fig. S7B). Because these tRNA substrates were not modified, the sequence of the phage tRNAs alone is sufficient to confer resistance.
+
+Mass spectrometry analysis of P2–OLD cleavage products of both rescue tRNAsThr in ATP and 50 mM K+ buffer revealed cleavage at the same sites as tRNAThrU (Fig. 6D and E, and Supplementary S7C and Supplementary Table S3). This suggests that P2–OLD engages these tRNAs similarly. However, the two cleavage events become uncoupled in the rescue tRNAs: Site 1 of tRNAThr21 showed near-complete resistance to P2–OLD, while for tRNAThr6, Site 2 cleavage either preceded or occurred independently of Site 1, resulting in an additional 40-nt fragment.
+
+CNG alteration and shortening of anticodon stem synergically affect P2–OLD cleavage
+
+To identify sequence variations conferring resistance to P2–OLD, we focused on tRNAThr6, which provides the strongest protection (Fig. 2G) despite differing from tRNAThrU by only 12 bases spread across the acceptor, anticodon and T-arms (Fig. 6E). By swapping these arms between the two tRNAs, we confirmed that the anticodon arm is the primary determinant of P2–OLD resistance (Fig. 6F and Supplementary Fig. S7D). Replacing the anticodon arm of tRNAThr6 with tRNAThrU’s completely abolished protection against P2–OLD toxicity. Conversely, a tRNAThrU variant with tRNAThr6’s anticodon arm gained protection to near tRNAThr6’s level. Swapping the acceptor or T-arms resulted in only minor changes in protection.
+
+The anticodon arm of tRNAThr6 differs from tRNAThrU’s by three bases (Fig. 6E): the CUG motif (matching the CNG consensus) is changed to the less favorable CUC by G30C/C40G base pair substitutions, and a U43A substitution shortens the stem by eliminating a base pair. Both sets of mutations are required for conferring protection as introducing either set alone into tRNAThrU did not protect cells from P2–OLD toxicity or reduce in vitro cleavage (Fig. 6G and Supplementary Fig. S7E). Notably, tRNAThr21 also has a shorter anticodon stem and mutations altering base pairs near both cleavage sites (Supplementary Fig. S7C). Introducing solely the base pair substitutions (C28U/G42A) that alters the CNG cleavage motif into tRNAThrU also failed to confer protection (Fig. 6G and Supplementary Fig. S7E). Thus, phage tRNAs resist P2–OLD by acquiring mutations that shorten the anticodon stem and alter the CNG motif. This two-factor resistance mechanism also explains why the host tRNAThrW showed limited cleavage (Fig. 4A).
+
+P2–OLD’s anticodon stem amputation activity evades phage tRNA ligases
+
+Our data have thus established P2–OLD as a tRNA endoribonuclease that cleaves the anticodon stem of its targets twice (Figs 4 and 5). We found that this unique activity irreversibly detaches the 12-nucleotide fragment containing the anticodon loop from the rest of the tRNA even under native conditions. When tRNAThrU pre-cut with P2–OLD and ATP was passed through a size-exclusion spin column with a 6-kDa cutoff, the 12-nucleotide (3.8-kDa) fragment remained in the column, while the larger portion was eluted (Fig. 7A).
+
+Figure 7. P2–OLD detaches the anticodon stem loop, which prevents repair by tRNA ligases. (A) Detachment of the anticodon stem loop of tRNAThrU upon incubation with P2–OLD and ATP. Data are representative ofn = 2 independent experiments. (B) Schematic detailing the workflow of tRNAThrU repair reactions. (C) Visualization of cleavage and ligation products of tRNAThrU repair assays as described in (B) on a 15% TBE–Urea gel. Data shown are representative of n = 3 independent experiments. (D) Mass spectra revealing monoisotopic masses of cleavage and ligation products of the indicated reactions. Each fragment is indicated by the first and last nucleotides. Parentheses indicate nontemplated nucleotide additions to the 3′ end of tRNA during in vitro transcription.
+
+This anticodon stem amputation mechanism differs from the commonly known anticodon nicking activity of other tRNA nucleases. Phages like T4 famously circumvent tRNA nickases by expressing tRNA repair systems [49]. These systems can re-seal the nicks in anticodon loops because the separated nucleotides remain adjacent. However, we suspected that such a repair system would not work on the damage caused by P2–OLD because the two halves of the cut tRNAs would no longer be nearby. To evaluate this hypothesis, we first incubated tRNAThrU with P2–OLD and ATP to introduce the two cuts and then added either T4 RNA ligase 1 or 2 to the damaged tRNA (Fig. 7B). These reactions produced a prominent product that is slightly shorter than the full-length tRNA (Fig. 7C). Mass spectrometry analysis revealed that this aberrant product resulted from the ligation of the 28th nucleotide and the 41st nucleotide (Fig. 7D and Supplementary Table S3). We also detected circularization of the 12-nucleotide fragment.
+
+These findings confirm that P2–OLD generates cleaved ends with 5′-phosphate and 3′-hydroxyl, which are necessary for ligation without additional end healing. Furthermore, the finding that both RNA ligases can access and act on the cleaved ends further supports our conclusion that P2–OLD detaches the stem loop (Fig. 7A). Importantly, in the control experiments, tRNAThrU nicked once at Site 1 using P2–OLDH332A was seamlessly repaired by both RNA ligases (Fig. 7C). Thus, we propose that phage tRNA repair systems, which neutralize tRNA anticodon nickases [49], are ill-equipped to handle P2–OLD’s anticodon stem amputation mechanism.
+
+Discussion
+
+The precise biochemical function of P2–OLD, the effector driving the classic P2–Lambda interference phenomenon, has long been poorly defined. Our results resolved this age-old mystery. Leveraging a phage-inspired genetic strategy, we revealed that the cytotoxic effect of P2–OLD is suppressible by nuclease-resistant phage threonyl–tRNAs bearing the UGU anticodon (Fig. 2G). This crucial genetic finding, buttressed by biochemical data, unambiguously indicates that cleavage of host tRNAThrU by P2–OLD is a primary cause of cellular shutdown during P2–Lambda interference.
+
+Our screen provides a simple and affordable approach to identify the physiological target of tRNA nucleases and directly link tRNA cleavage to nuclease toxicity (Fig. 2). Unexpectedly, this approach also works even for nucleases like AriB [50] and P2–OLD (Fig. 6), which target multiple tRNAs. In these cases, cytotoxicity was suppressed by phage tRNAs complementing the most affected host tRNA (Fig. 2D and G). Our screens represent the first large-scale functional survey of phage-derived tRNAs function as an anti-nuclease strategy. That most tRNAs within our uncurated library functioned as suppressors in our screens, provided they have the appropriate anticodon (Fig. 2C, D, and G), supports the theory that defense evasion is a primary reason for the presence of tRNAs in phage genomes [39, 40, 50–52].
+
+Biochemical studies of P2–OLD revealed a previously unknown tRNA inactivation mechanism: amputation of the anticodon arm (Fig. 4). Our data suggest this mechanism may be a molecular innovation to evade phage ligases (Fig. 7), which evolved to counteract anticodon nickases [49]. P2–OLD preferentially cleaves tRNAThrU, but it also targets other tRNAs that, like tRNAThrU, contain a paired CNG motif in their anticodon stems and an invariant A37 (Fig. 5). This broad substrate specificity, combined with the potent cleavage mechanism, makes overcoming P2–OLD defense difficult. Lambda must either alter the RecBCD complex without activating P2–OLD (Fig. 1A) [36], acquire the full complement of resistant tRNAs [50], or evolve specialized inhibitors against P2–OLD (like Gad1 against Gabija) [53].
+
+Our findings regarding the substrate specificity of P2–OLD (Figs 5 and 6) may apply to other Toprim nucleases. These nucleases include RNase M5 (which processes 5S ribosomal RNA precursors into their mature forms in Bacillus subtilis) [54, 55], AriB of Ec185 PARIS (which cleaves tRNALys at a site corresponding to Site 2 of P2–OLD’s substrates) [40], and GajA of the Gabija antiphage defense system (which cleaves DNA at a specific motif) [44, 45]. Our finding that P2–OLD cleaves the anticodon stem of tRNA reinforces the emerging theme that Toprim nucleases specifically act on double-stranded nucleic acids.
+
+Strikingly, much like P2–OLD (Figs 4–6), these Toprim nucleases frequently cleave directly 3′ of a cytosine [40, 44, 54, 55] For example, GajA cleaves after the first cytosine within a CCG motif on both DNA strands [44]. The preceding cytosines are crucial: changing the CCG to GCC renders the substrate completely GajA-resistant. Mutational analysis of phage threonyl–tRNAs shows that triplet motifs missing one of the preceding cytosines can still be cleaved if they have the appropriate length (Fig. 6G). This context dependence potentially explains why, despite both substrates having a nonideal cut site preceded by uracil, RNase M5 can still cleave the 5S precursor twice [54, 55] whereas both P2–OLD and AriB only cleave tRNALys once [40]. Although other explanations are possible [50], our findings provide a molecular basis to further test and refine these ideas.
+
+We demonstrated that intact ATPase is essential for P2–OLD’s two-cut endonuclease function (Fig. 4), which explains why ATPase mutations abolish its cytotoxic effect [17]. Notably, P2–OLD exhibits robust nuclease activity at physiological ATP levels (Supplementary Fig. S4D). Therefore, unlike other ATPase-coupled nucleases such as Gabija and Septu [44, 56, 57], P2–OLD toxicity is not regulated by perturbations in ATP levels. We speculate that its toxicity could instead be regulated through blockade of ATPase hydrolysis, which is essential for activating tRNA cleavage (Fig. 4).
+
+A key mystery in P2–Lambda interference remains: How does RecBCD inhibition activates P2–OLD? Surprisingly, purified P2–OLD readily cleaves tRNAs in our in vitro assays (Figs 4 and 5A). This suggests that RecBCD may normally repress P2–OLD within cells. But repression through direct binding is unlikely, given the low abundance of RecBCD in the cell [58]. Another scenario is possible. Perhaps, the weak nuclease activity of purified P2–OLD at E. coli cytoplasmic K+ levels in vitro (Supplementary Fig. S4D) suggests a missing activator that accumulates or is produced only upon RecBCD inactivation. Given that other antiphage defense systems also perceive RecBCD inhibition as a sign of phage invasion [59–61], understanding how RecBCD influences P2–OLD activity will provide broad insights into phage–host interactions.
+
+In short, our results established that P2–OLD aborts Lambda infection by inactivating tRNAs. This new finding challenges the existing model that P2–OLD primarily targets the DNA [12, 14, 16, 17, 19–21], and invite a reinterpretation of previous data. By revealing how P2–OLD operates, our work provides a biochemical framework to dissect the mechanism of other OLD-like proteins and Toprim nucleases. Finally, the surprising finding that P2–OLD severs the anticodon stem of tRNAs will motivate further exploration to find molecular novelty.
+
+Supplementary Material
+
+gkaf874_Supplemental_Files
+
+Acknowledgements
+
+We thank NEB leadership for their support of this project, and Marina Smiley and Tim Blower for their comments and careful reading of the manuscript. We thank the Laub lab for P2 + Lambda lysogens and E. coli C strain without prophages, and Matt Szucs for additional structured RNA substrates.
+
+Author contributions: Apurva A. Govande (Data curation [supporting], Formal Analysis [lead], Investigation [lead], Methodology [lead], Writing—original draft [supporting], Writing—review & editing [supporting]), Brian Matibag (Data curation [equal], Formal Analysis [equal], Writing—review & editing [supporting]), Irem Unlu (Data curation [supporting], Formal Analysis [supporting], Writing—review & editing [supporting]), Eric J Wolf (Data curation [supporting], Formal Analysis [supporting], Investigation [supporting]), Molly R. Sargen (Data curation [supporting], Formal Analysis [supporting], Investigation [supporting]), Brooke Ramsey (Data curation [supporting], Formal Analysis [supporting], Investigation [supporting]), Sangjin Kim (Data curation [supporting], Formal Analysis [supporting], Funding acquisition [supporting], Investigation [supporting], Resources [supporting]), Sophie Helaine (Data curation [supporting], Formal Analysis [supporting], Funding acquisition [supporting], Investigation [supporting], Resources [supporting]), Ivan R. Corrêa Jr. (Investigation [supporting], Project administration [supporting], Supervision [supporting]), and Hoong Lim (Conceptualization [lead], Data curation [lead], Formal Analysis [lead], Investigation [lead], Methodology [lead], Project administration [lead], Supervision [lead], Writing—original draft [lead], Writing—review & editing [lead]).
+
+Supplementary data
+
+Supplementary data is available at NAR online.
+
+Conflict of interest
+
+A.A.G., B.M., I.U., E.J.W., I.R.C.J., and H.C.L. are employed by New England Biolabs, which commercializes enzymes, kits, and reagents. H.C.L. holds an equity stake in Manifold Biotechnologies.
+
+Funding
+
+The work was funded by National Science Foundation Center for Physics of Living Cells 1430124 (to S.K.), National Science Foundation Science and Technology Center for Quantitative Cell Biology 2243257 (to S.K.), National Institutes of Health R35 GM143203 (to S.K.), National Institutes of Health F31 1F31AI176589-01 (to M.R.S.), and a Star Friedman Challenge award (to S.H.). Funding to pay the Open Access publication charges for this article was provided by New England Biolabs.
+
+Data availability
+
+Rescue tRNA sequencing data are deposited and can be accessed using SRA# PRJNA1265467. Cellular tRNA-seq data are deposited and can be accessed using SRA# PRJNA1257021.
+
+
+References
+
+1. Patel  PH, Maxwell  KL  Prophages provide a rich source of antiphage defense systems. Cell. 2023; 73:1551–61.10.1016/j.mib.2023.102321.37121062
+2. Getz  LJ, Maxwell  KL  Diverse antiphage defenses are widespread among prophages and mobile genetic elements. Annu Rev Virol. 2024; 11:343–62.10.1146/annurev-virology-100422-125123.38950439
+3. Owen  SV, Wenner  N, Dulberger  CL  et al.  Prophages encode phage-defense systems with cognate self-immunity. Cell Host Microbe. 2021; 29:1620–33.10.1016/j.chom.2021.09.002.34597593 PMC8585504
+4. Rousset  F, Depardieu  F, Miele  S  et al.  Phages and their satellites encode hotspots of antiviral systems. Cell Host Microbe. 2022; 30:740–53.10.1016/j.chom.2022.02.018.35316646 PMC9122126
+5. Vassallo  CN, Doering  CR, Littlehale  ML  et al.  A functional selection reveals previously undetected anti-phage defence systems in the E. coli pangenome. Nat Microbiol. 2022; 7:1568–79.10.1038/s41564-022-01219-4.36123438 PMC9519451
+6. Hochhauser  D, Millman  A, Sorek  R  The defense island repertoire of the Escherichia coli pan-genome. PLoS Genet. 2023; 19:e1010694 10.1371/journal.pgen.1010694.37023146 PMC10121019
+7. Snyder  L  Phage-exclusion enzymes: a bonanza of biochemical and cell biology reagents?. Mol Microbiol. 1995; 15:415–20.10.1111/j.1365-2958.1995.tb02255.x.7540246
+8. Bertani  G  Lysogeny. Adv Virus Res. 1958; 5:151–93.13508404 10.1016/s0065-3527(08)60673-9
+9. Lindahl  G, Sironi  G, Bialy  H  et al.  Bacteriophage lambda; abortive infection of bacteria lysogenic for phage P2. Proc Natl Acad Sci USA. 1970; 66:587–94.10.1073/pnas.66.3.587.4913204 PMC283090
+10. Sironi  G, Bialy  H, Lozeron  HA  et al.  Bacteriophage P2: interaction with phage lambda and with recombination-deficient bacteria. Virology. 1971; 46:387–96.10.1016/0042-6822(71)90040-7.4943192
+11. Sironi  G  Mutants of Escherichia coli unable to be lysogenized by the temperate bacteriophage P2. Virology. 1969; 37:163–76.10.1016/0042-6822(69)90196-2.4884707
+12. Bregegere  F  Bacteriophage P2–Lambda interference. III. Essential role of an early step in the initiation of Lambda replication. J Mol Biol. 1978; 122:113–25.355640 10.1016/0022-2836(78)90029-3
+13. Ghisotti  D, Zangrossi  S, Sironi  G  An Escherichia coli gene required for bacteriophage P2–Lambda interference. J Virol. 1983; 48:616–26.10.1128/jvi.48.3.616-626.1983.6355505 PMC255392
+14. Bregegere  F  Bacteriophage P2–Lambda interference. II. Effects on the host under the control of Lambda genes O and P. J Mol Biol. 1976; 104:411–20.781288 10.1016/0022-2836(76)90279-5
+15. Aravind  L, Leipe  DD, Koonin  EV  Toprim—a conserved catalytic domain in type IA and II topoisomerases, DnaG-type primases, OLD family nucleases and RecR proteins. Nucleic Acids Res. 1998; 26:4205–13.10.1093/nar/26.18.4205.9722641 PMC147817
+16. Myung  H, Calendar  R  The old exonuclease of bacteriophage P2. J Bacteriol. 1995; 177:497–501.10.1128/jb.177.3.497-501.1995.7836278 PMC176619
+17. Schiltz  CJ, Adams  MC, Chappie  JS  The full-length structure of Thermus scotoductus OLD defines the ATP hydrolysis properties and catalytic mechanism of Class 1 OLD family nucleases. Nucleic Acids Res. 2020; 48:2762–76.10.1093/nar/gkaa059.32009148 PMC7049728
+18. Cohen  SN, Chang  AC  Genetic expression in bacteriophage Lambda. IV. Effects of P2 prophage on Lambda inhibition of host synthesis and Lambda gene expression. Virology. 1971; 46:387–406.10.1016/0042-6822(71)90041-9 4331731
+19. Bregegere  F  Bacteriophage P2–Lambda interference: inhibition of protein synthesis involves transfer RNA inactivation. J Mol Biol. 1974; 90:459–67.10.1016/0022-2836(74)90228-9.4615170
+20. Akritidou  K, Thurtle-Schmidt  BH  OLD family nuclease function across diverse anti-phage defense systems. Front Microbiol. 2023; 14:1268820 10.3389/fmicb.2023.1268820.37840731 PMC10568477
+21. Dot  EW, Thomason  LC, Chappie  JS  Everything OLD is new again: how structural, functional, and bioinformatic advances have redefined a neglected nuclease family. Mol Microbiol. 2023; 120:122–40.10.1111/mmi.15074.37254295
+22. Lazarus  JE, Warr  AR, Kuehl  CJ  et al.  A new suite of allelic-exchange vectors for the scarless modification of proteobacterial genomes. Appl Environ Microb. 2019; 85:e00990-19 10.1128/AEM.00990-19.PMC6677854 31201277
+23. Ferrieres  L, Hemery  G, Nham  T  et al.  Silent mischief: bacteriophage Mu insertions contaminate products of Escherichia coli random mutagenesis performed using suicidal transposon delivery plasmids mobilized by broad-host-range RP4 conjugative machinery. J Bacteriol. 2010; 192:6418–27.10.1128/JB.00621-10.20935093 PMC3008518
+24. Baba  T, Ara  T, Hasegawa  M  et al.  Construction ofEscherichia coli K-12 in-frame, single-gene knockout mutants: the Keio collection. Mol Syst Biol. 2006; 2:2006.0008 10.1038/msb4100050.PMC1681482 16738554
+25. Kohrer  C, Rajbhandary  UL  The many applications of acid urea polyacrylamide gel electrophoresis to studies of tRNAs and aminoacyl–tRNA synthetases. Methods. 2008; 44:129–38.10.1016/j.ymeth.2007.10.006.18241794 PMC2277081
+26. Kimura  S, Dedon  PC, Waldor  MK  Comparative tRNA sequencing and RNA mass spectrometry for surveying tRNA modifications. Nat Chem Biol. 2020; 16:964–72.10.1038/s41589-020-0558-1.32514182 PMC8172280
+27. Langmead  B  Aligning short sequencing reads with Bowtie. Curr Protoc Bioinformatics. 2010; Chapter 11:Unit 11.17.10.1002/0471250953.bi1107s32 PMC3010897 21154709
+28. Li  H, Handsaker  B, Wysoker  AGenome Project Data Processing, S.  et al.  The sequence alignment/map format and SAMtools. Bioinformatics. 2009; 25:2078–9.10.1093/bioinformatics/btp352.19505943 PMC2723002
+29. Quinlan  AR, Hall  IM  BEDTools: a flexible suite of utilities for comparing genomic features. Bioinformatics. 2010; 26:841–2.10.1093/bioinformatics/btq033.20110278 PMC2832824
+30. Crooks  GE, Hon  G, Chandonia  JM  et al.  WebLogo: a sequence logo generator. Genome Res. 2004; 14:1188–90.10.1101/gr.849004.15173120 PMC419797
+31. Schindelin  J, Arganda-Carreras  I, Frise  E  et al.  Fiji: an open-source platform for biological-image analysis. Nat Methods. 2012; 9:676–82.10.1038/nmeth.2019.22743772 PMC3855844
+32. Friedman  SA, Hays  JB  Selective inhibition of Escherichia coli recBC activities by plasmid-encoded GamS function of phage lambda. Gene. 1986; 43:255–63.10.1016/0378-1119(86)90214-3.2943636
+33. Chaudhury  AM, Smith  GR  Escherichia coli recBC deletion mutants. J Bacteriol. 1984; 160:788–91.10.1128/jb.160.2.788-791.1984.6389498 PMC214807
+34. Wilkinson  M, Wilkinson  OJ, Feyerherm  C  et al.  Structures of RecBCD in complex with phage-encoded inhibitor proteins reveal distinctive strategies for evasion of a bacterial immunity hub. eLife. 2022; 11:e83409 10.7554/eLife.83409.36533901 PMC9836394
+35. Wilkinson  M, Troman  L, Ismah  WN  et al.  Structural basis for the inhibition of RecBCD by Gam and its synergistic antibacterial effect with quinolones. eLife. 2016; 5:e22963 10.7554/eLife.22963.28009252 PMC5218532
+36. Murphy  KC, Lewis  LJ  Properties of Escherichia coliexpressing bacteriophage P22 Abc (anti-RecBCD) proteins, including inhibition of Chi activity. J Bacteriol. 1993; 175:1756–66.10.1128/jb.175.6.1756-1766.1993.8383665 PMC203970
+37. Zimmerman  SB  Toroidal nucleoids in Escherichia coli exposed to chloramphenicol. J Struct Biol. 2002; 138:199–206.10.1016/S1047-8477(02)00036-9.12217658
+38. Cabrera  JE, Cagliero  C, Quan  S  et al.  Active transcription of rRNA operons condenses the nucleoid in Escherichia coli: examining the effect of transcription on nucleoid structure in the absence of transertion. J Bacteriol. 2009; 191:4180–5.10.1128/JB.01707-08.19395497 PMC2698504
+39. Azam  AH, Kondo  K, Chihara  K  et al.  Evasion of antiviral bacterial immunity by phage tRNAs. Nat Commun. 2024; 15:9586 10.1038/s41467-024-53789-y.39528469 PMC11555353
+40. Burman  N, Belukhina  S, Depardieu  F  et al.  A virally encoded tRNA neutralizes the PARIS antiviral defence system. Nature. 2024; 634:424–31.10.1038/s41586-024-07874-3.39111359 PMC11464382
+41. Deep  A, Liang  Q, Enustun  E  et al.  Architecture and activation mechanism of the bacterial PARIS defence system. Nature. 2024; 634:432–9.10.1038/s41586-024-07772-8.39112702 PMC11479591
+42. Hasegawa  T, Miyano  M, Himeno  H  et al.  Identity determinants ofE. colithreonine tRNA. Biochem Biophys Res Commun. 1992; 184:478–84.10.1016/0006-291X(92)91219-G.1567450
+43. Allemand  F, Mathy  N, Brechemier-Baey  D  et al.  The 5S rRNA maturase, ribonuclease M5, is a Toprim domain family member. Nucleic Acids Res. 2005; 33:4368–76.10.1093/nar/gki752.16077031 PMC1182330
+44. Cheng  R, Huang  F, Wu  H  et al.  A nucleotide-sensing endonuclease from the Gabija bacterial defense system. Nucleic Acids Res. 2021; 49:5216–29.10.1093/nar/gkab277.33885789 PMC8136825
+45. Cheng  R, Huang  F, Lu  X  et al.  Prokaryotic Gabija complex senses and executes nucleotide depletion and DNA cleavage for antiviral defense. Cell Host Microbe. 2023; 31:1331–44.10.1016/j.chom.2023.06.014.37480847
+46. Dong  H, Nilsson  L, Kurland  CG  Co-variation of tRNA abundance and codon usage in Escherichia coli at different growth rates. J Mol Biol. 1996; 260:649–63.10.1006/jmbi.1996.0428.8709146
+47. Kuo  MM, Haynes  WJ, Loukin  SH  et al.  Prokaryotic K(+) channels: from crystal structures to diversity. FEMS Microbiol Rev. 2005; 29:961–85.10.1016/j.femsre.2005.03.003.16026885
+48. Schultz  SG, Solomon  AK  Cation transport in Escherichia coli. I. Intracellular Na and K concentrations and net cation movement. J Gen Physiol. 1961; 45:355–69.10.1085/jgp.45.2.355.13909521 PMC2195163
+49. Shuman  S  RNA repair: hiding in plain sight. Annu Rev Genet. 2023; 57:461–89.10.1146/annurev-genet-071719-021856.37722686
+50. Belukhina  S, Saudemont  B, Depardieu  F  et al.  Specificity and mechanism of tRNA cleavage by the AriB Toprim nuclease of the PARIS bacterial immune system. bioRxiv 5 February 2025, preprint: not peer reviewed 10.1101/2025.02.04.636281.PMC12409363 40904115
+51. Bitton  L, Klaiman  D, Kaufmann  G  Phage T4-induced DNA breaks activate a tRNA repair-defying anticodon nuclease. Mol Microbiol. 2015; 97:898–910.10.1111/mmi.13074.26031711
+52. van  den Berg DF, van  der Steen BA, Costa  AR  et al.  Phage tRNAs evade tRNA-targeting host defenses through anticodon loop mutations. eLife. 2023; 12:e85183 10.7554/eLife.85183.37266569 PMC10264068
+53. Antine  SP, Johnson  AG, Mooney  SE  et al.  Structural basis of Gabija anti-phage defence and viral immune evasion. Nature. 2024; 625:360–5.10.1038/s41586-023-06855-2.37992757 PMC10781630
+54. Condon  C, Brechemier-Baey  D, Beltchev  B  et al.  Identification of the gene encoding the 5S ribosomal RNA maturase in Bacillus subtilis: mature 5S rRNA is dispensable for ribosome function. RNA. 2001; 7:242–53.10.1017/S1355838201002163.11233981 PMC1370082
+55. Oerum  S, Dendooven  T, Catala  M  et al.  Structures of B. subtilis maturation RNases captured on 50S ribosome with pre-rRNAs. Mol Cell. 2020; 80:227–36.10.1016/j.molcel.2020.09.008.32991829 PMC7610893
+56. Li  J, Cheng  R, Wang  Z  et al.  Structures and activation mechanism of the Gabija anti-phage system. Nature. 2024; 629:467–73.10.1038/s41586-024-07270-x.38471529
+57. Li  Y, Shen  Z, Zhang  M  et al.  PtuA and PtuB assemble into an inflammasome-like oligomer for anti-phage defense. Nat Struct Mol Biol. 2024; 31:413–23.10.1038/s41594-023-01172-8.38177683 PMC12318543
+58. Lepore  A, Taylor  H, Landgraf  D  et al.  Quantification of very low-abundant proteins in bacteria using the HaloTag and epi-fluorescence microscopy. Sci Rep. 2019; 9:7902 10.1038/s41598-019-44278-0.31133640 PMC6536506
+59. Millman  A, Bernheim  A, Stokar-Avihail  A  et al.  Bacterial retrons function in anti-phage defense. Cell. 2020; 183:1551–61.10.1016/j.cell.2020.09.065.33157039
+60. Zhang  Z, Todeschini  TC, Wu  Y  et al.  Kiwa is a membrane-embedded defense supercomplex activated at phage attachment sites. Cell. 2025; S0092-8674(25)00791-3 10.1016/j.cell.2025.07.002.PMC12348683 40730155
+61. Stokar-Avihail  A, Fedorenko  T, Hör  J  et al.  Discovery of phage determinants that confer sensitivity to bacterial immune systems. Cell. 2023; 186:1863–76.10.1016/j.cell.2023.02.029.37030292

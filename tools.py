@@ -53,6 +53,35 @@ def FetchNcbiMetadata(accession: str) -> dict:
 
     return record
 
+
+def pmid_to_pmcid(pmid: str) -> str | None:
+
+    """
+
+    Convert a single PMID to a PMCID.
+
+    Returns the PMCID (e.g. 'PMC1234567') or None if not available.
+
+    """
+
+    url = "https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/"
+
+    res = requests.get(url, params={
+
+        "ids": pmid,
+
+        "format": "json"
+
+    }).json()
+
+    records = res.get("records", [])
+
+    if not records:
+
+        return None
+
+    return records[0].get("pmcid")
+
 def FetchLiterature(accession: str) -> list[dict]:
     """
     Given a protein accession, return associated PubMed articles.
@@ -101,11 +130,12 @@ def FetchLiterature(accession: str) -> list[dict]:
 
     papers = []
     for pmid in pmids:
+        pmcid = pmid_to_pmcid(pmid)
         paper = results.get(pmid)
         if not paper:
             continue
         papers.append({
-            "pmid": pmid,
+            "pmcid": pmcid,
             "title": paper.get("title"),
             "authors": [a["name"] for a in paper.get("authors", [])],
             "journal": paper.get("fulljournalname"),

@@ -1,0 +1,15 @@
+Systematic genome-wide mapping of host determinants of bacteriophage infectivity.
+
+Bacterial host factors regulate the infection cycle of bacteriophages. Except for some well-studied
+host factors (e.g., receptors or restriction-modification systems), the contribution of the rest of
+the host genome on phage infection remains poorly understood. We developed phage-host analysis using
+genome-wide CRISPR interference and phage packaging ("PHAGEPACK"), a pooled assay that
+systematically and comprehensively measures each host gene's impact on phage fitness. PHAGEPACK
+combines CRISPR interference with phage packaging to link host perturbation to phage fitness during
+active infection. Using PHAGEPACK, we constructed a genome-wide map of genes impacting T7 phage
+fitness in permissive E. coli, revealing pathways that affect phage packaging. When applied to the
+non-permissive E. coli O121, PHAGEPACK identified pathways leading to host resistance; their removal
+increased phage susceptibility up to a billion-fold. Bioinformatic analysis indicates that phage
+genomes carry homologs or truncations of key host factors, potentially for fitness advantage. In
+summary, PHAGEPACK offers insights into phage-host interactions, phage evolution, and bacterial
+resistance.

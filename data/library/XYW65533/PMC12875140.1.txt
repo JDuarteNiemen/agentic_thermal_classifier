@@ -1,0 +1,473 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Nat Microbiol
+Journal ID: Nat Microbiol
+
+Nature microbiology
+
+EISSN: 2058-5276
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC12875140
+Article ID: NIHMS2140773
+PMID: 41545502
+DOI: 10.1038/s41564-025-02239-6
+Article ID: NIHMS2140773
+Article ID: NIHPA2140773
+Article version: 1
+Subjects: Article
+
+A phage protein screen identifies triggers of the bacterial innate immune system
+
+Nagy Toni A. 1
+Gersabeck Gina W. 1
+Conte Amy N. 1
+Whiteley Aaron T. 1 *
+1 Department of Biochemistry, University of Colorado Boulder, Boulder, CO, USA
+Author contributions
+
+Conceptualization, T.A.N. and A.T.W.; Methodology, T.A.N. and A.T.W; Investigation, T.A.N., G.W.G, and A.T.W.; Resources, A.N.C.; Writing – Original Draft, T.A.N. and A.T.W.; Writing – Review & Editing, T.A.N., A.N.C., and A.T.W; Visualization, T.A.N.; Supervision, A.T.W.; Funding Acquisition, A.T.W.
+
+* To whom correspondence should be addressed: aaron.whiteley@colorado.edu
+Print publication date: 2026 Feb
+Electronic publication date: 2026 Jan 16
+Volume: 11
+Issue: 2
+First page: 597
+Last page: 609
+Author manuscript; available in PMC: 2026 Feb 5
+
+Identifying phage proteins that activate the bacterial innate immune system 2 7 2025 2025.07.02.662641 bioRxiv 10.1101/2025.07.02.662641 PMC12236752 40631175
+
+This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.
+
+==============================
+Bacteria have evolved sophisticated antiphage systems that halt phage replication upon detecting specific phage triggers. Identifying phage triggers is crucial to our understanding of immune signaling, however, they are challenging to predict. Here we used a plasmid library that expressed over 400 phage protein-coding genes from 6 phages to identify triggers of known and undiscovered antiphage systems. We transformed our library into 39 diverse strains of E. coli. Each strain natively harbors a different suite of antiphage systems whose activation typically inhibits growth. By tracking plasmids that were selectively depleted, we identified over 100 candidate phage trigger-E. coli pairs. Two phage proteins were further investigated, revealing T7 gp17 and additional tail fiber proteins activated the undescribed antiphage system PD-T2–1 and identifying λ gpE major capsid protein activated the antiphage system Avs8. These experiments provide a unique dataset for continued definition of the molecular details of the bacterial immune system.
+
+Introduction
+
+Bacteria and bacteriophages (phages) have been coevolving for over a billion years and are often in direct competition with each other1,2. Phages hijack host machinery for their benefit and, in turn, bacteria counter phage using antiphage systems. Antiphage systems are suites of genes, often encoded in an operon or as a single large gene, that sense phage infection and limit virion production. Antiphage systems were previously thought to be limited to restriction modification and CRISPR-Cas systems, however, we now appreciate there are over 100 distinct antiphage systems encoded by bacteria that quickly sense and respond to infection3–7. Cataloging these discoveries has enabled accurate predictions of defense systems from genome sequence8–10. On average, each bacterial strain only encodes 5.8 antiphage systems, however the identity of the antiphage systems varies from strain-to-strain4. In addition, antiphage systems are typically encoded in mobile genetic elements, which can be rapidly exchanged with other bacteria. In this way, bacteria distribute phage defense systems in the pangenome1 and maintain the upper hand against phages that must adapt to each new strain’s resident antiphage systems.
+
+Each phage defense system conforms to a general signaling scheme: a sensor detects a phage trigger, a signal amplifier/transducer relays the signal and sets a threshold for signaling, and an effector stops virion production11. Conserved protein domains identified within each component help generate hypotheses for the signaling and effector mechanisms. However, predicting the phage triggers that activate sensor domains is rarely intuitive based on sequence information alone because the protein folds in these domains are often uninformative, for example, tandem repeat domains such as leucine-rich repeats, non-conserved regions, or domains of unknown function. Although computational methods for predicting protein-protein interactions are a promising future solution to this problem, these methods are currently limited12–14. Predicting how phage activate defense systems is further elusive because classic genetic techniques such as selecting for phage escaper mutants that evade detection are complicated by phage stimuli that are essential for replication or abundant phage-encoded protein inhibitors of antiphage systems.
+
+Previous studies show that antiphage systems can detect proteins and their functions, nucleic acids and their modifications, and even changes in the cell metabolome15. An example of direct sensing of phage proteins is CapRel, which binds two unrelated, structurally distinct phage proteins on unique interfaces of the sensor domain16. An example of indirect sensing of phage protein function is the recently discovered Hailong system, which synthesizes single stranded DNA that keeps an effector protein inactive until phage exonuclease cleaves Hailong DNA to release the effector17. The coevolution between phages and bacteria has provided a particularly rich opportunity to uncover mechanisms immune systems use to detect invading pathogens. Here we sought to map the landscape of phage proteins that activate the bacterial immune system by flipping the paradigm of how triggers of antiphage systems are discovered. Rather than focusing on how a single system is activated, we surveyed the pangenome for immune activation by an expansive library of candidate phage triggers.
+
+Results
+
+Construction of an extensive phage ORF library
+
+We began by constructing a library of plasmids expressing every open reading frame (ORF) from phages T2, T7, λ, MS2, ϕX174, and M13 using a medium-copy vector with an IPTG-inducible promoter (Fig. 1a). These phages were selected because they represent well-studied dsDNA (T2, T7, λ), ssDNA (ϕX174, M13), and ssRNA (MS2) genomes. Plasmids were cloned en mass and verified by next generation sequencing (NGS, see Methods for full details). We successfully constructed vectors expressing 406 of the 414 identified ORFs; the remaining eight could not be constructed, likely because leaky expression of these ORFs was too toxic even under non-inducing conditions (Supplementary Table 1).
+
+We pooled our plasmid library expressing 406 phage ORFs along with a version of the vector that expressed a neutral protein, GFP, and transformed the pool into K-12 E. coli strain MG1655 (Fig. 1b). Bacteria were plated on solid agar with 50 μM IPTG to induce phage ORF expression or without inducer. Plasmids were extracted from surviving bacteria, sequenced by NGS, and the reads were mapped to phage genomes to quantify each plasmid (Fig. 1c). We first assessed the raw read count across phage genomes and found that 41 phage ORFs were poorly recoverable when transformed into MG1655 under non-inducing conditions, defined as having less than 10 reads covering the ORF (Supplementary Table 2a, b). These ORFs likely inhibited growth even at low, uninduced levels, but were originally able to be cloned because the strain of E. coli used to construct the library expressed additional copies of the lac repressor.
+
+To compare plasmid coverage across different data sets, we normalized read counts using transcripts per million (TPM) scores for each ORF (Supplementary Table 2c). Using a threshold of a 10-fold decrease in TPM compared to non-inducing conditions, an additional 28 phage ORFs were depleted when MG1655 transformants were cultivated under inducing conditions (Supplementary Table 2d, e). ORFs depleted from MG1655 under any condition were excluded from further analyses as these appeared to generally inhibit growth of E. coli, leaving 337 phage ORFs that could be tested as potential triggers of the bacterial immune system (83% of total, Supplementary Table 2f).
+
+A large-scale screen for phage triggers
+
+We next determined genetic interactions between specific phage ORFs and diverse E. coli strains by transforming our pooled plasmid library into 72 E. coli strains from the E. coli reference (ECOR) collection18 and monitoring plasmid abundance. The majority of antiphage systems stop virion production by “abortive infection”, a general term for when a phage defense system stops virion production but does not allow the infected bacterium to survive2,11. Many abortive infection antiphage systems cause damage to the host cell (e.g., nucleases that destroy phage and host genomes or NADases that depleting essential metabolites)19. Therefore, activation of an antiphage system by a phage ORF is likely to inhibit growth of the bacterium and plasmids expressing that ORF would be depleted from the population.
+
+Each ECOR strain is “wild” compared to the domesticated K-12 lab E. coli that has lost many mobile genetic elements. Profiling how phage ORFs impact growth of ECOR strains therefore surveys otherwise unavailable segments of the E. coli pangenome. Genome analysis confirmed that each ECOR strain encodes a different arsenal of ~5–20 known antiphage systems and the 72 ECOR strains represent a total of >60 distinct systems (Supplementary Table 3, see Methods).
+
+Our screen revealed greater than 100 trigger-ECOR pairs: candidate triggers of antiphage systems that selectively inhibited growth of specific ECOR strains (Figure 2 and Supplementary Table 2f–g). Unexpectantly, 22 ECOR strains were poorly transformable and we were only able to recover a few colonies and an additional 11 produced poor-quality sequencing for unknown reasons; these strains were not investigated further (Supplementary Table 4).
+
+We validated a subset of our findings by comparing the number of colonies recovered when MG1655 or an ECOR strain was transformed with a single plasmid expressing the candidate phage trigger (Fig. 3, ED Fig.1). We focused on ORFs that we hypothesized were ideal targets of an innate immune system: (i) structural proteins such as major capsid proteins (e.g., λ gpE) and tail fibers (e.g., T7 gp17, T2 gp34, λ gpK) that exhibit structural conservation, (ii) proteins that are required for the successful replication or lysogeny of phage (e.g., λ cI, λ gpN, T7 gp1.7), (iii) an internal virion protein of T7 (T7 gp13), which is the first protein that enters the bacterium upon infection20,21, or (iv) known inhibitors of phage defense systems (e.g., λ gam). We have used conventional gene and gene product names to describe our results; however, genome annotations can produce conflicting nomenclature. See Methods for accession numbers of molecules appearing in this study and Supplementary Table 1 for unambiguous definitions. Transformation efficiency experiments validated results from the screen and demonstrated robust selective depletion of phage ORFs from ECOR strains compared to MG1655 (Fig. 3, ED Fig.1).
+
+An undescribed defense system is activated by multiple phage proteins
+
+We first analyzed the genetic interaction between ECOR03 and T7 gp17, an essential phage protein that trimerizes to form tail fibers of the T7 virion22. We searched for mutations in ECOR03 that disrupted T7 gp17-mediated growth inhibition. A transposon mutant library was constructed in ECOR03, these strains were transformed with T7 gp17 and surviving transformants were recovered from inducing medium. The majority of transposon insertions in ECOR03 are not expected to alter T7 gp17-mediated growth inhibition and these bacteria do not grow. Sequencing the transposon insertion site of mutants that did grow revealed 28 out of 48 mutants contained transposons that disrupted a two-gene operon of unknown function (Supplementary Table 5). We gave the genes in this operon the placeholder names of “gene A” and “gene B” and their encoded proteins can be found in genomes throughout the Enterobacteriaceae (Fig. 4a).
+
+Bioinformatic analyses of both proteins did not return meaningful results (Supplementary Table 6). FlaGs23 and gene neighborhood analysis revealed Gene B often co-occurs with Gene A and is surrounded by prophage genes (ED Fig. 2, Supplementary Table 9). InterPro24,25 search revealed Gene A has a predicted transmembrane domain consisting of two α-helices, but NCBI BlastP26, HMMER27, and FoldSeek28 analyses failed to identify homologous proteins with additional annotations or known functions (see Methods for additional observations, Fig. 4a, ED Fig. 2). With the exception of AlphaFold predicting a high ipTM score for Gene B as a homotrimer, structure predictions failed to detect protein interactions between Gene A, Gene B, and T7 gp17, including testing of varied oligomeric assemblies of the three proteins (ipTM scores of each pair or all three ≤0.5) (ED Fig. 2). These results should be interpreted with caution however, as pTM scores were low for Gene A or T7 gp17 alone. Future analyses using purified protein are required to fully assess potential direct protein-protein interactions.
+
+We investigated geneAB by expressing the two-gene operon under the control of its native promoter in MG1655. This approach helps to limit effects of other identified and unidentified antiphage systems also resident in ECOR03 that could confound our analysis. We first confirmed geneAB could respond to T7 gp17 and found T7 gp17 inhibited colony formation only when transformed into bacteria expressing geneAB (Fig. 4b). Next, we tested whether geneAB was indeed a bona fide antiphage system by challenging bacteria expressing geneAB with diverse phages (Fig. 4c and ED Fig. 1b). GeneAB conferred >100-fold protection against phages T2, T6, and Bas18, and approximately 10-fold protection against phages T4 and T5 (Fig. 4c, ED Fig. 1). Growth curve analysis with Bas18 suggests that geneAB defends the bacterial population by abortive infection. Cultures infected at a low multiplicity of infection (MOI) were unaffected by phage compared to susceptible bacteria expressing GFP, while cultures infected at a high MOI stopped increasing in OD600, consistent with bacteria not surviving infection (Fig. 4d). Intriguingly, we saw no protection against phage T7, despite robust growth inhibition when T7 gp17 was co-expressed with geneAB. We speculate that phage T7 may encode an inhibiting protein, however, we have not investigated this further. These findings led us to rename the geneAB operon phage defense against T2 system 1 (PD-T2–1), adopting the provisional nomenclature introduced by Vassallo et al7. We invite the renaming of these genes and system upon determination of their defense mechanism.
+
+We hypothesized that PD-T2–1 must recognize additional phage triggers that are produced by phage T2 and returned to our original dataset of proteins that selectively inhibited ECOR03 growth. Genes encoding T2 gp37 (long tail fiber, distal subunit), T2 gp34 (long tail fiber, proximal subunit), and T2 gp12 (short tail fiber) were also depleted and share gross similarity to T7 gp17 (i.e. these encode trimeric tail fiber proteins)29–34. Transformation efficiency assays revealed that PD-T2–1 also selectively inhibited bacterial growth when T2 gp37, T2 gp34, and T2 gp12 were co-expressed (Fig. 4e). These results suggest that PD-T2–1 may recognize a feature shared by these proteins or perhaps these ORFs are indirectly sensed through a shared host intermediate.
+
+Toxin-antitoxin systems, such as ToxIN35 and DarTG36, are potent phage defense systems that are activated when the host cell is hijacked by phage. PD-T2–1 is a two-gene operon that responds to multiple phage proteins, and we hypothesized that PD-T2–1 may similarly function as a toxin-antitoxin system. To test this hypothesis, PD-T2–1A or PD-T2–1B was individually expressed using an arabinose-inducible plasmid and colony formation was monitored following transformation. These assays indicated that neither A or B inhibited growth compared to a vector expressing mCherry (ED Fig 2). PD-T2–1A and PD-T2–1B also did not individually provide phage defense (Fig. 4f). These results indicate PD-T2–1 does not function as a canonical toxin-antitoxin system. Intriguingly, the PD-T2–1 operon is preceded by a large untranslated region (UTR) 5′ of the PD-T2–1A start codon. There are no obvious open reading frames of ≥20 amino acids or start codons with ribosome binding sites in this region. A search for predicted RNA structures in this region using Rfam37,38 did not reveal any features. The importance of the UTR remains unknown, however, the sequences within this region are conserved in PD-T2–1 homologs (ED Fig. 2).
+
+Avs8 is activated by major capsid proteins
+
+We next characterized the genetic interaction between ECOR07 and λ gpE, which encodes the phage major capsid protein39. Transposon mutagenesis of ECOR07 followed by transformation with a plasmid expressing λ gpE selected for mutants able to survive gpE expression. Transposon insertion site sequencing revealed that 10 out of 24 mutants had a transposon in the previously identified antiphage system gene PD-λ-4A7 (Supplementary Table 7, Fig. 5a), which we have renamed Avs8, to represent it as a distinct member of the antiviral ATPase/NTPase of the STAND superfamily (AVAST) system. The Avs8A protein is highly conserved and homologs sharing >80% identity are abundant across Gammaproteobacteria. Vassallo et al. defined this Avs8 antiphage system as a two-gene operon made up Avs8A and Avs8B7. Avs8A contains an N-terminal Mrr-family nuclease domain and a central P-loop NTPase from the signal transduction ATPases with numerous domains (STAND) superfamily (Fig. 5a, ED Fig. 3). Avs8B has no similarity/homology to described proteins in searches using HHpred and Foldseek (Fig. 5a, ED Fig. 3). FlaGs23 analysis showed Avs8A is often in defense islands that contain annotated defense genes and is frequently, but not exclusively, associated with Avs8B (ED Fig. 3, Supplementary Table 10). AlphaFold3 structure modeling predicted Avs8A forms a tetramer (ipTM = 0.64), with lower confidence predictions for trimer (ipTM = 0.34) or dimer (ipTM = 0.20) formation (ED Fig. 3). These results are similar to the active forms of AVAST system members Avs3 and Avs4, which form homotetramers upon activation40.
+
+We investigated Avs8 by expressing the full operon under the control of its native promoter in MG1655. Strains expressing Avs8 could not be transformed with a plasmid expressing gpE, however, gpE-expressing plasmid was readily transformed into bacteria where Avs8 was replaced with GFP (Fig. 5b). Consistent with previous analysis, Avs8 conferred robust protection against phage λ (Fig. 5c). These data show that gpE is a trigger for Avs8 and suggest that λ defense is mediated by detection of the major capsid protein.
+
+Avs8 provided defense against a wide range of phages, including Bas21–25, Bas46, and Bas49 (Fig. 5c, ED Fig. 1, Fig. 5e). The major capsid proteins encoded by these phages share low sequence identity (Supplementary Table 8), but each adopt an HK97 protein fold. Transformation efficiency assays revealed that plasmids expressing the major capsid protein from phages Bas21–25 could not be expressed in bacteria expressing Avs8 (Fig. 5f), similar to λ gpE.
+
+Avs8A binds diverse HK97 fold proteins
+
+The mechanism of Avs8 was investigated in detail by first determining which of the components of the two-gene operon were required for phage defense. Avs8A provided equivalent phage defense to the complete Avs8 system, but Avs8B was dispensable and did not provide defense in the absence of Avs8A for phage λ (Fig. 5d). We hypothesized that Avs8B might broaden the range of phages detected by Avs8A, however, Avs8B was also dispensable for defense against phages Bas 21 and Bas25 (ED Fig. 3). These results are consistent with our transposon mutagenesis for insertions that disrupt the toxicity of gpE to ECOR07, which only recovered mutations in Avs8A, not Avs8B (Fig. 5d and Supplementary Table 7).
+
+The function of Avs8B is unknown. We were unable to detect a direct interaction between Avs8A and Avs8B using protein structure predictions and FlaGs analysis demonstrating that AvsA does not exclusively co-occur with Avs8B (Supplementary Table 10). Our observations suggest that AvsB may only have an ancillary role in phage defense that is yet to be identified. However, Avs8B may regulate transcription, translation, or function of Avs8A under conditions that have not yet been tested.
+
+We hypothesized that Avs8A directly binds to major capsid proteins and subsequently activates the N-terminal nuclease effector domain to halt virion production. We tested this by first measuring the affinity of Avs8A for major capsid proteins. Recombinant Avs8A bound to λ gpE with an apparent KD of 124 ± 23 nM and bound to Bas21 major capsid protein (mcp) with an apparent KD of 12 ± 6 nM (Fig. 6 a, b). Protein structure predictions further supported these interactions, predicting complex formation between Avs8A and gpE with an ipTM = 0.63 and complex formation between Avs8A and Bas21 mcp with an ipTM = 0.79 (ED Fig. 4). Mass photometry confirmed an oligomeric complex was formed when Avs8 was incubated with Bas21 mcp, which corresponded to four Avs8 monomers and two Bas21 mcp monomers (ED Fig. 5). The oligomer was unique to the mixture of Avs8A and Bas21 mcp but formed at a low level. Additional protein structure predictions of HK97 fold-containing major capsid proteins from diverse phages retrieved ipTM scores of > 0.6, supporting that Avs8A may also recognize many diverse mcp’s (Fig. 6j, ED Fig. 6). This is in stark contrast to ipTM scores of < 0.3 when modeling Avs8A interacting with major capsid/coat protein monomers with non-HK97 folds: MS2 and Qβ41–43; ϕX174 jelly-roll fold44; and M1345.
+
+The N-terminus of Avs8A contains a predicted Mrr-family nuclease domain (ED Fig. 3c), which is part of the larger PD-(D/E)xK nuclease-like superfamily of domains46. In related antiphage systems, these domains degrade phage and/or bacterial DNA upon activation40,47,48. To test whether binding major capsid protein induces Avs8A nuclease activity, we incubated Avs8A and λ gpE with dsDNA in the presence of ATP and Mg2+ and monitored DNA integrity. Avs8A potently degraded the dsDNA in response to gpE or Bas21 mcp but not maltose binding protein, which served as a negative control (Fig. 6 c, d and ED Fig. 7). Recombinant λ gpE is expected to be a monomer because oligomerization requires accessory phage proteins. During infection, 415 monomers irreversibly assemble into the capsid49. Interestingly, Avs8A was not activated by phage λ lysate, indicating that Avs8A is unable to sense fully formed phage capsids (Fig. 6e).
+
+Nuclease activity could be visualized over time and required Mg2+ and ATP (ED Fig. 7). Intriguingly, Avs8A had no nuclease activity when ATP was substituted with the non-hydrolyzable analogs AMP-PNP or ATPγS (ED Fig. 7). These results suggested that ATP hydrolysis might be required for Avs8A activation but are surprising because related STAND NTPase Avs4, NACHT NTPase bNACHT11, and numerous other metazoan STAND NTPases do not require ATP hydrolysis for function12,40. Instead, related NTPases require ATP for oligomerization, likely through stabilizing a conformational change in the protein required for oligomerization50. To clarify the role of ATP in Avs8A function, we measured phosphate release during our nuclease assay and found no increase in free phosphate when Avs8A and Bas21 mcp were present (ED Fig. 7e). These data suggest that Avs8A likely does not hydrolyze ATP for function and instead the NTPase domain may simply be unable to bind NTP analogs or make contacts between nucleotide and protein that are required for oligomerization.
+
+These data support a model in which Avs8A senses phage infection through binding major capsid proteins, which triggers nuclease effector domain activation that may be the result of oligomerization of the NTPase (ED Fig. 8). In support of this model, phage λ infection activated the Avs8A nuclease domain to destroy plasmid DNA in vivo. Mutation of the Avs8A nuclease active site residues disrupted DNA degradation and resulted in a complete loss of phage replication (Fig. 6f–i). However, this assay does not determine if phage defense is the result of host DNA or phage DNA destruction.
+
+Discussion
+
+In this work, we defined how bacteria sense phage infection by searching an expansive library of phage ORFs for proteins that trigger immune signaling. The immune system of bacteria is distributed in the pangenome and therefore our analysis required investigating diverse strains of E. coli beyond K-12. What emerges is an inventory of over 100 phage ORF-ECOR strain pairs that each may represent novel phage stimuli for different phage defense systems. We demonstrate the potential of this dataset by characterizing two of these pairs in detail, which discovered the antiphage system PD-T2–1 and uncovered the activator of Avs8.
+
+Investigating the selective growth inhibition observed for the T7 gp17-ECOR03 pair revealed PD-T2–1, a novel phage defense system that is activated by phage tail fiber proteins T7 gp17, T2 gp37, T2 gp34, and T2 gp12. All of these are virion structural proteins and required for tail fiber formation in their respective phage, however, the biochemical feature that unites all four of these proteins is only vague. All four proteins form trimeric β-helices29–34, a unique structure formed when each chain of the homotrimer wraps around one another. The T2 proteins are predicted by HHpred to share homology with the T4 proximal long tail fiber protein gp34 (PDB: 5NXF)31. In the related phage T4, there is also sequence homology shared between gp12 and gp3431. It is unclear if T7 gp17 adopts a similar T4 gp34 structure as structure-based comparisons, alignments, and predictions are challenging for these proteins because the three protomers of the trimer interweave to adopt the overall structure. One peculiar feature of the highly similar T4 gp12, T4 gp36, and T4 gp37 is that all three require the phage chaperone gp57A for proper assembly51, which is not included in our genetic assays. Other unrelated phage defense systems require a host protein chaperone to sense phage infection52. These details may provide a clue for the molecular mechanism of PD-T2–1 phage sensing.
+
+Characterization of the gpE-ECOR07 genetic interaction led to identifying that gpE bound to Avs8A at high affinity, which activated DNase activity in the defense system. Avs8A showed an impressive ability to sense major capsid proteins from phages λ, Bas21, and Bas49, which share <15% sequencing identity. These data suggest that the Avs8A recognizes the conserved HK97 fold protein structure in a way that is buffered against changes in amino acid sequence. This is an ideal feature for an innate immune system, which must maintain the upper hand against a virus that can mutate rapidly to escape detection. Avs8A joins other related members of the AVAST system that recognize structures of proteins that are crucial to the viral lifecycle. An interesting feature of all of these proteins is the use of a C-terminal tandem-repeat-like domain for ligand recognition. We speculate that biophysical features of these tandem repeats, and perhaps many redundant interactions between receptor and trigger, cage the mutational landscape available to the phage such that the receptor cannot be escaped without compromising trigger protein function. Another conspicuous feature is that the ligands that activate Avs8A and Avs1–4 all must oligomerize for function but activate their receptors when bound as monomers. We hypothesize that by recognizing ligand interfaces required for oligomerization, the immune receptor further limits the mutational landscape the virus can explore for immune evasion. These defense systems are further complicated because at least one member, KpAvs2, can bind structurally unrelated ligands53.
+
+We anticipate the remaining candidate phage trigger-ECOR strain pairs will be valuable dataset for determining the molecular mechanisms for how additional antiphage systems are activated. In addition, our analysis provides a list of phage genes that universally inhibit E. coli growth. While some of those ORFs may be expressed by phages to initiate lysis and complete the viral lifecycle, we expect others may be important to reprogram and remodel central processes within the cell. The growth inhibition phenotypes observed here are a starting point for characterizing the function of these proteins and better understanding the viral lifecycle.
+
+Our approach is conceptually similar to Silas et al.54, who used a similar plasmid-based screen of phage accessory genes to reveal both inhibitors of phage defense systems and phage inhibitors that themselves activate defense systems. Together with many other studies, we find that phage defense systems often fall into two broad categories that reflect conserved strategies of innate immune signaling11. Defense systems either bind phage components directly or indirectly sense phage activities through an intermediate. Avs8A is an example of direct sensing whereas PD-T2–1 may be an example of indirect sensing. By continuing to investigate and understand molecular mechanisms of how antiphage systems are activated, we hope to expand and elaborate these paradigms.
+
+Methods
+
+Bacterial strains and culture conditions
+
+E. coli strains used in this study are listed in Supplementary Table 9a or are from the E. coli Reference (ECOR) collection18. Bacteria were grown in LB medium (1% tryptone, 0.5% yeast extract, and 0.5% NaCl) at 37 °C with shaking at 220 rpm in 2 mL of medium in 14 mL culture tubes, unless otherwise indicated. Carbenicillin (100 μg/mL) or chloramphenicol (20 μg/mL) were added for plasmid selection, or kanamycin (25 μg/mL) for transposon integration, when appropriate. All strains were frozen for storage in LB plus 30% glycerol at −70 °C. E. coli OmniPir48,55 was used for construction and propagation of all plasmids. E. coli MG1655 (Coli Genome Stock Center, CGSC6300) was used to collect all experimental data. E. coli BL21 (DE3) (NEB, cat#: C2527H) was used to express proteins for purification.
+
+For phage and colony formation assays, bacteria were grown in MMCG medium (47.8 mM Na2HPO4, 22 mM KH2PO4, 18.7 mM NH4Cl, 8.6 mM NaCl, 22.2 mM Glucose, 2 mM MgSO4, 100 μM CaCl2, 3 μM Thiamine, Trace Metals at 0.1× (Trace Metals Mixture T1001, Teknova, final medium concentration: 8.3 μM Ferric chloride, 2.7 μM Calcium chloride, 1.4 μM Manganese chloride, 1.8 μM Zinc Sulfate, 370 nM Cobalt chloride, 250 nM Cupric chloride, 350 nM Nickel chloride, 240 nM Sodium molybdate, 200 nM Sodium selenite, 200 nM Boric acid)) with appropriate antibiotics.
+
+When growing strains that required induction, 50 μM IPTG or 0.2% arabinose was used to induce, as appropriate.
+
+Identification of antiphage systems in ECOR strain genomes
+
+The Prokaryotic Antiviral Defense Locator (PADLOC)8 webserver was used to catalog previously-identified defense genes in sequenced ECOR strains appearing in Supplementary Table 356. Results were obtained as precomputed data generated running PADLOC v2.0.0 with PADLOC DB v2.0.0 over the ECOR RefSeq draft genome sequences.
+
+Phage amplification and storage
+
+The phages used in this study are listed in Supplementary Table 9b or are from the BASEL phage collection57. Phage λ using in this study was λvir. Phages were liquid amplified by infecting a 5 mL mid-log culture of E. coli MG1655 in LB plus 10 mM MgCl2, 10 mM CaCl2, and 100 μM MnCl2 at an MOI of ~0.1 and cultivated with shaking, for 2–16 hours. The supernatant was harvested and filtered through a 0.2 μm spin filter and/or treated with 1–3 drops of chloroform to remove bacterial contamination.
+
+Plasmid construction
+
+The plasmids used in this study are listed in Supplementary Table 9a. Genes of interest were amplified from using Q5 Hot Start High Fidelity Master Mix (New England Biolabs, cat#: M0494L). Phage genomic DNA, or reverse-transcribed cDNA for MS2, served as the template for phage genes and defense system coding sequences and their endogenous regulatory regions were amplified from the genomic DNA of E. coli strains from the ECOR collection18. Avs8 point mutations were generated by amplifying Avs8A in two parts from plasmid template with the desired mutation occurring in the overlapping region between the two amplicons. PCR products were ligated into restriction-digested, linearized vectors by modified Gibson Assembly58. Dialyzed Gibson reactions were transformed via electroporation into competent OmniPir and plated onto appropriate antibiotic selection. Unless otherwise indicated, all enzymes were purchased from NEB.
+
+For all vectors using the pLOCO2 backbone, pAW138259 was amplified and purified from OmniPir. Purified plasmid was then linearized using SbfI-HF and NotI-HF or FseI-HF. For all vectors using the pTACxc backbone, pAW160848 was amplified and purified from OmniPir. Purified plasmid was then linearized using BamHI-HF and NotI-HF. For all vectors using the pBAD30x48 backbone, pAW1367 was amplified and purified from OmniPir. Purified plasmid was then linearized using EcoRI-HF and HindIII-HF. For all vectors using the pETSUMO260 backbone, pAW1123 was amplified and purified from OmniPir. Purified plasmid was then linearized using BmtI-HF and NotI-HF. Sanger sequencing (Genewiz or Quintara) was used to validate the correct sequence within the multiple cloning site, followed by full plasmid sequencing of constructs containing correct inserts (Plasmidsaurus).
+
+The phage resistance plasmid (pLOCO2) expressing Avs8B only was constructed with an in-frame deletion of the A component in plasmids expressing the full system. Plasmid expressing Avs8A only was prematurely truncated at the start of the B sequence. See further plasmid descriptions in Supplementary Table 9a.
+
+Orfeome generation and screening
+
+Geneious Prime (v2023.0.1) software was used to extract a total of 414 ORFs predicted to encode proteins across T2, T7, λ, ϕX174, M13, and MS2 genomes. See Accession numbers of molecules appearing in this study section for reference genomes. Reference genomes were curated based on sequencing of strains used in this study and some ORFs may be missing or altered due to variations from reference genomes. Primers, listed in Supplementary Table 1, were designed for each ORF to individually PCR amplify sequences. Each amplicon was cloned into linearized pAW1608 by Gibson assembly, transformed into OmniPir E. coli, and cultivated on antibiotic medium. Three colonies from each transformation were grown in LB + antibiotic for 18 hours in deep-well 96-well plates. Plates were pooled, plasmids extracted en mass, and DNA sequenced using 200Mbp Illumina Sequencing (SeqCenter). Library composition was confirmed by mapping reads to the predicted plasmid sequences using the Map to Reference feature of Geneious Prime (default settings). The resulting pooled library contained 1–3 redundant clones of each phage ORF targeted. Although unlikely, some of these clones may contain undetected mutations in the phage ORF. Some selected clones also were background pAW1608 vector that somehow escaped digestion and contribute to an neutral GFP signal. Sequence-verified pooled plasmids were further combined at the appropriate ratios. A version of the pooled library has been deposited at Addgene (ID 249629: Phage ORFeome).
+
+180 ng of Phage ORFeome plasmids was transformed into E. coli MG1655 or ECOR strains 1–72, in duplicate. After one hour of recovery in S.O.C. at 37 °C and 220 rpm, cells were plated onto MMCG agar containing 50 μM IPTG and 20 μg/mL chloramphenicol. For MG1655, the transformation was also plated on MMCG agar containing 20 μg/mL chloramphenicol (no IPTG). After 18 hours of growth at 37 °C, plasmids from surviving colonies with isolated by miniprep. 20 μL of miniprep was sequenced using 200Mbp Illumina Sequencing (SeqCenter). Reads were mapped to a reference sequence (Supplementary Data 5 File) that concatenated each phage reference sequence and the vector backbone sequence with GFP (pAW1608) using the Map to Reference feature of Geneious Prime (default settings). We employed the Transcripts Per million (TPM) feature in Geneious to compare relative read abundance between ORFs in different ECOR strains. Average TPM across replicate samples was used to compare ORF abundance between uninduced MG1655 and MG1655 or ECOR strains 1–72 under IPTG induction (Supplementary Table 2). ORFs that had less than 10 reads under non-inducing conditions in MG1655 were considered to be growth inhibitory (Supplementary Table 2b), and those with 10-fold decrease in reads under IPTG induction were considered as growth inhibitory under induction (Supplementary Table 2e). ORFs that inhibited growth of MG1655 were not included in our analysis of potential phage triggers.
+
+Transformation efficiency assay
+
+Recipient strains were made electrocompetent by washing pelleted mid-log bacteria with ice cold water two times, and resuspending in ice cold 10% glycerol, prior to electroporation of 40 ng of control or phage ORF-containing plasmid in 50 μL of competent cells. Cells were then incubated in 1 mL of S.O.C. for 1 hour at 37 °C with shaking at 220 rpm, then serially-diluted and plated on LB agar supplemented with 20 μg/mL chloramphenicol, with or without 50 μM IPTG. Transformation efficiency was assessed by counting colony forming units after overnight incubation at 37 °C. In instances where single colonies were not distinguishable at the most dilute spot with visible bacteria, 10 colony forming units (CFU) were recorded. When no colonies were visible at the most concentrated spot, 0.9 CFU were recorded.
+
+Transposon mutagenesis and screening
+
+E. coli MFD61 containing pSC18962, which contains a himar-based transposon, was grown overnight in LB + 300 μM DAP (2,6-Diaminopimelic acid) and 100 μg/mL carbenicillin. Simultaneously, ECOR03 or ECOR07 were grown in LB overnight. The following day, 1 mL of each strain was pelleted via centrifugation, washed in 1 mL of LB plus 300 μM DAP, and pelleted again. Pellets of MFD + pSC189 and ECOR03 or ECOR07 were combined by resuspending one strain and then the other in the same 50 μL of LB+ 300 μM DAP. The mixture was spotted onto a mating filter (VWR Cat no: 28148–562), which was placed on an LB plus 300 μM DAP agar plate. Spots were allowed to dry under a flame for approximately 10 minutes prior to incubation at 37 °C for 1 hour. After mating, the filter was placed into a 15 mL conical tube containing 2mL of LB and vortexed for 1 minute to resuspend bacteria. Trans-conjugates containing transposon insertions were selected for by plating 300 μL onto 3× 145 mm diameter LB agar plates containing 25 μg/mL kanamycin. 300 μL of a 10−1 dilution were plated onto 3× 145 mm diameter LB agar plates containing 25 μg/mL kanamycin to ensure single colonies.
+
+After incubation overnight at 37 °C, all mutants were collected using a cell scraper, washed 2 times with ice cold water, and resuspended in 1 mL of 10% glycerol, constructing a transposon library. 100 μL of electrocompetent ECOR03 was transformed with 100 ng of T7 gp17 and 100 μL of electrocompetent ECOR07 was transformed with 100 ng of λ p08 (gpE). Cells were then incubated in 1 mL of S.O.C. for 1 hour at 37 °C with shaking at 220 rpm, then 300 μL plated on 2× 145 mm diameter MMCG agar plates supplemented with 50 μg/mL kanamycin and 20 μg/mL chloramphenicol, with 50 μM IPTG. Plates were grown overnight at 37 °C.
+
+Individual mutants were gridded into a 96-well plate containing 200 μL of LB with 50 μg/mL kanamycin and 20 μg/mL chloramphenicol, grown overnight at 37 °C with shaking at 220 rpm, and 100 μL of 50% glycerol was added to each well prior to storage at −70 °C.
+
+Arbitrarily primed PCR transposon mapping
+
+Transposon mutants in ECOR strains that survived induction of the phage trigger were mapped using arbitrary PCR as previously described62,63. Briefly, a small scraping of frozen transposon mutant glycerol stock was used as a template in the first round of PCR using primers: pSC189-PCR1 GGCTGACCGCTTCCTCGTGCTTTAC and Arb1 GGCCACGCGTCGACTAGTACNNNNNNNNNNCTTCT, and Taq HS Perfect Mix (Takara Bio) in a 25 μL reaction (95 °C 5 min, 15 cycles: 98 °C 10 sec, 48 °C decreasing annealing temperature by 1 °C each cycle 30 sec, 72 °C 3 min, 15 cycles: 98 °C 10 sec, 60 °C 30 sec, 72 °C 2 min, 72 °C 2 min final extension). 1 μL of the product of this reaction was used as a template for the second round of PCR using pSC189-PCR2 AATGATACGGCGACCACCGAGATCTACACTCTTTCGGGGACTTATCAGCCAACCTG and Arb2 GGCCACGCGTCGACTAGTAC, and Taq HS Perfect Mix (Takara Bio) in a 25 μL reaction (95 °C 5 min, 25 cycles: 98 °C 10 sec, 60 °C 30 sec, 72 °C 1 min, 72 °C 2 min final extension).. The reaction was treated with Exo-CIP (NEB) as recommended by the manufacturer. PCR products were Sanger sequenced (Azenta and Quintara) using CTTTCGGGGACTTATCAGCCAACCTGTTA.
+
+The resulting sequences were then aligned to the genome of ECOR03 or ECOR07 to identify the TA site at which the transposon was inserted (Supplementary Tables 5 and 7).
+
+Bioinformatic analyses
+
+Genes of unknown function were annotated and analyzed for conservation and protein domains using: BLAST (Geneious prime software 2023: NCBI nr database and NCBI BlastP26: Clustered NR database), Glimmer gene Prediction64,64,65 (Geneious prime plugin), InterProScan (Geneious prime plugin and https://www.ebi.ac.uk/interpro/25,66), HHpred (default PDB_mmCIP70_25_May database, https://toolkit.tuebingen.mpg.de/)27,6727 and HMMER (alphafold_uniprot50_Aug22 database, https://toolkit.tuebingen.mpg.de/)27,67. Conserved gene neighborhoods were predicted using FlaGs and Web-FLaGs68 analyses. Foldseek28 (all available databases, https://search.foldseek.com/search) was used to identify structural homologs. Rfam38,69 was used to identify RNA elements (all available databases, https://rfam.org/search). For BLAST, HMMER, Foldseek, and Rfam analyses, E-values smaller than 10−3 were considered significant, and a probability score of greater than 85 for HHpred was considered a high confidence match. DALI server was used to compare structural homology of tail fiber proteins found to activate PD-T2–170. Identical Protein Group26 data, found at NCBI, was used as a proxy to determine abundance and taxonomic distribution for PD-T2–1 and Avs8 genes.
+
+Additional detailed analysis of PD-T2–1: A query of PD-T2–1A using HHpred27 produced two high probability hits with insignificant E-values (> 2) that aligned to helices present in an Actinobacter membrane protein (PDB: 7Q21_h) and a viral assembly protein (PDB 8H2I_ck). Similar bioinformatic analyses of Gene B revealed similarity to the Vpar_1526-like protein family, which is a proposed α-helical, inner membrane protein of Veillonella parvula71.
+
+Protein structure prediction
+
+All predictions and models of protein structure were constructed using the AlphaFold314. The first of the five generated models was used for representation of protein structure within figures. All models and statistics have been included in Supplementary Data Files 1–4.
+
+Phage resistance analysis
+
+A modified double agar overlay was used to measure the efficiency of plating (EOP) of phages59,72. Overnight cultures, defined as bacterial cultures grown 16–20 hours post-inoculation from a glycerol stock, of E. coli MG1655 expressing the indicated plasmids cultured in MMCG plus appropriate antibiotics were diluted 1:10 into the same medium and cultivated for an additional two hours to reach OD600 0.1–0.4 (mid-log). 400 μL of the mid-log culture was mixed with 3.5 mL MMCG (0.35% agar) with an additional 5 mM MgCl2, 100 μM CaCl2and 100 μM MnCl2. After three inversions, the mixture was poured onto an MMCG (1.6% agar) plate and allowed to cool. 2 μL of a phage dilution series in SM buffer (100 mM NaCl, 8 mM MgSO4, 50mM Tris HCl- pH 7.5, and 0.01% m/v gelatin) was spotted onto the overlay, dried for 10 minutes under a flame, plates incubated overnight at 37 °C, and plaque formation enumerated the following day. When no plaque formation or hazy zone of clearance was visible, 0.9 plaques at the least dilute spot was used to estimate the limit of detection.
+
+Colony formation assays
+
+E. coli expressing indicated plasmids were cultivated overnight in MMCG with appropriate antibiotics. Cultures were diluted in a 10-fold series into MMCG and 5 μL of each dilution was spotted onto MMCG agar plates containing appropriate antibiotics with or without inducer (0.2% arabinose). Spots of bacteria were dried for 10 minutes under a flame, incubated overnight at 37°C, and growth was enumerated the next day by counting colony forming units (CFU/mL) of each strain. In instances when no individual colonies could be counted, the least dilute spot at which growth was observed was counted as 10 CFU. If no colonies could be counted, 0.9 CFU at the least dilute spot was used as the limit of detection.
+
+Protein purification
+
+Avs8A, λ capsid (λ gpE), Bas21 capsid, T7 gp17, and MBP were expressed as 6×-His-SUMO fusion proteins in E. coli BL21 (DE3) cells. Plasmids were transformed into BL21 (DE3) using electroporation and plated on LB-agar supplemented with carbenicillin 100 μg/mL plus 1% glucose and grown overnight at 37 °C. A single colony was then used to inoculate a 50 ml starter culture of LB supplemented with 100 μg/ml carbenicillin and 1% glucose, which was grown overnight at 37°C. 10 mL of the overnight culture was used to inoculate 500 mL – 1 L of LB media in 2.5 L Thompson flasks (500 mL / flask). Cultures were grown at 37 °C with shaking at 220 rpm until reaching an OD600 of 0.6–0.8, and 500 μM IPTG was added prior to an additional 18 hours of growth at 20°C. Cells were harvested by centrifugation at 4000 × g and resuspended in Buffer 1: 20 mM HEPES pH 7.5, 400 mM NaCl, 30 mM imidazole, 10% glycerol, and 1 mM DTT. Cells were sonicated on ice at an amplitude of 70, for 30 seconds on / off for 20 minutes total. Sonicated lysates were centrifuged at 14,000 × g for 1 hour at 4 °C to pellet debris and unlysed cells, and the supernatant was run over 1 ml of Ni-NTA resin (Thermo Fisher Scientific) equilibrated with Buffer 1. The resin was washed with 50 mL of Buffer 2: 20 mM HEPES pH 7.5, 1 M NaCl, 30 mM imidazole, 10% glycerol, and 1 mM DTT to remove nonspecific components bound to the resin. Proteins were eluted using Buffer 3: 20 mM HEPES pH 7.5, 400 mM NaCl, 300 mM imidazole, 10% glycerol, and 1 mM DTT. For all constructs except 6×-His-SUMO-Avs8A (referred to in the text simply as Avs8A), the 6×-His-SUMO tag was cleaved using 6×-His-hSENP1 (produced in-house) via dialysis overnight at 4 °C in 2 L of Buffer 4: 20 mM HEPES pH 7.5, 250 mM KCl, and 1 mM DTT using a 10 kDa MWCO dialysis membrane. The cleaved sample was run over 0.5 ml Ni-NTA to capture cleaved 6×-His-SUMO tag and uncleaved protein and the flowthrough containing the recombinant tag-free protein was collected. All proteins were concentrated via 3 kDa, or 100kDa for Avs8A, concentrator at 4000 × g at 4 °C and stored at −70 °C until needed. Protein purity was assessed via SDS-PAGE followed by Coomassie staining.
+
+Microscale thermophoresis
+
+Protein binding affinities were measured using microscale thermophoresis73. Avs8A fused to 6×-His-SUMO was labeled with Monolith His-Tag Labeling Kit RED-tris-NTA 2nd Generation (Nanotemper: Cat# MO-L018) following manufacturer instructions. Samples were equilibrated for 30 minutes at room temperature before MST measurement. Independent experiments were performed using independently labeled proteins and independently pipetted ligand titrations in MST Buffer (20 mM HEPES pH 7.5, 250 mM KCl, 5mM MgCl2, 0.05% v/v Tween-20, 0.1 mM DTT). Measurements were performed using 60%-80% laser excitation, medium MST power, and a chamber temperature of 25 °C on a Nano-BLUE/RED Monolith NT.115 (NanoTemper). All data was analyzed using a hot time of 9–10 seconds. Fraction bound values were calculated by Mo.AffinityAnalysis software (NanoTemper). Binding data from three independent experiments were fit using the quadratic binding equation74.
+
+fractionbound=L+T+Kd-L+T+Kd2-4⋅L⋅T2⋅T
+
+In this equation [L] is the concentration of ligand, [T] is the concentration of labeled target (50 nM for all experiments reported here). The dissociation constants reported here represent the average of the dissociation constants calculated for each independent replicate ± standard error of the mean.
+
+Nuclease assays
+
+Purified Avs8A (100 nM) was incubated with λ gpE, Bas21 mcp, or MBP (1 μM) and 100 ng DNA in 20 μL reactions containing 50 mM HEPES pH 8.0, 15 mM NaCl, 1 mM DTT. 4 mM ATP, AMP-PNP, or ATPγS, and 10 mM MgCl2 was added where indicated75,76. Reactions were incubated at room temperature for the indicated time, 5 μL of 6× DNA loading dye was added (final concentration 3.3 mM Tris-HCl pH 8, 2.5% Ficoll-400, 10 mM EDTA, 0.05% Orange G) to stop reactions, and run for 30 minutes at 160 V on a 1% agarose gel containing ethidium bromide (1% agarose, 40 mM Tris, 20 mM acetic acid, 1 mM EDTA, SYBR Safe DNA stain). Gels were imaged using an Azure Biosystems Azure 200 Bioanalytical Imaging System.
+
+Phosphate release assays
+
+Purified Avs8A and Bas21 mcp were incubated in nuclease reaction buffer containing ATP and MgCl2 as described in Nuclease assays section. After 30 minutes of incubation at room temperature, samples were diluted 1:5 in water and phosphate release was determined using a Malachite Green Phosphate Assay Kit (Cayman Chemical) according to the manufacturer’s instructions. Briefly, 50 μl of sample or chemical standard were mixed with MG Acidic solution for 10 minutes at room temperature, followed by addition of 15 μl of MG Blue solution to each well. Absorbance was measured at 620 nm after an additional 20 minutes. A six-point standard curve using phosphate chemical standard was used to interpolate the concentration of free phosphate in each sample. Intestinal phosphatase (qCIP, NEB) was used as a positive control enzyme for phosphate release from ATP.
+
+Mass photometry assays
+
+Coverslips (24 mm × 50 mm, Thorlabs Inc.) and silicon gaskets (Grace Bio-Labs) were cleaned with several rinses of ultrapure water and HPLC-grade isopropanol and then dried with a clean nitrogen stream. A clean gasket was adhered to a coverslip, and the assembly was placed on the stage of a Refyn TwoMP mass photometer (Refeyn Ltd, Oxford, UK) and centered on a single well. 50 nM β-amylase in sample buffer was used as a calibration standard (56 kDa, 112 kDa, and 224 kDa). For examining the mass of proteins individually, 15 μl of Avs8A or Bas21 mcp were diluted to 50 nM in freshly prepared nuclease assay buffer (50 mM HEPES pH 8.0, 15 mM NaCl, 1 mM DTT, 4 mM ATP, and 10 mM MgCl2), added to wells, and a 60-second movie was recorded at room temperature after auto-focusing using the Refeyn AcquireMP (v2.3.0) software. To examine oligomer formation, Avs8A and Bas21 mcp were mixed in nuclease assay buffer as described above, incubated for 30 minutes at room temperature, diluted 1:4 in additional nuclease assay buffer with a final concentration of 25 nM Avs8 and 250nM Bas21 mcp, and 15 μl added to a well on the coverslip assembly. Each measurement was performed in duplicate on two different days. Data were processed using DiscoverMP (v2.3.0; Refeyn Ltd).
+
+Accession numbers of molecules appearing in this study
+
+T2 phage genome: NC_054931
+
+T7 phage genome: NC_001604
+
+λ phage genome: NC_001416
+
+M13 phage genome: JX412914
+
+ϕX174 phage genome: NC_001422
+
+MS2 phage genome: NC_001417
+
+ECOR03 PD-T2–1A: RCR47252.1; WP_075861856.1
+
+ECOR03 PD-T2–1B: RCR47253.1; WP_08789477.1
+
+ECOR07 Avs8A: WP_000963924.1
+
+ECOR07 Avs8B: WP_000443183.1
+
+T7 gp17, locus tag: T7 p52; protein accession: NP_042005.1
+
+T7 gp1.7, locus tag: T7 p14; protein accession: NP_041967.1
+
+T7 gp13, locus tag: T7 p48; protein accession: NP_042001.1
+
+T2 gp37*, locus tag: KMC23_gp164, protein accession: YP_010073897.1
+
+T2 gp34*, locus tag: KMC23_gp167: protein accession: YP_010073894.1
+
+T2 gp12*, locus tag: KMC23_gp252: protein accession: YP_010073809.1
+
+λ gpE, locus tag: λ p08; protein accession: NP_040587.1
+
+λ gpK, locus tag: λ p19; protein accession: NP_040598.1
+
+λ gam, locus tag: λ p42; protein accession: NP_040618.1
+
+λ gpN, locus tag: λ p49; protein accession: NP_040625.1
+
+λ cI, locus tag: λ p88; protein accession: NP_040628.1
+
+Basel 21 major capsid protein: QXV79517.1
+
+Basel 22 major capsid protein: QXV82347.1
+
+Basel 23 major capsid protein: QXV85745.1
+
+Basel 24 major capsid protein: QXV84465.1
+
+Basel 25 major capsid protein: QXV85427.1
+
+Basel 49 major capsid protein: QXV77910.1
+
+*Phage T4 gene names were used to ease comparisons to the literature. T2 and T4 loci are highly similar, however, there are multiple genomes available for T2 phage that differ in annotations.
+
+Statistics and reproducibility
+
+Each experiment was performed with 2–3 biological replicates. Data were plotted using GraphPad Prism 9. Figures were constructed using Adobe Illustrator CC 2024 v28.6.0.
+
+Extended Data
+
+Extended Data Fig. 1. PD-T2–1 and Avs8 protect against diverse phages.
+
+(a) Number of colony forming units (CFU) of MG1655 recovered when transformed with a plasmid expressing the neutral protein mCherry or the indicated phage ORF and cultivated in medium containing 50 μM IPTG. Data are the mean ± standard error of the mean (SEM) of n=3 biological replicates. (b) Plaque forming units per mL (PFU/mL) were enumerated for each phage infecting MG1655 expressing either GFP, PD-T2–1 or Avs8. Fold protection was calculated by dividing the PFU/mL for GFP by the PFU/mL for PD-T2–1 or Avs8. Data were log-transformed and depicted as a heatmap. An “X” represents a phage with plaques that could not be counted for any genotype. Numbers on the x-axis refer to the Bas phages. Phage are grouped taxonomically by family77.
+
+Extended Data Fig. 2. PD-T2–1.
+
+(a–b) AlphaFold3 predicted structures of (a) PD-T2–1A and PD-T2–1B, and (b) PD-T2–1B trimeric complex. See Supplementary Data Files 1–4 for models and statistics. (c) Gene neighborhoods ± 10 kb of PD-T2–1 in the indicated Gammaproteobacteria. Nucleotide coordinates for PD-T2–1 in ECOR03 (accession QOWO01000016): 10,064–11,256; E. fergusonii (accession CP057565): 1,110,340–1,111,532, E. coli O157:H7 (accession CP008957): 10,001–11,193, and K. pneumoniae (accession CP101024): 3,171,020–3,172,170. (d) Nucleotide alignment of the 200 nucleotides upstream of PD-T2–1A. Promoter elements predicted by bPROM78, highlighted in grey. (e) Quantification of colony forming units (CFU) recovered for MG1655 transformed with plasmids expressing mCherry, PD-T2–1A, or PD-T2–1B. The relevant gene was expressed from an arabinose-inducible promoter and bacteria were cultivated in medium containing 0.2% arabinose. Data are the mean ± SEM of n=3 biological replicates.
+
+Extended Data Fig. 3. Avs8A.
+
+(a) Multiple sequence alignment of NTPase domains from Avs8 and Avs440. Asterisks indicate residues depicted in b. (b) Predicted structure of ATP and Mg2+ binding in the Walker A motif of Avs8A. (c) Multiple sequence alignment of catalytic region of the indicated Mrr-like nucleases. Asterisks indicate residues selected for mutation in this paper. (d) Gene neighborhoods of select Avs8 homologs obtained from FlaGs analysis. Nucleotide coordinates for Avs8 in ECOR07 (accession QOWS01000045): 2,987–6,838; E. albertii (accession CP099914): 1,163,493–1,167,344, W. toletana (accession CP134152): 3,640,964–3,644,815, K. quasivariicola (accession CP084768): 3,640,964–3,644,815, and B. warmboldiae (accession RPOH01000033): 68,169–72,020. See Supplementary Table 9 for full FlaGs results. (e–g) AlphaFold3 predicted structures of (e) Avs8A, (f) Avs8B, and (g) Avs8A tetrameric complex. See Supplementary Data Files 1–4 for models and statistics. (h) Efficiency of plating of the indicated phages infecting MG1655 expressing GFP, Avs8, or Avs8A. Data are the mean ± SEM of n=3 biological replicates.
+
+Extended Data Fig. 4. Structure predictions of Avs8A interacting with major capsid proteins.
+
+AlphaFold3 predicted structures of (a–b) Avs8A and λ gpE and (c) Avs8A and Bas21 mcp. Predicted aligned error (PAE) plots are also provided. See Supplementary Data File 1 for models and statistics.
+
+Extended Data Fig. 5. Protein preparation and mass photometry.
+
+(a–d) Coomassie-stained SDS-PAGE gels of the indicated purified protein. Arrows show the expected recombinant protein. Expected molecular weights: 6x-His-hSUMO-Avs8A (Avs8A): 155.8 kDa, λ gpE: 38.2 kDa, Bas21 major capsid protein (Bas21 mcp): 38.5 kDa, and maltose binding protein (MBP): 42 kDa. Results are representative of n=2 independent protein preparations. Bas21 mcp and MBP were prepared independently but samples were analyzed on the same SDS-PAGE and therefore the ladder image is repeated in (c) and (d). (e) Mass photometry results showing representative masses detected for Avs8 (data collected in regular field of view) or Bas21 mcp (data collected in small field of view) individually in solution at 50 nM. Minor background contaminants are detected at ~68–77 kDa and ~440 kDa. (f) Mass photometry results showing representative masses detected for Avs8 (25 nM) and Bas21 mcp (250 nM) when incubated together for 30 minutes. Data collected in regular field of view and document the appearance of a ~700 kDa complex.
+
+Extended Data Fig. 6. Structure predictions of Avs8A interacting with HK97 fold major capsid proteins.
+
+AlphaFold3 predicted structures of Avs8A with the indicated major capsid protein (mcp). See Supplementary Data Files 1–4 for models and statistics.
+
+Extended Data Fig. 7. Nuclease activity of Avs8A.
+
+(a–d) Agarose gel electrophoresis of linear dsDNA substrate incubated with the indicated proteins or in the indicated conditions. Data are representative of n=3 biological replicates. (e) Measurement of free phosphate released during nuclease activity assays to quantify potential ATP hydrolysis by Avs8. The indicated proteins were incubated with ATP, Mg2+, and buffer as in Figure 6d. Phosphate release was measured using a Malachite Green assay. Calf intestinal phosphatase (qCIP) was used as a positive control for ATP hydrolysis. Data are the mean ± SEM of n=2 biological replicates.
+
+Extended Data Fig. 8. Model of Avs8 activation by mcp.
+
+Upon phage infection and injection of phage DNA, host machinery is used to make phage proteins, including the major capsid protein (mcp, orange triangle). Avs8A binds to phage HK97 fold mcp, which results in Avs8A oligomerization and Mrr nuclease domain activation. DNase activity targets phage and/or host DNA and disrupts virion production.
+
+Supplementary Material
+
+Additional Legends for Supplementary Material (1)
+
+Supplementary Data 1
+
+Supplementary Data 2
+
+Supplementary Data 3
+
+Supplementary Data 4
+
+Supplementary Data 5
+
+Supplementary Table 1
+
+Supplementary Table 2
+
+Supplementary Table 3
+
+Supplementary Table 4
+
+Supplementary Table 5
+
+Supplementary Table 6
+
+Supplementary Table 7
+
+Supplementary Table 8
+
+Supplementary Table 9
+
+Supplementary Table 10
+
+Additional Legends for Supplementary Material (2)
+
+EDFig5_Sourceimages
+
+EDFig7_Sourceimages
+
+Fig5_Sourceimages
+
+Fig6_Sourceimages
+
+Numerical Source Data
+
+Acknowledgements
+
+The authors would like to thank L. Aravind for discussions and insights into PD-T2–1 and Avs8; Alex Gao for discussions of naming and classification of PD-λ-4 as Avs8; Annette Erbse and the staff of the CU Boulder Department of Biochemistry Shared Instruments core facility (RRID:SCR_018986) for access to the NanoTemper Monolith (NIH grant S10OD21603) and the Avanti JXN 26 Super Speed centrifuges and rotors (NIH grant R24OD033699-01); Aedan Monahan for preparation of linear DNA substrate for nuclease assays and mini-preps of vectors; and all members of the Whiteley lab for their advice and helpful discussion. This work was funded by the National Institutes of Health through the NIH Director’s New Innovator award DP2AT012346 (A.T.W.); the PEW Charitable Trust Biomedical Scholars Award (A.T.W.); the Boettcher Foundation Webb-Waring Biomedical Research Award (A.T.W.); and Burroughs Wellcome Fund PATH Award 1186087 (A.T.W.). G.W.G. was supported in part by the Biochemistry Undergraduate Research Scholar Award (BURSA) from the University of Colorado Boulder Department of Biochemistry.
+
+Data availability
+
+All data supporting the findings of this study are available within the paper and its Supplementary Information.
+
+Figure 1. A genetic screen to identify candidate phage triggers.
+
+(a) Plasmids expressing every phage open reading frame (ORF) predicted to encode a protein were attempted to be constructed. Phage ORFs from the genomes of dsDNA phages (T2, T7, λ), ssDNA phages (ϕX174, M13), and a ssRNA phage (MS2) were expressed under the control of an IPTG-inducible promoter. Shown are number of plasmids successfully constructed / number of plasmids attempted. Plasmids for 406 out of a total of 414 ORFs could be constructed. (b) Individual plasmids were pooled, transformed into bacterial strains of interest, extracted, and next generation (NGS) sequenced. By transforming K-12 E. coli (strain MG1655), proteins that are generally growth inhibitory could be identified. By transforming diverse E. coli from the ECOR collection, proteins that are growth inhibitory to specific strains could be identified and a portion of the pangenome could be surveyed. (c) Transformants of the indicated strain were recovered on solid agar with or without 50 μM IPTG, plasmids were extracted from the pooled population, sequenced, and reads mapped to phage genomes. Representative data shows read depth on a log scale for reads aligned to a portion of the phage λ genome.
+
+Figure 2. Phage ORFs selectively depleted in ECOR strains.
+
+Our expansive library of plasmids expressing phage ORFs was transformed into diverse E. coli strains from the E. coli Reference (ECOR) Collection as in Figure 1c. The frequency with which each plasmid that could be recovered was measured using read coverage for each ORF and compared with transcripts per million (TPM). Decrease in plasmid recovery was expressed as a fold depletion compared to uninduced MG1655 (see Methods for full details). The y-axis is each of the 337 phage ORFs that did not inhibit growth of MG1655 and grouped for each phage, as labeled. Specific phage ORFs analyzed in Fig. 3 are labeled. The x-axis is each of the 39 ECOR strains analyzed and labeled for each ECOR strain number.
+
+Figure 3. Diverse phage proteins inhibit growth of specific strains of E. coli but not MG1655.
+
+Number of colony forming units (CFU) of MG1655 or the indicated ECOR strain recovered when transformed with a plasmid expressing the neutral protein mCherry or the indicated phage ORF and cultivated in medium containing 50 μM IPTG. The mCherry neutral protein control shows the maximum expected transformation efficiency in each strain. Data are the mean ± standard error of the mean (SEM) of n=3 biological replicates.
+
+Figure 4. PD-T2–1 is an antiphage system that is activated by multiple phage ORFs.
+
+(a) Operon structure of phage defense against T2 system 1 (PD-T2–1). Transposon insertions identified in mutant ECOR03 expressing T7 gp17 are indicated with triangles. A predicted transmembrane domain (TM) for PD-T2–1A, accession numbers, and the length of each protein in amino acids (aa) are shown. (b) Transformation efficiency of MG1655 expressing GFP or PD-T2–1 transformed with mCherry or select phage ORFs and grown in medium containing 50 μM IPTG. (c) Efficiency of plating for the indicated phages infecting MG1655 expressing GFP or PD-T2–1. (d) Growth curve of E. coli expressing the indicated plasmid after infection with Bas18 at the multiplicity of infection (MOI) indicated. (e) Transformation efficiency of MG1655 expressing GFP or PD-T2–1 transformed with mCherry or select phage ORFs and grown in medium containing 50 μM IPTG. (f) Efficiency of plating for phage T2 infecting MG1655 expressing mCherry, PD-T2–1, or PD-T2–1 Gene A or Gene B, individually. For b–f, data are the mean ± SEM of n=3 biological replicates.
+
+Figure 5. Avs8 is activated by λ gpE and other HK97 fold proteins.
+
+(a) Operon architecture of Avs8. Transposon insertions are indicated with triangles. Predicted domains, accession numbers, and the length of each protein in amino acids (aa) are shown. Structure predictions visually show a tandem repeat-like domain (ED Fig. 3e), but this could not be conclusively identified. (b) Quantification of recovered transformants of MG1655 expressing GFP or Avs8 transformed with mCherry or λ gpE and plated on 50 μM IPTG. (c–d) Efficiency of plating of phage λvir infecting MG1655 expressing GFP or the indicated genotypes of Avs8. (e) Efficiency of plating of the indicated phages infecting MG1655 expressing GFP or Avs8. (f) Quantification of recovered transformants of MG1655 expressing GFP or Avs8 transformed with mCherry or major capsid protein from indicated phages and plated on 50 μM IPTG. For b and d– f, data are the mean ± SEM of n=3 biological replicates. For c, data are representative of n=3 biological replicates.
+
+Figure 6. Major capsid proteins bind to Avs8A to activate DNase activity.
+
+(a–b) Microscale thermophoresis measurement of interactions between purified Avs8A and either λ gpE or Bas21 major capsid protein (mcp). Fraction bound values are the mean ± SEM and best fit line of n=3 biological replicates. The 95% confidence interval of the KD for Avs8A and λ gpE is 86–176 nM and 8–18 nM for Avs8A and Bas21. (c–e) Agarose gel electrophoresis of linear dsDNA incubated with Avs8A, λ gpE, Bas21 mcp, or λ virions, as indicated. Data are representative of n=3 biological replicates. (f) Efficiency of plating of phage λvir infecting MG1655 expressing GFP or the indicated genotypes of Avs8A. Data are the mean ± SEM of n=3 biological replicates. (g) Growth curve of E. coli expressing the indicated plasmid. Arrow indicates the time cultures were infected with phage Bas21 at an MOI of 2. Data are the mean ± SEM of n=3 biological replicates. (h) Quantification of Bas21 in supernatants from infected cultures from the indicated infected culture in (g). Data quantifying plaques formed on MG1655 and are the mean ± SEM of n=3 biological replicates. (i) Visualization of integrity of plasmid DNA purified from E. coli expressing GFP, Avs8A, or Avs8Q78AK80A. Timepoints are minutes (min) post-infection with phage Bas21 at an MOI of 2. Data are a representative of n=3 biological replicates. (j) Alphafold3 ipTM scores for Avs8A interaction with major capsid/coat proteins. See Supplementary Data Files 1–4 for models and statistics.
+
+Declaration of interests
+
+The authors declare no competing interests.
+
+
+References
+
+1. Bernheim A & Sorek R The pan-immune system of bacteria: antiviral defence as a community resource. Nat. Rev. Microbiol 18, 113–119 (2020).31695182 10.1038/s41579-019-0278-2
+2. Georjon H & Bernheim A The highly diverse antiphage defence systems of bacteria. Nat. Rev. Microbiol 21, 686–700 (2023).37460672 10.1038/s41579-023-00934-x
+3. Doron S Systematic discovery of antiphage defense systems in the microbial pangenome. Science 359, eaar4120 (2018).29371424 10.1126/science.aar4120 PMC6387622
+4. Millman A An expanded arsenal of immune systems that protect bacteria from phages. Cell Host Microbe S1931312822004735 (2022) doi:10.1016/j.chom.2022.09.017.36302390
+5. Gao L Diverse enzymatic activities mediate antiviral immunity in prokaryotes. Science 369, 1077–1084 (2020).32855333 10.1126/science.aba0372 PMC7985843
+6. Rousset F Phages and their satellites encode hotspots of antiviral systems. Cell Host Microbe 30, 740–753.e5 (2022).35316646 10.1016/j.chom.2022.02.018 PMC9122126
+7. Vassallo CN , Doering CR , Littlehale ML , Teodoro GIC & Laub MT A functional selection reveals previously undetected anti-phage defence systems in the E. coli pangenome. Nat. Microbiol 7, 1568–1579 (2022).36123438 10.1038/s41564-022-01219-4 PMC9519451
+8. Payne LJ PADLOC: a web server for the identification of antiviral defence systems in microbial genomes. Nucleic Acids Res. 50, W541–W550 (2022).35639517 10.1093/nar/gkac400 PMC9252829
+9. Tesson F Systematic and quantitative view of the antiviral arsenal of prokaryotes. Nat. Commun 13, 2561 (2022).35538097 10.1038/s41467-022-30269-9 PMC9090908
+10. Néron B MacSyFinder v2: Improved modelling and search engine to identify molecular systems in genomes. Peer Community J. 3, (2023).
+11. Ledvina HE & Whiteley AT Conservation and similarity of bacterial and eukaryotic innate immunity. Nat. Rev. Microbiol 22, 420–434 (2024).38418927 10.1038/s41579-024-01017-1 PMC11389603
+12. Kibby EM A bacterial NLR-related protein recognizes multiple unrelated phage triggers to sense infection. bioRxiv https://doi.org/10.1101/2024.12.17.629029 (2024) doi:10.1101/2024.12.17.629029.
+13. Jumper J Highly accurate protein structure prediction with AlphaFold. Nature 596, 583–589 (2021).34265844 10.1038/s41586-021-03819-2 PMC8371605
+14. Abramson J Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature 630, 493–500 (2024).38718835 10.1038/s41586-024-07487-w PMC11168924
+15. Huiting E & Bondy-Denomy J Defining the expanding mechanisms of phage-mediated activation of bacterial immunity. Curr. Opin. Microbiol 74, 102325 (2023).37178480 10.1016/j.mib.2023.102325 PMC11080646
+16. Zhang T A bacterial immunity protein directly senses two disparate phage proteins. Nature 635, 728–735 (2024).39415022 10.1038/s41586-024-08039-y PMC11578894
+17. Tan JMJ A DNA-gated molecular guard controls bacterial Hailong anti-phage defence. Nature 643, 794–800 (2025).40306316 10.1038/s41586-025-09058-z PMC12360457
+18. Ochman H & Selander RK Standard reference strains of Escherichia coli from natural populations. J. Bacteriol 157, 690–693 (1984).6363394 10.1128/jb.157.2.690-693.1984 PMC215307
+19. Johnson AG & Kranzusch PJ What bacterial cell death teaches us about life. PLoS Pathog. 18, e1010879 (2022).36301823 10.1371/journal.ppat.1010879 PMC9612521
+20. Agirrezabala X Maturation of phage T7 involves structural modification of both shell and inner core components. EMBO J. 24, 3820–3829 (2005).16211007 10.1038/sj.emboj.7600840 PMC1276722
+21. Guo F Visualization of uncorrelated, tandem symmetry mismatches in the internal genome packaging apparatus of bacteriophage T7. Proc. Natl. Acad. Sci. U. S. A 110, 6811–6816 (2013).23580619 10.1073/pnas.1215563110 PMC3637776
+22. Steven AC Molecular substructure of a viral receptor-recognition protein. The gp17 tail-fiber of bacteriophage T7. J. Mol. Biol 200, 351–365 (1988).3259634 10.1016/0022-2836(88)90246-x
+23. Saha CK , Sanches Pires R , Brolin H , Delannoy M & Atkinson GC FlaGs and webFlaGs: discovering novel biology through the analysis of gene neighbourhood conservation. Bioinforma. Oxf. Engl 37, 1312–1314 (2021).10.1093/bioinformatics/btaa788 PMC8189683 32956448
+24. Jones P InterProScan 5: genome-scale protein function classification. Bioinforma. Oxf. Engl 30, 1236–1240 (2014).10.1093/bioinformatics/btu031 PMC3998142 24451626
+25. Blum M InterPro: the protein sequence classification resource in 2025. Nucleic Acids Res. 53, D444–D456 (2025).39565202 10.1093/nar/gkae1082 PMC11701551
+26. Sayers EW Database resources of the national center for biotechnology information. Nucleic Acids Res. 50, D20–D26 (2022).34850941 10.1093/nar/gkab1112 PMC8728269
+27. Gabler F Protein Sequence Analysis Using the MPI Bioinformatics Toolkit. Curr. Protoc. Bioinforma 72, e108 (2020).10.1002/cpbi.108 33315308
+28. van Kempen M Fast and accurate protein structure search with Foldseek. Nat. Biotechnol 42, 243–246 (2024).37156916 10.1038/s41587-023-01773-0 PMC10869269
+29. Miller ES Bacteriophage T4 genome. Microbiol. Mol. Biol. Rev. MMBR 67, 86–156, table of contents (2003).12626685 10.1128/MMBR.67.1.86-156.2003 PMC150520
+30. Cuervo A Structural characterization of the bacteriophage T7 tail machinery. J. Biol. Chem 288, 26290–26299 (2013).23884409 10.1074/jbc.M113.491209 PMC3764833
+31. Granell M , Namura M , Alvira S , Kanamaru S & van Raaij MJ Crystal Structure of the Carboxy-Terminal Region of the Bacteriophage T4 Proximal Long Tail Fiber Protein Gp34. Viruses 9, 168 (2017).28665339 10.3390/v9070168 PMC5537660
+32. Hyman P & van Raaij M Bacteriophage T4 long tail fiber domains. Biophys. Rev 10, 463–471 (2017).29204885 10.1007/s12551-017-0348-5 PMC5899708
+33. Cuervo A Structures of T7 bacteriophage portal and tail suggest a viral DNA retention and ejection mechanism. Nat. Commun 10, 3746 (2019).31431626 10.1038/s41467-019-11705-9 PMC6702177
+34. Taslem Mourosi J Understanding Bacteriophage Tail Fiber Interaction with Host Surface Receptor: The Key ‘Blueprint’ for Reprogramming Phage Host Range. Int. J. Mol. Sci 23, 12146 (2022).36292999 10.3390/ijms232012146 PMC9603124
+35. Fineran PC The phage abortive infection system, ToxIN, functions as a protein-RNA toxin-antitoxin pair. Proc. Natl. Acad. Sci. U. S. A 106, 894–899 (2009).19124776 10.1073/pnas.0808832106 PMC2630095
+36. Jankevicius G , Ariza A , Ahel M & Ahel I The Toxin-Antitoxin System DarTG Catalyzes Reversible ADP-Ribosylation of DNA. Mol. Cell 64, 1109–1116 (2016).27939941 10.1016/j.molcel.2016.11.014 PMC5179494
+37. The RNAcentral Consortium. RNAcentral: a hub of information for non-coding RNA sequences. Nucleic Acids Res. 47, D221–D229 (2019).30395267 10.1093/nar/gky1034 PMC6324050
+38. Ontiveros-Palacios N Rfam 15: RNA families database in 2025. Nucleic Acids Res. 53, D258–D267 (2025).39526405 10.1093/nar/gkae1023 PMC11701678
+39. Wang C , Zeng J & Wang J Structural basis of bacteriophage lambda capsid maturation. Struct. Lond. Engl. 1993 30, 637–645.e3 (2022).10.1016/j.str.2021.12.009 35026161
+40. Gao LA Prokaryotic innate immunity through pattern recognition of conserved viral proteins. Science 377, eabm4096 (2022).35951700 10.1126/science.abm4096 PMC10028730
+41. Valegård K , Murray JB , Stockley PG , Stonehouse NJ & Liljas L Crystal structure of an RNA bacteriophage coat protein-operator complex. Nature 371, 623–626 (1994).7523953 10.1038/371623a0
+42. Ni CZ Crystal structure of the MS2 coat protein dimer: implications for RNA binding and virus assembly. Struct. Lond. Engl. 1993 3, 255–263 (1995).10.1016/S0969-2126(01)00156-3 7788292
+43. Valegârd K The three-dimensional structures of two complexes between recombinant MS2 capsids and RNA operator fragments reveal sequence-specific protein-RNA interactions. J. Mol. Biol 270, 724–738 (1997).9245600 10.1006/jmbi.1997.1144
+44. McKenna R , Ilag LL & Rossmann MG Analysis of the single-stranded DNA bacteriophage phi X174, refined at a resolution of 3.0 A. J. Mol. Biol 237, 517–543 (1994).8158636 10.1006/jmbi.1994.1253
+45. Marvin DA , Hale RD , Nave C & Helmer-Citterich M Molecular models and structural comparisons of native and mutant class I filamentous bacteriophages Ff (fd, f1, M13), If1 and IKe. J. Mol. Biol 235, 260–286 (1994).8289247 10.1016/s0022-2836(05)80032-4
+46. Steczkiewicz K , Muszewska A , Knizewski L , Rychlewski L & Ginalski K Sequence, structure and functional diversity of PD-(D/E)XK phosphodiesterase superfamily. Nucleic Acids Res. 40, 7016–7045 (2012).22638584 10.1093/nar/gks382 PMC3424549
+47. Lowey B CBASS Immunity Uses CARF-Related Effectors to Sense 3′–5′- and 2′–5′-Linked Cyclic Oligonucleotide Signals and Protect Bacteria from Phage Infection. Cell 182, 38–49.e17 (2020).32544385 10.1016/j.cell.2020.05.019 PMC7728545
+48. Kibby EM Bacterial NLR-related proteins protect against phage. Cell 186, 2410–2424.e18 (2023).37160116 10.1016/j.cell.2023.04.015 PMC10294775
+49. Duda RL & Teschke CM The amazing HK97 fold: versatile results of modest differences. Curr. Opin. Virol 36, 9–16 (2019).30856581 10.1016/j.coviro.2019.02.001 PMC6626583
+50. Broz P & Dixit VM Inflammasomes: mechanism of assembly, regulation and signalling. Nat. Rev. Immunol 16, 407–420 (2016).27291964 10.1038/nri.2016.58
+51. Hashemolhosseini S , Stierhof YD , Hindennach I & Henning U Characterization of the helper proteins for the assembly of tail fibers of coliphages T4 and lambda. J. Bacteriol 178, 6258–6265 (1996).8892827 10.1128/jb.178.21.6258-6265.1996 PMC178498
+52. Conte AN DnaJ mediates phage sensing by the bacterial NLR-related protein bNACHT25. PLoS Biol. 23, e3003203 (2025).40446071 10.1371/journal.pbio.3003203 PMC12169576
+53. Béchon N Diversification of molecular pattern recognition in bacterial NLR-like proteins. Nat. Commun 15, 9860 (2024).39543107 10.1038/s41467-024-54214-0 PMC11564622
+54. Silas S Activation of bacterial programmed cell death by phage inhibitors of host immunity. Mol. Cell 85, 1838–1851.e10 (2025).40315827 10.1016/j.molcel.2025.04.010 PMC12088041
+55. Blattner FR The complete genome sequence of Escherichia coli K-12. Science 277, 1453–1462 (1997).9278503 10.1126/science.277.5331.1453
+56. Patel IR Draft Genome Sequences of the Escherichia coli Reference (ECOR) Collection. Microbiol. Resour. Announc 7, e01133–18, e01133–18 (2018).30533715 10.1128/MRA.01133-18 PMC6256646
+57. Maffei E Systematic exploration of Escherichia coli phage–host interactions with the BASEL phage collection. PLOS Biol. 19, e3001424 (2021).34784345 10.1371/journal.pbio.3001424 PMC8594841
+58. Gibson DG Enzymatic assembly of DNA molecules up to several hundred kilobases. Nat. Methods 6, 343–345 (2009).19363495 10.1038/nmeth.1318
+59. Ledvina HE An E1–E2 fusion protein primes antiviral immune signalling in bacteria. Nature https://doi.org/10.1038/s41586-022-05647-4 (2023) doi:10.1038/s41586-022-05647-4.PMC10292035 36755092
+60. Whiteley AT Bacterial cGAS-like enzymes synthesize diverse nucleotide signals. Nature 567, 194–199 (2019).30787435 10.1038/s41586-019-0953-5 PMC6544370
+61. Ferrieres L Silent Mischief: Bacteriophage Mu Insertions Contaminate Products of Escherichia coli Random Mutagenesis Performed Using Suicidal Transposon Delivery Plasmids Mobilized by Broad-Host-Range RP4 Conjugative Machinery. J. Bacteriol 192, 6418–6427 (2010).20935093 10.1128/JB.00621-10 PMC3008518
+62. Chiang SL & Rubin EJ Construction of a mariner-based transposon for epitope-tagging and genomic targeting. Gene 296, 179–185 (2002).12383515 10.1016/s0378-1119(02)00856-9
+63. Zemansky J Development of a mariner-based transposon and identification of Listeria monocytogenes determinants, including the peptidyl-prolyl isomerase PrsA2, that contribute to its hemolytic phenotype. J. Bacteriol 191, 3950–3964 (2009).19376879 10.1128/JB.00016-09 PMC2698408
+64. Delcher AL , Harmon D , Kasif S , White O & Salzberg SL Improved microbial gene identification with GLIMMER. Nucleic Acids Res. 27, 4636–4641 (1999).10556321 10.1093/nar/27.23.4636 PMC148753
+65. Delcher AL , Bratke KA , Powers EC & Salzberg SL Identifying bacterial genes and endosymbiont DNA with Glimmer. Bioinforma. Oxf. Engl 23, 673–679 (2007).10.1093/bioinformatics/btm009 PMC2387122 17237039
+66. Paysan-Lafosse T The Pfam protein families database: embracing AI/ML. Nucleic Acids Res. 53, D523–D534 (2025).39540428 10.1093/nar/gkae997 PMC11701544
+67. Zimmermann L A Completely Reimplemented MPI Bioinformatics Toolkit with a New HHpred Server at its Core. J. Mol. Biol 430, 2237–2243 (2018).29258817 10.1016/j.jmb.2017.12.007
+68. Saha CK , Sanches Pires R , Brolin H , Delannoy M & Atkinson GC FlaGs and webFlaGs: discovering novel biology through the analysis of gene neighbourhood conservation. Bioinforma. Oxf. Engl 37, 1312–1314 (2021).10.1093/bioinformatics/btaa788 PMC8189683 32956448
+69. Kalvari I Non-Coding RNA Analysis Using the Rfam Database. Curr. Protoc. Bioinforma 62, e51 (2018).10.1002/cpbi.51 PMC6754622 29927072
+70. Holm L DALI and the persistence of protein shape. Protein Sci. 29, 128–140 (2020).31606894 10.1002/pro.3749 PMC6933842
+71. Poppleton DI Outer Membrane Proteome of Veillonella parvula: A Diderm Firmicute of the Human Microbiome. Front. Microbiol 8, 1215 (2017).28713344 10.3389/fmicb.2017.01215 PMC5491611
+72. Kropinski AM , Mazzocco A , Waddell TE , Lingohr E & Johnson RP Enumeration of Bacteriophages by Double Agar Overlay Plaque Assay. in Bacteriophages: Methods and Protocols, Volume 1: Isolation, Characterization, and Interactions (eds Clokie MRJ & Kropinski AM ) 69–76 (Humana Press, Totowa, NJ, 2009). doi:10.1007/978-1-60327-164-6_7.19066811
+73. Jerabek-Willemsen M , Wienken CJ , Braun D , Baaske P & Duhr S Molecular interaction studies using microscale thermophoresis. Assay Drug Dev. Technol 9, 342–353 (2011).21812660 10.1089/adt.2011.0380 PMC3148787
+74. Jarmoskaite I , AlSadhan I , Vaidyanathan PP & Herschlag D How to measure and evaluate binding affinities. eLife 9, e57264.32758356 10.7554/eLife.57264 PMC7452723
+75. Smith RM , Josephsen J & Szczelkun MD An Mrr-family nuclease motif in the single polypeptide restriction-modification enzyme LlaGI. Nucleic Acids Res. 37, 7231–7238 (2009).19793866 10.1093/nar/gkp795 PMC2790908
+76. Smith RM , Diffin FM , Savery NJ , Josephsen J & Szczelkun MD DNA cleavage and methylation specificity of the single polypeptide restriction-modification enzyme LlaGI. Nucleic Acids Res. 37, 7206–7218 (2009).19808936 10.1093/nar/gkp790 PMC2790903
+77. Zeng Z Base-modified nucleotides mediate immune signaling in bacteria. Science 388, eads6055 (2025).39977546 10.1126/science.ads6055
+78. Solovyev V & Salamov A Automatic Annotation of Microbial Genomes and Metagenomic Sequences. in Metagenomics and its Applications in Agriculture, Biomedicine and Environmental Studies 61–78 (Nova Science Publishers, 2011).

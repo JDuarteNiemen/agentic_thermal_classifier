@@ -1,0 +1,20 @@
+Filtration Performances of Heat and Moisture Exchangers and Filters Against Viral Aerosols: Adaptation of a Wind Tunnel.
+
+The exhaled breath of infected, mechanically ventilated patients poses an infection risk to health
+care workers. Proper expiratory gas filtration with heat and moisture exchanger filters (HMEF) or
+filters could reduce that phenomenon. Current laboratory means of assessing the filtration
+efficiency are limited to the use of monodisperse aerosols at a single humidity level and flow. This
+study aims to examine the filtration efficiency of various devices under simulated clinical
+conditions, namely against a broad range of particle sizes containing viruses at different levels of
+gas humidity and flow. A wind tunnel was adapted to evaluate the filtration efficiency of 4 devices
+(HME, HMEF, filters, and HEPA-HMEF) against viral aerosols. Bacteriophages PhiX174 and MS2 were used
+as a proxy for human viruses. In general, particulate filtration was significantly increased under
+dry versus humid conditions and with low versus high flows (P < .05). The HEPA filter significantly
+outperformed all other devices under all tested conditions in filtration efficiency. Both HMEF and
+filter showed approximately a 1% decrease in absolute differences compared with the reference method
+(∼99% vs 99.99%). This difference could represent an emission of as many as 102 SARS-CoV-2 copies
+per hour by an ICU patient, which is enough to spread the infection. Accurate testing of filtration
+function has long gone unexamined, and in preparation for the next respiratory pandemic, better
+evaluation of devices that filter potentially dangerous pathogens is vital for health care
+professionals and systems. Standard filtration testing should be adapted to mimic the clinical usage
+of HMEs and filters.

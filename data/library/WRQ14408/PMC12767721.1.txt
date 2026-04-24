@@ -1,0 +1,883 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Mol Cell
+Journal ID: Mol Cell
+
+Molecular cell
+
+ISSN: 1097-2765
+EISSN: 1097-4164
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC12767721
+Article ID: NIHMS2125194
+PMID: 41418758
+DOI: 10.1016/j.molcel.2025.11.019
+Article ID: NIHMS2125194
+Article ID: NIHPA2125194
+Article version: 1
+Subjects: Article
+
+Phage-encoded small RNA hijacks host replication machinery to support the phage lytic cycle
+
+Silverman Aviezer 1 5
+Nashef Raneem 1 5
+Wasserman Reut 1 5
+Noy Tamar 1
+Born Susan 2
+Yao Tianyou 2
+Geng Yuncong 2 3
+Rotbard Hila 1
+Levkowitz Adi 1
+Kaufman Yotam 1
+Golding Ido 2 3 4
+Melamed Sahar 1 6
+1 Department of Microbiology and Molecular Genetics, Institute for Medical Research Israel-Canada, Faculty of Medicine, The Hebrew University of Jerusalem, Jerusalem, Israel.
+2 Department of Physics, University of Illinois Urbana-Champaign, Urbana, IL 61801, USA
+3 Center for Biophysics and Quantitative Biology, University of Illinois Urbana-Champaign, Urbana, IL 61801, USA
+4 Department of Microbiology, University of Illinois Urbana-Champaign, Urbana, IL 61801, USA
+6 Lead Contact (sahar.melamed@mail.huji.ac.il)5 These authors contributed equally
+
+AUTHOR CONTRIBUTIONS
+
+S.M. conceived the project. S.M., R.N., A.S., T.N., S.B., T.Y., Y.G., A.L, and Y.K designed, performed, and analyzed the experiments. R.W. and H.R. performed all the computational analyses. S.M, A.S, R.W., S.B., T.Y., Y.G., and I.G. prepared the figures and wrote the manuscript. S.M. supervised the project.
+
+Print publication date: 2025 Dec 18
+Volume: 85
+Issue: 24
+First page: 4678
+Last page: 4697.e12
+Author manuscript; available in PMC: 2026 Jan 5
+
+Keywords: sRNA, RIL-seq, lambda, phage, anti-phage, replication, regulation, RNA-RNA interactions, Hfq, phage-host interactions
+
+This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.
+
+==============================
+Bacteriophages (phages) are major drivers of bacterial population dynamics, yet the significance of post-transcriptional regulation during infection remains largely unexplored. Central to this regulatory layer are small RNAs (sRNAs), which regulate target mRNAs via base-pairing, typically facilitated by RNA chaperones like Hfq. Here, we applied RIL-seq to comprehensively map the in vivo RNA-RNA interaction network in Escherichia coli during phage lambda infection. This analysis revealed extensive reprogramming of E. coli-E. coli interactions, phage-specific lambda–lambda interactions, and interkingdom interactions between phage and host RNAs. Among these, we identified a phage-encoded sRNA, PreS, embedded within the early left operon. PreS regulates essential host genes, including dnaN, which encodes the DNA polymerase β sliding clamp. This regulation enhances DNA replication and fine-tunes the phage lytic cycle. These findings uncover an RNA-level regulatory layer in phage–host interactions and demonstrate how a phage-encoded sRNA can hijack host replication machinery to optimize infection.
+
+Graphical Abstract
+
+Etoc Blurb:
+
+Using RIL-seq, Silverman et al. map the RNA interactome of E. coli during phage lambda infection and uncover a conserved phage-encoded sRNA that activates host replication machinery. Their findings reveal a previously unrecognized RNA-level regulatory layer in phage-host interactions and highlight the role of post-transcriptional control in promoting phage infection.
+
+INTRODUCTION
+
+Bacteriophage (phage) research over the past century has driven major biological discoveries in core molecular processes and bacterial defense systems such as CRISPR-Cas, DISARM, and restriction enzymes.1,2 Phages are the most abundant genetic entities on Earth (≈1031)3 and shape bacterial evolution and ecology,4 influencing virulence and antibiotic resistance.5-7 Following infection, phages enter either a lytic cycle, producing progeny and lysing the cell, or a lysogenic cycle, integrating into the host genome. Virulent phages are strictly lytic, whereas temperate phages can enter both cycles.8
+
+Phage lambda is the most extensively characterized temperate phage. Its 48.5-kb double-stranded DNA genome is a central model for DNA biology and gene regulation.9 Lambda infects Escherichia coli and its gene expression can be divided into immediate early, early, and late transcription. The proteins encoded by the immediate early genes N and cro reprogram host RNA polymerase and transcription termination to permit expression of the early genes, followed by the late genes.9,10 In the lytic cycle, lambda uses host machinery to replicate its genome via rolling-circle replication, producing long linear DNA molecules from the circular template.11,12 This step is followed by DNA packaging, assembly into virions, and release of the new phages by lysis.13 Alternatively, lambda can integrate into the chromosome and persist as a prophage. The lysis-lysogeny decision depends on environmental and physiological cues and infection multiplicity.14-16 Inducing stresses such as UV or chemicals promotes excision of the phage genome from the chromosome and transition to the lytic cycle.9,17 This decision is governed mainly by the phage-encoded proteins CI, CII, CIII, and Cro 9, although other temperate phages may also deploy additional regulators, including short peptides.18,19
+
+While decoding gene regulation is key to understanding the phage cycle, post-transcriptional regulation in phage biology remains less explored. Regulatory RNAs, however, modulate gene expression across all domains of life. In bacteria, the primary class comprises short, 50-400 nt long molecules, denoted small RNAs (sRNAs), most of which act in trans by base-pairing with target RNAs. The RNA chaperone Hfq, which is particularly important in Gram-negative bacteria, facilitates these interactions and affects target stability and/or translation20,21.
+
+Identifying RNA pairs bound to Hfq has long been a major challenge. Bacterial interactome mapping methods, beginning with RIL-seq (RNA interaction by ligation and sequencing), followed by CLASH (cross-linking ligation and sequencing of hybrids), Hi-GRIL-seq (high-throughput global sRNA target identification by ligation and sequencing), and iRIL-seq (intracellular RIL-seq) address this need.22,23 In RIL-seq, RNAs are UV-crosslinked to a protein, co-purified, and proximal RNA ends ligated to form chimeras. cDNA libraries then allow identification of individual and chimeric RNAs, filtered for statistically enriched pairs, generating a reliable dataset (Figure 1A). RIL-seq has been applied to diverse bacteria, uncovering thousands of interactions, network rewiring under different conditions, competition among RNA-binding proteins, and sRNAs encoded throughout the genome.23 sRNAs broadly regulate bacterial pathways,21,24 including those controlled by prophage-encoded sRNAs.25
+
+Regulation at the RNA level of the phage life cycle has been documented sporadically. OOP, one of the first characterized regulatory RNAs,26 antisense to cII-O, promotes degradation of cII mRNA, which encodes CII, a positive lysogeny regulator.27 Prophage-encoded sRNAs from inactive phages were later found to regulate bacterial core genes,25 though few regulatory RNAs from active phages are known. Recent RNA-seq advances have uncovered potential phage-encoded sRNAs,28-31 raising the possibility of cross-kingdom RNA-based regulation between bacteria and phages, an emerging mode of bacterial-phage communication.25
+
+To investigate this possibility, using phage lambda and E. coli, we mapped the RNA-RNA interaction network and the bacterial transcriptome during phage infection. We reveal previously underappreciated RNA regulatory networks and transcriptome changes upon lambda infection, and identify Hfq-dependent sRNAs encoded by lambda. Our findings highlight cross-kingdom sRNA-based regulation, with bacterial sRNAs responding to phage attack, potentially serving as a defense mechanism, and a phage-encoded sRNA directly regulating essential E. coli genes to alter DNA replication and promote infection.
+
+RESULTS
+
+Profiling the transcriptome and RNA-RNA interactome under lambda infection
+
+To monitor the changes in the E. coli transcriptome and identify the RNA-RNA interactome during phage infection, we grew E. coli MG1655 wild type (WT) carrying a chromosomal FLAG-tagged Hfq, split the cultures, and infected one of the two subcultures with WT phage lambda (MOI = 5). Because phages can enter either the lytic or lysogenic cycle at high MOI and there was no prior knowledge about the relationships between sRNAs and lambda infection, this condition was chosen to capture the broadest possible sRNA-RNA interaction network in either the lytic or lysogenic cycle. The length of the latent phase of lambda infection typically ranges between 45-60 min and samples were collected at two time points, 30 min and 60 min after the infection, following exposure to UV to crosslink the RNAs and proteins. Two biological replicates were studied at each time point. Total RNA-seq and RIL-seq protocols were then applied and each fragment in a cDNA library was pairend sequenced.32 As a control, cDNA libraries were similarly generated for WT cells not encoding tagged Hfq (Table S1).
+
+Phage lambda infection affects the E. coli transcriptome
+
+Differential expression analysis of total RNA-seq libraries from infected and uninfected samples 33 (Figures 1B, S1A; Table S2) offered insights into the phage effects on the bacterial transcriptome.
+
+Although well studied, the effect of lambda or lambdoid phages on E. coli has been little explored by deep sequencing.34-36 While analyzing the data, we noticed that several chromosomal prophage genes appeared upregulated; however, because short reads could not reliably distinguish these from homologous lambda transcripts, we excluded them from Figures 1B and S1A but retained them in Table S2 with an explanatory note.
+
+Multiple E. coli sRNAs and mRNAs not previously linked to phage infection increased in abundance upon infection (Figures 1B, S1A; Table S2). Notably, CpxQ increased ~2-fold at both time points. This sRNA modulates the inner-membrane stress response,37,38 suggesting a potential defensive role. Its partner gene cpxP rose ~3-fold at 60 min. CpxP is a negative regulator of the Cpx pathway and is part of the resistance to extracytoplasmic stresses,39 emphasizing the reaction of E. coli to membrane damage caused by the phage. Another transcript, rdgC, also increased. RdgC is thought to antagonize RecA-mediated strand exchange, likely by competing with RecA for DNA binding sites.40,41 Higher RdgC levels may favor lysogeny by limiting RecA-dependent CI autocleavage.42 Overall, while most E. coli transcripts were unchanged by the infection, the infection-responsive set highlights pathways potentially important in bacteria-phage interactions.
+
+RIL-seq reveals an intricate RNA-RNA network in E. coli during phage infection
+
+Analysis of RIL-seq fragments generated two datasets: single fragments, in which both reads mapped to the same genomic region, and chimeric fragments, in which the paired reads mapped to distinct regions within or between genomes (e.g., E. coli and lambda), reflecting ligation of RNAs co-bound to the same Hfq molecule. Reproducibility across libraries was high, with Spearman correlation coefficients of ≥0.95 for single fragments and ≥0.76 for chimeric fragments (Figure S1B). As correlations above 0.4 are considered reproducible 32, replicates were unified for downstream analysis (Table S3). Each condition yielded 2,381-4,126 statistically significant chimeras (S-chimeras), whereas Hfq-WT control libraries produced negligible numbers (Tables S1, S3). These results are consistent with previous RIL-seq datasets.23
+
+Comparison of infected and uninfected RIL-seq datasets indicates that lambda infection substantially alters the E. coli sRNA–RNA interactome. Specifically, 42% of E. coli-E. coli S-chimeras changed at 30 min post-infection and 46% at 60 min (Figures 1C, S1C). Intriguingly, numerous lambda-lambda and E. coli-lambda RNA pairs also appeared at both time points (Figures 1D, S1D). At 30 min, ~26% of all S-chimeras involved two lambda RNAs and ~3% represented E. coli-lambda hybrids; at 60 min, these proportions were ~13% and ~4%, respectively. In both E. coli-E. coli and E. coli-lambda interactions, the prominent RNA types are CDS and sRNAs while in the lambda-lambda the majority of the RNAs are annotated as CDS (Figure 1E). These data raise intriguing questions about how E. coli-E. coli RNA interactions are affected by phage infection, as well as the roles of both lambda-lambda and E. coli-lambda RNA pairs. To this end, we analyzed RNA pairs in the three sub-datasets (E. coli-E. coli, E. coli-lambda, and lambda-lambda) based on their classification to RNA types. In E. coli-E. coli interactions, CDS-sRNA and 5′UTR-sRNA pairs were most abundant, reflecting canonical sRNA-mRNA binding regions (Figures 1F, S1E). A key player in the interactions under infection was CpxQ, which was also found in chimeras with lambda-encoded RNAs (Figure S1F). E. coli-lambda pairs exhibited a similar pattern, whereas lambda-lambda interactions were dominated by CDS-CDS pairs. Although high lambda transcript abundance could artificially enrich CDS–CDS chimeras on Hfq, total RNA-seq showed lambda transcripts constitute ~1% of reads, while in RIL-seq they comprise ~3–4%. Considering the genome size difference, this modest enrichment does not suggest an artifact but likely reflects bona fide Hfq interactions, suggesting a different molecular mechanism for this type of interactions (Figures 1F, S1E). Notably, CDS regions can conceal other RNA elements, as previously observed in bacteria.43
+
+In the RNA-RNA interaction dataset, two RNAs dominated the pairs that include sRNAs between E. coli and lambda, accounting for 59% and 69% of such pairs at 30 and 60 min post-infection, respectively (Figure 1G). One was the E. coli sRNA CpxQ, and the other mapped to a distinct region in the lambda early left operon. We hypothesized this region encodes an sRNA, initially named LPR1 (lambda phage RNA 1) and later PreS (Phage replication enhancer sRNA), as will be detailed throughout the manuscript. PreS ranked among the top 15 sRNAs forming chimeras on Hfq at both time points (Figure S1G), highlighting its potential role in Hfq-mediated regulation during infection. Overall, the RNA–RNA network reveals extensive E. coli-E. coli, E. coli-lambda, and lambda-lambda interactions, suggesting widespread Hfq-mediated regulation during lambda infection.
+
+Uncovering sRNAs encoded by lambda
+
+PreS is located between ea10 and ral on the lambda genome and is strongly enriched on Hfq (Figure 2A). While Ral enhances restriction enzyme modification,44,45 the function of ea10 is unclear. PreS 3’ end resembles other Hfq-dependent sRNAs, with a GC-rich region followed by a poly-U tail, which also corresponds to one of the termination sites of the early left operon, tL2a46 (Figure 2B). To test if this region indeed encodes an sRNA, we performed a northern analysis using RNA samples collected throughout lambda infection (Figures 2C, S2A). A dominant band of ~88 nt representing PreS was detected in the analysis. PreS levels moderately increase from the first 30 min time point (Figure S2A) as the infection progresses (Figure 2C). Northern analysis of the RNA samples used for the RNA-seq experiment described in Table S2 showed a similar pattern, with increased levels from 30 min to 60 min (Figure S2B).
+
+While investigating the RIL-seq data, we suspected that there are a couple of other Hfq-bound sRNAs encoded by lambda, and the same membrane used in Figure 2C was stripped and re-probed for the two suspected regions (Figure 2C). Probing the first region, termed lpr2, revealed a single ~63-nt band, while the second region, overlapping the previously reported lambda-6S RNA,47,48 showed two bands (~194 nt and ~121 nt), indicating a processing event. lpr2 and lambda-6S RNA are adjacent in the late operon (Figure S2C). It is worth noting that there is no sequence similarity between lambda-6S RNA and the bacterial 6S RNA,49 and its role in phage biology remains unknown. An open reading frame, orf-64, begins within lambda-6S RNA and extends beyond the terminator, which is subject to antitermination by the lambda Q protein and the E. coli transcription elongation factor NusA,50 highlighting the complexity of lambda gene regulation.
+
+To determine whether PreS, LPR2, and lambda-6S RNA are expressed in the lytic or lysogenic cycle, we used an E. coli strain harboring lambda cI857, which carries a temperature-sensitive CI repressor that becomes unstable at higher temperatures, enabling lytic induction at 42 °C.51 Cultures were grown to mid-log phase at 30 °C to maintain lysogeny, split, and either kept at 30 °C or shifted to 42 °C. RNA was collected every 10 min for 60 min and analyzed by northern analysis (Figure 2D). Strikingly, PreS was detected from the first time point (10 min) in the lytic cycle but not in lysogenic cycle. LPR2 was predominantly expressed in the lytic cycle, with a very faint signal in the lysogenic state. Interestingly, lambda-6S RNA primary transcript levels were comparable in both cycles, but its processed transcript accumulated predominantly in the lytic cycle, suggesting a lytic-specific processing event. Further investigation is required to validate that it is not merely a response to the temperature shift. To further test PreS expression, we infected E. coli with a lysogeny-prone lambda strain (cIII tor864),52 or with a lambda strain that favors the lytic cycle (cI-).53 Consistently, PreS was expressed during the infection with the cI- strain but not with the cIII tor864 strain (Figure S2D), demonstrating that PreS is primarily expressed during the lytic cycle.
+
+We next analyzed the target sets of PreS, LPR2, and lambda-6S RNA. PreS consistently appears second in RIL-seq chimeric fragments (Figure 2A; Table S3), a characteristic feature of sRNAs in the RIL-seq data.54,55 In the RIL-seq data, PreS was found with dozens of targets, mostly E. coli-encoded (Figure 2E), whereas LPR2 and lambda-6S RNA have smaller target sets, including both lambda- and E. coli-encoded RNAs (Figure S2E). In the current study, we decided to investigate the role PreS plays in the phage life cycle.
+
+PreS biogenesis is dependent on early gene expression and nucleases activity
+
+To determine the precise size of PreS, we first relied on the RNA-seq and RIL-seq data, which suggested a transcript length of ~88 nt (Figures 2A-C). To validate this, the predicted 88-nt preS sequence was cloned into the IPTG-inducible pNM46 plasmid, which carries a lacI repressor gene to tightly control sRNA expression56 (Figure S2F). We then performed a northern analysis and primer extension assay on RNA isolated from lambda-infected E. coli and compared it to isolated RNA from E. coli expressing the plasmid-derived 88-nt PreS. The northern analysis documented similar sizes for lambda-encoded and plasmid-expressed PreS (Figure S2G). Primer extension further revealed a single band at ~87–88 nt in infected cells (Figure S2H), consistent with the plasmid-expressed transcript and the dominant band previously observed in the northern analysis, confirming the expected PreS size.
+
+preS location in the early left operon of phage lambda suggests that its transcription is driven by the pL promoter.9 Based on this, we hypothesized that PreS expression would follow the temporal pattern of other pL-controlled genes. To assess this, we performed RNA-seq following synchronized lambda infection57 at high MOI (≈4) and low MOI (≈0.3), collecting samples up to 60 min post-infection. As anticipated, PreS expression closely followed the dynamics of other pL-driven genes, peaking around 10 min post-infection (Figure 3A).
+
+Given these findings, we reasoned that PreS is produced via processing of a longer transcript rather than from its own promoter. To test this, we used enzymatic assays that differentiate between primary and processed RNA 5′ ends. Total RNA from an E. coli lambda cI857 lysogen was treated with RNA 5′ pyrophosphohydrolase (RppH) and Terminator™ 5′-Phosphate-Dependent Exonuclease (TeX). RppH converts 5′ triphosphates, characteristic of primary transcripts, into monophosphates, while TeX degrades RNAs carrying a 5′ monophosphate, which is indicative of processing. PreS was degraded by TeX without prior RppH treatment, indicating it naturally carries a 5′ monophosphate. In contrast, primary sRNAs such as CyaR and ChiX remained stable following TeX treatment (Figure 3B), demonstrating that PreS is a processed RNA.
+
+Since lambda lacks its own RNases, and RNase III processes lambda transcripts,58 we tested whether host RNases generate PreS. Northern analysis in lambda-infected E. coli mutants lacking RNase R, RNase II, RNase III, PNPase, or carrying temperature-sensitive RNase E revealed that PreS was undetectable in the RNase III mutant and accompanied by a different band pattern (Figure 3C). In the RNase E mutant, only a faint band was visible, while deletion of the other RNases had no effect. As a control, we probed for the lambda-encoded OOP, which is transcribed from its own promoter, and detected it in all strains except the RNase E mutant, where only a faint band appeared. These results indicate that PreS biogenesis is dependent on host RNases, whereas RNase III involvement is likely to be direct, and RNase E involvement may be indirect, as this knockout strain may affect other aspects of phage propagation and alter phage gene and PreS precursor expression. Future mechanistic work can determine the level of involvement of RNase III and RNase E in PreS processing and identify the precise processing sites. Interestingly, the prophage-encoded sRNA DicF forms through sequential cleavage: RNase III generates a 190-nt intermediate that RNase E converts to the 53-nt mature sRNA.59,60 To determine whether PreS accumulation also depends on Hfq, we examined PreS levels following lambda infection in both WT E. coli and a Δhfq mutant. PreS levels were significantly reduced in the absence of Hfq (Figure 3D), indicating that Hfq contributes to its maturation or stability.
+
+Together, our findings show that PreS is an ~88-nt sRNA that arises through processing from a longer precursor transcript, and that its biogenesis and mature form depend on host RNases and Hfq.
+
+PreS is involved in the control of spontaneous transition from lysogenic to lytic cycle
+
+Since PreS predominantly interacted with E. coli targets (Figures 2E and 4A), we performed an unbiased analysis of these sequences. Using Multiple Expectation maximizations for Motif Elicitation (MEME),61 we identified an 11-nt motif present in all PreS targets (Figure 4B). Motif Alignment and Search Tool (MAST) analysis62 showed this motif is complementary to PreS, mainly within an unpaired region (Figure 2B), suggesting a seed sequence mediating sRNA-RNA pairing (Figure 4B).
+
+To evaluate PreS function in the lambda life cycle, we deleted either the entire preS sequence (ΔpreS) or 18 nt encompassing the putative seed sequence (preSΔseed) in lambda lysogens (Figure 4C). Northern analysis documented comparable levels of PreS and PreSΔseed (Figure S3A). We tested the effect of these mutants by monitoring the transition of lambda from the lysogenic to lytic state using a plaque assay with E. coli strains harboring either the WT lambda prophage or the lambda mutants. All experiments were performed in a ΔlamB background, a gene encoding phage lambda receptor protein,63 to prevent secondary infections and ensure that plaques reflected only induction events (Figure 4D). Both preSΔseed and ΔpreS phages produced statistically significant two-fold fewer plaques than WT, although plaque size or morphology was unchanged (Figure 4E). Complementation with PreS expressed in trans from the pNM46 plasmid restored plaque formation in both mutants and enhanced plaques even in WT lysogens (Figure S3B). These results confirm that the phenotype derives from loss of functional PreS and further support its role in promoting efficient lytic development. In Δhfq strains, both the preSΔseed and ΔpreS mutants no longer reduced plaque numbers, indicating that PreS requires Hfq to exert its effect (Figure S3C). Reintroduction of Hfq into the Δhfq strain via a plasmid restored the normal plaque phenotype (Figure S3D).
+
+In a ΔrecA background, impairing the autocleavage of the lambda CI repressor, a strong reduction in the number of plaques was observed between the WT E. coli and the ΔrecA strains, as expected 64 (Figure S3E). However, WT and PreS mutant prophages produced similar plaque numbers, suggesting that PreS acts downstream of CI cleavage. To further investigate the role of PreS in the dynamics of the lytic cycle, we analyzed the transition from lysogeny to lysis in E. coli lysogens harboring either WT lambda or preS mutant phages by employing a high-throughput microplate infection assay.65 Following Mitomycin C (MMC) induction, which triggers the bacterial SOS response and leads to prophage excision, both the preSΔseed and ΔpreS mutants displayed a delayed host lysis, consistent with impaired lytic progression (Figures 4F and S3F).
+
+Together, plaque assays and induction kinetics assays indicate that PreS enhances the timing and efficiency of the lytic pathway. Since both preS mutants behaved similarly, we used preSΔseed in subsequent experiments for simplicity.
+
+PreS directly regulates essential E. coli genes and affects phage DNA replication
+
+At 60 min post-infection, RIL-seq identified 47 PreS targets, including nine essential E. coli genes (ftsY, ptsI, alaS, dnaN, rpsU, dnaG, dicA, dnaA, ubiD). Of the 4,720 annotated E. coli genes, 358 are essential.66 A Fisher’s exact test revealed that these essential genes were statistically significantly enriched among PreS-associated chimeras (p-value = 0.007), giving the general abundance of essential genes in E. coli. This indicates that PreS preferentially interacts with host essential genes rather than binding targets randomly.67
+
+To explore RIL-seq–identified interactions, we constructed translational GFP reporter fusions by incorporating regions of these essential targets, based on the positions of the chimeras with PreS (Table S2) and the predicted base-pairing regions (Figure S4A).68,69 A crr-gfp fusion was also included, although crr is not an essential gene, because ptsI chimeras extended into the crr CDS. Reporters were tested in strains carrying either an empty vector (pNM46) or a PreS-overexpression plasmid (pNM46-PreS). PreS overexpression modestly reduced rpsU-dnaG, ubiD, ftsY-ftsE (ftsYE), crr, and ptsI reporter signals, caused a 2-fold decrease in alaS, and strikingly induced a 5-6-fold increase in the dnaA-dnaN reporter (dnaAN) (Figure 5A). Notably, of these targets, alaS and dnaAN have the highest number of chimeric fragments with PreS (Figures 5C and S4B). dnaA and dnaN are essential genes encoded with recF in a single operon, encoding components of the E. coli DNA replication machinery. DnaA is a replication initiator protein70 and DnaN is a β sliding clamp that links the DNA polymerase to the DNA.71 AlaS is an essential alanine tRNA-ligase that is autoregulated.72
+
+To strengthen the results, we introduced 3-nt mutations in the predicted base-pairing sequence of PreS with dnaAN (PreS-M1) or alaS (PreS-M2) (Figures 5D, S2F, S4A). PreS-M1 abolished dnaAN-gfp reporter up-regulation, whereas a compensatory mutation in dnaAN restored regulation to WT PreS levels (Figure 5E). Similarly, PreS-M2 eliminated alaS-gfp down-regulation, which was restored by a compensatory alaS mutation (Figure S4C). These results support direct base pairing between PreS and the two targets and reveal that PreS can act as either a positive or negative regulator of gene expression.
+
+We hypothesized that PreS positively regulates components of the DNA replication machinery to promote efficient lambda genome replication. To link dnaAN-gfp upregulation with effects on phage replication, we quantified E. coli and lambda DNA levels in lysogens harboring WT or preSΔseed prophages. Cultures were grown to mid-log phase, UV-irradiated, and sampled before and 60 min after irradiation for qPCR analysis (Figure 5F). In the lysogenic state, both strains had comparable lambda and E. coli DNA levels, consistent with prophage integration. After UV induced the lytic cycle, lambda DNA levels increased markedly relative to host DNA in WT but to a lesser extent in preSΔseed, supporting a positive role for PreS in lambda DNA replication. In a similar assessment in a Δhfq background, UV induction resulted in reduced lambda DNA levels compared to WT E. coli, and this defect was rescued by ectopic Hfq expression (Figure S4D).
+
+To further assess the functional consequence of dnaAN upregulation by PreS, we performed a BrdU incorporation assay following expression of either WT PreS or the dnaAN base-pairing-deficient mutant PreS-M1 from a plasmid. BrdU, a thymidine analog, is incorporated into newly synthesized DNA and serves as a marker for DNA replication.73 Bacteria were grown to mid-log phase, and IPTG was added to induce expression of PreS or PreS-M1. DNA synthesis was monitored for up to 90 min following induction by measuring BrdU incorporation, normalized to total DNA. WT PreS significantly increased DNA synthesis, peaking at 30 min, whereas PreS-M1 had no effect (Figure 5G). These results indicate that PreS promotes DNA replication, likely via direct activation of dnaA, dnaN, or both.
+
+PreS promotes dnaN translation by remodeling a repressive RNA structure
+
+Next, we aimed to determine the molecular mechanism underlying the positive regulation of dnaAN-gfp fusion by PreS, and the resulted phenotypes. Since RNA-seq showed no significant changes in dnaA, dnaN, or recF expression upon lambda infection (Table S2), we examined whether PreS effect occurs at the translational level. We performed a western analysis in which each of the genes in the dnaAN-recF operon was tagged with SPA (sequential peptide affinity) in cells carrying a control vector, PreS, or PreS-M1. DnaA-SPA and RecF-SPA levels were unaffected, whereas DnaN-SPA increased with WT PreS, but not with PreS-M1 (Figure 6A). These results suggest that PreS specifically targets dnaN. Complementary analysis in lysogens carrying WT or preSΔseed prophages revealed a small but statistically significant reduction in DnaN-SPA levels in preSΔseed background in comparison to the WT lambda lysogen after UV induction (Figure S5A), further supporting the regulatory link between PreS and dnaN.
+
+In Figure 5, we showed that mutating the region upstream of the dnaN start codon abolishes PreS-mediated upregulation of the dnaAN-gfp fusion, supporting a direct RNA-RNA interaction. Introducing a similar mutation in the chromosomal dnaN 5′ region risked pleiotropic effects, as it overlaps the upstream gene dnaA. To avoid this, we used the previously characterized dnaN mutant dnaN159 (also referred to as dnaN59), which impairs DNA replication.74,75 We tested whether the dnaN159 mutation affects lambda DNA replication by qPCR and assessed phage propagation via plaque assays following infection (Figures 6B and S5B). The mutant exhibited reduced lambda DNA replication and decreased plaque formation compared to WT E. coli, establishing a functional connection between DnaN activity and efficient phage replication.
+
+Our next goal was to dissect how PreS specifically upregulates dnaN expression. When mapping the PreS binding site on the dnaN sequence (Figure 5D), we noticed that it is near a region predicted to form an inhibitory RNA secondary structure (Figure 6C), upstream of dnaN start codon. We hypothesized that PreS increases DnaN production by remodeling dnaN mRNA secondary structure to enhance ribosome binding and translation initiation. To test this, we performed in vitro structural probing of dnaN mRNA with dimethyl sulfate (DMS) and RNase T1 in the presence or absence of PreS (Figures 6D, S5C). DMS methylates unpaired adenines and cytosines, while RNase T1 cleaves single-stranded guanines, allowing detection of structural changes via band intensity shifts. Changes in band intensity reflect RNA accessibility: a decrease in signal suggests protection or base-pairing (double-stranded RNA), while an increase indicates structural opening and single-stranded RNA. Several distinct changes in dnaN mRNA structure were observed upon PreS binding, primarily upstream of the start codon and overlapping the PreS base-pairing region and the expected ribosome binding site (Figures 6C, 6D, S5C and S5D). In regions 1–3, DMS probing revealed reduced signal intensity with PreS, indicating formation of double-stranded RNA through base-pairing. Conversely, in regions 4-6, downstream to PreS binding site, in the expected ribosome binding site, and extending into the CDS, an increase in DMS reactivity was detected, suggesting that PreS binding promotes local unfolding and increased accessibility. RNase T1 digestion showed a similar pattern (Figure S5C), supporting that PreS remodels dnaN mRNA to enhance translation initiation.
+
+Interestingly, no canonical Shine-Dalgarno sequence is present upstream of dnaN. However, dnaN is the second gene in the dnaA-dnaN-recF operon and is likely translated via a non-canonical mechanism. Such mechanisms are common for internal operon genes and are sometimes aided by RNA structures or ribosome standby sites.76,77 To dissect the mechanistic basis of PreS-mediated activation, we performed mutational analyses on the dnaN 5′ region fused to GFP. These experiments were designed to assess both the functional importance of specific sequence elements and the structural requirements for regulation (Figure 6E). Mutating the 5’ region (dnaAN-M2-gfp), upstream to the dnaN start codon ((−10)-(−8) nt), abolished sRNA-mediated activation, even though it was downstream to PreS binding site, while simultaneously causing a three-fold increase in basal GFP expression in the absence of the sRNA. This indicates that the mutated region contributes to repression of translation, likely through formation of a structure that limits ribosome access. Compensatory mutations (dnaAN-M3-gfp) intended to restore base-pairing failed to rescue repression or sRNA responsiveness, suggesting that the functional inhibitory structure depends on precise sequence context and complex folding dynamics beyond simple base-pairing.
+
+During these experiments, we noted that the dnaAN-gfp fusion contains three previously identified internal promoters of dnaN-recF within the dnaA CDS.78,79 Deletion of the upstream sequence till ~40 nt before the PreS base-pairing site (dnaAN-M4-gfp), which removed two of the above-mentioned promoters, did not affect basal GFP or PreS responsiveness, indicating these upstream elements are dispensable. In contrast, deletion of a proximal region immediately upstream of the PreS site (dnaAN-M5-gfp) increased basal GFP by ~2-fold and abolished sRNA-mediated activation, despite preserving the base-pairing region. The M5 deletion overlaps the third internal promoter, raising the possibility that transcriptional changes could contribute to the PreS-dependent regulation. However, several lines of evidence argue against this. First, the PreS binding site is located downstream of this promoter. Second, mutation M2, also downstream of the promoter, eliminates activation by PreS. Most conclusively, rifampicin-mediated transcriptional shutoff experiments revealed that PreS upregulates the dnaAN-gfp fusion even when transcription initiation is inhibited (Figure 6F). This strongly indicates that the observed increase in expression is not due to activation of these promoters, but rather reflects a genuine post-transcriptional mechanism, in which a local upstream sequence maintains a repressive mRNA structure that PreS disrupts.
+
+Finally, reverse transcription quantitative PCR (RT-qPCR) analysis showed that PreS specifically increases dnaN mRNA levels, while adjacent operon genes (dnaA, recF) remain unchanged (Figure S5E). This specificity suggests that PreS does not stabilize the entire polycistronic transcript but selectively enhances the stability of the dnaN region. Since ribosome loading protects bacterial mRNAs from degradation,80 we propose that PreS promotes ribosome access by relieving a repressive structure in the dnaN 5′ region. This increases translation initiation and likely contributes to local mRNA stabilization through ribosome shielding.
+
+Collectively, these results support a model in which PreS activates dnaN by disrupting a 5′ repressive structure, thereby facilitating translation from a non-canonical site and promoting local mRNA stability, likely via ribosome occupancy.
+
+PreS is conserved across diverse phage and bacterial sequences
+
+To evaluate PreS prevalence, we searched for similar sequences using BLAST and the NCBI nucleotide database (Figure 7A, Table S4). PreS was conserved (≥92% identity, ≤3 gaps) across lambdoid phages and another phage species, and in diverse bacterial genomes, likely as part of prophages. To address a potential inflation of PreS homolog counts due to redundant or nearly identical deposited sequences, sequences were clustered by Mash distance,81,82 a software for fast genome distance estimation, applying a threshold of D<0.01. This threshold corresponds to average nucleotide identity (ANI) values above 99% and is appropriate for resolving strain-level variation while reducing redundancy83 In many species, conservation extended to genes adjacent to PreS, suggesting coordinated functional regions (Figure S6). Next, we examined whether the PreS-dnaN interaction reflects a broadly conserved mechanism in phage-bacteria interactions. We extracted dnaN and its upstream sequence from the genomes of the representative bacterial strains shown in Figure 7A, all of which contain preS in their genomes. Since the Shigella boydii strain lacked a dnaN annotation, we searched for the dnaN sequence using blastN and identified a sequence with 98% similarity. Across all strains, the PreS binding site was fully conserved and located at the same distance from the dnaN start codon, suggesting a conserved mode of action (Table S4). Altogether, these results show PreS conservation in different phages and bacteria and suggest it may play a significant role in the interactions between bacteria and phages.
+
+Model of PreS mode of action
+
+Collectively, our findings suggest that PreS supports the lambda lytic cycle by upregulating dnaN, thereby enhancing phage genome replication, hence the name PreS (Phage replication enhancer sRNA). We propose the following model (Figure 7B). PreS is produced either upon phage entry during infection or following prophage excision, triggered spontaneously or by stress. In both scenarios, transcription of phage RNAs begins, including PreS whose biogenesis depends on host RNases. PreS interacts with Hfq and regulates multiple E. coli transcripts, either positively (e.g., dnaN) or negatively (e.g., alaS). The positive regulation of dnaN occurs through remodeling of its 5' region secondary structure to enhance translation initiation. This regulatory activity supports lambda DNA replication and promotes productive lytic development.
+
+DISCUSSION
+
+Accessibility of transcriptome and RNA-RNA interactome data
+
+In this study, we mapped the sRNA interactome of E. coli during phage lambda infection, extending sRNA network analysis to host-phage interactions. We identified lambda-encoded sRNAs that rely on Hfq, revealing a previously overlooked layer of phage-mediated regulation. These sRNAs modulate host gene expression and contribute to phage lifecycle efficiency, uncovering important mechanisms of bacterial host manipulation. To facilitate further exploration, our RNA-seq and RIL-seq data have been uploaded to the UCSC Genome Browser84 (https://genome.ucsc.edu/s/reut%20bruner/E.coli_lambda), enabling identification of sRNAs, evaluation of gene expression patterns, and discovery of RNA-RNA interactions.
+
+Application of RIL-seq to diverse bacteria-phage systems
+
+This study highlights RIL-seq’s applicability for mapping RNA-RNA interactions in the E. coli-lambda system and its potential for other bacteria-phage interactions, including virulent phages. Virulent infections are challenging due to rapid RNA degradation and transient interactions, requiring precise timing and careful design. RIL-seq is sensitive to dynamic RNA network changes and permits the study of regulatory network plasticity as was exemplified under different growth conditions55, and during nitrogen starvation85. A major advantage of RIL-seq is repeated sampling of infections without chemical perturbation, enabling detection of temporal network changes. With early timepoint sampling, synchronized infections, and RNA-stabilizing reagents, RIL-seq could capture transient RNA-RNA interactions during the initial stages of virulent phage infection.
+
+Role of phage-encoded sRNAs in phage biology
+
+Virus-host interactions are complex, involving multiple regulatory layers. Phage lambda exploits host systems to progress toward the lytic or lysogenic cycle,86 similar to other phages that produce molecules to hijack bacterial transcription.87 In eukaryotes, viral miRNAs modulate host mRNAs via Argonaute-dependent degradation or translational repression.88-91 Here, we highlight Hfq-dependent sRNAs, which have been largely overlooked in the bacterial-phage arms race at the post-transcriptional level.
+
+sRNAs are versatile regulators, repressing or activating targets via mRNA base-pairing. We show this extends to phage-encoded sRNAs: PreS represses essential genes (alaS) while activating others (dnaN), optimizing conditions for phage propagation. dnaN is upregulated in an SOS-dependent manner after UV or alkylating agent exposure,92,93 recruiting error-prone polymerases for translesion synthesis and initiating mismatch repair. Post-transcriptional dnaN activation was previously suggested but is mechanistically unclear.94 These same triggers induce the lambda lytic cycle. We propose that PreS activates dnaN post-transcriptionally by remodeling its mRNA structure (Figure 6), potentially influencing the lytic-lysogenic switch. Future studies on PreS targets may further clarify this model. While we deciphered the significance of dnaN upregulation for phage lambda, the significance of downregulating alaS, which encodes the AlaRS translation fidelity factor,95 still needs to be uncovered. Downregulating alaS may accelerate protein synthesis by reducing proofreading, favoring faster phage propagation.
+
+The genomic region of PreS also includes cIII, which inhibits host proteases, and kil, which suppresses cell division,9 suggesting coordinated reprogramming of host cellular processes to enhance phage replication. Notably, the increased DNA synthesis associated with PreS may necessitate a concurrent inhibition of cell division, a function that can be facilitated by kil.
+
+The two other Hfq-dependent sRNAs, the identified LPR2 and the previously reported lambda-6S RNA,47,48 are encoded in the late operon and may have distinct roles. LPR2 was detected only with PreS and E. coli fliC in RIL-seq. sRNAs with few targets often act as RNA sponges,54,55 and LPR2 is predicted to extensively base-pair with PreS, overlapping its dnaN binding site (Figure S7), suggesting it may sponge PreS for complex post-transcriptional regulation. Lambda-6S RNA has several E. coli targets and one lambda early operon target. A 74-nt sRNA from Shiga toxin phages, StxS,96 maps to the same region but is unrelated in sequence. StxS represses Shiga toxin 1 and activates RpoS under lysogeny. Further work is needed to define LPR2 and lambda-6S RNA functions. Notably, RIL-seq also captured many additional lambda-E. coli RNA pairs on Hfq, providing a rich resource to explore phage–host interactions.
+
+Prevalence of phage-encoded sRNAs
+
+Phage lambda-E. coli interactions highlight sophisticated mechanisms for host manipulation via Hfq-dependent sRNAs. PreS is highly conserved across hundreds of sequences (Figures 7A, S6), paralleling the lysogenic sRNA VpdS in Vibrio cholerae, which regulates prophage-host interactions via quorum sensing.97 This suggests sRNAs play a fundamental role in phage biology. Further studies will clarify infection dynamics and host-manipulation strategies. With renewed interest in phage biology,98 additional phage-encoded sRNAs are likely to be discovered, revealing more ways phages hijack host machinery. Expanding resources, including phage banks99,100 and collections101, provide invaluable tools to explore sRNA-mediated regulation on a broader scale.
+
+Limitations of the study
+
+Our study provides insights into phage-encoded sRNAs but has limitations. RIL-seq used high MOI to capture a broad interactome, while functional assays used low MOI, so direct comparisons across infection modes should be made cautiously. We focused on the dnaN-PreS interaction, though other targets may influence phage replication and host dynamics. Lytic RNA interactions are transient, requiring precise timing and design. Finally, the interactome captures only Hfq-associated RNAs; other RNA-binding proteins, like ProQ, may also regulate infection. Despite these caveats, our work provides a framework for studying phage sRNAs and demonstrates RIL-seq’s value in uncovering RNA-mediated host-phage mechanisms.
+
+STAR METHODS
+
+EXPERIMENTAL MODEL AND STUDY PARTICIPANT DETAILS
+
+Bacteria
+
+E.coli MG1655 (crl+ or crl−) strains served as the WT strains in this study. All other bacterial strains and plasmids are listed in the Key Resources Table. Unless indicated otherwise, all strains were grown with shaking at 250 rpm at 37 °C in an LB-rich medium or TBMM. Ampicillin (100 μg/mL), chloramphenicol (30 μg/mL), kanamycin (30 μg/mL), arabinose (10 mM or 0.2%), and IPTG (1 mM) were added where appropriate. Unless indicated otherwise, overnight cultures were diluted to OD600 = 0.05 and grown for the indicated times or to the desired optical densities. E. coli MG1655 lysogen was isolated by recovering bacteria from the center of a turbid plaque. The incorporation of the lambda genome into the bacterial chromosome was verified by colony PCR using primers P810 and P811 (Table S5).
+
+Phages
+
+All phage strains are listed in the Key Resources Table. Phage lambda WT was kindly provided by Susan Gottesman. To test specific life cycles, the following mutants were used: (cI-) - obligatory lytic104, (cIII tor864) - favoring the lysogenic cycle52, and (cI857) - a temperature-sensitive CI mutant14. These mutants were kindly provided by Shoshy Altuvia and Sivan Pearl-Mizrahi as described in the Acknowledgements section. Unless indicated otherwise, all phages were grown with their host in TBMM: Tryptone, NaCl, and 20 mM MgSO4, and supplemented with maltose (0.2%) and vitamin B1 (0.0001%). When appropriate, phages were diluted in TM buffer (1 M Tris pH 7.5 and 10 mM MgSO4). The induction of prophages was done by 40 mJ/cm2 of 254 nm UV irradiation using UVP Crosslinker (Analytik Jena).
+
+METHOD DETAILS
+
+Phage lysate preparation
+
+Phage lysate was prepared by induction of lysogenic E. coli with Mitomycin C (MMC, Thermo Fisher Scientific). Overnight culture was diluted to OD600 = 0.05 in LB supplemented with 10 mM MgSO4, after 2 hours 10 μg/mL of MMC was added. Once culture has collapsed, the culture was mixed with 5% chloroform for 20 min, centrifuged, and was stored at 4°C in a glass tube.
+
+Plaque assay and determination of multiplication of infection (MOI)
+
+WT E. coli was grown in TBMM supplemented with maltose and vitamin B1 to OD600 of 0.4-0.6, then 100 μl of serial dilutions from stock phage were mixed with 100 μl of bacteria. After incubation for 20 min at 37 °C with shaking, 3 mL of top agar (TBMM 0.7% agar) was added to the bacteria and the phages, vortexed, and immediately plated on LB agar plates (1.5% agar). Following solidification, plates were incubated overnight at 37 °C. Plaques were counted and PFU/mL was calculated. CFU/mL of the E. coli host strain was measured by plating serial dilutions of bacteria throughout its growth curve. MOI was calculated as the ratio of total PFU to total CFU in the infection mixture.
+
+Plasmid construction and mutagenesis
+
+E.coli K-12 MG1655 genomic DNA was used as a template to amplify mRNAs to be cloned into the respective constructs. Cloning PreS into pNM46, a pBR carrying the lacI gene and an IPTG inducible promoter,56 was done by amplifying the vector using primers P814 and P815 (Table S5). PreS was amplified by PCR from purified prophage DNA using primers P810 and P811 (Table S5) which had flanking sequences homologous to the insert site on pNM46. PCR products were ligated according to the NEBuilder assembly master mix protocol (New England Biolabs). Target sequences were cloned into pXG10-SF plasmid68,69 as follows. Regions of target genes, mainly regions captured in the chimeric fragments, were PCR amplified, digested with Mph1103I and NheI, and cloned into pXG10-SF digested with the same restriction enzymes. The inserted sequences were verified by colony PCR and Sanger sequencing.
+
+Mutagenesis of the different plasmids was carried-out using the QuikChange Lightning Site-Directed Mutagenesis Kit (Agilent). All plasmids were freshly transformed into the appropriate strains before each experiment.
+
+RNA isolation
+
+Cells corresponding to the equivalent of OD600 between 5 to 10 were pelleted, washed once with 1 X PBS, and frozen in liquid nitrogen. RNA was extracted according to the standard TRI Reagent protocol (Sigma-Aldrich) as described previously.54 Briefly, 1 mL of TRI Reagent at room temperature was added to cell pellets, resuspended thoroughly to homogenization, and incubated for 5 min at room temperature. 200 μL of chloroform was added and thoroughly mixed by inversion, samples were then incubated for 10 min at room temperature. Next, samples were centrifuged for 10 min at 4 °C on maximal speed, the clear upper phase (~0.6 mL) was transferred into a new tube, and 500 μL of isopropanol was added. Samples were mixed thoroughly by inversion, incubated for 10 min at room temperature and centrifuged at maximal speed for 15 min at 4 °C. RNA pellets were washed twice with 75% ethanol without disturbing the pellet. After the second wash, the ethanol was aspirated, and the RNA pellet was left to dry at room temperature. Finally, RNA was resuspended in 20-50 μL of DEPC-treated water and quantified using a NanoDrop (Thermo Fisher Scientific).
+
+Northern blot analysis
+
+Total RNA (10 μg) was mixed with 1 X RNA loading dye (Thermo Fisher Scientific). RNA was heated at 90 °C for 4 min, and loaded onto a denaturing 6% Acrylamide urea gel containing 8 M urea, in 1 X TBE buffer at 300 V for 70-90 min. The RNA was transferred to a Zeta-Probe GT membrane (Bio-Rad) at 20V overnight at 4 °C in 0.5 X TBE. Next, the RNA was crosslinked to the membrane by UV irradiation (120 mJ/cm2 of 254 nm UV irradiation using UVP Crosslinker). RiboRuler Low Range RNA ladder (Thermo Fisher Scientific) was marked by UV-shadowing. Oligonucleotide probes (Table S5) for the different RNAs were labeled with [γ-32P] ATP (166 μCi/μL, 7,000 mCi/mmole, Enco) by incubating with 10 U of T4 polynucleotide kinase (New England Biolabs) at 37 °C for 1 hour and cleaned using G50 columns (Microspin™ G-50 Columns) before probing onto membrane. The membranes were visualized by Typhoon FLA 7000 phosphorimager (GE Healthcare). Images were adjusted for brightness and exposure using Adobe Photoshop. All adjustments were applied equally across the entire image without altering the original data.
+
+Western blot analysis
+
+E. coli strains carrying specific genes tagged with an SPA tag were grown to mid-log phase or to stationary phase. An equivalent of OD600 = 1 were collected, pelleted, and immediately frozen in liquid nitrogen. Cells were mixed with 2 X Laemmli sample buffer (Bio-Rad) normalized to the cell density, and heated to 95 °C for 10 min. Samples were separated on a Mini-PROTEAN TGX 5%–20% Tris-Glycine gel (Bio-Rad) and transferred to a nitrocellulose membrane (Thermo Fisher Scientific) via semi-dry transfer. Membranes were stained with Ponceau S as a quality control step, and also to be used as a loading control. Next, the membranes were washed with 1 X PBST and blocked in 1 X PBST containing 3% milk. anti-FLAG M2-Peroxidase (HRP) (Sigma-Aldrich) was added in a 1/1000 dilution, and signal was detected with an ECL Western Blotting Detection Kit (Tivan) using the ChemiDoc imaging system (Bio-Rad). Images were adjusted for brightness and exposure using Adobe Photoshop. All adjustments were applied equally across the entire image without altering the original data.
+
+P1 transduction
+
+P1 phage was used to horizontally transfer deletions of E. coli genes from the Keio collection105 or other backgrounds, as detailed in the Key Resources Table, to a desired recipient strain. Briefly, the donor was grown with P1 for 2-3 hours till lysis appeared. Lysate was obtained by centrifuging and saving the supernatant. 100 μL of the lysate was incubated with 100 μL of recipient cells at 37 °C for 20 min. Phage activity was stopped by adding 100 μL of 1 M sodium citrate, and cells were recovered with 1 mL of LB at 37 °C with shaking. All cells were plated on an appropriate plate supplemented with Kanamycin. Colonies were grown, isolated, re-plated, and verified by colony PCR with the appropriate primers (Table S5). When needed, kanR was removed using plasmid pCP20 as previously described.106 pCP20 was transformed into the relevant strain via heat shock and recovered for 2 hours at 30 °C and plated on agar plates supplemented with ampicillin. One colony was selected and grown overnight in ampicillin at 30 °C. The next day the cultures were diluted in 9 mL LB to OD600 = 0.05, grown to OD600 = 0.1, and shifted to 42 °C till reaching approximately OD600 = 1. A drop of the culture was streaked onto an agar plate without antibiotics. Colonies were isolated and streaked the next day on (a) a new agar plate without antibiotics, (b) an agar plate supplemented with kanamycin, and (c) an agar plate supplemented with ampicillin to test for the loss of both the kanR and the plasmid which is ampicillin resistant.
+
+Spontaneous transition from lysogenic to lytic cycle
+
+Lysogenic E. coli cultures were grown overnight at 37 °C in LB. The next day the cultures were diluted in TBMM to OD600 = 0.05 supplemented with 0.2% maltose and 0.0001% vitamin B1. At the designated time point, OD600 was measured and 1 mL of bacteria culture was collected and centrifuged in a 96-well plate. Serial dilutions were done in TM buffer. The appropriate dilution was mixed with 100 μL of mid-log phase indicator cells (WT E. coli; ML001), and incubated for 20 min at 37 °C with shaking to allow phage adsorption. 3 mL of top agar was added and plated on LB agar plates. PFU/mL was calculated as described in plaque assay.
+
+qPCR of intercellular DNA
+
+Lysogenic E. coli cultures were grown overnight in 2 mL LB. Cultures were diluted to OD600 = 0.05 and grown to mid-log phase. 20 mL of each culture was exposed to 40 mJ/cm2 of 254 nm UV irradiation using UVP Crosslinker (Analytik Jena) and immediately placed back in the incubator to continue their growth. At specified time points, OD600 was measured and an equivalent of OD600 = 1-5 was collected, pelleted, and frozen in liquid nitrogen. Intercellular DNA was purified using a Bacterial genomic DNA isolation kit (Norgen biotek), DNA concentration was measured with Qubit and analyzed via qPCR with specific oligonucleotide primers (Table S5) as follows. Equal amounts (5-10 ng) of DNA were loaded into a 96-well plate and DNA was quantified by CFX Connect Real-Time system (Bio-Rad) using iTaq Universal Sybr Green mix (Bio-Rad) according to manufacturer instructions. Serial dilutions of lysogenic E. coli with WT lambda DNA in known concentrations were used to generate a standard curve. CFX maestro analysis software (Bio-Rad) was used to determine the starting quantities of the DNA samples based on the standard curve. Reactions for each biological replicate were performed in technical triplicate.
+
+In-vitro RNA synthesis
+
+DNA templates for RNA synthesis were amplified from the lysogenic E. coli genome using P1101 and P1102 for dnaN, and P1103 and P1104 (Table S5) for PreS. RNAs were synthesized using T7 RNA polymerase (25 units, New England Biolabs) in a 50 μL reaction containing 1 X T7 RNA polymerase buffer, 10 mM DTT, 20 units of recombinant RNase inhibitor, 500 μM of each NTP, and 300 ng of T7 promoter containing template DNA at 37 °C for 2 hours, followed by 10 min at 70 °C. Next, Turbo DNase was added, and the reactions were incubated at 37 °C for 30 min. The RNA was purified by phenol-chloroform extraction and precipitated using 0.5 M NaCl, ethanol, and GlycoBlue. Concentration was measured with a NanoDrop (Thermo Fisher Scientific).
+
+Sanger sequencing
+
+The dnaN sequence was PCR amplified from WT E. coli genome using primers P1105 and P1106 (Table S5), digested by SacI and PstI, and cloned into pGEM-3 digested by the same enzymes. pGEM-3 carrying the sequence used to generate the ladder for the PreS transcripts primer extension was kindly given by Maya Elgrably-Weiss. Plasmids were denatured by incubating with 0.2 mM NaOH at RT for 5 min followed by precipitation with ammonium acetate. DNA was sequenced using Sequenase version 2.0 DNA polymerase (TermoFisher scientific). The denatured plasmids were incubated with a [γ-32P] ATP (166 μCi/μL, 7,000 mCi/mmole, Enco) labeled reverse primer as specified (Table S5) and the appropriate buffer for 15 min at 37 °C. Four separate reactions, each with one dideoxyribonucleoside triphosphates (ddNTPs), were prepared with DDT and the supplied enzyme. 3.2 μL of labeled plasmid were added and incubated at 37 °C for 15 min. The reaction was stopped by adding stop solution and heating to 95 °C for 3 min.
+
+Structural probing and primer extension
+
+Structural probing reactions were carried out using DMS and RNase T1. Briefly, RNA was preheated to 70 °C for 5 min, 1 pmol of dnaN was incubated with 10 pmol of PreS at 22 °C for 20 min in their respective buffers (with 100 mM MgCl), followed by incubation with 0.1 U of RNase T1 (37 °C for 5 min) or 0.3% DMS (23 °C for 5 min). RNase T1 reaction was also carried out in the presence of 2 pmole (hexameric concentration) of purified Hfq (Purified protein was kindly provided by Gisela Storz). Reactions were stopped by phenol-chloroform extraction and precipitated using 0.3 M sodium acetate and GlycoBlue. RNA concentration was measured using a NanoDrop (Thermo Fisher Scientific). 5 ng of RNA from the DMS treatment and 7 ng of RNA from the T1 RNase treatment were incubated with a [γ-32P] ATP (166 μCi/μL, 7,000 mCi/mmole, Enco) labeled reverse dnaN primer P1102 (Table S5) at 70 °C for 5 min, followed by 10 min in ice. The reactions were subjected to primer extension at 42 °C for 45 min using 1 unit of MMLV-RT (Promega) and 0.5 mM of dNTPs. Extension cDNA products were analyzed on 6% acrylamide 8 M urea-sequencing gel and visualized by Typhoon FLA 7000 phosphorimager (GE Healthcare). Images were adjusted for brightness and exposure using Adobe Photoshop. All adjustments were applied equally across the entire image without altering the original data. The four samples of the Sanger sequencing for dnaN were loaded to the same gel and served as a reference.
+
+Primer extension on PreS transcripts
+
+5-10 ng of RNA were mixed with a [γ-32P] ATP (166 μCi/μL, 7,000 mCi/mmole, Enco) labeled primer (P1104) for 10 min at 70 °C and moved to ice for 10 min. This was followed by incubation with 1 unit of MMLV-RT (Promega) and 0.5 mM of dNTPs for 45 min at 42 °C. Next, 10 μL of stop solution was added. Samples were heated to 95 °C for 3 min, analyzed on 6% acrylamide 8 M urea-sequencing gel and visualized by Typhoon FLA 7000 phosphorimager (GE Healthcare). Images were adjusted for brightness and exposure using Adobe Photoshop. All adjustments were applied equally across the entire image without altering the original data. The four samples of the Sanger sequencing for a known DNA sequence (Table S5) were loaded onto the same gel and served as a reference for the length of the transcripts.
+
+Scarless mutations in the phage genome
+
+Chromosomal scarless deletions within lambda were carried out as described previously.107 Lysogenic E. coli with WT lambda was used to delete part, or all of the preS sequence. First, a pKD46 plasmid108 was transformed into the host strain. Next, a tet-sacB cassette was PCR amplified with primers that had homologous sequences to the region of the desired deletion using primers P968 and P969 for the full deletion, and P970 and P971 for seed deletion (Table S5). The amplified sequences were transformed into the cells carrying pKD46 grown with 10 mM arabinose to induce the lambda red recombinase system, and colonies sensitive to sucrose were selected using 6% sucrose plates. Deletions were verified by colony PCR and Sanger sequencing.
+
+GFP translational reporter assay
+
+GFP reporter assays were carried out essentially as described 55. Overnight cultures were grown in 0.75 mL of LB media supplemented with the appropriate antibiotics in a 96-deep well plate at 37 °C with constant shaking at 250 rpm. Cells were diluted in 1 mL of fresh LB medium supplemented with the appropriate antibiotics and 1 mM IPTG in a 96-deep well plate and grown at 37 °C with constant shaking at 250 rpm for 3 hours. Cells were washed once in 1 X PBS and pelleted in 220 μL of 1 X PBS. Fluorescence was measured using the Cytoflex flow cytometer (Beckman Coulter). The level of regulation was determined by first subtracting the auto-fluorescence and then calculating the ratio between the fluorescence signal of a strain carrying the sRNA over-expressing plasmid and the signal of a strain carrying the control plasmid. Three biological repeats were done for every sample.
+
+Transcriptional arrest using rifampicin
+
+Overnight cultures of E. coli carrying a pNM46 or a pNM46-PreS plasmid and a GFP fusion construct on a pXG10-SF plasmid were diluted to OD600 = 0.05 in LB supplemented with ampicillin and chloramphenicol, and grown to OD600 = 0.3. Next, 1 mM IPTG was added for 15 min, and the samples were split. Half of the samples were treated with Rifampicin at a final concentration of 200 μg/mL, and half remained untreated. At designated time points, 1 mL aliquots were taken and mixed with 0.5 mL ice-cold 1 X PBS. Bacteria were centrifuged and resuspended in 200 μL 1 X PBS. Fluorescence was measured using the Cytoflex flow cytometer (Beckman Coulter) as mentioned above.
+
+Phage infection in the RNase mutants background
+
+Overnight cultures of WT E. coli, Δrnb, Δrnr, Δpnp, Δrnc, and rnets (ML002, ML022, ML023, ML024, ML025, ML026) were diluted to OD600 = 0.05 in TBMM supplemented with maltose and vitamin B1. While all samples were grown at 37 °C the rnets strain grew at 30 °C. At OD600 = 0.4, each culture was split and one subculture was infected with phage lambda (MOI = 0.05), and returned to the incubator at 37 °C or 43.5 °C for rnets, for 1 hour. Aliquots of OD600 = 10 were collected, centrifuged, resuspended with 1 X PBS, and frozen in liquid nitrogen. RNA was isolated as described above, and northern analysis was performed.
+
+Distinguishing between RNA transcripts
+
+Overnight cultures of lysogenic E. coli with lambda cI857 were diluted to OD600 = 0.05 and grown at 30 °C in TBMM till reaching mid-log phase. At this point samples were transferred to 42 °C to induce the lytic cycle. Cells were collected and RNA was isolated as described in RNA isolation and subjected to the treatments described below and followed by a northern analysis. RppH treatment: 10 μg RNA was incubated at 37 °C for 1 hour with RNA 5′ pyrophosphohydrolase (RppH) and NEBuffer-2. RNA was eluted using DEPC-treated water after cleanup using the RNA Clean & Concentrator-5 kit. RNA concentration was measured using a NanoDrop (Thermo Fisher Scientific). TEX treatment: 10 μg RNA is incubated at 30 °C for 1 hour with 1 unit of Terminator™ 5′-Phosphate-Dependent Exonuclease (TeX), Terminator 10X Reaction Buffer A and RNase Inhibitor. RNA was eluted in DEPC with RNA Clean & Concentrator-5 kit, and concentration was measured using a NanoDrop (Thermo Fisher Scientific).
+
+RT-qPCR
+
+RNA was isolated from E. coli as described above, 800 ng of RNA were treated with DNase using Turbo DNA-free kit (Thermo fisher). RNA was incubated with Turbo DNase for 30 min at 37 °C (X2), followed by inactivation. cDNA was prepared with iScript cDNA Synthesis kit (Bio-Rad), 800 ng of DNA free RNA were incubated at 46 °C with iscript for 20 min. DNA concentration was measured with Qubit and analyzed via qPCR with specific oligonucleotide primers (Table S5) as follows. Equal amounts (5-10 ng) of DNA were loaded into a 96-well plate and DNA was quantified by CFX Connect Real-Time system (Bio-Rad) using iTaq Universal Sybr Green mix (Bio-Rad) according to manufacturer instructions. Serial dilutions of E. coli DNA in known concentrations were used to generate a standard curve. CFX maestro analysis software (Bio-Rad) was used to determine the starting quantities of the DNA samples based on the standard curve. Reactions for each biological replicate were performed in technical triplicate.
+
+DNA replication rate (BrdU incorporation assay)
+
+DNA replication was measured as described previously73 with slight modifications. Overnight cultures of E. coli harboring pNM46, pNM46-PreS or pNM46-PreS-M1 were diluted to OD600 = 0.05 and grown to OD600 = 0.15 with LB supplemented with ampicillin. 1 mM IPTG was added to induce sRNA transcription. At each time point, a sample was collected and normalized to OD600 = 1.5, centrifuged at 18 °C, pelleted, and resuspended in 5 mL of fresh LB supplemented with ampicillin, 1 mM IPTG, 33 nM Thymidine, and 20 μM BrdU (5-bromo-2′-deoxyuridine; Sigma-Aldrich). Cells were incubated at 37 °C for 45 min, and centrifuged, then the supernatant was removed, and the pellet was frozen in liquid nitrogen. Genomic DNA was extracted using the Bacterial DNA isolation kit (Norgen Biotek) and was quantified with the Qubit dsDNA HS Assay kit (Thermo Fisher). The DNA concentration was adjusted to 10 ng/μL, and 10 μL of DNA was denatured by the addition of 1 μL 4 M NaOH for 20 min at room temperature, then neutralized with 11 μL of 1M Tris-HCl pH 6.8 on ice. 3 μL of denatured ssDNA was spotted onto nitrocellulose membranes (Protran BA-83, 0.2μm) and fixed via UV crosslinking (120 mJ/cm2 of 254 nm UV irradiation using UVP Crosslinker ;Analytik Jena). Membranes were blocked with 5% milk-PBST for 1 hour at room temperature and washed 3 times with PBST. Incorporation of BrdU was detected by using an anti-BrdU antibody (B44 clone, BD Biosciences, final concentration of 1:1,000) in 0.5% milk-PBST incubated overnight at 4 °C. As a loading control, an anti-ssDNA antibody was used (The Developmental Studies Hybridoma Bank, University of Iowa, final concentration of 1:200) in 5% milk in 1 X PBST and incubated overnight at 4 °C. Membranes were washed 3 times with PBST. Goat anti-mouse IgG HRP conjugate secondary antibody was used at a final concentration of 1:10,000 in 0.5% milk-PBST for 1 hour at room temperature. The membranes were washed 3 times with PBST, and detection was performed using ECL Western Blotting Detection Kit (Tivan) or Clarity Max ECL (Bio-Rad) using the ChemiDoc imaging system (Bio-Rad). DNA replication was determined as the intensity of the BrdU signal/intensity of ssDNA.
+
+RNA-seq following synchronized infection
+
+Crude lysate of phage λcI857 Sam7 parS was produced by heat induction of lysogenic cells,109 resulting in a final phage concentration >1011 PFU/mL. E. coli MG1655 carrying plasmid pALA3047 (Plac-cfp-parB)57 was used as the host strain. Cell growth and infection protocols were adapted from.57 An overnight culture of the host strain was diluted 1:1000 into 50 mL of LBMM (LB medium + 10 mM MgSO4 + 0.2% maltose) supplemented with 10 μM IPTG (Sigma-Aldrich) (IPTG, Sigma-Aldrich) and grown at 30 °C with shaking at 220 rpm. Upon reaching OD600 ≈ 0.4, cells were harvested by centrifugation (1000×g, 10 min, 4 °C). The supernatant was carefully decanted, and the pellet was transferred to a 1.7 mL tube and spun again (4500×g, 1 min) to remove residual liquid. The cells were then resuspended in fresh, ice-cold LBMM + 10 μM IPTG at 100× the original concentration (~7×109 cells/mL after resuspension). To perform infection, 120 μL of the concentrated host cells were mixed with 30 μL of phage lysate (MOI of ≈ 4), 2.4 μL of phage lysate (MOI of ≈ 0.3), or 30 μL of SM buffer (Teknova; negative control). The infection mixture was incubated on ice for 30 min, followed by a 5 min incubation in a 35 °C water bath to trigger phage DNA injection.16 Infected cells were then diluted 1:1000 into 120 mL of LBGM (LB medium + 10 mM MgSO4 + 0.2% glucose) supplemented with 10 μM IPTG, and incubated at 30 °C with shaking. The multiplicity of infection was further measured using plating and single-cell microscopy, following.57
+
+At designated time points, 0.5 mL of the cell culture was collected and resuspended in 2× volume (1 mL) of RNAprotect Bacteria Reagent (Qiagen). The mixture was vortexed for ~5 seconds to ensure thorough mixing, then incubated at room temperature for at least 5 min (and up to 3 hours). Cells were then pelleted by centrifugation (5000×g for 10 min, followed by 21000×g for 1 min), after which the supernatant was discarded. RNA extraction was performed using the Quick-RNA Fungal/Bacterial Microprep Kit (Zymo Research), with the following modification to the manufacturer’s protocol: Instead of using the provided ZR BashingBead Lysis tube for cell lysis, the pellet was resuspended in 100 μL TE buffer containing 1 mg/mL lysozyme, vortexed for 10 seconds, then incubated on a nutator at room temperature for 5 min. After that, 350 μL RNA Lysis Buffer was added, the mixture was vortexed for 1 min and transferred into a Zymo-Spin IIICG Column in a Collection Tube. All subsequent steps, including removal of cell debris, ethanol precipitation of RNA, DNase I treatment, washing, and RNA elution, were performed following the manufacturer’s protocol.
+
+Construction of the RNA-seq libraries and sequencing on Illumina NovaSeq X Plus were performed at the Roy J. Carver Biotechnology Center at the University of Illinois, Urbana-Champaign. Purified DNase-treated total RNAs were run on a Fragment Analyzer (Agilent) to evaluate RNA integrity. The total RNAs were converted into individually barcoded RNA-seq libraries without rRNA depletion with the RNA Library Prep kit from Watchmaker Genomics. Libraries were barcoded with Unique Dual Indexes (UDIs) developed to prevent index switching. The final libraries were quantified using Qubit dsDNA HS Assay kit (Thermo Fisher), and the average cDNA fragment sizes were determined on a Fragment Analyzer. The libraries were diluted to 10 nM and further quantified by qPCR on a CFX Connect Real-Time qPCR system (Biorad) to ensure accurate pooling of barcoded libraries and maximization of cluster numbers in the flow cell. The barcoded RNA-seq libraries were loaded onto one 10B lane on a NovaSeq X Plus and sequenced as single-reads with 100 nt read-lengths. The analysis of the RNA-seq data is described under the Quantification and Statistical Analysis section.
+
+Measuring the time to lysis following Mitomycin C induction
+
+Lytic induction was performed using MMC (Fisher Scientific) as in65, modified for the microplate reader. Overnight cultures of lysogenic E. coli strains with a WT lambda, preSΔseed, or ΔpreS phages were diluted 1:1000 in LB (Lennox formulation110) supplemented with 10 mM MgSO4 (LBM), and 500 μL aliquots were dispensed into each well of a 48-well flat-bottom microplate (COSTAR). Plates were incubated at 37 °C in a microplate reader (TECAN Infinite 200 Pro) with orbital shaking (1 mm amplitude), and their optical density (OD) was recorded after 5 min intervals of shaking. Where indicated, OD values obtained from the plate reader are translated into standard OD600 values (600 nm, 1 cm pathlength). When the OD (without blanks subtracted) reached 0.16-0.18 (corresponding to OD600 = 0.35–0.44), MMC was added to each well at a final concentration of 10 μg/mL (with 10 μL DEPC water used as a negative control). Plates were returned to the plate reader, and incubation continued under the same conditions until the OD plateaued for all induced lysogenic strains (after ~3 hours). To determine the time to lysis, a “lysis OD” (without blank subtraction) of 0.25 was defined, and the time after MMC addition at which the culture dropped below that value was calculated for each of the lysogens.
+
+RIL-seq analysis
+
+RIL-seq was carried out as previously described.32,55 E. coli K-12 MG1655 cells with a FLAG-tagged Hfq were grown to exponential phase in LB medium supplemented with 10 mM MgSO4, separated into two flasks, one flask was infected by phage lambda (MOI = 5). 30- and 60- min post infection cells corresponding to the equivalent of OD600 = 40 were collected, washed twice in 1 X PBS and exposed to 80 mJ/cm2 of 254 nm UV irradiation to in vivo crosslink the proteins and RNA molecules. Following mechanical lysis of the cells using 0.1 mm diameter glass beads, Hfq with its bound RNAs was coimmunoprecipitated using M2 anti-FLAG antibody (Sigma-Aldrich). Once exposed regions of the RNA were trimmed by RNase A/T1 mix (Thermo Fisher Scientific), the 5′ and 3′ ends of the RNAs were treated with T4 PNK (New England Biolabs), neighboring RNAs were ligated by T4 RNA ligase 1 (New England BioLabs), the Hfq protein was digested using Proteinase K (Thermo Fisher Scientific), and RNA was then isolated according to TriReagent LS protocol (Sigma-Aldrich). Sequencing libraries (RIL-seq and total RNA libraries) were constructed by RNAtag-seq protocol,111 with a few modifications that prevented loss of sRNA fragments as described in the full RIL-seq protocol.32 The libraries were sequenced by paired-end sequencing using the HiSeq 2500 system (Illumina). Experiments were done with two biological replicates. Similar treatment was done with cells carrying untagged Hfq and samples were collected 30 min after the infection. This resulted in a total of 12 samples for each of the RIL-seq and RNA-seq datasets as detailed in Table S1. The computational part of the RIL-seq is described in detail under “Data processing of the parallel RNA-seq and RIL-seq experiments”.
+
+QUANTIFICATION AND STATISTICAL ANALYSIS
+
+Data processing of the parallel RNA-seq and RIL-seq experiments
+
+Information on E. coli genes, transcriptional units, promoters, and terminators was sourced from EcoCyc (version 27.566) and supplemented by manual curation in our lab. The annotation file used for various analyses is a gff file containing the above data of E. coli genes and phage lambda genes.
+
+The RNA-seq pipeline includes the following stages: splitting the data to libraries, removal of adapters, quality filtering, mapping, and counting the reads mapped to each element in the annotation file.32 The process_nextseq_run.py script (https://github.com/asafpr/RNAseq_scripts; version 1.1) was run on the fastq files of the RNA-seq experiment using a fasta file containing the E. coli genome and the lambda genome as two chromosomes, the gff annotation file, and -r --cutadapt_and_map_mem_per_cpu 48000 --skip_bcl2fastq --dont_delete --allowed_mismatches 3 --gene_identifier gene_name - a AGATCGGAAGAGC -A AGATCGGAAGAGC parameters. The other parameters were default.
+
+The RIL-seq pipeline (version 0.82) includes the RNA-seq pipeline's stages in addition to reproducibility analysis, unifying libraries, finding chimeras, and determining the statistically significant chimeras (https://github.com/asafpr/RILseq).32 To get BAM files of the alignment, process_nextseq_run.py script (version 1.1) was run on the fastq files of the RIL-seq experiment, which were split to libraries, with the same parameters as mentioned before, except to --skip_split that was added. The script map_chimeric_fragments.py was run for each BAM file, with the parameters -r and -t with the gff annotation file. The other parameters were default.
+
+Checking reproducibility between libraries
+
+For checking reproducibility, the RILseq_significant_regions.py script was used twice, once running with --all_interactions parameter, and then running with --only_singles in addition to the --all_interactions parameter. In both runs the files from EcoCyc with the information about the E. coli transcriptional units, promoters, and terminators were used with the --bc_dir parameter, the --min_odds_ratio was set to 1, the parameter --total_RNA was used with the corresponding file from the total RNA-seq pipeline results, the parameters -- total_reverse and --ribozero were used, the parameter -g was used with the genome fasta file, and the parameter --BC_chrlist were used with the appropriate names. The other parameters were defaults. In addition, the plot_regions_interactions.py script was run with default parameters.
+
+After unifying biological replicates, the script RILseq_significant_regions.py was used to find the S-chimeras with the parameters mentioned above, but without --all_interactions and --only_singles parameters, and with --refseq_dir parameter to get the genes descriptions.
+
+DESeq2
+
+Differential gene expression analysis between two different conditions was conducted by DESeq2 (version 1.36.0).33 DESeq2 analysis provided the log2(fold change) and the p value of the change (corrected by multiple hypothesis testing). DESeqDataSet was created by DESeqDataSetFromMatrix with default parameters, the results were re-ordered by the relevel function and then were used by the function DESeq with default parameters. Finally, the DESeq outputs were sent to the result function and were written to files.
+
+Data analysis of RNA-seq following synchronized infection
+
+FASTQ read files were generated and demultiplexed using the bcl-convert v4.1.7 Conversion Software from Illumina. Next, the FASTQ files for each sample were mapped to the E. coli MG1655 reference genome (NCBI accession: U00096.3) and the phage lambda genome (NCBI accession: NC_001416) using BWA (v0.7.17).112 Alignment files were processed using the SAMtools suite (v1.9)113 to convert between SAM and BAM formats and to generate indexed BAM files. BEDTools (v2.28.0)114 was used to calculate per-base read depth across the phage genome and per-gene read counts across the E. coli genome.
+
+To correct for variability in sequencing depth across samples, per-base read depth was normalized by the sum of reads mapped to all E. coli genes after normalization for gene length, and then multiplied by 104. Given the read length of 100 bp, this normalization yields a per-base abundance metric that is numerically consistent with gene-level TPM (Transcripts Per Million),115 enabling comparison of expression patterns across samples. Per-gene transcription was then calculated from the mean of the normalized per-base read depth along the gene. Finally, to calculate the expression per infected cell, the proportion of infected cells was estimated based on the average intracellular MOI found in the imaging data above, denoted as M (≈ 1.2 and 0.3 for high and low MOI, respectively) consistent with the entry efficiencies reported in.116 Assuming Poissonian statistics of phage-bacteria encounters,117 the proportion of infected cells was taken as 1–e−M, and the values of per-gene RNA levels were adjusted by dividing by this value.
+
+Circos plots
+
+Circos plots were created by Rcircos library (version 1.2.2)118 in R (version 4.2.0). A data.frame with information about the E. coli and the lambda genomes was created and loaded to RCircos.Set.Core.Components function. The Circos parameters were received by RCircos.Get.Plot.Parameters function, and the chrom.paddings, base.per.unit and text.size parameters were set to 700, 45.137051, and 0.4, respectively. Those parameters were reset by RCircos.Reset.Plot.Parameters function. The Circos plots were plotted by RCircos.Set.Plot.Area, RCircos.Draw.Chromosome.Ideogram, and RCircos.Label.Chromosome.Names functions. Files with the locations and the corresponding numbers of the scale marks were created, and loaded by the function RCircos.Gene.Connector.Plot, and the function RCircos.Gene.Name.Plot. Finally, files that represent the chimeras' locations and colors were created and loaded by the function RCircos.Link.Plot with the parameter lineWidth that was set to a vector full of 0.00001 (for the Circos plots with all the interactions) or 2 (for the Circos plots with the interactions of PreS, LPR2, and lambda-6S RNA) where its length is the number of chimeras.
+
+Motif discovery
+
+To find motifs in the sequences sited in chimeras with PreS, each chimera was extended with 30 bases from each side, and overlapping sequences were concatenated, to avoid biases in the results. The motifs were searched in the resulting sequences by MEME tool (version 5.4.1)61,119 with -rna -minw 6 -maxw 15 -nmotifs 3 -mod zoops parameters, the other parameters were default.
+
+To find whether the motif that was found with MEME is complementary to PreS sequence, MAST (version 5.4.1)62 was run on the reverse complement sequence of PreS with the MEME output, and the default parameters (-ev 10 -mt 0.0001).
+
+Venn diagrams
+
+Venn diagrams of S-chimeras between two different groups are generated with the venn2 function of the python (version 3.9) package matplotlib-venn (version 0.11.7).120
+
+Bar plots
+
+Bar plots that represent the percentage of S-chimeras were generated using the python (version 3.9) package matplotlib (version 3.5.1)120
+
+Heatmaps
+
+Heatmaps of the chimeras’ annotations were created with the heatmap function of the python (version 3.9) package seaborn (version 0.11.2)121
+
+Interaction networks
+
+RNA-RNA interaction networks were generated using Cytoscape (version 3.9.1).103 json file that contains the data about the genes and the connections between them was generated and uploaded to Cytoscape.
+
+PreS conservation
+
+To find whether PreS is conserved in other genomes, we submitted its sequence to BLAST search122 (version 2.12.0) against the Nucleotide database with the command blastn and -db nt -remote -max_target_seqs 100000 parameters. To reduce genome redundancy, genome FASTA files were extracted from the NCBI “nt” database, updated on April 2024. Genome distance was calculated using Mash version 2.1.81,82 Genomes were dimmed similar if Mash distance was lower than 0.001.83 Genomes were then reduced to species level based on the NCBI “nt” database scientific name. Representative genome selection and further analysis was done using Awk 5.2.1 and Python 3.11.2. Final count of strains was done by hand. Next, for the bacteria and the phages separately, we generated a phylogenetic tree based on one representative genome of each species that was found by BLAST, using BV-BRC123 Bacterial Genome Tree tool with 5 Max Allowed Deletions and Duplications. Finally, we downloaded the bacteria and phage trees, joined them to one tree, and loaded it to MEGA11 (version 11.0.13)124. To visualize the conservation between lambda and the other genomes, for each representative genome, we extract the region around the sequence that was found with BLAST. Next, Easyfig (version 2.2.5)125 was used with these extracted regions and the lambda genome to generate the images. To assess the conservation of the PreS binding site on dnaN, we retrieved the dnaN gene along with its upstream region (40 nt) from the genomes of the representative bacterial strains shown in Figure 7A. For Shigella boydii strain NCTC 9734, in which dnaN was not annotated, we identified the corresponding sequence using blastN (default parameters) at the NCBI BLAST website.
+
+UCSC Genome Browser
+
+The RNA-seq and RIL-seq data are available online via UCSC Genome Browser 84 at the following link:
+
+https://genome.ucsc.edu/s/reut%20bruner/E.coli_lambda
+
+The different tracks are displayed simultaneously using UCSC’s Track Hub functionality. wigToBigWig, bedToBigBed, ixIxx, and faToTwoBit scripts were used to create the files for the different tracks.
+
+Supplementary Material
+
+1 Document S1. Figures S1–S7 and supplemental references.
+
+2 Table S1. Number of fragments in deep sequencing libraries (related to Figures 1, 2, 4, S1, and S2).
+
+The table describes the different libraries used in all experiments, with statistics regarding the number of sequenced fragments. The total number of fragments includes the number of fragments available after splitting the libraries according to the barcodes. For the RIL-seq libraries, the RIL-seq computational pipeline32 was used to evaluate the results of each library separately as well as the unified libraries per condition.
+
+3 Table S2. RNA levels in different RNA-seq datasets (related to Figures 1B and S1A).
+
+Total RNA library reads were subject to differential expression analyses conducted with DESeq233. The “prophage gene analysis” tab highlights the challenges of mapping reads to prophage genes that have homologs in lambda. More information about the different columns and the prophage gene analysis can be found in the table itself.
+
+4 Table S3. Statistically significant chimeric fragments in the RIL-seq experiment (related to Figures 1, 2, 4, S1, and S2).
+
+RIL-seq RNA pairs identified in unified datasets. The table includes all interactions between two RNAs, which were supported by statistically significant chimeras. A pair of RNAs might appear more than once if it involves multiple interacting regions or if it appears in the chimera once as RNA1-RNA2 and once as RNA2-RNA1. Coordinates are based on the genome of E. coli K12 MG1655 (NC_000913.3) and lambda genome (J02459.1). The table includes data from BioCyCTM pathway/genome database under license from SRI International. More information about the different columns can be found in the table itself.
+
+5 Table S4. Conservation of PreS in bacteria and phages (related to Figures 7 and S6).
+
+The table describes the conservation of PreS in different bacteria and phages according to the BLAST results and lists the genomes that were used to create the phylogenetic tree and the conservation figures. More information about the different columns and the prophage gene analysis can be found in the table itself.
+
+6 Table S5. List oligonucleotides used in this work (related to STAR Methods).
+
+ACKNOWLEDGMENTS
+
+We thank Susan Gottesman for the WT lambda strain; Shoshy Altuvia for the cI- and cIII tor864 lambda mutants; Sivan Pearl-Mizrahi for the E. coli carrying cI857::kan prophage; Mark Sutton for the dnaN159 mutant; Gisela Storz for work conducted by S.M. in her lab; and the NICHD Molecular Genomics Core for RNA-seq and RIL-seq sequencing. We thank Maya Elgrably-Weiss and Shoshy Altuvia for help with structural probing, and Hongen Zhang, Hanah Margalit and her lab for assistance with computational analyses. We are grateful to the Melamed lab for discussions, and to Gisela Storz, Hanah Margalit, and Reut Shainer for manuscript comments. We thank Rachel Marianovsky for lab maintenance. This work used the Hebrew University Research Computing Services. We acknowledge Ehsan Homaee, Ayesha Bhikha, all Golding lab members, and Alvaro Gonzalo Hernandez and Danman Zheng (Roy J. Carver Biotechnology Center, University of Illinois at Urbana-Champaign). Work in the Melamed lab was supported by the ISF (826/22, 2859/22). A.S. is supported by the Abisch-Frenkel Foundation. Work in the Golding lab is supported by NIH R35 GM140709, NSF 2243257 (STC for Quantitative Cell Biology), and the Alfred P. Sloan Foundation (G-2023-19649).
+
+Figure 1. E. coli transcriptome and sRNA interactome during lambda infection.
+
+(A) RIL-seq overview. E. coli Hfq-FLAG, without or with lambda infection (MOI=5), was immunoprecipitated with bound RNAs. RNA pairs captured on the same Hfq hexamer were ligated to form chimeric fragments, then paired-end sequenced and mapped to the bacterial and phage genomes.
+
+(B) Volcano plot represents differential gene expression in E. coli, 60 min following infection. Genes with adjusted p < 0.1 (above dashed line) are considered significantly changed; upregulated and downregulated genes are in blue and orange, respectively, and unchanged genes in gray. Prophage genes were excluded due to ambiguity with homologous lambda reads (see Table S2).
+
+(C) Overlap of E. coli chimeras in infected vs. uninfected bacteria. Venn diagram represents shared and unique chimeras 60 min post-infection; RNA1/RNA2 positions were ignored.
+
+(D) Detection of lambda-lambda and E. coli-lambda RNA pairs following infection. Circos plots show chimeras in uninfected (left) and infected (right) samples at 60 min. Half-circles represent E. coli and lambda genomes. Edges indicate chimeras: E. coli-E. coli (gray), E. coli-lambda (blue), and lambda–lambda (red). Scale marks represent 100 kb (E. coli) and 1 kb (lambda).
+
+(E) Genomic origin of S-chimeras. Elements were assigned to one of eight categories: CDS (coding sequence), tRNA, sRNA, IGT (intra-operonic region), AS (antisense), IGR (intergenic region), 5’ UTR, and 3’ UTR. rRNA fragments were excluded. S-chimeras are grouped into E. coli, lambda, and E. coli-lambda at 30- and 60-min post-infection.
+
+(F) Total number of chimeric fragments for each combination of genomic elements in E. coli-E. coli chimeras, E. coli-lambda chimeras, and lambda-lambda chimeras, 60 min after infection. Columns indicate the first RNA in the chimera and rows the second one.
+
+(G) PreS and CpxQ dominate E. coli-lambda sRNA interactions. Distribution of E. coli-lambda S-chimeras associated with each sRNA at 30- and 60-min post-infection.
+
+Figure 2. Lambda-encoded sRNAs are predominantly expressed during the lytic cycle.
+
+(A) Genome browser view of the preS region from RIL-seq of lambda-infected E. coli (30 min). Hfq IP (green) and total RNA (gray) tracks are shown with normalized ranges. Two biological repeats are overlaid. PreS chimeras are displayed below; blue indicates PreS as RNA2.
+
+(B) Predicted PreS secondary structure (drawn using Forna102). Numbering reflects positions from the 5′ end. Shaded bases represent the predicted seed sequence.
+
+(C) E. coli MG1655 (ML001) (OD600 = 0.4) was infected with lambda (MOI = 0.0015). Samples collected every 30 min were probed for PreS, LPR2, and lambda 6S RNA, which appear at 30-60 min post-infection. 5S RNA served as loading control. A longer PreS exposure is shown in Fig. S2A; the same 5S panel is reused.
+
+(D) Lysogenic E. coli carrying lambda cI857 (ML007) was grown to OD600 = 0.6 at 30 °C and split to 30 °C (lysogenic) or 42 °C (lytic). PreS, LPR2, and lambda 6S RNA are detected throughout the lytic cycle, while lambda 6S also appears in the lysogenic state. RNAs were sequentially probed on the same membrane with 5S RNA as loading control.
+
+(E) PreS engages lambda- and E. coli-encoded RNAs. Circos plot of PreS chimeras at 30 min represents the E. coli genome (right) and lambda genome (left). Blue edges denote E. coli-lambda chimeras; red denotes lambda-lambda chimeras. Scale bars represent 100 kb (E. coli) and 1 kb (lambda).
+
+Figure 3. PreS is generated by processing following early gene expression.
+
+(A) E. coli MG1655 was infected with lambda cI857 at high (≈4) or low (≈0.3) MOI. Cells were collected at indicated times and RNAseq was performed. Top: PreS and neighboring gene expression kinetics per infected cell (see STAR Methods). Circles and triangles represent data from two biological replicates; lines indicate the mean, and shading represents the SD. Bottom: genomic positions of genes downstream of the pL promoter.
+
+(B) Lysogenic E. coli lambda cI857 (ML007) was grown at 30 °C to OD600 = 0.6 and shifted to 42 °C. RNA from cells at 10 min post-shift was treated with RppH and/or TeX. PreS is sensitive to TeX but not RppH, whereas CyaR and ChiX are insensitive to TeX by itself. RNA from 30 °C culture serves as control.
+
+(C) WT (ML002) and RNase mutant E. coli (ML022-ML026) were grown to OD600 = 0.4 and infected with WT lambda (MOI = 0.05). Samples at 0- and 60-min post-infection show reduced PreS in RNase III and RNase E mutants, whereas reduced OOP was observed only in the RNase E mutant.
+
+(D) Lysogenic WT and Δhfq E. coli (ML004, ML021) were UV-irradiated to induce lytic cycle at OD600 = 0.4. Samples at 0, 30, and 110 min show PreS is Hfq-dependent. 5S RNA serves as loading control in B-D.
+
+Figure 4. Phage-encoded sRNA supports lambda’s lytic cycle.
+
+(A) PreS interaction network with E. coli genes 60 min post-infection. Node color reflects the gene’s rank by number of PreS-associated chimeras) drawn by Cytoscape103.
+
+(B) PreS target sites at 60 min post-infection share a sequence motif complementary to PreS. Motif logo (MEME61) and the fraction of sequences containing the motif are shown.
+
+(C) Schematic of the preS region and mutants: preSΔseed (brown) and ΔpreS (green). See STAR Methods for construction.
+
+(D) Lysogenic E. coli carrying WT lambda, preSΔseed, or ΔpreS (ML009-ML011) were grown to OD600 = 0.4. Lysates were mixed with an indicator strain (E. coli MG1655) to quantify phage production. Both mutants show reduced phage progeny upon spontaneous induction. Results are normalized to the PFU/mL of the WT lysogen. Values represent nine biological replicates. The box spans the 25th-75th percentiles with the median line, and whiskers show the minimum and maximum values. One-way ANOVA was used (ns, ****p < 0.0001).
+
+(E) Representative plaque assay images corresponding to (D) showing fewer plaques for lysogenic E. coli with preSΔseed and ΔpreS, relative to WT lysogens.
+
+(F) Growth curves of lysogens harboring WT, preSΔseed, or ΔpreS phage (ML009–ML011) following Mitomycin C induction. Symbols represent two biological replicates: lines, linear interpolation between replicate means; shading the SD. The horizontal line marks the OD600 value used to calculate the time to lysis. The horizontal line marks the OD600 value used to calculate the time to lysis shown in Figure S3F.
+
+Figure 5. PreS regulates E. coli genes and promotes phage DNA replication.
+
+(A) GFP reporters for designated genes were expressed from pXG10-SF in E. coli carrying a control plasmid (pNM46) or PreS overexpression (pNM46-PreS). After 3 hours induction with 1 mM IPTG, fold-change in GFP was measured by flow cytometry. Error bars represent SD; One-way ANOVA was performed. P-values were not corrected for multiple comparisons because each comparison was conducted independently; results are shown together for clarity and convenience (ns, *p < 0.05, **p < 0.01, ****p < 0.0001).
+
+(B) PreS overexpression increases dnaAN-gfp signal on agar plates supplemented with 1 mM IPTG. Shown are white-light and fluorescence images (ChemiDoc imager) of strains carrying pNM46 (bottom) or pNM46-PreS (top).
+
+(C) Genome Browser view of the dnaAN-recF region from lambda-infected cells (30 min). Hfq IP (green) and total RNA (gray) tracks are shown with normalized ranges. Two biological repeats are overlaid. PreS-dnaAN chimeras are displayed below; red indicates dnaAN as RNA1. Asterisk marks the predicted pairing site with PreS.
+
+(D) PreS-dnaAN base pairing, with the mutated sequences assayed, dnaN-M1 and preS-M1 (in red). Numbering is from AUG of dnaN mRNA and +1 of PreS sRNA.
+
+(E) Using the same reporter assay setup described in (A), PreS activates dnaAN-gfp, whereas PreS-M1 fails to do so. The compensatory dnaAN-M1 mutation restores activation by PreS. Values represent three biological replicates; Error bars represent SD; One-way ANOVA was performed (ns, ****p < 0.0001).
+
+(F) Lysogenic WT or preSΔseed strain (ML009, ML010) were UV-induced at OD600 = 0.4. Lambda DNA levels are comparable before induction (−) but lower in preSΔseed at 60 min following induction (+) in comparison to WT. DNA quantities were measured via qPCR on intercellular DNA. One-way ANOVA was performed (ns, **p < 0.01).
+
+(G) PreS overexpression, but not PreS-M1, enhances DNA synthesis. E. coli MG1655 carrying pNM46, pNM46-PreS, or pNM46-PreS-M1 were induced with 1mM IPTG at OD600 = 0.2. Cells were collected at the designated time points, and incubated with BrdU for 45 min, followed by DNA purification. BrdU levels were measured with antibodies on a dot plot assay. Loading control was measured using ssDNA antibodies. DNA synthesis rate was measured as BrdU intensity divided by ssDNA intensity. Box plots represent three biological replicates relative to pNM46. The box spans the 25th-75th percentiles with the median line, and whiskers show the minimum and maximum values. One-way ANOVA was performed (ns, **p < 0.01, ***p < 0.0001).
+
+Figure 6. PreS remodels dnaN mRNA secondary structure to enhance translation initiation.
+
+(A) PreS increases DnaN-SPA levels but not DnaA-SPA or RecF-SPA. PreS-M1 does not affect any of the SPA-tagged proteins. Protein levels were tested with pNM46, pNM46-PreS, or pNM46-PreS-M1 by immunoblot analysis using anti-FLAG antibody. Ponceau S served as loading control.
+
+(B) WT E. coli and dnaN159 (AS146, AS147) were grown to OD600 = 0.2 and infected with lambda (MOI = 1). Samples collected before and 25 min following infection and DNA levels were quantified by qPCR. The ratio between E. coli and lambda DNA reveals reduced phage DNA replication in dnaN159 background. One-way ANOVA was used (ns, ****p < 0.0001).
+
+(C) Predicted secondary structure of the first 100 nt of dnaN mRNA used for structural probing (drawn using forna102). Numbering reflects positions from the 5′ end. PreS binding site (blue), dnaN start codon (green), and positions changed in the assay (purple) are highlighted.
+
+(D) In vitro-transcribed dnaN and PreS were mixed (see STAR Methods). With DMS, PreS-dependent changes in methylation patterns, consistent with direct pairing, are observed. Regions altered by PreS (1–6) include region 3, overlapping PreS binding site (Figure 4D). The first four lanes show Sanger sequencing of the dnaN fragment (ACGT denotes the added ddNTPs (dideoxyribonucleoside triphosphates); bands correspond to the complementary strand). Lanes 5 and 6 contain unheated and 70 °C-heated dnaN, respectively. Lane 7 is DMS-treated dnaN. Lanes 8–9 are DMS-treated dnaN without and with PreS, respectively. Non-informative lanes were removed (dotted line). All primer extension reactions used the radioactive primer P1102.
+
+(E) Top: Representation of dnaAN-gfp fusions. Colored segments indicate DNA sequence (light pink), PreS-binding region (purple), dnaN sequence (blue), the different fusions assayed in the experiment below (black). Yellow stars represent point mutations. Middle: Using the reporter assay described in (Figure 5A), changes in GFP levels across fusions support a model in which PreS disrupts a repressive 5′ structure to allow translation from a non-canonical site. Values represent three biological replicates. Bottom: predicted internal dnaN pairing and mutants assayed (top: M2, bottom: M3) are colored (red). Error bars represent SD. One-way ANOVA was performed (ns, **p < 0.01, ****p < 0.0001).
+
+(F) E. coli MG1655 harboring dnaAN-GFP with pNM46 or pNM46-PreS, grown to OD600 = 0.3, were induced with IPTG for 15 min and split ± rifampicin. GFP was measured using a flow cytometer at 0, 15, and 30 min after shutting down transcription with rifampicin. Y-axis indicates GFP fold change with PreS overexpression versus pNM46. PreS-dependent activation persists after transcription shutdown, indicating post-transcriptional regulation. Data represent three biological replicates. One-way ANOVA was performed (ns, ***p < 0.001, ****p < 0.0001).
+
+Figure 7. PreS conservation and suggested mode of action
+
+(A) preS is conserved across diverse bacterial and phage sequences. BLAST analysis identified preS in 1,538 genomes in the NCBI nucleotide database. A phylogenetic tree built from one representative genome per species (Table S4) shows bacterial species (green) and phage species (blue). Triangles indicate the number of genomes containing preS for each species. A scale is shown at the bottom, whereas the distance between bacterial and phage clusters is arbitrary.
+
+(B) PreS mode of action. Upon lambda infection or prophage induction, transcription of early phage RNAs, including PreS, begins. PreS is expressed from the early left operon and its biogenesis depends on the activities of host RNases. Gray font indicates possible indirect involvement. PreS associates with Hfq and regulates multiple E. coli targets, either activating (e.g., dnaN) or repressing (e.g., alaS). Upregulation of dnaN likely results from PreS-induced remodeling of its 5′ structure, enhancing translation initiation. Through this regulatory activity, PreS promotes lambda DNA replication and supports progression of the lytic cycle.
+
+Key resources table
+
+REAGENT or RESOURCE	SOURCE	IDENTIFIER	
+Antibodies			
+Monocolonal anti-FLAG M2 antibody	Sigma Aldrich	Cat#F1804
+RRID:AB_262044	
+anti-BrdU	BD Biosciences	Cat#BD347580
+RRID:AB 400326	
+anti-ssDNA antibody	DSHB	Cat#autoanti-ssDNA
+RRID:AB_10805144	
+Monocolonal anti-FLAG M2 – Peroxidase (HRP)	Sigma Aldrich	Cat#A8592-2MG; RRID:AB_439702	
+Bacterial and virus strains			
+HM-34 (MG1655 (crl−) hfq-FLAG)	Melamed et al., 2016 1	N/A	
+AS-87 (MG1655 cI857:kan pE:GFP)	Oppenheim et al.,2005 2	N/A	
+AS-39 (BW25113 lamB::kan)	Baba et al., 2006 3	N/A	
+AS-78 (BW25113 recA::kan)	Baba et al., 2006 3	N/A	
+RN-10 (DY330 dnaA-SPA)	Butland et al., 2005 4	N/A	
+RN-9 (DY330 dnaN-SPA)	Butland et al., 2005 4	N/A	
+AS-92 (DY330 recF-SPA)	Butland et al., 2005 4	N/A	
+AS-35 (MG1655 (crl+) hfq::kan)	Melamed et al., 2020 5	N/A	
+AS-146 (MG1655)	Sutton et al., 2004 6	N/A	
+AS-147 (MG1655 dnaN159ts)	Sutton et al., 2004 6	N/A	
+TY044 (MG1655 + pALA3047)	Yao et al., 2021 7	N/A	
+AS-10 (MG1655 (crl−))	lab stock	ML001	
+AS-15 (MG1655 (crl+))	lab stock	ML002	
+AS-37 (MG1655 (crl−) hfq::kan)	current work	ML003	
+AS-36 (MG1655 (crl+) lambda lysogen WT)	current work	ML004	
+AS-65 (MG1655 (crl+) lambda lysogen preSΔseed)	current work	ML005	
+AS-64 (MG1655 (crl+) lambda lysogen ΔpreS)	current work	ML006	
+AS-88 (MG1655 CI857:kan)	current work	ML007	
+AS-96 (MG1655 (crl+) lamB::kan)	current work	ML008	
+AS-72 (MG1655 (crl+) lambda lysogen WT, lamB::kan)	current work	ML009	
+AS-73 (MG1655 (crl+) lambda lysogen preSΔseed, lamB::kan)	current work	ML010	
+AS-74 (MG1655 (crl+) lambda lysogen ΔpreS, lamB::kan)	current work	ML011	
+AS-93 (MG1655 (crl−) dnaA-SPA)	current work	ML012	
+AS-94 (MG1655 (crl−) dnaN-SPA)	current work	ML013	
+AS-95 (MG1655 (crl−) recF-SPA)	current work	ML014	
+AS-79 (MG1655 (crl+) recA::kan)	current work	ML015	
+AS-82 (MG1655 (crl+) lambda lysogen WT, recA::kan)	current work	ML016	
+AS-80 (MG1655 (crl+) lambda lysogen preSΔseed, recA::kan)	current work	ML017	
+AS-81 (MG1655 (crl+) lambda lysogen ΔpreS, recA::kan)	current work	ML018	
+AS-89 (MG1655 (crl+) lambda lysogen WT, hfq::kan)	current work	ML019	
+AS-90 (MG1655 (crl+) lambda lysogen preSΔseed, hfq::kan)	current work	ML020	
+AS-91 (MG1655 (crl+) lambda lysogen ΔpreS, hfq::kan)	current work	ML021	
+SMS-127 (MG1655 (crl+) rnb::kan)	Melamed et al., 2020 5	ML022	
+SMS-128 (MG1655 (crl+) rnc::cat)	Melamed et al., 2020 5	ML023	
+SMS-131 (BW25113 rnr::kan)	Baba et al., 2006 3	ML024	
+SMS-132 (BW25113 pnp::kan)	Baba et al., 2006 3	ML025	
+SMS-133 (MG1655 (crl+) rnc::cat)	Melamed et al., 2020 5	ML026	
+AS-128 (MG1655(crl+) dnaN:SPA)	current work	ML027	
+AS-129 (MG1655(crl+) lambda lysogen wt, dnaN:SPA)	current work	ML028	
+AS-130 (MG1655(crl+) lambda lysogen preSΔseed, dnaN:SPA)	current work	ML029	
+SMP-153 (MG1655 (crl−) + pXG0)	Urban et al., 2007 8	ML030	
+AS-5 (MG1655 (crl−) + pXG10-SF)	Corcoran et al., 2012 9	ML031	
+AS-76 (MG1655 (crl−)+ pNM46)	Walling et al., 2022 10	ML032	
+AS-24 (NEB5α + pCP20)	Cherepanov et al., 1995 11	ML033	
+AS-83 (DH5α + pGEM-3)	Promega Corporation	ML034	
+AS-104 (NEB5α + pKD46)	Datsenko et al., 2000 12	ML035	
+RN-1 (NEB5α + pXG10-SF-danAN)	current work	ML036	
+RN-14 (NEB5α + pXG10-SF-danAN M1)	current work	ML037	
+AS-97 (NEB5α + pXG10-SF-danAN M2)	current work	ML038	
+AS-127 (NEB5α + pXG10-SF-danAN M3)	current work	ML039	
+AS-158 (NEB5α + pXG10-SF-danAN M4)	current work	ML040	
+AS-161 (NEB5α + pXG10-SF-danAN M5)	current work	ML041	
+RN-7 (NEB5α + pXG10-SF-alaS)	current work	ML042	
+RN-16 (NEB5α + pXG10-SF-alaS M2)	current work	ML043	
+AS-75 (XL10-Gold + pNM46-PreS)	current work	ML044	
+RN-13 (XL10-Gold + pNM46-PreS-M1)	current work	ML045	
+RN-27 (XL10-Gold + pNM46-PreS-M2)	current work	ML046	
+AS-86 (DH5α + pGEM3-dnaN)	current work	ML047	
+AS - 46 (MG1655 + pEF21)	current work	ML048	
+AS - 47 (MG1655 + pEF21:Hfq)	current work	ML049	
+AS-132 (NEB5α + pXG10-SF-ubiD)	current work	ML050	
+AS-133 (NEB5α + pXG10-SF-dicA)	current work	ML051	
+AS-134 (NEB5α + pXG10-SF-rpsU-dnaG)	current work	ML052	
+AS-135 (NEB5α + pXG10-SF-ptsI)	current work	ML053	
+AS-136 (NEB5α + pXG10-SF-crr)	current work	ML054	
+AS-137 (NEB5α + pXG10-SF-ftsYE)	current work	ML055	
+RN-40 (MG1655 + tet-sacB cassate)	Li et al., 2013 13	ML056	
+PAS-1 Phage lambda	Susan Gottesman (NIH phage collection)	N/A	
+PAS-2 Phage lambda cI-	Kaiser, 1957 14	N/A	
+PAS-3 Phage lambda cI857:kan	current work	N/A	
+PAS-4 Phage lambda cIII tor864	Altuvia and Oppenheim, 1986 15	N/A	
+Phage lambda cI857 Sam7 stf::P1parS-kan	current work	N/A	
+Chemicals, peptides, and recombinant proteins			
+RIL-seq reagents	Melamed et al., 2008 16	N/A	
+Tri-reagent	Sigma Aldrich	Cat#T9424-100ML	
+RNase A and RNase T1	Thermo Fisher Scientific	Cat#EN0551	
+Acrylamdie 19:1 40%	Bio-Lab	Cat#000135233500	
+ULTRAhyb-Oligo Hybridization Buffer	Thermo Fisher	Cat#AM8663	
+γ-32P ATP	Scientific Enco	N/A	
+T4 Polynucleotide Kinase	New England Biolabs	Cat#M0201S	
+Microspin™ G-50 Columns	Cytivia	Cat#27533991	
+Mini-PROTEAN TGX Gels	Bio-Rad	Cat#4568086	
+Trans-blot turbo transfer pack	Bio-Rad	Cat#1704159	
+nitrocellulose membranes (Portran 0.2μm)	Protran	Cat#10401383	
+GlycoBlue Coprecipitant	Thermo Fisher	Cat#AM9516	
+Mph1103I	Scientific Thermo Fisher	Cat#ER0731	
+NheI	Scientific New England Biolabs	Cat#R3131S	
+HindIII	New England Biolabs	Cat#3104S	
+RiboRuler Low Range RNA ladder	Thermo Fisher	Cat#SM1831	
+Low Range ssRNA ladder	Scientific New England Biolabs	Cat#NO364S	
+Probe GT membrane	Bio-Rad	Cat#1620159	
+T7 RNA polymerase	New England Biolabs	Cat#M0251S	
+MMLV-RT	Promega	Cat#M1701	
+Mitomycin C	Thermo Fisher	Cat#BP25312	
+iTaq Universal Sybr Green	Scientific Bio-Rad	Cat#1725124	
+Recombanant RNase inhibitor	Takara	Cat#2313A	
+RNase T1	Boehringer	N/A	
+DMS	Fluka	Cat#41610	
+RppH	New England Biolabs	Cat#M0356S	
+5′-Phosphate-Dependent Exonuclease (TeX)	Lucigen	Cat#TER51020	
+5-bromo-2′-deoxyuridine (BrdU)	Sigma Aldrich	Cat#19-160	
+SM-buffer	Teknova	Cat#S0249	
+Isopropyl-β-thiogalactoside (IPTG)	Sigma Aldrich	Cat#I6758	
+Critical commercial assays			
+QuikChange Lightning Site-Directed Mutagenesis	Agilent	Cat# 210519-S	
+ClearBand ECL western blot substrate	Tivan	Cat#CB-250	
+Clarity Max Western ECL	Bio Rad	Cat#1705062	
+Sequenase version 2.0 DNA Polymerase	Thermo Fisher	Cat#70775Y200UN	
+Bacterial DNA isolation kit	Scientific Norgen Biotek	Cat#17900	
+NEBuilder assembly master mix	New England Biolabs	Cat#MSS20AA	
+RNA Clean & Concentrator-5	Zymo research	Cat#R1016	
+Turbo DNA-free kit	Thermo Fisher Scientific	Cat#AM2238	
+iScript cDNA Synthesis kit	Bio-Rad	Cat#1708891	
+Qubit dsDNA HS Assay kit	Thermo Fisher Scientific	Cat#Q32854	
+RNAprotect Bacteria Reagent	Qiagen	Cat#76506	
+Quick-RNA Fungal/Bacterial Microprep Kit	Zymo Research	Cat#R2010	
+RNA Library Prep kit	Watchmaker Genomics	Cat#7K0078-096	
+Deposited data			
+Unprocessed and uncompressed imaging data	This Study	DOI:10.17632/hbmnzwkk93.1	
+RIL-seq and RNA-seq Data	This Study	GEO: GSE279505	
+Synchronized RNA-seq Data	This Study	GEO: GSE298101	
+Experimental models: Organisms/strains			
+Oligonucleotides			
+RNA-seq oligos	Table S5	N/A	
+sRNA Overexpression Constructs oligos	Table S5	N/A	
+Cloning into pGEM-3 and GFP constructs oligos	Table S5	N/A	
+qPCR oligos	Table S5	N/A	
+Phage scarless mutation oligos	Table S5	N/A	
+Northern probes oligos	Table S5	N/A	
+Structural probing oligos	Table S5	N/A	
+gBlocks	Table S5	N/A	
+Recombinant DNA			
+pALA3047 (Plac-cfp-parB)	Yao et al., 2021 7	N/A	
+pXG0	Urban et al., 2007 8	N/A	
+pXG10-SF	Corcoran et al., 2012 9	N/A	
+pNM46	Walling et al., 2022 10	N/A	
+pCP20	Cherepanov et al., 1995 11	N/A	
+pGEM-3	Promega Corporation	N/A	
+pKD46	Datsenko et al., 2000 12	N/A	
+pXG10-SF-danAN	current work	N/A	
+pXG10-SF-danAN M1	current work	N/A	
+pXG10-SF-danAN M2	current work	N/A	
+pXG10-SF-danAN M3	current work	N/A	
+pXG10-SF-danAN M4	current work	N/A	
+pXG10-SF-danAN M5	current work	N/A	
+pXG10-SF-alaS	current work	N/A	
+pXG10-SF-alaS M2	current work	N/A	
+pNM46-PreS	current work	N/A	
+pNM46-PreS-M1	current work	N/A	
+pNM46-PreS-M2	current work	N/A	
+pGEM3-dnaN	current work	N/A	
+pEF21	Faigenbaum-Romm et al., 2020 17	N/A	
+pEF21-Hfq	Faigenbaum-Romm et al., 2020 17	N/A	
+pXG10-SF-ubiD	current work	N/A	
+pXG10-SF-dicA	current work	N/A	
+pXG10-SF-rpsU-dnaG	current work	N/A	
+pXG10-SF-ptsI	current work	N/A	
+pXG10-SF-crr	current work	N/A	
+pXG10-SF-ftsYE	current work	N/A	
+tet-sacB cassate	Li et al., 2013 13	N/A	
+Software and algorithms			
+Python RILSeq package (version 0.82)	Melamed et al., 2018 16	https://github.com/asafpr/RILseq	
+EcoCyc version 27.5	Karp et al., 2023 18	http://ecocyc.org	
+ImageJ software	ImageJ	http://rsb.info.nih.gov/ij	
+DESeq2 (version 1.36.0)	Love et al., 2014 19	https://bioconductor.org/packages/devel/bioc/html/DESeq2.html	
+Rcircos library (version 1.2.2)	Zhang et al., 2013 20	https://cloud.r-project.org/web/packages/RCircos/index.html	
+R (version 4.2.0)	Team et al., 2016 21	https://www.R-project.org/	
+MEME tool (version 5.4.1)	Bailey et al., 2009 22	https://meme-suite.org/meme/	
+MAST (version 5.4.1)	Bailey et al., 1998 23	https://meme-suite.org/meme/doc/mast.html	
+Python (version 3.9) package matplotlib-venn (version 0.11.7)	Hunter et al., 2007 24	https://pypi.org/project/matplotlib-venn/	
+Python (version 3.9) package matplotlib (version 3.5.1)	Hunter et al., 2007 24	https://pypi.org/project/matplotlib/3.5.1/	
+Python (version 3.9) package seaborn (version 0.11.2)	Waskom et al., 2021 25	https://seaborn.pydata.org/archive/0.11/index.html	
+Cytoscape (version 3.9.1)	Shannon et al., 2003 26	https://github.com/cytoscape/cytoscape/releases/3.9.1/	
+MEGA11 (version 11.0.13)	Tamura et al., 2021 27	https://www.megasoftware.net/	
+Kutools	ExtendOffice	https://www.extendoffice.com/product/kutools-for-excel.html	
+BLAST+ (version 2.12.0)	Camacho et al., 2009 28	https://www.ncbi.nlm.nih.gov/books/NBK131777/	
+Easyfig (version 2.2.5)	Sullivan et al., 2011 29	http://easyfig.sourceforge.net/	
+BWA (version 0.7.17)	Li et al., 2009 30	https://github.com/lh3/bwa	
+SAMtools (version 1.9)	Danecek et al., 2021 31	https://www.htslib.org/	
+BEDTools (version 2.28.0)	Quinlan et al., 2010 32	https://bedtools.readth	
+
+Highlights:
+
+RIL-seq reveals interkingdom RNA-RNA interactions in E. coli infected by phage lambda.
+
+The phage-encoded sRNA PreS, conserved across phages and bacteria, regulates essential host genes
+
+Upregulation of the DNA polymerase β sliding clamp by PreS promotes DNA replication
+
+PreS fine-tunes the phage lytic cycle.
+
+RESOURCE AVAILABILITY
+
+Lead contact
+
+Further information and requests for resources and reagents should be directed to and will be fulfilled by the Lead Contact, Sahar Melamed (sahar.melamed@mail.huji.ac.il).
+
+Materials availability
+
+Newly generated strains are available upon request and should be directed to the lead contact.
+
+Data and code availability Sequencing data have been deposited in GEO under accession numbers GSE279505 and GSE298101. Unprocessed and uncompressed imaging data have been deposited to Mendeley Data, accessible at: DOI: 10.17632/hbmnzwkk93.1. These data are publicly available as of the date of publication.
+
+This paper does not report original code.
+
+Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon request.
+
+CONFLICT OF INTEREST
+
+The authors declare no competing interests.
+
+Declaration of generative AI and AI-assisted technologies in the writing process
+
+During the preparation of this work the author(s) used ChatGPT and Perplexity to search for information, improve language and readability. After using, the author(s) reviewed and edited as needed and take(s) full responsibility for the content of the publication.
+
+Figure preparation
+
+Figures and the Supplementary Figures were created using BioRender (BioRender.com).
+
+This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final form. Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.
+
+
+References
+
+1. Bernheim A , and Sorek R (2020). The pan-immune system of bacteria: antiviral defence as a community resource. Nat Rev Microbiol 18, 113–119. 10.1038/s41579-019-0278-2.31695182
+2. Keen EC (2015). A century of phage research: bacteriophages and the shaping of modern biology. Bioessays 37, 6–9. 10.1002/bies.201400152.25521633 PMC4418462
+3. Comeau AM , Hatfull GF , Krisch HM , Lindell D , Mann NH , and Prangishvili D (2008). Exploring the prokaryotic virosphere. Res Microbiol 159, 306–313. 10.1016/j.resmic.2008.05.001.18639443
+4. Dion MB , Oechslin F , and Moineau S (2020). Phage diversity, genomics and phylogeny. Nat Rev Microbiol 18, 125–138. 10.1038/s41579-019-0311-5.32015529
+5. Boyd EF (2012). Bacteriophage-encoded bacterial virulence factors and phage-pathogenicity island interactions. Adv Virus Res 82, 91–118. 10.1016/b978-0-12-394621-8.00014-5.22420852
+6. Colavecchio A , Cadieux B , Lo A , and Goodridge LD (2017). Bacteriophages contribute to the spread of antibiotic resistance genes among foodborne pathogens of the Enterobacteriaceae family - A review. Front Microbiol 8, 1108. 10.3389/fmicb.2017.01108.28676794 PMC5476706
+7. Penadés JR , Chen J , Quiles-Puchalt N , Carpena N , and Novick RP (2015). Bacteriophage-mediated spread of bacterial virulence genes. Curr Opin Microbiol 23, 171–178. 10.1016/j.mib.2014.11.019.25528295
+8. Gandon S (2016). Why be temperate: Lessons from bacteriophage λ. Trends Microbiol 24, 356–365. 10.1016/j.tim.2016.02.008.26946976
+9. Casjens SR , and Hendrix RW (2015). Bacteriophage lambda: Early pioneer and still relevant. Virology 479-480, 310–330. 10.1016/j.virol.2015.02.010.25742714 PMC4424060
+10. Lewis DEA , and Adhya S Research on phage λ: a lucky choice. EcoSal Plus 0, eesp-0014-2023. doi:10.1128/ecosalplus.esp-0014-2023.PMC11636356 39665539
+11. Takahashi S (1974). The rolling-circle replicative structure of a bacteriophage lambda DNA. Biochem Biophys Res Commun 61, 657–663. 10.1016/0006-291x(74)91007-9.4455240
+12. Takahashi S (1977). Rolling circle replicative structure of bacteriophage lambda DNA in a recombination deficient system. Mol Gen Genet 152, 201–204. 10.1007/bf00268818.876025
+13. Aksyuk AA , and Rossmann MG (2011). Bacteriophage assembly. Viruses 3, 172–203. 10.3390/v3030172.21994726 PMC3185693
+14. Oppenheim AB , Kobiler O , Stavans J , Court DL , and Adhya S (2005). Switches in Bacteriophage Lambda Development. Annu Rev Genet 39, 409–429. 10.1146/annurev.genet.39.073003.113656.16285866
+15. Shao Q , Trinh JT , and Zeng L (2019). High-resolution studies of lysis-lysogeny decision-making in bacteriophage lambda. J Biol Chem 294, 3343–3349. 10.1074/jbc.TM118.003209.30242122 PMC6416446
+16. Zeng L , Skinner SO , Zong C , Sippy J , Feiss M , and Golding I (2010). Decision making at a subcellular level determines the outcome of bacteriophage infection. Cell 141, 682–691. 10.1016/j.cell.2010.03.034.20478257 PMC2873970
+17. Gottesman S , and Gottesman ME (1975). Elements involved in site-specific recombination in bacteriophage lambda. J Mol Biol 91, 489–499. 10.1016/0022-2836(75)90275-2.807737
+18. Guler P , Bendori SO , Borenstein T , Aframian N , Kessel A , and Eldar A (2024). Arbitrium communication controls phage lysogeny through non-lethal modulation of a host toxin-antitoxin defence system. Nat Microbiol 9, 150–160. 10.1038/s41564-023-01551-3.38177304
+19. Erez Z , Steinberger-Levy I , Shamir M , Doron S , Stokar-Avihail A , Peleg Y , Melamed S , Leavitt A , Savidor A , Albeck S , (2017). Communication between viruses guides lysis–lysogeny decisions. Nature 541, 488. 10.1038/nature21049.28099413 PMC5378303
+20. Hör J , Matera G , Vogel J , Gottesman S , and Storz G (2020). Trans-acting small RNAs and their effects on gene expression in Escherichia coli and Salmonella enterica. EcoSal Plus 9. 10.1128/ecosalplus.ESP-0030-2019.PMC7112153 32213244
+21. Papenfort K , and Melamed S (2023). Small RNAs, large networks: Posttranscriptional regulons in gram-negative bacteria. Annu Rev Microbiol 77, 23–43. 10.1146/annurev-micro-041320-025836.36944261
+22. Wong J , Pang I , Wilkins M , and Tree JJ (2018). Systems-level analysis of bacterial regulatory small RNA networks. In Systems Biology, Rajewsky N , Jurga S , and Barciszewski J , eds. (Springer International Publishing), pp. 97–127. 10.1007/978-3-319-92967-5_6.
+23. Silverman A , and Melamed S (2025). Biological Insights from RNA-RNA Interactomes in Bacteria, as Revealed by RIL-seq. Methods Mol Biol 2866, 189–206. 10.1007/978-1-0716-4192-7_11.39546204
+24. Holmqvist E , and Wagner EGH (2017). Impact of bacterial sRNAs in stress responses. Biochem Soc Trans 45, 1203–1212. 10.1042/bst20160363.29101308 PMC5730939
+25. Altuvia S , Storz G , and Papenfort K (2018). Cross-regulation between bacteria and phages at a posttranscriptional level. Microbiol Spectr 6. doi:10.1128/microbiolspec.RWR-0027-2018.PMC6209105 30006994
+26. Hayes S , and Szybalski W (1973). Control of short leftward transcripts from the immunity and ori regions in induced coliphage lambda. Mol Genet Genomics 126, 275–290. 10.1007/BF00269438.4784811
+27. Krinke L , and Wulff DL (1990). RNase III-dependent hydrolysis of lambda cII-O gene mRNA mediated by lambda OOP antisense RNA. Genes Dev 4, 2223–2233. 10.1101/gad.4.12a.2223.2148537
+28. Bloch S , Lewandowska N , Węgrzyn G , and Nejman-Faleńczyk B (2021). Bacteriophages as sources of small non-coding RNA molecules. Plasmid, 102527. 10.1016/j.plasmid.2020.102527.32768406
+29. Putzeys L , Wicke L , Brandão A , Boon M , Pires DP , Azeredo J , Vogel J , Lavigne R , and Gerovac M (2024). Exploring the transcriptional landscape of phage–host interactions using novel high-throughput approaches. Current Opinion in Microbiology 77, 102419. 10.1016/j.mib.2023.102419.38271748 PMC10884466
+30. Owen SV , Wenner N , Canals R , Makumi A , Hammarlöf DL , Gordon MA , Aertsen A , Feasey NA , and Hinton JC (2017). Characterization of the prophage repertoire of african Salmonella Typhimurium ST313 reveals high levels of spontaneous induction of novel phage BTP1. Front Microbiol 8, 235. 10.3389/fmicb.2017.00235.28280485 PMC5322425
+31. Owen SV , Canals R , Wenner N , Hammarlöf DL , Kröger C , and Hinton JCD (2020). A window into lysogeny: revealing temperate phage biology with transcriptomics. Microb Genom 6. 10.1099/mgen.0.000330.PMC7067206 32022660
+32. Melamed S , Faigenbaum-Romm R , Peer A , Reiss N , Shechter O , Bar A , Altuvia Y , Argaman L , and Margalit H (2018). Mapping the small RNA interactome in bacteria using RIL-seq. Nat Protoc 13, 1–33. 10.1038/nprot.2017.115.29215635
+33. Love MI , Huber W , and Anders S (2014). Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biol 15, 550. 10.1186/s13059-014-0550-8.25516281 PMC4302049
+34. Liu X , Jiang H , Gu Z , and Roberts JW (2013). High-resolution view of bacteriophage lambda gene expression by ribosome profiling. Proc Natl Acad Sci U S A 110, 11928–11933. 10.1073/pnas.1309739110.23812753 PMC3718152
+35. Veses-Garcia M , Liu X , Rigden DJ , Kenny JG , McCarthy AJ , and Allison HE (2015). Transcriptomic analysis of Shiga-toxigenic bacteriophage carriage reveals a profound regulatory effect on acid resistance in Escherichia coli. Appl Environ Microbiol 81, 8118–8125. 10.1128/aem.02034-15.26386055 PMC4651098
+36. Wang B , Lin AE , Yuan J , Novak KE , Koch MD , Wingreen NS , Adamson B , and Gitai Z (2023). Single-cell massively-parallel multiplexed microbial sequencing (M3-seq) identifies rare bacterial populations and profiles phage infection. Nature Microbiology 8, 1846–1862. 10.1038/s41564-023-01462-3.PMC10522482 37653008
+37. Chao Y , and Vogel J (2016). A 3' UTR-derived small RNA provides the regulatory noncoding arm of the inner membrane stress response. Mol Cell 61, 352–363. 10.1016/j.molcel.2015.12.023.26805574
+38. Grabowicz M , Koren D , and Silhavy TJ (2016). The CpxQ sRNA negatively regulates Skp to prevent mistargeting of β-barrel outer membrane proteins into the cytoplasmic membrane. mBio 7, e00312–00316. 10.1128/mBio.00312-16.27048800 PMC4817254
+39. Danese PN , and Silhavy TJ (1998). CpxP, a stress-combative member of the Cpx regulon. J Bacteriol 180, 831–839. 10.1128/jb.180.4.831-839.1998.9473036 PMC106961
+40. Murphy LD , Rosner JL , Zimmerman SB , and Esposito D (1999). Identification of two new proteins in spermidine nucleoids isolated from Escherichia coli. J Bacteriol 181, 3842–3844. 10.1128/jb.181.12.3842-3844.1999.10368163 PMC93866
+41. Drees JC , Chitteni-Pattu S , McCaslin DR , Inman RB , and Cox MM (2006). Inhibition of RecA protein function by the RdgC protein from Escherichia coli. J Biol Chem 281, 4708–4717. 10.1074/jbc.M513592200.16377615
+42. Roberts JW , and Roberts CW (1975). Proteolytic cleavage of bacteriophage lambda repressor in induction. Proc Natl Acad Sci U S A 72, 147–151. 10.1073/pnas.72.1.147.1090931 PMC432259
+43. Adams PP , Baniulyte G , Esnault C , Chegireddy K , Singh N , Monge M , Dale RK , Storz G , and Wade JT (2021). Regulatory roles of Escherichia coli 5' UTR and ORF-internal RNAs detected by 3' end mapping. Elife 10, e62438. 10.7554/eLife.62438.33460557 PMC7815308
+44. Zabeau M , Friedman S , Van Montagu M , and Schell J (1980). The ral gene of phage lambda. I. Identification of a non-essential gene that modulates restriction and modification in E. coli. Mol Gen Genet 179, 63–73. 10.1007/bf00268447.6256607
+45. Loenen WA , and Murray NE (1986). Modification enhancement by the restriction alleviation protein (Ral) of bacteriophage lambda. J Mol Biol 190, 11–22. 10.1016/0022-2836(86)90071-9.3023633
+46. Hyman HC , and Honigman A (1986). Transcription termination and processing sites in the bacteriophage λ pL operon. J Mol Biol 189, 131–141. 10.1016/0022-2836(86)90386-4.3023619
+47. Lebowitz P , Weissman SM , and Radding CM (1971). Nucleotide sequence of a ribonucleic acid transcribed in vitro from lambda phage deoxyribonucleic acid. J Biol Chem 246, 5120–5139.4936723
+48. Sklar J , Yot P , and Weissman SM (1975). Determination of genes, restriction sites, and DNA sequences surrounding the 6S RNA template of bacteriophage lambda. Proc Natl Acad Sci U S A 72, 1817–1821. 10.1073/pnas.72.5.1817.1098044 PMC432637
+49. Cavanagh AT , and Wassarman KM (2014). 6S RNA, a global regulator of transcription in Escherichia coli, Bacillus subtilis, and beyond. Annu Rev Microbiol 68, 45–60. 10.1146/annurev-micro-092611-150135.24742053
+50. Roberts JW , Yarnell W , Bartlett E , Guo J , Marr M , Ko DC , Sun H , and Roberts CW (1998). Antitermination by bacteriophage lambda Q protein. Cold Spring Harb Symp Quant Biol 63, 319–325. 10.1101/sqb.1998.63.319.10384296
+51. Sussman R , and Jacob F (1962). [On a thermosensitive repression system in the Escherichia coli lambda bacteriophage]. C R Hebd Seances Acad Sci 254, 1517–1519.13918507
+52. Altuvia S , and Oppenheim AB (1986). Translational regulatory signals within the coding region of the bacteriophage lambda cIII gene. Journal of Bacteriology 167, 415–419. doi:10.1128/jb.167.1.415-419.1986.2941413 PMC212897
+53. Gottesman ME , and Weisberg RA (2004). Little lambda, who made thee? Microbiol Mol Biol Rev 68, 796–813. 10.1128/mmbr.68.4.796-813.2004.15590784 PMC539004
+54. Melamed S , Adams PP , Zhang A , Zhang H , and Storz G (2020). RNA-RNA interactomes of ProQ and Hfq reveal overlapping and competing roles. Mol Cell 77, 411–425.e417. 10.1016/j.molcel.2019.10.022.31761494 PMC6980735
+55. Melamed S , Peer A , Faigenbaum-Romm R , Gatt YE , Reiss N , Bar A , Altuvia Y , Argaman L , and Margalit H (2016). Global mapping of small RNA-target interactions in bacteria. Mol Cell 63, 884–897. 10.1016/j.molcel.2016.07.026.27588604 PMC5145812
+56. Walling LR , Kouse AB , Shabalina SA , Zhang H , and Storz G (2022). A 3′ UTR-derived small RNA connecting nitrogen and carbon metabolism in enteric bacteria. Nucleic Acids Research 50, 10093–10109. 10.1093/nar/gkac748.36062564 PMC9508815
+57. Yao T , Coleman S , Nguyen TVP , Golding I , and Igoshin OA (2021). Bacteriophage self-counting in the presence of viral replication. Proc Natl Acad Sci U S A 118. 10.1073/pnas.2104163118.PMC8713767 34916284
+58. Court DL , Gan J , Liang YH , Shaw GX , Tropea JE , Costantino N , Waugh DS , and Ji X (2013). RNase III: Genetics and function; structure and mechanism. Annu Rev Genet 47, 405–431. 10.1146/annurev-genet-110711-155618.24274754 PMC6311387
+59. Ragunathan PT , Ng Kwan Lim E , Ma X , Massé E , and Vanderpool CK (2023). Mechanisms of Regulation of Cryptic Prophage-Encoded Gene Products in Escherichia coli. J Bacteriol 205, e0012923. 10.1128/jb.00129-23.37439671 PMC10448788
+60. Faubladier M , Cam K , and Bouché J-P (1990). Escherichia coli cell division inhibitor DicF-RNA of the dicB operon: Evidence for its generation in vivo by transcription termination and by RNase III and RNase E-dependent processing. Journal of Molecular Biology 212, 461–471. 10.1016/0022-2836(90)90325-G.1691299
+61. Bailey TL , Boden M , Buske FA , Frith M , Grant CE , Clementi L , Ren J , Li WW , and Noble WS (2009). MEME SUITE: tools for motif discovery and searching. Nucleic Acids Res 37, W202–208. 10.1093/nar/gkp335.19458158 PMC2703892
+62. Bailey TL , and Gribskov M (1998). Combining evidence using p-values: application to sequence homology searches. Bioinformatics 14, 48–54. 10.1093/bioinformatics/14.1.48.9520501
+63. Randall-Hazelbauer L , and Schwartz M (1973). Isolation of the bacteriophage lambda receptor from Escherichia coli. J Bacteriol 116, 1436–1446. 10.1128/jb.116.3.1436-1446.1973.4201774 PMC246503
+64. Zong C , So L.h. , Sepúlveda LA , Skinner SO , and Golding I (2010). Lysogen stability is determined by the frequency of activity bursts from the fate-determining gene. Molecular Systems Biology 6, 440. 10.1038/msb.2010.96.21119634 PMC3010116
+65. Geng Y , Nguyen TVP , Homaee E , and Golding I (2024). Using bacterial population dynamics to count phages and their lysogens. Nat Commun 15, 7814. 10.1038/s41467-024-51913-6.39242585 PMC11379933
+66. Karp PD , Paley S , Caspi R , Kothari A , Krummenacker M , Midford PE , Moore LR , Subhraveti P , Gama-Castro S , Tierrafria VH , (2023). The EcoCyc Database (2023). EcoSal Plus 11, eesp-0002-2023. doi:10.1128/ecosalplus.esp-0002-2023.PMC10729931 37220074
+67. Goodall ECA , Robinson A , Johnston IG , Jabbari S , Turner KA , Cunningham AF , Lund PA , Cole JA , and Henderson IR (2018). The essential genome of Escherichia coli K-12. mBio 9. 10.1128/mBio.02096-17.PMC5821084 29463657
+68. Corcoran CP , Podkaminski D , Papenfort K , Urban JH , Hinton JCD , and Vogel J (2012). Superfolder GFP reporters validate diverse new mRNA targets of the classic porin regulator, MicF RNA. Molecular Microbiology 84, 428–445. 10.1111/j.1365-2958.2012.08031.x.22458297
+69. Urban JH , and Vogel J (2009). A green fluorescent protein (GFP)-based plasmid system to study post-transcriptional control of gene expression in vivo. Methods Mol Biol 540, 301–319. 10.1007/978-1-59745-558-9_22.19381569
+70. Hansen FG , and Atlung T (2018). The DnaA Tale. Front Microbiol 9, 319. 10.3389/fmicb.2018.00319.29541066 PMC5835720
+71. Stukenberg PT , Studwell-Vaughan PS , and O'Donnell M (1991). Mechanism of the sliding beta-clamp of DNA polymerase III holoenzyme. J Biol Chem 266, 11328–11334.2040637
+72. Putney SD , Sauer RT , and Schimmel PR (1981). Purification and properties of alanine tRNA synthetase from Escherichia coli - A tetramer of identical subunits. J Biol Chem 256, 198–204.7005211
+73. Lawarée E , Jankevicius G , Cooper C , Ahel I , Uphoff S , and Tang CM (2020). DNA ADP-Ribosylation Stalls Replication and Is Reversed by RecF-Mediated Homologous Recombination and Nucleotide Excision Repair. Cell Reports 30, 1373–1384.e1374. 10.1016/j.celrep.2020.01.014.32023456 PMC7003065
+74. Sutton MD (2004). The Escherichia coli dnaN159 mutant displays altered DNA polymerase usage and chronic SOS induction. J Bacteriol 186, 6738–6748. 10.1128/jb.186.20.6738-6748.2004.15466025 PMC522196
+75. Katayama T , Kubota T , Kurokawa K , Crooke E , and Sekimizu K (1998). The Initiator Function of DnaA Protein Is Negatively Regulated by the Sliding Clamp of the E. coli Chromosomal Replicase. Cell 94, 61–71. 10.1016/S0092-8674(00)81222-2.9674428
+76. MH d.S. , and J. v.D. (2013). A Prelude to Translational (Re)Initiation (Landes Bioscience). https://www.ncbi.nlm.nih.gov/books/NBK6299/.
+77. Saito K , Green R , and Buskirk AR (2020). Translational initiation in E. coli occurs at the correct sites genome-wide in the absence of mRNA-rRNA base-pairing. Elife 9. 10.7554/eLife.55002.PMC7043885 32065583
+78. Armengod ME , García-Sogo M , and Lambíes E (1988). Transcriptional organization of the dnaN and recF genes of Escherichia coli K-12. J Biol Chem 263, 12109–12114.2841344
+79. Villarroya M , Pérez-Roger I , Macián F , and Armengod ME (1998). Stationary phase induction of dnaN and recF, two genes of Escherichia coli involved in DNA replication and repair. Embo j 17, 1829–1837. 10.1093/emboj/17.6.1829.9501104 PMC1170530
+80. Deana A , and Belasco JG (2005). Lost in translation: the influence of ribosomes on bacterial mRNA decay. Genes Dev 19, 2526–2533. 10.1101/gad.1348805.16264189
+81. Ondov BD , Starrett GJ , Sappington A , Kostic A , Koren S , Buck CB , and Phillippy AM (2019). Mash Screen: high-throughput sequence containment estimation for genome discovery. Genome Biol 20, 232. 10.1186/s13059-019-1841-x.31690338 PMC6833257
+82. Ondov BD , Treangen TJ , Melsted P , Mallonee AB , Bergman NH , Koren S , and Phillippy AM (2016). Mash: fast genome and metagenome distance estimation using MinHash. Genome Biol 17, 132. 10.1186/s13059-016-0997-x.27323842 PMC4915045
+83. Albanese D , and Donati C (2017). Strain profiling and epidemiology of bacterial species from metagenomic sequencing. Nat Commun 8, 2260. 10.1038/s41467-017-02209-5.29273717 PMC5741664
+84. Nassar LR , Barber GP , Benet-Pagès A , Casper J , Clawson H , Diekhans M , Fischer C , Gonzalez JN , Hinrichs AS , Lee BT , (2023). The UCSC Genome Browser database: 2023 update. Nucleic Acids Res 51, D1188–d1195. 10.1093/nar/gkac1072.36420891 PMC9825520
+85. McQuail J , Matera G , Gräfenhan T , Bischler T , Haberkant P , Stein F , Vogel J , and Wigneshweraraj S (2023). Global Hfq-mediated RNA interactome of nitrogen starved Escherichia coli uncovers a conserved post-transcriptional regulatory axis required for optimal growth recovery. Nucleic Acids Research 52, 2323–2339. 10.1093/nar/gkad1211.PMC10954441 38142457
+86. Murray NE , and Gann A (2007). What has phage lambda ever done for us? Current Biology 17, R305–R312. 10.1016/j.cub.2007.03.006.17470340
+87. Brown DR , Sheppard CM , Burchell L , Matthews S , and Wigneshweraraj S (2016). The Xp10 Bacteriophage Protein P7 Inhibits Transcription by the Major and Major Variant Forms of the Host RNA Polymerase via a Common Mechanism. J Mol Biol 428, 3911–3919. 10.1016/j.jmb.2016.08.004.27515396 PMC5053324
+88. Gorbea C , Elhakiem A , and Cazalla D (2023). Shaping the host cell environment with viral noncoding RNAs. Semin Cell Dev Biol 146, 20–30. 10.1016/j.semcdb.2022.12.008.36581481 PMC10101873
+89. Diggins NL , and Hancock MH (2023). Viral miRNA regulation of host gene expression. Semin Cell Dev Biol 146, 2–19. 10.1016/j.semcdb.2022.11.007.36463091 PMC10101914
+90. Stern-Ginossar N , Elefant N , Zimmermann A , Wolf DG , Saleh N , Biton M , Horwitz E , Prokocimer Z , Prichard M , Hahn G , (2007). Host immune system gene targeting by a viral miRNA. Science 317, 376–381. 10.1126/science.1140956.17641203 PMC4283197
+91. Carl JW , Trgovcich J , and Hannenhalli S (2013). Widespread evidence of viral miRNAs targeting host pathways. BMC Bioinformatics 14, S3. 10.1186/1471-2105-14-S2-S3.PMC3549839 23369080
+92. Quillardet P , Rouffaud MA , and Bouige P (2003). DNA array analysis of gene expression in response to UV irradiation in Escherichia coli. Res Microbiol 154, 559572. 10.1016/s0923-2508(03)00149-9.14527657
+93. Quiñones A , Kaasch J , Kaasch M , and Messer W (1989). Induction of dnaN and dnaQ gene expression in Escherichia coli by alkylation damage to DNA. Embo j 8, 587–593. 10.1002/j.1460-2075.1989.tb03413.x.2656258 PMC400845
+94. Tadmor Y , Bergstein M , Skaliter R , Shwartz H , and Livneh Z (1994). Beta subunit of DNA polymerase III holoenzyme is induced upon ultraviolet irradiation or nalidixic acid treatment of Escherichia coli. Mutat Res 308, 53–64. 10.1016/0027-5107(94)90198-8.7516486
+95. Kavoor A , Kelly P , and Ibba M (2022). Escherichia coli alanyl-tRNA synthetase maintains proofreading activity and translational accuracy under oxidative stress. Journal of Biological Chemistry 298. 10.1016/j.jbc.2022.101601.PMC8857464 35065077
+96. Sy BM , Lan R , and Tree JJ (2020). Early termination of the Shiga toxin transcript generates a regulatory small RNA. Proceedings of the National Academy of Sciences 117, 25055–25065. doi:10.1073/pnas.2006730117.PMC7547250 32968018
+97. Sprenger M , Siemers M , Krautwurst S , and Papenfort K (2024). Small RNAs direct attack and defense mechanisms in a quorum sensing phage and its host. Cell Host Microbe 32, 727–738.e726. 10.1016/j.chom.2024.03.010.38579715
+98. Jaglan AB , Anand T , Verma R , Vashisth M , Virmani N , Bera BC , Vaid RK , and Tripathi BN (2022). Tracking the phage trends: A comprehensive review of applications in therapy and food production. Frontiers in Microbiology 13. 10.3389/fmicb.2022.993990.PMC9730251 36504807
+99. Yerushalmy O , Khalifa L , Gold N , Rakov C , Alkalay-Oren S , Adler K , Ben-Porat S , Kraitman R , Gronovich N , Shulamit Ginat K , (2020). The Israeli Phage Bank (IPB). Antibiotics (Basel) 9. 10.3390/antibiotics9050269.PMC7277922 32455557
+100. Nagel T , Musila L , Muthoni M , Nikolich M , Nakavuma JL , and Clokie MR (2022). Phage banks as potential tools to rapidly and cost-effectively manage antimicrobial resistance in the developing world. Curr Opin Virol 53, 101208. 10.1016/j.coviro.2022.101208.35180534 PMC8846552
+101. Maffei E , Shaidullina A , Burkolter M , Heyer Y , Estermann F , Druelle V , Sauer P , Willi L , Michaelis S , Hilbi H , (2021). Systematic exploration of Escherichia coli phage-host interactions with the BASEL phage collection. PLoS Biol 19, e3001424. 10.1371/journal.pbio.3001424.34784345 PMC8594841
+102. Gendron P , Lemieux S , and Major F (2001). Quantitative analysis of nucleic acid three-dimensional structures. J Mol Biol 308, 919–936. 10.1006/jmbi.2001.4626.11352582
+103. Shannon P , Markiel A , Ozier O , Baliga NS , Wang JT , Ramage D , Amin N , Schwikowski B , and Ideker T (2003). Cytoscape: a software environment for integrated models of biomolecular interaction networks. Genome Res 13, 2498–2504. 10.1101/gr.1239303.14597658 PMC403769
+104. Kaiser AD (1957). Mutations in a temperate bacteriophage affecting its ability to lysogenize Escherichia coli. Virology 3, 42–61.13409759 10.1016/0042-6822(57)90022-3
+105. Baba T , Ara T , Hasegawa M , Takai Y , Okumura Y , Baba M , Datsenko KA , Tomita M , Wanner BL , and Mori H (2006). Construction of Escherichia coli K-12 in-frame, single-gene knockout mutants: the Keio collection. Mol Syst Biol 2, 2006.0008. 10.1038/msb4100050.PMC1681482 16738554
+106. Cherepanov PP , and Wackernagel W (1995). Gene disruption in Escherichia coli: TcR and KmR cassettes with the option of Flp-catalyzed excision of the antibiotic-resistance determinant. Gene 158, 9–14. 10.1016/0378-1119(95)00193-a.7789817
+107. Li X. t. , Thomason LC , Sawitzke JA , Costantino N , and Court DL (2013). Positive and negative selection using the tetA-sacB cassette: recombineering and P1 transduction in Escherichia coli. Nucleic Acids Research 41, e204–e204. 10.1093/nar/gkt1075.24203710 PMC3905872
+108. Datsenko KA , and Wanner BL (2000). One-step inactivation of chromosomal genes in Escherichia coli K-12 using PCR products. Proceedings of the National Academy of Sciences 97, 6640–6645. doi:10.1073/pnas.120163297.PMC18686 10829079
+109. Hendrix RW (1983). Lambda II (Cold Spring Harbor Laboratory).
+110. Sambrook J , and Russell DW (2001). Molecular Cloning: A Laboratory Manual, 3rd Edition (Cold Spring Harbor Laboratory Press).
+111. Shishkin AA , Giannoukos G , Kucukural A , Ciulla D , Busby M , Surka C , Chen J , Bhattacharyya RP , Rudy RF , Patel MM , (2015). Simultaneous generation of many RNA-seq libraries in a single reaction. Nature methods 12, 323–325. 10.1038/nmeth.3313.25730492 PMC4712044
+112. Li H , and Durbin R (2009). Fast and accurate short read alignment with Burrows-Wheeler transform. Bioinformatics 25, 1754–1760. 10.1093/bioinformatics/btp324.19451168 PMC2705234
+113. Danecek P , Bonfield JK , Liddle J , Marshall J , Ohan V , Pollard MO , Whitwham A , Keane T , McCarthy SA , Davies RM , and Li H (2021). Twelve years of SAMtools and BCFtools. Gigascience 10. 10.1093/gigascience/giab008.PMC7931819 33590861
+114. Quinlan AR , and Hall IM (2010). BEDTools: a flexible suite of utilities for comparing genomic features. Bioinformatics 26, 841–842. 10.1093/bioinformatics/btq033.20110278 PMC2832824
+115. Wagner GP , Kin K , and Lynch VJ (2012). Measurement of mRNA abundance using RNA-seq data: RPKM measure is inconsistent among samples. Theory Biosci 131, 281–285. 10.1007/s12064-012-0162-3.22872506
+116. Nguyen TVP , Wu Y , Yao T , Trinh JT , Zeng L , Chemla YR , and Golding I (2024). Coinfecting phages impede each other's entry into the cell. Curr Biol 34, 2841–2853.e2818. 10.1016/j.cub.2024.05.032.38878771 PMC11233250
+117. Kourilsky P (1973). Lysogenization by bacteriophage lambda. I. Multiple infection and the lysogenic response. Mol Gen Genet 122, 183–195. 10.1007/bf00435190.4573866
+118. Zhang H , Meltzer P , and Davis S (2013). RCircos: an R package for Circos 2D track plots. BMC Bioinformatics 14, 244. 10.1186/1471-2105-14-244.23937229 PMC3765848
+119. Bailey TL , and Elkan C (1994). Fitting a mixture model by expectation maximization to discover motifs in biopolymers. Proc Int Conf Intell Syst Mol Biol 2, 28–36.7584402
+120. Hunter JD (2007). Matplotlib: A 2D graphics environment. Computing in science & engineering 9, 90–95.
+121. Waskom ML (2021). Seaborn: statistical data visualization. Journal of Open Source Software 6, 3021.
+122. Camacho C , Coulouris G , Avagyan V , Ma N , Papadopoulos J , Bealer K , and Madden TL (2009). BLAST+: architecture and applications. BMC Bioinformatics 10, 421. 10.1186/1471-2105-10-421.20003500 PMC2803857
+123. Olson RD , Assaf R , Brettin T , Conrad N , Cucinell C , Davis JJ , Dempsey DM , Dickerman A , Dietrich EM , Kenyon RW , (2023). Introducing the Bacterial and Viral Bioinformatics Resource Center (BV-BRC): a resource combining PATRIC, IRD and ViPR. Nucleic Acids Res 51, D678–d689. 10.1093/nar/gkac1003.36350631 PMC9825582
+124. Tamura K , Stecher G , and Kumar S (2021). MEGA11: Molecular Evolutionary Genetics Analysis Version 11. Mol Biol Evol 38, 3022–3027. 10.1093/molbev/msab120.33892491 PMC8233496
+125. Sullivan MJ , Petty NK , and Beatson SA (2011). Easyfig: a genome comparison visualizer. Bioinformatics 27, 1009–1010. 10.1093/bioinformatics/btr039.21278367 PMC3065679
+Key Resources Table References
+
+1. Melamed S , Peer A , Faigenbaum-Romm R , Gatt YE , Reiss N , Bar A , Altuvia Y , Argaman L , and Margalit H (2016). Global mapping of small RNA-target interactions in bacteria. Mol Cell 63, 884–897. 10.1016/j.molcel.2016.07.026.27588604 PMC5145812
+2. Oppenheim AB , Kobiler O , Stavans J , Court DL , and Adhya S (2005). Switches in Bacteriophage Lambda Development. Annu Rev Genet 39, 409–429. 10.1146/annurev.genet.39.073003.113656.16285866
+3. Baba T , Ara T , Hasegawa M , Takai Y , Okumura Y , Baba M , Datsenko KA , Tomita M , Wanner BL , and Mori H (2006). Construction of Escherichia coli K-12 in-frame, single-gene knockout mutants: the Keio collection. Mol Syst Biol 2, 2006.0008. 10.1038/msb4100050.PMC1681482 16738554
+4. Butland G , Peregrín-Alvarez JM , Li J , Yang W , Yang X , Canadien V , Starostine A , Richards D , Beattie B , Krogan N , (2005). Interaction network containing conserved and essential protein complexes in Escherichia coli. Nature 433, 531–537. 10.1038/nature03239.15690043
+5. Melamed S , Adams PP , Zhang A , Zhang H , and Storz G (2020). RNA-RNA interactomes of ProQ and Hfq reveal overlapping and competing roles. Mol Cell 77, 411–425.e417. 10.1016/j.molcel.2019.10.022.31761494 PMC6980735
+6. Sutton MD (2004). The Escherichia coli dnaN159 mutant displays altered DNA polymerase usage and chronic SOS induction. J Bacteriol 186, 6738–6748. 10.1128/jb.186.20.6738-6748.2004.15466025 PMC522196
+7. Yao T , Coleman S , Nguyen TVP , Golding I , and Igoshin OA (2021). Bacteriophage self-counting in the presence of viral replication. Proc Natl Acad Sci U S A 118. 10.1073/pnas.2104163118.PMC8713767 34916284
+8. Urban JH , and Vogel J (2007). Translational control and target recognition by Escherichia coli small RNAs in vivo. Nucleic Acids Res 35, 1018–1037. 10.1093/nar/gkl1040.17264113 PMC1807950
+9. Corcoran CP , Podkaminski D , Papenfort K , Urban JH , Hinton JCD , and Vogel J (2012). . Superfolder GFP reporters validate diverse new mRNA targets of the classic porin regulator, MicF RNA. Molecular Microbiology 84, 428–445. 10.1111/j.1365-2958.2012.08031.x.22458297
+10. Walling LR , Kouse AB , Shabalina SA , Zhang H , and Storz G (2022). A 3′ UTR-derived small RNA connecting nitrogen and carbon metabolism in enteric bacteria. Nucleic Acids Research 50, 10093–10109. 10.1093/nar/gkac748.36062564 PMC9508815
+11. Cherepanov PP , and Wackernagel W (1995). Gene disruption in Escherichia coli: TcR and KmR cassettes with the option of Flp-catalyzed excision of the antibiotic-resistance determinant. Gene 158, 9–14. 10.1016/0378-1119(95)00193-a.7789817
+12. Datsenko KA , and Wanner BL (2000). One-step inactivation of chromosomal genes in Escherichia coli K-12 using PCR products. Proceedings of the National Academy of Sciences 97, 6640–6645. doi:10.1073/pnas.120163297.PMC18686 10829079
+13. Li X. t. , Thomason LC , Sawitzke JA , Costantino N , and Court DL (2013). Positive and negative selection using the tetA-sacB cassette: recombineering and P1 transduction in Escherichia coli. Nucleic Acids Research 41, e204–e204. 10.1093/nar/gkt1075.24203710 PMC3905872
+14. Kaiser AD (1957). Mutations in a temperate bacteriophage affecting its ability to lysogenize Escherichia coli. Virology 3, 42–61.13409759 10.1016/0042-6822(57)90022-3
+15. Altuvia S , and Oppenheim AB (1986). Translational regulatory signals within the coding region of the bacteriophage lambda cIII gene. Journal of Bacteriology 167, 415–419. doi:10.1128/jb.167.1.415-419.1986.2941413 PMC212897
+16. Melamed S , Faigenbaum-Romm R , Peer A , Reiss N , Shechter O , Bar A , Altuvia Y , Argaman L , and Margalit H (2018). Mapping the small RNA interactome in bacteria using RIL-seq. Nat Protoc 13, 1–33. 10.1038/nprot.2017.115.29215635
+17. Faigenbaum-Romm R , Reich A , Gatt YE , Barsheshet M , Argaman L , and Margalit H (2020). Hierarchy in Hfq chaperon occupancy of small RNA targets plays a major role in their regulation. Cell Rep 30, 3127–3138.e3126. 10.1016/j.celrep.2020.02.016.32130912 PMC7059120
+18. Karp PD , Paley S , Caspi R , Kothari A , Krummenacker M , Midford PE , Moore LR , Subhraveti P , Gama-Castro S , Tierrafria VH , (2023). The EcoCyc Database (2023). EcoSal Plus 11, eesp-0002-2023. doi:10.1128/ecosalplus.esp-0002-2023.PMC10729931 37220074
+19. Love MI , Huber W , and Anders S (2014). Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biol 15, 550. 10.1186/s13059-014-0550-8.25516281 PMC4302049
+20. Zhang H , Meltzer P , and Davis S (2013). RCircos: an R package for Circos 2D track plots. BMC Bioinformatics 14, 244. 10.1186/1471-2105-14-244.23937229 PMC3765848
+21. Team, R.C. (2016). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. http://www.R-project.org/.
+22. Bailey TL , Boden M , Buske FA , Frith M , Grant CE , Clementi L , Ren J , Li WW , and Noble WS (2009). MEME SUITE: tools for motif discovery and searching. Nucleic Acids Res 37, W202–208. 10.1093/nar/gkp335.19458158 PMC2703892
+23. Bailey TL , and Gribskov M (1998). Combining evidence using p-values: application to sequence homology searches. Bioinformatics 14, 48–54. 10.1093/bioinformatics/14.1.48.9520501
+24. Hunter JD (2007). Matplotlib: A 2D graphics environment. Computing in science & engineering 9, 90–95.
+25. Waskom ML (2021). Seaborn: statistical data visualization. Journal of Open Source Software 6, 3021.
+26. Shannon P , Markiel A , Ozier O , Baliga NS , Wang JT , Ramage D , Amin N , Schwikowski B , and Ideker T (2003). Cytoscape: a software environment for integrated models of biomolecular interaction networks. Genome Res 13, 2498–2504. 10.1101/gr.1239303.14597658 PMC403769
+27. Tamura K , Stecher G , and Kumar S (2021). MEGA11: Molecular Evolutionary Genetics Analysis Version 11. Mol Biol Evol 38, 3022–3027. 10.1093/molbev/msab120.33892491 PMC8233496
+28. Camacho C , Coulouris G , Avagyan V , Ma N , Papadopoulos J , Bealer K , and Madden TL (2009). BLAST+: architecture and applications. BMC Bioinformatics 10, 421. 10.1186/1471-2105-10-421.20003500 PMC2803857
+29. Sullivan MJ , Petty NK , and Beatson SA (2011). Easyfig: a genome comparison visualizer. Bioinformatics 27, 1009–1010. 10.1093/bioinformatics/btr039.21278367 PMC3065679
+30. Li H , and Durbin R (2009). Fast and accurate short read alignment with Burrows-Wheeler transform. Bioinformatics 25, 1754–1760. 10.1093/bioinformatics/btp324.19451168 PMC2705234
+31. Danecek P , Bonfield JK , Liddle J , Marshall J , Ohan V , Pollard MO , Whitwham A , Keane T , McCarthy SA , Davies RM , and Li H (2021). Twelve years of SAMtools and BCFtools. Gigascience 10. 10.1093/gigascience/giab008.PMC7931819 33590861
+32. Quinlan AR , and Hall IM (2010). BEDTools: a flexible suite of utilities for comparing genomic features. Bioinformatics 26, 841–842. 10.1093/bioinformatics/btq033.20110278 PMC2832824

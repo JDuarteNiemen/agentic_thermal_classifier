@@ -1,0 +1,15 @@
+Bioluminescent-reporter phagosensor for quantitative detection of viable Escherichia coli in water.
+
+The detection of Escherichia coli (E. coli) is a fundamental aspect of water safety assessments,
+serving as an indicator of fecal contamination. However, current methods often fail to distinguish
+viable E. coli cells, resulting in false-positive outcomes. We have developed a facile and sensitive
+method combining one-step phagomagnetic separation with reporter phage amplification to address this
+challenge. This method employs magnetically functionalized T4 phages to selectively bind and
+concentrate E. coli from liquid samples. A genetically engineered phage carrying the NanoLuc
+luciferase gene generates a bioluminescent signal exclusively upon infecting viable E. coli cells.
+With a calculated detection limit of 5 CFU/mL and a linear detection range spanning 10² to 10⁵
+CFU/mL, the sensor delivers accurate and rapid results. Tests with spiked liquid samples
+demonstrated high consistency with standard detection methods (R2 = 0.98) while significantly
+reducing detection time. This innovative system offers a powerful tool for on-site monitoring of
+viable E. coli within its host range in drinking water, enhancing the efficiency and reliability of
+drinking water safety protocols.

@@ -1,0 +1,19 @@
+High cell-density fermentation, expression and purification of bacteriophage lysin TSPphg, a thermostable antimicrobial protein from extremophilic Thermus bacteriophage TSP4.
+
+Recently, high cell-density (HCD) cultivation has become an important tool for production of many
+microbial products. However, to the best of our knowledge, no study regarding HCD fermentation,
+overproduction and purification of thermostable bacteriophage lysin has been reported. Here, by
+employing a glucose-limited fed-batch strategy, we performed high density fermentation of the host
+Escherichia coli BL21(DE3) cells, compared the efficiency of high pressure homogenization,
+ultrasonication and thermolysis in bacterial cell disruption after HCD cultivation, and purified
+TSPphg, a thermostable lysin derived from extremophilic bacteriophage TSP4. On the 20-L scale, the
+overproduction level of TSPphg was up to 67.8 ± 0.7%. In total, we obtained a broth titer of
+3322.8 ± 26 mg/L TSPphg with a purity of 95.5 ± 0.7% from a bacterial cell mass of 86.3 ± 4.9 g/L
+after 26 h of fermentation. The overall productivity of TSPphg was 127.8 ± 1 mg/L/h. Additionally,
+the antimicrobial activity of purified TSPphg against both Gram-negative (Escherichia coli O157) and
+Gram-positive (Staphylococcus aureus) pathogenic bacteria was further confirmed by scanning electron
+microscope analysis. Summarily, for the first time, we have established a relatively stable and
+efficient HCD cultivation and purification process for recovery of thermostable lysins from
+extremophilic Thermus bacteriophages. Our results provide insights into the strategies for time-
+saving and cost-effective production of antimicrobial proteins to replace or supplement antibiotics
+in the current age of mounting antibiotic resistance.

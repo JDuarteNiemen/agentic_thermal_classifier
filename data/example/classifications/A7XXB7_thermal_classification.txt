@@ -1,0 +1,10 @@
+###############A7XXB7###############
+Start time: 2026-04-26 23:32:17
+===============================================================
+Paper: PMC3018760.1.txt
+Thermal Range: thermophile
+Temperature: 65°C
+Reasoning: The paper explicitly describes the host as a 'thermophilic bacterium' and the phage as a 'thermophilic siphovirus' and 'thermophage'. The Experimental Procedures state that cells were 'grown at 65 °C', which exceeds the 45°C threshold for thermophiles.
+Confidence: high
+Time: 2026-04-26 23:35:34
+

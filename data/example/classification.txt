@@ -158,3 +158,8 @@ Paper: 23224375.txt
 Host: Colwellia psychrerythraea strain 34H
 Reasoning: The paper text explicitly states that bacteriophage 9A 'replicates in the marine psychrophilic gamma-proteobacterium Colwellia psychrerythraea strain 34H'. This direct statement in the primary source confirms the host species.
 
+Accession: YP_009209738
+Paper: PMC4615864.1.txt
+Host: Polaribacter sp. IMCC12002
+Reasoning: The host species is explicitly stated in the paper text. The abstract states: '...two lytic siphophages, P12002L and P12002S, that infect Polaribacter sp. strain IMCC12002.' Additionally, the 'Virus information' section confirms: 'P12002L and P12002S are lytic phages that infect the bacterial strain Polaribacter sp. IMCC12002.'
+

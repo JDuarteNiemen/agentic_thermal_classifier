@@ -69,21 +69,3 @@ Paper: PMC4615864.1.txt
 Host: Polaribacter sp.
 Reasoning: The paper explicitly identifies the host in the title as 'a marine Polaribacter strain' and in the abstract and Virus information section states: 'P12002L and P12002S are lytic phages that infect the bacterial strain Polaribacter sp. IMCC12002.' The text further clarifies that the strain was 'phylogenetically assigned to the genus Polaribacter' but does not specify the exact species name, using 'sp.' to denote an unspecified species within the genus.
 
-========================================================================================================================
-                                                                New run
-========================================================================================================================
-Accession: ADI87650
-Paper: PMC12929587.1.txt
-Host: Escherichia coli
-Reasoning: The paper explicitly states in the Introduction section: 'The bacteriophage (phage) T4 is a contractile tailed phage that infects Escherichia coli bacterium.' Additionally, the Methods section describes infection assays using 'E. coli strains NM22565 (Hfq-plus) and NM22540 Dhfq::cat-sacB (Hfq-minus)' and infecting them with WT T4 phage.
-
-Accession: WXH46553
-Paper: PMC13028683.1.txt
-Host: Escherichia coli B
-Reasoning: The paper text describes the use of the T7 phage display system but does not explicitly name the bacterial host species in the article body. It notes that 'Importantly, although T7 phages can enter mammalian cells, they do not replicate within them'. However, the provided metadata explicitly states 'host': 'Escherichia coli B', which identifies the specific bacterial host for the T7 phage used.
-
-Accession: ADI87650
-Paper: PMC12930573.1.txt
-Host: Acinetobacter baumannii
-Reasoning: The host species is explicitly stated in the paper text. The text identifies the host strain as 'Acinetobacter baumannii M13 isolate' and states the phage targets 'carbapenem-resistant Acinetobacter baumannii (CRAB)'. Specifically, the Methods section notes: 'Acinetobacter baumannii M13 isolate recovered from a wound infection... was selected as the host strain'. The Results section confirms: 'A novel lytic Acinetobacter phage vB_AbaM_MU1 was isolated... It showed lytic efficiency against 9/17 CRAB strains.'
-

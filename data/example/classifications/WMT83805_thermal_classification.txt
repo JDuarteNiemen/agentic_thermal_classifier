@@ -1,0 +1,162 @@
+###############WMT83805###############
+Start time: 2026-04-27 00:22:34
+===============================================================
+Paper: PMC9228384.1.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-27 00:26:06
+
+===============================================================
+Paper: 41478678.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-27 00:28:40
+
+===============================================================
+Paper: PMC10507051.1.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-27 00:33:07
+
+===============================================================
+Paper: PMC11590407.1.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-27 00:38:19
+
+===============================================================
+Paper: 41189414.txt
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper states: 'Here, a novel phage, vB_PshM_Y4, which infects Pseudoalteromonas shioyasakiensis, an economically important, opportunistic marine pathogen was isolated.' No temperature data is explicitly stated in the text.
+Confidence: high
+Time: 2026-04-27 00:40:48
+
+===============================================================
+Paper: 38008529.txt
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper states: 'In this study, we reported the isolation of a novel lytic bacteriophage that infects Pseudoalteromonas marina. Transmission electron microscopy revealed that PS_L5 had an icosahedral head of 52.6 ± 2 nm and a non-contractile tail with length of 96.5 ± 2 nm.' No temperature or thermal growth information is explicitly stated in the text.
+Confidence: high
+Time: 2026-04-27 00:43:20
+
+===============================================================
+Paper: 37620054.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-27 00:46:04
+
+===============================================================
+Paper: 35672590.txt
+Thermal Range: unknown
+Temperature: wide range of temperatures
+Reasoning: PHS21 showed strong tolerance with a wide range of temperatures and pH.
+Confidence: medium
+Time: 2026-04-27 00:48:00
+
+===============================================================
+Paper: PMC10598620.1.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-27 00:54:06
+
+===============================================================
+Paper: PMC12810386.1.txt
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper states: 'The tracers were applied in late April 2023, coinciding with periods of optimal temperature conditions that precluded the possibility of overnight soil freezing that might compromise phage infectivity.' and 'The climate in the region is characterized by warm summers, a mean annual air temperature of about 9.5 °C'. However, no explicit optimal growth temperature range or thermal classification (psychrophile, mesophile, thermophile) for the Pseudoalteromonas phage HS2 is explicitly stated in the text.
+Confidence: high
+Time: 2026-04-27 00:57:19
+
+===============================================================
+Paper: PMC10612066.1.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-27 01:01:42
+
+===============================================================
+Paper: PMC10232385.1.txt
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: Correction: Genomic diversity and ecological distribution of marine Pseudoalteromonas phages
+Confidence: medium
+Time: 2026-04-27 01:03:05
+
+===============================================================
+Paper: WMT83805.json
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper states 'isolation_source': 'arctic sediment', but does not explicitly state any temperature values or growth ranges for the organism.
+Confidence: high
+Time: 2026-04-27 01:05:01
+
+===============================================================
+Paper: PMC12282109.1.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-27 01:09:40
+
+===============================================================
+Paper: PMC11170926.1.txt
+Thermal Range: unknown
+Temperature: 21°C
+Reasoning: Pseudoalteromonas sp. 13-15 were grown shaking at 150 rpm at 21°C in either 1% Z + CNP medium for high-P or 1% Z + CN medium for low-P conditions.
+Confidence: low
+Time: 2026-04-27 01:13:54
+
+===============================================================
+Paper: PMC13077301.1.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-27 01:19:01
+
+===============================================================
+Paper: 39548345.txt
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper text states: 'Metabolites from intact phage-infected Synechococcus chemotactically attract heterotrophic marine bacteria.' However, the provided text does not explicitly state any temperature values or thermal growth ranges for the organisms described.
+Confidence: low
+Time: 2026-04-27 01:21:36
+
+===============================================================
+Paper: PMC10458718.1.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-27 09:25:55
+
+===============================================================
+Paper: PMC10232697.1.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-27 09:31:06
+
+===============================================================
+Paper: PMC11265279.1.txt
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper does not explicitly state the optimal growth temperature or thermal range for the bacteriophages or their bacterial hosts. It mentions incubation temperatures for bacterial counts (28°C and 30°C) and storage at 4°C, but does not link these to the thermal classification of the organisms.
+Confidence: high
+Time: 2026-04-27 09:34:23
+

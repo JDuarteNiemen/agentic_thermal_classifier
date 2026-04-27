@@ -1,0 +1,50 @@
+###############QAY18187###############
+Start time: 2026-04-26 23:35:34
+===============================================================
+Paper: 24816701.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-26 23:38:11
+
+===============================================================
+Paper: QAY18187.json
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The provided text 'metal-dependent hydrolase [Thermus phage TSP4]' does not explicitly state any temperature or thermal range.
+Confidence: low
+Time: 2026-04-26 23:40:07
+
+===============================================================
+Paper: 32442498.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-26 23:42:44
+
+===============================================================
+Paper: 20806260.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-26 23:45:19
+
+===============================================================
+Paper: PMC7077265.1.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-26 23:48:47
+
+===============================================================
+Paper: PMC9629493.1.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-26 23:53:10
+

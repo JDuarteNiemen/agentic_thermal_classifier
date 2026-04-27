@@ -1,0 +1,18 @@
+###############WXH46553###############
+Start time: 2026-04-26 12:39:59
+===============================================================
+Paper: PMC13028683.1.txt
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper states: 'eggs were incubated at 25 °C with 85% relative humidity' and 'Routinely, unfed and fed ticks were kept in a secure plastic container at room temperature', but does not explicitly state the organism's optimal growth temperature or thermal classification range.
+Confidence: high
+Time: 2026-04-26 12:42:58
+
+===============================================================
+Paper: PMC12808745.1.txt
+Thermal Range: mesophile
+Temperature: 30 °C and 37 °C
+Reasoning: After one hour between 102 and 103 PFU/nL were obtained at 30 °C and 37 °C while no PFU were detected at 24 °C.
+Confidence: high
+Time: 2026-04-26 12:46:45
+

@@ -1,16 +1,16 @@
 Thermal Range,Species,Host,Accession,Protein
-Mesophile,Tequatrovirus T4,Unknown,ADI87650,"major head protein, partial [Tequatrovirus T4]"
-Mesophile,Teseptimavirus T7,Unknown,WXH46553,terminase large subunit [Teseptimavirus T7]
-Mesophile,Escherichia phage Lambda,Unknown,WRQ14408,endolysin [Escherichia phage Lambda]
-Mesophile,Escherichia phage T2,Unknown,XYW65533,DNA helicase [Escherichia phage T2]
-Mesophile,Emesvirus zinderi,Unknown,SNQ28030,"RNA replicase, beta subunit [Emesvirus zinderi]"
-Thermophile,Thermus phage P23-45,Unknown,A7XXB7,DNA-packaging protein
-Thermophile,Thermus phage TSP4,Unknown,QAY18187,metal-dependent hydrolase [Thermus phage TSP4]
-Thermophile,Geobacillus virus E2,Unknown,YP_001285867,ATPase [Geobacillus virus E2]
-Thermophile,Rhodothermus phage RM378,Unknown,NP_835731,RNA polymerase sigma factor [Rhodothermus phage RM378]
-Thermophile,Thermus virus YS40,Unknown,YP_874174,Fe-S oxidoreductase [Thermus phage phiYS40]
-Psychrophile,Pseudoalteromonas phage vB_Psp_PY6,Unknown,XJP07760,terminase large subunit [Pseudoalteromonas phage vB_Psp_PY6]
-Psychrophile,Pseudoalteromonas phage proACA1-A,Unknown,WMT83805,integrase [Pseudoalteromonas phage proACA1-A]
+Mesophile,Tequatrovirus T4,Acinetobacter baumannii,ADI87650,"major head protein, partial [Tequatrovirus T4]"
+Mesophile,Teseptimavirus T7,Escherichia coli B,WXH46553,terminase large subunit [Teseptimavirus T7]
+Mesophile,Escherichia phage Lambda,Escherichia coli,WRQ14408,endolysin [Escherichia phage Lambda]
+Mesophile,Escherichia phage T2,Escherichia coli,XYW65533,DNA helicase [Escherichia phage T2]
+Mesophile,Emesvirus zinderi,Escherichia coli,SNQ28030,"RNA replicase, beta subunit [Emesvirus zinderi]"
+Thermophile,Thermus phage P23-45,Thermus thermophilus,A7XXB7,DNA-packaging protein
+Thermophile,Thermus phage TSP4,Thermus sp. TC4,QAY18187,metal-dependent hydrolase [Thermus phage TSP4]
+Thermophile,Geobacillus virus E2,Geobacillus,YP_001285867,ATPase [Geobacillus virus E2]
+Thermophile,Rhodothermus phage RM378,Rhodothermus marinus,NP_835731,RNA polymerase sigma factor [Rhodothermus phage RM378]
+Thermophile,Thermus virus YS40,Thermus thermophilus,YP_874174,Fe-S oxidoreductase [Thermus phage phiYS40]
+Psychrophile,Pseudoalteromonas phage vB_Psp_PY6,Pseudoalteromonas sp. YM19,XJP07760,terminase large subunit [Pseudoalteromonas phage vB_Psp_PY6]
+Psychrophile,Pseudoalteromonas phage proACA1-A,Acinetobacter baumannii,WMT83805,integrase [Pseudoalteromonas phage proACA1-A]
 Psychrophile,Shewanella phage SppYZU05,Unknown,YP_009790355,tail fiber protein [Shewanella phage SppYZU05]
-Psychrophile,Colwellia phage 9A,Unknown,YP_006489335,"hypothetical protein COPG_00149, partial [Colwellia phage 9A]"
-Psychrophile,Polaribacter phage P12002L,Unknown,YP_009209738,hypothetical protein AVT43_gp78 [Polaribacter phage P12002L]
+Psychrophile,Colwellia phage 9A,Colwellia psychrerythraea strain 34H,YP_006489335,"hypothetical protein COPG_00149, partial [Colwellia phage 9A]"
+Psychrophile,Polaribacter phage P12002L,Polaribacter sp. IMCC12002,YP_009209738,hypothetical protein AVT43_gp78 [Polaribacter phage P12002L]

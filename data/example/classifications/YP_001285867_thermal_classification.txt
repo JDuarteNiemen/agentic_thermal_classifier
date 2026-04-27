@@ -1,0 +1,18 @@
+###############YP_001285867###############
+Start time: 2026-04-26 23:53:10
+===============================================================
+Paper: 18573317.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-26 23:55:48
+
+===============================================================
+Paper: YP_001285867.json
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper states 'isolation_source': 'deep-sea hydrothermal field', but does not explicitly state a specific temperature or growth range.
+Confidence: low
+Time: 2026-04-26 23:57:48
+

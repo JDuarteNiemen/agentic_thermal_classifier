@@ -264,21 +264,23 @@ def CreateLibrary(accession):
             pmcid = PMID2PMCID(pmid)
             if not pmcid:  # No PMCID avaliable
                 paper = FetchLiteraturePMID(pmid)  # Fetch abstract from pmid
-                paper = CleanXml(paper)  # clean it and potentially write it to a text file.
+                paper = CleanXml(paper)  # clean it and write it to a text file.
                 WritePaper(paper, f'data/library/{accession}/{pmid}.txt')
-            if pmcid:
-                DownloadPaper(pmcid, f'data/library/{accession}/')
+            if pmcid: # pmid converted to pmcid
+                DownloadPaper(pmcid, f'data/library/{accession}/') # download the paper
     else:
         print(f'No Papers associated with {accession}\nOpting for query search')
-        pmids = SearchPubmed(species)
+        pmids = SearchPubmed(species) # query search species name
         for pmid in pmids:
-            pmcid = PMID2PMCID(pmid)
-            if not pmcid:
-                paper = FetchLiteraturePMID(pmid)
-                paper = CleanXml(paper)
+            pmcid = PMID2PMCID(pmid) #convert pmid to pmcid
+            if not pmcid: # not convertable
+                paper = FetchLiteraturePMID(pmid) #get abstract from pmid
+                paper = CleanXml(paper) #clean and write it to file
                 WritePaper(paper, f'data/library/{accession}/{pmid}.txt')
             if pmcid:
                 DownloadPaper(pmcid, f'data/library/{accession}/')
 
 
-
+    papers_dir=os.listdir(f'data/library/{accession}')
+    if len(papers_dir) < 5:
+        SearchPubmed(species)

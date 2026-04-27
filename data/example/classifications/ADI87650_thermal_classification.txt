@@ -1,0 +1,162 @@
+###############ADI87650###############
+Start time: 2026-04-26 11:42:58
+===============================================================
+Paper: 41539756.txt
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper states: 'Bacteriophages are promising antibacterial agents across the farm-to-fork continuum... We evaluated chitosan concentration effects on grafting efficiency, phage viability in simulated gastrointestinal (GI) conditions...' However, no specific temperature values or thermal growth ranges are explicitly stated in the text.
+Confidence: high
+Time: 2026-04-26 11:44:46
+
+===============================================================
+Paper: PMC12893549.1.txt
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper states 'Aliquots of nucleic acid were added to the protein in a thermostated (20oC) SPEX Fluoromax 2 spectrofluorimeter', indicating experimental conditions rather than organismal thermal characteristics, and no growth temperature or thermal classification is provided.
+Confidence: high
+Time: 2026-04-26 11:47:10
+
+===============================================================
+Paper: 41932316.txt
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper states: 'In this issue of Structure, Besaw et al.1 report a well-designed study combining electron paramagnetic resonance measurements and structural analyses of di-histidine-Cu(II)-nitrilotriacetate binding sites in T4 lysozyme.' No temperature or thermal information is explicitly stated in the provided excerpt.
+Confidence: high
+Time: 2026-04-26 11:49:45
+
+===============================================================
+Paper: PMC12930573.1.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-26 11:54:16
+
+===============================================================
+Paper: PMC12929587.1.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-26 11:58:41
+
+===============================================================
+Paper: PMC13055312.1.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-26 12:02:07
+
+===============================================================
+Paper: PMC13048485.1.txt
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper identifies the organisms as 'Staphylococcus aureus' (source of S. nuclease) and 'T4 lysozyme' (T4 bacteriophage) but focuses on 'protein thermostability' and 'free energy changes' rather than organism growth temperatures. The text states: 'Staphylococcal nuclease (S. nuclease) is a small extracellular protein of 149 amino acid residue length with no cysteines, secreted by Staphylococcus aureus.' and 'A protein's ability to remain properly folded and functionally active at elevated temperatures is governed by its thermostability...'. No growth temperature ranges or thermal classifications for the organisms are explicitly stated.
+Confidence: high
+Time: 2026-04-26 12:05:41
+
+===============================================================
+Paper: 41850463.txt
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper states: 'NP co-purified from Escherichia coli often contains pro-inflammatory bacterial RNA, raising safety concerns, while its nucleic-acid-binding-deficient version (NPmut) improves safety but suffers from reduced immunogenicity.' No specific temperature values or thermal growth ranges are explicitly stated in the text.
+Confidence: high
+Time: 2026-04-26 12:07:31
+
+===============================================================
+Paper: PMC12771599.1.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-26 12:12:03
+
+===============================================================
+Paper: 41637553.txt
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The provided text describes the detection of Escherichia coli but does not state any temperature values or thermal ranges. Quote: 'The infection of Escherichia coli (E. coli) by T4 phage induces host cell lysis, resulting in a significant increase in the surrounding conductivity.'
+Confidence: high
+Time: 2026-04-26 12:14:34
+
+===============================================================
+Paper: PMC12735813.1.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-26 12:18:11
+
+===============================================================
+Paper: PMC12755874.1.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-26 12:21:29
+
+===============================================================
+Paper: PMC12929629.1.txt
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper focuses on cryo-EM structural analyses and mentions storage conditions ('The final phage preparation was flash-frozen and stored in PBS at −80 °C') but does not explicitly state the organism's growth temperature range or thermal classification.
+Confidence: high
+Time: 2026-04-26 12:24:30
+
+===============================================================
+Paper: 41865637.txt
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper states: 'The sensitive and accurate detection of FEN1 and T4 PNK activities is of vital significance for the early diagnosis and therapeutic monitoring of cancer.' It details detection limits and nanonetwork construction but does not explicitly state any temperature or thermal growth information.
+Confidence: high
+Time: 2026-04-26 12:26:33
+
+===============================================================
+Paper: 41794029.txt
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper states: 'Structural characterization of the Cu(II)-NTA spin label on α-helices by X-ray crystallography and electron paramagnetic resonance.' It further details 'atomic-resolution X-ray crystal structures of seven α-helical dHis sites of T4 lysozyme (T4L)' without mentioning any temperature or thermal characteristics.
+Confidence: high
+Time: 2026-04-26 12:28:03
+
+===============================================================
+Paper: PMC13030558.1.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-26 12:31:58
+
+===============================================================
+Paper: 41980635.txt
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The provided text does not explicitly state any temperature values or thermal ranges. It focuses on phage lysis dynamics as described: 'Multiple adsorptions shape collective T-even phage lysis dynamics: Insights from an individual-based model.'
+Confidence: high
+Time: 2026-04-26 12:33:12
+
+===============================================================
+Paper: PMC12919812.1.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-26 12:36:51
+
+===============================================================
+Paper: 41927488.txt
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper describes the synthesis and antiphage activity of thiolactone 29 against bacteriophage T4 and Escherichia coli, but does not state any growth temperatures or thermal classifications. Quote: 'Among the synthesized compounds, thiolactone 29 selectively inactivated bacteriophage T4 (>2-log reduction in PFU) without affecting Escherichia coli viability.'
+Confidence: low
+Time: 2026-04-26 12:38:40
+
+===============================================================
+Paper: ADI87650.json
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper text states: 'major head protein, partial [Tequatrovirus T4]' and 'host': 'Enterobacteriales', but does not explicitly state any temperature or thermal information.
+Confidence: high
+Time: 2026-04-26 12:39:59
+

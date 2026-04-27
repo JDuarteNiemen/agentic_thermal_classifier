@@ -1,0 +1,18 @@
+###############YP_009209738###############
+Start time: 2026-04-27 09:48:17
+===============================================================
+Paper: YP_009209738.json
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper states 'isolation_source': 'seawater', but does not explicitly state any temperature or thermal information.
+Confidence: low
+Time: 2026-04-27 09:50:04
+
+===============================================================
+Paper: PMC4615864.1.txt
+Thermal Range: None
+Temperature: None
+Reasoning: None
+Confidence: None
+Time: 2026-04-27 09:53:16
+

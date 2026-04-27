@@ -242,17 +242,45 @@ def IdentifyThermalRange(state: AgentState) -> dict:
         "thermal_confidence": data.get("thermal_confidence", "low"),
 }
 
-#
-# prompt = f"""You are an academic librarian AI. Analyse the following academic paper text and extract metadata.
-#
-# Return your answer as a JSON object with exactly these keys:
-# - "Phage Species": The phage species this is about, mark Unknown if it cannot be deduced (string)
-# - "Host Species": The species of bacteria this phage infects, mark Unknown if it cannot be deduced (string)
-# - "Reasoning": Your reasoning for making this decision, quote the paper here. (string)
-# - "Confidence": A confidence score low/medium/high (string)
-#
-# Paper text:{paper_text}
-#
-# Respond ONLY with the JSON object, no other text. Dont include newline characters."""
+def HostMetadata(state: AgentState) -> dict:
+    """Use the LLM to extract host species from metadata."""
+    model = state.get("model") or OLLAMA_MODEL
+    llm = _build_llm(model)
+    max_chars = _max_paper_chars(model)
+    ctx_tokens = _get_model_context_length(model)
 
+    paper_len = len(state["paper_text"])
+    chars_used = min(paper_len, max_chars)
+    parse_pct = round((chars_used / paper_len) * 100, 1) if paper_len > 0 else 100.0
 
+    prompt = f"""You are an expert microbiology information extraction system.
+        Your task is to identify the host species of a bacteriophage.
+        DATA SOURCES:
+        1. Paper text (primary source of truth)
+        2. Metadata (secondary source, may contain host or ecological clues)
+
+        RULES:
+        - ALWAYS prioritise information explicitly stated in the paper text.
+        - If the host species is clearly stated in the paper, use that.
+        - If the paper does NOT explicitly state the host species:
+            - You MAY use metadata if it directly specifies the host.
+            - Otherwise return "Unknown".
+
+        - Do NOT guess or infer based on species names, environment, or prior knowledge.
+        - Do NOT assume the host from genus/species familiarity.
+
+        METADATA:
+        {state['metadata']}
+        Return ONLY valid JSON with:
+        - "host_species": the host organism or "Unknown"
+        - "reasoning": MUST explain whether the answer came from paper or metadata, and include a direct quote if from the paper
+        - "confidence": one of ["low", "medium", "high"]
+
+        CONFIDENCE GUIDELINES:
+        - high: explicitly stated in paper or metadata
+        - medium: strongly implied in paper or metadata
+        - low: weak or uncertain evidence
+
+        Paper text:
+        {_truncate(state["paper_text"], max_chars)}
+        """

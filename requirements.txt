@@ -1,8 +1,17 @@
-pip install langgraph
-pip install -qU deepagents langchain-google-genai
-pip install -U langchain-ollama
-pip install langchain_core langchain-anthropic langgraph
-Biopython
-Entrez
+# Core LLM / agent stack
+langchain==1.2.15
+langchain-core==1.3.0
+langchain-ollama==1.1.0
+langchain-anthropic
+langchain-google-genai
+aph==1.1.9
+
+# CLI / app
+typer==0.23.0
+
+# Data / biology
+biopython==1.86
 pandas
+
+# Parsing
 lxml

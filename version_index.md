@@ -1,11 +1,17 @@
 # Index file for different versions
 
-## V1
-Original version.
+## V2
+No context LLM calls
 Model = qwen3.5
-Creates library for accession
-First LLM call to identify host
-Second LLM call to indentify thermal range
-Uses one initial library creation.
+STEPS:
+- Creates library for accession
+
+- LLM call to identify host
+
+- Second library creation of the host organism
+
+- LLM call to indentify thermal range
+
+Improved results output
 
 

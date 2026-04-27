@@ -254,7 +254,7 @@ def CreateLibrary(accession):
     meta = FetchNcbiMetadata(accession)
     WriteJson(meta, f'data/library/{accession}/{accession}')
 
-    species = meta['organism']
+    species = meta.get('organism')
     print(species)
 
     pmids = FetchPMIDS(accession)  # get PMIDS associated with accession
@@ -283,4 +283,12 @@ def CreateLibrary(accession):
 
     papers_dir=os.listdir(f'data/library/{accession}')
     if len(papers_dir) < 5:
-        SearchPubmed(species)
+        pmids=SearchPubmed(species)
+        for pmid in pmids:
+            pmcid = PMID2PMCID(pmid)  # convert pmid to pmcid
+            if not pmcid:  # not convertable
+                paper = FetchLiteraturePMID(pmid)  # get abstract from pmid
+                paper = CleanXml(paper)  # clean and write it to file
+                WritePaper(paper, f'data/library/{accession}/{pmid}.txt')
+            if pmcid:
+                DownloadPaper(pmcid, f'data/library/{accession}/')

@@ -1,0 +1,12 @@
+New recombinant vaccines based on the use of prokaryotic antigen-display systems.
+
+A major challenge in vaccine design has been to identify antigen presentation systems that elicit
+strong T- and B-cell responses. In the authors' laboratory, two new delivery vehicles derived from
+nonpathogenic prokaryotic organisms were recently designed and investigated. Conserved antigenic
+determinants were inserted into the N-terminal region of the major pVIII coat protein of
+bacteriophage fd virions or on the surface of an icosahedral scaffold formed by the acyltransferase
+component (E2 protein) of the pyruvate dehydrogenase complex of Bacillus stearothermophilus. The
+data indicate that the antigenic determinant displayed by either fd virions or on the surface of the
+E2 lattice are accessible to the immune system, and are able to trigger a humoral response as well
+as a potent helper and cytolytic response in vitro and in vivo. These systems offer the potential
+for safe and inexpensive vaccines to elicit full-spectrum immune responses.

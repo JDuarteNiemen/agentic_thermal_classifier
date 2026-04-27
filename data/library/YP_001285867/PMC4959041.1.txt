@@ -1,0 +1,251 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Vaccine
+Journal ID: Vaccine
+
+Vaccine
+
+ISSN: 0264-410X
+EISSN: 1873-2518
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC4959041
+Article ID: NIHMS791090
+PMID: 27085173
+DOI: 10.1016/j.vaccine.2016.03.108
+Article ID: NIHMS791090
+Article ID: NIHPA791090
+Article version: 1
+Subjects: Article
+
+Evaluation of protection induced by a dengue virus serotype 2 envelope domain III protein scaffold/DNA vaccine in non-human primates
+
+McBurney Sean P. a
+Sunshine Justine E. b
+Gabriel Sarah b
+Huynh Jeremy P. b
+Sutton William F. a
+Fuller Deborah H. c
+Haigwood Nancy L. a b
+Messer William B. b d *
+a Division of Pathobiology & Immunology, Oregon National Primate Research Center, Oregon Health & Science University, 505 NW 185 th Ave, Beaverton, OR, United States of America 97006
+b Department of Molecular Microbiology and Immunology, Oregon Health & Science University, 3181 SW Sam Jackson Park Rd, Portland, OR, United States of America 97239
+c Department of Microbiology, University of Washington School of Medicine, 1705 NE Pacific St., Seattle, WA, United States of America 98195
+d Division of Infectious Diseases, Department of Medicine, Oregon Health and Sciences University, 3181 SW Sam Jackson Park Rd, Portland, OR, United States of America 97239
+* Corresponding author at: Box L220, Tel.:503-494-2185, messer@ohsu.edu
+Electronic publication date: 2016 Apr 13
+Print publication date: 2016 Jun 24
+Volume: 34
+Issue: 30
+First page: 3500
+Last page: 3507
+Author manuscript; available in PMC: 2017 Jun 24
+
+Keywords: Dengue, dengue vaccine, dna vaccine, protein scaffold vaccine, dengue subunit vaccine, dengue envelope domain III vaccine
+
+This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.
+
+==============================
+We describe the preclinical development of a dengue virus vaccine targeting the dengue virus serotype 2 (DENV2) envelope domain III (EDIII). This study provides proof-of-principle that a dengue EDIII protein scaffold/DNA vaccine can protect against dengue challenge. The dengue vaccine (EDIII-E2) is composed of both a protein particle and a DNA expression plasmid delivered simultaneously via intramuscular injection (protein) and gene gun (DNA) into rhesus macaques. The protein component can contain a maximum of 60 copies of EDIII presented on a multimeric scaffold of Geobacillus stearothermophilus E2 proteins. The DNA component is composed of the EDIII portion of the envelope gene cloned into an expression plasmid. The EDIII-E2 vaccine elicited robust antibody responses to DENV2, with neutralizing antibody responses detectable following the first boost and reaching titers of greater than 1:100,000 following the second and final boost. Vaccinated and naïve groups of macaques were challenged with DENV2. All vaccinated macaques were protected from detectable viremia by infectious assay, while naïve animals had detectable viremia for 2–7 days post-challenge. All naïve macaques had detectable viral RNA from day 2–10 post-challenge. In the EDIII-E2 group, three macaques were negative for viral RNA and three were found to have detectable viral RNA post challenge. Viremia onset was delayed and the duration was shortened relative to naïve controls. The presence of viral RNA post-challenge corresponded to a 10–30-fold boost in neutralization titers 28 days post challenge, whereas no boost was observed in the fully protected animals. Based on these results, we determine that pre-challenge 50% neutralization titers of >1:6000 correlated with sterilizing protection against DENV2 challenge in EDIII-E2 vaccinated macaques. Identification of the critical correlate of protection for the EDIII-E2 platform in the robust non-human primate model lays the groundwork for further development of a tetravalent EDIII-E2 dengue vaccine.
+
+Introduction
+
+DENV is the most important arthropod-borne viral pathogen of humans worldwide. There are four serotypes, DENV1–4, all of which cause a spectrum of illness ranging from classic dengue fever to severe, potentially fatal disease characterized by hemorrhage and hypotensive shock - dengue hemorrhagic fever and dengue shock syndrome (DHF/DSS). Infection with one serotype leads to a short-term broadly cross-reactive antibody response that wanes over months to years to a protective immunity against only the infecting serotype [1,2]. However, immunity to one DENV serotype predisposes an individual to severe disease on infection by a different serotype through a process known as antibody-dependent enhancement (ADE) of infection. ADE is thought to occur when cross-reactive non-neutralizing antibodies from the first infection bind heterotypic virus and facilitate antibody-virus complex uptake via Fc-γ receptor-bearing host cells [3–6]. ADE is thought to lead to higher levels of serum viremia and inflammatory cytokines and, ultimately, risk of severe disease [7]. DENV infects 400 million people annually (with 100 million symptomatic cases) and approximately 3.6 billion people live in areas at risk of DENV transmission [8]. Given the global burden of DENV disease, there is an urgent need for a licensed DENV vaccine. While the most advanced vaccine to date, the Sanofi CYD-TDV live attenuated vaccine (LAV) has shown an overall efficacy of 60.3% [9–12], protection appears biased towards vaccinees who were DENV seropositive before first vaccine dose. Serotype specific protection also varied substantially, from 33.6% for DENV2 in vaccinees aged <9 yrs old to 81.9% against DENV-4 for vaccinees aged >9. These variable results are hypothesized to be related to limited immunogenicity of the vaccine strains, potentially driven by serotype immunodominance and LAV competition, particularly in DENV naïve recipients.
+
+Here we describe an alternate approach to LAVs, using protein scaffold/DNA-based DENV vaccine targeting the DENV envelope glycoprotein (E) domain III (EDIII). The DENV E glycoprotein exists as homo-dimers with 3 distinct domains – I, II, and III – that are arranged in a flat herringbone pattern with icosahedral symmetry [13]. When expressed as a recombinant polypeptide, EDIII preferentially folds into its native conformation [14] and has been shown to elicit potently neutralizing antibodies that target tertiary epitopes displayed on wild-type virus [15,16]. While DENV EDIII recombinant protein vaccines have been described in the past 10 years, few have undergone immunogenicity trials in non-human primates [17–25] with even fewer evaluating protection [18,21,23–25]. Those that have been evaluated in protection studies are all EDIII fusion proteins, with EDIII fused to DENV2 capsid protein [18], the P64K protein from N. meningitidis [21,24,25], and Salmonella enterica flagellin [23]. Fusion proteins were employed as EDIII carriers that are also immunostimulatory via innate immune pathways.
+
+For this study recombinant DENV2 EDIII was presented on a protein scaffold of the E2 protein, a subunit of the pyruvate dehydrogenase complex from Geobacillus stearothermophilus. Native E2 (E2wt) monomers self-assemble into a 60mer pentagonal dodecahedral scaffold with icosahedral symmetry [26]. E2 can be modified at the N-terminus by replacing E2 peripheral domains with exogenous polypeptides, creating a novel E2 multimeric antigen display system (E2DISP) [26,27] that can present up to 60 polypeptides without negatively impacting the native folding of the E2 core. We have previously explored the multimeric E2 protein scaffold as an HIV vaccine platform [28–30] and these studies showed that co-vaccination of DNA with E2 scaffolds displaying HIV envelope epitopes improves both antibody responses and T cells [29,30]. This observation has also been observed using DNA combined with recombinant HIV trimeric gp140 envelope [31]. Here we show that this DENV2 EDIII-E2/DNA vaccine was both highly immunogenic and conferred protection upon challenge with DENV2, demonstrating that a DNA and protein scaffold-based DENV vaccine may be a viable alternative to current DENV vaccine strategies.
+
+Materials and Methods
+
+Animals and immunizations
+
+Adult Macaca mulatta (rhesus macaques) were housed at the Oregon National Primate Research Center (ONPRC) in Beaverton, OR. All procedures were performed according to protocols approved by the IACUC at OHSU. Six macaques were immunized at weeks 0, 4, and 12 with 500 µg of soluble EDIII-E2 particles delivered intramuscularly formulated with 20% Adjuplex (Sigma) adjuvant along with EDIII and rhesus IL-12 DNA delivered epidermally by Particle Mediated Epidermal Delivery (PMED) device (gene gun, XR-1 research model, PowderMed, Oxford, UK), via 1mg of 1mM-size gold particles coated with 1.8 µg of vaccine DNA and 0.2 µg of IL-12 plasmid (2 µg total) into 18 sites along the shaved abdomen and upper thighs.
+
+DNA vaccine gene gun cartridges
+
+Plasmid pEMC* [32] including the oligonucleotide sequence encoding the EDIII DNA encoding DENV serotype 2 strain 16681 E domain III (amino acid (aa) positions 297–399 on the DENV2 genome) was precipitated onto 1µm diameter gold beads, and cartridges were prepared for delivery with the Powderject PMED gene gun delivery device (Powderject Vaccines, Madison, WI).
+
+Recombinant EDIII-E2 particles
+
+The EDIII-E2 expression vectors were constructed from thepETE2DISP plasmid [26] as previously described [30]. E2wt is expressed from pETE2DISP without modification. For EDIII-E2 expression, the oligonucleotide sequence encoding the serotype 2 DENV isolate 16681 E domain III (aa positions 297–399, positions on the DENV2 strain 16681 E glycoprotein) was cloned into the pETE2DISP vector for expression of EDIII as an N-terminal fusion to the E2 core scaffold (Fig. 1A) by PCR amplification of strain 16681 clone plasmid using standard methods and the primers (D2-ED3+) NNNNCCATGCCGATGTCATACTCTATGTGCACAGG and (D2-ED3−) NNNNCCCGGGGCCGATAGAACTTCCTTTCTTAAAC containing the restriction site XmaI. The PCR product and pETE2DISP vector were digested, ligated and transformed into BL21 (DE3) CodonPlus-RIPL competent cells (Stratagene).
+
+Expression, purification and refolding of EDIII-E2 multimeric scaffolds
+
+Methods and buffers used in purification and refolding have been described in detail previously [30]. The plasmids encoding E2wt and EDIII-E2 fusion protein was maintained and expressed in BL21 (DE3) CodonPlus-RIPL cells (Stratagene). Cells were grown overnight at 37°C in Luria-Bertani (LB) broth with 100 µg/ml ampicillin and 50 µg/ml of chloramphenicol, shaking at 225 rpm. The cultures were back diluted 1:20 24 hours later and grown to an OD600 between 0.8–1.0. Protein expression was induced with Isopropyl 1 mM β-D-1 thiogalactopyranoside (IPTG). Cells were centrifuged at 5000g for 5 min at 4°C and resuspended in Lysis buffer [30] and Complete, EDTA-free Protease Inhibitor Cocktail Tablet (Roche)), incubated at 25°C for 30 min and then at 37°C for 30 min, shaking at 225 rpm.
+
+The soluble fraction containing the E2wt monomers was recovered after centrifugation at 10,000 g for 10 min at 4°C and loaded onto a Sephadex G-25 column (GE Healthcare) for buffer exchange. Fractions containing E2wt were pooled and loaded onto a Detoxi-gel column (Pierce), with E2wt recovered in the flow through, which was then loaded onto a Q-Sepharose anion exchange column (GE Healthcare). Bound protein was eluted from the column with a 0–60%/400 ml gradient of elution buffer [30]. Peak fractions containing E2wt were pooled and concentrated with a 10 kD molecular weight cut off (MWCF) using Amicon Ultra Centrifugal Filter (Millipore). The retentate was loaded onto a Superdex200 gel filtration column (GE Healthcare) using Solubility Buffer 2.2 [30]. Fractions containing the 1.5 MDa E2wt 60-mer particles were concentrated to 1mg/ml using the Ultra Centrifugal devices and then stored in Solubility Buffer 2.2 at −80°C.
+
+The recombinant protein vaccine component consists of EDIII-E2 protein alone, without E2wt. To prepare the vaccine protein, EDIII-E2 protein containing inclusion bodies from E. coli were purified from the insoluble fraction following bacterial lysis and centrifugation at 10,000 g for 10 min at 4°C, washed three times with Inclusion Body Wash Buffer [30] and allowed to unfold in Unfolding Buffer (6M GuHCl, 1 mM DTT, in PBS) [30] rocking at 4°C for a minimum of 3 h. Solubilized inclusion body proteins were transferred to SnakeSkin dialysis tubing, 10K MWCO (Pierce) and subjected to step-down dialysis against the buffers as previously described [30]. As a final purification step, refolded soluble EDIII-E2 60mer particles were loaded onto a Superdex200 column (GE Healthcare) to buffer exchange into PBS, and purity and identity were assessed by SDS-PAGE and Western blot analysis, respectively. LPS was not removed from the preparation, as we have previously found no difference in E2 immunogenicity in the presence or absence of LPS [29].
+
+SDS-PAGE and Western blot analysis
+
+Expression, refolding, and identity of recombinant proteins were assessed by SDS-PAGE and Western blot analysis using Invitrogen NuPAGE 4–12% Bis-Tris mini-gels (Carlsbad, CA) under reducing conditions. For SDS-PAGE, gels were stained with SimplyBlue SafeStain (Invitrogen). For Western blot analysis, proteins were transferred onto nitrocellulose paper (Invitrogen), blocked with Odyssey blocking buffer (LI-COR Biosciences) overnight at 4°C. The following day, the blot was probed simultaneously with serum from a rabbit immunized with E2wt (1:8000) and the mouse mAbs 8A5 (1:2000) for 1 h at 25°C. Primary Abs were prepared in Odyssey Blocking Buffer 1:1 with 1×PBS, 0.2% Tween-20. Blots were washed 5 times with 0.1% Triton X-100, 1×PBS. Secondary Abs IRDye 680 Goat anti-Rabbit and IRDye 800CW Goat anti-mouse (LI-COR Biosciences) were used at 1:15,000, diluted in Odyssey Blocking Buffer 1:1 with 1× PBS, 0.2% Tween-20, 0.02% SDS. Membranes were scanned using the LI-COR Odyssey Infrared Imaging System (LI-COR Biosciences) to detect E2 and the DENV EDIII simultaneously. Integrated intensities were used with protein concentrations (NanoDrop Technologies, Wilmington DE) to calculate protein purity and concentration.
+
+Biosensor Analyses
+
+Surface plasmon resonance (SPR) biosensor assays were carried out at 25 °C using the Biacore X100 instrument (GE Healthcare, Piscataway, NJ). Ten µg/ml of E2wt or EDIII-E2 particles were diluted in sodium acetate buffer (pH 5.5) and immobilized by standard coupling chemistry on a CM3 sensor chip. E2wt and EDIII-E2 particles were immobilized to a level of 60 RU on flow cell 2 and 3, respectfully. Flow cell 1 was activated and blocked and its response was subtracted from all other flow cells. Binding experiments were carried out by injecting the monoclonal Abs 8A5 over the sensor surface at varying concentrations in HBS-EP buffer (10 mM HEPES, 150 mM NaCl, 1 mM EDTA, 0.05% P20) at a flow rate of 30 µl/min for 5 minutes. Following a 10-minute dissociation phase, the chip surface was regenerated for each concentration of injected Ab with a 45 second pulse of 10 mM glycine, pH 2.5. Additionally mAb DVC 3.7, DVC 10.16 and DVC 14.2 were tested at a single concentration of 33.3 nM. All data were double reference subtracted with buffer blank injections. Data were processed using X100 evaluation software.
+
+Enzyme-linked immunosorbent assay (ELISA)
+
+Binding Ab responses from individual macaques to the E2wt protein and EDIII were measured by ELISA as described previously [38]. Endpoint titers were calculated as the lowest positive value for each sample that was three-times the average background of pre-immune macaque serum included in triplicate per plate. Individual polypeptides were added (0.05 ml at 0.01 mg/ml) to flat-bottom 96-well plates (Thermo Scientific), and incubated overnight at 4°C. Plates were blocked with Blotto (PBS, 5% nonfat dry milk, 1% goat serum) for 1 hour, serum added and incubated for 1 hour at 25°C and washed five times with Wash Buffer (PBS, 0.1% Trition X-100). Goat anti-human IgG-HRP at 1:4000 in Disruption Buffer (PBS, 5% FBS, 2% BSA, 1% Trition X-100) was added to the plate and incubated for one hour at 25°C. The plates were washed, and TMB substrate (Sigma) was added to each well and incubated for 30 minutes in the dark. The reaction was stopped and the plates were read at 450 nm (Molecular Devices SpectraMax 190). Optical density (OD) values were calculated for each sample.
+
+Production of Dengue viral stocks
+
+DENV2 strains 16681 was derived from the DENV2 16681 infectious clone [33]. Strain 16803 was generously provided by Aravinda de Silva, UNC Chapel Hill. Viruses were propagated in Aedes albopictus C6/36 cells at 32°C 5% CO2 in MEM (Cellgro) supplemented with 5% fetal bovine serum (FBS), Non-essential amino acids (Cellgro) and antibacterial-antifungal mix (Gibco anti-anti). Virus was applied to 80–90% confluent monolayers at an approximate multiplicity of infection (MOI) of 0.01 and incubated for 5–7 days. Culture supernatants were harvested, clarified by centrifugation and frozen at −80°C in 10% sucrose-phosphate-glutamic acid (SPG) buffer.
+
+Focus assays
+
+The focus is based on a method previously described by Whitehead [34]. Briefly, twenty-four well plates were seeded with 5 ×104 Vero cells in MEM supplemented with 5% fetal bovine serum (FBS) and grown for 24 hours. Growth media was removed. For virus titration, virus stocks were diluted serially ten-fold and added to individual wells. Cells were overlaid with 1 ml 0.8% methylcellulose in OptiMEM (Gibco) supplemented with 2 % FBS (Cellgro) and antibiotic mix (Gibco Anti-Anti) and incubated 5 days at 37° C, 5% CO2. On day 5, overlay was removed, cells washed with PBS, fixed in 80% methanol and developed. To develop plates, fixed monolayers were blocked with 5% instant milk PBS, followed by incubation with anti-flavivirus MAb 4G2 diluted 1:1000. Wells were washed with PBS and incubated with horseradish peroxidase (HRP) conjugated goat anti-mouse Ab (Sigma) diluted 1:500 in blocking buffer for 1 hr at 37° C. Plates were washed once in PBS and foci developed by the addition of 100 ul of TrueBlue HRP substrate (KPL). Foci were counted on a light box and viral titers calculated by standard methods. For focus reduction neutralization test (FRNT), primate sera were serially diluted from starting dilutions of 1:10, mixed with equal volume media containing approximately 50 focus forming units (ffu) of virus to a final volume of 200 µl, incubated for 1 hour at 37° C, 5% CO2 and added in triplicate to 24 wells plates and processed as above. For delayed focus assay, 150 uL of acute macaque sera were inoculated onto 90% confluent C6/36 cells in T-25 flasks and incubated for 7 days at 32°C, 5% CO2. On day 7, supernatants were harvested and titrated as described above. The final readout for the delayed focus assay is presence (+) or absence (−) of detectable virus
+
+Dengue virus challenge
+
+Six vaccinated macaques (EDIII-E2) and three naïve macaques were challenged with 5 × 105 FFU DENV2 isolate 16803 at five weeks following the final vaccination. Challenged was delivered by 0.2 mL intramuscular injection in the quadriceps muscle. Serum samples were collected at the time of viral challenge and daily for the first ten days post-challenge and at day 21 days post-infection.
+
+RNA isolation and quantification
+
+Blood specimens collected on days 0 through 10 were assayed for viral RNA by routine and quantitative PCR. QiaAmp Viral RNA mini Kit (QIAGEN, Valencia, CA) was used to extract viral RNA from primate sera following the manufacturer’s protocol. Extracted RNA was immediately subjected to routine RT-PCR as previously described [35]. RNA from PCR positive serum samples were subsequently subjected to single reaction real-time RT-PCR as previously described [36] using an Applied Biosystems Step-One Plus thermocycler (Forest City, CA).
+
+Results
+
+Recombinant EDIII-E2 fusion protein preserves EDIII conformational epitopes
+
+The EDIII-E2 fusion protein was expressed in E. coli and purified from inclusion bodies as described above. Protein expression in whole cell lysate was analyzed by SDS-PAGE (Fig. 1A) and co-localization of E2 and EDIII demonstrated by western blot using both E2 specific and EDIII specific antibodies (Fig. 1A). The vaccine construct was then purified from E. coli inclusion bodies by centrifugation, solubilization and dialysis, and gel filtration as described in Materials and Methods and evaluated by SDS-PAGE with results showing that the resulting protein is >95% pure (Fig 1B). EDIII expression by the pEMC* based DNA component of the vaccine of the EDIII insert was verified by western blot (Fig. 1C).
+
+Conformational EDIII epitopes on the surface of the EDIII-E2 particle was determined by surface plasmon resonance (SPR). The conformation-dependent mouse monoclonal antibody (mAb) 8A5 and human conformational EDIII specific mAbs (DVC 3.7, DVC 10.16 and DVC 14.21 [15,37] were tested against the E2 and EDIII-E2 particles with specific antibody binding only observed with the EDIII-E2 particle (Fig. 2A, 2B), collectively demonstrating known epitopes on the EDIII-E2 particle are accessible and displayed in a native conformation.
+
+The EDIII-E2/DNA vaccine is highly immunogenic
+
+EDIII-E2 purified particles were delivered intramuscularly at the same time that EDIII DNA expression plasmid and IL-12 DNA was delivered intradermally by gene gun at weeks 0, 4, and 12. Antibody responses to the E2 particle and EDIII were first evaluated by ELISA (Fig. 3A, 3B). Strong and rapid antibody responses to the E2 carrier particle were observed following the prime dose with endpoint antibody titers reaching 1:100,000 (Fig. 3A). Anti-EDIII binding antibody response was also detected following the prime dose (Fig. 3B) and were subsequently boosted, reaching a final endpoint titer of 1:100,000 by the third dose. Neutralizing (FRNT50) titers against DENV2 16681 >1:20 were detected after the second vaccination (Fig. 3C) and were further boosted following the third vaccination. Tests of the breadth of neutralization against heterologous serotypes found little to no cross neutralization (Fig. 4). Overall the EDIII-E2/DNA EDIII vaccine elicited a narrow, highly serotype specific neutralizing antibody response.
+
+The EDIII-E2/DNA vaccine is protective against DENV2 challenge
+
+Vaccinated and naïve macaques were challenged with heterologous DENV2 strain 16803 5 weeks after the final vaccination. Serum samples were obtained daily from day 0–10 post-challenge to verify viral clearance and day 21 to measure the early post-challenge boosting. Serum viremia was first determined by delayed focus assay (Table 1). Naïve macaques had detectable infectious virus by day two post-challenge with a duration range of 2–7 days. None of the vaccinated group had detectable infectious virus at any point post-challenge. The presence of viral RNA was determined by RT-PCR and RT-qPCR (Fig. 5A). All naïve controls had detectable dengue RNA for 8 – 9 days. DENV2 RNA was detected in 3 of 6 vaccinated macaques, with onset and duration of viral RNA trending towards being later and shorter than that observed for naïve animals. The remaining 3 vaccinees had no evidence of DENV2 infection.
+
+FRNT50 titers against the challenge strain16803 were measured at d0 and d21 post-infection. All macaques in the vaccine group had FRNT50 titers of greater that 1:1,000 at the time of challenge on week 17 (Fig. 5B). At day 21 post-challenge the PCR positive animals had a 10–30 fold boost in titer boost in FRNT50 titer (Fig. 5A and 5C), while FRNT50 titers for the PCR negative macaques remained constant, indicating that the EDIII-E2 vaccine had induced sterilizing immunity in these three animals (Fig. 5D). Week 17 antibody titers >1:6,000 against 16681 in the vaccinated macaques was associated with sterilizing immunity that provided absolute protection against challenge with 16803 (Fig. 6A). Week 17 antibody titers against 16681 were significantly negatively associated with days viremic in the vaccinated macaques (Spearman r = −0.94, P<0.0001) (Figure 6B). Week 17 FRNT50 titers against the challenge strain 16803, were also negatively correlated with days viremic (Spearman r=−0.58) but the relationship was not statistically significant (P=0.20, data not shown).
+
+Discussion
+
+Several candidate DENV vaccines are under development, the most advanced of which is the LAV CYD-TDV vaccine [9]. However, recent clinical trial data show that CYD-TDV has significant shortcomings, including a dependence on pre-existing DENV immunity for maximum efficacy, a trend towards severe disease in hospitalized patients aged <9 yrs old, and highly variable efficacy against each serotype [9]. Limited immunogenicity because of viral interference and immunodominance (or inferiority) of individual serotypes are hypothesized to play a role in the variable results of these trials [38,39], and other LAV based approaches are expected to face similar hurdles. Non-LAV vaccines offer an alternate strategy that may have the potential to overcome these LAV challenges.
+
+Here we show that recombinant DENV2 EDIII displayed on a protein scaffold preserves native DENV2 epitopes and is highly immunogenic in macaques when delivered with EDIII expressing DNA. Using infectious virus assays, qPCR and antibody boost post challenge, we observed two distinct protection outcomes in this study. First, we found evidence for sterilizing immunity in three vaccinated macaques while the remaining three vaccinated macaques were partially protect, as while we did not detect challenge virus via infectious assay, we detected viral RNA by qPCR and observed a neutralization titer boost, both suggesting viral replication after challenge. These results highlight the importance of using all three post-challenge methodologies in order to comprehensively characterize vaccine-induced protective immunity, especially in the NHP models where disease is not manifested.
+
+We observed a significant correlation between week 17 FRNT50 and days viremia on challenge. Week 17 FRNT50 titer against parental strain 16681 was also predictive of sterile versus anamnestic immunity: the three macaques with FRNT50 titers >1:6,000 were sterilely protected whereas the three with FRNT50 titers <1:6,000 had detectable viral RNA by qPCR (Figure 6) and a boost in 21 day post-challenge FRNT50 titer (Figure 5C). This result suggests that an FRNT50 threshold of protection on challenge is around 1:6,000 (Fig. 6). While these FRNT50 titers associated with sterilizing immunity are considerably higher than what have been observed as a sterilizing protective neutralization threshold for humans vaccinated with LAV DENV vaccines [40], following natural infection [41] they are only two-fold greater than what has been observed for other vaccinated NHPs [42]. These findings suggest that recombinant protein vaccine-induced neutralizing antibodies may differ from antibodies raised by natural infection or LAV vaccination and that higher neutralizing antibody titers may have to be achieved by recombinant protein vaccines in macaques to establish sterilizing protection. However, caution should be taken when translating thresholds of protection for primates to human thresholds of protection. This point is further emphasized by the finding that while week 17 FRNT titers against the parent strain 16681 did significantly correlate with sterilizing immunity, Week 17 FRNT50 titers against the challenge strain 16803 did not significantly correlate with sterilizing immunity (Fig. 4B). This discrepancy may be the effect of the small number of animals in the study (n=6), differences in specific strain sensitivity to neutralization, or the unmeasured contribution of cellular immunity induced by the DNA component of the vaccine.
+
+The E2 platform we describe here has the potential to be developed into a tetravalent DENV vaccine. Intriguingly, multimeric E2 VLP can be assembled either using a cocktail of E2 monomers displaying each of the four EDIIIs or a refolded multi-serotype vaccine containing VLPs assembled from each individual serotype. Critically, we have identified, for this vaccine platform, the approximate threshold antibody required for sterilizing immunity against DENV2 in macaques, allowing vaccine evaluation to proceed with a clear endpoint.
+
+A challenge faced by all current dengue vaccine approaches is inducing a robust and sustained neutralizing antibody response against all four dengue serotypes, lest the vaccine induce ADE associated severe dengue disease as antibody titers wane. This may have been observed in the recent CYD-TDV trials, with increased hospitalization observed in the vaccine arm in children aged <9 yrs [9]. One other DENV LAV vaccine, TV003, developed by the Laboratory of Infectious Diseases/National Institute of Allergy and Infectious Diseases (LID/NIAID) [43–45] has now entered phase 3 human trials (NCT02406729). In a recently published pre-phase 3 study [46], TV003 vaccines were challenged with a live attenuated DENV2 strain 6 months post vaccination (N=21) with 43% (9 of 21) showing a four-fold or greater boost in NAb titer post challenge. As with our challenge, the authors did not find infectious virus by tissue culture in the vaccinees, but the presence of a memory boost in 9 of 21 vaccinees suggests virus replication likely occurred, as we observed in our study.
+
+While our monovalent formulation initially induced robust neutralizing antibodies in non-human primates, these titers waned to below a sterilizing titer in three of six animals in 5 weeks, a result that would need to be overcome by an effective tetravalent EDIII/DNA vaccine. To address this fundamental concern, several avenues for further investigation need to be undertaken, including: assessing whether recently described quaternary epitopes recognized by type specific or broadly neutralizing DENV antibodies [47–53] could be displayed on the E2 scaffold and induce a more sustained antibody response; establishing the role of adjuvants in inducing neutralizing antibodies in the context of E2/DNA vaccination; more clearly establishing the relative contributions of the recombinant protein and DNA components of the vaccine formulation to protection; assessing the contribution of cell-mediated immunity to protection conferred by the E2/DNA vaccine platform; assessing the kinetics of decay over a longer period of time for tetravalent E2/DNA vaccine formulations; and evaluating the potential for antibody enhanced disease as neutralizing titers wane following tetravalent vaccination.
+
+We thank the ONPRC Division of Comparative Medicine for support of the macaque vaccination and challenge. This research was supported by the Sunlin and Priscilla Chou Foundation (W. Messer), joint pilot funds provided by UL1 TR000128 (N. Haigwood), Oregon Clinical Trials Research Institute (W. Messer and N. Haigwood) and P51 OD011092 (N. Haigwood), Oregon National Primate Research Center, U42 OD010426 (K. Andrews), R01 AI074379 (N. Haigwood), F32 AI106489 (S. McBurney) and T32AI1078903 (J. Sunshine). We thank Aravinda de Silva at the University of North Carolina at Chapel Hill for the mouse monoclonal antibody 8A5, human monoclonal antibodies DVC 3.7, 10.16 and 14.21 and recombinant EDIII protein. We thank Claire Huang, CDC Fort Collins, for generously providing the 16681 DENV2 clone.
+
+Figure 1 EDIII-E2/E2 DNA vaccine characterization
+
+EDIII-E2 particles were characterized for size, compostion, and purity. (A)Transformed E. coli containing the EDIII-E2 expression plasmid were induced and lysed. Protein lysates were loaded into SDS-Page gels for visualization. 1. E2 pre-induction, 2. E2 induced, 3. EDIII-E2 pre-induction 4. EDIII-E2 induced. One gel was stained for protein. Matching gels were transferred to nitrocellulose and probed by western blot for E2 (red) and EDIII (green), A merged figure is shown at the bottom of a showing the localization of both the E2 and EDIII stains. (B) Purified EDIII-E2 particles were separated by SDS-PAGE and then stained for protein. A previously purified EDIII-E2 sample is shown in lane 1. Lanes 2 and3 show column fractions that were combined for the overall EDIII-E2 recombinant protein vaccine component. No E2wt was present. (C) 293T cells were transformed with the EDIII DNA vaccine eluted from vaccination bullets. Lane 1 shows an EDIII-E2 particle as a control. Lanes 2 and 4 supernatant and 3 and 5 are lysate from bullet transfected cells.
+
+Figure 2 Structural analysis of EDIII-E2 particles by Surface Plasmon Resonance
+
+EDIII-E2 and E2 only particles were immobilized on the surface of a Biacore chip. Conformational antibodies were flowed over the surface of the chip to determine the availability of antibody binding sites. (A) 8A5 was tested at increasing concentrations. Binding is shown as RUs over injection time. (B) Antibodies DVC 3.7, DVC 10.16, and DVC 14.2 were tested 3 times at 33.3 nM. Results are shown as Max RUs from each run.
+
+Figure 3 Antibody responses induced by EDIII-E2/EDIII DNA vaccination
+
+Antibody responses were determined from serum samples obtained at the time of the first vaccination, and then two weeks following each vaccination. Dotted lines represent limits of detection for each of the assays. Dilutions of serum samples were tested for binding to E2 (A) and E (B) by ELISA. Results are reported as endpoint titer. Dilutions of serum samples were also tested for neutralizing antibodies by FRNT assay against matched DENV2 16681 virus (C). Results are reported as FRNT50 titer. Red filled symbols indicate animals that were PCR positive on DENV2 challenge, green filled are PCR negative.
+
+Figure 4 Breadth of Neutralizing antibody Response
+
+Neutralizing antibody responses were determined by FRNT assay against DENV-1 (WestPac ’74), DENV2 (16681), DENV-3 (UNC3001), and DENV-4 (TVP-360) viruses. Dotted line represents limit of detection for the neutralization assay. Red filled symbols indicate animals that were PCR positive on DENV2 challenge, green filled are PCR negative.
+
+Figure 5 DENV2 16803 Viral challenge
+
+Macaques were challenged with DENV2 16803. Serum samples were collected daily from day 0–10 and were tested for the presence of viral RNA by RT-PCR. All macaques that were positive by RT-PCR were further tested by qPCR to determine viral RNA levels. Macaques were tested for the presence of neutralizing antibodies to 16803 by FRNT assay (B). Vaccinated macaques were tested at the time of viral challenge as well as 21 days post-challenge. All control macaques were tested at 21 days post-challenge. The fold change in FRNT50 titer for vaccinated macaques was determined by dividing the day 21 titer by the titer at day 0. Red filled symbols indicate animals that were PCR positive on DENV2 challenge, green filled are PCR negative.
+
+Figure 6 FRNT50 Protective Thershold
+
+Week 17 FRNT50 titers against DENV2 16681 were compared between those vaccinated macaques who became viral RNA positive and those that remained protected (A) and days viremic against FRNT50 titer (B). A) All macaques with FRNT50 titers of greater than 1:6,000 were sterilely protected against DENV2 16803 challenge. Dotted line indicates log-midpoint between macaques 27923 (protected, FRNT50 = 6,630) and macaque 27758 (viremic, FRNT50= 5,901). B) Days viremic were negative correlated with week 17 FRNT50 titer (Spearman’s rank order correlation).
+
+Table 1 DENV 16803 Challenge-Detectable Viremia by delayed focus assay.
+
+Group	NHP	Day Post Infection	
+1	2	3	4	5	6	7	8	9	10	
+EDIII-
+E2	26626	−	−	−	−	−	−	−	−	−	−	
+27350	−	−	−	−	−	−	−	−	−	−	
+27733	−	−	−	−	−	−	−	−	−	−	
+27758	−	−	−	−	−	−	−	−	−	−	
+27772	−	−	−	−	−	−	−	−	−	−	
+27923	−	−	−	−	−	−	−	−	−	−	
+Naive	26764	−	−	+	+	−	−	−	−	−	−	
+28504	−	−	+	+	+	+	+	+	−	−	
+29445	−	−	+	+	+	+	+	+	+	−	
+
+Highlights
+
+□ Proof of principle of a protein scaffold/DNA based dengue virus vaccine
+
+□ Highly immunogenic in rhesus macaques
+
+□ Conferred protection against viremia on challenge
+
+This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final citable form. Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.
+
+Conflict of Interest: The authors have nothing to declare.
+
+
+References
+
+1 Sabin AB Research on dengue during World War II Am J Trop Med Hyg 1952 1 1 30 50 14903434 10.4269/ajtmh.1952.1.30
+2 Webster DP Farrar J Rowland-Jones S Progress towards a dengue vaccine Lancet Infect Dis 2009 9 11 678 687 19850226 10.1016/S1473-3099(09)70254-3
+3 Guzman MG Kouri G Valdes L Bravo J Alvarez M Vazques S Epidemiologic studies on Dengue in Santiago de Cuba, 1997 Am J Epidemiol 2000 152 9 793 799 discussion 804 11085389 10.1093/aje/152.9.793
+4 Burke DS Nisalak A Johnson DE Scott RM A prospective study of dengue infections in Bangkok Am J Trop Med Hyg 1988 38 1 172 180 3341519 10.4269/ajtmh.1988.38.172
+5 Vaughn DW Green S Kalayanarooj S Innis BL Nimmannitya S Suntayakorn S Dengue viremia titer, antibody response pattern, and virus serotype correlate with disease severity J Infect Dis 2000 181 1 2 9 10608744 10.1086/315215
+6 Halstead SB Nimmannitya S Cohen SN Observations related to pathogenesis of dengue hemorrhagic fever. IV. Relation of disease severity to antibody response and virus recovered Yale J Biol Med 1970 42 5 311 328 5419206 PMC2591704
+7 Rothman AL Immunity to dengue virus: a tale of original antigenic sin and tropical cytokine storms Nat Rev Immunol 2011 11 8 532 543 21760609 10.1038/nri3014
+8 Bhatt S Gething PW Brady OJ Messina JP Farlow AW Moyes CL The global distribution and burden of dengue Nature 2013 496 7446 504 507 23563266 10.1038/nature12060 PMC3651993
+9 Hadinegoro SR Arredondo-Garcia JL Capeding MR Deseda C Chotpitayasunondh T Dietze R Efficacy and Long-Term Safety of a Dengue Vaccine in Regions of Endemic Disease N Engl J Med 2015 373 13 1195 1206 26214039 10.1056/NEJMoa1506223
+10 Villar L Dayan GH Arredondo-Garcia JL Rivera DM Cunha R Deseda C Efficacy of a tetravalent dengue vaccine in children in Latin America N Engl J Med 2015 372 2 113 123 25365753 10.1056/NEJMoa1411037
+11 Capeding MR Tran NH Hadinegoro SR Ismail HI Chotpitayasunondh T Chua MN Clinical efficacy and safety of a novel tetravalent dengue vaccine in healthy children in Asia: a phase 3, randomised, observer-masked, placebo-controlled trial Lancet 2014 384 9951 1358 1365 25018116 10.1016/S0140-6736(14)61060-6
+12 Sabchareon A Wallace D Sirivichayakul C Limkittikul K Chanthavanich P Suvannadabba S Protective efficacy of the recombinant, live-attenuated, CYD tetravalent dengue vaccine in Thai schoolchildren: a randomised, controlled phase 2b trial Lancet 2012 380 9853 1559 1567 22975340 10.1016/S0140-6736(12)61428-7
+13 Kuhn RJ Zhang W Rossmann MG Pletnev SV Corver J Lenches E Structure of dengue virus: implications for flavivirus organization, maturation, and fusion Cell 2002 108 5 717 725 11893341 10.1016/s0092-8674(02)00660-8 PMC4152842
+14 Wahala WM Kraus AA Haymore LB Accavitti-Loper MA de Silva AM Dengue virus neutralization by human immune sera: role of envelope protein domain III-reactive antibody Virology 2009 392 1 103 113 19631955 10.1016/j.virol.2009.06.037 PMC2746956
+15 Beltramello M Williams KL Simmons CP Macagno A Simonelli L Quyen NT The human immune response to Dengue virus is dominated by highly cross-reactive antibodies endowed with neutralizing and enhancing activity Cell Host Microbe 2010 8 3 271 283 20833378 10.1016/j.chom.2010.08.007 PMC3884547
+16 Guzman MG Hermida L Bernardo L Ramirez R Guillen G Domain III of the envelope protein as a dengue vaccine target Expert Rev Vaccines 2010 9 2 137 147 20109025 10.1586/erv.09.139
+17 Suzarte E Gil L Valdes I Marcos E Lazo L Izquierdo A A novel tetravalent formulation combining the four aggregated domain III-capsid proteins from dengue viruses induces a functional immune response in mice and monkeys Int Immunol 2015 27 8 367 379 25795768 10.1093/intimm/dxv011
+18 Gil L Marcos E Izquierdo A Lazo L Valdes I Ambala P The protein DIIIC-2, aggregated with a specific oligodeoxynucleotide and adjuvanted in alum, protects mice and monkeys against DENV-2 Immunol Cell Biol 2015 93 1 57 66 25178969 10.1038/icb.2014.63
+19 Chen HW Liu SJ Li YS Liu HH Tsai JP Chiang CY A consensus envelope protein domain III can induce neutralizing antibody responses against serotype 2 of dengue virus in non-human primates Arch Virol 2013 158 7 1523 1531 23456422 10.1007/s00705-013-1639-1
+20 Bernardo L Fleitas O Pavon A Hermida L Guillen G Guzman MG Antibodies induced by dengue virus type 1 and 2 envelope domain III recombinant proteins in monkeys neutralize strains with different genotypes Clin Vaccine Immunol 2009 16 12 1829 1831 19726617 10.1128/CVI.00191-09 PMC2786379
+21 Bernardo L Hermida L Martin J Alvarez M Prado I Lopez C Anamnestic antibody response after viral challenge in monkeys immunized with dengue 2 recombinant fusion proteins Arch Virol 2008 153 5 849 854 18299795 10.1007/s00705-008-0050-9
+22 Valdes I Hermida L Martin J Menendez T Gil L Lazo L Immunological evaluation in nonhuman primates of formulations based on the chimeric protein P64k-domain III of dengue 2 and two components of Neisseria meningitidis Vaccine 2009 27 7 995 1001 19100804 10.1016/j.vaccine.2008.11.106
+23 Liu G Song L Beasley DW Putnak R Parent J Misczak J Immunogenicity and efficacy of flagellin-envelope fusion dengue vaccines in mice and monkeys Clin Vaccine Immunol 2015 22 5 516 525 25761459 10.1128/CVI.00770-14 PMC4412944
+24 Bernardo L Izquierdo A Alvarez M Rosario D Prado I Lopez C Immunogenicity and protective efficacy of a recombinant fusion protein containing the domain III of the dengue 1 envelope protein in non-human primates Antiviral Res 2008 80 2 194 199 18602424 10.1016/j.antiviral.2008.06.005
+25 Hermida L Bernardo L Martin J Alvarez M Prado I Lopez C A recombinant fusion protein containing the domain III of the dengue-2 envelope protein is immunogenic and protective in nonhuman primates Vaccine 2006 24 16 3165 3171 16490289 10.1016/j.vaccine.2006.01.036
+26 Domingo GJ Orru' S Perham RN Multiple display of peptides and proteins on a macromolecular scaffold derived from a multienzyme complex J Mol Biol 2001 305 2 259 267 11124904 10.1006/jmbi.2000.4311
+27 Domingo GJ Chauhan HJ Lessard IA Fuller C Perham RN Self-assembly and catalytic activity of the pyruvate dehydrogenase multienzyme complex from Bacillus stearothermophilus Eur J Biochem 1999 266 3 1136 1146 10583411 10.1046/j.1432-1327.1999.00966.x
+28 Caivano A Doria-Rose NA Buelow B Sartorius R Trovato M D'Apice L HIV-1 Gag p17 presented as virus-like particles on the E2 scaffold from Geobacillus stearothermophilus induces sustained humoral and cellular immune responses in the absence of IFNgamma production by CD4+ T cells Virology 2010 407 2 296 305 20850858 10.1016/j.virol.2010.08.026 PMC3275809
+29 Jaworski JP Krebs SJ Trovato M Kovarik DN Brower Z Sutton WF Co-immunization with multimeric scaffolds and DNA rapidly induces potent autologous HIV-1 neutralizing antibodies and CD8+ T cells PLoS One 2012 7 2 e31464 22359593 10.1371/journal.pone.0031464 PMC3281069
+30 Krebs SJ McBurney SP Kovarik DN Waddell CD Jaworski JP Sutton WF Multimeric scaffolds displaying the HIV-1 envelope MPER induce MPER-specific antibodies and cross-neutralizing antibodies when co-immunized with gp160 DNA PLoS One 2014 9 12 e113463 25514675 10.1371/journal.pone.0113463 PMC4267727
+31 Pissani F Malherbe DC Schuman JT Robins H Park BS Krebs SJ Improvement of antibody responses by HIV envelope DNA and protein co-immunization Vaccine 2014 32 4 507 513 24280279 10.1016/j.vaccine.2013.11.022 PMC3926420
+32 Planelles V Haigwood NL Marthas ML Mann KA Scandella C Lidster WD Functional and immunological characterization of SIV envelope glycoprotein produced in genetically engineered mammalian cells AIDS Res Hum Retroviruses 1991 7 11 889 898 1760229 10.1089/aid.1991.7.889
+33 Kinney RM Butrapet S Chang GJ Tsuchiya KR Roehrig JT Bhamarapravati N Construction of infectious cDNA clones for dengue 2 virus: strain 16681 and its attenuated vaccine derivative, strain PDK-53 Virology 1997 230 2 300 308 9143286 10.1006/viro.1997.8500
+34 Whitehead SS Falgout B Hanley KA Blaney Jr JE Jr Markoff L Murphy BR A live, attenuated dengue virus type 1 vaccine candidate with a 30-nucleotide deletion in the 3' untranslated region is highly attenuated and immunogenic in monkeys J Virol 2003 77 2 1653 1657 12502885 10.1128/JVI.77.2.1653-1657.2003 PMC140839
+35 Lanciotti RS Calisher CH Gubler DJ Chang GJ Vorndam AV Rapid detection and typing of dengue viruses from clinical samples by using reverse transcriptase-polymerase chain reaction J Clin Microbiol 1992 30 3 545 551 1372617 10.1128/jcm.30.3.545-551.1992 PMC265106
+36 Waggoner JJ Abeynayake J Sahoo MK Gresh L Tellez Y Gonzalez K Comparison of the FDA-approved CDC DENV-1–4 real-time reverse transcription-PCR with a laboratory-developed assay for dengue virus detection and serotyping J Clin Microbiol 2013 51 10 3418 3420 23903549 10.1128/JCM.01359-13 PMC3811623
+37 de Alwis R Beltramello M Messer WB Sukupolvi-Petty S Wahala WM Kraus A In-depth analysis of the antibody response of individuals exposed to primary dengue virus infection PLoS Negl Trop Dis 2011 5 6 e1188 21713020 10.1371/journal.pntd.0001188 PMC3119640
+38 Halstead SB Identifying protective dengue vaccines: guide to mastering an empirical process Vaccine 2013 31 41 4501 4507 23896423 10.1016/j.vaccine.2013.06.079
+39 Halstead SB Dengue vaccine development: a 75% solution? Lancet 2012 380 9853 1535 1536 22975339 10.1016/S0140-6736(12)61510-4
+40 Sun W Eckels KH Putnak JR Lyons AG Thomas SJ Vaughn DW Experimental dengue virus challenge of human subjects previously vaccinated with live attenuated tetravalent dengue vaccines J Infect Dis 2013 207 5 700 708 23225894 10.1093/infdis/jis744
+41 Buddhari D Aldstadt J Endy TP Srikiatkhachorn A Thaisomboonsuk B Klungthong C Dengue virus neutralizing antibody levels associated with protection from infection in thai cluster studies PLoS Negl Trop Dis 2014 8 10 e3230 25329173 10.1371/journal.pntd.0003230 PMC4199527
+42 Sariol CA White LJ Utility, limitations, and future of non-human primates for dengue research and vaccine development Front Immunol 2014 5 452 25309540 10.3389/fimmu.2014.00452 PMC4174039
+43 Durbin AP Kirkpatrick BD Pierce KK Carmolli MP Tibery CM Grier PL A 12-month interval dosing study in adults indicates that a single dose of the NIAID tetravalent dengue vaccine induces a robust neutralizing antibody response J Infect Dis 2016 10.1093/infdis/jiw067 PMC4996143 26908742
+44 Kirkpatrick BD Durbin AP Pierce KK Carmolli MP Tibery CM Grier PL Robust and Balanced Immune Responses to All 4 Dengue Virus Serotypes Following Administration of a Single Dose of a Live Attenuated Tetravalent Dengue Vaccine to Healthy, Flavivirus-Naive Adults J Infect Dis 2015 212 5 702 710 25801652 10.1093/infdis/jiv082 PMC4612392
+45 Durbin AP Kirkpatrick BD Pierce KK Elwood D Larsson CJ Lindow JC A single dose of any of four different live attenuated tetravalent dengue vaccines is safe and immunogenic in flavivirus-naive adults: a randomized, double-blind clinical trial J Infect Dis 2013 207 6 957 965 23329850 10.1093/infdis/jis936 PMC3571448
+46 Kirkpatrick BD Whitehead SS Pierce KK Tibery CM Grier PL Hynes NA The live attenuated dengue vaccine TV003 elicits complete protection against dengue in a human challenge model Science Translational Medicine 2016 8 330 330ra36- 10.1126/scitranslmed.aaf1517 27089205
+47 de Alwis R Smith SA Olivarez NP Messer WB Huynh JP Wahala WM Identification of human neutralizing antibodies that bind to complex epitopes on dengue virions Proc Natl Acad Sci U S A 2012 109 19 7439 7444 22499787 10.1073/pnas.1200566109 PMC3358852
+48 de Alwis R Williams KL Schmid MA Lai CY Patel B Smith SA Dengue viruses are enhanced by distinct populations of serotype cross-reactive antibodies in human immune sera PLoS Pathog 2014 10 10 e1004386 25275316 10.1371/journal.ppat.1004386 PMC4183589
+49 Fibriansah G Tan JL Smith SA de Alwis R Ng TS Kostyuchenko VA A highly potent human antibody neutralizes dengue virus serotype 3 by binding across three surface proteins Nat Commun 2015 6 6341 25698059 10.1038/ncomms7341 PMC4346626
+50 Fibriansah G Tan JL Smith SA de Alwis AR Ng TS Kostyuchenko VA A potent anti-dengue human antibody preferentially recognizes the conformation of E protein monomers assembled on the virus surface EMBO Mol Med 2014 6 3 358 371 24421336 10.1002/emmm.201303404 PMC3958310
+51 Teoh EP Kukkaro P Teo EW Lim AP Tan TT Yip A The structural basis for serotype-specific neutralization of dengue virus by a human antibody Sci Transl Med 2012 4 139 139ra83 10.1126/scitranslmed.3003888 22723463
+52 Dejnirattisai W Wongwiwat W Supasa S Zhang X Dai X Rouvinsky A A new class of highly potent, broadly neutralizing antibodies isolated from viremic patients infected with dengue virus Nat Immunol 2015 16 2 170 177 25501631 10.1038/ni.3058 PMC4445969
+53 Messer WB Yount BL Royal SR de Alwis R Widman DG Smith SA Functional transplant of a DENV3-specific human monoclonal antibody epitope into DENV1 J Virol 2016 10.1128/JVI.00155-16 PMC4859728 26962223

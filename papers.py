@@ -143,28 +143,32 @@ def FetchLiteraturePMID(pmid: str) -> str | None:
 
 
 
-def PMID2PMCID(pmid: str) -> str | None:
 
-    """
-    Convert a single PMID to a PMCID.
-    Returns the PMCID (e.g. 'PMC1234567') or None if not available.
-    """
+
+def PMID2PMCID(pmid: str) -> str | None:
 
     url = "https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/"
 
-    res = requests.get(url, params={
-        "ids": pmid,
-        "format": "json"
-
-    }).json()
+    res = requests.get(
+        url,
+        params={
+            "ids": pmid,
+            "format": "json"
+        },
+        timeout=10
+    )
     sleep(0.5)
 
-    records = res.get("records", [])
+    if res.status_code != 200:
+        return None
+    try:
+        data = res.json()
+    except ValueError:
+        return None
+    records = data.get("records", [])
 
     if not records:
-
         return None
-
     return records[0].get("pmcid")
 
 def DownloadPaper(pmcid, save_dir):
@@ -283,6 +287,7 @@ def CreateLibrary(accession):
 
     papers_dir=os.listdir(f'data/library/{accession}')
     if len(papers_dir) < 5:
+        print(f'Less than 5 papers associated with {accession}')
         pmids=SearchPubmed(species)
         for pmid in pmids:
             pmcid = PMID2PMCID(pmid)  # convert pmid to pmcid

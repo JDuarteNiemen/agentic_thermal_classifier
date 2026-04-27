@@ -1,0 +1,11 @@
+Comparative analysis of new innovative vaccine formulations based on the use of procaryotic display systems.
+
+A T helper epitope was expressed in three innovative delivery vehicles recently developed in our
+laboratories and based respectively, on the filamentous bacteriophage fd, the E2 protein from the
+PDH complex of Bacillus stearothermophilus and the protein CotC of Bacillus subtilis spores. Studies
+of antigenicity and immunogenicity were performed by using a specific T cell hybridoma and by
+priming mononuclear cells isolated from the venous blood of human donors. The results indicate that
+the E2 system is the best suited for inducing a specific immune response towards a CD4 T cell
+epitope. Importantly, TCR clonal analysis demonstrated the persistence over years of a previously
+described antigen specific clonotype and its presence correlates with the immunogenic strength of
+the antigen delivery system.

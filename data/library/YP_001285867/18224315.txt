@@ -1,0 +1,15 @@
+Characterization of a lysin from deep-sea thermophilic bacteriophage GVE2.
+
+Thermostable enzymes from thermophiles have attracted extensive studies. However, little is known
+about thermophilic lysin of bacteriophage obtained from deep-sea hydrothermal vent. In this study, a
+lysin from deep-sea thermophilic bacteriophage Geobacillus virus E2 (GVE2) was characterized for the
+first time. It was found that the GVE2 lysin was highly homologous with N-acetylmuramoyl-L-alanine
+amidases. After expression in Escherichia coli, the recombinant GVE2 lysin was purified. The
+recombinant lysin was active over a range of temperature from 40 degrees C to 80 degrees C, with an
+optimum at 60 degrees C. Its optimal pH was 6.0, and it was stable over a wide range of pH from 4.0
+to 10.0. The lysin was highly active when some enzyme inhibitors or detergents (phenylmethylsulfonyl
+fluoride, Tween 20, Triton X-100, and chaps) were used. However, it was strongly inhibited by sodium
+dodecyl sulfate and ethylene diamine tetraacetic acid. Its enzymatic activity could be slightly
+stimulated in the presence of Na(+) and Li(+). But the metal ions Mg(2+), Ba(2+), Zn(2+), Fe(3+),
+Ca(2+), and Mn(2+) at concentrations of 1 or 10 mM showed inhibitions to the lysin activity. Our
+study demonstrated the first characterization of lysin from deep-sea thermophilic bacteriophage.

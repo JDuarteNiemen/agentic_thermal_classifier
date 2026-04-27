@@ -1,0 +1,13 @@
+Isolating a trimer intermediate in the self-assembly of E2 protein cage.
+
+Understanding the self-assembly mechanism of caged proteins provides clues to develop their
+potential applications in nanotechnology, such as a nanoscale drug delivery system. The E2 protein
+from Bacillus stearothermophilus , with a virus-like caged structure, has drawn much attention for
+its potential application as a nanocapsule. To investigate its self-assembly process from subunits
+to a spherical protein cage, we truncate the C-terminus of the E2 subunit. The redesigned protein
+subunit shows dynamic transition between monomer and trimer, but not the integrate 60-mer. The
+results indicate the role of the trimer as the intermediate and building block during the self-
+assembly of the E2 protein cage. In combination with the molecular dynamics simulations results, we
+conclude that the C-terminus modulates the self-assembly of the E2 protein cage from trimer to
+60-mer. This investigation elucidates the role of the intersubunit interactions in engineering other
+functionalities in other caged structure proteins.

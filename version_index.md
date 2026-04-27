@@ -1,4 +1,4 @@
-# Index file for different versions
+# Index file for version
 
 ## V1
 Original version.

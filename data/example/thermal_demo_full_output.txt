@@ -1,0 +1,251 @@
+
+Start Time: 2026-04-26 11:42:58
+Beginning Classification for ADI87650
+Beginning Classification for ADI87650/41539756.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper states: 'Bacteriophages are promising antibacterial agents across the farm-to-fork continuum... We evaluated chitosan concentration effects on grafting efficiency, phage viability in simulated gastrointestinal (GI) conditions...' However, no specific temperature values or thermal growth ranges are explicitly stated in the text.", 'thermal_confidence': 'high'}
+Beginning Classification for ADI87650/PMC12893549.1.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper states 'Aliquots of nucleic acid were added to the protein in a thermostated (20oC) SPEX Fluoromax 2 spectrofluorimeter', indicating experimental conditions rather than organismal thermal characteristics, and no growth temperature or thermal classification is provided.", 'thermal_confidence': 'high'}
+Beginning Classification for ADI87650/41932316.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper states: 'In this issue of Structure, Besaw et al.1 report a well-designed study combining electron paramagnetic resonance measurements and structural analyses of di-histidine-Cu(II)-nitrilotriacetate binding sites in T4 lysozyme.' No temperature or thermal information is explicitly stated in the provided excerpt.", 'thermal_confidence': 'high'}
+Beginning Classification for ADI87650/PMC12930573.1.txt
+LLM Output: {}
+Beginning Classification for ADI87650/PMC12929587.1.txt
+LLM Output: {}
+Beginning Classification for ADI87650/PMC13055312.1.txt
+LLM Output: {}
+Beginning Classification for ADI87650/PMC13048485.1.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper identifies the organisms as 'Staphylococcus aureus' (source of S. nuclease) and 'T4 lysozyme' (T4 bacteriophage) but focuses on 'protein thermostability' and 'free energy changes' rather than organism growth temperatures. The text states: 'Staphylococcal nuclease (S. nuclease) is a small extracellular protein of 149 amino acid residue length with no cysteines, secreted by Staphylococcus aureus.' and 'A protein's ability to remain properly folded and functionally active at elevated temperatures is governed by its thermostability...'. No growth temperature ranges or thermal classifications for the organisms are explicitly stated.", 'thermal_confidence': 'high'}
+Beginning Classification for ADI87650/41850463.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper states: 'NP co-purified from Escherichia coli often contains pro-inflammatory bacterial RNA, raising safety concerns, while its nucleic-acid-binding-deficient version (NPmut) improves safety but suffers from reduced immunogenicity.' No specific temperature values or thermal growth ranges are explicitly stated in the text.", 'thermal_confidence': 'high'}
+Beginning Classification for ADI87650/PMC12771599.1.txt
+LLM Output: {}
+Beginning Classification for ADI87650/41637553.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The provided text describes the detection of Escherichia coli but does not state any temperature values or thermal ranges. Quote: 'The infection of Escherichia coli (E. coli) by T4 phage induces host cell lysis, resulting in a significant increase in the surrounding conductivity.'", 'thermal_confidence': 'high'}
+Beginning Classification for ADI87650/PMC12735813.1.txt
+LLM Output: {}
+Beginning Classification for ADI87650/PMC12755874.1.txt
+LLM Output: {}
+Beginning Classification for ADI87650/PMC12929629.1.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper focuses on cryo-EM structural analyses and mentions storage conditions ('The final phage preparation was flash-frozen and stored in PBS at −80 °C') but does not explicitly state the organism's growth temperature range or thermal classification.", 'thermal_confidence': 'high'}
+Beginning Classification for ADI87650/41865637.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper states: 'The sensitive and accurate detection of FEN1 and T4 PNK activities is of vital significance for the early diagnosis and therapeutic monitoring of cancer.' It details detection limits and nanonetwork construction but does not explicitly state any temperature or thermal growth information.", 'thermal_confidence': 'high'}
+Beginning Classification for ADI87650/41794029.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper states: 'Structural characterization of the Cu(II)-NTA spin label on α-helices by X-ray crystallography and electron paramagnetic resonance.' It further details 'atomic-resolution X-ray crystal structures of seven α-helical dHis sites of T4 lysozyme (T4L)' without mentioning any temperature or thermal characteristics.", 'thermal_confidence': 'high'}
+Beginning Classification for ADI87650/PMC13030558.1.txt
+LLM Output: {}
+Beginning Classification for ADI87650/41980635.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The provided text does not explicitly state any temperature values or thermal ranges. It focuses on phage lysis dynamics as described: 'Multiple adsorptions shape collective T-even phage lysis dynamics: Insights from an individual-based model.'", 'thermal_confidence': 'high'}
+Beginning Classification for ADI87650/PMC12919812.1.txt
+LLM Output: {}
+Beginning Classification for ADI87650/41927488.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper describes the synthesis and antiphage activity of thiolactone 29 against bacteriophage T4 and Escherichia coli, but does not state any growth temperatures or thermal classifications. Quote: 'Among the synthesized compounds, thiolactone 29 selectively inactivated bacteriophage T4 (>2-log reduction in PFU) without affecting Escherichia coli viability.'", 'thermal_confidence': 'low'}
+Beginning Classification for ADI87650/ADI87650.json
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper text states: 'major head protein, partial [Tequatrovirus T4]' and 'host': 'Enterobacteriales', but does not explicitly state any temperature or thermal information.", 'thermal_confidence': 'high'}
+Beginning Classification for WXH46553
+Beginning Classification for WXH46553/PMC13028683.1.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper states: 'eggs were incubated at 25 °C with 85% relative humidity' and 'Routinely, unfed and fed ticks were kept in a secure plastic container at room temperature', but does not explicitly state the organism's optimal growth temperature or thermal classification range.", 'thermal_confidence': 'high'}
+Beginning Classification for WXH46553/PMC12808745.1.txt
+LLM Output: {'thermal_range': 'mesophile', 'temperature': '30 °C and 37 °C', 'thermal_reasoning': 'After one hour between 102 and 103 PFU/nL were obtained at 30 °C and 37 °C while no PFU were detected at 24 °C.', 'thermal_confidence': 'high'}
+High-confidence classification for WXH46553/PMC12808745.1.txt
+{'thermal_range': 'mesophile', 'temperature': '30 °C and 37 °C', 'thermal_reasoning': 'After one hour between 102 and 103 PFU/nL were obtained at 30 °C and 37 °C while no PFU were detected at 24 °C.', 'thermal_confidence': 'high'}
+
+
+Beginning Classification for WRQ14408
+Beginning Classification for WRQ14408/41741653.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper identifies the organism as Escherichia coli but does not state any temperature requirements. Quote: 'Here, we characterize SNIPE, an anti-bacteriophage defence system that constitutively localizes to the bacterial cell membrane in Escherichia coli to block phage λ infection.'", 'thermal_confidence': 'high'}
+Beginning Classification for WRQ14408/41317755.txt
+LLM Output: {}
+Beginning Classification for WRQ14408/41992038.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper describes the use of DGRs in Escherichia coli and yeast but does not explicitly state any growth temperatures or thermal classifications. Quote: 'We establish a method using DGRs coupled to recombineering (DGRec), which enables the diversification of any sequence of interest in Escherichia coli.'", 'thermal_confidence': 'high'}
+Beginning Classification for WRQ14408/PMC12795941.1.txt
+LLM Output: {}
+Beginning Classification for WRQ14408/PMC12445682.1.txt
+LLM Output: {}
+Beginning Classification for WRQ14408/PMC12315714.1.txt
+LLM Output: {}
+Beginning Classification for WRQ14408/PMC12548430.1.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper identifies the organisms and describes the experimental methods but does not state any temperature information. Quote: 'Here, we identify two novel ArdA-like antirestriction proteins from L. cremoris (further named ArdA_1576) and C. pilbarense (further named ArdA_8247).' Additionally, the Materials and Methods section describes bacterial strains and plasmids without specifying growth temperatures (e.g., 'E. coli strain TG1... was used as the host strain for all experiments.'), and no temperature values are mentioned in the Results or Discussion sections.", 'thermal_confidence': 'high'}
+Beginning Classification for WRQ14408/PMC12318184.1.txt
+LLM Output: {}
+Beginning Classification for WRQ14408/PMC12934686.1.txt
+LLM Output: {}
+Beginning Classification for WRQ14408/PMC12291940.1.txt
+LLM Output: {}
+Beginning Classification for WRQ14408/PMC12922286.1.txt
+LLM Output: {}
+Beginning Classification for WRQ14408/40891925.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper states: 'Development of a novel method for recovery of intracellular biopolymer polyhydroxyalkanoate from Bacillus flexus by regulating a lambda phage lytic system.' However, the text does not explicitly state any temperature values, optimal growth temperatures, or thermal ranges for the organism.", 'thermal_confidence': 'high'}
+Beginning Classification for WRQ14408/PMC12617516.1.txt
+LLM Output: {}
+Beginning Classification for WRQ14408/PMC12875140.1.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': '37 °C', 'thermal_reasoning': 'Bacteria were grown in LB medium (1% tryptone, 0.5% yeast extract, and 0.5% NaCl) at 37 °C with shaking at 220 rpm in 2 mL of medium in 14 mL culture tubes, unless otherwise indicated.', 'thermal_confidence': 'low'}
+Beginning Classification for WRQ14408/PMC12767721.1.txt
+LLM Output: {}
+Beginning Classification for WRQ14408/PMC12606414.1.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper describes the scientific career of David S. Hogness and mentions his work on Escherichia coli, phage lambda, and Drosophila, but does not provide any specific temperature data or thermal classification for these organisms. Quote: 'His work spanned multiple topics in different organisms, including gene regulation in Escherichia coli as a postdoc with Jacques Monod in Paris (1952 to 1954), colinearity between traits and DNA features in phage lambda as a faculty member first at Washington University and then at Stanford University (1955 to 1968), and pioneering the molecular analysis of animal development in Drosophila (1968 to 1999).'", 'thermal_confidence': 'high'}
+Beginning Classification for WRQ14408/PMC12661323.1.txt
+LLM Output: {}
+Beginning Classification for WRQ14408/PMC13048471.1.txt
+LLM Output: {}
+Beginning Classification for WRQ14408/WRQ14408.json
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': 'The paper text states: "organism": "Escherichia phage Lambda", "host": "Escherichia sp.", but does not explicitly state any temperature or thermal information.', 'thermal_confidence': 'high'}
+Beginning Classification for WRQ14408/41046791.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper states: 'Here, we investigated the effects of positively (PS-NH₂) and negatively (PS-COOH) charged polystyrene nanoplastics (PS-NPs) on dual-species biofilms composed of Escherichia coli (λ+) and Pseudomonas aeruginosa.' However, the text does not explicitly state any temperature values or thermal classifications for these organisms.", 'thermal_confidence': 'high'}
+Beginning Classification for XYW65533
+Beginning Classification for XYW65533/PMC12795941.1.txt
+LLM Output: {}
+Beginning Classification for XYW65533/PMC12250076.1.txt
+LLM Output: {'thermal_range': 'mesophile', 'temperature': '28.0 °C', 'thermal_reasoning': "The paper states: 'It confirms that mesophilic temperature range promoted the biosynthesis of BC by the tested strain.' and specifies the optimized cultivation conditions included a 'temperature of 28.0 °C'.", 'thermal_confidence': 'high'}
+High-confidence classification for XYW65533/PMC12250076.1.txt
+{'thermal_range': 'mesophile', 'temperature': '28.0 °C', 'thermal_reasoning': "The paper states: 'It confirms that mesophilic temperature range promoted the biosynthesis of BC by the tested strain.' and specifies the optimized cultivation conditions included a 'temperature of 28.0 °C'.", 'thermal_confidence': 'high'}
+
+
+Beginning Classification for SNQ28030
+Beginning Classification for SNQ28030/PMC12983703.1.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper describes experiments on 'simulated and real cryo-EM datasets, including Tobacco Mosaic Virus (TMV) and mixed capsids of MS2 virions (MS2)' but does not provide any information regarding the optimal growth temperature or thermal classification of these organisms. The text focuses on image processing and deformation modeling algorithms rather than physiological thermal characteristics.", 'thermal_confidence': 'high'}
+Beginning Classification for SNQ28030/41308699.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper states 'stability at 4 °C for ≥20 days' but does not explicitly state the optimal growth temperature or thermal range of the MS2 bacteriophage.", 'thermal_confidence': 'high'}
+Beginning Classification for SNQ28030/PMC13030880.1.txt
+LLM Output: {}
+Beginning Classification for SNQ28030/PMC13077995.1.txt
+LLM Output: {}
+Beginning Classification for SNQ28030/PMC12947616.1.txt
+LLM Output: {}
+Beginning Classification for SNQ28030/PMC12508424.1.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper describes molecular dynamics simulations where 'A temperature of 300 K was maintained using the velocity rescaling thermostat' (Methods), but does not explicitly state the organism's biological growth temperature or thermal classification.", 'thermal_confidence': 'high'}
+Beginning Classification for SNQ28030/41713773.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper states: 'Under the PEF application condition at 10 kV for 15 min', but does not provide any information regarding temperature, growth ranges, or thermal characteristics of the organisms.", 'thermal_confidence': 'high'}
+Beginning Classification for SNQ28030/41679971.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper states: 'Three molecular weights (MW) and degrees of deacetylation (DD) were tested at doses 1, 3, 10 and 30 mg/L using jar tests in water containing clays, E. coli, and bacteriophage MS2.' No temperature conditions or thermal growth ranges are explicitly stated in the text.", 'thermal_confidence': 'high'}
+Beginning Classification for SNQ28030/PMC12593617.1.txt
+LLM Output: {}
+Beginning Classification for SNQ28030/PMC12506998.1.txt
+LLM Output: {}
+Beginning Classification for SNQ28030/PMC12921844.1.txt
+LLM Output: {}
+Beginning Classification for SNQ28030/41626649.txt
+LLM Output: {}
+Beginning Classification for SNQ28030/41232636.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper states that the MS2-VLP 'remained stable under various temperature exposure', but does not explicitly state the specific temperatures or optimal growth ranges for the organisms.", 'thermal_confidence': 'high'}
+Beginning Classification for SNQ28030/41371137.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper states: 'The far-UVC susceptibility of aerosolized E. coli and MS2 with co-generated particles was only 49 % and 40 % of that without particles, respectively.' No temperature or thermal growth information is explicitly stated in the text.", 'thermal_confidence': 'high'}
+Beginning Classification for SNQ28030/PMC12796303.1.txt
+LLM Output: {}
+Beginning Classification for SNQ28030/SNQ28030.json
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The provided text states: 'title': 'RNA replicase, beta subunit [Emesvirus zinderi]', 'organism': 'Emesvirus zinderi', 'isolate': 'EnteroPH/GER/L00928-K20_14-03/2014'. No temperature or thermal information is explicitly stated in the provided text.", 'thermal_confidence': 'high'}
+Beginning Classification for SNQ28030/PMC12654508.1.txt
+LLM Output: {}
+Beginning Classification for SNQ28030/PMC13088221.1.txt
+LLM Output: {}
+Beginning Classification for SNQ28030/41086947.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper states: 'Three microbes were studied, including one bacterium Escherichia coli, and two viruses (MS2 and P22).' No temperature or thermal information is explicitly stated in the text.", 'thermal_confidence': 'high'}
+Beginning Classification for SNQ28030/41176652.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper mentions 'isothermal assembly of MS2 bacteriophage RNA' but does not provide any specific temperature values or thermal growth ranges.", 'thermal_confidence': 'high'}
+Beginning Classification for SNQ28030/41687590.txt
+LLM Output: {}
+Beginning Classification for A7XXB7
+Beginning Classification for A7XXB7/PMC3018760.1.txt
+LLM Output: {'thermal_range': 'thermophile', 'temperature': '65°C', 'thermal_reasoning': "The paper explicitly describes the host as a 'thermophilic bacterium' and the phage as a 'thermophilic siphovirus' and 'thermophage'. The Experimental Procedures state that cells were 'grown at 65 °C', which exceeds the 45°C threshold for thermophiles.", 'thermal_confidence': 'high'}
+High-confidence classification for A7XXB7/PMC3018760.1.txt
+{'thermal_range': 'thermophile', 'temperature': '65°C', 'thermal_reasoning': "The paper explicitly describes the host as a 'thermophilic bacterium' and the phage as a 'thermophilic siphovirus' and 'thermophage'. The Experimental Procedures state that cells were 'grown at 65 °C', which exceeds the 45°C threshold for thermophiles.", 'thermal_confidence': 'high'}
+
+
+Beginning Classification for QAY18187
+Beginning Classification for QAY18187/24816701.txt
+LLM Output: {}
+Beginning Classification for QAY18187/QAY18187.json
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The provided text 'metal-dependent hydrolase [Thermus phage TSP4]' does not explicitly state any temperature or thermal range.", 'thermal_confidence': 'low'}
+Beginning Classification for QAY18187/32442498.txt
+LLM Output: {}
+Beginning Classification for QAY18187/20806260.txt
+LLM Output: {}
+Beginning Classification for QAY18187/PMC7077265.1.txt
+LLM Output: {}
+Beginning Classification for QAY18187/PMC9629493.1.txt
+LLM Output: {}
+Beginning Classification for YP_001285867
+Beginning Classification for YP_001285867/18573317.txt
+LLM Output: {}
+Beginning Classification for YP_001285867/YP_001285867.json
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper states 'isolation_source': 'deep-sea hydrothermal field', but does not explicitly state a specific temperature or growth range.", 'thermal_confidence': 'low'}
+Beginning Classification for NP_835731
+Beginning Classification for NP_835731/15579472.txt
+LLM Output: {}
+Beginning Classification for NP_835731/24318108.txt
+LLM Output: {}
+Beginning Classification for NP_835731/NP_835731.json
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The provided text states: 'title': 'RNA polymerase sigma factor [Rhodothermus phage RM378]', 'host': 'Rhodothermus marinus', but does not explicitly state any temperature or thermal growth characteristics.", 'thermal_confidence': 'high'}
+Beginning Classification for YP_874174
+Beginning Classification for YP_874174/37423744.txt
+LLM Output: {}
+Beginning Classification for YP_874174/YP_874174.json
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The provided text states: 'organism': 'Thermus phage phiYS40', 'old_name': 'Thermus thermophilus phage YS40', but does not explicitly state any temperature or thermal information.", 'thermal_confidence': 'high'}
+Beginning Classification for YP_874174/19891975.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper mentions the organism 'Thermus thermophilus HB8' but does not provide any temperature data. Quote: 'Thermus thermophilus HB8, which has 12 CRISPR loci'", 'thermal_confidence': 'high'}
+Beginning Classification for YP_874174/PMC9324360.1.txt
+LLM Output: {}
+Beginning Classification for YP_874174/40580998.txt
+LLM Output: {}
+Beginning Classification for XJP07760
+Beginning Classification for XJP07760/XJP07760.json
+LLM Output: {}
+Beginning Classification for WMT83805
+Beginning Classification for WMT83805/PMC9228384.1.txt
+LLM Output: {}
+Beginning Classification for WMT83805/41478678.txt
+LLM Output: {}
+Beginning Classification for WMT83805/PMC10507051.1.txt
+LLM Output: {}
+Beginning Classification for WMT83805/PMC11590407.1.txt
+LLM Output: {}
+Beginning Classification for WMT83805/41189414.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper states: 'Here, a novel phage, vB_PshM_Y4, which infects Pseudoalteromonas shioyasakiensis, an economically important, opportunistic marine pathogen was isolated.' No temperature data is explicitly stated in the text.", 'thermal_confidence': 'high'}
+Beginning Classification for WMT83805/38008529.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper states: 'In this study, we reported the isolation of a novel lytic bacteriophage that infects Pseudoalteromonas marina. Transmission electron microscopy revealed that PS_L5 had an icosahedral head of 52.6 ± 2 nm and a non-contractile tail with length of 96.5 ± 2 nm.' No temperature or thermal growth information is explicitly stated in the text.", 'thermal_confidence': 'high'}
+Beginning Classification for WMT83805/37620054.txt
+LLM Output: {}
+Beginning Classification for WMT83805/35672590.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'wide range of temperatures', 'thermal_reasoning': 'PHS21 showed strong tolerance with a wide range of temperatures and pH.', 'thermal_confidence': 'medium'}
+Beginning Classification for WMT83805/PMC10598620.1.txt
+LLM Output: {}
+Beginning Classification for WMT83805/PMC12810386.1.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper states: 'The tracers were applied in late April 2023, coinciding with periods of optimal temperature conditions that precluded the possibility of overnight soil freezing that might compromise phage infectivity.' and 'The climate in the region is characterized by warm summers, a mean annual air temperature of about 9.5 °C'. However, no explicit optimal growth temperature range or thermal classification (psychrophile, mesophile, thermophile) for the Pseudoalteromonas phage HS2 is explicitly stated in the text.", 'thermal_confidence': 'high'}
+Beginning Classification for WMT83805/PMC10612066.1.txt
+LLM Output: {}
+Beginning Classification for WMT83805/PMC10232385.1.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': 'Correction: Genomic diversity and ecological distribution of marine Pseudoalteromonas phages', 'thermal_confidence': 'medium'}
+Beginning Classification for WMT83805/WMT83805.json
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper states 'isolation_source': 'arctic sediment', but does not explicitly state any temperature values or growth ranges for the organism.", 'thermal_confidence': 'high'}
+Beginning Classification for WMT83805/PMC12282109.1.txt
+LLM Output: {}
+Beginning Classification for WMT83805/PMC11170926.1.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': '21°C', 'thermal_reasoning': 'Pseudoalteromonas sp. 13-15 were grown shaking at 150 rpm at 21°C in either 1% Z + CNP medium for high-P or 1% Z + CN medium for low-P conditions.', 'thermal_confidence': 'low'}
+Beginning Classification for WMT83805/PMC13077301.1.txt
+LLM Output: {}
+Beginning Classification for WMT83805/39548345.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper text states: 'Metabolites from intact phage-infected Synechococcus chemotactically attract heterotrophic marine bacteria.' However, the provided text does not explicitly state any temperature values or thermal growth ranges for the organisms described.", 'thermal_confidence': 'low'}
+Beginning Classification for WMT83805/PMC10458718.1.txt
+LLM Output: {}
+Beginning Classification for WMT83805/PMC10232697.1.txt
+LLM Output: {}
+Beginning Classification for WMT83805/PMC11265279.1.txt
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': 'The paper does not explicitly state the optimal growth temperature or thermal range for the bacteriophages or their bacterial hosts. It mentions incubation temperatures for bacterial counts (28°C and 30°C) and storage at 4°C, but does not link these to the thermal classification of the organisms.', 'thermal_confidence': 'high'}
+Beginning Classification for YP_009790355
+Beginning Classification for YP_009790355/30594742.txt
+LLM Output: {}
+Beginning Classification for YP_009790355/YP_009790355.json
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The provided text states: 'organism': 'Shewanella phage SppYZU05', 'isolation_source': 'sewage'. No temperature or thermal information is explicitly stated.", 'thermal_confidence': 'high'}
+Beginning Classification for YP_006489335
+Beginning Classification for YP_006489335/23224375.txt
+LLM Output: {}
+Beginning Classification for YP_006489335/YP_006489335.json
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The provided text states: 'organism': 'Colwellia phage 9A', 'lab_host': 'Colwellia psychrerythaea strain 34H'. No temperature values or thermal growth conditions are explicitly stated in the provided text.", 'thermal_confidence': 'high'}
+Beginning Classification for YP_006489335/PMC8541194.1.txt
+LLM Output: {}
+Beginning Classification for YP_009209738
+Beginning Classification for YP_009209738/YP_009209738.json
+LLM Output: {'thermal_range': 'unknown', 'temperature': 'unknown', 'thermal_reasoning': "The paper states 'isolation_source': 'seawater', but does not explicitly state any temperature or thermal information.", 'thermal_confidence': 'low'}
+Beginning Classification for YP_009209738/PMC4615864.1.txt
+LLM Output: {}
+End Time: 2026-04-27 09:53:16
+Total Time: 79818.02 seconds

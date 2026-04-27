@@ -84,6 +84,11 @@ This intial iteration has a very simple evaluation output, i will condense the r
 |Unknown      |YP_006489335| 3                | 1                   | 10                |
 |Unknown      |YP_009209738| 2                | 1                   | 5                 |
 +-------------+------------+------------------+---------------------+--------------------
+Accuracy = 3/15
+Precision = Mesophile: 1.0, thermophile: 1.0, Psychrophile: NA
+Recall = Mesophile: 0.4, thermophile: 0.2, Psychrophile: 0.0
+f1 = Mesophile: 0.57, thermophile: 0.33, Psychrophile: 0.0
+
 
 
 # Discussion
@@ -165,3 +170,6 @@ no optimisation to speed up results.
     Paper text:
     {_truncate(state["paper_text"], max_chars)}
     """
+
+
+

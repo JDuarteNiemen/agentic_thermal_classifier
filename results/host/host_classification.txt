@@ -1,0 +1,81 @@
+Host classification of example data using metadata
+2026-04-27 23:30:52.490234
+
+===============ADI87650==============
+Host Species: unknown
+Taxonomic Level: unknown
+Reasoning: unknown
+Duration: 2.61 minutes
+===============WXH46553==============
+Host Species: unknown
+Taxonomic Level: unknown
+Reasoning: unknown
+Duration: 2.62 minutes
+===============WRQ14408==============
+Host Species: unknown
+Taxonomic Level: unknown
+Reasoning: unknown
+Duration: 2.64 minutes
+===============XYW65533==============
+Host Species: unknown
+Taxonomic Level: unknown
+Reasoning: unknown
+Duration: 2.61 minutes
+===============SNQ28030==============
+Host Species: unknown
+Taxonomic Level: unknown
+Reasoning: unknown
+Duration: 2.64 minutes
+===============A7XXB7==============
+Host Species: Thermus thermophilus
+Taxonomic Level: species
+Reasoning: Thermus thermophilus
+Duration: 1.18 minutes
+===============QAY18187==============
+Host Species: unknown
+Taxonomic Level: unknown
+Reasoning: unknown
+Duration: 2.63 minutes
+===============YP_001285867==============
+Host Species: unknown
+Taxonomic Level: unknown
+Reasoning: unknown
+Duration: 2.64 minutes
+===============NP_835731==============
+Host Species: Rhodothermus marinus
+Taxonomic Level: species
+Reasoning: Rhodothermus marinus
+Duration: 2.14 minutes
+===============YP_874174==============
+Host Species: unknown
+Taxonomic Level: unknown
+Reasoning: unknown
+Duration: 2.64 minutes
+===============XJP07760==============
+Host Species: unknown
+Taxonomic Level: unknown
+Reasoning: unknown
+Duration: 2.63 minutes
+===============WMT83805==============
+Host Species: Pseudoalteromonas elyakovii HL-AS1
+Taxonomic Level: strain
+Reasoning: Pseudoalteromonas elyakovii HL-AS1
+Duration: 2.22 minutes
+===============YP_009790355==============
+Host Species: Shewanella putrefaciens
+Taxonomic Level: species
+Reasoning: Shewanella putrefaciens
+Duration: 1.95 minutes
+===============YP_006489335==============
+Host Species: Colwellia psychrerythaea strain 34H
+Taxonomic Level: strain
+Reasoning: lab_host: Colwellia psychrerythaea strain 34H
+Duration: 2.18 minutes
+===============YP_009209738==============
+Host Species: unknown
+Taxonomic Level: unknown
+Reasoning: unknown
+Duration: 2.64 minutes
+
+
+Total Duration (minutes): 35.97

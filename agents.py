@@ -20,8 +20,8 @@ class AgentState(TypedDict):
     metadata: dict[str, str]
     # outputs
     host_species: str
-    reasoning: str
-    confidence: str
+    host_reasoning: str
+    host_confidence: str
     thermal_range: str
     temperature: str
     thermal_reasoning: str
@@ -166,8 +166,8 @@ def IdentifyHost(state: AgentState) -> dict:
     {state['metadata']}
     Return ONLY valid JSON with:
     - "host_species": the host organism or "Unknown"
-    - "reasoning": MUST explain whether the answer came from paper or metadata, and include a direct quote if from the paper
-    - "confidence": one of ["low", "medium", "high"]
+    - "host_reasoning": MUST explain whether the answer came from paper or metadata, and include a direct quote if from the paper
+    - "host_confidence": one of ["low", "medium", "high"]
     
     CONFIDENCE GUIDELINES:
     - high: explicitly stated in paper or metadata
@@ -187,8 +187,8 @@ def IdentifyHost(state: AgentState) -> dict:
 
     return {
         "host_species": data.get("host_species", "Unknown"),
-        "reasoning": data.get("reasoning", ""),
-        "confidence": data.get("confidence", "low"),
+        "host_reasoning": data.get("reasoning", ""),
+        "host_confidence": data.get("confidence", "low"),
 }
 
 
@@ -246,41 +246,116 @@ def HostMetadata(state: AgentState) -> dict:
     """Use the LLM to extract host species from metadata."""
     model = state.get("model") or OLLAMA_MODEL
     llm = _build_llm(model)
-    max_chars = _max_paper_chars(model)
-    ctx_tokens = _get_model_context_length(model)
 
-    paper_len = len(state["paper_text"])
-    chars_used = min(paper_len, max_chars)
-    parse_pct = round((chars_used / paper_len) * 100, 1) if paper_len > 0 else 100.0
 
-    prompt = f"""You are an expert microbiology information extraction system.
-        Your task is to identify the host species of a bacteriophage.
-        DATA SOURCES:
-        1. Paper text (primary source of truth)
-        2. Metadata (secondary source, may contain host or ecological clues)
 
-        RULES:
-        - ALWAYS prioritise information explicitly stated in the paper text.
-        - If the host species is clearly stated in the paper, use that.
-        - If the paper does NOT explicitly state the host species:
-            - You MAY use metadata if it directly specifies the host.
-            - Otherwise return "Unknown".
+    prompt = f"""
+    You are a microbiology information extraction system.
+    TASK:
+    Extract the bacteriophage host organism ONLY if it is explicitly stated in the METADATA.
+    CRITICAL RULES:
+    - ONLY use information explicitly written in the metadata.
+    - Do NOT infer, guess, or use biological prior knowledge.
+    - If not explicitly present, return "Unknown".
+    - Copy values EXACTLY as written (no paraphrasing or normalization).
+    METADATA:
+    {state['metadata']}
+    OUTPUT FORMAT (STRICT JSON ONLY, NOTHING ELSE):
+    {{
+        "host_species": "<exact value OR 'Unknown'>",
+        "found_in_metadata": true/false,
+        "taxon_level": "family | genus | species | strain | unknown",
+        "host_reasoning": "Your logic as to why you made this decision, and any notes about taxonomic level (Be as in-depth as you can about this) OR 'not present in metadata'"
+    }}
+    TAXON_LEVEL RULES:
+    - family: host is only given at family level (e.g. "Enterobacteriaceae")
+    - genus: only genus is given (e.g. "Escherichia")
+    - species: full binomial name is given (e.g. "Escherichia coli")
+    - strain: isolate/strain designation is given (e.g. "E. coli K12", "strain MG1655")
+    - unknown: no explicit host information is present
+    DECISION RULES:
+    - If multiple host candidates exist, choose the MOST SPECIFIC one.
+    - Do NOT upgrade genus → species unless species is explicitly written.
+    """
+    out = llm.invoke(prompt)
+    print(out)
 
-        - Do NOT guess or infer based on species names, environment, or prior knowledge.
-        - Do NOT assume the host from genus/species familiarity.
+    try:
+        data = json.loads(out.content)
+    except json.JSONDecodeError:
+        return {}
 
-        METADATA:
-        {state['metadata']}
-        Return ONLY valid JSON with:
-        - "host_species": the host organism or "Unknown"
-        - "reasoning": MUST explain whether the answer came from paper or metadata, and include a direct quote if from the paper
-        - "confidence": one of ["low", "medium", "high"]
+    return {
+        "host_species": data.get("host_species", "Unknown"),
+        "found": data.get("found_in_metadata", "Unknown"),
+        "taxon_level": data.get("taxon_level", "Unknown"),
+        "host_reasoning": data.get("host_reasoning", ""),
+    }
 
-        CONFIDENCE GUIDELINES:
-        - high: explicitly stated in paper or metadata
-        - medium: strongly implied in paper or metadata
-        - low: weak or uncertain evidence
 
-        Paper text:
-        {_truncate(state["paper_text"], max_chars)}
-        """
+
+def ThermalMetadata(state: AgentState) -> dict:
+    """Use the LLM to extract host species from metadata."""
+    model = state.get("model") or OLLAMA_MODEL
+    llm = _build_llm(model)
+
+    prompt = f"""
+    You are a microbiology information extraction system.
+
+    TASK:
+    Determine the thermal range of the bacteriophage or its host using ONLY metadata.
+
+    PRIMARY OBJECTIVE:
+    First, identify any metadata describing:
+    - isolation source (e.g. soil, seawater, human gut, hot spring, Arctic ice)
+    - environmental origin
+    - sampling location context
+    - host organism environment
+    - temperature-related descriptors
+
+    CRITICAL RULES:
+    - ONLY use information explicitly present in the metadata.
+    - Do NOT use external biological knowledge.
+    - Do NOT assume thermal range from organism name or taxonomy.
+    - If no relevant metadata exists, return "unknown".
+    - You MAY infer thermal range ONLY if environmental context strongly implies it.
+
+    METADATA:
+    {state['metadata']}
+
+    OUTPUT FORMAT (STRICT JSON ONLY):
+    {{
+        "thermal_range": "psychrophile | mesophile | thermophile | unknown",
+        "inference_type": "explicit | inferred | none",
+        "reasoning": "step-by-step explanation of how metadata led to decision",
+        "confidence": "low | medium | high"
+    }}
+
+    THERMAL MAPPING RULES:
+    - psychrophile → Arctic, deep sea, polar, ice, permafrost environments
+    - mesophile → soil, host-associated, freshwater, general environments
+    - thermophile → hot springs, geothermal, hydrothermal vents, compost heaps
+
+    INFERENCE RULES:
+    - explicit: metadata directly states temperature or growth condition
+    - inferred: environment strongly implies thermal range
+    - none: no environmental information available
+
+    DECISION RULES:
+    - PRIORITISE isolation source and environment fields over all other metadata.
+    - Use ONLY metadata evidence — never external biology assumptions.
+    """
+    out = llm.invoke(prompt)
+    print(out)
+
+    try:
+        data = json.loads(out.content)
+    except json.JSONDecodeError:
+        return {}
+
+    return {
+        "thermal_range": data.get("thermal_range", "Unknown"),
+        "inference_type": data.get("inference_type", "Unknown"),
+        "reasoning": data.get("reasoning", ""),
+        "confidence": data.get("confidence", "low"),
+    }

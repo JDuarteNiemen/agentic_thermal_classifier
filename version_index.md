@@ -7,11 +7,11 @@ STEPS:
 
 - Scan to check if host is present in metadata
 
-- LLM call to identify host
+- LLM call to identify host using only metadata
 
-- Second library creation of the host organism
+- LLM call to indentify thermal range using only metadata
 
-- LLM call to indentify thermal range
+- LLM call to identify host if wasnt extracted from metadata. Papers are ranked based on regex scan of keywords.
 
 Improved results output
 

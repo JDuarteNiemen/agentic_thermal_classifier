@@ -1,0 +1,37 @@
+Thermal Classification of Example data using first literature creation
+Attempts to classify the accessions not classified from metadata search
+Uses the first literature creation pulled from the protein accession, not literature of the host
+2026-04-29 16:59:30.035784
+======================ADI87650======================
+===================
+Paper: PMC12771599.1.txt	Paper Score: 59
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: unknown
+Confidence: unknown
+Duration (minutes): 4.51
+
+===================
+Paper: PMC12735813.1.txt	Paper Score: 54
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: unknown
+Confidence: unknown
+Duration (minutes): 3.61
+
+===================
+Paper: PMC13055312.1.txt	Paper Score: 27
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: unknown
+Confidence: unknown
+Duration (minutes): 3.46
+
+===================
+Paper: PMC13030558.1.txt	Paper Score: 27
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: unknown
+Confidence: unknown
+Duration (minutes): 3.96
+

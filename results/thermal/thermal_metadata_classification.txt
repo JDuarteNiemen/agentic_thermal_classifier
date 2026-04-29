@@ -1,81 +1,96 @@
 Thermal classification of example data using accession metadata
-2026-04-28 00:06:51.097760
+2026-04-28 19:56:58.768165
 
 ===============ADI87650==============
 Thermal Range unknown
 Inference Type unknown
 Reasoning unknown
 Confidence unknown
+Duration: 2.59 minutes
 ===============WXH46553==============
 Thermal Range unknown
 Inference Type none
 Reasoning The metadata provided does not contain any isolation source, environmental origin, sampling location context, or temperature-related descriptors. The host organism 'Escherichia coli B' is listed, but per the rules, external biological knowledge regarding the typical habitat of this host cannot be used to infer thermal range. No keywords indicating psychrophile (Arctic, ice), mesophile (soil, freshwater), or thermophile (hot spring) environments are present in the text.
 Confidence high
+Duration: 2.41 minutes
 ===============WRQ14408==============
 Thermal Range mesophile
 Inference Type inferred
 Reasoning 1. Examined isolation_source field: 'Cloacal swabs from Gallus gallus domesticus'. 2. Identified this as a host-associated environment (avian gut). 3. Checked for extreme environment descriptors: No Arctic/ice (psychrophile) or hot spring/geothermal (thermophile) indicators found. 4. Applied provided thermal mapping rule: 'host-associated' environments map to 'mesophile'. 5. Concluded thermal range based on environment classification from metadata.
 Confidence high
+Duration: 2.36 minutes
 ===============XYW65533==============
 Thermal Range unknown
 Inference Type none
 Reasoning The metadata does not contain any isolation source, environmental origin, or temperature-related descriptors. The host field lists 'Escherichia coli K-12 BW25113', but per the constraint to not use external biological knowledge, the taxonomic name alone does not imply a thermal range. The country 'USA' is too broad to infer specific thermal conditions. Therefore, no thermal range can be determined from the provided metadata.
 Confidence high
+Duration: 1.46 minutes
 ===============SNQ28030==============
 Thermal Range unknown
 Inference Type unknown
 Reasoning unknown
 Confidence unknown
+Duration: 2.59 minutes
 ===============A7XXB7==============
 Thermal Range unknown
 Inference Type unknown
 Reasoning unknown
 Confidence unknown
+Duration: 2.57 minutes
 ===============QAY18187==============
 Thermal Range unknown
 Inference Type none
 Reasoning 1. Scanned metadata for isolation source/environment fields: No fields indicating 'hot spring', 'soil', 'ice', 'seawater', or specific temperature conditions were found. 2. Scanned for temperature descriptors: No explicit temperature values or thermal descriptors present. 3. Evaluated organism name/taxonomy: The organism is 'Thermus phage TSP4' and host is 'Thermus sp. TC4'. 4. Applied constraints: Instructions explicitly prohibit assuming thermal range from organism name or taxonomy. 5. Conclusion: Since no environmental context is provided and taxonomy-based inference is forbidden, the thermal range cannot be determined from the metadata alone.
 Confidence low
+Duration: 1.66 minutes
 ===============YP_001285867==============
 Thermal Range thermophile
 Inference Type inferred
 Reasoning The metadata isolation_source field states 'deep-sea hydrothermal field'. According to the thermal mapping rules, environments described as 'hydrothermal vents' or 'geothermal' map to 'thermophile'. Although 'deep sea' is listed under psychrophile, the specific descriptor 'hydrothermal field' indicates a high-temperature niche, which takes precedence in determining the thermal range based on the provided mapping rules. The thermal range is inferred from this environmental context.
 Confidence high
+Duration: 1.4 minutes
 ===============NP_835731==============
 Thermal Range unknown
 Inference Type none
 Reasoning The provided metadata contains the host organism name ('Rhodothermus marinus') and phage name, but explicitly lacks any isolation source, environmental context (e.g., hot spring, soil, ice), or temperature-related descriptors. Per the critical rules, thermal range cannot be assumed from organism name or taxonomy without external biological knowledge. Since no environmental context is present in the metadata to imply a thermal range, the classification must be 'unknown'.
 Confidence high
+Duration: 1.54 minutes
 ===============YP_874174==============
 Thermal Range unknown
 Inference Type unknown
 Reasoning unknown
 Confidence unknown
+Duration: 2.79 minutes
 ===============XJP07760==============
 Thermal Range unknown
 Inference Type unknown
 Reasoning unknown
 Confidence unknown
+Duration: 2.96 minutes
 ===============WMT83805==============
 Thermal Range psychrophile
 Inference Type inferred
 Reasoning The metadata field 'isolation_source' explicitly states 'arctic sediment'. According to the provided thermal mapping rules, 'Arctic' environments correspond to the 'psychrophile' category. The classification is derived solely from this environmental context without using external biological knowledge.
 Confidence high
+Duration: 1.05 minutes
 ===============YP_009790355==============
 Thermal Range unknown
 Inference Type unknown
 Reasoning unknown
 Confidence unknown
+Duration: 2.93 minutes
 ===============YP_006489335==============
 Thermal Range unknown
 Inference Type unknown
 Reasoning unknown
 Confidence unknown
+Duration: 2.98 minutes
 ===============YP_009209738==============
 Thermal Range unknown
 Inference Type unknown
 Reasoning unknown
 Confidence unknown
+Duration: 2.95 minutes
 
 
-Total Duration (minutes): 32.77
+Total Duration (minutes): 34.25

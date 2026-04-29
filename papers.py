@@ -1,5 +1,6 @@
 # This Script contains the function that establishes the literature bank for the LLM to read
 import json
+import re
 import requests
 import textwrap
 import xml.etree.ElementTree as ET
@@ -297,3 +298,34 @@ def CreateLibrary(accession):
                 WritePaper(paper, f'data/library/{accession}/{pmid}.txt')
             if pmcid:
                 DownloadPaper(pmcid, f'data/library/{accession}/')
+
+
+def RankPapers(paper_dir, patterns):
+
+    papers = os.listdir(paper_dir)
+    paper_rankings = {}
+    for paper in papers:
+
+        with open(f'{paper_dir}/{paper}', 'r') as f:
+            text = f.read()
+
+        paper_length = len(text)
+
+        matches = {}
+
+        for label, pattern in patterns.items():
+            matches[label] = len(re.findall(pattern, text, re.IGNORECASE))
+
+        matches['total'] = sum(matches.values())
+        matches['normalised'] = (sum(matches.values()) / paper_length)
+
+        paper_rankings[paper] = matches
+
+    sorted_papers = sorted(
+        paper_rankings.items(),
+        key=lambda x: x[1]["total"],
+        reverse=True
+    )
+    sorted_dict = dict(sorted_papers)
+
+    return sorted_dict

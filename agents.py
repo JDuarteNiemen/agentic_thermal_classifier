@@ -18,6 +18,7 @@ class AgentState(TypedDict):
     source_path: str | None
     model: str
     metadata: dict[str, str]
+    phage: str
     # outputs
     host_species: str
     host_reasoning: str
@@ -34,6 +35,7 @@ def _build_llm(model: str | None = None) -> ChatOllama:
         base_url=OLLAMA_BASE_URL,
         temperature=0.0,
         num_predict=4096,
+        reasoning=False,
     )
 
 
@@ -150,45 +152,47 @@ def IdentifyHost(state: AgentState) -> dict:
     Your task is to identify the host species of a bacteriophage.
     DATA SOURCES:
     1. Paper text (primary source of truth)
-    2. Metadata (secondary source, may contain host or ecological clues)
+    2. Target species
+
     
     RULES:
     - ALWAYS prioritise information explicitly stated in the paper text.
     - If the host species is clearly stated in the paper, use that.
-    - If the paper does NOT explicitly state the host species:
-        - You MAY use metadata if it directly specifies the host.
-        - Otherwise return "Unknown".
-        
+    - Ensure the host is for the target species
     - Do NOT guess or infer based on species names, environment, or prior knowledge.
-    - Do NOT assume the host from genus/species familiarity.
+
     
-    METADATA:
-    {state['metadata']}
     Return ONLY valid JSON with:
-    - "host_species": the host organism or "Unknown"
-    - "host_reasoning": MUST explain whether the answer came from paper or metadata, and include a direct quote if from the paper
+    - "host_species": the host organism or "unknown"
+    - "taxonomic_level": "family | genus | species | strain | unknown", 
+    - "host_reasoning": Step by step explanation of what led to your answer, including quotes from the paper
     - "host_confidence": one of ["low", "medium", "high"]
     
     CONFIDENCE GUIDELINES:
-    - high: explicitly stated in paper or metadata
-    - medium: strongly implied in paper or metadata
+    - high: explicitly stated in paper 
+    - medium: strongly implied in paper
     - low: weak or uncertain evidence
+    
+    Target species:
+    {state['phage']}
     
     Paper text:
     {_truncate(state["paper_text"], max_chars)}
     """
 
-    out=_stream_invoke(llm, prompt, label='host')
+    out=llm.invoke(prompt)
+    print(f'LLM OUTPUT: {out}')
 
     try:
-        data = json.loads(out)
+        data = json.loads(out.content)
     except json.JSONDecodeError:
         return {}
 
     return {
-        "host_species": data.get("host_species", "Unknown"),
-        "host_reasoning": data.get("reasoning", ""),
-        "host_confidence": data.get("confidence", "low"),
+        "host_species": data.get("host_species", "unknown"),
+        "taxonomic_level": data.get("taxonomic_level", "unknown"),
+        "host_reasoning": data.get("host_reasoning", ""),
+        "host_confidence": data.get("host_confidence", "low"),
 }
 
 
@@ -206,7 +210,9 @@ def IdentifyThermalRange(state: AgentState) -> dict:
 
     prompt = f"""You are an expert microbiology information extraction system.
 
-    Your task is to determine the thermal characteristics of the organism described in the paper.
+    Your task is to determine the thermal characteristics of the organism needed from information described in the paper.
+    
+    The organism in question: {state['phage']}
 
     STRICT RULES:
     - Only use information explicitly stated in the paper.
@@ -221,17 +227,22 @@ def IdentifyThermalRange(state: AgentState) -> dict:
     Return ONLY valid JSON with:
     - "thermal_range": one of ["psychrophile", "mesophile", "thermophile", "unknown"]
     - "temperature": exact temperature or range quoted from the paper, or "unknown"
-    - "thermal_reasoning": MUST include a direct quote from the paper supporting your answer
+    - "thermal_reasoning":  Step by step explanation of what led to your answer, including quotes from the paper
     - "thermal_confidence": one of ["low", "medium", "high"]
+    
+    CONFIDENCE GUIDELINES:
+    - high: explicitly stated in paper 
+    - medium: strongly implied in paper
+    - low: weak or uncertain evidence
 
     Paper text:
     {_truncate(state["paper_text"], max_chars)}
     """
 
-    out=_stream_invoke(llm, prompt, label='thermal_range')
+    out=llm.invoke(prompt, label='thermal_range')
 
     try:
-        data = json.loads(out)
+        data = json.loads(out.content)
     except json.JSONDecodeError:
         return {}
 
@@ -265,7 +276,7 @@ def HostMetadata(state: AgentState) -> dict:
         "host_species": "<exact value OR 'Unknown'>",
         "found_in_metadata": true/false,
         "taxon_level": "family | genus | species | strain | unknown",
-        "host_reasoning": "Your logic as to why you made this decision, and any notes about taxonomic level (Be as in-depth as you can about this) OR 'not present in metadata'"
+        "host_reasoning": "step-by-step explanation of how metadata led to decision" OR 'not present in metadata'
     }}
     TAXON_LEVEL RULES:
     - family: host is only given at family level (e.g. "Enterobacteriaceae")

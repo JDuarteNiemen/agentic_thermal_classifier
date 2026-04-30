@@ -1,6 +1,6 @@
 # Index file for different versions
 
-## V2
+## V3
 Model = qwen3.5
 STEPS:
 - Creates library for accession

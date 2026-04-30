@@ -1,0 +1,81 @@
+Host classification of example data using metadata
+2026-04-29 18:02:25.246161
+
+===============ADI87650==============
+Host Species: unknown
+Taxonomic Level: unknown
+Reasoning: unknown
+Duration: 0.13 minutes
+===============WXH46553==============
+Host Species: Escherichia coli B
+Taxonomic Level: strain
+Reasoning: The metadata field 'host' explicitly contains the value 'Escherichia coli B'. This value includes the genus 'Escherichia', the species 'coli', and the strain designation 'B'. According to the taxon_level rules, when an isolate/strain designation is given (e.g., 'E. coli K12' or 'strain MG1655'), the level is classified as 'strain'. Since the full binomial name plus a specific strain identifier is present, the level is 'strain', not just 'species'.
+Duration: 0.13 minutes
+===============WRQ14408==============
+Host Species: Escherichia sp.
+Taxonomic Level: genus
+Reasoning: The metadata explicitly contains the key 'host' with the value 'Escherichia sp.'. According to the rules, I must copy this value exactly. The value 'Escherichia sp.' indicates the genus level (specifically 'sp.' denotes an unspecified species within the genus), so the taxon_level is 'genus'. I do not infer 'Escherichia coli' from the title or isolate name, nor do I upgrade the specificity beyond what is written.
+Duration: 0.12 minutes
+===============XYW65533==============
+Host Species: Escherichia coli K-12 BW25113
+Taxonomic Level: strain
+Reasoning: The metadata field 'host' explicitly contains the value 'Escherichia coli K-12 BW25113'. This value includes the genus, species, and a specific strain designation (K-12 BW25113). According to the rules, since a strain designation is present, the taxon_level is 'strain'. The value is copied exactly as written.
+Duration: 0.11 minutes
+===============SNQ28030==============
+Host Species: unknown
+Taxonomic Level: unknown
+Reasoning: The provided metadata contains an 'organism' field with value 'Emesvirus zinderi', which is the name of the virus (phage) itself, not its host. The 'old_name' field ('Escherichia virus MS2') implies a host relationship to Escherichia, but the actual host organism name is not explicitly written as a standalone value in any field. The 'isolate' field contains a sample designation ('EnteroPH/GER/L00928-K20_14-03/2014') but does not explicitly state the host species name. Per the critical rule to only use explicitly written information and not infer from names or biological knowledge, no host organism is present.
+Duration: 0.14 minutes
+===============A7XXB7==============
+Host Species: Thermus thermophilus
+Taxonomic Level: species
+Reasoning: The metadata explicitly contains a 'host' key with the value 'Thermus thermophilus'. This is a full binomial name (Genus + species). According to the rules, since the full binomial name is explicitly written, the taxon level is 'species'. The value is copied exactly as written.
+Duration: 0.09 minutes
+===============QAY18187==============
+Host Species: Thermus sp. TC4
+Taxonomic Level: strain
+Reasoning: The metadata explicitly contains a 'host' field with the value 'Thermus sp. TC4'. This value includes a genus ('Thermus'), a species indicator ('sp.'), and a specific isolate designation ('TC4'). According to the taxon_level rules, the presence of an isolate/strain designation classifies this as 'strain'. The value is copied exactly as written from the metadata.
+Duration: 0.1 minutes
+===============YP_001285867==============
+Host Species: Geobacillus
+Taxonomic Level: genus
+Reasoning: The metadata explicitly contains a 'host' field with the value 'Geobacillus'. This value is a genus name (e.g., 'Geobacillus' without a specific species epithet). According to the taxon_level rules, when only the genus is given, the level is 'genus'. The value is copied exactly as written.
+Duration: 0.1 minutes
+===============NP_835731==============
+Host Species: Rhodothermus marinus
+Taxonomic Level: species
+Reasoning: The metadata explicitly contains a key 'host' with the value 'Rhodothermus marinus'. This value is a full binomial name (Genus + species). According to the taxon_level rules, a full binomial name corresponds to 'species'. The value is copied exactly as written without inference.
+Duration: 0.1 minutes
+===============YP_874174==============
+Host Species: unknown
+Taxonomic Level: unknown
+Reasoning: The metadata contains the field 'organism' with value 'Thermus phage phiYS40' and 'title' with value 'Fe-S oxidoreductase [Thermus phage phiYS40]'. Both explicitly identify the subject as a bacteriophage ('Thermus phage phiYS40'). The field 'old_name' contains 'Thermus thermophilus phage YS40', which describes the phage's origin but does not explicitly state the host organism name (e.g., 'Thermus thermophilus') as the primary host identifier in the current metadata structure. Since no field explicitly lists the host organism (e.g., 'host: Thermus thermophilus'), and the rules forbid inferring the host from the phage name alone, the host is considered not explicitly present in the metadata.
+Duration: 0.16 minutes
+===============XJP07760==============
+Host Species: Pseudoalteromonas sp. YM19
+Taxonomic Level: strain
+Reasoning: The metadata explicitly contains a 'host' field with the value 'Pseudoalteromonas sp. YM19'. This value includes a genus ('Pseudoalteromonas'), a species placeholder ('sp.'), and a specific isolate designation ('YM19'). According to the taxon_level rules, when an isolate/strain designation is given, the level is classified as 'strain'. The value is copied exactly as written without inference.
+Duration: 0.11 minutes
+===============WMT83805==============
+Host Species: Pseudoalteromonas elyakovii HL-AS1
+Taxonomic Level: strain
+Reasoning: The metadata explicitly contains a 'host' field with the value 'Pseudoalteromonas elyakovii HL-AS1'. This value includes the full binomial name (Pseudoalteromonas elyakovii) followed by a specific isolate designation (HL-AS1). According to the taxon_level rules, when an isolate/strain designation is given alongside the species name, the level is classified as 'strain'. The value is copied exactly as written from the metadata.
+Duration: 0.12 minutes
+===============YP_009790355==============
+Host Species: Shewanella putrefaciens
+Taxonomic Level: species
+Reasoning: The metadata field 'lab_host' explicitly contains the value 'Shewanella putrefaciens'. This is a full binomial name (Genus + species). According to the rules, since the species is explicitly written, the taxon level is 'species'. The value is copied exactly as written without inference.
+Duration: 0.09 minutes
+===============YP_006489335==============
+Host Species: Colwellia psychrerythaea strain 34H
+Taxonomic Level: strain
+Reasoning: The metadata field 'lab_host' explicitly contains the value 'Colwellia psychrerythaea strain 34H'. This value includes the full binomial name ('Colwellia psychrerythaea') and a specific isolate designation ('strain 34H'). According to the taxon_level rules, since a strain designation is explicitly given, the level is 'strain'. The value is copied exactly as written from the metadata.
+Duration: 0.12 minutes
+===============YP_009209738==============
+Host Species: unknown
+Taxonomic Level: unknown
+Reasoning: The metadata explicitly lists 'organism' as 'Polaribacter phage P12002L' and 'old_name' as 'Polaribacter bacteriophage P12002L'. These names identify the bacteriophage itself, not the bacterial host it infects. The field 'isolation_source' is 'seawater', which is an environment, not a host organism. No field explicitly states the name of the bacterial host (e.g., 'Polaribacter sp.' or a specific species name). Therefore, based strictly on the provided text, the host organism is not present.
+Duration: 0.14 minutes
+
+
+Total Duration (minutes): 1.77

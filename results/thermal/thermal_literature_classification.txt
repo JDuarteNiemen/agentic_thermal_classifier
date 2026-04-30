@@ -1,7 +1,7 @@
 Thermal Classification of Example data using first literature creation
 Attempts to classify the accessions not classified from metadata search
 Uses the first literature creation pulled from the protein accession, not literature of the host
-2026-04-29 16:59:30.035784
+2026-04-29 18:13:36.451324
 ======================ADI87650======================
 ===================
 Paper: PMC12771599.1.txt	Paper Score: 59
@@ -9,29 +9,370 @@ Thermal Range: unknown
 Temperature: unknown
 Reasoning: unknown
 Confidence: unknown
-Duration (minutes): 4.51
+Duration (minutes): 3.13
 
 ===================
 Paper: PMC12735813.1.txt	Paper Score: 54
+Thermal Range: mesophile
+Temperature: 21–37 °C
+Reasoning: The paper explicitly states that phage JC53 (the organism in question) 'effectively lysed EV76 at 28 °C 21 °C and 37 °C' (Section 3.1). Additionally Section 3.2.1 notes that activity remained stable below 60 °C and was lost at 70 °C. Section 2.6 confirms host range assays were conducted at 21 °C 28 °C and 37 °C with lysis observed at all three temperatures. These temperatures fall within the mesophile range (15–45 °C). No data support psychrophile (<15 °C) or thermophile (>45 °C) classification.
+Confidence: high
+Duration (minutes): 0.99
+
+
+Full Accession Duration: 4.12minutes
+======================WXH46553======================
+===================
+Paper: PMC12808745.1.txt	Paper Score: 47
+Thermal Range: mesophile
+Temperature: 30 °C
+Reasoning: The paper explicitly states that experiments were conducted at specific temperatures including 30 °C 24 °C and 37 °C. Specifically the text mentions: 'We chose nanoliter unit as it better reflects the small total volume of encapsulated CFE reaction into the SCs. The first synthesized infectious phages were observed after one hour. This experiment was also done at 24 °C and 37 °C (Supplementary Fig. 31).' Additionally Figure 4B caption states: 'Phage production kinetics at 30 °C in bulk and synthetic cells.' Since the organism (T7 phage) functions and replicates within the synthetic cell system at 30 °C (and also at 24 °C and 37 °C) and these temperatures fall within the 15–45 °C range defined for mesophiles the thermal classification is mesophile.
+Confidence: high
+Duration (minutes): 1.65
+
+
+Full Accession Duration: 1.66minutes
+======================WRQ14408======================
+===================
+Paper: PMC12445682.1.txt	Paper Score: 91
 Thermal Range: unknown
 Temperature: unknown
-Reasoning: unknown
-Confidence: unknown
-Duration (minutes): 3.61
+Reasoning: The paper describes the biochemical mechanism of P2–OLD (Overcoming Lysogenization Defect) protein from phage P2 which interferes with phage Lambda replication in *Escherichia coli*. The study focuses on tRNA cleavage protein synthesis arrest and genetic interactions between phages and bacteria. While the paper mentions specific temperatures used in experiments (e.g. 30°C 42°C 37°C) these are experimental conditions for inducing gene expression or growing cultures not indicators of the organism's thermal classification. The organism in question is Escherichia phage Lambda a bacteriophage. The paper does not explicitly state the thermal range or growth temperature preferences of Escherichia phage Lambda. Therefore based on the strict rule to only use information explicitly stated in the paper the thermal characteristics are unknown.
+Confidence: high
+Duration (minutes): 9.81
 
 ===================
-Paper: PMC13055312.1.txt	Paper Score: 27
+Paper: PMC12767721.1.txt	Paper Score: 90
 Thermal Range: unknown
 Temperature: unknown
 Reasoning: unknown
 Confidence: unknown
-Duration (minutes): 3.46
+Duration (minutes): 3.6
 
 ===================
-Paper: PMC13030558.1.txt	Paper Score: 27
+Paper: PMC12875140.1.txt	Paper Score: 54
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper describes experiments involving Escherichia phage Lambda (specifically the lambda gpE major capsid protein) and its interaction with the bacterial host E. coli. The Methods section states that bacteria were grown in LB medium at 37 °C. However this temperature refers to the optimal growth conditions for the bacterial host (E. coli) not the thermal characteristics or optimal growth range of the phage itself. The paper does not explicitly state the temperature range in which the phage replicates infects or is stable. Therefore based strictly on the provided text no thermal range for the phage can be determined.
+Confidence: high
+Duration (minutes): 1.41
+
+===================
+Paper: PMC12318184.1.txt	Paper Score: 44
+Thermal Range: mesophile
+Temperature: 30 °C and 37 °C
+Reasoning: The paper explicitly states that the cI857 mutation confers thermolability to the repressor protein where 'At 30 °C the repressor remains stable and functional; however when the temperature is elevated to 37 °C its stability decreases and induces lytic activity.' Additionally the Materials and Methods section notes that liquid cultures were grown at '30 or 37 °C' and plates were incubated at '37 °C'. Since the organism (phage lambda) is functional and actively studied within this 30–37 °C range it falls within the mesophile definition (15–45°C).
+Confidence: high
+Duration (minutes): 1.14
+
+
+Full Accession Duration: 15.96minutes
+======================XYW65533======================
+===================
+Paper: PMC12373910.1.txt	Paper Score: 72
 Thermal Range: unknown
 Temperature: unknown
 Reasoning: unknown
 Confidence: unknown
-Duration (minutes): 3.96
+Duration (minutes): 4.13
 
+===================
+Paper: PMC12771599.1.txt	Paper Score: 59
+Thermal Range: mesophile
+Temperature: up to 60°C
+Reasoning: The paper explicitly states in the Abstract that phage P19 'remained highly stable across pH 6–10 and temperatures up to 60°C.' In Section 3.6 (Results) it is further detailed that 'phage P19 retained viability at temperatures ranging from 30°C to 60°C showing minimal reduction in phage titre even after 1 h of incubation.' While the paper does not explicitly state an optimal growth temperature the ability to retain viability and function up to 60°C places it firmly within the mesophile range (15–45°C) according to the provided definitions as it does not meet the criteria for a thermophile (>45°C optimal) nor a psychrophile (<15°C optimal). The stability up to 60°C indicates it is not a psychrophile and while it survives higher temperatures the lack of data suggesting an optimal growth temperature above 45°C means it cannot be classified as a thermophile based on the strict rule of using only explicit information. However the definition for mesophile is 15-45°C. The paper states stability 'up to 60°C'. It does not state the optimal growth temperature. However the organism is a bacteriophage infecting *Aeromonas dhakensis*. The paper states in Section 2.1 that *Aeromonas dhakensis* strains were cultured at 30°C. The phage was isolated from river water (often temperate) and maintained at 30°C for assays. The stability up to 60°C is a property of the virion not necessarily the optimal growth temperature. Since the optimal growth temperature is not explicitly stated but the organism is active and stable at 30°C (a mesophilic temperature) and loses viability above 60°C it fits the mesophile profile. The prompt asks for the thermal characteristics of the organism. The organism is a phage. Phages do not 'grow' in the same way bacteria do but they replicate within the host. The host *Aeromonas dhakensis* is cultured at 30°C. The phage is stable up to 60°C. Given the definitions and the fact that it is active at 30°C and stable up to 60°C (but not necessarily growing optimally above 45°C) 'mesophile' is the most appropriate classification based on the explicit temperature range of stability and the host culture temperature.
+Confidence: medium
+Duration (minutes): 1.86
+
+===================
+Paper: PMC12752171.1.txt	Paper Score: 56
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper explicitly discusses the thermal stability of phage SIA3lw (the organism in question) stating it is stable from 30°C to 50°C and decreases significantly at 60°C and 65°C. However the paper never states the optimal growth temperature or the thermal range for growth of the phage itself. The definitions provided in the prompt (psychrophile mesophile thermophile) refer to optimal growth temperatures. Since the paper does not state the optimal growth temperature for Escherichia phage T2 (or SIA3lw which is the actual organism studied in the text) and the prompt asks specifically about 'Escherichia phage T2' (which is mentioned only as a reference organism in the text not the subject of the study) no thermal characteristics for growth can be determined from the text. The text mentions 'Escherichia phage Bf23' and 'Escherichia phage Sa157lw' as references but the study focuses on 'Salmonella phage vB_SalS-SIA3lw'. The prompt asks about 'Escherichia phage T2' which is not the subject of the study and no thermal data is provided for it in the text.
+Confidence: low
+Duration (minutes): 1.68
+
+===================
+Paper: PMC12875140.1.txt	Paper Score: 54
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper describes the thermal characteristics of Escherichia phage T2 only in the context of its interaction with the bacterial host E. coli. The paper mentions that E. coli strains were grown at 37°C (e.g. 'Bacteria were grown in LB medium... at 37 °C' and 'Cultures were grown at 37 °C'). However the paper does not explicitly state the optimal growth temperature or thermal range for the phage itself. The paper focuses on the identification of phage triggers for bacterial immune systems and does not provide information on the thermal characteristics of the phage. Therefore based on the strict rule to only use information explicitly stated in the paper the thermal range is unknown.
+Confidence: high
+Duration (minutes): 1.43
+
+===================
+Paper: PMC12250076.1.txt	Paper Score: 35
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper explicitly mentions Escherichia coli phage T4 (Section 2.3: 'Escherichia coli bacteriophage T4...'). However the text provides no information regarding the thermal characteristics (optimal growth temperature temperature range or classification) of Escherichia phage T2. The paper focuses on bacterial cellulose production and phage immobilization mentioning Escherichia coli phage T4 as a model organism but never discusses its thermal properties or those of any other phage including T2. No temperature data is linked to the thermal classification of the phage itself.
+Confidence: high
+Duration (minutes): 0.89
+
+===================
+Paper: PMC12557735.1.txt	Paper Score: 27
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper describes experiments involving Escherichia coli and T4 phage. While the 'Materials and Methods' section mentions growing E. coli at 30 °C for specific assays (e.g. 'Overnight cultures were prepared... and cells were grown at 30 °C') this is a standard laboratory condition for E. coli and does not define the organism's thermal classification. The paper does not explicitly state the optimal growth temperature minimum or maximum temperature for E. coli or Escherichia phage T2. Furthermore the paper does not explicitly link the host species (E. coli) to a specific thermal classification for the phage. Therefore based strictly on the provided text no thermal characteristics are stated.
+Confidence: high
+Duration (minutes): 1.16
+
+===================
+Paper: PMC12609058.1.txt	Paper Score: 19
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper describes the structural analysis of Escherichia phage T2 (referred to as Bas63 in the text). While the paper mentions incubation temperatures for sample preparation (e.g. 'Cultures were incubated for 1.5 hours at 37°C' and 'followed by incubation at 37°C for 12 hours') these are procedural temperatures for phage growth and lysis not explicitly stated optimal growth temperatures for the organism. The paper does not explicitly state the thermal classification (psychrophile mesophile thermophile) or the optimal growth temperature range for Escherichia phage T2. Therefore based on the strict rule to only use information explicitly stated in the paper the thermal characteristics are unknown.
+Confidence: high
+Duration (minutes): 1.5
+
+===================
+Paper: PMC12466345.1.txt	Paper Score: 15
+Thermal Range: mesophile
+Temperature: 37 °C
+Reasoning: The paper explicitly states in Section 4.1 (Materials and Methods) that the experimental populations of Escherichia coli B were 'incubated at 37 °C at 150 rpm for 24 h'. This temperature is maintained throughout the 35-day evolution experiment for all groups. Since 37 °C falls within the defined range of 15–45°C for a mesophile the organism is classified as such based on the explicit growth conditions provided in the text.
+Confidence: high
+Duration (minutes): 0.99
+
+
+Full Accession Duration: 13.63minutes
+======================SNQ28030======================
+===================
+Paper: PMC13030880.1.txt	Paper Score: 132
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper discusses the thermal stability of bacteriophages Phi6 Qbeta and MS2 under specific incubation temperatures (25°C 37°C 50°C) and storage conditions (refrigerator at 3-5°C). However the organism in question 'Emesvirus zinderi' is not mentioned anywhere in the provided text. The paper focuses exclusively on Phi6 Qbeta and MS2. Therefore no thermal characteristics can be extracted for Emesvirus zinderi from this document.
+Confidence: high
+Duration (minutes): 0.89
+
+===================
+Paper: PMC12796303.1.txt	Paper Score: 68
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: unknown
+Confidence: unknown
+Duration (minutes): 3.37
+
+===================
+Paper: PMC12654508.1.txt	Paper Score: 33
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper mentions Emesvirus zinderi (MS2 bacteriophage) as one of the target microorganisms in the multiplex qPCR assay. However no information is provided regarding its optimal growth temperature thermal range or classification (psychrophile mesophile thermophile). The experiments were conducted under solar conditions with temperatures ranging from 30.4°C to 44°C but this does not define the organism's intrinsic thermal characteristics. No explicit statement links Emesvirus zinderi to a specific thermal class or temperature range.
+Confidence: low
+Duration (minutes): 1.08
+
+===================
+Paper: PMC13101517.1.txt	Paper Score: 24
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper describes experiments conducted at 'room temperature' and '20°C' (Materials and Methods: 'incubator set to 20°C'). However the organism in question Emesvirus zinderi is not mentioned anywhere in the provided text. The paper focuses on bacteria (MRSA P. aeruginosa) yeast (C. albicans) and bacteriophages (Φ6 MS2). Since the specific organism requested is not present in the text no thermal information can be extracted for it.
+Confidence: high
+Duration (minutes): 0.9
+
+===================
+Paper: PMC12921844.1.txt	Paper Score: 24
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper describes experiments conducted on Hyphantria cunea larvae and E. coli bacteria. For H. cunea the rearing conditions are explicitly stated as '26 ± 1 °C' (Section 2.1 2.8 2.11 2.13). For E. coli the culture conditions are stated as '37 °C' (Section 2.5). However the organism in question is 'Emesvirus zinderi'. A thorough search of the provided text reveals no mention of 'Emesvirus zinderi'. The paper focuses on MS2 virus-like particles (VLPs) derived from bacteriophage MS2 not Emesvirus zinderi. Since the specific organism 'Emesvirus zinderi' is not mentioned in the text and no thermal characteristics for it are provided the thermal range must be 'unknown'.
+Confidence: high
+Duration (minutes): 1.34
+
+===================
+Paper: PMC13088221.1.txt	Paper Score: 20
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper discusses the use of nanocellulose-based filter paper for virus removal filtration including thermoporometry analysis to determine pore size (Section 2.3 and 3). However no information is provided regarding the thermal characteristics (growth temperature range) of the organism Emesvirus zinderi. The paper focuses on bacteriophages (MS2 and ΦX174) and IgG not Emesvirus zinderi. Additionally no temperature data related to the growth or thermal classification of Emesvirus zinderi is mentioned anywhere in the text.
+Confidence: high
+Duration (minutes): 0.69
+
+===================
+Paper: PMC13077995.1.txt	Paper Score: 16
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper explicitly states that the bacteria host E. coli DSM 5695 was 'incubated at 37 °C overnight' and infected cells were 'incubated for 6 h at 37 °C'. However the organism in question is Emesvirus zinderi. The paper focuses entirely on the MS2 bacteriophage (family Leviviridae) not Emesvirus zinderi. Although the prompt asks for the thermal characteristics of Emesvirus zinderi the provided text contains no information regarding Emesvirus zinderi nor does it link the host temperature (37°C) to the thermal classification of the specific organism requested. Per the strict rules I cannot infer thermal range from the host temperature or prior knowledge. Since no temperature or thermal information is stated for Emesvirus zinderi in the text the answer is 'unknown'.
+Confidence: high
+Duration (minutes): 1.2
+
+===================
+Paper: PMC12947616.1.txt	Paper Score: 16
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper describes experiments conducted in a solar simulator and with natural surface water. While the paper mentions specific temperatures for culturing host cells (e.g. P. syringae at 30 °C and E. coli at 37 °C) and for the water cooler in the solar simulator (15 °C or 10 °C) it does not explicitly state the optimal growth temperature or thermal classification (psychrophile mesophile thermophile) for the organism 'Emesvirus zinderi'. In fact the organism 'Emesvirus zinderi' is not mentioned in the provided text at all; the viruses studied are Influenza A virus (IAV) Phi6 and MS2. Therefore no thermal information can be extracted for 'Emesvirus zinderi' from this text.
+Confidence: low
+Duration (minutes): 1.09
+
+===================
+Paper: PMC12593617.1.txt	Paper Score: 10
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper explicitly identifies the organism as 'Emesvirus zinderi' (also referred to as bacteriophage MS2) in the Introduction section: 'Bacteriophages such as bacteriophage MS2 (Emesvirus zinderi)...'. However the text provides no information regarding the thermal characteristics optimal growth temperature or thermal classification (psychrophile mesophile thermophile) of Emesvirus zinderi. The only temperatures mentioned in the paper are experimental conditions such as incubation at 25 °C for propagation and 37 °C for plaque assays but these are not stated as the organism's optimal growth range or thermal classification. Therefore based on the strict rule to only use explicitly stated information the thermal characteristics are unknown.
+Confidence: high
+Duration (minutes): 1.14
+
+===================
+Paper: PMC12508424.1.txt	Paper Score: 3
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper describes molecular dynamics simulations of the MS2 bacteriophage (not Emesvirus zinderi) conducted at a constant temperature of 300 K (Methods section: 'A temperature of 300 K was maintained using the velocity rescaling thermostat'). However the organism in question is Emesvirus zinderi which is not mentioned anywhere in the paper. The paper focuses on MS2 bacteriophage a different virus. No thermal characteristics (optimal growth temperature thermal range etc.) are explicitly stated for Emesvirus zinderi in the text. Therefore based on the strict rule to only use information explicitly stated in the paper and not infer from species name or prior knowledge the thermal range for Emesvirus zinderi is unknown.
+Confidence: high
+Duration (minutes): 0.68
+
+===================
+Paper: PMC12983703.1.txt	Paper Score: 2
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper discusses the organism 'Emesvirus zinderi' in the context of cryo-EM data processing and deformation modeling. However the text does not explicitly state any temperature conditions growth ranges or thermal classifications for Emesvirus zinderi. The paper focuses on computational methods for particle selection and deformation measurement in cryo-EM without providing biological details such as optimal growth temperatures or thermal ranges for the organism. Therefore based on the strict rule to only use information explicitly stated in the paper the thermal characteristics are unknown.
+Confidence: high
+Duration (minutes): 1.21
+
+===================
+Paper: 41308699.txt	Paper Score: 1
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The provided text discusses the construction and application of MS2 bacteriophage virus-like particles (VLPs) for SARS-CoV-2 detection. It mentions that the VLPs were expressed in *Escherichia coli* BL21 and stored/stable at 4°C for ≥20 days. However the text does not explicitly state the optimal growth temperature minimum growth temperature or maximum growth temperature for the organism (MS2/Emesvirus zinderi). The stability at 4°C does not define the thermal classification (psychrophile/mesophile/thermophile) as stability can occur outside the optimal growth range. Furthermore the prompt requires using only information explicitly stated in the paper and no explicit thermal range or optimal temperature is quoted. Therefore based strictly on the provided text the thermal characteristics are unknown.
+Confidence: high
+Duration (minutes): 0.17
+
+===================
+Paper: 41232636.txt	Paper Score: 1
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper discusses the stability of MS2-VLPs under 'various temperature exposure' but does not specify the exact temperatures ranges or optimal growth conditions for the organism (MS2 bacteriophage). The text focuses on the stability of the VLP platform for miRNA delivery rather than the thermal characteristics of the bacteriophage itself. No explicit temperature data or growth range is stated.
+Confidence: high
+Duration (minutes): 0.11
+
+===================
+Paper: 41713773.txt	Paper Score: 0
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The provided paper text discusses the inactivation of bio-aerosolized viruses (specifically bacteriophages phi6 and MS2) using pulsed electric fields (PEF). The text mentions specific electrical parameters (10 kV 15 min) and experimental conditions (vacuum pump flow rate recovery time). However the text contains no explicit statements regarding the thermal characteristics (optimal growth temperature minimum/maximum growth temperatures) of the organisms mentioned. Furthermore the organism 'Emesvirus zinderi' is not mentioned in the text at all. Therefore no thermal information can be extracted.
+Confidence: high
+Duration (minutes): 0.14
+
+===================
+Paper: 41679971.txt	Paper Score: 0
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The provided paper text discusses the removal of bacteria (specifically E. coli) and viruses (specifically bacteriophage MS2) using chitosan coagulation in water. It details molecular weights degrees of deacetylation and dosages. However the text contains no explicit statements regarding the thermal characteristics optimal growth temperatures or temperature ranges for the organism 'Emesvirus zinderi' or any other virus mentioned. The paper does not link the host species to specific temperatures nor does it infer thermal properties from the organism's name. Therefore based strictly on the provided text no thermal information is available.
+Confidence: high
+Duration (minutes): 0.23
+
+===================
+Paper: 41626649.txt	Paper Score: 0
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The provided paper text discusses the filtration efficiency of heat and moisture exchangers against viral aerosols using bacteriophages PhiX174 and MS2 as proxies. It mentions 'heat and moisture' in the context of the devices (HMEF) and simulated clinical conditions but it does not explicitly state any specific temperature values growth ranges or thermal classifications for the organisms mentioned (including the requested Emesvirus zinderi which is not mentioned in the text). The text focuses on humidity levels and flow rates rather than thermal characteristics. Therefore no explicit thermal information is available in the source text.
+Confidence: high
+Duration (minutes): 0.14
+
+===================
+Paper: 41371137.txt	Paper Score: 0
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The provided paper text discusses the shielding effect of co-generated particles on bioaerosols (specifically mentioning E. coli and MS2) against Far-UVC radiation in dental clinics. The text explicitly states that 'the susceptibility of aerosolized bacteria and viruses to far-UVC radiation was experimentally measured' but does not mention any specific temperatures growth ranges or thermal classifications for any organism including Emesvirus zinderi. Furthermore Emesvirus zinderi is not mentioned in the text at all. Therefore no thermal information can be extracted.
+Confidence: high
+Duration (minutes): 0.13
+
+===================
+Paper: SNQ28030.json	Paper Score: 0
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The provided paper text describes the 'RNA replicase beta subunit' of 'Emesvirus zinderi' (accession SNQ28030). The text includes metadata such as sequence length database source isolate name and notes on genome structure ('monopartite'). However the text contains no explicit statements regarding growth temperatures optimal temperatures or thermal classification (psychrophile mesophile thermophile). As per the strict rules I cannot infer thermal characteristics from the species name or prior knowledge nor can I rely on the host species ('EnteroPH/GER/L00928-K20_14-03/2014') unless the paper explicitly links it to a temperature. Since no temperature data is present in the source text the thermal range is 'unknown'.
+Confidence: high
+Duration (minutes): 0.16
+
+===================
+Paper: 41086947.txt	Paper Score: 0
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The provided paper text discusses the air gap effect on droplet and pathogen escape during toilet flushing. It explicitly mentions studying three microbes: Escherichia coli MS2 and P22. The organism in question Emesvirus zinderi is not mentioned in the text. Furthermore the text contains no information regarding growth temperatures optimal temperatures or thermal classifications (psychrophile mesophile thermophile) for any of the organisms studied. Therefore based strictly on the provided text no thermal characteristics can be determined.
+Confidence: high
+Duration (minutes): 0.13
+
+===================
+Paper: 41176652.txt	Paper Score: 0
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The provided paper text discusses the regulation of supramolecular interactions in RNA:DNA hybrids using urea for nanopore sensing applications. It mentions the 'isothermal assembly' of MS2 bacteriophage RNA but 'isothermal' refers to the condition of the experiment (constant temperature) rather than defining the organism's thermal classification. The text does not explicitly state the optimal growth temperature minimum or maximum temperature for Emesvirus zinderi or any other organism. Furthermore the text does not link the host species to specific temperature ranges. Therefore no thermal characteristics can be extracted from the provided text.
+Confidence: high
+Duration (minutes): 0.13
+
+===================
+Paper: 41687590.txt	Paper Score: 0
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The provided paper text discusses the disinfection efficiency of Far-UVC and negative air ions against specific microorganisms (E. coli S. epidermidis MS2 and P22). The text explicitly states that 'Emesvirus zinderi' is NOT mentioned in the paper. Furthermore the paper contains no information regarding growth temperatures optimal temperatures or thermal classifications (psychrophile mesophile thermophile) for any of the organisms tested. Therefore based strictly on the provided text no thermal characteristics can be determined.
+Confidence: high
+Duration (minutes): 0.13
+
+
+Full Accession Duration: 15.05minutes
+======================NP_835731======================
+===================
+Paper: 24318108.txt	Paper Score: 5
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper explicitly states that the host organism is 'Rhodothermus marinus' and describes it as a 'thermophilic bacterium'. However the STRICT RULES prohibit inferring thermal characteristics from the host species unless the paper explicitly links that host to a specific temperature range for the phage. The text mentions the phage's stability ('remained stable up to 65 °C') and loss of viability at higher temperatures but it does not state the optimal growth temperature or the temperature range required for the phage to replicate. Therefore based strictly on the provided text the thermal classification of the phage itself cannot be determined.
+Confidence: high
+Duration (minutes): 0.14
+
+===================
+Paper: 15579472.txt	Paper Score: 3
+Thermal Range: thermophile
+Temperature: elevated temperatures
+Reasoning: The paper explicitly describes the bacteriophage RM378 as a 'thermophilic bacteriophage' and notes that its polynucleotide kinase possesses activity 'at elevated temperatures'. The host organism Rhodothermus marinus is also described as 'thermophilic'. Since the phage is explicitly labeled as thermophilic and functions at elevated temperatures it fits the definition of a thermophile (> 45°C).
+Confidence: high
+Duration (minutes): 0.12
+
+
+Full Accession Duration: 0.26minutes
+======================XJP07760======================
+===================
+Paper: XJP07760.json	Paper Score: 0
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The provided paper text describes the terminase large subunit of 'Pseudoalteromonas phage vB_Psp_PY6'. While the 'isolation_source' is listed as 'seawater' the text does not explicitly state the temperature at which the phage was isolated nor does it provide any specific growth temperature data optimal temperature or thermal classification for the phage. According to the strict rules I cannot infer the thermal range from the host species or the isolation source (seawater) without an explicit link in the text. Therefore the thermal information is unknown based strictly on the provided text.
+Confidence: high
+Duration (minutes): 0.13
+
+
+Full Accession Duration: 0.13minutes
+======================YP_009790355======================
+===================
+Paper: 30594742.txt	Paper Score: 6
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper explicitly states that the phages (including SppYZU05) were used to control bacterial growth in catfish matrices at 25°C and 4°C. However the text describes the *effect* of the phage cocktail on the bacteria at these temperatures ('partially inhibited' 'reduced by... log units') not the thermal characteristics (optimal growth range) of the phage itself. The definitions provided in the prompt apply to the organism's growth temperature (psychrophile < 15°C mesophile 15–45°C thermophile > 45°C). The paper does not state the optimal growth temperature of Shewanella phage SppYZU05 nor does it explicitly link the phage's own thermal classification to the host's spoilage conditions. Therefore based strictly on the provided text the thermal range of the phage is unknown.
+Confidence: high
+Duration (minutes): 0.19
+
+===================
+Paper: YP_009790355.json	Paper Score: 0
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The provided paper text describes the 'tail fiber protein' of 'Shewanella phage SppYZU05'. It explicitly states the 'lab_host' is 'Shewanella putrefaciens' and the 'isolation_source' is 'sewage'. However the text contains no explicit statements regarding the optimal growth temperature minimum/maximum growth temperatures or any thermal classification (psychrophile mesophile thermophile) for this specific phage. Per the strict rules I cannot infer thermal characteristics from the host species name or prior knowledge nor can I assume a range based on the isolation source alone without an explicit link in the text. Therefore the thermal information is unknown.
+Confidence: high
+Duration (minutes): 0.14
+
+
+Full Accession Duration: 0.33minutes
+======================YP_009209738======================
+===================
+Paper: PMC4615864.1.txt	Paper Score: 11
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The paper describes the isolation and characterization of bacteriophages P12002L and P12002S infecting Polaribacter sp. strain IMCC12002. The host strain was grown at 20°C for isolation and plaque assays were incubated at 20°C. However the paper does not explicitly state the optimal growth temperature minimum or maximum growth temperatures for the phages or the host under conditions that would define its thermal classification (psychrophile mesophile thermophile). While the host was grown at 20°C this does not preclude it from being a mesophile (which can grow between 15–45°C). The paper does not provide explicit thermal range data or classification for the phage or host. Therefore based on the strict rule to only use explicitly stated information the thermal characteristics are unknown.
+Confidence: high
+Duration (minutes): 0.64
+
+===================
+Paper: YP_009209738.json	Paper Score: 0
+Thermal Range: unknown
+Temperature: unknown
+Reasoning: The provided paper text describes the organism 'Polaribacter phage P12002L' and notes its isolation source as 'seawater'. However the text contains no explicit statements regarding the optimal growth temperature minimum/maximum growth temperatures or specific temperature ranges for this phage. While the host genus 'Polaribacter' is often associated with marine environments the strict rules prohibit inferring thermal characteristics from the species name or prior knowledge and the text does not explicitly link the host to a specific temperature. Therefore no thermal information can be extracted.
+Confidence: high
+Duration (minutes): 0.12
+
+
+Full Accession Duration: 0.77minutes
+
+
+Total Duration (minutes): 51.9

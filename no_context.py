@@ -31,6 +31,7 @@ def _build_llm(model: str | None = None) -> ChatOllama:
         base_url=OLLAMA_BASE_URL,
         temperature=0.0,
         num_predict=4096,
+        reasoning=False
     )
 
 

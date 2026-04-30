@@ -1,2 +1,3 @@
 
- at the moment every LLM call is analysing metadata, have one call to look through metadata.
+The LLM isnt associating the gropwth conditions of the host with optimal conditions for the phage.
+Should add into prompt that this inference is ok

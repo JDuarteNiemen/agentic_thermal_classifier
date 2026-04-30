@@ -2,49 +2,49 @@ Classifying thermal range of bacteriophage using only the name of the phage
 Forced output, must return a classification
 =============ADI87650=============
 Thermal Classification: mesophile
-Duration: 0.38
+Duration: 0.02
 =============WXH46553=============
-Thermal Classification: unknown
-Duration: 2.59
+Thermal Classification: thermophile
+Duration: 0.02
 =============WRQ14408=============
 Thermal Classification: mesophile
-Duration: 0.33
+Duration: 0.02
 =============XYW65533=============
-Thermal Classification: unknown
-Duration: 2.58
+Thermal Classification: mesophile
+Duration: 0.02
 =============SNQ28030=============
-Thermal Classification: unknown
-Duration: 2.54
+Thermal Classification: thermophile
+Duration: 0.02
 =============A7XXB7=============
 Thermal Classification: thermophile
-Duration: 0.78
+Duration: 0.02
 =============QAY18187=============
 Thermal Classification: thermophile
-Duration: 1.83
+Duration: 0.02
 =============YP_001285867=============
 Thermal Classification: thermophile
-Duration: 0.46
+Duration: 0.02
 =============NP_835731=============
 Thermal Classification: thermophile
-Duration: 7.61
+Duration: 0.02
 =============YP_874174=============
 Thermal Classification: thermophile
-Duration: 0.57
+Duration: 0.02
 =============XJP07760=============
-Thermal Classification: mesophile
-Duration: 1.63
+Thermal Classification: unknown
+Duration: 0.02
 =============WMT83805=============
-Thermal Classification: mesophile
-Duration: 1.36
+Thermal Classification: psychrophile
+Duration: 0.02
 =============YP_009790355=============
 Thermal Classification: mesophile
-Duration: 2.22
+Duration: 0.02
 =============YP_006489335=============
-Thermal Classification: unknown
-Duration: 2.57
+Thermal Classification: psychrophile
+Duration: 0.02
 =============YP_009209738=============
-Thermal Classification: unknown
-Duration: 2.58
+Thermal Classification: psychrophile
+Duration: 0.02
 
 
-Full Duration: 30.17 minutes
+Full Duration: 0.4 minutes

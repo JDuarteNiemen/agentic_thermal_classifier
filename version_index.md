@@ -14,5 +14,6 @@ STEPS:
 - LLM call to identify host if wasnt extracted from metadata. Papers are ranked based on regex scan of keywords.
 
 Improved results output
+Reasoning is set to false, this causes massive decrease in time taken for each LLM call
 
 

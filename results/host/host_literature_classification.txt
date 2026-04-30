@@ -1,91 +1,49 @@
 Host Classification of Example data using first literature creation
 Attempts to classify the accessions not classified from metadata search
 Uses the first literature creation pulled from the protein accession
-2026-04-29 16:22:16.270856
+2026-04-29 18:04:22.430803
 ======================ADI87650======================
 ===================
 Paper: PMC12930573.1.txt	Paper Score: 35
-Host Species: unknown
-Reasoning: unknown
-Confidence: unknown
-Duration: 4.54
-===================
-Paper: PMC12735813.1.txt	Paper Score: 20
-Host Species: unknown
-Reasoning: unknown
-Confidence: unknown
-Duration: 3.61
-===================
-Paper: PMC13055312.1.txt	Paper Score: 12
-Host Species: Escherichia coli
-Reasoning: The paper explicitly states in the Introduction section that 'T4 virus... infects Escherichia coli by injecting its genome'. Furthermore the Materials and Methods section under 'Bacterial host and T4 virus amplification' specifies that 'E. coli (BL21 (DE3))... was used for phage propagation' and describes culturing 'E. coli' to amplify the virus. These statements confirm the host organism for the T4 virus (Tequatrovirus T4) is Escherichia coli.
+Host Species: Acinetobacter baumannii
+Reasoning: The paper explicitly states that the phage vB_AbaM_MU1 was isolated and characterized against 'Acinetobacter baumannii' strains. Specifically the text mentions: 'A novel lytic Acinetobacter phage vB_AbaM_MU1 was isolated... It showed lytic efficiency against 9/17 CRAB strains.' The 'Materials and methods' section further clarifies: 'Eighteen CRAB clinical isolates were obtained... Acinetobacter baumannii M13 isolate... was selected as the host strain'. The abbreviation 'CRAB' is defined in the text as 'Carbapenem-resistant Acinetobacter baumannii'. The host range analysis was conducted against 'A. baumannii' strains and other genera confirming the specific host is Acinetobacter baumannii.
 Confidence: high
-Duration: 1.55
+Duration: 1.93
 
-Full Accession Duration: 9.71minutes
+Full Accession Duration: 1.93minutes
 ======================SNQ28030======================
 ===================
 Paper: PMC13077995.1.txt	Paper Score: 22
-Host Species: unknown
-Reasoning: unknown
-Confidence: unknown
-Duration: 4.04
-===================
-Paper: PMC13101517.1.txt	Paper Score: 16
-Host Species: unknown
-Reasoning: unknown
-Confidence: unknown
-Duration: 3.77
-===================
-Paper: PMC12593617.1.txt	Paper Score: 13
 Host Species: Escherichia coli
-Reasoning: 1. Identification of Target Phage: The paper explicitly identifies the bacteriophage used as 'MS2 bacteriophage' and equates it to the target species in the Introduction section: 'Bacteriophages such as bacteriophage MS2 (Emesvirus zinderi)...'.
-2. Identification of Host: In the 'Materials and methods' section under 'Bacterial culture and bacteriophage propagation' the text explicitly states: 'MS2 bacteriophage was sourced... and propagated in trypticase soy broth... using its host bacteria Escherichia coli (Migula Castellani and Chalmers 15597-B1).'
-3. Confirmation: The text further confirms the use of this host for viral aerosol collection: 'petri dishes with E. coli cultures for viral aerosols'.
-4. Conclusion: Since the paper explicitly links MS2 (Emesvirus zinderi) to Escherichia coli as its host for propagation and assay the host species is Escherichia coli.
+Reasoning: The paper text explicitly states in the Background section: 'The RNA bacteriophage MS2 is an RNA phage that infects the bacterium E. coli'. Additionally the Methods section specifies: 'The bacteria host E. coli DSM 5695 (also called E. coli W1485) (F+)'. The Results section further confirms: 'MS2 bacteriophage replicated within half an hour in E. coli' and 'Growth curves of bacterial cells (DSM5695 E. coli) infected with MS2 RNA phage'. The target species 'Emesvirus zinderi' is the genus/species classification for MS2 (MS2 belongs to the family Fiersviridae which is now often associated with Emesvirus) and the paper consistently identifies the host as Escherichia coli.
 Confidence: high
-Duration: 2.41
+Duration: 1.44
 
-Full Accession Duration: 10.21minutes
+Full Accession Duration: 1.45minutes
 ======================YP_874174======================
 ===================
 Paper: PMC9324360.1.txt	Paper Score: 13
 Host Species: unknown
 Reasoning: unknown
 Confidence: unknown
-Duration: 5.52
+Duration: 3.82
 ===================
 Paper: 37423744.txt	Paper Score: 1
-Host Species: unknown
-Reasoning: unknown
-Confidence: unknown
-Duration: 2.63
-===================
-Paper: 19891975.txt	Paper Score: 1
 Host Species: Thermus thermophilus
-Reasoning: The paper text explicitly states: 'using a model organism Thermus thermophilus HB8... genome-wide transcription profiling of the strain infected with lytic phage PhiYS40 was performed'. This sentence directly links the phage PhiYS40 (matching the target species 'Thermus phage phiYS40') to the host organism Thermus thermophilus.
+Reasoning: The paper text explicitly states: 'A Thermus thermophilus lytic phage was isolated...' and later refers to 'adsorption to the Thermus host cell'. The title also identifies the subject as a 'Thermus thermophilus phage'. The text contrasts this new phage (φMN1) with φYS40 noting that φYS40 is 'type IV pili-dependent' implying φYS40 is the target species mentioned in the prompt. Since the text explicitly links the isolation and host specificity to 'Thermus thermophilus' this is the definitive host.
 Confidence: high
-Duration: 2.58
+Duration: 0.14
 
-Full Accession Duration: 10.73minutes
-======================YP_009790355======================
-===================
-Paper: 30594742.txt	Paper Score: 8
-Host Species: Shewanella putrefaciens
-Reasoning: The paper text explicitly states: 'Phage SppYZU01 and SppYZU05 showed the broadest host range being lytic towards all the 4 S. baltica strains and 5 out of the 6 S. putrefaciens strains respectively.' The use of the word 'respectively' maps the first phage (SppYZU01) to the first host group (S. baltica) and the second phage (SppYZU05) to the second host group (S. putrefaciens). Therefore the host for SppYZU05 is Shewanella putrefaciens.
-Confidence: high
-Duration: 2.14
-
-Full Accession Duration: 2.14minutes
+Full Accession Duration: 3.96minutes
 ======================YP_009209738======================
 ===================
 Paper: PMC4615864.1.txt	Paper Score: 22
 Host Species: Polaribacter sp. strain IMCC12002
-Reasoning: The paper explicitly states that phages P12002L and P12002L infect 'Polaribacter sp. strain IMCC12002' multiple times. Specifically the abstract states: '...two lytic siphophages P12002L and P12002S that infect Polaribacter sp. strain IMCC12002.' The 'Virus information' section confirms: 'P12002L and P12002S are lytic phages that infect the bacterial strain Polaribacter sp. IMCC12002.' Additionally Table 1 lists the biotic relationship as 'Intracellular parasite of Polaribacter strain IMCC12002'. The text clarifies that strain IMCC12002 was 'phylogenetically assigned to the genus Polaribacter' but does not specify the exact species beyond 'sp.'
+Reasoning: The paper explicitly states in the Abstract: '...two lytic siphophages P12002L and P12002S that infect Polaribacter sp. strain IMCC12002.' This is reiterated in the Introduction: '...infect strain IMCC12002 a marine bacterium phylogenetically assigned to the genus Polaribacter.' Furthermore Table 1 under MIGS-15 'Biotic relationship' lists the term 'Intracellular parasite of Polaribacter strain IMCC12002' with evidence code IDA (Inferred from Direct Assay). The Conclusion also confirms: 'P12002L and P12002S... infect Polaribacter sp. strain IMCC12002'.
 Confidence: high
-Duration: 1.6
+Duration: 0.67
 
-Full Accession Duration: 1.6minutes
+Full Accession Duration: 0.67minutes
 
 
-Total Duration (minutes): 34.38
+Total Duration (minutes): 8.01

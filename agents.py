@@ -239,7 +239,7 @@ def IdentifyThermalRange(state: AgentState) -> dict:
     {_truncate(state["paper_text"], max_chars)}
     """
 
-    out=llm.invoke(prompt, label='thermal_range')
+    out=llm.invoke(prompt)
 
     try:
         data = json.loads(out.content)
@@ -247,8 +247,8 @@ def IdentifyThermalRange(state: AgentState) -> dict:
         return {}
 
     return {
-        "thermal_range": data.get("thermal_range", "Unknown"),
-        "temperature": data.get("temperature", "Unknown"),
+        "thermal_range": data.get("thermal_range", "unknown"),
+        "temperature": data.get("temperature", "unknown"),
         "thermal_reasoning": data.get("thermal_reasoning", ""),
         "thermal_confidence": data.get("thermal_confidence", "low"),
 }
@@ -273,7 +273,7 @@ def HostMetadata(state: AgentState) -> dict:
     {state['metadata']}
     OUTPUT FORMAT (STRICT JSON ONLY, NOTHING ELSE):
     {{
-        "host_species": "<exact value OR 'Unknown'>",
+        "host_species": "<exact value OR 'unknown'>",
         "found_in_metadata": true/false,
         "taxon_level": "family | genus | species | strain | unknown",
         "host_reasoning": "step-by-step explanation of how metadata led to decision" OR 'not present in metadata'
@@ -297,9 +297,9 @@ def HostMetadata(state: AgentState) -> dict:
         return {}
 
     return {
-        "host_species": data.get("host_species", "Unknown"),
-        "found": data.get("found_in_metadata", "Unknown"),
-        "taxon_level": data.get("taxon_level", "Unknown"),
+        "host_species": data.get("host_species", "unknown"),
+        "found": data.get("found_in_metadata", "unknown"),
+        "taxon_level": data.get("taxon_level", "unknown"),
         "host_reasoning": data.get("host_reasoning", ""),
     }
 
@@ -365,8 +365,8 @@ def ThermalMetadata(state: AgentState) -> dict:
         return {}
 
     return {
-        "thermal_range": data.get("thermal_range", "Unknown"),
-        "inference_type": data.get("inference_type", "Unknown"),
+        "thermal_range": data.get("thermal_range", "unknown"),
+        "inference_type": data.get("inference_type", "unknown"),
         "reasoning": data.get("reasoning", ""),
         "confidence": data.get("confidence", "low"),
     }

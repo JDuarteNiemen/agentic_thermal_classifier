@@ -156,3 +156,27 @@ def FetchLiterature(accession: str) -> list[dict]:
         literature[title]=res.text
 
     return literature
+
+
+def ConfusionMatrix(y_true, y_pred):
+    """
+    Create and display a confusion matrix from two lists.
+    """
+    unique_labels = sorted(set(y_true) | set(y_pred))
+    n_labels = len(unique_labels)
+
+    # Initialize matrix
+    cm = np.zeros((n_labels, n_labels), dtype=int)
+
+
+
+    for true_label, pred_label in zip(y_true, y_pred):
+        true_idx = unique_labels.index(true_label)
+        pred_idx = unique_labels.index(pred_label)
+        cm[true_idx, pred_idx] += 1
+
+
+    disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=unique_labels)
+
+
+    return disp

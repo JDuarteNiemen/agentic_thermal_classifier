@@ -16,4 +16,5 @@ STEPS:
 Improved results output
 Reasoning is set to false, this causes massive decrease in time taken for each LLM call
 
-
+Uses same agents as v3 for now.
+Implementing a graph for agents. Fleshing out the proper state

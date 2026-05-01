@@ -1,0 +1,17 @@
+Sunlight Inactivation of Influenza A Virus and Bacteriophages on an Acrylic Surface.
+
+Seasonal epidemics and pandemics of influenza cause a large public health burden, with transmission
+occurring via contact with contaminated fomites. Sunlight has been shown to inactivate viruses in
+water, but its effect on viruses on surfaces remains poorly understood. This study investigated the
+inactivation of bacteriophage MS2, bacteriophage Phi6, and influenza A virus H1N1 (IAV) on an
+acrylic surface exposed to both natural and simulated sunlight. Findings demonstrate that sunlight
+can rapidly inactivate viruses on an acrylic surface, with the time required for 99% inactivation
+ranging from 2.1 to 4.2 h for MS2, 0.72 to 0.83 h for Phi6, and 0.26 to 0.35 h for IAV. Human saliva
+protected MS2 against sunlight inactivation relative to its inactivation in laboratory buffer but
+had no effect on Phi6 and IAV. IAV exhibited similar inactivation rate constants under natural and
+simulated sunlight. We assessed IAV RNA genome damage under sunlight using droplet digital reverse
+transcriptase-polymerase chain reaction targeting all eight gene segments. The extrapolated whole
+genome decay overestimated the IAV infectivity loss, suggesting limitations of using a single-hit
+model for IAV RNA sunlight photodamage. Results indicate that natural sunlight can substantially
+reduce the survival of the influenza virus on surfaces, thereby lowering the fomite-mediated
+transmission of respiratory disease in sunlit environments.

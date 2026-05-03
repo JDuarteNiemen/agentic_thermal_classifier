@@ -1,8 +1,17 @@
-# Version 4 (V4)
+# Model Benchmarking
 
-**Model:** qwen3.5  
-In depth details:
-  Model
+Comparing the outputs from various different models
+
+
+## Overview
+Using the method outlined in v4 to test the accuracy of different models.
+
+## Models 
+### qwen3.5
+Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.
+
+#### Details
+ Model
     architecture        qwen35    
     parameters          9.7B      
     context length      262144    
@@ -26,12 +35,24 @@ In depth details:
     Apache License               
     Version 2.0, January 2004  
 
-## Overview
-Version 4 (V4) builds on V3 by introducing a more structured agent architecture,
-including early-stage graph-based orchestration and improved state handling, while retaining the fast, metadata-first extraction pipeline.
+
+
+### gemma4:e4b 
+Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding
+
+#### Details
+
+
+### granite4.1:8b
+Granite 4.1 language models are a family of state-of-the-art open foundation models featuring dense decoder-only architectures
+
+#### Details
+
+
+
 
 ---
-graph.ipynb Contains the script used to get results for the 15 example accessions.
+
 
 ## Pipeline Steps
 
@@ -107,35 +128,5 @@ graph.ipynb Contains the script used to get results for the 15 example accession
 
 Total Duration: 38.38 minutes
 
-## Architecture Updates
 
-### Agent Reuse
-- Currently uses the same agents as V3 for consistency and stability.
 
-### Graph-Based Agent System (In Progress)
-- Transitioning from linear execution to a graph-based agent workflow.
-- Enables more flexible routing between tasks and better scalability.
-
-### State Management (In Progress)
-- Defining and refining a structured state representation for agent interactions.
-- Aims to improve traceability, debugging, and extensibility.
-
----
-
-## Key Improvements
-
-### Improved Output Formatting
-- Cleaner, more structured results for easier interpretation.
-
-### Reduced Latency
-- Reasoning disabled in LLM calls, significantly reducing execution time.
-
-### Efficient Processing Strategy
-- Metadata-first approach minimises unnecessary full-text analysis.
-
----
-
-## Notes
-- V4 focuses more on system architecture than major pipeline changes.
-- Graph and state systems are still under active development.
-- Designed to support future expansion into more complex multi-agent workflows.

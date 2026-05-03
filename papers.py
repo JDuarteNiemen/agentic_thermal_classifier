@@ -253,7 +253,7 @@ import os
 
 def CreateLibrary(accession, meta):
     # Make dirs to accept papers
-    os.makedirs(f'data/library/{accession}', exist_ok=True)
+    os.makedirs(f'data/accessions/{accession}/library/accession_lit', exist_ok=True)
 
     # Extract metadata if not already passed
     if not meta:
@@ -269,9 +269,9 @@ def CreateLibrary(accession, meta):
             if not pmcid:  # No PMCID avaliable
                 paper = FetchLiteraturePMID(pmid)  # Fetch abstract from pmid
                 paper = CleanXml(paper)  # clean it and write it to a text file.
-                WritePaper(paper, f'data/library/{accession}/{pmid}.txt')
+                WritePaper(paper, f'data/accessions/{accession}/library/accession_lit/{pmid}.txt')
             if pmcid: # pmid converted to pmcid
-                DownloadPaper(pmcid, f'data/library/{accession}/') # download the paper
+                DownloadPaper(pmcid, f'data/accessions/{accession}/library/accession_lit/') # download the paper
     else:
         pmids = SearchPubmed(species) # query search species name
         for pmid in pmids:
@@ -279,12 +279,12 @@ def CreateLibrary(accession, meta):
             if not pmcid: # not convertable
                 paper = FetchLiteraturePMID(pmid) #get abstract from pmid
                 paper = CleanXml(paper) #clean and write it to file
-                WritePaper(paper, f'data/library/{accession}/{pmid}.txt')
+                WritePaper(paper, f'data/accessions/{accession}/library/accession_lit/{pmid}.txt')
             if pmcid:
-                DownloadPaper(pmcid, f'data/library/{accession}/')
+                DownloadPaper(pmcid, f'data/accessions/{accession}/library/accession_lit/')
 
-def HostLibrary(accesion, host):
-    os.makedirs(f'data/library/{accesion}/host', exist_ok=True)
+def HostLibrary(accession, host):
+    os.makedirs(f'data/accessions/{accession}/library/host_lit', exist_ok=True)
 
     pmids = SearchPubmed(host)
     for pmid in pmids:
@@ -292,9 +292,9 @@ def HostLibrary(accesion, host):
         if not pmcid:
             paper = FetchLiteraturePMID(pmid)
             paper = CleanXml(paper)
-            WritePaper(paper, f'data/library/{accesion}/host/{pmid}.txt')
+            WritePaper(paper, f'ddata/accessions/{accession}/library/host_lit/{pmid}.txt')
         if pmcid:
-            DownloadPaper(pmcid, f'data/library/{accesion}/host/')
+            DownloadPaper(pmcid, f'data/accessions/{accession}/library/host_lit/')
 
 
 def RankPapers(paper_dir, patterns):

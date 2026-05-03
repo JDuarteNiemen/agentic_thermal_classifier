@@ -1,0 +1,18 @@
+Phage N4 uses a SAR endolysin-holin system for host cell lysis.
+
+Bacteriophages (phages) cause active host cell lysis to terminate their infection and release
+progeny into the environment. Some phages delay their lysis, and thereby increase progeny yield, in
+a phenomenon called lysis inhibition (LIN). There are two dissimilar phages of Escherichia coli
+known to exhibit LIN: T4 and N4. Studies of phage T4 have demonstrated a multi-protein mechanism
+that stalls lysis and maintains the LIN state in response to superinfection in a high phage
+population density. However, the lysis proteins responsible for T4 lysis and LIN are not conserved
+with phage N4. In this study, we characterize the phage N4 proteins involved in lysis by molecular
+and genetic means. We define the functions of the minimal gene set required for lysis through
+heterologous expression and complementation. We also demonstrate that this complete lysis cassette
+is sufficient to induce LIN under high-density phage infection conditions. Furthermore, by sequence
+comparison with a selected mutant library that does not induce LIN, we have identified genomic
+regions both within and outside the lysis cassette involved in N4 LIN. We propose a model where N4
+lysis proteins that are responsible for executing rapid N4 lysis can be regulated to induce LIN.
+Despite the lack of conservation with T4 components, our study suggests that direct modulation of
+lysis initiation may be common and provides a springboard for identifying other phages that regulate
+their phage production numbers in this way.

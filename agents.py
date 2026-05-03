@@ -623,7 +623,7 @@ def CreateHostLibrary(state: AgentState) -> dict:
             'duration': updated_duration,
             'nodes': nodes,
             'timings': timings,
-            'host_paper_dir': f'data/library/{accession}/host'}
+            'host_paper_dir': f'data/accessions/{accession}/library/host_lit'}
 
 
 
@@ -799,7 +799,7 @@ def ClassifyThermalForced(state: AgentState) -> dict:
 
 
     return {
-        "thermal_range": data.get("thermal_range", None),
+        "thermal_range": data.get("thermal_range"),
         "inference_type": 'forced',
         "thermal_reasoning": 'forced',
         "thermal_source": 'metadata',
@@ -834,21 +834,29 @@ def BuildGraph() -> StateGraph:
     graph.add_node('ClassifyThermalForced', ClassifyThermalForced)
 
     # Define paths
+    # Can thermal range be confidently inferred from metadata
     graph.add_edge(START, 'ClassifyThermalMetadata')
+
     graph.add_conditional_edges('ClassifyThermalMetadata', route,
                                 {'end': END,
                                  'CreateAccessionLibrary': 'CreateAccessionLibrary'})
+
     graph.add_edge('CreateAccessionLibrary', 'ClassifyThermalLiterature')
+
     graph.add_conditional_edges('ClassifyThermalLiterature', route,
                                {'end': END,
                                 'ClassifyHostMetadata': 'ClassifyHostMetadata'})
+
     graph.add_conditional_edges('ClassifyHostMetadata', route,
                                {'ClassifyHostLiterature': 'ClassifyHostLiterature',
                                 'CreateHostLibrary': 'CreateHostLibrary'})
+
     graph.add_conditional_edges('ClassifyHostLiterature', route,
                                {'ClassifyThermalForced': 'ClassifyThermalForced',
                                 'CreateHostLibrary': 'CreateHostLibrary'})
+
     graph.add_edge('CreateHostLibrary', 'ClassifyThermalRangeHostLiterature')
+
     graph.add_conditional_edges('ClassifyThermalRangeHostLiterature', route,
                                {'end': END,
                                 'ClassifyThermalForced': 'ClassifyThermalForced'})
@@ -891,7 +899,7 @@ def MESOTHERMOPSYCHRO(accession: str, model: str) -> AgentState:
     'inference_type': None,
 
     # paper info
-    'paper_dir': f'data/library/{accession}',
+    'paper_dir': f'data/accessions/{accession}/library/accession_lit',
     'host_paper_dir': None,
     'host_paper': None,
     'thermal_paper': None,

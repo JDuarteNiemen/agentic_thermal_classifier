@@ -98,6 +98,20 @@ including early-stage graph-based orchestration and improved state handling, whi
 # Results
 ![Confusion Matrix](results/confusion_matrix.png)
 
+
+# Classification report
+              precision    recall  f1-score   support
+
+   mesophile       1.00      0.83      0.91         6
+        none       0.00      0.00      0.00         1
+psychrophile       0.60      1.00      0.75         3
+ thermophile       1.00      1.00      1.00         5
+
+    accuracy                           0.87        15
+   macro avg       0.65      0.71      0.66        15
+weighted avg       0.85      0.87      0.85        15
+
+
 ## Key Improvements
 
 ### Improved Output Formatting

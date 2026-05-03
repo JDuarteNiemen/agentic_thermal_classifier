@@ -865,6 +865,13 @@ def BuildGraph() -> StateGraph:
 
     return graph.compile()
 
+def VisualiseGraph():
+    graph = BuildGraph()
+
+    png = graph.get_graph().draw_mermaid_png()
+    with open("images/graph.png", "wb") as f:
+        f.write(png)
+
 
 def MESOTHERMOPSYCHRO(accession: str, model: str) -> AgentState:
 

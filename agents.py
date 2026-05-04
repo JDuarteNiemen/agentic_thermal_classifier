@@ -69,6 +69,7 @@ def _build_llm(model: str | None = None) -> ChatOllama:
         temperature=0.0,
         num_predict=4096,
         reasoning=False,
+        cache=False
     )
 
 
@@ -231,6 +232,7 @@ def ClassifyThermalMetadata(state: AgentState) -> dict:
     """
     start=time.time()
     out = llm.invoke(prompt)
+    print(f'{node}: {out.content}\n\n')
     end = time.time()
     duration = round((end-start),2)
 
@@ -368,6 +370,7 @@ def ClassifyThermalLiterature(state: AgentState) -> dict:
         """
 
         out = llm.invoke(prompt)
+        print(f'{node}: {out.content}\n\n')
 
         try:
             data = json.loads(out.content)
@@ -422,9 +425,6 @@ def ClassifyHostMetadata(state: AgentState) -> dict:
     model = state.get("model") or OLLAMA_MODEL
     llm = _build_llm(model)
 
-
-
-
     prompt = f"""
     You are a microbiology information extraction system.
     TASK:
@@ -456,6 +456,7 @@ def ClassifyHostMetadata(state: AgentState) -> dict:
 
     start = time.time()
     out = llm.invoke(prompt)
+    print(f'{node}: {out.content}\n\n')
     end = time.time()
 
     duration = round((end - start), 2)
@@ -477,7 +478,7 @@ def ClassifyHostMetadata(state: AgentState) -> dict:
     if data.get('host_found'):
 
         return {
-            "host_species": data.get("host_species", None),
+            "host": data.get("host_species", None),
             "host_found": data.get("host_found", None),
             "taxonomic_level": data.get("taxonomic_level", None),
             "host_reasoning": data.get("host_reasoning", None),
@@ -563,11 +564,12 @@ def ClassifyHostLiterature(state: AgentState) -> dict:
             """
 
         out = llm.invoke(prompt)
+        print(f'{node}: {out.content}\n\n')
 
         try:
             data = json.loads(out.content)
         except json.JSONDecodeError:
-            return {}
+            continue
 
         if data.get("host_found"):
             host_found=True
@@ -609,7 +611,7 @@ def CreateHostLibrary(state: AgentState) -> dict:
     nodes = (state.get("nodes") or []) + [node]
 
     start = time.time()
-    host=state.get('host_species')
+    host=state.get('host')
     accession=state.get('accession')
 
     HostLibrary(accession, host)
@@ -698,6 +700,7 @@ def ClassifyThermalRangeHostLiterature(state: AgentState) -> dict:
             """
 
         out = llm.invoke(prompt)
+        print(f'{node}: {out.content}\n\n')
 
         try:
             data = json.loads(out.content)
@@ -776,6 +779,7 @@ def ClassifyThermalForced(state: AgentState) -> dict:
         """
     start=time.time()
     out = llm.invoke(prompt)
+    print(f'{node}: {out.content}\n\n')
     end = time.time()
     duration = round((end-start),2)
 

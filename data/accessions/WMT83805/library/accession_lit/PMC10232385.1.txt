@@ -1,0 +1,66 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Mar Life Sci Technol
+Journal ID: Mar Life Sci Technol
+
+Marine Life Science & Technology
+
+ISSN: 2096-6490
+EISSN: 2662-1746
+Publisher: Springer
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC10232385
+PMID: 37275540
+DOI: 10.1007/s42995-023-00166-1
+Article ID: 166
+Article version: 1
+Subjects: Correction
+
+Correction: Genomic diversity and ecological distribution of marine Pseudoalteromonas phages
+
+Zheng Kaiyang 1
+Dong Yue 1
+Liang Yantao liangyantao@ouc.edu.cn
+1 2
+Liu Yundan 1
+Zhang Xinran 1
+Zhang Wenjing 1
+Wang Ziyue 1
+Shao Hongbing 1 2
+Sung Yeong Yik 2 3
+Mok Wen Jye 2 3
+Wong Li Lian 2 3
+McMinn Andrew 1 4
+Wang Min mingwang@ouc.edu.cn
+1 2 5 6
+1 grid.4422.0 0000 0001 2152 3263 College of Marine Life Sciences, Institute of Evolution and Marine Biodiversity, and Frontiers Science Center for Deep Ocean Multispheres and Earth System, Ocean University of China, Qingdao, 266100 China
+2 UMT-OUC Joint Center for Marine Studies, Qingdao, 266003 China
+3 grid.412255.5 0000 0000 9284 9319 Institute of Marine Biotechnology, Universiti Malaysia Terengganu (UMT), 21030 Kuala Nerus, Malaysia
+4 grid.1009.8 0000 0004 1936 826X Institute for Marine and Antarctic Studies, University of Tasmania, Hobart, Australia
+5 grid.4422.0 0000 0001 2152 3263 Haide College, Ocean University of China, Qingdao, 266100 China
+6 grid.412521.1 0000 0004 1769 1119 The Affiliated Hospital of Qingdao University, Qingdao, 266000 China
+Electronic publication date: 2023 Apr 7
+Publication date: 2023 May
+Volume: 5
+Issue: 2
+First page: 286
+Last page: 288
+Copyright: © The Author(s) 2023
+License: Open AccessThis article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Erratum for: Genomic diversity and ecological distribution of marine Pseudoalteromonas phages 5 2 20 1 2023 271 285 Marine Life Science & Technology 10.1007/s42995-022-00160-z PMC10232697 37275543
+issue-copyright-statement: © Ocean University of China 2023
+
+==============================
+Correction: Marine Life Science & Technology 10.1007/s42995-022-00160-z
+
+In this article the graphics relating to Figs. 2 and 3 captions had been interchanged; the figure(s) should have appeared as shown below.Fig. 2 A Percentage of average shared protein clusters (PCs) between Pseudoalteromonas phages. Roughly, a total of 21 PCs-shared groups (sharing at least 15% PCs among members in each group) were clustered. The representative PCs-shared groups were enclosed by boxes with dash line. Seven different viral families were colored by different boxes on the rightward and top of the heatmap. Isolated viruses and integrated proviruses were labeled as stars with different colors that are located on the leftward and bottom of the heatmap. B Binary genome content based network analysis of Pseudoalteromonas phages and reference viral genomes. Uncultured viral genomes (UViGs) and isolates are indicated by circles with a full line and dash line, respectively. The names of genera that have linkages to these Pseudoalteromonas phages were labeled in the figure
+
+Fig. 3 A Potential auxiliary metabolism genes (AMGs) encoded by Pseudoalteromonas phages from 34 genera and proposed genera, including 239 AMGs belonging to 66 metabolism types. The class I and class II AMGs were identified based on their annotated functions. Different metabolism classifications of AMGs were indicated by different color above the heatmap. The legend of metabolism classifications was shown below the heatmap and was sorted by the number of detections in 19 metabolism classifications. B The number of Class I and Class II AMGs was indicated by the pie chart. Top the numbers of detections in 8 metabolism classifications were indicated beside fans
+
+The original article has been corrected.
+

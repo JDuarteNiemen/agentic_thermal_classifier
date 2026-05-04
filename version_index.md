@@ -41,13 +41,48 @@ Qwen 3.5 is a family of open-source multimodal models that delivers exceptional 
 Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding
 
 #### Details
+  Model
+    architecture        gemma4    
+    parameters          8.0B      
+    context length      131072    
+    embedding length    2560      
+    quantization        Q4_K_M    
+    requires            0.20.0    
 
+  Capabilities
+    completion    
+    vision        
+    audio         
+    tools         
+    thinking      
+
+  Parameters
+    temperature    1       
+    top_k          64      
+    top_p          0.95    
+
+  License
+    Apache License               
+    Version 2.0, January 2004 
 
 ### granite4.1:8b
 Granite 4.1 language models are a family of state-of-the-art open foundation models featuring dense decoder-only architectures
 
 #### Details
+  Model
+    architecture        granite    
+    parameters          8.8B       
+    context length      131072     
+    embedding length    4096       
+    quantization        Q4_K_M     
 
+  Capabilities
+    completion    
+    tools         
+
+  License
+    Apache License               
+    Version 2.0, January 2004   
 
 
 

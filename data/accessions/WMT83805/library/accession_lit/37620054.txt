@@ -1,0 +1,11 @@
+Isolation and genome sequencing of a novel lytic Pseudoalteromonas phage SL20.
+
+Phage SL20, a novel lytic Pseudoalteromonas phage, was isolated from the coastal waters of the
+Yellow Sea, China. The microbiological characterization demonstrated that phage SL20 was relatively
+stable from 35 to 55 °C and the optimal pH was approximately 6.0. A latent period of approximately
+24 min was indicated by a one-step growth curve. The burst size was approximately 12 ± 3 PFU/cell.
+The genome had a length of 120,295 bp with a G + C content of 35.84%, and predicted 95 ORFs. The
+phylogenetic tree based on DNA helicase showed that Pseudoalteromonas phage SL20 was related to the
+Pseudoalteromonas phage H101 and was a member of the family Shandongvirus. The isolation and genomic
+analysis of SL20 has improved our understanding of host-phage interactions and the ecology of the
+marine bacteria Pseudoalteromonas.

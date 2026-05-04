@@ -178,8 +178,6 @@ def DownloadPaper(pmcid, save_dir):
 
     out=subprocess.run(f'{aws} --no-sign-request s3 ls s3://pmc-oa-opendata/{pmcid}.1/', shell=True, capture_output=True, text=True)
     if f'{pmcid}.1.txt' not in out.stdout and f'{pmcid}.1.pdf' not in out.stdout:
-        print(f'No txts or PDFs found for this paper: {pmcid}')
-        print(out)
         return None
 
     if f'{pmcid}.1.txt' in out.stdout:
@@ -292,7 +290,7 @@ def HostLibrary(accession, host):
         if not pmcid:
             paper = FetchLiteraturePMID(pmid)
             paper = CleanXml(paper)
-            WritePaper(paper, f'ddata/accessions/{accession}/library/host_lit/{pmid}.txt')
+            WritePaper(paper, f'data/accessions/{accession}/library/host_lit/{pmid}.txt')
         if pmcid:
             DownloadPaper(pmcid, f'data/accessions/{accession}/library/host_lit/')
 

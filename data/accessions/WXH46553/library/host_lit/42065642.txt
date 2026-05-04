@@ -1,0 +1,22 @@
+Structure-Guided Computational Design and Electrochemical Validation of a DNA Aptamer for Impedimetric Detection of Shiga-like Toxin 2.
+
+The extensive application potential of nucleic acid aptamers in biosensing and therapeutic domains
+necessitates the development of cost-effective, time-efficient, and technically simpler synthesis
+protocols compared with conventional SELEX methods. In this study, an in silico-based de novo
+approach has been proposed to design an aptamer targeting the B subunits of Shiga-like toxin 2
+(Stx2-B) protein, intended for use as a recognition element in biosensors for detecting Stx2. A
+single-stranded DNA library comprising 5000 sequences was generated and ranked based on their Gibbs
+free energy (ΔG) of the 2D structures. The top 100 sequences with the lowest ΔG values were modeled
+in 3D and individually docked with the Stx2 protein. Sequences exhibiting the highest docking scores
+were further analyzed through molecular dynamics simulations. Among the analyzed candidates,
+sequence A330 demonstrated the highest stability, rigidity, and compactness in complex with Stx2B,
+as indicated by root-mean-square deviation, root-mean-square fluctuation, radius of gyration, and
+hydrogen-bond analysis over 100 ns simulation trajectories. The strong binding affinity of A330 for
+the target (Kd = 459 ± 7 nM) was confirmed through circular dichroism and isothermal titration
+calorimetry analyses. This aptamer was subsequently employed as a recognition element in the
+fabrication of an electrochemical impedimetric aptasensor for Stx2 detection, utilizing a microscale
+interdigitated wave-type electrode. The developed sensor exhibited high sensitivity, a limit of
+detection of 4.63 pM, and a linear detection range of 10-400 pM (R2 = 0.99). The aptasensor's
+practical applicability was validated in milk samples, achieving a detection recovery of >93.06%.
+Overall, the proposed aptasensor shows strong potential for the sensitive and reliable monitoring of
+Shiga toxin-producing Escherichia coli contamination in real samples.

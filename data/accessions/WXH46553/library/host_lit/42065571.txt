@@ -1,0 +1,23 @@
+Coordination-driven self-assembled nanozyme-loaded GelMA microneedles for enhanced photodynamic therapy of diabetic infected wounds.
+
+Infected diabetic wounds, particularly those complicated by multidrug-resistant bacteria, pose a
+significant clinical challenge due to the limited efficacy of conventional debridement and
+antibiotic therapies. Photodynamic therapy (PDT) has emerged as a promising antimicrobial strategy.
+However, its therapeutic potential is severely hampered by the hypoxic microenvironment of diabetic
+wounds. This study aimed to develop a multifunctional nanozyme integrated microneedle system, termed
+GM@MnFC, within a therapeutic framework that combines material design, delivery strategy, and
+microenvironment modulation. MnFC nanoparticles were constructed through coordination driven self
+assembly of Fmoc-L-leucine, Mn2+, and the photosensitizer chlorin e6 (Ce6). The incorporated Mn2+
+endowed the nanoparticles with intrinsic catalase-like activity. This enabled in situ oxygen
+generation from pathological hydrogen peroxide accumulated in diabetic wounds, thereby overcoming
+the oxygen dependency of PDT. Loading MnFC into dissolving gelatin methacryloyl (GelMA) microneedles
+achieved efficient deep tissue delivery to target bacteria residing in dermal layers. In vitro
+studies demonstrated that MnFC possessed excellent catalase-like activity and efficient singlet
+oxygen generation under 660-nm laser irradiation, exhibiting potent antibacterial efficacy against
+both Escherichia coli (E. coli) and methicillin-resistant Staphylococcus aureus (MRSA). GM@MnFC
+microneedle treatment significantly accelerated wound closure, enhanced re-epithelialization and
+collagen deposition, and favorably regulated inflammatory cytokine expression in a diabetic rat
+model of MRSA-infected wounds. Biosafety evaluations confirmed the excellent biocompatibility of
+this system. This study presents an innovative strategy exploiting pathological by-products of
+diabetic wounds to fuel antimicrobial therapy, thereby providing valuable insights for designing
+multifunctional nanomedicine platforms for chronic wound management.

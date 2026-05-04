@@ -1,0 +1,21 @@
+Balancing antibacterial effects and cytotoxicity through LIFT-fabricated AgNP microdomain arrays on PET.
+
+Here, we report the first systematic study of two distinct configurations of hexagonal silver
+nanoparticle (AgNP) microdomain arrays prepared on polyethylene terephthalate (PET) substrates using
+the laser-induced forward transfer (LIFT) technique. By varying the size and spacing of the domains,
+we investigated how geometric parameters govern nanoparticle distribution, surface morphology, and
+biological response. AFM, SEM, CLSM, EDX, and XPS analyses revealed a pronounced gradient of AgNP
+density across the patterned surfaces, with the highest roughness and nanoparticle aggregation in
+domain centers, reduced coverage at the edges, and detectable but sparse particles in inter-domain
+gaps. Cross-section TEM further confirmed that nanoparticles are confined to a thin surface layer,
+ensuring high biological availability while minimizing uncontrolled leaching. Antibacterial activity
+assessment revealed that both Staphylococcus epidermidis (Gram-positive) and Escherichia coli (Gram-
+negative) were reduced below the detection limit within two hours across all patterned surfaces,
+irrespective of domain size. Cytotoxicity tests using normal human dermal fibroblasts (NHDF)
+revealed that the cells adhered, proliferated, and remained metabolically active over a seven-day
+period, although their enzymatic activity and numbers were reduced compared to cells growing on
+pristine PET. These findings highlight the unique dual functionality of LIFT-fabricated AgNP
+microdomains, which exhibit rapid and broad-spectrum antibacterial activity, combined with good
+cytocompatibility. The demonstrated ability to tune surface architecture by controlling domain size
+and spacing offers a promising pathway toward advanced antimicrobial coatings for medical devices
+and implants.

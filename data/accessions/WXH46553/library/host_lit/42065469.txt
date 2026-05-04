@@ -1,0 +1,19 @@
+Ultrasound-assisted synthesis of a ZnO-Te/TeO2 nanocomposite for multidrug-resistant microorganism and biofilm eradication.
+
+The spread of multidrug-resistant (MDR) pathogens demands antimicrobial materials that combine
+tunable surface chemistry with durable, non-antibiotic kill mechanisms. We reported a sonication-
+freeze-dry route to hybrid ZnO nanorod-decorated Te/α-TeO2 sheets and demonstrated that interfacial
+strain-engineering at the ZnO-Te/TeO2 heterointerface enhances antimicrobial potency across Gram-
+negative, Gram-positive, and fungal MDR strains. Structural analysis shows a two-phase Te/α-TeO2
+host (∼68% Te: ∼32% α-TeO2) whose oxide sublattice accumulates microstrain and defects as ZnO
+loading increases (α-TeO2: Dmin ≈ 39.8 nm, εmax ≈ 0.384% at 40% ZnO), while Te domains recover
+crystallinity at 50% ZnO, consistent with strain redistribution. The optimal formulation (Z7, 50%
+ZnO-Te/α-TeO2) produced the largest inhibition zones against Klebsiella pneumoniae (36.64 ± 3.5 mm)
+and Escherichia coli (34.70 ± 3.6 mm), achieved a growth reduction efficiency of 96.45 ± 2.54% and
+94.19 ± 1.63%, respectively, and showed an minimal inhibition concentration (MIC) of 1.95 mg mL-1
+(MBC 7.81 mg mL-1) versus K. pneumoniae. Long-term dynamic viability analysis demonstrates complete
+eradication of planktonic growth within 78-90 h, depending on strain. Mechanistically, enhanced
+reactive oxygen species (ROS) production together with strong interfacial membrane disruption is
+proposed as a potential mechanism. The material's structural tunability, facile synthesis, and broad
+anti-MDR performance make it promising for futher applications such as hospital coatings and
+infection-resistant surfaces.

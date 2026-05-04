@@ -4,11 +4,12 @@ from platform import node
 from langchain_ollama import ChatOllama
 from langgraph.graph import StateGraph, START, END
 import requests
-from typing import TypedDict
+from typing import TypedDict, Optional
 import json
 from tools import *
 import time
 from papers import *
+from pydantic import BaseModel
 
 # Set model to be used
 OLLAMA_MODEL = "qwen3.5"
@@ -57,6 +58,28 @@ class AgentState(TypedDict):
     nodes: list
     timings: dict
     JSONDecodeError: bool
+
+
+# ---------------------------------------------------------------------------
+# Structured Output States
+# ---------------------------------------------------------------------------
+# Thermal Classification output state
+class ThermalOutput(BaseModel):
+    thermal_range: str
+    temperature: Optional[str] = None
+    inference_type: str
+    thermal_reasoning: str
+    thermal_confidence: Optional[str] = None
+    thermal_found: bool
+
+class HostOutput(BaseModel):
+    host: str
+    taxonomic_level: str
+    host_reasoning: str
+    host_found: bool
+
+
+
 
 # ---------------------------------------------------------------------------
 # Model helpers
@@ -180,6 +203,7 @@ def ClassifyThermalMetadata(state: AgentState) -> dict:
     """Use the LLM to extract host species from metadata."""
     model = state.get("model") or OLLAMA_MODEL
     llm = _build_llm(model)
+    llm=llm.with_structured_output(ThermalOutput)
 
     node = "ClassifyThermalMetadata"
     nodes = (state.get("nodes") or []) + [node]
@@ -232,7 +256,7 @@ def ClassifyThermalMetadata(state: AgentState) -> dict:
     """
     start=time.time()
     out = llm.invoke(prompt)
-    print(f'{node}: {out.content}\n\n')
+    print(f'{node}: {out}\n\n')
     end = time.time()
     duration = round((end-start),2)
 
@@ -243,9 +267,8 @@ def ClassifyThermalMetadata(state: AgentState) -> dict:
     timings = state.get("timings", {}).copy()
     timings[node] = duration
 
-    try:
-        data = json.loads(out.content)
-    except json.JSONDecodeError:
+
+    if not out.thermal_found:
         return {
             'decision': 'CreateAccessionLibrary',
             'nodes': nodes,
@@ -255,11 +278,11 @@ def ClassifyThermalMetadata(state: AgentState) -> dict:
         }
 
 
-    if data.get('thermal_found'):
+    if out.thermal_found:
         return {
-        "thermal_range": data.get("thermal_range", None),
-        "inference_type": data.get("inference_type", None),
-        "thermal_reasoning": data.get("thermal_reasoning", None),
+        "thermal_range": out.thermal_range,
+        "inference_type": out.inference_type,
+        "thermal_reasoning": out.thermal_reasoning,
         "thermal_source": 'metadata',
         "thermal_found": True,
         "decision": 'end',
@@ -304,6 +327,7 @@ def ClassifyThermalLiterature(state: AgentState) -> dict:
     start = time.time()
     model = state.get("model") or OLLAMA_MODEL
     llm = _build_llm(model)
+    llm = llm.with_structured_output(ThermalOutput)
     max_chars = _max_paper_chars(model)
 
 
@@ -370,16 +394,15 @@ def ClassifyThermalLiterature(state: AgentState) -> dict:
         """
 
         out = llm.invoke(prompt)
-        print(f'{node}: {out.content}\n\n')
+        print(f'{node}: {out}\n\n')
 
-        try:
-            data = json.loads(out.content)
-        except json.JSONDecodeError:
+
+        if not out.thermal_found:
             continue
 
 
 
-        if data.get('thermal_found'): # if a result is found
+        if out.thermal_found: # if a result is found
             found_thermal=True
             end = time.time()
             duration = round((end - start), 2)
@@ -388,11 +411,11 @@ def ClassifyThermalLiterature(state: AgentState) -> dict:
             timings[node] = duration
 
             return {
-                "thermal_range": data.get("thermal_range", None),
-                "temperature": data.get("temperature", None),
-                "inference_type": data.get("inference_type", None),
-                "thermal_reasoning": data.get("thermal_reasoning", None),
-                "thermal_confidence": data.get("thermal_confidence", None),
+                "thermal_range": out.thermal_range,
+                "temperature": out.temperature,
+                "inference_type": out.inference_type,
+                "thermal_reasoning": out.thermal_reasoning,
+                "thermal_confidence": out.thermal_confidence,
                 "thermal_source": 'literature',
                 "thermal_found": True,
                 "decision": "end",
@@ -424,6 +447,7 @@ def ClassifyHostMetadata(state: AgentState) -> dict:
 
     model = state.get("model") or OLLAMA_MODEL
     llm = _build_llm(model)
+    llm = llm.with_structured_output(HostOutput)
 
     prompt = f"""
     You are a microbiology information extraction system.
@@ -456,7 +480,7 @@ def ClassifyHostMetadata(state: AgentState) -> dict:
 
     start = time.time()
     out = llm.invoke(prompt)
-    print(f'{node}: {out.content}\n\n')
+    print(f'{node}: {out}\n\n')
     end = time.time()
 
     duration = round((end - start), 2)
@@ -464,24 +488,13 @@ def ClassifyHostMetadata(state: AgentState) -> dict:
     timings = state.get("timings", {}).copy()
     timings[node] = duration
 
-    try:
-        data = json.loads(out.content)
-    except json.JSONDecodeError:
-        return {
-            'decision': 'ClassifyHostLiterature',
-            'nodes': nodes,
-            'duration': updated_duration,
-            'timings': timings,
-            'JSONDecodeError': True
-        }
 
-    if data.get('host_found'):
-
+    if out.host_found:
         return {
-            "host": data.get("host_species", None),
-            "host_found": data.get("host_found", None),
-            "taxonomic_level": data.get("taxonomic_level", None),
-            "host_reasoning": data.get("host_reasoning", None),
+            "host": out.host,
+            "host_found": out.host_found,
+            "taxonomic_level": out.taxonomic_level,
+            "host_reasoning": out.host_reasoning,
             'host_source': 'metadata',
             'nodes': nodes,
             'duration': updated_duration,
@@ -504,6 +517,7 @@ def ClassifyHostLiterature(state: AgentState) -> dict:
 
     model = state.get("model") or OLLAMA_MODEL
     llm = _build_llm(model)
+    llm = llm.with_structured_output(HostOutput)
     max_chars = _max_paper_chars(model)
 
 
@@ -564,14 +578,13 @@ def ClassifyHostLiterature(state: AgentState) -> dict:
             """
 
         out = llm.invoke(prompt)
-        print(f'{node}: {out.content}\n\n')
+        print(f'{node}: {out}\n\n')
 
-        try:
-            data = json.loads(out.content)
-        except json.JSONDecodeError:
+
+        if not host_found:
             continue
 
-        if data.get("host_found"):
+        if out.host_found:
             host_found=True
             end=time.time()
             duration = round((end - start), 2)
@@ -579,10 +592,10 @@ def ClassifyHostLiterature(state: AgentState) -> dict:
             timings = state.get("timings", {}).copy()
             timings[node] = duration
             return {
-                "host": data.get("host_species", None),
-                "taxonomic_level": data.get("taxonomic_level", None),
-                "host_reasoning": data.get("host_reasoning", None),
-                "host_confidence": data.get("host_confidence", None),
+                "host": out.host,
+                "taxonomic_level": out.taxonomic_level,
+                "host_reasoning": out.host_reasoning,
+                "host_confidence": out.host_confidence,
                 "host_found": True,
                 "host_source": 'literature',
                 'host_paper': paper,
@@ -638,6 +651,7 @@ def ClassifyThermalRangeHostLiterature(state: AgentState) -> dict:
     start = time.time()
     model = state.get("model") or OLLAMA_MODEL
     llm = _build_llm(model)
+    llm = llm.with_structured_output(ThermalOutput)
     max_chars = _max_paper_chars(model)
 
 
@@ -700,14 +714,13 @@ def ClassifyThermalRangeHostLiterature(state: AgentState) -> dict:
             """
 
         out = llm.invoke(prompt)
-        print(f'{node}: {out.content}\n\n')
+        print(f'{node}: {out}\n\n')
 
-        try:
-            data = json.loads(out.content)
-        except json.JSONDecodeError:
+
+        if not out.thermal_found:
             continue
 
-        if data.get('thermal_found'):  # if a result is found
+        if out.thermal_found:  # if a result is found
             found_thermal = True
             end = time.time()
             duration = round((end - start), 2)
@@ -716,11 +729,11 @@ def ClassifyThermalRangeHostLiterature(state: AgentState) -> dict:
             timings[node] = duration
 
             return {
-                "thermal_range": data.get("thermal_range", None),
-                "temperature": data.get("temperature", None),
-                "inference_type": data.get("inference_type", None),
-                "thermal_reasoning": data.get("thermal_reasoning", None),
-                "thermal_confidence": data.get("thermal_confidence", None),
+                "thermal_range": out.thermal_range,
+                "temperature": out.temperature,
+                "inference_type": out.inference_type,
+                "thermal_reasoning": out.thermal_reasoning,
+                "thermal_confidence": out.thermal_confidence,
                 "thermal_source": 'host_literature',
                 "thermal_found": True,
                 "decision": "end",
@@ -750,6 +763,7 @@ def ClassifyThermalForced(state: AgentState) -> dict:
     """Use the LLM to extract host species from metadata."""
     model = state.get("model") or OLLAMA_MODEL
     llm = _build_llm(model)
+    llm = llm.with_structured_output(ThermalOutput)
 
     node='ClassifyThermalForced'
     nodes = (state.get("nodes") or []) + [node]
@@ -761,13 +775,16 @@ def ClassifyThermalForced(state: AgentState) -> dict:
 
         RULES:
         - Ensure the thermal range is for the target species
-        - You must return an answer. USe any information possible but you must return an answer for the thermal range.
+        - You must return an answer. Use any information possible but you must return an answer for the thermal range.
 
 
         Return ONLY valid JSON with:
         - "thermal_range": the thermal range of the bacteriophage. One of ['mesophile', 'thermophile', 'psychrophile']
         - "thermal_reasoning":  Step by step explanation of what led to your answer, including quotes from the paper
         - "inference_type": "explicit | inferred | none",
+        - thermal_found: Boolean True or False (Must be True)
+        
+        You must return an answer you cannot return unknown or None or anything other than one of the thermal ranges.
         
 
 
@@ -779,7 +796,7 @@ def ClassifyThermalForced(state: AgentState) -> dict:
         """
     start=time.time()
     out = llm.invoke(prompt)
-    print(f'{node}: {out.content}\n\n')
+    print(f'{node}: {out}\n\n')
     end = time.time()
     duration = round((end-start),2)
 
@@ -790,9 +807,8 @@ def ClassifyThermalForced(state: AgentState) -> dict:
     timings = state.get("timings", {}).copy()
     timings[node] = duration
 
-    try:
-        data = json.loads(out.content)
-    except json.JSONDecodeError:
+
+    if not out.thermal_found:
         return {
             'decision': 'end',
             'nodes': nodes,
@@ -803,7 +819,7 @@ def ClassifyThermalForced(state: AgentState) -> dict:
 
 
     return {
-        "thermal_range": data.get("thermal_range"),
+        "thermal_range": out.thermal_range,
         "inference_type": 'forced',
         "thermal_reasoning": 'forced',
         "thermal_source": 'metadata',

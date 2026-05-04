@@ -1,0 +1,20 @@
+Impact of natural antimicrobials on survival behavior and cell morphology of acid-stressed pathogens in ready-to-eat rice.
+
+Although acidification is widely used as a hurdle strategy to control foodborne pathogens, sublethal
+acid stress can enable pathogen survival and recovery, posing a food safety concern. This study
+assessed the impact of acid stress on foodborne pathogens and evaluated the efficacy of VERDAD N6
+and ε-polylysine (ε-PL) against acid-stressed cells in broth and acidified cooked rice. Escherichia
+coli O157:H7, Salmonella Typhimurium, Listeria monocytogenes, and Bacillus cereus (vegetative cells
+and spores) were screened for susceptibility to 0.5% acetic, lactic, and malic acids. Among the
+tested organisms, E. coli O157:H7 showed the highest tolerance to acetic acid, whereas B. cereus
+spores exhibited negligible reduction (<0.2 log). The combined antimicrobial effects of acetic acid,
+VERDAD N6, and ε-PL were further evaluated for E. coli O157:H7 and B. cereus, alongside
+ultrastructural analysis using transmission electron microscopy. In broth, 1% VERDAD N6 reduced
+growth rate, while 1% ε-PL resulted in complete inactivation. In acidified cooked rice (pH ≤ 4.6),
+acetic acid served as the primary hurdle against acid-stressed E. coli O157:H7. Supplementation with
+0.5% VERDAD N6 and ε-PL at concentrations ≥0.01% further accelerated population decline during
+storage at 10 and 25 °C. In contrast, vegetative cells and spores of B. cereus showed minimal
+changes (<0.3 log). Microscopy revealed severe membrane disruption and ghost cell formation in E.
+coli O157:H7, whereas B. cereus exhibited limited structural damage. Overall, the combined treatment
+of acetic acid, VERDAD N6, and ε-PL was effective against acid-stressed E. coli O157:H7 but
+insufficient for controlling B. cereus spores.

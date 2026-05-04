@@ -1,0 +1,17 @@
+Clinical features, risk factors and outcomes of hydrocephalus in neonatal bacterial meningitis: a retrospective case-control study.
+
+Hydrocephalus is a potentially life-threatening complication of neonatal bacterial meningitis (BM),
+with a poor prognosis. A retrospective case-control study was conducted among 227 newborns with BM,
+with and without hydrocephalus, from three centers between 2018 and 2024 to compare their
+demographic and clinical characteristics, explore outcomes, and analyze risk factors for
+hydrocephalus. Escherichia coli (36.5%) and Group B streptococcus (30.2%) were the most common
+pathogens. Multivariate analysis identified ventriculitis, seizures at onset, C-reactive
+protein > 100 mg/L, and abnormal cerebrospinal fluid (CSF) results on the second lumbar puncture
+(LP, within 7 days after the first), including protein > 4 g/L, glucose < 1.1 mmol/L, and
+WBC > 500 × 106/L as risk factors for hydrocephalus. The receiver operating characteristic results
+showed CSF WBC, CSF glucose, and protein levels on the second LP had predictive value for
+hydrocephalus. Neonates with hydrocephalus in BM had significantly higher ratios of hearing
+impairment (53.4%), encephalomalacia (39.7%), secondary epilepsy (37.0%), and death (8.2%) in the
+first two years of life (all P < 0.05). Together, these data demonstrated that high WBC and CSF
+protein levels on the second LP were predictors of hydrocephalus in neonatal BM. Hydrocephalus in BM
+was significantly associated with mortality and poor outcomes.

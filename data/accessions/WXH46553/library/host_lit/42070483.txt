@@ -1,0 +1,16 @@
+Multifunctional polyamidoamine dendrimer/sodium alginate/γ-polyglutamic acid/amoxicillin hydrogel with enhanced hemostatic, antibacterial and wound healing properties for biomedical applications.
+
+Uncontrolled hemorrhage and subsequent infection severely impair wound healing. This study developed
+a multifunctional Polyamidoamine Dendrimer/Sodium Alginate/γ-polyglutamic Acid/Amoxicillin
+(G3/SA/γ-PGA/AMX) hydrogel via 1-(3-dimethylaminopropyl)-3-ethylcarbodiimide hydrochloride and
+N-hydroxysuccinimide activated amidation. The hydrogel featured a porous structure, balanced
+mechanical properties, excellent self-healing ability, and injectability. In SD rat liver bleeding
+and tail amputation models, it significantly outperformed commercial gelatin sponge, reducing blood
+loss to 0.09 ± 0.02 g and 0.04 ± 0.01 g respectively, with hemostatic time shortened to 0.69 ±
+0.17 min and 0.62 ± 0.10 min. Sustained amoxicillin release conferred over 96% bactericidal rate
+against Escherichia coli and Staphylococcus aureus. It exhibited negligible hemolysis and high L929
+cell viability (>90%), ensuring good biocompatibility. In C57 mice scald models, the hydrogel
+promoted rapid wound healing with a rate exceeding 98.91 ± 1.04% after 20 days, accelerating
+epidermal regeneration and dense collagen deposition. These results highlight the hydrogel's
+superior hemostatic and wound healing capabilities, making it a promising candidate for clinical
+wound management.

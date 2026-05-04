@@ -1,0 +1,15 @@
+Divergent host cell protein profiles during special purification of biologics from prokaryotic versus eukaryotic systems dictate the need for tailored ELISA assay development.
+
+Therapeutic antibodies are expressed via host systems, such as Chinese hamster ovary (CHO) cells and
+Escherichia coli (strain B / BL21-DE3, E.coli BL21), followed by purification to remove host cell
+proteins (HCPs), thereby averting risks including immunogenicity, antibody degradation, and protein
+aggregation. During regulatory filing, drug-specific HCP ELISA kits custom-developed using null-
+transfected harvest cell culture fluid (HCCF) are typically required to ensure accurate HCP
+quantification. In a case involving an E.coli-expressed antibody, initial HCP ELISA kits derived
+solely from HCCF significantly underestimated HCP levels in the purification intermediate (cation-
+exchange chromatography fraction, CEX1). Supplementing anti-CEX1 HCP antibodies significantly
+improved detection capability. Subsequent high-resolution mass spectrometry (HRMS) characterization
+revealed substantial shifts in HCP composition and abundance between HCCF and CEX1. Conversely, for
+CHO cell-derived antibodies (eukaryotic system), no significant alteration in HCP profiles was
+observed between HCCF and the analogous purification intermediate. This divergence provides critical
+insights for optimizing HCP analytical strategies of special purification antibody therapeutics.

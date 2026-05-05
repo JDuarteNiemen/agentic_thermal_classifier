@@ -3,6 +3,7 @@ from platform import node
 
 from langchain_ollama import ChatOllama
 from langgraph.graph import StateGraph, START, END
+from langchain_core.exceptions import OutputParserException
 import requests
 from typing import TypedDict, Optional
 import json
@@ -396,9 +397,13 @@ def ClassifyThermalLiterature(state: AgentState) -> dict:
         out = llm.invoke(prompt)
         print(f'{node}: {out}\n\n')
 
+        try:
+            if not out.thermal_found:
+                continue
+        except OutputParserException:
 
-        if not out.thermal_found:
             continue
+
 
 
 
@@ -776,7 +781,7 @@ def ClassifyThermalForced(state: AgentState) -> dict:
         RULES:
         - Ensure the thermal range is for the target species
         - You must return an answer. Use any information possible but you must return an answer for the thermal range.
-
+        - You can use any information you would like from any source. There are no restrictions
 
         Return ONLY valid JSON with:
         - "thermal_range": the thermal range of the bacteriophage. One of ['mesophile', 'thermophile', 'psychrophile']

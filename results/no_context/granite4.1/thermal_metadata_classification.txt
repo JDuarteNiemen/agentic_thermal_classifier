@@ -1,0 +1,50 @@
+Classifying thermal range of bacteriophage using only the metadata
+Forced output, must return a classification
+=============ADI87650=============
+Thermal Classification: mesophile
+Duration: 0.08800000000000001
+=============WXH46553=============
+Thermal Classification: mesophile
+Duration: 0.015333333333333334
+=============WRQ14408=============
+Thermal Classification: mesophile
+Duration: 0.015666666666666666
+=============XYW65533=============
+Thermal Classification: mesophile
+Duration: 0.015166666666666667
+=============SNQ28030=============
+Thermal Classification: mesophile
+Duration: 0.015500000000000002
+=============A7XXB7=============
+Thermal Classification: thermophile
+Duration: 0.017166666666666667
+=============QAY18187=============
+Thermal Classification: thermophile
+Duration: 0.016
+=============YP_001285867=============
+Thermal Classification: thermophile
+Duration: 0.015333333333333334
+=============NP_835731=============
+Thermal Classification: mesophile
+Duration: 0.014833333333333334
+=============YP_874174=============
+Thermal Classification: thermophile
+Duration: 0.014
+=============XJP07760=============
+Thermal Classification: mesophile
+Duration: 0.015000000000000001
+=============WMT83805=============
+Thermal Classification: psychrophile
+Duration: 0.015500000000000002
+=============YP_009790355=============
+Thermal Classification: mesophile
+Duration: 0.014666666666666666
+=============YP_006489335=============
+Thermal Classification: mesophile
+Duration: 0.016166666666666666
+=============YP_009209738=============
+Thermal Classification: mesophile
+Duration: 0.016
+
+
+Full Duration: 0.4563333333333333 minutes

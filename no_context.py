@@ -3,6 +3,7 @@ from langgraph.graph import StateGraph, START, END
 import requests
 from typing import TypedDict
 import json
+from pydantic import BaseModel
 
 
 # Set model to be used
@@ -25,6 +26,12 @@ class AgentState(TypedDict):
     thermal_reasoning: str
     thermal_confidence: str
 
+
+# Thermal Classification output state
+class ForcedThermalOutput(BaseModel):
+    thermal_range: str
+
+
 def _build_llm(model: str | None = None) -> ChatOllama:
     return ChatOllama(
         model=model or OLLAMA_MODEL,
@@ -39,6 +46,7 @@ def IdentifyThermalRangeNoContext(state: AgentState):
     """Use the LLM to extract thermal range from metadata using no literature context."""
     model = state.get("model") or OLLAMA_MODEL
     llm = _build_llm(model)
+    llm = llm.with_structured_output(ForcedThermalOutput)
 
     prompt=f"""You are an expert microbiology information extraction system.
     Your task is to identify the thermal range of a bacteriophage.
@@ -47,13 +55,12 @@ def IdentifyThermalRangeNoContext(state: AgentState):
 
     RULES:
     - Ensure the thermal range is for the target species
-    - You must return an answer. USe any infomation possible but you must return an answer for the thermal range.
+    - You must return an answer. USe any information possible but you must return an answer for the thermal range.
 
     
     Return ONLY valid JSON with:
     - "thermal_range": the thermal range of the bacteriophage. One of ['mesophile', 'thermophile', 'psychrophile']
-
-    
+    - No extra text other than the classification
     Target species:
     {state["phage"]}
     
@@ -63,13 +70,9 @@ def IdentifyThermalRangeNoContext(state: AgentState):
     out = llm.invoke(prompt)
     print(f'LLM OUTPUT: {out}')
 
-    try:
-        data = json.loads(out.content)
-    except json.JSONDecodeError:
-        return {}
 
     return {
-        "thermal_range": data.get("thermal_range", "unknown"),
+        "thermal_range": out.thermal_range,
     }
 
 
@@ -90,7 +93,7 @@ def IdentifyThermalRangeName(state: AgentState):
 
     Return ONLY valid JSON with:
     - "thermal_range": the thermal range of the bacteriophage. One of ['mesophile', 'thermophile', 'psychrophile']
-
+    
 
     Target species:
     {state["phage"]}

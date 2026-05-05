@@ -268,15 +268,23 @@ def ClassifyThermalMetadata(state: AgentState) -> dict:
     timings = state.get("timings", {}).copy()
     timings[node] = duration
 
-
-    if not out.thermal_found:
+    try:
+        if not out.thermal_found:
+            return {
+                'decision': 'CreateAccessionLibrary',
+                'nodes': nodes,
+                'duration': updated_duration,
+                'timings': timings,
+            }
+    except OutputParserException:
         return {
             'decision': 'CreateAccessionLibrary',
-            'nodes': nodes,
-            'duration': updated_duration,
-            'timings': timings,
-            'JSONDecodeError': True
-        }
+                'nodes': nodes,
+                'duration': updated_duration,
+                'timings': timings,
+                'JSONDecodeError': True
+            }
+
 
 
     if out.thermal_found:

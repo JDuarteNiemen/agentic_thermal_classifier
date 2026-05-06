@@ -2,49 +2,184 @@ Classifying thermal range of bacteriophage using only the metadata
 Forced output, must return a classification
 =============ADI87650=============
 Thermal Classification: mesophile
-Duration: 0.0285
+Duration: 0.07483333333333334
 =============WXH46553=============
 Thermal Classification: mesophile
 Duration: 0.028333333333333332
 =============WRQ14408=============
 Thermal Classification: mesophile
-Duration: 0.028333333333333332
+Duration: 0.028666666666666667
 =============XYW65533=============
 Thermal Classification: mesophile
-Duration: 0.028166666666666666
+Duration: 0.028333333333333332
 =============SNQ28030=============
 Thermal Classification: mesophile
 Duration: 0.0285
+=============NP_049775=============
+Thermal Classification: mesophile
+Duration: 0.02733333333333333
+=============NP_049787=============
+Thermal Classification: mesophile
+Duration: 0.02733333333333333
+=============YP_001956829=============
+Thermal Classification: mesophile
+Duration: 0.0285
+=============AAC18470=============
+Thermal Classification: mesophile
+Duration: 0.03116666666666667
+=============NP_046847=============
+Thermal Classification: mesophile
+Duration: 0.030333333333333334
+=============NP_040628=============
+Thermal Classification: mesophile
+Duration: 0.026833333333333334
+=============NP_040587=============
+Thermal Classification: mesophile
+Duration: 0.026333333333333334
+=============NP_042001=============
+Thermal Classification: mesophile
+Duration: 0.026500000000000003
+=============NP_042005=============
+Thermal Classification: mesophile
+Duration: 0.026500000000000003
+=============NP_041967=============
+Thermal Classification: mesophile
+Duration: 0.026500000000000003
+=============NP_049666=============
+Thermal Classification: mesophile
+Duration: 0.027000000000000003
+=============YP_010085862=============
+Thermal Classification: mesophile
+Duration: 0.025333333333333333
+=============YP_009168084=============
+Thermal Classification: mesophile
+Duration: 0.0285
+=============YP_001956832=============
+Thermal Classification: mesophile
+Duration: 0.030166666666666668
+=============YP_001956835=============
+Thermal Classification: mesophile
+Duration: 0.030166666666666668
 =============A7XXB7=============
 Thermal Classification: thermophile
 Duration: 0.030333333333333334
 =============QAY18187=============
 Thermal Classification: thermophile
-Duration: 0.027166666666666665
+Duration: 0.02733333333333333
 =============YP_001285867=============
 Thermal Classification: thermophile
-Duration: 0.027000000000000003
+Duration: 0.027166666666666665
 =============NP_835731=============
 Thermal Classification: thermophile
-Duration: 0.028166666666666666
+Duration: 0.028666666666666667
 =============YP_874174=============
 Thermal Classification: thermophile
-Duration: 0.027000000000000003
+Duration: 0.028
+=============YP_001468074=============
+Thermal Classification: thermophile
+Duration: 0.02783333333333333
+=============YP_001468079=============
+Thermal Classification: thermophile
+Duration: 0.028
+=============YP_001468077=============
+Thermal Classification: thermophile
+Duration: 0.02783333333333333
+=============YP_001468072=============
+Thermal Classification: thermophile
+Duration: 0.028166666666666666
+=============YP_001285862=============
+Thermal Classification: thermophile
+Duration: 0.028
+=============BFP65619=============
+Thermal Classification: thermophile
+Duration: 0.029
+=============YP_001285822=============
+Thermal Classification: thermophile
+Duration: 0.028
+=============ABI36835=============
+Thermal Classification: thermophile
+Duration: 0.028
+=============NP_835728=============
+Thermal Classification: thermophile
+Duration: 0.029
+=============NP_835725=============
+Thermal Classification: thermophile
+Duration: 0.029166666666666667
+=============YP_001210360=============
+Thermal Classification: thermophile
+Duration: 0.029333333333333333
+=============YP_015542=============
+Thermal Classification: thermophile
+Duration: 0.028
+=============YP_001468067=============
+Thermal Classification: thermophile
+Duration: 0.02733333333333333
+=============YP_009509140=============
+Thermal Classification: thermophile
+Duration: 0.02733333333333333
+=============YP_009509134=============
+Thermal Classification: thermophile
+Duration: 0.028166666666666666
 =============XJP07760=============
 Thermal Classification: mesophile
-Duration: 0.0275
+Duration: 0.02783333333333333
 =============WMT83805=============
 Thermal Classification: psychrophile
-Duration: 0.028166666666666666
+Duration: 0.029
 =============YP_009790355=============
 Thermal Classification: mesophile
-Duration: 0.0275
+Duration: 0.027666666666666666
 =============YP_006489335=============
 Thermal Classification: psychrophile
-Duration: 0.029666666666666668
+Duration: 0.030833333333333334
 =============YP_009209738=============
 Thermal Classification: psychrophile
-Duration: 0.029833333333333333
+Duration: 0.03066666666666667
+=============WMT83702=============
+Thermal Classification: psychrophile
+Duration: 0.029333333333333333
+=============WMT83700=============
+Thermal Classification: psychrophile
+Duration: 0.029166666666666667
+=============YP_009790354=============
+Thermal Classification: mesophile
+Duration: 0.0285
+=============YP_009790351=============
+Thermal Classification: mesophile
+Duration: 0.028333333333333332
+=============YP_009790347=============
+Thermal Classification: mesophile
+Duration: 0.028333333333333332
+=============YP_009790336=============
+Thermal Classification: mesophile
+Duration: 0.0285
+=============YP_009008887=============
+Thermal Classification: mesophile
+Duration: 0.027666666666666666
+=============YP_009008883=============
+Thermal Classification: mesophile
+Duration: 0.027666666666666666
+=============YP_009008872=============
+Thermal Classification: mesophile
+Duration: 0.028166666666666666
+=============YP_006489330=============
+Thermal Classification: psychrophile
+Duration: 0.03066666666666667
+=============YP_006489329=============
+Thermal Classification: psychrophile
+Duration: 0.03066666666666667
+=============YP_006489332=============
+Thermal Classification: psychrophile
+Duration: 0.030833333333333334
+=============YP_112541=============
+Thermal Classification: psychrophile
+Duration: 0.02783333333333333
+=============YP_010108907=============
+Thermal Classification: mesophile
+Duration: 0.03133333333333333
+=============YP_010108902=============
+Thermal Classification: mesophile
+Duration: 0.0315
 
 
-Full Duration: 0.5488333333333333 minutes
+Full Duration: 2.6591666666666667 minutes

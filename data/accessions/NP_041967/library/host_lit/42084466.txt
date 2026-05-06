@@ -1,0 +1,18 @@
+DNA recognition, cleavage, and toxic metal ion interaction of an artificial zinc finger protein inside E. coli cells.
+
+Zinc finger proteins are essential for the proper functioning of eukaryotic organisms, while their
+artificial variants can be used in cancer therapy or gene editing via their specific DNA
+recognition. Zn(II) binding is indispensable for the structural integrity of zinc fingers. While
+metal ion binding of zinc fingers has been extensively investigated in vitro, intracellular studies
+are rather scarce. Herein, we utilized the novel I-Block assay, based on the regulation of
+β-galactosidase expression via the transcription inhibition ability of zinc finger proteins inside
+the modified ER1821ΔLacI Escherichia coli cells. The results indicated that the performance of the
+assay largely depends on the position of the DNA sequence targeted by the zinc finger protein, but
+once optimized, specific DNA binding of even the rather small three-membered 1MEY# artificial zinc
+finger protein can be detected without large fusion tags. By fusion of 1MEY# with the nuclease
+domain of FokI restriction endonuclease leading to an artificial zinc finger nuclease, we
+demonstrated that the I-Block system can distinguish between DNA binding and DNA cleavage inside the
+cells allowing for zinc finger nuclease screening. The investigation of metal ion/metalloid-zinc
+finger protein interactions within cellular conditions provided direct proof for the inhibitory
+effect of Cd(II), Hg(II), and As(III) on the DNA binding of a zinc finger protein at a molecular
+level.

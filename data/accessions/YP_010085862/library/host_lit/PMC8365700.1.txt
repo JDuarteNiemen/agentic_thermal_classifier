@@ -1,0 +1,347 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Am J Primatol
+Journal ID: Am J Primatol
+Journal ID: AJP
+
+American Journal of Primatology
+
+ISSN: 0275-2565
+EISSN: 1098-2345
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC8365700
+PMID: 33955009
+DOI: 10.1002/ajp.23263
+Article ID: AJP23263
+Article version: 1
+Subjects: Research Article, Research Articles
+
+Not all yawns tell the same story: The case of Tonkean macaques
+
+Not all yawns tell the same story: The case of Tonkean macaques
+
+ZANNELLA et al.
+
+Zannella Alessandra 1 2
+Stanyon Roscoe 1
+Maglieri Veronica 3
+Palagi Elisabetta https://orcid.org/0000-0002-2038-4596 2 3 elisabetta.palagi@unipi.it
+
+1 Anthropology Laboratories, Department of Biology University of Florence Florence Italy
+2 Natural History Museum University of Pisa Pisa Italy
+3 Unit of Ethology, Department of Biology University of Pisa Pisa Italy
+* Correspondence Elisabetta Palagi, Unit of Ethology, Department of Biology, University of Pisa, Pisa, 56126, Italy.
+Email: elisabetta.palagi@unipi.it
+
+Electronic publication date: 2021 May 6
+Print publication date: 2021 Jul
+Volume: 83
+Issue: 7
+Electronic Location ID: e23263
+Revised 2021 Apr 4; Received 2020 Aug 7; Accepted 2021 Apr 9
+Copyright: © 2021 The Authors. American Journal of Primatology published by Wiley Periodicals LLC.
+License: This is an open access article under the terms of the http://creativecommons.org/licenses/by-nc-nd/4.0/ License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.
+License URL: https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Keywords: arousal, Macaca tonkeana, yawn duration, yawn morphology
+Figure count: 5
+Table count: 3
+Page count: 11
+
+source-schema-version-number: 2.0
+cover-date: July 2021
+details-of-publishers-convertor: Converter:WILEY_ML3GV2_TO_JATSPMC version:6.0.5 mode:remove_FC converted:16.08.2021
+
+Zannella, A., Stanyon, R., Maglieri, V., & Palagi, E. (2021). Not all yawns tell the same story: The case of Tonkean macaques. Am J Primatol, 83, e23263. 10.1002/ajp.23263 33955009 PMC8365700
+
+==============================
+Abstract
+
+Here we show for the first time that the plasticity in morphology and duration of yawning in Macaca tonkeana can be associated with different functional contexts. Macaca tonkeana is classified as a tolerant macaque species characterized by social interactions minimally constrained by dominance rank or kinship. Tonkean macaques, as other egalitarian species, rely on a complex facial communicative system. We found that the degree of mouth opening (ranging from covered to uncovered tooth yawns) and the duration of yawning were not strictly dependent. The shortest uncovered tooth yawns were associated with an intense locomotor/physical activity and peaked immediately after stressful social events thus indicating an increase in arousal. In contrast, longer yawns, independently from teeth exposure, were primarily associated with a relaxed state of the subject. In conclusion, our study suggests that to explore the potential different functions of yawning, it is necessary to focus on the variability of its expression both in terms of morphology and duration, because not all yawns tell the same story.
+
+Research Highlights
+
+Yawning in Tonkean macaques is highly variable and plastic
+
+Tonkean macaques show long yawns with covered teeth, long yawns with uncovered teeth, and short yawns with uncovered teeth.
+
+These variants reflect different functions of yawning in Tonkean macaques
+
+Although yawning is a fixed action pattern, it can be adjusted according to different situations
+
+1 INTRODUCTION
+
+In 1872, Darwin defined yawning in humans as “[…] a deep inspiration, followed by a long and forcible expiration; and at the same time almost all the muscles of the body are strongly contracted, including those round the eyes. During this act tears are often secreted, and I have seen them even rolling down the cheeks […]” (Darwin, 1872, p. 164). Yet, although spontaneous yawning is a well‐known and long discussed behavior, its functions have not been fully elucidated. Several authors have suggested that yawning is driven by physiological factors, such as respiration, circulation, and brain cooling (Gallup & Eldakar, 2013; Guggisberg et al., 2010). Oxygenation was also considered to be one of the physiological triggers for yawning, but in humans yawning frequency is not increased by CO2, inhibited by O2 blood concentrations or influenced by physical exercise (Provine et al., 1987a).
+
+Once elicited, yawning cannot be completely suppressed and, for this reason, it has been categorized as a stereotyped or reflex‐like pattern (Lehmann, 1979; Provine, 1986). However, its morphological variability suggests that yawning can be more than a simple reflex (Massen & Gallup, 2017; Provine, 2012). It can vary in duration, frequency, and mouth‐opening degree (Deputte, 1994; Gallup et al., 2016; Leone et al., 2014). Such variability may be associated with different social contexts (Vick & Paukner, 2010). Therefore, yawning is considered as a behavioral pattern that can have different functions in different circumstances (Baenninger, 1997; Górecka‐Bruzda et al., 2016; Guggisberg et al., 2010; Leone et al., 2014; Zannella et al., 2015, 2017).
+
+It is commonly reported that yawning punctuates the sleep‐awake cycle (monkeys, Deputte, 1994; monkeys, fish, big cats, Baenninger, 1997). Endogenous rhythms induce changes in brain activity that can trigger yawning (humans, Zilli et al., 2007). According to the State Change Hypothesis formulated by Provine et al. (1987b), human yawns are often associated with sleepiness and boredom (Provine & Hamernik, 1986). The temporal association between yawns and behavioral transitions could be coopted in social species where yawns can represent a communicative social tool to synchronize group activity (Pan troglodytes, Vick & Paukner, 2010). For example, the susceptibility to yawn in response to others' yawns (yawn contagion), has been extensively documented in human and nonhuman animals (humans, Norscia & Palagi, 2011, Norscia et al., 2020; Provine, 1986; monkeys, Palagi et al., 2009; great apes, Campbell & Cox, 2019; Demuru & Palagi, 2012; canids, Neilands et al., 2020; Romero et al., 2014).
+
+External variables such as stressful events can also activate the neurological circuit of yawning (Rattus norvegicus, Moyaho & Valencia, 2002). Liang et al., 2015) found that in birds (Sula granti) the administration of acute stressors initially inhibited and later increased the occurrence of yawning. The authors monitored variations in arousal by measuring plasmatic corticosterone and found that yawning increased during the arousal reduction phase. These findings led the authors to formulate the Arousal Reduction Hypothesis for yawning in birds. However, Liang et al.,2015) did not focus on possible differences in the duration and morphology (degree of mouth opening) of each yawning event in response to stressful stimuli.
+
+Giving that yawning appears to be a sort of 'halfway between a reflex and an expressive movement' (sensu Barbizet, 1958, p. 203), its variability linked to duration and morphology (Anderson & Wunderlich, 1988; Deputte, 1994; Schino & Aureli, 1989) is an important key for understanding the specific functions of yawning. The duration of a yawn depends on the intensity of the inhalation phase (Barbizet, 1958; Deputte, 1994). During the resting period, when locomotor activity level and respiratory frequency are both low, individuals perform long yawns (Deputte, 1994). During intense locomotor activity yawns are shorter, but not more frequent (Provine et al., 1987a) due to the more rapid breathing (Cercocebus albigena and Macaca fascicularis; Deputte, 1994). Focusing on yawn morphology in primates, it is possible to associate the motor pattern with different mouth‐opening degrees, such as covered and uncovered tooth yawning. In different species, covered and uncovered tooth yawning can be triggered by various affective states deriving from diverse social contexts. In chimpanzees (Pan troglodytes), covered tooth yawns are associated with anxiety, measured by the variation in the scratching levels (Vick & Paukner, 2010). In contrast, in some monkeys, the covered tooth yawn is apparently a relaxed pattern (Leone et al., 2014); whereas the uncovered tooth yawn is associated with tense situations (Theropithecus gelada, Leone et al., 2014; Palagi et al., 2009; Macaca tonkeana, Zannella et al., 2017). This variability in yawn morphology and affective states deserves further research to understand if and how yawn variability is predictive of emotional states in primates, including humans.
+
+In 1994, Deputte described the motor components of a yawning event by using Cercocebus albigena and Macaca fascicularis as model species. According to Deputte (1994), yawns are characterized by a sequence of movements during which three phases can be distinguished on the basis of peculiar morphological markers. During Phase 1 the head is lifted upward, the mouth is slowly opened, reaching an oval shape while teeth remained covered. In Phase 2 the head continues to move upward until maximum gaping is reached revealing both teeth and gums. The eyes are often totally closed. During Phase 3 the head is lowered, lips rapidly cover the teeth and the mouth is snapped shut (Figure 1, Figure S1). During the Phase 2 of a yawning event, animals expose their canines, which are more evident in males of primate species with marked sexual dimorphism in canine size. The presence/absence of these phases define the different types of yawn morphology (Y1 includes Phases 1 and 3; Y2 includes Phases 1–3; Y3 includes Phases 2 and 3) (Figure 1).
+
+Figure 1 Scheme illustrating the different types of yawning as a function of the phases they included: Y1 (long yawn with covered teeth) including Phases 1 and 3, Y2 (long yawn with uncovered teeth) including Phases 1–3 and Y3 (short yawn with uncovered teeth) including Phases 2 and 3
+
+Auditory cues often help to maximize the effect of these impressive visual displays especially in males of dimorphic species. A yawn, therefore, can become a multimodal signal if associated with the emission of vocalizations (auditory component) (Theropithecus gelada males, Leone et al., 2014; Cercocebus albigena, Deputte, 1994). A yawn can be also accompanied by an active production of sounds obtained by specific behaviors (for the different species of Sulawesi macaques see Dixson, 1977; Hadidian, 1980; Lindsay, 1976; Nickelson & Lockard, 1978; Reed et al., 1997; Thierry et al., 2000a). By stamping on the ground and shaking objects, animals express their arousal and enrich the visual stimulus to attract the attention of the potential receivers (i.e., attention getting behaviors; Hostetter et al., 2007; Leavens et al., 2004; Tomasello et al., 1994). To increase signal detectability, animals can also emit the stimulus in association with specific body postures and location of performance. This tactic generally reduces the reaction time of receivers, making the signal (e.g., expressing an emotional state) even more effective (see Hebets & Papaj, 2005 for an extensive review).
+
+Communicative complexity seems to covariate with the high levels of social tolerance characterizing certain primate species (Scopa & Palagi, 2016), which tend to have more complex and larger communicative repertoires than despotic species (Dobson, 2012; Rebout et al., 2020; Roberts & Roberts, 2020). Tolerant interactions are less affected by rank or kinship and rely more on the quality of relationships shared by subjects (Maestripieri, 1995; Thierry et al., 2000b). Apparently, yawning variability is linked to the high level of tolerance of some primate species, such as geladas (Theropithecus gelada, Leone et al., 2014; Palagi et al., 2009) and Sulawesi macaques (Dobson, 2012; Maestripieri, 1999). Here, for the first time, we explore the different roles of yawning depending on the variability in morphology (degree of mouth opening) and the variability in its duration. We selected Macaca tonkeana as a model species due to its tolerant social style (Butovskaya, 2004; Thierry et al., 2000b) and its variable yawning repertoire (Anderson & Wunderlich, 1988; Thierry et al., 2000a; Zannella et al., 2017). We hypothesize that yawns which differ in morphology and duration are linked to different individual contexts and possibly to the sex of the yawner. Specifically, we expect that longer yawns, independently of their morphology, are associated with low level of locomotor activity characteristic of resting/relaxing periods (e.g., laying down, relaxed social interactions) (Prediction 1) especially in females (see Leone et al., 2014). Conversely, we predict that short‐yawns, associated with canine exposure, are linked to (i) an intense locomotor activity (e.g., standing/walking) and (ii) arousal of subjects (e.g., shaking objects, slapping on the ground) as it occurs immediately after the perception of a stressful stimulus (e.g., aggression) (Prediction 2).
+
+2 METHODS
+
+2.1 Ethic statement
+
+Since it was purely observational without any kind of manipulation of animals, the committee (Animal Care and Use board of University of Pisa) waived the need for a permit. Our research also complies with the American Society of Primatologists Principles of Ethical Treatment of nonhuman primates.
+
+2.2 Subjects and housing
+
+Behavioral data were collected on the colony of Macaca tonkeana housed at the Parc Zoologique de Thoiry, France. The colony was composed of 30 adult females, 25 adult males, and 15 immature subjects (1–4 years of age). The enclosure included both indoor and outdoor facilities (182 and 3900 m2, respectively). The outdoor grass area was equipped with pools, rope structures, platforms, trees and bushes. Food was distributed twice a day at 12 and 6 p.m. and water was available ad libitum.
+
+2.3 Data collection
+
+Data were daily collected from August to October 2014. Individuals were identified via facial‐body features (scars, size, missing fur patches, fur color and facial traits). Infants and juveniles were labeled as immature individuals, while sexually active subjects with fully erupted canine teeth were categorized as adults. To limit the influence of visitors on data collection, observations were conducted during working days avoiding holidays and weekends. Observation days lasted about 8 h, divided into two sessions: from 9 a.m. to 1 p.m. and from 1 to 6 p.m.
+
+Two observers (the first author and one field assistant) collected data by using two video cameras simultaneously (JVC‐full‐HD‐GZ‐E100SE and SONY‐DCR‐SR52). The favorable observational conditions and the presence of the two cameras allowed the concurrent registration of all the behavioral patterns performed.
+
+In total we recorded 74 h of videos to be analyzed by using VLC software (Jump‐to‐Time plug in) with one‐frame accuracy (1 frame/0.02 s). Before starting systematic data video analysis, the first author and the field assistant underwent a training period that ended when the interobserver reliability reached a Cohen's kappa value greater than 0.85 (Kaufman & Rosenthal, 2009). Video‐data were analyzed by the first author. Kappa coefficients were computed to assess the agreement for the three types of yawns and agonistic conflicts. During the video‐analysis, such procedure was replicated at regular intervals (every 5 h of videos) to control for the interobserver reliability for each behavioral item considered. The double coding reliability assessment was performed on a total of 16 blocks of 30‐min video that were randomly selected. Cohen's kappa was never less than 0.85.
+
+We collected 1147 yawning events via all occurrences sampling (Altmann, 1974) emitted by 50 adult subjects (24 females; 26 males) (mean ± SD: Y1 = 1.64 ± 1.69; Y2 = 12.36 ± 11.37; Y3 = 9.34 ± 12.32). For each yawn we recorded (i) subject identity, (ii) the exact time of the day, (iii) the posture of the yawner (sitting/laying down; standing/walking), (iv) possible presence of patterns producing auditory stimuli (e.g., stamping, object shaking) in the 0.50 s time‐window preceding yawning and (v) possible involvement of the yawner as aggressor, victim or bystander in a previous agonistic interaction (3‐min time window).
+
+To measure yawning duration, all the events were analyzed frame‐by‐frame. A yawn was considered to start in correspondence of the first frame in which the lips appeared parted and to end in the correspondence of the frame in which the lips appeared closed.
+
+Via all occurrences sampling (Altmann, 1974) we also collected 415 dyadic aggressive interactions. To examine whether the presence of a conflict affected the yawning performance we applied the post conflict–matched control methodology (PC‐MC) (de Waal & Yoshihara, 1983). After the last aggressive pattern of any given agonistic encounter, a 3‐min focal Post Conflict observation was conducted on opponents (victim and aggressor) and bystanders (witnessing subjects not directly involved in the conflict; within about 15 m from the opponents). Each PC was matched with a 3‐min MC, which was conducted on a next day at the same time as the original PC. The MC was focused on the same animal followed in the PC, in the absence of agonistic interactions in the previous 3‐min time‐window and when the opponents (the aggressor and the victim) had the opportunity to interact (less than 15 m). We recorded the exact time when each yawning event occurred during the 3‐min PC‐MC focal observations. All these data were extracted from the videos. For the analyses, we selected those individuals (N opponents = 21; N bystanders = 16) involved in at least 3 aggressive events and obtained 327 PC‐MC in total.
+
+2.4 Operational definitions
+
+The different morphological types of yawns (morphology) were categorized following the definition given by Deputte (1994) (see Figure 1, S1). The duration of each yawning event was measured with a 1 msec accuracy (duration).
+
+To evaluate the effect of the time of the day (time of the day) on the duration and morphology of yawns, we divided the daily period of observation (from 9 a.m. to 6 p.m.) into nine 1‐h slots.
+
+The individual contexts of each yawning event were categorized as aroused or relaxed (individual context). A yawner was considered to be in an arousal state when involved in a previous agonistic interaction as aggressor, victim or bystander and when it engaged in object shaking and/or ground slapping (Bernstein et al., 1983; Thierry et al., 2000a) immediately before the yawning event. A yawner was considered to be in a relaxed condition when resting (sitting, laying down) and/or involved in affiliative social interactions such as grooming, lactating, body contact and had not been involved in any agonistic interaction in the 5‐min time block preceding the yawning event.
+
+To evaluate if the ranking position (rank) affected the duration and morphology of yawns, we calculated the NDS values (Normalized David's Scores; de Vries et al., 2006). Such values were computed via a dyadic dominance index (Dij) in which the observed proportion of wins (Pij) was corrected for the chance occurrence of the observed outcome. This value was calculated via a binomial distribution with each subject having an equal chance of winning/losing in every agonistic interaction (de Vries et al., 2006). The correction is necessary when the numbers of interactions greatly differ between dyads. We determined the NDS‐based hierarchy by ranking the individuals according to their NDS values. The individual NDS values are reported in Table S1.
+
+2.4.1 Data analysis and statistics
+
+The number of yawns per context per subject is reported in Table S1. To investigate the factors affecting the duration of yawning (LOGduration), we ran a linear mixed model (LMM) with a gaussian error distribution by means of the R‐package glmmTMB 1.2.5042 package (Brooks et al., 2017), using the LOGduration as response variable (D'Agostino–Pearson normality test: K 2 = 1.2982, p = 0.5225). The fixed effects were the time of the day, the sex of the yawner (males = 0, females = 1), yawn morphology (Y1, Y2, Y3), the posture of the yawner (laying/sitting = 0, standing/walking = 1), the individual context (relaxed = 0; arousal = 1) and the NDS values (continuous variable). The identity of the yawner was entered as random factor (ID).
+
+To investigate the factors affecting the morphology of yawning, we focused on the two variants of yawning (Y2 and Y3) that included different phases but both characterized by teeth exposure. We ran a generalized LMM with a binomial error distribution by means of the R‐package glmmTMB 1.2.5042 package (Brooks et al., 2017), using the Y2 (0) and Y3 (1) as response variable. The fixed effects were the time of the day, the sex of the yawner (males = 0, females = 1), the posture of the yawner (laying/sitting = 0, standing/walking = 1), the individual context (relaxed = 0; arousal = 1) and the NDS values (continuous variable). The identity of the yawner was entered as random factor (ID).
+
+The significance of the full model was verified by comparing this model with the model including only the random factor (Forstmeier & Schielzeth, 2011) by means of the likelihood ratio test (LRT) (Dobson et al., 2002). We used the LR test also to examine the significance of the fixed factors by using the function analysis of variance (R‐package car 3.0‐10; Fox & Weisberg, 2019). We evaluated the variance inflation factors (VIF) (Fox, 2016; R‐package performance 0.4.4, Lüdecke et al., 2020) to exclude the occurrence of collinearity among predictors. The model fit and the over‐dispersion were checked by using the R‐package DHARMa 0.3.3.0 (Hartig, 2020). We calculated the marginal R 2, which represents the variance explained by fixed factors only, and the conditional R 2, which represents the variance explained by the entire model including both fixed and random effects (Nakagawa et al., 2017), by using the R‐package MuMIn 1.43.17 (Bartoń, 2020). To interpret the estimated effects as relative odds ratios and to evaluate the magnitude of the estimated effects, we used the “confint(x)” function (i.e., the expected odds change for one unit increase in the explanatory variable when the remaining variables are set to their reference category). We performed pairwise comparisons for the levels of the multilevel factor with the Tukey test (Bretz et al., 2010) by using the R package emmeans (Length et al., 2020).
+
+The exact Wilcoxon signed‐ranks test was applied to compare the distribution (non‐normal, Kolmogorov‐Smirnov p < 0.05) of the different type of yawns between PC and MC conditions. The level of significance was set at 5% (two‐tailed) and the test was performed via SPSS 20.00 (SPSS Inc.).
+
+3 RESULTS
+
+3.1 Results
+
+The first model was used to investigate which factors affect the duration of yawning (LOGduration). The full model including all the fixed factors (time of the day, sex, morphology, posture, individual context, NDS) was significantly different from the null model comprising only the random factor (ID of the yawner) (LRT: χ 2 = 710.19, df = 17, p < 0.001; marginal R 2 = 0.467; conditional R 2 = 0.532). No collinearity has been found between the fixed factors (range VIFmin = 1.04; VIFmax = 1.40).
+
+The variables sex, posture, individual context, and morphology had a significant effect on the duration of the pattern (Table 1; Figure 2). Females displayed longer yawns than males (Figure 2a). Moreover, the monkeys performed longer yawns when they were laying/sitting than when they were standing/walking (posture, Figure 2b) and when they were aroused (aroused individual context) compared to when they were relaxed (Figure 2c). As for the yawn morphology, we found that Y1 did not differ in its duration compared to Y2 (Tukey test: t ratio = 0.353; df = 1130; p = 0.934) and Y3 (Tukey test: t ratio = 0.055; df = 1130; p = 0.106), but Y2 lasted significantly longer than Y3 (Tukey test: t ratio = 3.521; df = 1130; p = 0.001) (Figure 2d).
+
+Figure 2 Boxplots showing the logarithm of the duration of the yawn as a function of the following fixed factors: (a) yawner sex; (b) yawner posture; (c) yawner individual context; (d) yawn morphology, Y1 (Phase 1 + Phase 3), Y2 (Phase 1 + Phase 2 + Phase 3), and Y3 (Phase 2 + Phase 3). Lower and upper box boundaries represent the 25th and the 75th percentiles, respectively; line inside boxes represents the median; lower and upper error lines represent the 10th and the 90th percentiles, respectively, and filled circles represent data falling outside 10th and 90th percentiles. See Table 1 for the statistical results
+
+Table 1 Estimated parameters (coeff), SE, 95% confidence interval ([CI]: 2.5%−97.5%), and results of the likelihood ratio tests ( χ 2 ) of the linear mixed model (with a gaussian error distribution) investigating the effect of the time of the day, sex, morphology, posture, individual context, and NDS (Normalized David's Scores) on the duration of the yawn. The significant results are in bold
+
+Fixed effects	Coeff	SE	2.5% CI	97.5% CI	χ 2	df	p	
+Intercept	1.546	0.758	0.061	3.031				
+Time of the day					14.399	8	0.072	
+Time (10–11 a.m.) a , b	−0.023	0.032	−0.086	0.040				
+Time (11 a.m.–12 p.m.) a , b	−0.020	0.031	−0.082	0.042				
+Time (12–01 p.m.) a , b	−0.57	0.035	−0.126	0.011				
+Time (01–02 p.m.) a , b	−0.050	0.034	−0.124	0.024				
+Time (02–03 p.m.) a , b	−0.066	0.034	−0.133	0.002				
+Time (03–04 p.m.) a , b	−0.068	0.034	−0.124	−0.002				
+Time (04–05 p.m.) a , b	−0.048	0.035	−0.116	0.020				
+Time (05–06 p.m.) a , b	−0.078	0.037	−0.150	−0.006				
+Sex	0.060	0.029	0.002	0.117	4.120	1	0.042	
+Morphology					13.224	2	0.001	
+Y2 a , c	−0.009	0.025	−0.060	0.042				
+Y3 a , c	−0.055	0.027	−0.108	−0.002				
+Posture	−0.308	0.014	−0.034	−0.280	383.574	1	0.000	
+Individual context	−0.076	0.014	−0.104	−0.049	28.638	1	0.000	
+NDS	−0.041	0.026	0.051	0.095	2.425	1	0.119	
+Note: N cases = 1147, IDyawners = 50; random factors: variance 0.005 ± 0.069 SD.
+
+a Estimate parameters ± SE refer to the difference of the response between the reported level of this categorical predictor and the reference category of the same predictor.
+
+b These predictors were dummy coded, with the “Time (09–10 a.m.)” being the reference category.
+
+c These predictors were dummy coded, with the “Y1” being the reference category.
+
+John Wiley & Sons, Ltd.
+
+The second model was used to investigate which factors affected the morphology of the yawn. Since only Y2 and Y3 significantly differed in their duration, we included them in the response variable morphology (binomial distribution). The full model including all the fixed factors (sex, posture, individual context) was significantly different from the null model, comprising only the random factor (ID) (LRT: χ 2 = 212.93, df = 14, p < .001; marginal R 2 = 0.244; marginal R 2 full model − marginal R 2 null model = 0.204; conditional R 2 = 0.244; conditional R 2 full model − conditional R 2 null model = 0.204). No collinearity has been found between the fixed factors (range VIFmin = 1.05; VIFmax = 1.26). The fixed factors posture and individual context had a significant effect on yawn morphology (Table 2). Individuals engaged more in Y3 when they were in standing/walking posture (Figure 3a) and when they were aroused (Figure 3b) (see Table 2 for statistics).
+
+Figure 3 Percentage of the two yawn morphologies Y2 (Phase 1 + Phase 2 + Phase 3) and Y3 (Phase 2 + Phase 3) in relation to: (a) Yawner posture (dark‐gray bars indicate sitting/laying down posture; light‐gray bars indicate standing/walking posture); (b) individual context (dark‐gray bars indicate the relaxed context; light‐gray bars indicate the aroused context). See Table 2 for the statistical results
+
+Table 2 Estimated parameters (coeff), SE, 95% CI: 2.5%–97.5%, and results of the likelihood ratio tests ( χ 2 ) of the second generalized linear mixed model (with a binomial error distribution) investigating the effect of the time of the day, sex, posture, individual context, and NDS (Normalized David's Scores) on the morphology of yawning (Y2, Y3). The significant results are in bold
+
+Fixed effects	Coeff	SE	2.5% CI	97.5% CI	χ 2	df	p	
+Intercept	6.257	4.105	−1.788	14.303				
+Time of the day					12.307	8	0.138	
+Time (10–11 a.m.) a , b	−0.372	0.380	−1.117	0.374				
+Time (11 a.m.–12 p.m.) a , b	−0.424	0.372	−1.154	0.306				
+Time (12–01 p.m.) a , b	0.354	0.413	−0.455	1.162				
+Time (01–02 p.m.) a , b	0.184	0.449	−0.696	1.064				
+Time (02–03 p.m.) a , b	−0.029	0.408	−0.828	0.770				
+Time (03–04 p.m.) a , b	−0.061	0.400	−0.839	0.718				
+Time (04–05 p.m.) a , b	−0.187	0.405	−0.981	0.607				
+Time (05–06 p.m.) a , b	−0.037	0.426	−0.873	0.798				
+Sex	0.194	0.251	−0.299	0.686	0.586	1	0.444	
+Individual context	0.911	0.156	0.605	1.217	33.558	1	0.000	
+Posture	1.242	0.158	0.932	1.5551	61.970	1	0.000	
+NDS	−0.251	0.141	−0.528	0.026	3.081	1	0.079	
+Note: N cases = 1085, IDyawner = 50; random factors: variance 4.496e−09 ± 6.705e−05 SD.
+
+Abbreviation: CI, confidence interval.
+
+a Estimate parameters ± SE refer to the difference of the response between the reported level of this categorical predictor and the reference category of the same predictor.
+
+b These predictors were dummy coded, with the “Time (09–10 a.m.)” being the reference category.
+
+John Wiley & Sons, Ltd.
+
+In the first minute after the agonistic event (PC), both the opponents (Figure 4a) and the bystanders (Figure 4b) significantly increased their levels of Y3 compared to the control period (MC) (Wilcoxon signed rank test; opponents, T1min = 0.00, ties = 3, n = 16, p = 0.0001; bystanders, T1min = 0.00, ties = 6, n = 16, p = 0.002). The frequency of Y2 performed by both the opponents (Figure 4a) and the bystanders (Figure 4b) did not differ between the PC and MC condition in either of the 3 min considered for the analysis. Statistical results are reported in Table 3.
+
+Figure 4 (a) Yawning hourly frequency (mean ± SE) performed by the opponents i) for Y2 (Phase 1 + Phase 2 + Phase 3) during post‐conflict (black dots with solid lines) and match‐control condition (gray dots with dotted lines) and ii) for Y3 (Phase 2 + Phase 3) during post‐conflict (black triangles with solid lines) and match‐control condition (gray triangles with dotted lines). (b) Yawning hourly frequency (mean ± SE) performed by the bystanders (i) for Y2 during post‐conflict (black dots with solid lines) and match‐control condition (gray dots with dotted lines) and (ii) for Y3 during post‐conflict (black triangles with solid lines) and match‐control condition (gray triangles with dotted lines). See Table 3 for the statistical results
+
+Table 3 Statistical results relative to the comparison of yawning frequency between PC and MC conditions for the opponents and bystanders
+
+Wilcoxon signed rank test	Wilcoxon signed rank test	
+Opponents Y2	Opponents Y3	
+T1 min = 3.00, ties = 13, n = 16, p = 1.00	T1 min = 0.00, ties = 3, n = 16, p = 0.0001 *	
+T2 min = 0.00, ties = 12, n = 16, p = 0.125	T2 min = 13.00, ties = 5, n = 16, p = 0.079	
+T3 min = 1.50, ties = 13, n = 16, p = 0.750	T3 min = 0.00, ties = 12, n = 16, p = 0.125	
+Bystanders Y2	Bystanders Y3	
+T1 min = 5.00, ties = 10, n = 16, p = 0.313	T1 min = 0.00, ties = 6, n = 16, p = 0.002 **	
+T2 min = 0.00, ties = 11, n = 16, p = 0.063	T2 min = 3.00, ties = 9, n = 16, p = 0.078	
+T3 min = 2.00, ties = 9, n = 16, p = 0.047	T3 min = 3.00, ties = 11, n = 16, p = 0.313	
+Note: The significant results are in bold (Bonferroni correction, p < 0.017).
+
+Abbreviations: MC, matched control; PC, post conflict.
+
+* p < 0.001
+
+** p < 0.01.
+
+John Wiley & Sons, Ltd.
+
+4 DISCUSSION
+
+Understanding yawning has proved challenging. Various authors have previously suggested that yawning may have communicative functions (see Guggisberg et al., 2010 for an extensive review). In particular, several studies showed that different morphologies of yawning can be associated with different social contexts (Theropithecus gelada, Leone et al., 2014; Pan troglodytes, Vick & Paukner, 2010; Macaca tonkeana, Zannella et al., 2017). For example, in Old World monkeys, males have longer canines than females and have been observed yawning in tense and agonistic contexts (Hadidian, 1980; Redican, 1975). The exposure of canines, the directionality and the occurrence during tense social situations led several authors to conclude that in these circumstances, yawning is a pattern possibly conveying threat/arousal messages (Altmann, 1967; Deputte, 1994). This hypothesis is supported by experimental findings suggesting that intense male yawns induce in the observer specific saccades directed to the canines (Gothard et al., 2004).
+
+Yawning can be characterized by different degrees of mouth opening and durations. To our knowledge, previous literature focused on the different morphologies of yawning without taking into account the duration of the motor pattern. We found that the longest yawns were mainly performed by Tonkean macaques during periods of relaxation/social affiliation (Figure 2c) and during sitting/laying down postures (Figure 2b) (Prediction 1 supported). Moreover, males performed shorter yawns compared to females thus probably indicating a higher involvement of males in arousal contexts. These findings indirectly support the hypothesis formulated by Deputte (1994) on the linkage between the low level of locomotor activity and the extension of the inhalation phase which translates into an increase of yawn duration. The indirect linkage between yawn duration and the activity level of subjects was also observed in Macaca fascicularis and Cercocebus albigena (Deputte, 1994), although Deputte's study was not focused on the social interactions or contexts during which the subject engaged in a yawning event. We found that the duration of Y1 (covered teeth including the preparatory phase, Phase 1) did not differ from that of Y2 (uncovered teeth including the preparatory phase, Phase 1) and Y3 (uncovered teeth not including the preparatory phase) (Figure 1). Conversely, despite their morphological similarity (uncovered teeth display), Y2 and Y3 significantly differed in their duration, with Y3 being shorter than Y2 (Figure 2d). Overall, these results suggest that in Macaca tonkeana yawn durations are not necessarily dependent on the mouth‐opening degree and canine exposure.
+
+Focusing on the two forms of yawning that significantly differed in their duration (Y2 and Y3), we found that the arousal state provoked by previous aggression significantly affected the morphology of the yawn performed. Specifically, only the occurrence of Y3 (lacking the slow preparatory phase and showing canines), was positively influenced by the arousal state of the yawner (Figure 3b) and its standing/walking posture (Figure 3a). Y2 occurred more frequently when animals were involved in low locomotor activities (sitting/laying down) (Figure 3a) under relaxed contexts (Figure 3b). In Tonkean macaques, after an agonistic event, individuals tend to increase self‐directed behaviors, such as self‐scratching, self‐grooming and attention getting patterns (shaking objects and ground slapping) thus indicating that in this species aggression induce an arousal state in the subjects (Palagi et al., 2014; Pallante et al., 2018; Zannella et al., 2017). Our data provide quantitative support to previous observations on Old World monkeys in which it was anecdotally reported that yawning was often performed immediately after producing‐sound behaviors such as object shaking or stamping (Deputte, 1994; Hadidian, 1980; Thierry et al., 2000a). In Theropithecus gelada, another tolerant monkey species (Pallante et al., 2016), yawns are also variable in their morphology (Palagi et al., 2009), but an assessment of duration variability was lacking. Leone et al., (2014) found that yawns characterized by different mouth opening degrees were predictive of different emotional states. For example, the widest forms of yawing (uncovered teeth and gums), typical of males, occurred during highly tense situations. Moreover, such types of yawns were often accompanied by a loud call (preceding the yawn performance) and/or a long‐distance vocalization, thus making yawning easily detectable also in absence of physical proximity between the yawner and the receiver. In Tonkean macaques, yawns are completely silent but the strict temporal association existing between Y3 and the active production of sounds might optimize the communicative function of this type of yawning by increasing its detectability.
+
+A relationship between yawn morphology and the arousal state of the subject was also reported in the great apes (Vick & Paukner, 2010). By applying the facial action coding system analysis, these authors demonstrated that chimpanzees show different types of yawn characterized by different degrees of mouth opening (full yawns = not modified yawns; non‐full yawns = modified yawns). Modified yawns, but not full yawns, were found to be associated to subjects' arousal state that was measured via scratching rates. Unfortunately, in this study no data on the duration of yawns are reported in association to morphology.
+
+In many primate species, being involved in or witnessing a conflict can induce arousal (Aureli, 1997). One of the most iconic self‐directed behaviors used to quantify the arousal state of a subject is self‐scratching (Schino et al., 1990; Troisi et al., 1991) which has been demonstrated to increase in the post‐conflict in primate species (Eulemur fulvus, Palagi & Norscia, 2011; Papio hamadryas, Judge & Mullen, 2005; Macaca tonkeana, Palagi et al., 2014; Pallante et al., 2018; Zannella et al., 2017). Focusing on the exact minutes following an agonistic interaction, we found that both the opponents (Figure 4a) and bystanders (Figure 4b) showed a peak of Y3 during the first minute of post‐conflict observations, when the level of arousal experienced by the subjects was presumably still high (Macaca tonkeana, Palagi et al., 2014; Pallante et al., 2018). Following, from the 2nd to the 3rd minute after the conflict, the frequency of Y3 returned to baseline levels. The peak of Y3 in the first minute could indicate that yawning is an immediate arousal response after the administration of the stressful stimulus in contrast to scratching in which the frequency tends to remain above the baseline levels during the PC 5‐min block. Although this finding suggests a possible link between Y3 and post‐conflict arousal, this aspect merits further investigation considering that, to our knowledge, a minute‐by‐minute analysis of yawning in the post‐conflict period is lacking in the literature.
+
+The frequency of Y2 (yawns characterized by the preparatory phase and uncovered teeth, Figure 1) did not show any variation in the post‐conflict compared to the matched‐control period either in opponents or bystanders. According to previous literature, the uncovered tooth yawns are the most impressive visual displays making teeth completely visible and occurring preferentially during tense situations (“threat yawns” sensu Altmann, 1967). However, we showed that Y2 and Y3, two forms of yawning both characterized by teeth exposure but different durations, follow a different pattern of distribution in the post‐conflict periods.
+
+In conclusion, our study suggests that to explore the potential different functions of yawning, it is necessary to focus on the variability of its expression, not only in terms of morphology, but also in terms of duration. A possible next step would be to investigate yawn contagion as a function of the duration and morphology of triggering yawns. The possible response to others' yawns could shed light on the different communicative valences expressed by the different types of yawning stimuli.
+
+AUTHOR CONTRIBUTIONS
+
+Alessandra Zannella contributed to formal analysis (equal), investigation (equal), writing original draft (equal), and writing review and editing (equal). Roscoe Stanyon contributed to funding acquisition (equal), investigation (equal), project administration (equal), and writing review and editing (equal). Veronica Maglieri contributed to formal analysis (supporting) and methodology (supporting). Elisabetta Palagi contributed to conceptualization (lead), data curation (equal), investigation (equal), methodology (equal), supervision (equal), writing original draft (equal), and writing review and editing (equal).
+
+Supporting information
+
+Supporting information.
+
+Click here for additional data file.
+
+ACKNOWLEDGMENTS
+
+The authors would like to thank Virginia Pallante for helping in data collection, the staff of the Parc Zoologique de Thoiry (France) for allowing and facilitating this study. The work complies with current laws of Italy and France.
+
+DATA AVAILABILITY STATEMENT
+
+The data that support the findings of this study are available from the corresponding author upon reasonable request.
+
+
+REFERENCES
+
+Altmann, J. (1974). Observational study of behavior: Sampling methods. Behaviour, 49, 227–267.4597405 10.1163/156853974x00534
+Altmann, S. A. (1967). The structure of primate social communication. In S. A.Altmann (Ed.), Social communication among primates (pp. 325–362). University of Chicago Press.
+Anderson, J. R., & Wunderlich, D. (1988). Food‐reinforced yawning in Macaca tonkeana . American Journal of Primatology, 16, 165–169.31968868 10.1002/ajp.1350160207
+Aureli, F. (1997). Post‐conflict anxiety in nonhuman primates: The mediating role of emotion in conflict resolution. Aggressive Behavior: Official Journal of the International Society for Research on Aggression, 23(5), 315–328.
+Baenninger, R. (1997). On yawning and its functions. Psychonomic Bulletin and Review, 4, 198–207.21331826 10.3758/BF03209394
+Barbizet, J. (1958). Yawning. Journal of Neurology, Neurosurgery and Psychiatry, 21, 203–209.10.1136/jnnp.21.3.203 PMC497319 13576171
+Bartoń, K. (2020). MuMIn: Multi‐model inference. R package version 1.43.17. Retrieved from https://CRAN.R-project.org/package=MuMIn
+Bernstein, I., Williams, L., & Ramsay, M. (1983). The expression of aggression in Old World monkeys. International Journal of Primatology, 4(2), 113–125.
+Bretz, F., Hothorn, T., & Westfall, P. (2010). Multiple comparisons using R. CRC Press.
+Brooks, M. E., Kristensen, K., van Benthem, K. J., Magnusson, A., Berg, C. W., Nielsen, A., Skaug, H. J., Maechler, M., & Bolker, B. M. (2017). GlmmTMB balances speed and flexibility among packages for zero‐inflated generalized linear mixed modeling. The R Journal, 9, 378–400. 10.1016/j.stamet.2013.11.003
+Butovskaya, M. (2004). Social space and degrees of freedom. In B.Thierry, M.Singh, & W.Kaumanns (Eds.), Macaque societies: A model for the study of social organization (pp. 182–185). Cambridge University Press.
+Campbell, M. W., & Cox, C. R. (2019). Observational data reveal evidence and parameters of contagious yawning in the behavioral repertoire of captive‐reared chimpanzees (Pan troglodytes). Scientific Reports, 9, 13271.31519942 10.1038/s41598-019-49698-6 PMC6744492
+Darwin, C. (1872). The expression of the emotions in man and animals. University of Chicago Press.
+Demuru, E., & Palagi, E. (2012). In bonobos yawn contagion is higher among kin and friends. PLoS One, 7):e49613. 10.1371/journal.pone.0049613 23166729 PMC3498209
+Deputte, B. L. (1994). Ethological study of yawning in primates. Quantitative analysis and study of causation in two species of Old World monkeys (Cercocebus albigena and Macaca fascicularis). Ethology, 98, 221–245.
+de Waal, F. B. M., & Yoshihara, D. (1983). Reconciliation and redirected affection in rhesus monkeys. Behaviour, 85, 223–241.
+Dixson, A. F. (1977). Observations on the displays, menstrual cycles and sexual behaviour of the “Black ape” of Celebes (Macaca nigra). Journal of Zoology, 182, 63–84.
+Dobson, A. J. (2002). An introduction to generalized linear models. C.Chatfield, J.Zidek (Eds.), CRC Press Company.
+Dobson, S. D. (2012). Coevolution of facial expression and social tolerance in macaques. American Journal of Primatology, 74, 229–235.24006541 10.1002/ajp.21991
+Forstmeier, W., & Schielzeth, H. (2011). Cryptic multiple hypotheses testing in linear models: overestimated effect sizes and the winner's curse. Behavioral Ecology and Sociobiology, 65, 47–55. 10.1007/s00265-010-1038-5 21297852 PMC3015194
+Fox, J. (2016). Applied regression analysis and generalized linear models. Sage Publications.
+Fox, J., & Weisberg, S. (2019). An {R} companion to applied regression. Sage Publications.
+Gallup, A. C., Church, A. M., & Pellegrino, A. J. (2016). Yawn duration predicts brain weight and cortical neuron number in mammals. Biology Letters, 12, 20160545. 10.1098/rsbl.2016.0545 27703056 PMC5095190
+Gallup, A. C., & Eldakar, O. T. (2013). The thermoregulatory theory of yawning: What we know from over 5 years of research. Frontiers in Neuroscience, 6, 188.23293583 10.3389/fnins.2012.00188 PMC3534187
+Gothard, K. M., Erickson, C. A., & Amaral, D. G. (2004). How do rhesus monkeys (Macaca mulatta) scan faces in a visual paired comparison task? Animal Cognition, 7(1), 25–36.14745584 10.1007/s10071-003-0179-6
+Guggisberg, A. G., Mathis, J., Schnider, A., & Hess, C. W. (2010). Why do we yawn? Neuroscience and Biobehavioral Reviews, 34, 1267–1276.20382180 10.1016/j.neubiorev.2010.03.008
+Górecka‐Bruzda, A., Fureix, C., Ouvrard, A., Bourjade, M., & Hausberger, M. (2016). Investigating determinants of yawning in the domestic (Equus caballus) and Przewalski (Equus ferus przewalskii) horses. The Science of Nature, 103, 72. 10.1007/s00114-016-1395-7 PMC4992016 27542092
+Hadidian, J. (1980). Yawning in an Old World monkey, Macaca nigra (Primates: Cercopithecidae). Behaviour, 75, 133–147.
+Hartig, F. (2020). DHARMa: Residual diagnostics for hierarchical (multi‐level/mixed) regression models. R package version 0.3.3.0. Retrieved from https://CRAN.R-project.org/package=DHARMa
+Hebets, A., & Papaj, D. R. (2005). Complex signal function: developing a framework of testable hypotheses. Behavioral Ecology and Sociobiology, 57, 197–214.
+Hostetter, A. B., Russell, J. L., Freeman, H., & Hopkins, W. D. (2007). Now you see me, now you don't: Evidence that chimpanzees understand the role of the eyes in attention. Animal Cognition, 10, 55–62.16847659 10.1007/s10071-006-0031-x PMC2080772
+Judge, P. G., & Mullen, S. H. (2005). Quadratic postconflict affiliation among bystanders in a hamadryas baboon group. Animal Behaviour, 69(6), 1345–1355.
+Kaufman, A. B., & Rosenthal, R. (2009). Can you believe my eyes? The importance of interobserver reliability statistics in observations of animal behaviour. Animal Behaviour, 78, 1487–1491.
+Leavens, D. A., Hostetter, A. B., Wesley, M. J., & Hopkins, W. D. (2004). Tactical use of unimodal and bimodal communication by chimpanzees, Pan troglodytes . Animal Behaviour, 67, 467–476.
+Lehmann, H. E. (1979). Yawning: A homeostatic reflex and its psychological significance. Bulletin of the Menninger Clinic, 43(2), 123.435660
+Length, R., Buerkner, P., Herve, M., Love, J., Riebl, H., & Singmann, H. (2020). Package “emmeans”. Retrieved from https://cran.rproject.org/web/packages/emmeans/emmeans.pdf
+Leone, A., Ferrari, P. F., & Palagi, E. (2014). Different yawns, different functions? Testing social hypotheses on spontaneous yawning in Theropithecus gelada . Scientific Reports, 4, 4010. 10.1038/srep04010 24500137 PMC5379258
+Liang, A. C., Grace, J. K., Tompkins, E. M., & Anderson, D. J. (2015). Yawning, acute stressors, and arousal reduction in Nazca booby adults and nestlings. Physiology & Behavior, 140, 38–43.25498600 10.1016/j.physbeh.2014.11.029
+Lindsay, N. B. D. (1976). Celebesian black apes (Cynopithecus n. niger). Annual Report Jersey Wildlife Preservation Trust, 13, 56–61.
+Lüdecke, D., Makowski, D., & Waggoner, P. (2020). Package 'performance': Assessment of regression models performance. R package version 0.4.4. Retrieved from https://CRAN.R-project.org/package=performance
+Maestripieri, D. (1995). First steps in the macaque world: do rhesus mothers encourage their infants' independent locomotion? Animal Behaviour, 49, 1541–1549.
+Maestripieri, D. (1999). Primate social organization, gestural repertoire size, and communication dynamics: A comparative study of macaques. The origins of language: What nonhuman primates can tell us (pp. 55‐77). School of American Research Press.
+Massen, J. J., & Gallup, A. C. (2017). Why contagious yawning does not (yet) equate to empathy. Neuroscience & Biobehavioral Reviews, 80, 573–585.28735879 10.1016/j.neubiorev.2017.07.006
+Moyaho, A., & Valencia, J. (2002). Grooming and yawning trace adjustment to unfamiliar environments in laboratory sprague‐dawley rats (Rattus norvegicus). Journal of Comparative Psychology, 116, 263–269.12234076 10.1037/0735-7036.116.3.263
+Nakagawa, S., Johnson, P. C. D., & Schielzeth, H. (2017). The coefficient of determination R² and intra‐class correlation coefficient from generalized linear mixed‐effects models revisited and expanded. Journal of the Royal Society Interface, 14, 20170213.10.1098/rsif.2017.0213 PMC5636267 28904005
+Neilands, P., Claessens, S., Ren, I., Hassall, R., Bastos, A. P. M., & Taylor, A. H. (2020). Contagious yawning is not a signal of empathy: No evidence of familiarity, gender or prosociality biases in dogs. Proceedings of the Royal Society B: Biological Sciences, 287(1920), 20192236. 10.1098/rspb.2019.2236 PMC7031662 32075525
+Nickelson, S. A., & Lockard, J. S. (1978). Ethogram of Celebes monkeys (Macaca nigra) in two captive habitats. Primates, 19, 437–447.
+Norscia, I., & Palagi, E. (2011). Yawn contagion and empathy in Homo sapiens . PLoS One, 6(12), e28472.22163307 10.1371/journal.pone.0028472 PMC3233580
+Norscia, I., Zanoli, A., Gamba, M., & Palagi, E. (2020). Auditory contagious yawning is highest between friends and family members: Support to the emotional bias hypothesis. Frontiers in Psychology, 11, 442. 10.3389/fpsyg.2020.00442 32317997 PMC7147458
+Palagi, E., Dall'Olio, S., Demuru, E., & Stanyon, R. (2014). Exploring the evolutionary foundations of empathy: consolation in monkeys. Evolution and Human Behavior, 35, 341–349.
+Palagi, E., Leone, A., Mancini, G., & Ferrari, P. F. (2009). Contagious yawning in gelada baboons as a possible expression of empathy. Proceedings of the National Academy of Science, USA, 106, 19262–19267.10.1073/pnas.0910891106 PMC2780782 19889980
+Palagi, E., & Norscia, I. (2011). Scratching around stress: Hierarchy and reconciliation make the difference in prosimians. Stress, 14, 93–97.20666657 10.3109/10253890.2010.505272
+Pallante, V., Stanyon, R., & Palagi, E. (2016). Agonistic support towards victims buffers aggression in geladas (Theropithecus gelada). Behaviour, 153, 1217–1243.
+Pallante, V., Stanyon, R., & Palagi, E. (2018). Calming an aggressor through spontaneous post‐conflict triadic contacts: Appeasement in Macaca tonkeana . Aggressive Behavior, 44(4), 406–415.29665079 10.1002/ab.21761
+Provine, R. R. (1986). Yawning as a stereotyped action pattern and releasing stimulus. Ethology, 72, 109–122.
+Provine, R. R. (2012). Yawning, Curious behavior: Yawning, laughing, hiccupping, and beyond (pp. 12–38). Harvard University Press.
+Provine, R. R., & Hamernik, H. B. (1986). Yawning: Effects of stimulus interest. Bulletin of the Psychonomic Society, 24, 437–438.
+Provine, R. R., Hamernik, H. B., & Curchack, B. C. (1987b). Yawning: Relation to sleeping and stretching in humans. Ethology, 76, 152–160.
+Provine, R. R., Tate, B. C., & Geldmacher, L. L. (1987a). Yawning: no effect of 3–5% CO2, 100% O2, and exercise. Behavioral and Neural Biology, 48(3), 382–393.3120687 10.1016/s0163-1047(87)90944-7
+Rebout, N., De Marco, A., Lone, J. C., Sanna, A., Cozzolino, R., Micheletta, J., Sterck, E. H. M., Langermans, J. A. M., Lemasson, A., & Thierry, B. (2020). Tolerant and intolerant macaques show different levels of structural complexity in their vocal communication. Proceedings of the Royal Society B, 287(1928), 20200439.32517610 10.1098/rspb.2020.0439 PMC7341924
+Redican, W. K. (1975). Facial expressions in nonhuman primates. In L. A.Rosenblum (Ed.), Primate behavior (Vol. 4, pp. 103–194). Developments in Field and Laboratory Research. Academy Press.
+Reed, C., O'Brien, T. G., & Kinnaird, M. F. (1997). Male social behavior and dominance hierarchy in the Sulawesi crested black macaque (Macaca nigra). International Journal of Primatology, 18, 247–260.
+Roberts, A. I., & Roberts, S. G. (2020). Communicative roots of complex sociality and cognition. Biological Reviews, 95(1), 51–73.10.1111/brv.12553 31608566
+Romero, T., Ito, M., Saito, A., & Hasegawa, T. (2014). Social modulation of contagious yawning in wolves. PLOS One, 9(8), e105963.25162677 10.1371/journal.pone.0105963 PMC4146576
+Schino, G., Maestripieri, D., Turillazzi, P. G., & Scucchi, S. (1990). Social tension in familiar and unfamiliar pairs of long‐tailed macaques. Behaviour, 113(3‐4), 264–272.
+Schino, G. E., & Aureli, F. (1989). Do men yawn more than women? Ethology and Sociobiology, 10, 375–378.
+Scopa, C., & Palagi, E. (2016). Mimic me while playing! Social tolerance and rapid facial mimicry in macaques (Macaca tonkeana and Macaca fuscata). Journal of Comparative Psychology, 130, 153–161.27078077 10.1037/com0000028
+Thierry, B., Bynum, E. L., Baker, S., Kinnaird, M. F., Matsumura, S., Muroyama, Y., O'Brien, T. G., Petit, O., & Watanabe, K. (2000a). The social repertoire of Sulawesi macaques. Primate Research, 16, 203–226.
+Thierry, B., Iwaniuk, A. N., & Pellis, S. M. (2000b). The influence of phylogeny on the social behaviour of macaques (Primates: Cercopithecidae, genus Macaca). Ethology, 106, 713–728.
+Tomasello, M., Call, J., Nagell, K., Olguin, R., & Carpenter, M. (1994). The learning and use of gestural signals by young chimpanzees: A trans‐generational study. Primates, 35, 137–154.
+Troisi, A., Schino, G., D'Antoni, M., Pandolfi, N., Aureli, F., & D'Amato, F. R. (1991). Scratching as a behavioral index of anxiety in macaque mothers. Behavioral and Neural Biology, 56(3), 307–313.1759948 10.1016/0163-1047(91)90469-7
+Vick, S. J., & Paukner, A. (2010). Variation and context of yawns in captive chimpanzees (Pan troglodytes). American Journal of Primatology, 72, 262–269.20014109 10.1002/ajp.20781 PMC2936766
+de Vries, H., Stevens, J. M., & Vervaecke, H. (2006). Measuring and testing the steepness of dominance hierarchies. Animal Behaviour, 71(3), 585–592.
+Zannella, A., Norscia, I., Stanyon, R., & Palagi, E. (2015). Testing yawning hypotheses in wild populations of two strepsirrhine species: Propithecus verreauxi and Lemur catta . American Journal of Primatology, 77, 1207–1215.26317594 10.1002/ajp.22459
+Zannella, A., Stanyon, R., & Palagi, E. (2017). Yawning and social styles: Different functions in tolerant and despotic macaques (Macaca tonkeana and Macaca fuscata). Journal of Comparative Psychology, 131, 179–188. 10.1037/com0000062 28318293
+Zilli, I., Giganti, F., & Salzarulo, P. (2007). Yawning in morning and evening types. Physiology & Behavior, 91, 218–222.17412374 10.1016/j.physbeh.2007.02.015

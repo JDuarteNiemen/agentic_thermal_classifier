@@ -1,0 +1,18 @@
+Deciphering the conformational change and inhibition of Thermus thermophilus laccase in ionic liquid.
+
+Ionic Liquids (ILs)-assisted laccase catalysis is an emerging sustainable technique for
+biodegradation of aromatic recalcitrant. However, a defined ILs-laccase catalysis is under
+development, as ILs negatively influence laccase activity. Currently, deciphering laccase inhibition
+mechanism in ILs has been crucial to improve ILs-laccase based biodegradation. Thus, in-depth
+molecular analysis of hyperthermophilic Thermus thermophilus (TtL) laccase was studied via molecular
+dynamics simulation at low (2%) and high (10%) concentrations of ethyl-3-methylimidazolium acetate
+(EmimOAc). In EmimOAc, TtL's copper-coordinating sites and loops underwent significant fluctuation.
+Specifically, Protein Structure Network (PSN) based on cliques/communities showed notable remodeling
+of TtL's structural conformation upon acetate (OAc-) binding. At lower EmimOAc concentration, OAc-
+accumulation at TtL's active site rigidified the catalytic core and thus encountered competitive
+inhibition; the high radial distribution of the OAc- observed in 2% EmimOAc also supported this
+hypothesis. Whereas, at higher EmimOAc concentration, the TtL experienced OAc- induced
+conformational alteration at noncompetitive binding sites, thus causes maximum loss of TtL's
+activity. These speculated OAc- binding sites can be a potential mutational target for better TtL' s
+activity in EmimOAc. Overall, the molecular details of TtL's inhibition in EmimOAc were unraveled,
+thus enabling engineering of extremophilic laccase for high temperature industrial application.

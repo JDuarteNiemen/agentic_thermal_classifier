@@ -1,0 +1,14 @@
+Berberine and Lignin Coassembled Nanotubes As Multifunctional Controlled Drug Delivery System.
+
+Natural polymer-based nanocarrier-controlled drug delivery systems are of great significance for
+achieving efficient and cost-effective therapeutics. Herein, we report the fabrication of berberine
+hydrochloride (BBR) loaded lignin nanotubes (LNTs) via a coassembly process. The resulting
+nanocarriers with BBR homogeneously dispersed in the LNT matrix, with a maximum 16.48% drug loading,
+exhibit 168 h of sustained release dominated by the Fickian diffusion mechanism. Moreover, the drug
+delivery system holds photothermal activity (a temperature elevation from 29 to 45 °C within 10 min
+under 0.2 W cm-2 irradiation), antibacterial efficacy against Escherichia coli (95.3%), and
+antioxidant capacity (with a DPPH radical scavenging rate of 91.22%). The coassembled nanocarrier
+system is successfully achieved under cryogenic conditions mainly driven by π-π interactions between
+aromatic nuclei and hydrogen-bonding interactions of side chains within the lignin structure. The
+molecular interactions between BBR and lignin were elucidated to be electrostatic interactions and
+hydrogen bonding.

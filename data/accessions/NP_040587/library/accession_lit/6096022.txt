@@ -1,0 +1,11 @@
+E. coli integration host factor binds to specific sites in DNA.
+
+E. coli integration host factor (IHF) both participates directly in phage lambda site-specific
+recombination and regulates the expression of phage and bacterial genes. Using protection from
+nuclease and chemical attack as an assay, we examined the interaction of IHF with DNA. We found that
+IHF is a specific DNA binding protein that interacts with three distinct segments of attP, the
+recombination site carried by phage lambda. We also found that specific IHF binding sites are
+located in non-att DNA. Several non-att IHF binding sites that we have identified are adjacent to
+genes whose expression is altered in IHF mutants. From comparison of the sequences protected by IHF,
+we suggest that the critical determinant in specific IHF-DNA interaction is contained in the
+sequence T.PyAA...PuTTGaT.A.PuTT...PyAACtA.

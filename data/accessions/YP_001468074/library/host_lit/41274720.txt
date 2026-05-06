@@ -1,0 +1,17 @@
+Dual-enzyme-induced polymerization for the synthesis of hyperbranched, high-molecular-weight α-glucans.
+
+Branching enzymes increase the branching density of starch by cleaving internal α-1,4 linkages and
+forming new α-1,6 bonds. This effect can be further enhanced by the addition of
+4-α-glucanotransferase (4αGT). For the incubations consisting of both Rhodothermus obamensis
+branching enzyme and Thermus thermophilus 4αGT, optimization of α-1,6 glucosidic bond content is
+achieved through sequential application, whereas simultaneous application appears ineffective. We
+investigated the distinction between these two modes of enzyme application in promoting branching to
+elucidate underlying mechanistic differences. Furthermore, we demonstrate that simultaneous use of
+both enzymes enhances branching and increases molecular weight. Their concurrent activity promotes
+continuous, alternating chain elongation and branching, efficiently utilizing the low-molecular-
+weight oligosaccharides generated during the reaction. Accordingly, consistent with a chain-
+extension polymerization mechanism, there is a substantial rise in molecular weight. Time-dependent
+supplementation with exogenous α-glucan oligosaccharides further enhances this effect, yielding up
+to 80 % more product by weight than when only using the branching enzyme. This dual-enzyme
+polymerization strategy results in the synthesis of highly branched starches with tunable molecular
+weights, most effectively achieved when using both enzymes simultaneously.

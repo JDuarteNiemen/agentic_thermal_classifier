@@ -1,0 +1,10 @@
+Use of primer-restriction-end adapters in a novel cDNA cloning strategy.
+
+We introduce a class of synthetic oligonucleotides, referred to as primer-restriction-end (PRE)
+adapters, which are bifunctional, one end serving as a primer for a polymerase reaction, while the
+other end can be ligated to restriction endonuclease digested DNA. Use of such adapters forms the
+basis of a new method for inserting single-stranded cDNA into cloning vectors, which involves very
+few separate biochemical modifications of the cDNA and so is appropriate when extensive
+fractionation of cDNA is desired prior to cloning. This novel methodology is highly efficient in
+producing full-length cDNA cloned in a predictable orientation within vectors, as we demonstrate by
+constructing and analysing clones of immunoglobulin lambda light chain cDNA in Escherichia coli.

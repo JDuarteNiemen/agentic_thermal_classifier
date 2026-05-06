@@ -1,0 +1,18 @@
+Characteristics of Two Lysis-Related Proteins from a Shewanella putrefaciens Phage with High Lytic Activity and Wide Spectrum.
+
+Although Shewanella putrefaciens is the specific spoilage organism in most seafood, only seven
+Shewanella phages have been sequenced and their endolysins have not been reported until now. In this
+study, we cloned and expressed two lysis-related proteins (Spp64 and Spp62) encoded by phage Spp001,
+the first sequenced S. putrefaciens phage. Both recombinant proteins showed strong lytic capability
+toward chilled S. putrefaciens Sp225 and presented a wider activity spectrum compared with
+bacteriophage Spp001. The enzymatic activity of crude Spp64, Spp62ΔTD, and Spp62ΔTD-GST can cause
+decreases of 0.691, 0.674, and 0.685, respectively, as tested through the turbidity reduction assay.
+Furthermore, purified enzyme Spp64 at concentrations of 537.5 and 4.20 μg/mL was enough to decrease
+the optical density of chilled S. putrefaciens by 0.881 and 0.492, respectively, within 15 min. The
+recombinant Spp64 has a peptidase catalytic domain and exhibits high temperature resistance.
+Moreover, Spp64 displayed superior enzymatic activity in a range of pH values that matches
+environmental conditions (pH between 5.0 and 10.0), which demonstrates that its application in
+seafood is feasible. The present work is to our knowledge the first report on lysis-related enzymes
+encoded in the Shewanella phage. Both proteins presented extraordinary potential to control S.
+putrefaciens; we hope that these proteins can be developed as novel antibacterial agents in further
+research.

@@ -1,0 +1,14 @@
+Long range base-pairing in the leftward transcription unit of bacteriophage lambda. Characterization by electron microscopy and computer-aided sequence analysis.
+
+Restriction fragments of bacteriophage lambda DNA corresponding to the major leftward transcription
+unit were purified, denatured to form single-stranded DNA, self-annealed, and examined by electron
+microscopy. Three intrastrand stem and loop secondary structures were observed reproducibly and the
+locations of the paired regions were determined. A method for computer-aided sequence analysis of
+these regions is presented and used to identify sets of base-pairings likely to account for the
+observed structures. One loop observed within gene Ea47 is postulated to involve pairing of
+sequences which include the polypeptide initiation and termination codons. Another loop is
+postulated to involve pairing of sequences in gene int with sequences located in the gam-cIII
+region. A third loop appears to involve sequences in and to the right of gene Ea22 paired with
+sequences located in the bet-gam region. A general discussion of base-pairing which gives rise to
+long range interactions is presented along with possible effects of the postulated models on gene
+expression.

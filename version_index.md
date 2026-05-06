@@ -5,6 +5,7 @@ Comparing the outputs from various different models
 
 ## Overview
 Using the method outlined in v4 to test the accuracy of different models.
+Example dataset expanded to 60. 20 of each thermal range
 
 ## Models 
 ### qwen3.5

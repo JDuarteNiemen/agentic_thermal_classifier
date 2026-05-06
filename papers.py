@@ -192,24 +192,29 @@ def DownloadPaper(pmcid, save_dir):
 def CleanXml(xml_text: str) -> dict | None:
 
     parser = etree.XMLParser(recover=True)
-
     root = etree.fromstring(xml_text.encode(), parser)
 
-    # --- Title ---
+    # Title
     title_elem = root.find(".//ArticleTitle")
     title = "".join(title_elem.itertext()).strip() if title_elem is not None else None
 
-    # --- Abstract ---
-
+    # Abstract (more robust)
     abstract_parts = []
     for elem in root.findall(".//AbstractText"):
         text = "".join(elem.itertext()).strip()
         if text:
             abstract_parts.append(text)
-    abstract = " ".join(abstract_parts) if abstract_parts else None
+    abstract = " ".join(abstract_parts).strip() if abstract_parts else None
+
+    # Optional fallback: some records use plain Abstract node text
+    if not abstract:
+        full_abstract = root.find(".//Abstract")
+        if full_abstract is not None:
+            abstract = "".join(full_abstract.itertext()).strip() or None
+
+    # skip completely empty records
     if not title and not abstract:
         return None
-
     return {
         "title": title,
         "abstract": abstract
@@ -238,7 +243,8 @@ def WritePaper(paper, save_dir):
     width = 100
     with open(save_dir, 'w') as f:
         f.write(paper['title'] + "\n\n")
-        wrapped = textwrap.fill(paper['abstract'], width=width)
+        abstract = paper.get("abstract") or "[No abstract available]"
+        wrapped = textwrap.fill(abstract, width=width)
         f.write(wrapped)
 
 

@@ -1,0 +1,164 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Microbiol Resour Announc
+Journal ID: Microbiol Resour Announc
+Journal ID: mra
+
+Microbiology Resource Announcements
+
+EISSN: 2576-098X
+Publisher: American Society for Microbiology (ASM)
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC9584312
+PMID: 36173193
+DOI: 10.1128/mra.00908-22
+Article ID: 00908-22
+Article ID: mra.00908-22
+Article version: 1
+Subjects: Genome Sequences
+
+Complete Genome Sequences of Cluster A Mycobacteriophages Kenmech and Peterson and Cluster F Mycobacteriophage Rockne
+
+https://orcid.org/0000-0001-5606-268X Nsa Imade Y. a insa@unilag.edu.ng
+Odunsi Ayodeji A. a
+Bamisaye Seun D. a
+Kamselem Hauwa J. a
+Abidoye Shina O. a
+Jegede Abisola C. a
+Ayodele John O. a
+University of Lagos SEA-PHAGES Annotators a
+Egwuatu Tenny O. G. a
+Oyetibo Ganiyu O. a
+Ilori Matthew O. a b
+a Department of Microbiology, Faculty of Science, University of Lagos, Lagos, Nigeria
+b Institute of Maritime Studies, University of Lagos, Lagos, Nigeria
+University of Lagos SEA-PHAGES Annotators: Kenmech
+Abina Yewande T.
+Abulude Michael I.
+Ademilola Adebimpe O.
+Akala Anthony A.
+Akingbade Adetutu G.
+Akinsola Whaliat M.
+Akintobi Moyinoluwa E.
+Akintola Aisha A.
+Ejiofor Ezichukwu E.
+Iyamu Ehivbuema A.
+Olubiyo Victor O.
+Stephen Samuel
+Sulaimon Olawale F.
+Peterson:
+Aaron Daniel B.
+Adepoju Sunday B.
+Adeboyejo Oluwanifemi J.
+Aofolaju Boluwatife A.
+Bamimosu Omoniyi A.
+Evbuoma Efosa D.
+Fiyai Prere A.
+Kene Favour E.
+Latunde Comfort A.
+Osuji Williams I.
+Oyetunji Daniel A.
+Yusuf Yasiroh M.
+Rockne:
+Abubakar Muhammed A.
+Adeayo Praise S.
+Afuape Esther O.
+Mustapha Olalekan A.
+Oloko Ameenat O.
+Oluwalanke Eunice O.
+Osadolor Amenze O.
+Editor Roux Simon DOE Joint Genome Institute
+
+The authors declare no conflict of interest.
+
+Electronic publication date: 2022 Sep 29
+Publication date: 2022 Oct
+Volume: 11
+Issue: 10
+Electronic Location ID: e00908-22
+Received 2022 Sep 2; Accepted 2022 Sep 14
+Copyright: Copyright © 2022 Nsa et al.
+Copyright year: 2022
+Copyright holder: Nsa et al.
+
+License: This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International license.
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Funding: University of Lagos Central Research Committee CRC 2018/06 Nsa Imade Y. University of Lagos Central Research Committee CRC 2018/06 Egwuatu Tenny O. G. University of Lagos Central Research Committee CRC 2018/06 Oyetibo Ganiyu O. University of Lagos Central Research Committee CRC 2018/06 Ilori Matthew O.
+Figure count: 0
+Table count: 1
+Equation count: 0
+Reference count: 21
+Page count: 3
+
+cover-date: October 2022
+
+==============================
+ABSTRACT
+
+Kenmech, Peterson, and Rockne are bacteriophages that infect Mycobacterium smegmatis mc2 155. Both Kenmech and Peterson genomes are ~52 kbp long and contain 1 tRNA as well as 92 and 89 protein-coding genes, respectively. Rockne has a 56,704-bp genome with 108 protein-coding genes and no tRNA.
+
+ANNOUNCEMENT
+
+Mycobacterium smegmatis has served as a model organism for studying pathogenic Mycobacteria. Recently, bacteriophages isolated on Mycobacterium smegmatis have been used as a therapeutic to treat mycobacterial infections (1–3). The isolation and characterization of novel mycobacteriophages can therefore serve to increase our understanding of their genetic diversity as well as the repertoire of candidate phages for therapeutic use.
+
+Here, we report on mycobacteriophages Peterson and Rockne that were isolated from garden soil in Hermit, PA, and South Euclid, OH, respectively, in 2012, and Kenmech from compost-amended soil in Pittsburgh, PA, in 2020 (Table 1), using standard methods (https://seaphagesphagediscoveryguide.helpdocsonline.com/home, last accessed 15 September 2022). 7H9 liquid medium was added to soil samples and then recovered by centrifugation and filtration (0.02-μm pore size). The filtrate was either plated in top agar with Mycobacterium smegmatis mc2 155, yielding phages Peterson and Kenmech, or first inoculated with Mycobacterium smegmatis mc2 155 and incubated with shaking for approximately 48 h at 37°C before being filtered and plated in top agar containing Mycobacterium smegmatis to yield phage Rockne. All phages were purified through three rounds of plating.
+
+TABLE 1 Genome report and features of mycobacteriophages Kenmech, Peterson, And Rockne
+
+Phage	Soil collection site (GPSa coordinates)	No. of reads	Sequencing coverage (×)	Genome length (bp)	GC content (%)	Character of genome ends	Genome features	
+No. of predicted protein-coding genes	No. of genes with functional assignments	No. of tRNA genes	
+Kenmech	40.40782 N, 79.976976 W	80,953	227	52,470	63.7	3′ Sticky overhang	92	45	1	
+Peterson	41.243272 N, 80.398625 W	588,016	1,535	52,386	63.7	3′ Sticky overhang	89	41	1	
+Rockne	41.518166 N, 81.527814 W	440,492	1,060	56,704	61.4	3′ Sticky overhang	108	45	0	
+a GPS, Global Positioning System.
+
+Phage genomic DNA was extracted using the Promega Wizard DNA cleanup kit, prepared for sequencing using the Ultra II library kit v3 (New England BioLabs [NEB]), and sequenced using an Illumina MiSeq (v3 reagents) to yield 150-bp single-end reads. Genome sequences were assembled and checked for completeness using Newbler v2.9 (4) and Consed v29 (5), respectively. Sequencing details and genome characteristics are presented in Table 1.
+
+Automated annotations were performed using DNA Master v5.23.6 (http://cobamide2.bio.pitt.edu [6]), Glimmer v3.02 (7), and GeneMark v2.5 (8), and start sites were refined manually using Starterator v463 (http://phages.wustl.edu/starterator). The putative protein functions were assigned using BLASTp searches against the NCBI nonredundant database v2.13.0 (9) and the actinobacteriophages databases (http://phagesDB.org [10]), Phamerator (11), and HHPred (12). ARAGORN v1.2.41 (13) and tRNAscan-SE v2.0.9 (14) were used for tRNA and transfer-messenger RNA (tmRNA) detection, while transmembrane domains were detected using SOSUI v1.1 (15–17) and TMHMM v2.0 (18, 19). Default parameters were used for all software. Using the Gene Content Similarity (GCS) tool at the Actinobacteriophage database (https://phagesDB.org/genecontent) and based on a GCS of at least 35% to phages in the Actinobacteriophage, Kenmech and Peterson are assigned to subcluster A1 and Rockne to subcluster F1 (10, 20).
+
+Peterson and Kenmech share homologs of several putative genes, including tape measure, DNA primase, scaffolding protein, major tail protein, and a minor tail protein, whereas all three phages encode homologs of terminase large subunit and lysin B (gp13 and gp14 in Peterson).
+
+All three pages encode an immunity repressor and integrase and are therefore predicted to be temperate. Rockne encodes a tyrosine integrase, whereas Peterson and Kenmech encode serine integrases. Excise could be identified for Rockne (gp48) but not for either Peterson or Kenmech. Kenmech and Peterson encode a tRNA-Trp and tRNA-Phe, respectively, whereas Rockne encodes no tRNA as is characteristic of subcluster F1 phages (21).
+
+Data availability.
+
+This whole-genome shotgun project has been deposited at DDBJ/ENA/GenBank under the accession numbers OP021677 and SRX14483229 for Kenmech, ON970586 and SRX14483243 for Peterson, and ON970595 and SRX14483232 for Rockne. The versions described in this paper are the first versions.
+
+ACKNOWLEDGMENTS
+
+We are grateful to the University of Lagos for funding (Central Research Committee grant number 2018/06).
+
+We also thank members of the Howard Hughes Medical Institute Science Education Alliance-Phage Hunters Advancing Genomics and Evolutionary Science (SEA-PHAGES) program for their support and related training, specifically Deborah Jacobs-Sera, Daniel Russell, Rebecca Garlena, Viknesh Sivanathan, and Graham Hatfull. We acknowledge students at the University of Pittsburgh who isolated Kenmech, Hickory High School for isolating Peterson, and St. Ignatius High School for isolating Rockne as part of their participation in the SEA-PHAGES program.
+
+The list of SEA-PHAGES annotators is as follows: Yewande T. Abina, Michael I. Abulude, Adebimpe O. Ademilola, Anthony A. Akala, Adetutu G. Akingbade, Whaliat M. Akinsola, Moyinoluwa E. Akintobi, Aisha A. Akintola, Ezichukwu E. Ejiofor, Ehivbuema A. Iyamu, Victor O. Olubiyo, Samuel Stephen, Olawale F. Sulaimon (Kenmech); Daniel B. Aaron, Sunday B. Adepoju, Oluwanifemi J. Adeboyejo, Boluwatife A. Aofolaju, Omoniyi A. Bamimosu, Efosa D. Evbuoma, Prere A. Fiyai, Favor E. Kene, Comfort A. Latunde, Williams I. Osuji, Daniel A. Oyetunji, Yasiroh M. Yusuf (Peterson); Muhammed A. Abubakar, Praise S. Adeayo, Esther O. Afuape, Olalekan A. Mustapha, Ameenat O. Oloko, Eunice O. Oluwalanke, and Amenze O. Osadolor (Rockne).
+
+[This article was published on 29 September 2022 with an error in Table 1. Table 1 was updated in the current version, posted on 4 October 2022.]
+
+
+REFERENCES
+
+1 Hatfull GF. 2021. Wildy Prize Lecture, 2020–2021: who wouldn’t want to discover a new virus? Microbiology 167:2021. doi:10.1099/mic.0.001094.PMC8549241 34468308
+2 Dedrick R, Guerrero-Bustamante CA, Garlena RA, Russell DA, Ford K, Harris K, Gilmour KC, Soothill J, Jacobs-Sera D, Schooley RT, Hatfull GF, Spencer H. 2019. Engineered bacteriophages for treatment of a patient with a disseminated drug-resistant Mycobacterium abscessus. Nat Med 25:730–733. doi:10.1038/s41591-019-0437-z.31068712 PMC6557439
+3 Little JS, Dedrick RM, Freeman KG, Cristinziano M, Smith BE, Benson CA, Jhaveri TA, Baden LR, Solomon DA, Hatfull GF. 2022. Bacteriophage treatment of disseminated cutaneous Mycobacterium chelonae infection. Nat Commun 13:2313. doi:10.1038/s41467-022-29689-4.35504908 PMC9064978
+4 Miller JR, Koren S, Sutton G. 2010. Assembly algorithms for next generation sequencing data. Genomics 95:315–327. doi:10.1016/j.ygeno.2010.03.001.20211242 PMC2874646
+5 Gordon D, Abajian C, Green P. 1998. Consed: a graphical tool for sequence finishing. Genome Res 8:195–202. doi:10.1101/gr.8.3.195.9521923
+6 Pope WH, Jacobs-Sera D. 2018. Annotation of bacteriophage genome sequences using DNA master: an overview. Methods Mol Biol 1681:217–229. doi:10.1007/978-1-4939-7343-9_16.29134598
+7 Delcher AL, Bratke KA, Powers EC, Salzberg SL. 2007. Identifying bacterial genes and endosymbiont DNA with Glimmer. Bioinformatics 23:673–679. doi:10.1093/bioinformatics/btm009.17237039 PMC2387122
+8 Besemer J, Borodovsky M. 2005. GeneMark: Web software for gene finding in prokaryotes, eukaryotes and viruses. Nucleic Acids Res 33:W451–W454. doi:10.1093/nar/gki487.15980510 PMC1160247
+9 Altschul SF, Madden TL, Schaffer AA, Zhang J, Zhang Z, Miller W, Lipman DJ. 1997. Gapped BLAST and PSI-BLAST: a new generation of protein database search programs. Nucleic Acids Res 25:3389–3402. doi:10.1093/nar/25.17.3389.9254694 PMC146917
+10 Russell DA, Hatfull GF. 2017. PhagesDB: the actinobacteriophage database. Bioinformatics 33:784–786. doi:10.1093/bioinformatics/btw711.28365761 PMC5860397
+11 Cresawn SG, Bogel M, Day N, Jacobs-Sera D, Hendrix RW, Hatfull GF. 2011. Phamerator: a bioinformatic tool for comparative bacteriophage genomics. BMC Bioinformatics 12:395. doi:10.1186/1471-2105-12-395.21991981 PMC3233612
+12 Söding J, Biegert A, Lupas AN. 2005. The HHpred interactive server for protein homology detection and structure prediction. Nucleic Acids Res 33:W244–W248. doi:10.1093/nar/gki408.15980461 PMC1160169
+13 Laslett D, Canback B. 2004. ARAGORN, a program to detect tRNA genes and tmRNA genes in nucleotide sequences. Nucleic Acids Res 32:11–16. doi:10.1093/nar/gkh152.14704338 PMC373265
+14 Lowe TM, Eddy SR. 1997. tRNAscan-SE: a program for improved detection of transfer RNA genes in genomic sequence. Nucleic Acids Res 25:955–964. doi:10.1093/nar/25.5.955.9023104 PMC146525
+15 Hirokawa T, Boon-Chieng S, Mitaku S. 1998. SOSUI: classification and secondary structure prediction system for membrane proteins. Bioinformatics 14:378–379. doi:10.1093/bioinformatics/14.4.378.9632836
+16 Mitaku S, Hirokawa T. 1999. Physicochemical factors for discriminating between soluble and membrane proteins: hydrophobicity of helical segments and protein length. Protein Eng 12:953–957. doi:10.1093/protein/12.11.953.10585500
+17 Mitaku S, Hirokawa T, Tsuji T. 2002. Amphiphilicity index of polar amino acids as an aid in the characterization of amino acid preference at membrane-water interfaces. Bioinformatics 18:608–616. doi:10.1093/bioinformatics/18.4.608.12016058
+18 Krogh A, Larsson B, von Heijne G, Sonnhammer ELL. 2001. Predicting transmembrane protein topology with a hidden Markov model: application to complete genomes. J Mol Biol 305:567–580. doi:10.1006/jmbi.2000.4315.11152613
+19 Sonnhammer ELL, von Heijne G, Krogh A. 1998. A hidden Markov model for predicting transmembrane helices in protein sequences, p 175–182. In Glasgow J, Littlejohn T, Major F, Lathrop R, Sankoff D, Sensen C, (ed), Proceedings of the Sixth International Conference on Intelligent Systems for Molecular Biology. AAAI Press, Menlo Park, CA.9783223
+20 Pope WH, Mavrich TN, Garlena RA, Guerrero-Bustamante CA, Jacobs-Sera D, Montgomery MT, Russell DA, Warner MH, Hatfull GF, Science Education Alliance-Phage Hunters Advancing Genomics and Evolutionary Science (SEA-PHAGES). 2017. Bacteriophages of Gordonia spp. display a spectrum of diversity and genetic relationships. mBio 8:e01069-17. doi:10.1128/mBio.01069-17.28811342 PMC5559632
+21 Hatfull GF, Jacobs-Sera D, Lawrence JG, Pope WH, Russell DA, Ko CC, Weber RJ, Patel MC, Germane KL, Edgar RH, Hoyte NN, Bowman CA, Tantoco AT, Paladin EC, Myers MS, Smith AL, Grace MS, Pham TT, O'Brien MB, Vogelsberger AM, Hryckowian AJ, Wynalek JL, Donis-Keller H, Bogel MW, Peebles CL, Cresawn SG, Hendrix RW. 2010. Comparative genomic analysis of 60 Mycobacteriophage genomes: genome clustering, gene acquisition, and gene size. J Mol Biol 397:119–143. doi:10.1016/j.jmb.2010.01.011.20064525 PMC2830324

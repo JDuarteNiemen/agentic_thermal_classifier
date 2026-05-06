@@ -1,0 +1,22 @@
+Uncovering Key Characteristics of Antibacterial Peptides through Machine Learning.
+
+Antimicrobial peptides (AMPs) have emerged as promising alternatives to traditional antibiotics in
+addressing the growing threat of multi-drug-resistant (MDR) bacteria-a crisis that could lead to
+millions of deaths over the next three decades if left unaddressed. While the general role of
+cationic and hydrophobic interactions in AMP-mediated bacterial killing is well established, the
+distinctions between structural characteristics of AMPs targeting different types of bacteria remain
+underexplored. To address this issue and streamline the design of potent AMPs depending on the
+bacterial structure, machine learning (ML) models were employed on AMPs targeting Gram-negative
+bacteria (Pseudomonas aeruginosa PAO1), Gram-positive bacteria (Staphylococcus aureus ATCC 29213),
+and mycobacteria (Mycobacterium tuberculosis H37Rv and Mycobacterium smegmatis mc2 155) to derive
+important features that determine antimicrobial efficacy. The Random Forest models mainly reveal
+that AMPs with a cLogP of less than -6 and a net-charge limited to +4 with variations of the
+hydrophobic composition in between 20%-50% (20%-40% against P. aeruginosa PAO1, 30%-50% against S.
+aureus ATCC 29213, 35%-45% against M. tuberculosis H37Rv and M. smegmatis mc2 155) and variations of
+the cationic composition in between 10%-40% (10%-20% against P. aeruginosa PAO1, 30%-40% against S.
+aureus ATCC 29213, 10%-30% against M. tuberculosis H37Rv and M. smegmatis mc2 155) predicts
+significant antibacterial activity. The feature characteristics of the three bacterial types may
+directly relate to their distinct cell envelope structures and aid in mode of action postulation.
+This work demonstrates how ML can effectively inform AMP design by accounting for microbial
+structural differences and underscores its broader potential in customizing peptides for specific
+bacterial strains.

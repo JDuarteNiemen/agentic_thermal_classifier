@@ -1,0 +1,14 @@
+Bacterial-Derived C6-HSL Regulates Lignin Synthesis and Enhances Disease Resistance in Apple (Malus domestica) by Targeting and Degrading MdWRKY22.
+
+Pseudomonas chlororaphis H2Q4 can induce systemic resistance in plants; however, the molecular
+mechanisms remain unclear. In this study, we found that the N-hexanoyl-L-homoserine lactone (C6-HSL)
+secreted by H2Q4 would upregulate the expression of phenylpropanoid biosynthesis genes and enhance
+the resistance of apples to Cytospora mali. Furthermore, histochemical staining revealed a
+significant increase in lignin deposition in the C6-HSL-treated apple leaves. Biochemical assays
+revealed that C6-HSL can bind to MdWRKY22, a negative regulator of lignin biosynthesis and C. mali
+resistance, and promote its degradation in vivo. DNA affinity purification sequencing (DAP-seq) and
+luciferase (LUC) assay revealed that MdWRKY22 binds to the promoter of apple mannitol dehydrogenase
+(MdMTD) and activates its transcription. The apple transient transformation experiment indicates
+that MdMTD has a negative regulatory effect on lignin biosynthesis and disease resistance.
+Collectively, C6-HSL reduces the transcription of MdMTD by degrading MdWRKY22, thereby enhancing the
+accumulation of lignin and disease resistance in apple.

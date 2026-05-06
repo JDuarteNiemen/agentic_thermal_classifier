@@ -1,0 +1,15 @@
+Thermosensitivity of a DNA recognition site: activity of a truncated nutL antiterminator of coliphage lambda.
+
+Antitermination is an important transcriptional control. In bacteriophage lambda, the presence of
+the nut antiterminators between the promoters and terminators results in relatively unhindered
+transcription when the lambda N gene product and necessary host factors are supplied. This
+antitermination system has been rendered thermosensitivity by modification of the nut site. A
+fragment of lambda DNA [74 base pairs (bp) in length]that contained the 17-bp nutL core sequence,
+but lacked the 8-bp boxA sequence, was cloned in a pp-N-tL1-galK plasmid between the pp promoter and
+gene N. This fragment mediated antitermination of transcription at 30 degrees C, as measured by
+assaying galK gene expression in Escherichia coli. At 42 degrees C, however, antitermination at the
+lambda tL1 terminator was abolished. Antitermination at 42 degrees C was restored by replacing the
+74-bp nutL fragment with longer sequences containing both nutL and boxA or by cloning a synthetic
+boxA sequence ahead of the 74-bp nutL fragment. Thus, efficient antitermination required both boxA
+and the 17-bp nutL core, with the latter becoming conditionally defective when the boxA sequence was
+deleted.

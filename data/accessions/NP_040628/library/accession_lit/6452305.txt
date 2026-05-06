@@ -1,0 +1,8 @@
+DNA sequence analysis of prm-mutations of coliphage lambda.
+
+Nucleotide sequence changes associated with mutation of the prm promoter of bacteriophage lambda
+have been determined. Prm-mutations have been assigned to two classes. Class I mutations appear to
+affect the interaction of RNA polymerase with prm; six class I mutations affect four sites, located
+14, 33, 38, and 39 bp preceding the prm transcription startpoint. Class II mutations appear to owe
+their Prm-phenotype to a change in OR, which could prevent activation of prm by repressor. All three
+class II mutations are in OR 1.

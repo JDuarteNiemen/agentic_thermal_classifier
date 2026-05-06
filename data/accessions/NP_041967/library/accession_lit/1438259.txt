@@ -1,0 +1,15 @@
+Roles of bacteriophage T7 gene 4 proteins in providing primase and helicase functions in vivo.
+
+The helicase and primase activities of bacteriophage T7 are distributed between the 56- and 63-kDa
+gene 4 proteins. The 56-kDa gene 4 protein lacks 63 amino acids found at the N terminus of the
+colinear 63-kDa protein and catalyzes helicase activity. The 63-kDa gene 4 protein catalyzes both
+primase and helicase activities. A bacteriophage deleted for gene 4, T7 delta 4-1, has been tested
+for growth by complementation on Escherichia coli strains that contain plasmids expressing either
+one or both of the gene 4 proteins. T7 delta 4-1 cannot grow (efficiency of plating, 10(-7)) on E.
+coli cells that express only 56-kDa gene 4 protein. In contrast, T7 delta 4-1 has an efficiency of
+plating of 0.1 on an E. coli strain that expresses only 63-kDa gene 4 protein in which glycine is
+substituted for methionine at position 64. A bacteriophage, T7 4B-, in which methionine at residue
+64 is replaced by glycine, expresses only 63-kDa gene 4 protein. The burst sizes, latency periods,
+and Okazaki fragment sizes of T7 4B- are similar in the presence and absence of the 56-kDa gene 4
+protein; however, T7 4B- has a reduced rate of DNA synthesis when compared with a phage that
+synthesizes both gene 4 proteins.

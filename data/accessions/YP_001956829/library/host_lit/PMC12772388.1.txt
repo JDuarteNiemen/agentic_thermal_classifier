@@ -1,0 +1,303 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Microbiol Spectr
+Journal ID: Microbiol Spectr
+Journal ID: spectrum
+
+Microbiology Spectrum
+
+EISSN: 2165-0497
+Publisher: American Society for Microbiology (ASM)
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC12772388
+PMID: 41277857
+DOI: 10.1128/spectrum.02706-25
+Article ID: spectrum02706-25
+Article ID: spectrum.02706-25
+Article version: 1
+Subjects: Research Article
+
+Multifaceted antifungal mechanisms of volatile organic compounds emitted from Pseudomonas chlororaphis ZL3 against Botrytis cinerea
+
+https://orcid.org/0000-0003-0044-3955 Wang Chunwei 1 Conceptualization Investigation 3
+Su Yaxin 1 Formal analysis Investigation Methodology
+Miao Wenyan 1 Investigation Methodology
+Jin Ziyu 1 Investigation Methodology
+Duan Tiankun 1 Data curation Formal analysis
+Wang Meiqin 1 Validation
+https://orcid.org/0000-0002-6888-5402 Wang Yan 1 Funding acquisition Project administration Supervision Writing – review and editing yan314319@163.com
+1 Shanxi Key Laboratory of Bioagent Utilization and Eco-Pesticide Innovation, College of Plant Protection, Shanxi Agricultural University 74600 https://ror.org/05e9f5362 , Taigu , Shanxi , PR China
+Editor Burbank Lindsey Price USDA-ARS San Joaquin Valley Agricultural Sciences Center , Parlier, California, USA
+
+Address correspondence to Yan Wang, yan314319@163.comThe authors declare no conflict of interest.
+
+Publication date: 2026 Jan
+Electronic publication date: 2025 Nov 24
+Volume: 14
+Issue: 1
+Electronic Location ID: e02706-25
+Received 2025 Aug 28; Accepted 2025 Oct 16
+Copyright: Copyright © 2025 Wang et al.
+Copyright year: 2025
+Copyright holder: Wang et al.
+
+License: This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International license.
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Keywords: Pseudomonas chlororaphis, volatile organic compounds, antifungal mechanism, Botrytis cinerea, transcriptomics, metabolomics
+
+Funding: Earmarked Fund for Modern Agro-industry Technology Research System of Shanxi Province 2025CYJSTX16-ZYC22 Wang Yan
+Count: 5
+Count: 7
+Figure count: 7
+Reference count: 53
+Page count: 16
+
+cover-date: January 2026
+
+==============================
+ABSTRACT
+
+To develop an effective approach to inhibit Botrytis cinerea, a new biocontrol strain, Pseudomonas chlororaphis ZL3, was screened and exhibited excellent biocontrol potential. Nevertheless, the antifungal mechanism of P. chlororaphis volatile organic compounds (VOCs) against B. cinerea is still unclear. In this study, VOCs emitted from P. chlororaphis ZL3 were found to have potent inhibitory effects on mycelium growth, conidia germination, and sclerotium formation. Subsequently, the antifungal mechanism was revealed via the biophysical, transcriptomic, and metabolomic analysis. Compared to the control groups, the relative conductivities increased dramatically, while the ergosterol content decreased sharply, determining that VOCs could enhance cell membrane permeability and destroy cell membrane integrity. Additionally, VOCs could also inhibit ATPase activity and reduce reactive oxygen species (ROS) accumulation, thereby adversely interfering with energy metabolism. The superoxide dismutase (SOD) and catalase (CAT) activities were significantly reduced in B. cinerea mycelia, presenting the impairment of the antioxidant defense mechanism. Furthermore, most of the differential expression genes (DEGs) were involved in lipid metabolism, membrane transport, energy production, and conversion, indicating that the VOCs might affect the structure and function of cell membranes and energy metabolism. The differential metabolites were mainly involved in the alteration of amino acid metabolism and lipid metabolism. Together, these findings provide valuable insights into the molecular responses of B. cinerea to P. chlororaphis ZL3 VOCs and support the potential development of novel biological fumigants.
+
+IMPORTANCE
+
+Biological control is a sustainable alternative way for the control of gray mold. The volatile organic compounds emitted from Pseudomonas chlororaphis ZL3 had high inhibitory activity against Botrytis cinerea, but the antifungal mechanism is largely unknown. This study attempted to interpret the comprehensive antifungal mechanism, providing a theoretical foundation for the application of volatile organic compound (VOC)-mediated biological fumigants in the future.
+
+INTRODUCTION
+
+As one of the most destructive plant pathogens, Botrytis cinerea could infect more than 1,400 plant species (belonging to 600 plant genera), including vegetables, fruits, and ornamentals, during the growth and postharvest storage period (1, 2). B. cinerea, a necrotrophic fungal pathogen, causes large masses of gray conidia known as gray mold and was found to be associated with various diseases, such as root rot, blossom blight, leaf spot, fruit decay, and stem canker worldwide (3, 4). Due to its short life cycle, broad host range, and high sporulation ability, B. cinerea is usually involved in perishable fresh agricultural food and has proved to be responsible for considerable economic losses of more than €1 billion per annum (1, 3).
+
+To avoid the risks of severe damage, chemical controls have been widely applied to prevent B. cinerea infection and reduce the microbial dissemination (1). Currently, chemical fungicides have always been used to suppress the occurrence of gray mold in the field (5). However, frequent use of chemicals has high risks to cause environmental pollution, ecosystem destruction, animal and human health hazards, and pathogen resistance (6, 7). It is a difficult issue to reduce the consumption of chemicals worldwide (8). Hence, it is of great urgency to develop non-chemical strategy alternatives to chemical in the controlling of gray mold.
+
+Recently, biological control might be regarded as a sustainable alternative way for controlling gray mold because of the high antifungal ability, ecological security, and environmental compatibility (7, 9, 10). A lot of antagonistic microorganisms have the potential to control crop gray mold (11–13). Among these antagonistic microorganisms, Pseudomonas species could play a critical role in the management of gray mold based on the various mechanisms, including inhibition of pathogen growth, production of antimicrobial substances, and induction of plant resistance (8, 14–16).
+
+Nowadays, microbial volatile organic compounds (mVOCs), the odorous molecules with low-molecular-weight (<300 Da), are found to be easily dispersed through air and water and have attracted great attention in the inhibition of fungal growth and disease development (9, 17). Moreover, the microbial VOCs have excellent biocontrol efficacy, remain little residual risk on the surface of crops, and might be classified as important beneficial biocontrol agents for the suppression of gray mold (8, 9, 12). The microbial VOCs were also found to have multiple advantages, including less pollution to the environment, low toxicity, and high antifungal activities (18). It is generally acknowledged that microbial VOCs could play essential roles in inhibiting B. cinerea, causing gray mold, and have increasingly gained a lot of attention worldwide (8, 19). Previous works also demonstrated that Pseudomonas species can emit antifungal VOCs (8, 20–22). In our prior work, a new biocontrol strain, Pseudomonas chlororaphis ZL3, was isolated from Chinese cherry fruit (19). Nevertheless, to our knowledge, antifungal mechanisms of the VOCs from P. chlororaphis against B. cinerea still remain largely unknown.
+
+Multi-omics, including transcriptomics and metabolomics, has proven to be an effective approach to understanding the gene expression level and metabolic accumulation of the plant pathogens treated with antagonistic microorganisms over the last decade (7, 23, 24). Transcriptomics technology has been extensively used in revealing the antifungal mechanisms of biocontrol strains against plant pathogens at the molecular level (7). Metabolomics, regarded as an advanced omics technology, has been applied to comprehensively analyze the metabolites in biochemical processes between beneficial and pathogenic microorganisms (25). In this work, an integrated analysis of transcriptomics and metabolomics will be conducted to understand the antifungal molecular mechanism of P. chlororaphis ZL VOCs.
+
+Herein, this work aimed to comprehensively elucidate the systematic antifungal mechanism of VOCs from P. chlororaphis ZL3 against B. cinerea based on biophysical, transcriptomic, and metabolomic levels, which will be beneficial to interpret the molecular responses of B. cinerea to the VOCs and would be helpful for the exploitation of VOC-mediated biological fumigants.
+
+MATERIALS AND METHODS
+
+Plant pathogen and biocontrol strain
+
+B. cinerea isolate YT1 was isolated from the postharvest gray mold on Chinese Cherry using the tissue isolation method and identified based on its morphological characteristics and internal transcribed spacer and DNA-dependent RNA polymerase subunit II (RPB2). Strain YT1 was stored on potato dextrose agar (PDA) medium at 4°C. P. chlororaphis strain ZL3, originally isolated from Chinese cherry fruit, was stored at −80°C and transferred into Luria-Bertani (LB) medium before use (19). All the strains in this work were maintained at 4°C.
+
+Antifungal effects of P. chlororaphis ZL3 VOCs on B. cinerea
+
+The effects of P. chlororaphis ZL3 VOCs on mycelium growth, conidium germination, and sclerotium formation of B. cinerea were investigated using a double Petri-dish assay previously reported by Alijani et al. (26) and Wang et al. (9). Each treatment was replicated three times. Bacterial suspension was prepared in sterile LB medium at a concentration of 107 colony-forming units (CFU). Subsequently, 100 µL of the suspension was added to a nutrient agar (NA) plate. Correspondingly, a B. cinerea plug (6 mm in diameter) was transferred to the center of the PDA plate. Subsequently, the tested NA and PDA plates were tightly sealed with parafilm and then incubated at 25°C. The NA plate without bacterial suspension was used as a control. The colony diameters of each treatment were measured at 1, 2, 3, and 4 days after inoculation (9). The inhibition rates were determined according to the formula (Cd − Td) × 100%/(Cd − C0), where Cd and Td represent the colony diameter of the control and treatment, respectively, and C0 represents the diameter of the mycelial plug (18). To determine the inhibition effects of the VOCs on sclerotium formation, the sclerotium quantity and weight were measured at 20 days after inoculation.
+
+For the evaluation of the effects of VOCs on the conidium germination, 100 µL of conidium suspension (106 conidia/mL) was inoculated on a water agar (WA) plate, whereas 100 µL of bacterial suspension was placed on an NA plate. Next, the tested WA and NA plates were tightly sealed with parafilm. After incubation at 25°C for 6 h, the conidium germination percentages were calculated based on the observation of 100 conidia (27). Moreover, the mycelium morphology of B. cinerea was further observed under the stress of VOCs (9). The morphological changes of B. cinerea were examined using a JSM-6490LV scanning electron microscopy (SEM, JEOL Ltd., Japan).
+
+Effects of P. chlororaphis ZL3 VOCs on mycelia plasma membrane
+
+Mycelium plasma membrane was investigated as described by Ashraf and Ali (28) and Duan et al. (29). Firstly, a B. cinerea plug (6 mm in diameter) was transferred into 100 mL of PDB medium. After incubation at 180 r/min and 25°C for 2 days, B. cinerea mycelia were filtered through sterile gauze and washed with 1 mM phosphate-buffered saline (PBS) solution (pH 7.4). Next, the tested mycelia (0.5 g) was placed in 100 mL of sterile water. Above the liquid surface, a sterile lid containing 100 µL of the bacterial inoculum (1 × 106 CFU/mL) was used to treat the mycelia. The mycelium cultures were treated with sterile water as controls. After incubation at 180 r/min and 25°C for 2, 4, 6, 8, and 16 h, the conductivity of B. cinerea mycelium was assessed by a DDSJ-308A conductivity meter (Shanghai INESA Scientific Instrument Co., Ltd., China). Relative conductivity was calculated as Relative conductivity % = (L − L0)/(L1 − L0), where L is the conductivity at different intervals, L0 is the initial conductivity, and L1 represents the conductivity of mycelia autoclaved at 121°C for 20 min. Each treatment was replicated three times.
+
+The ergosterol content was also estimated using the modified method (30). Briefly, B. cinerea mycelia were treated using a double Petri-dish assay as described in Section “Antifungal effects of P. chlororaphis ZL3 VOCs on B. cinerea” and collected at 4, 5, and 6 days after treatment with P. chlororaphis ZL3 VOCs. B. cinerea mycelia were washed with sterile water for wet weight determination. Next, the tested sample was resuspended in potassium hydroxide ethanol solution, vortexed for 2 min, and then treated at 85°C for 4 h. Then, 1 mL of sterile distilled water and 3 mL of heptane were added to extract the ergosterol and incubated for 1 h. Lastly, the absorbance of the heptane phase at 230 and 282 nm was determined using a UV-Spectrophotometer. The ergosterol content was calculated based on the formula described by Yue et al. (8): Ergosterol (%) = (A282/290)/weight − (A230/518)/weight.
+
+Effects of P. chlororaphis ZL3 VOCs on protein concentration, ATPase, SOD, CAT, PG, β-1, 3-GA, and CHI activities
+
+A 6 mm mycelial plug was transferred into 100 mL of PDB medium and shaken at 180 r/min at 25°C for 36 h. Next, a sterile lid containing 100 µL of bacterial inoculum (1 × 106 CFU/mL) was suspended above the liquid surface. After shaking at 180 r/min at 25°C for 1, 2, 3, 4, and 5 days, B. cinerea mycelia were filtered through sterile gauze. Next, superoxide dismutase (SOD), catalase (CAT), polygalacturonase (PG), β-1,3-glucanase (GA), and chitinase (CHI) activities were measured using the corresponding SOD (catalog no. BC0175), CAT (catalog no. BC0205), PG (catalog no. BC2665), GA (catalog no. BC0365), and CHI (catalog no. BC0825) activity assay kits (Solarbio Life Sciences, Beijing, China). B. cinerea mycelia were also treated using a double Petri-dish assay as described in Section “Antifungal effects of P. chlororaphis ZL3 VOCs on B. cinerea.” Total protein concentration was determined using the biuret method (31). ATPase was detected using available kits (Beijing Solarbio Science & Technology Co., Ltd., China).
+
+Effects of VOCs from P. chlororaphis ZL3 on DNA content and ROS accumulation
+
+After treatment with P. chlororaphis ZL3 VOCs for 5 days, the DNA contents and reactive oxygen species (ROS) levels in B. cinerea mycelia were measured using the method described by Ma et al. (32) and Duan et al. (29) with some modifications. Acridine orange (AO) was considered a biological fluorescent probe for the assessment of DNA content (33). The fluorescent dye 2′,7′-dichlorofluorescein diacetate (DCFH-DA) was widely used to determine ROS accumulation (29, 32). The fungal mycelia collected from the VOCs treatments and control groups were stained with 0.1% AO and 5 µg/mL DCFH-DA dye in the dark and incubated at 30 and 60 min, respectively. Subsequently, the stained mycelia were washed with PBS three times. The effects of the VOCs on DNA content and ROS levels were determined using a TCS SP8 confocal laser scanning microscope (CLSM, Leica, Mannheim, Germany).
+
+Transcriptome analysis
+
+A B. cinerea mycelial disc was placed onto a PDA plate. The PDA plate was treated with 100 µL of P. chlororaphis ZL3 bacterial inoculum (1 × 106 CFU/mL) using a double Petri-dish assay as described in Section “Antifungal effects of P. chlororaphis ZL3 VOCs on B. cinerea.” A 100 µL of sterile LB medium was used as a control. After incubation at 23°C for 4 days, 100 mg of mycelia were collected from PDA cultures, placed into a 1.5 mL tube, followed by treatment with liquid nitrogen. Next, total RNA was subsequently extracted using TRIzol Reagent (Invitrogen, California, USA). Subsequently, 1 µg of total RNA was used to construct an RNA-seq transcriptome library using Illumina Stranded mRNA Prep, Ligation (San Diego, California, USA), and then sequenced using NovaSeq Reagent Kit (Illumina, San Diego, California, USA) at the NovaSeq 6000 platform.
+
+Differential expression analysis was performed by DESeq2 software (23). Next, all differential expression genes (DEGs) were subjected to the Gene Ontology (GO) database for GO enrichment analysis (8). Furthermore, Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analysis was performed by Python scipy software. The quantitative reverse transcription polymerase chain reaction (qRT-PCR) method was used to evaluate the gene expression of eight DEGs. The qRT-PCR primer sets are shown in Table S1. The experiment for qRT-PCR shared the same total RNA as the transcriptome analysis above. The gene expression levels were calculated using the 2−ΔΔCT method described by Schmittgen and Livak (34). Each experiment contained three biological replicates.
+
+Metabolomic analysis
+
+B. cinerea mycelia were prepared for metabolomic analysis. Firstly, 100 mg of fungal mycelia and 400 µL of methanol: water (4:1, vol/vol) solution were added to a 2 mL centrifuge tube. L-2-chlorophenylalanine (0.02 mg/mL) was added as an internal standard. Next, the mixture was settled at −10°C and ground by using a Wonbio-96c high-throughput tissue crusher at 50 Hz for 6 min. Subsequently, the sample was allowed for ultrasound at 40 kHz for 30 min at 5°C, placed at −20°C for 30 min, and centrifuged at 13,000 × g at 4°C for 15 min. The supernatant was used for further metabonomic analysis.
+
+An UHPLC-Q Exactive system coupled with an HSS T3 chromatography column (100 mm × 2.1 mm i.d., 1.8 µm) was used to detect metabolites. The HPLC mobile phase was composed of 0.1% formic acid in water:acetonitrile (95:5, vol/vol) and 0.1% formic acid in acetonitrile: isopropanol:water (47.5:47.5:5, vol/vol). Mass spectrometer coupled with an ionization (ESI) source was operated based on a full scan of 70–1,050 m/z. The data acquisition was carried out using Data Dependent Acquisition mode.
+
+Data analysis
+
+In this study, each treatment included three replications, and each experiment was repeated twice. The experimental data were expressed as mean ± standard deviation (SD). A statistically significant difference was conducted by one-way analysis of variance based on Duncan’s multiple range test at P < 0.05 using SPSS Statistics 26.0 (IBM Corporation, New York, USA). The sequencing data of transcriptome and metabolome analyses were performed via a one-stop online analytic platform, Majorbio Cloud (https://cloud.majorbio.com/).
+
+RESULTS
+
+Inhibition effects of the VOCs on B. cinerea
+
+The inhibition effects of P. chlororaphis ZL3 VOCs on B. cinerea were shown in Fig. 1. Mycelial growth was significantly inhibited by the VOCs (P < 0.05), with the colony diameters ranging from 18.83 to 19.67 mm (Fig. 1A and C). Conidia germination rate of the VOCs treatment (0.31%) was significantly lower than the control (P < 0.05, Fig. 1B and D). Furthermore, the sclerotium numbers in VOCs treatment were only six, with a weight of 0.02 g, which exhibited a significant difference (P < 0.05, Fig. 1B and E). For further verification of the inhibition effect, B. cinerea mycelia were also observed by using SEM. In the control group, B. cinerea mycelia were normal and cylindrical hyphae. However, many distorted and collapsed fungal mycelia were found in the VOCs treatment (Fig. 1F).
+
+Fig 1 Antifungal effects of P. chlororaphis ZL3 VOCs on B. cinerea. (A) Effects of the VOCs on mycelial growth. (B) Effects of the VOCs on spore germination and sclerotium weight. (C) Mycelial growth of B. cinerea treated with the VOCs for 4 days. (D) Spore germination of B. cinerea treated with the VOCs for 6 h. (E) Sclerotium size and number of B. cinerea treated with the VOCs for 20 days. (F) Mycelial morphology of B. cinerea treated with the VOCs for 7 days. Each treatment included three replications, and each experiment was repeated twice. Values were expressed as mean ± standard deviation. Significant differences to control are marked with different letters via Duncan’s multiple range test (P < 0.05).
+
+Grouped bar and microscopy comparison of fungal growth under control and treatment. Treatment significantly reduces colony diameter, germination rate, sclerotium formation, and mycelial density across all observations.
+
+Effects of the VOCs on mycelia plasma membrane and protein concentration
+
+Extracellular conductivity has been used to evaluate the extent of mycelial plasma membrane damage (29). The relative conductivities significantly increased in VOC treatments (P < 0.05, Fig. 2A). Within 5 and 6 days, the relative ergosterol contents were significantly lower than those in controls (P < 0.05). In particular, the relative ergosterol contents were significantly reduced by 61.43% (P < 0.05, Fig. 2B). After 6 days of inoculation, the protein concentrations in VOC treatments were significantly lower than those in control groups (P < 0.05, Fig. 2C).
+
+Fig 2 Effects of the VOCs released from P. chlororaphis ZL3 on the mycelial cell membrane, protein concentration. (A) Relative conductivity; (B) ergosterol relative content; (C) protein concentration. Each treatment included three replications, and each experiment was repeated twice. Values were presented as mean ± standard deviation. Significant differences to control are marked with different letters via Duncan’s multiple range test (P < 0.05).
+
+Three bar charts compare control and treatment effects. Treatment increases relative conductivity over time while reducing ergosterol and protein concentrations, indicating inhibited fungal growth and metabolic activity.
+
+Effects of the VOCs on ATPase, SOD, CAT, PG, β-1, 3-GA, and CHI activities
+
+ATPase activities were significantly trended downward in VOCs treatments at 3 and 4 days after inoculation (P < 0.05, Fig. 3A). SOD and CAT activities were reduced in B. cinerea mycelia treated with the VOCs (Fig. 3B and C). In particular, the SOD activities significantly decreased to 48.3% at 4 days after treatment (P < 0.05, Fig. 3B). CAT activities significantly decreased during 0 and 3 days (P < 0.05, Fig. 3C). Most of the PG and β-1,3-GA activities exhibited no significant differences between VOCs treatment and control (Fig. 3D and E). Particularly, CHI activities in VOC treatments significantly decreased to 41.1% at 5 days after treatment (P < 0.05, Fig. 3F).
+
+Fig 3 Effect of the VOCs released from P. chlororaphis ZL3 on enzymatic activities. (A) ATPase; (B) SOD; (C) CAT; (D) PG; (E) β-1,3-GA; and (F) CHI. Each treatment included three replications, and each experiment was repeated twice. Values were presented as mean ± standard deviation. Significant differences to control are marked with different letters via Duncan’s multiple range test (P < 0.05).
+
+Six bar charts compare control and treatment effects on fungal enzyme activities. Treatment reduces ATPase, SOD, CAT, PGase, β-1,3-GA, and CHI levels, indicating suppressed oxidative and metabolic processes.
+
+Effects of the VOCs on DNA content and ROS accumulation
+
+DNA content and ROS accumulation were investigated using CLSM. The control mycelia exhibited intense green fluorescence (with the fluorescence intensity value of 143.7 ± 11.39), whereas that of the VOCs-treated mycelia was weak (53.4 ± 19.7, Fig. 4A), determining the VOCs could cause DNA damage. DCFH-DA staining found that the VOCs-treated mycelia had brighter green fluorescence (149.7 ± 13.99) than the control groups (48.7 ± 6.97, Fig. 4B), thereby indicating the VOCs could cause ROS accumulation.
+
+Fig 4 DNA content (A) and reactive oxygen species levels (B) in B. cinerea mycelia exposed to VOCs produced by P. chlororaphis ZL3 for 4 days.
+
+Two fluorescence microscopy sets compare control and treatment under dark and bright fields. Control retains strong fluorescence and intact hyphae, while treatment shows disrupted fluorescence and deformed hyphae.
+
+Transcriptome profiles in B. cinerea treated with P. chlororaphis ZL3 VOCs
+
+Transcriptomic analysis was conducted to reveal the molecular variation in B. cinerea after treatment with P. chlororaphis ZL3 VOCs. The distribution and quality control of transcriptome sequencing data are summarized in Table S2. The average GC content was 46.31%. Q20 and Q30 were at least up to 98.31% and 92.86%, respectively. Total mapped reads of all the samples ranged from 90.36% to 93.53%. The scatter plot exhibited that there were 1,132 significantly up-regulated genes and 1,589 significantly down-regulated genes under the VOCs stress (Fig. S1A). A violin plot indicated the high expression levels of differential genes (Fig. S1B). Then, a clustering heatmap was generated to present expression levels for DEGs. Additionally, three treated samples were clustered in one clade and separated from the control samples, indicating the huge differences between the treatment and control groups (Fig. S1C).
+
+GO functional annotation of DEGs was listed in Fig. S1D. As shown in Fig. S1E, a total of 645 DEGs were mainly annotated into several KEGG pathways, such as metabolism (accounted for 68.52%) and genetic information processing (accounted for 20.47%). These DEGs were enriched into 20 categories in the EggNOG database (Fig. S2). Most of the DEGs were enriched in carbohydrate transport and metabolism (215 genes), amino acid transport and metabolism (111 genes), secondary metabolites biosynthesis (110 genes), and translation, ribosomal structure, and biogenesis (105 genes). To validate the expression levels of transcriptomic sequencing, eight DEGs were used for RT-qPCR. The expression levels were consistent with those from transcriptomic sequencing, determining that transcriptomic sequencing data were highly reliable (Fig. S1F).
+
+For a better understanding of the response of B. cinerea to the VOCs, GO and KEGG enrichment analyses were further conducted. Based on GO enrichment analysis, the DEGs were mainly enriched in polysaccharide catabolic process, polysaccharide metabolic process, and carbohydrate catabolic process (Fig. 5A). KEGG enrichment analysis indicated that the most enriched pathways were associated with pentose and glucuronate interconversions, starch and sucrose metabolism, and oxidative phosphorylation (Fig. 5B).
+
+Fig 5 Top 20 terms for enrichment analyses of DEGs. (A) GO enrichment analysis; (B) KEGG enrichment analysis. The ordinate represents the enrichment terms, and the abscissa represents rich factor.
+
+Two bubble charts compare GO and KEGG enrichment analyses. First highlights metabolic, biosynthetic, and ribosomal processes, while second emphasizes ribosome and carbohydrate-related metabolic pathways.
+
+Metabolomic analysis of B. cinerea treated with P. chlororaphis ZL3 VOCs
+
+In partial least squares analysis (PLS-DA) scores plot with positive ion mode, component 1 and component 2 explained 66.3% and 5.58%, respectively (Fig. S3A). In the PLS-DA scores plot with negative ion mode, component 1 and component 2 explained 66.9% and 7.66%, respectively (Fig. S3C). R2 values were all above Q2 values, determining that the models were well fitted and highly predictable (Fig. S3B and D). Next, 569 differential metabolites were screened based on the criteria of VIP ≥1 and the P values <0.05 (Fig. S3E). Among these differential metabolites, 302 differential metabolites were obtained in positive ion mode (Fig. S3F), while 267 differential metabolites were obtained in negative ion mode (Fig. S3G). Whether in treatment or control groups, the relevant correlation values were all above 0.93 in the matrix, indicating the high consistency within each group (Fig. S3H).
+
+Subsequently, the differential metabolites were annotated into 17 KEGG compound classification, of which the most overrepresented compounds were fatty acids and conjugates, followed by isoprenoids, steroids, eicosanoids, diradylglycerols, and aromatic polyketides (Fig. 6A). Compared to the HMDB database, these differential metabolites were matched to 13 super classes (Fig. 6B). To reveal the significant metabolic pathways, these differential metabolites obtained were also annotated via KEGG enrichment analysis (Fig. 6C). Compared with the control groups, the most significant pathway was arginine biosynthesis, followed by biosynthesis of cofactors and tryptophan metabolism. In Fig. 6D, six replications, whether treatment or control groups, had obviously clustered in one clade. However, the samples between the treatment and control groups were dramatically separated into different clades, suggesting good repeatability of the tested samples.
+
+Fig 6 Analysis of differential metabolites after treatment with the VOCs. (A) KEGG compounds classification; (B) HMDB classifications; (C) KEGG enrichment analysis; (D) hierarchical cluster analysis for differential metabolites in different samples. Red and blue colors represent the high and low expression levels, respectively.
+
+Four plots compare compound classifications, proportions, enriched pathways, and metabolite clustering. Bar and pie charts categorize compounds, bubble plot highlights key KEGG pathways, and heatmap distinguishes control from treatment profiles.
+
+Integrated analysis of transcriptomic and metabonomic data
+
+The DEGs and differential metabolites were annotated into l12 and 75 KEGG pathways, respectively, of which 65 KEGG pathways were co-annotated by both DEGs and differential metabolites (Fig. 7C). The KEGG pathways were involved in metabolism, genetic information processing, and environmental information processing (Fig. 7A). Especially, biosynthesis of cofactors, pentose and glucuronate interconversions, tryptophan metabolism, ABC transporters, and arginine and proline metabolism were considered as the main co-annotated KEGG pathways (Fig. 7A). Moreover, natural metabolites, tryptophan metabolism, and arginine and proline metabolism were found to be the significantly enriched KEGG pathways, whether DEGs or differential metabolites (Fig. 7B). The DEGs were also illustrated as directed acyclic graphs in Fig. 7D, which determined the relationships of the GO terms.
+
+Fig 7 Relation analysis of DEGs and differential metabolites. (A) KEGG pathway annotation for DEGs and differential metabolites; (B) Venn diagram for KEGG pathway classification; (C) the P value histogram for KEGG enrichment analysis; and (D) directed acyclic graph of GO enrichment of DEGs.
+
+Four diagrams integrate metabolic and transcriptomic data. Bar charts compare pathway counts and enrichment, Venn diagram overlaps metabolome and transcriptome, and network diagram highlights related gene ontology processes.
+
+DISCUSSION
+
+In this study, the VOCs from P. chlororaphis ZL3 were proven to have dramatic antifungal activity against mycelial growth and exhibit significant inhibition effects on conidia germination and sclerotium formation. In our previous work, the VOCs composition of P. chlororaphis ZL3 was investigated using gas chromatograph-mass spectrometry, and twenty-three compounds, including six alkanes, four aldehydes and ketones, four alcohols, four alkenes, three acids and esters, one aromatic compound, and one sulfur compound were identified (19). In fact, among these VOCs, ethyl 2-methylbutyrate, 3-methyl-1-butanol, and 2-ethylhexanol have been proven to exhibit high inhibitory activities against B. cinerea (9). Hexanal was also found to reduce infection of tomatoes by B. cinerea (35). Dimethyl disulfide exhibited a significant inhibitory effect on three poplar canker pathogens, Cytospora chrysosperma, Phomopsis macrospora, and Fusicoccum aesculi (36). Interestingly, ethyl 2-methylbutyrate, 3-methyl-1-butanol, 2-ethylhexanol, and dimethyl disulfide accounted for the main proportions of P. chlororaphis ZL3 VOCs, indicating the VOCs might play a crucial role in postharvest gray mold on Chinese cherry. Convincingly, our findings confirmed the excellent inhibitory activity of VOCs from P. chlororaphis ZL3 against B. cinerea. Under the stress of VOCs, B. cinerea hyphae exhibited obviously shrunken and distorted morphology, which is similar to the studies involved in the ultrastructural disruption of B. cinerea hyphae in the treatment with the microbial VOCs from Bacillus subtilis (37) and B. siamensis (9). To our best knowledge, in this work, the antifungal activities of VOCs emitted from P. chlororaphis ZL3 were comprehensively investigated for the first time. The findings indicated that P. chlororaphis ZL3 VOCs could induce significant metabolic changes in B. cinerea and therefore prominently disrupt the hyphae cells, thus markedly suppressing the hyphae development, conidia germination, and sclerotium formation of B. cinerea.
+
+Generally, numerous previous researches have focused on the biocontrol mechanisms of microbial VOCs against plant pathogens, mainly including the pathogen suppression, antifungal composition components, and induced systemic resistance to host pathogens (8, 38–40). Previous studies proved that microbial VOCs could affect the substance metabolism in plant pathogens (8, 23, 38). Nevertheless, only a few researchers have interpreted the biocontrol mechanisms of the microbial VOCs from Pseudomonas species against B. cinerea through physiological and transcriptomic analysis (8). In this work, we attempted to explain the antifungal molecular mechanism through biophysical, biochemical, transcriptomic, and metabolomic analyses.
+
+The cell wall and cell membrane are essential for fungal cells and could be helpful to maintain the cell shape through increasing mechanical resistance (23). The fungal cell wall is essential for the growth and survival of fungi and is usually considered an important target for antifungal compounds (29). β-1,3-glucan and chitin are both the major macromolecules of the cell wall and are involved in cell-wall formation (23, 39). β-1,3-GA could break down β-1,3-glucan, while CHI could catalyze chitin hydrolysis and further influence the stability and integrity of fungal cells (23, 39). In this study, CHI activity demonstrated significant differences from 2 to 5 days, while β-1,3-GA activity always exhibited no significant differences between treatment and control groups. Therefore, CHI has the potential to target the cell walls of B. cinerea.
+
+Cell membranes are of importance for cell integrity and material energy metabolism in fungi (41). As a crucial component in the membrane, ergosterol could be involved in membrane integrity and fluidity (8, 29). Many present studies have validated that ergosterol contents significantly decreased after treatment with microbial VOCs (8, 18, 29). Similarly, in our study, P. chlororaphis ZL3 VOCs could reduce ergosterol content in B. cinerea, ultimately damaging the membrane integrity. The extracellular conductivities were used to reflect the extent of mycelial plasma membrane damage (29). Interestingly, the extracellular conductivities were found to significantly increase in VOC treatments. Similar to our results, Duan et al. (29) reported that carvacrol treatment can increase extracellular conductivity. Thus, our studies also showed that P. chlororaphis ZL3 VOCs might damage the mycelial plasma membrane.
+
+Mitochondria could play the core role in cellular energy metabolism and be responsible for 90% of the energy to fulfill physiological functions (42). ROS, highly reactive molecules, are usually accumulated inside the cell mitochondria under adverse conditions that could further lead to cellular damage to lipids, DNA, and proteins (42, 43). Some studies suggested that the VOCs produced from biocontrol microorganisms, such as Pseudomonas fluorescens, Aureobasidium pullulans, and Corrallococcus sp., could result in ROS accumulation (8, 44, 45). In this study, excessive accumulation of ROS was also found in B. cinerea treated with P. chlororaphis ZL3 VOCs. Moreover, compared to the control groups, the contents of DNA and protein both decreased remarkably in the treatments. Additionally, the ROS accumulation can lead to the abnormality of mitochondrial function (8). As an aerobic microorganism, B. cinerea is required to derive energy through mitochondrial respiratory function (46). ATPase is crucially important for the respiration and energy metabolism of microorganisms. In this experiment, ATPase activities of the treatments were found to be much lower than those of the controls, which is in agreement with the experimental data reported by Yue et al. (8). The findings have shown that P. chlororaphis ZL3 VOCs could disturb mitochondrial respiration and further adversely affect the cellular energy metabolism.
+
+Fungal cells are armed with a mass of antioxidant defense mechanisms to avoid the damage of oxidative accumulation to cells (47). Antioxidant enzymes, such as SOD and CAT, were usually considered as biomarkers to reflect oxidative stress levels in cells and could play a very important role in the defense mechanisms (29, 48). Duan et al. (29) reported that the SOD and CAT activities were significantly reduced in Aspergillus flavus mycelia exposed to carvacrol. In our work, SOD and CAT activities were also found to be significantly decreased after treatment with P. chlororaphis ZL3 VOCs, indicating that P. chlororaphis ZL3 VOCs could reduce the antioxidation ability of B. cinerea.
+
+To further disclose the molecular mechanism, the expression levels of genes involved in the inhibition effects were explored in this study. After treatment with P. chlororaphis ZL3 VOCs, a good deal of DEGs participated in the membrane part, membrane transport, and lipid metabolism, which might significantly affect the cell membranes’ structure and function. Particularly, 1382 DEGs were associated with membrane and part membrane transport, implying that the cell membrane might serve as a key target for the inhibition of B. cinerea. Energy metabolism is of great importance for fungal pathogens and provides a basis for fungal growth and multiplication (23). Several antifungal compounds can destroy the energy metabolism and then inhibit the fungal development (23, 49). Similarly, in this study, 84 DEGs, such as Bcfhg1, Bcboa5, and Bcpck1, were found to be associated with energy production and conversion. Through KEGG enrichment analysis, oxidative phosphorylation was shown to be one of the top KEGG pathways, indicating the abnormal oxidative phosphorylation in mitochondria. We also found that the DEGs were involved in the KEGG pathways of mitophagy, endocytosis, and autophagy. Autophagy homeostasis, considered a new biocontrol site, might be crucial for fungal survival and competition (18, 50).
+
+Metabolomic analysis was performed to interpret the function of differential metabolites. In this study, the differential metabolites, including lipids and lipid-like molecules, and organic acids and derivatives, might be involved in the cell wall strength and antioxidant stress (7). The KEGG compound classification showed that the metabolites were mainly annotated into fatty acids and conjugates. Fatty acids are known as a preponderance component of fungal membranes and play vital roles in fungal life, including energy stores and post-translational modifications of membrane-bound proteins (38). Fatty acids have also been reported to be associated with fungal sporulation and mycelial growth (51, 52). Amino acid metabolism could contribute to a nutrient source for fungi and become a novel target for antifungal action (53). Of these metabolism processes, amino acid metabolism was found to be the significantly enriched KEGG pathway, indicating that P. chlororaphis ZL3 VOCs might result in the imbalance of metabolism progress, especially in amino acid metabolism, and ultimately inhibit the development of B. cinerea.
+
+Conclusion
+
+This work found that P. chlororaphis ZL3 VOCs had excellent antifungal effects on mycelial growth, conidia germination, and sclerotium formation and severely damaged the morphology of B. cinerea. The action mechanisms of P. chlororaphis ZL3 VOCs against B. cinerea were comprehensively determined through transcriptomic, metabolomic, and biophysical analysis. In general, the VOCs could enhance cell membrane permeability, destroy cell membrane integrity, disturb mitochondrial respiration, and further adversely interfere with the energy metabolism via ROS accumulation and ATPase activity reduction. The VOCs from P. chlororaphis ZL3 could also reduce the antioxidation ability of B. cinerea. Transcriptomic and metabolomic data were further supported by our biophysical findings. A good deal of DEGs was closely involved in membrane components, lipid metabolism, membrane transport, and energy metabolism. The differential metabolites were mainly enriched in amino acid metabolism, carbohydrate metabolism, and lipid metabolism. Although more work should be done to reveal the antifungal components of VOCs and the relationship of different antifungal VOCs, this work would give a new perspective for the action mechanisms of microbial VOCs to B. cinerea and will be helpful for further development of new biological fumigation.
+
+ACKNOWLEDGMENTS
+
+This work was financially supported by the Earmarked Fund for Modern Agro-industry Technology Research System of Shanxi Province (2025CYJSTX16-ZYC22).
+
+DATA AVAILABILITY
+
+All data are included in the article and its supplemental material. The raw RNA-Seq data used in this study were deposited in GenBank under BioProject PRJNA1099710.
+
+SUPPLEMENTAL MATERIAL
+
+The following material is available online at https://doi.org/10.1128/spectrum.02706-25.
+
+10.1128/spectrum.02706-25.SuF1 Fig. S1 spectrum.02706-25-s0001.pdf
+
+Transcriptome profiles.
+
+10.1128/spectrum.02706-25.SuF2 Fig. S2 spectrum.02706-25-s0002.pdf
+
+EggNOG functional classification.
+
+10.1128/spectrum.02706-25.SuF3 Fig. S3 spectrum.02706-25-s0003.pdf
+
+Quality control of metabolomics profiles.
+
+10.1128/spectrum.02706-25.SuF4 Supplemental material spectrum.02706-25-s0004.docx
+
+Legends for Supplemental figures.
+
+10.1128/spectrum.02706-25.SuF5 Supplemental tables spectrum.02706-25-s0005.docx
+
+Tables S1 and S2.
+
+ASM does not own the copyrights to Supplemental Material that may be linked to, or accessed through, an article. The authors have granted ASM a non-exclusive, world-wide license to publish the Supplemental Material files. Please contact the corresponding author directly for reuse.
+
+Writing - original draft
+
+
+REFERENCES
+
+1 Acosta MCB, Lukasko NT, Hausbeck MK, Miles TD, Naegele RP. 2024. Transcriptomic analysis of fludioxonil resistance mechanisms in Botrytis cinerea. PhytoFrontiers 4:533–543. doi:10.1094/PHYTOFR-11-23-0151-R
+2 Ullah I, Yuan W, Khalil HB, Khan MR, Lak F, Uzair M, Abbas A, Mirzadi Gohari A, Wu H. 2024. Understanding Botrytis cinerea infection and gray mold management: a review paper on deciphering the rose’s thorn. Phytopathol Res 6:42. doi:10.1186/s42483-024-00262-9
+3 Cao J, Fang Q, Han C, Zhong C. 2023. Cold atmospheric plasma fumigation suppresses postharvest apple Botrytis cinerea by triggering intracellular reactive oxygen species and mitochondrial calcium. Int J Food Microbiol 407:110397. doi:10.1016/j.ijfoodmicro.2023.110397 37716308
+4 Strausbaugh CA. 2018. Incidence, distribution, and pathogenicity of fungi causing root rot in Idaho long-term sugar beet storage piles. Plant Dis 102:2296–2307. doi:10.1094/PDIS-03-18-0437-RE 30169137
+5 Liu S, Fu L, Tan H, Jiang J, Che Z, Tian Y, Chen G. 2021. Resistance to boscalid in Botrytis cinerea from greenhouse-grown tomato. Plant Dis 105:628–635. doi:10.1094/PDIS-06-20-1191-RE 32820676
+6 Wang F, Xiao J, Zhang Y, Li R, Liu L, Deng J. 2021. Biocontrol ability and action mechanism of Bacillus halotolerans against Botrytis cinerea causing grey mould in postharvest strawberry fruit. Postharvest Biol Technol 174:111456. doi:10.1016/j.postharvbio.2020.111456
+7 Zhao L, Shu Y, Liang L, Wang Y, Abiso Godana E, Zhang X, Zhang H. 2022. Integrated transcriptomic and metabonomic analysis reveal mechanisms of disease resistance in apples induced by Wickerhamomyces anomalus. Biol Control 173:105005. doi:10.1016/j.biocontrol.2022.105005
+8 Yue Y, Wang Z, Zhong T, Guo M, Huang L, Yang L, Kan J, Zalán Z, Hegyi F, Takács K, Du M. 2023. Antifungal mechanisms of volatile organic compounds produced by Pseudomonas fluorescens ZX as biological fumigants against Botrytis cinerea. Microbiol Res 267:127253. doi:10.1016/j.micres.2022.127253 36455309
+9 Wang C, Duan T, Shi L, Zhang X, Fan W, Wang M, Wang J, Ren L, Zhao X, Wang Y. 2022. Characterization of volatile organic compounds produced by Bacillus siamensis YJ15 and their antifungal activity against Botrytis cinerea. Plant Dis 106:2321–2329. doi:10.1094/PDIS-01-22-0230-RE 35380464
+10 Khan AR, Ali Q, Ayaz M, Bilal MS, Tariq H, El-Komy MH, Gu Q, Wu H, Vater J, Gao X. 2024. Bio-perfume guns: antifungal volatile activity of Bacillus sp. LNXM12 against postharvest pathogen Botrytis cinerea in tomato and strawberry. Pestic Biochem Physiol 203:105995. doi:10.1016/j.pestbp.2024.105995 39084769
+11 Walker R, Powell AA, Seddon B. 1998. Bacillus isolates from the spermosphere of peas and dwarf french beans with antifungal activity against Botrytis cinerea and Pythium species. J Appl Microbiol 84:791–801. doi:10.1046/j.1365-2672.1998.00411.x 9674133
+12 Gao Z, Zhang B, Liu H, Han J, Zhang Y. 2017. Identification of endophytic Bacillus velezensis ZSY-1 strain and antifungal activity of its volatile compounds against Alternaria solani and Botrytis cinerea. Biol Control 105:27–39. doi:10.1016/j.biocontrol.2016.11.007
+13 Chaouachi M, Marzouk T, Jallouli S, Elkahoui S, Gentzbittel L, Ben C, Djébali N. 2021. Activity assessment of tomato endophytic bacteria bioactive compounds for the postharvest biocontrol of Botrytis cinerea. Postharvest Biol Technol 172:111389. doi:10.1016/j.postharvbio.2020.111389
+14 Audenaert K, Pattery T, Cornelis P, Höfte M. 2002. Induction of systemic resistance to Botrytis cinerea in tomato by Pseudomonas aeruginosa 7NSK2: role of salicylic acid, pyochelin, and pyocyanin. Mol Plant Microbe Interact 15:1147–1156. doi:10.1094/MPMI.2002.15.11.1147 12423020
+15 Gruau C, Trotel-Aziz P, Villaume S, Rabenoelina F, Clément C, Baillieul F, Aziz A. 2015. Pseudomonas fluorescens PTA-CT2 triggers local and systemic immune response against Botrytis cinerea in grapevine. Mol Plant Microbe Interact 28:1117–1129. doi:10.1094/MPMI-04-15-0092-R 26075828
+16 South KA, Peduto Hand F, Jones ML. 2020. Beneficial bacteria identified for the control of Botrytis cinerea in Petunia greenhouse production. Plant Dis 104:1801–1810. doi:10.1094/PDIS-10-19-2276-RE 32289248
+17 Netzker T, Shepherdson EMF, Zambri MP, Elliot MA. 2020. Bacterial volatile compounds: functions in communication, cooperation, and competition. Annu Rev Microbiol 74:409–430. doi:10.1146/annurev-micro-011320-015542 32667838
+18 Song C, Zhang Y, Zhao Q, Chen M, Zhang Y, Gao C, Jia Z, Song S, Guan J, Shang Z. 2024. Volatile organic compounds produced by Bacillus aryabhattai AYG1023 against Penicillium expansum causing blue mold on the Huangguan pear. Microbiol Res 278:127531. doi:10.1016/j.micres.2023.127531 37871540
+19 Wang C, Wang Y, Wang L, Fan W, Zhang X, Chen X, Wang M, Wang J. 2021. Biocontrol potential of volatile organic compounds from Pseudomonas chlororaphis ZL3 against postharvest gray mold caused by Botrytis cinerea on Chinese cherry. Biol Control 159:104613. doi:10.1016/j.biocontrol.2021.104613
+20 Hernández-León R, Rojas-Solís D, Contreras-Pérez M, Orozco-Mosqueda Ma del C, Macías-Rodríguez LI, Reyes-de la Cruz H, Valencia-Cantero E, Santoyo G. 2015. Characterization of the antifungal and plant growth-promoting effects of diffusible and volatile organic compounds produced by Pseudomonas fluorescens strains. Biol Control 81:83–92. doi:10.1016/j.biocontrol.2014.11.011
+21 Zhang Y, Li T, Xu M, Guo J, Zhang C, Feng Z, Peng X, Li Z, Xing K, Qin S. 2021. Antifungal effect of volatile organic compounds produced by Pseudomonas chlororaphis subsp. aureofaciens SPS-41 on oxidative stress and mitochondrial dysfunction of Ceratocystis fimbriata. Pestic Biochem Physiol 173:104777. doi:10.1016/j.pestbp.2021.104777 33771256
+22 Di Francesco A, Jabeen F, Vall-llaura N, Moret E, Martini M, Torres R, Ermacora P, Teixidó N. 2024. Pseudomonas synxantha volatile organic compounds: efficacy against Cadophora luteo-olivacea and Botrytis cinerea of kiwifruit. Front Plant Sci 15:1398014. doi:10.3389/fpls.2024.1398014 38779078 PMC11109433
+23 Wang K, Qin Z, Wu S, Zhao P, Zhen C, Gao H. 2021. Antifungal mechanism of volatile organic compounds produced by Bacillus subtilis CF-3 on Colletotrichum gloeosporioides assessed using omics technology. J Agric Food Chem 69:5267–5278. doi:10.1021/acs.jafc.1c00640 33899461
+24 Li Q, Lin W, Zhang X, Wang M, Zheng Y, Wang X, Gao G, Li Y, Zhao D, Zhang C. 2024. Transcriptomics integrated with metabolomics reveal the competitive relationship between co-cultured Trichoderma asperellum HG1 and Bacillus subtilis TPB55. Microbiol Res 280:127598. doi:10.1016/j.micres.2023.127598 38176360
+25 Jiang L, Donald WA, Weston LA, Weston PA, Dumlao MC, Steel CC, Schmidtke LM. 2025. Discrimination of healthy and Botrytis cinerea-infected grapes using untargeted metabolomic analysis with direct electrospray ionization mass spectrometry. J Agric Food Chem 73:1714–1724. doi:10.1021/acs.jafc.4c08612 39746708
+26 Alijani Z, Amini J, Ashengroph M, Bahramnejad B. 2019. Antifungal activity of volatile compounds produced by Staphylococcus sciuri strain MarR44 and its potential for the biocontrol of Colletotrichum nymphaeae, causal agent strawberry anthracnose. Int J Food Microbiol 307:108276. doi:10.1016/j.ijfoodmicro.2019.108276 31408741
+27 Galván AI, Hernández A, Córdoba M de G, Martín A, Serradilla MJ, López-Corrales M, Rodríguez A. 2022. Control of toxigenic Aspergillus spp. in dried figs by volatile organic compounds (VOCs) from antagonistic yeasts. Int J Food Microbiol 376:109772. doi:10.1016/j.ijfoodmicro.2022.109772 35667262
+28 Ashraf M, Ali Q. 2008. Relative membrane permeability and activities of some antioxidant enzymes as the key determinants of salt tolerance in canola (Brassica napus L.). Environ Exp Bot 63:266–273. doi:10.1016/j.envexpbot.2007.11.008
+29 Duan WY, Zhu XM, Zhang SB, Lv YY, Zhai HC, Wei S, Ma PA, Hu YS. 2024. Antifungal effects of carvacrol, the main volatile compound in Origanum vulgare L. essential oil, against Aspergillus flavus in postharvest wheat. Int J Food Microbiol 410:110514. doi:10.1016/j.ijfoodmicro.2023.110514 38070224
+30 Tian J, Huang B, Luo XL, Zeng H, Ban XQ, He JS, Wang YW. 2012. The control of Aspergillus flavus with Cinnamomum jensenianum hand-mazz essential oil and its potential use as a food preservative. Food Chem 130:520–527. doi:10.1016/j.foodchem.2011.07.061
+31 Miranda MP. 2024. Comparison of the effect of sodium chloride concentration on protein determination: Bradford and Biuret methods. Anal Biochem 687:115450. doi:10.1016/j.ab.2023.115450 38159714
+32 Ma W, Zhao L, Johnson ET, Xie Y, Zhang M. 2022. Natural food flavour (E)-2-hexenal, a potential antifungal agent, induces mitochondria-mediated apoptosis in Aspergillus flavus conidia via a ROS-dependent pathway. Int J Food Microbiol 370:109633. doi:10.1016/j.ijfoodmicro.2022.109633 35313251
+33 Bi S, Qiao C, Song D, Tian Y, Gao D, Sun Y, Zhang H. 2006. Study of interactions of flavonoids with DNA using acridine orange as a fluorescence probe. Sensors and Actuators B: Chemical 119:199–208. doi:10.1016/j.snb.2005.12.014
+34 Schmittgen TD, Livak KJ. 2008. Analyzing real-time PCR data by the comparative C(T) method. Nat Protoc 3:1101–1108. doi:10.1038/nprot.2008.73 18546601
+35 Utto W, Mawson AJ, Bronlund JE. 2008. Hexanal reduces infection of tomatoes by Botrytis cinerea whilst maintaining quality. Postharvest Biol Technol 47:434–437. doi:10.1016/j.postharvbio.2007.08.008
+36 Liu A, Zhang P, Bai B, Bai F, Jin T, Ren J. 2020. Volatile organic compounds of endophytic Burkholderia pyrrocinia strain JK-SH007 promote disease resistance in poplar. Plant Dis 104:1610–1620. doi:10.1094/PDIS-11-19-2366-RE 32271644
+37 Mu J, Li X, Jiao J, Ji G, Wu J, Hu F, Li H. 2017. Biocontrol potential of vermicompost through antifungal volatiles produced by indigenous bacteria. Biol Control 112:49–54. doi:10.1016/j.biocontrol.2017.05.013
+38 Huang Y, Shan X, Zhang C, Duan Y. 2024. Pseudomonas protegens volatile organic compounds inhibited brown rot of postharvest peach fruit by repressing the pathogenesis-related genes in Monilinia fructicola. Food Microbiol 122:104551. doi:10.1016/j.fm.2024.104551 38839219
+39 Ni H, Kong WL, Zhang QQ, Wu XQ. 2024. Volatiles emitted by Pseudomonas aurantiaca ST-TJ4 trigger systemic plant resistance to Verticillium dahliae. Microbiol Res 287:127834. doi:10.1016/j.micres.2024.127834 39059096
+40 Ge W, Zhang L, Meng F, Tian C. 2025. Study on biocontrol potential of volatile organic compounds produced by Pseudomonas atacamensis GZ-3 on poplar anthracnose. Ind Crops Prod 224:120402. doi:10.1016/j.indcrop.2024.120402
+41 Kong WL, Rui L, Ni H, Wu XQ. 2020. Antifungal effects of volatile organic compounds produced by Rahnella aquatilis JZ-GX1 against Colletotrichum gloeosporioides in Liriodendron chinense × tulipifera. Front Microbiol 11:1114. doi:10.3389/fmicb.2020.01114 32547526 PMC7271530
+42 Marchi S, Giorgi C, Suski JM, Agnoletto C, Bononi A, Bonora M, De Marchi E, Missiroli S, Patergnani S, Poletti F, Rimessi A, Duszynski J, Wieckowski MR, Pinton P. 2012. Mitochondria-ros crosstalk in the control of cell death and aging. J Signal Transduct 2012:329635. doi:10.1155/2012/329635 22175013 PMC3235816
+43 Chang WQ, Wu XZ, Cheng AX, Zhang L, Ji M, Lou HX. 2011. Retigeric acid B exerts antifungal effect through enhanced reactive oxygen species and decreased cAMP. Biochimica et Biophysica Acta (BBA) - General Subjects 1810:569–576. doi:10.1016/j.bbagen.2011.02.001 21320573
+44 Yalage Don SM, Schmidtke LM, Gambetta JM, Steel CC. 2021. Volatile organic compounds produced by Aureobasidium pullulans induce electrolyte loss and oxidative stress in Botrytis cinerea and Alternaria alternata. Res Microbiol 172:103788. doi:10.1016/j.resmic.2020.10.003 33049328
+45 Ye XF, Chen Y, Ma SY, Yuan T, Wu YX, Li YX, Zhao YQ, Chen SY, Zhang YW, Li LY, Li ZK, Huang Y, Cao H, Cui ZL. 2020. Biocidal effects of volatile organic compounds produced by the myxobacterium Corrallococcus sp. EGB against fungal phytopathogens. Food Microbiol 91:103502. doi:10.1016/j.fm.2020.103502 32539966
+46 Luo C, Zeng Z, Gong D, Zhao C, Liang Q, Zeng C. 2014. Evaluation of monolaurin from camphor tree seeds for controlling food spoilage fungi. Food Control 46:488–494. doi:10.1016/j.foodcont.2014.06.017
+47 Jarrett SG, Boulton ME. 2005. Antioxidant up-regulation and increased nuclear DNA protection play key roles in adaptation to oxidative stress in epithelial cells. Free Radical Biology and Medicine 38:1382–1391. doi:10.1016/j.freeradbiomed.2005.02.003 15855056
+48 Ma XB, Wang ZB, Liu R, Jiang Y. 2023. Effect of powdery mildew on interleaf microbial communities and leaf antioxidant enzyme systems. J For Res 34:1535–1547. doi:10.1007/s11676-023-01597-3
+49 Xu J, Shao X, Wei Y, Xu F, Wang H. 2017. iTRAQ proteomic analysis reveals that metabolic pathways involving energy metabolism are affected by tea tree oil in Botrytis cinerea Front Microbiol 8:1989. doi:10.3389/fmicb.2017.01989 29075250 PMC5643485
+50 Wang J, Xu C, Sun Q, Xu J, Chai Y, Berg G, Cernava T, Ma Z, Chen Y. 2021. Post-translational regulation of autophagy is involved in intra-microbiome suppression of fungal pathogens. Microbiome 9:131. doi:10.1186/s40168-021-01077-y 34092253 PMC8182927
+51 Calvo AM, Gardner HW, Keller NP. 2001. Genetic connection between fatty acid metabolism and sporulation in Aspergillus nidulans. J Biol Chem 276:25766–25774. doi:10.1074/jbc.M100732200 11352908
+52 Gu X, Fu X, Li L. 2018. Effect of temperature and agitation speed on fatty acid accumulation in Mortierella alpina. Int J Agric Biol 20:2319–2324. doi:10.17957/IJAB/15.0796
+53 Nishida I, Watanabe D, Tsolmonbaatar A, Kaino T, Ohtsu I, Takagi H. 2016. Vacuolar amino acid transporters upregulated by exogenous proline and involved in cellular localization of proline in Saccharomyces cerevisiae. J Gen Appl Microbiol 62:132–139. doi:10.2323/jgam.2016.01.005 27246536

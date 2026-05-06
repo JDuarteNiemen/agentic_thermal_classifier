@@ -1,0 +1,23 @@
+Comparative Effects of Exogenous Organic Amendments on Rhizosphere Microbial Communities and Soil Properties in Continuous Cropping Watermelon.
+
+Continuous cropping obstacles in watermelon are closely linked to rhizosphere microbial imbalance,
+posing a major threat to the sustainability of the industry in Xinjiang. Exogenous additives are
+widely used to regulate soil health, yet comprehensive comparisons of their mechanisms and effects
+remain limited. In this study, a field experiment was conducted under continuous watermelon cropping
+conditions in Xinjiang to evaluate the impact of eight treatments, including chemical fertilizer
+(NPK) alone and its combination with organic fertilizer (NPKM), glucose (NPKG), oxalic acid (NPKOA),
+amino acids (NPKGA), citric acid (NPKCA), and acetic acid (NPKAA), with unfertilized soil as the
+control (CK). Treatment effects were assessed through soil physicochemical analysis, fruit quality
+evaluation, and high-throughput sequencing (16S rRNA and ITS). Among all treatments, NPKM showed the
+greatest improvement in soil fertility, increasing soil organic matter by 13.91%, total nitrogen by
+23.08%, and single fruit weight by 35.75% compared to CK. NPKGA also enhanced fruit weight (+33.06%
+vs. CK) and increased catalase activity, while oxalic acid exhibited the strongest activation of
+alkaline phosphatase. Microbiome analysis revealed that NPKM and NPKAA significantly reshaped both
+bacterial and fungal community structures. NPKM enriched beneficial taxa such as unclassified
+Chitinophagaceae and Lophotrichus, whereas NPKCA enriched the biocontrol bacterium Pseudomonas
+chlororaphis. Soil organic matter and total nitrogen were identified as key environmental drivers,
+showing significant positive correlations with core bacterial genera (Dokdonella) and negative
+correlations with the pathogenic fungus Alternaria. Collectively, this study elucidates the distinct
+mechanisms of various additives by linking treatment-specific microbial shifts to key soil factors
+and crop performance, providing a theoretical and technical framework for mitigating watermelon
+continuous cropping obstacles through rhizosphere environmental regulation.

@@ -1,0 +1,13 @@
+Identification and characterization of the genes encoding three structural proteins of the Thermoproteus tenax virus TTV1.
+
+Three structural proteins, TP1, TP2 and TP3, of the virus TTV1 of the thermophilic archaebacterium
+Thermoproteus tenax strain Kra1 were mapped within the viral genome by locating the amino-terminal
+amino acid sequences of these proteins in the TTV1 DNA sequence. The derived amino acid sequences
+comprise 113, 139 and 160 amino acid residues, respectively. All three proteins are hydrophobic. The
+three genes are not linked, but transcribed in the same direction. No Shine-Dalgarno sequences are
+found in the vicinity of the initiation codons of these three genes. By Northern analysis, four
+mRNAs of 0.5 kb, 0.8 kb, 1.1 kb and 1.8 kb in size were found to be encoded in the region and in the
+vicinity of the genes, the shortest one (t1) encoding TP3 and the longest one (t4) encoding TP2. No
+transcript from the region encoding TP1 has been found so far. A transcriptional start site was
+mapped for the transcript t1. Its upstream sequence was similar to the putative consensus sequence
+for archaebacterial promoters.

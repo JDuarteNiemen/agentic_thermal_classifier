@@ -1,0 +1,384 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: R Soc Open Sci
+Journal ID: R Soc Open Sci
+Journal ID: RSOS
+
+Royal Society Open Science
+
+EISSN: 2054-5703
+Publisher: The Royal Society
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC12381498
+PMID: 40881987
+DOI: 10.1098/rsos.250488
+Article ID: rsos250488
+Article version: 1
+Subjects: Psychology and Cognitive Neuroscience, Research Articles
+
+Tonkean macaques do not prefer the helper or the hinderer in the hill paradigm
+
+Tonkean macaques do not prefer the helper or the hinderer in the hill paradigm
+
+https://orcid.org/0000-0002-8985-1818 Hirel Marie 1 2 Conceptualization Data curation Formal analysis Investigation Methodology Project administration Visualization Writing – original draft Writing – review and editing mhirel@dpz.eu; hirel.marie@gmail.com
+https://orcid.org/0000-0001-8826-9896 Meunier Hélène 3 4 Resources Writing – review and editing hmeunier@unistra.fr
+https://orcid.org/0000-0003-3296-0551 Rakoczy Hannes 5 6 Funding acquisition Writing – review and editing hannes.rakoczy@psych.uni-goettingen.de
+https://orcid.org/0000-0002-5807-0074 Fischer Julia 1 2 6 Funding acquisition Writing – review and editing jfischer@dpz.eu
+https://orcid.org/0000-0002-5451-4256 Keupp Stefanie 1 2 6 Conceptualization Project administration Supervision Writing – review and editing SKeupp@dpz.eu
+1 Department for Primate Cognition, Johann-Friedrich-Blumenbach Institute, Georg-August-Universität Göttingen , Göttingen , Niedersachsen , Germany
+2 Cognitive Ethology Laboratory, German Primate Centre Leibniz Institute for Primate Research , Göttingen , Niedersachsen , Germany
+3 Centre de Primatologie de l'Université de Strasbourg , Niederhausbergen , France
+4 Laboratoire de Neurosciences Cognitives et Adaptatives, UMR 7364, Université de Strasbourg , Strasbourg , Grand Est , France
+5 Department for Cognitive Developmental Psychology, Georg-Elias-Müller Institute for Psychology, Georg-August-Universität Göttingen , Göttingen , Niedersachsen , Germany
+6 Leibniz Science Campus, German Primate Centre Leibniz Institute for Primate Research , Göttingen , Niedersachsen , Germany
+Publication date: 2025 Aug
+Electronic publication date: 2025 Aug 27
+Volume: 12
+Issue: 8
+Electronic Location ID: 250488
+Received 2025 Mar 11; Revised 2025 Jul 15; Accepted 2025 Aug 1
+Copyright: © 2025 The Authors.
+Copyright year: 2025
+License: Published by the Royal Society under the terms of the Creative Commons Attribution License http://creativecommons.org/licenses/by/4.0/, which permits unrestricted use, provided the original author and source are credited.
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Keywords: social evaluation, prosocial preference, primates, animated agent, third-party observation
+
+Funding: Deutsche Forschungsgemeinschaft http://dx.doi.org/10.13039/501100001659
+
+==============================
+Evaluating others’ prosocial tendencies can benefit individuals by allowing them to interact with prosocial individuals and avoid antisocial ones. The ontogeny of humans’ strong prosocial preference has been widely investigated using the hill paradigm. Infants’ preference for helper over hinderer agents was measured after they watched a scene in which the helper agent pushed a climber up a hill while the hinderer agent pushed the climber down the hill. Bonobos tested with the hill paradigm preferred the hinderer over the helper, contrasting previous findings for other nonhuman primates. In this study, we explored whether another primate species would exhibit a hinderer preference using the same procedure as the one used with bonobos. Tonkean macaques (Macaca tonkeana) did not prefer the helper over the hinderer (or vice versa). While the small sample size (n = 12) and low attentional level observed in our subjects limit interpretation, this finding contributes to a broader critical thinking on the relevance of the hill paradigm to investigate prosocial preferences and on methodological limitations when testing nonhuman animals. Studies using various experimental paradigms with conspecifics or human actors as social agents are needed to further investigate the social evaluation of prosocial behaviours in primates.
+
+1. Introduction
+
+Monitoring others’ prosocial behaviours (i.e. actions that benefit others at a cost to oneself) is beneficial for animals to assess which potential social partners are likely to provide benefits to them [1–3]. Humans are sensitive to others’ prosocial acts and develop strong sociomoral preferences, i.e. preferring cooperators and helpers while avoiding or even punishing uncooperative and non-helper individuals [4–8]. Nonhuman animals tend to reciprocate prosocial behaviours to individuals who have helped in the past ([3,9,10]; see also [11]) and some species even demonstrate to discriminate between prosocial and antisocial individuals. Chimpanzees (Pan troglodytes), orangutans (Pongo pygmaeus) and horses (Equus caballus) preferred a generous human (e.g. who shared food with another individual) compared to a selfish one [12–15], while cats (Felis sylvestris catus) did not show a preference [16], and findings for domestic dogs (Canis familiaris) are mixed [17–21]. Brown capuchins (Sapajus apella), squirrel monkeys (Saimiri sciureus) and common marmosets (Callithrix jacchus) showed a bias against humans who exchanged unfairly [22–24]. Similarly, domestic dogs [25] and brown capuchins [26] exhibited a bias against humans who refused to help another individual. At the same time, cats [27] and horses [28] did not show a preference for helpers over non-helpers (or vice-versa).
+
+The ontogeny of human prosocial preference has been mainly investigated in developmental psychology using the hill paradigm developed by Hamlin et al. [29]. Infants were habituated with a scene with abstract social agents (geometrical shapes or puppets). In the helper condition, the scene starts with the protagonist (the climber) repeatedly attempting to climb a hill without success. A first character (the helper) then entered the scene and pushed the climber up to the top of the hill. In the hindering condition, the scene was similar except that a second character (the hinderer) pushed the climber back down the hill and thus prevented the climber from achieving its goal. Afterwards, infants could choose or interact with the helper or the hinderer. Initial studies reported that infants showed a preference for the helper over the hinderer [29,30], a finding that was supported by subsequent studies using alternative paradigms [31–33]. However, these results have since been questioned by further studies and failed replications [6,8,34,35]. Notably, a recent large-scale and multi-laboratory replication study of the hill paradigm found no significant preference for the helper over the hinderer social agents in infants under 10 months [36].
+
+We know of three nonhuman species that have also been tested on their prosocial preferences with the hill paradigm. Similar to infants, dogs did not show any preference for helper or hinderer puppets [37]. Bottlenose dolphins (Tursiops spp.), tested with onscreen agents with different movements to those of hill-climbers to adapt to the socio-ecological aspects of dolphins, were able to discriminate pro- and anti-social behaviours and to predict preferential associations with the prosocial animated agent [38]. By contrast, bonobos (Pan paniscus) preferred hinderer over helper animated agents [39]. The bonobos’ results contrast with the prosocial preference found in other nonhuman primates in other paradigms with human experimenters [13,22–24,40]. Note that bonobos did not show any preference for prosocial or antisocial agents in previous studies using different paradigms [12,14].
+
+While this contrasting result could be owing to an effect of the paradigm used (onscreen animated agents), the same bonobos replicated their preference for hinderers over helpers in subsequent experiments with human social agents (experiments 2 and 3 of [39]). The authors suggested that a preference for dominant-like behaviours might explain bonobos’ preference for hinderers. The movements of the helper and hinderer animated agents could be perceived as dominant- and subordinate-like behaviours (i.e. hitting or prevailing the climber in reaching its goal). In an additional experiment, bonobos preferred animated agents showing dominant-like actions to ones showing subordinate-like actions (the dominant agent displaced the subordinate agent; experiment 4 of [39]). Dominant individuals represent valuable social partners in this species, and it might be beneficial to interact with them preferentially; although, this is also true in other nonhuman primate species.
+
+In light of the contrasting findings reported for bonobos and human infants, we aimed in this study to test another primate species, Tonkean macaques (Macaca tonkeana), using the hill paradigm to see whether they would mirror the bonobos’ preference for hinderers. Like bonobos, Tonkean macaques might evolve within a social system where the ability to evaluate others based on prosocial tendencies might be relevant. They live in multi-male, multi-female groups, are highly tolerant and show prosocial interactions [41–44]. They have been demonstrated to track third-party interactions [45] and to understand goal-directed actions and attentional states [46–48]. In addition, comparing findings of two primate species that share some behavioural and social traits may offer valuable insights for better understanding the development of prosocial preferences and social evaluation abilities in primates.
+
+This study was intended as a preliminary investigation into potential prosocial or antisocial preferences in Tonkean macaques. Our main objective was to strictly replicate the experimental design of experiment 1 of the Krupenye & Hare [39] study to facilitate a direct and accurate comparison between the results obtained from Tonkean macaques and those from bonobos. Tonkean macaques could observe videos with the animated agents (i.e. geometrical coloured shapes with googly eyes) several times. We then measured whether they would prefer a paper cut-out representing the helper over one representing the hinderer (or vice versa). A non-differential rewarding procedure (i.e. subjects received the same food outcome regardless of their choices) avoided shaping subjects’ preferences. A control condition was also conducted to check for potential effects of perceptual rather than social features on the videos. As Tonkean macaques have never, to our knowledge, been tested on social evaluation of prosocial behaviours, we considered that a helper, a hinderer or no preference were equally likely, and therefore, made no predictions in this respect.
+
+2. Methods
+
+2.1. Subjects and testing conditions
+
+Twelve Tonkean macaques (five males; 7.6 ± 6.3 years old) participated in the experiment voluntarily (electronic supplementary material, table S1). All subjects were captive-born, mother-raised and came from one social group of 29 individuals (10 males; from six months to 28 years old) living in a wooded outdoor enclosure of 3788 m2 with permanent access to an indoor room of 20 m2 at the Centre de Primatologie—Silabe de l’Université de Strasbourg (France). This group was fed once per day with dry pellets and once per week with fruits and vegetables and had access to water ad libitum. The data were collected in September 2023. Subjects were tested individually in a tunnel situated in a shelter directly accessible from their outdoor enclosure (electronic supplementary material, video S1), inside which they were used to participate in touch screen cognitive experiments [49–51]. A table was positioned at the end of the tunnel for the experimenter to place the video display, the rewards and the paper cut-outs representing the agents for the subjects to choose. All individuals in the group could participate in the experiment with the condition of being comfortable in the tunnel and with the experimental equipment. According to the STRANGE framework [52], our selection protocol may have then biased our pool of subjects towards dominants, bold, highly motivated and experienced individuals to experimental testing in the tunnel and/or with human experimenters. Before the experiment, a short familiarization step was conducted to verify whether each subject was comfortable entering the tunnel and watching videos on the screen (more details in the electronic supplementary material). Five subjects have been tested before with two experiments on the social evaluation of human actors’ skills [53,54].
+
+2.2. Procedure and design
+
+The experimental procedure and design were exactly similar to the ones in Krupenye & Hare [39], except that subjects did not interact with the agents following their choices and that an initial arbitrary preference for the shapes was conducted before the experiment (see more details below). The videos and animated agents in this study were also the ones used by Krupenye & Hare [39] to test the bonobos. The animated agents were geometrically coloured shapes with two googly eyes, white sclera and dark pupils, and they exhibited goal-directed movements. To control for any individual preferences, four different pairs of agents were used: red square and blue triangle, blue square and red triangle, orange pentagon and aqua trapezoid, aqua pentagon and orange trapezoid. Each subject watched different agent pairs in the test and the control session that did not share any physical characteristics (e.g. red square and blue triangle during the test session, orange pentagon and aqua trapezoid during the control session). Both animated agents appeared the same amount of time on the screen and in contact with the third agent (the climber; see below). The types and roles of each agent (test: helper, hinderer; control: upward, downward) were assigned pseudo-randomly and counterbalanced across subjects (electronic supplementary material, tables S1 and S2) and remained constant throughout the experiment. The initial arbitrary preference for one of the pair of shapes used in the test and control session was assessed on a separate day before the experiment, with no group preference found for a particular shape or colour (electronic supplementary material, table S3). The experiment consisted of a test and a control session. All the subjects participated in both sessions, with one session conducted per day and the presentation order counterbalanced between subjects.
+
+2.2.1. Test session
+
+First, the videos were presented to the subjects so they could observe the helping or hindering actions of the animated agents. In the test videos, the climber (a circle) entered the screen from below and repeatedly moved up on a hill, such as attempting to climb the hill but without success. After the third attempt, another agent entered the scene. In the helper video, the helper entered from below, pushed the climber up to the top of the hill and then returned down the hill to exit the screen (figure 1a). In the hinderer video, the hinderer entered from above, pushed the climber back down the hill and then returned to the top to exit the screen (figure 1b). The videos did not involve sounds. Each subject watched the helper and hinderer videos four times, alternating in a loop. The type of the first video presented was counterbalanced between subjects. To control for the fact that the helper agent entered from the opposite side of the scene as the hinderer agent, all videos had a mirrored version. Each subject had half of the videos with the original version (i.e. the helper entering from the right side, the hinderer from the left side) and half with the mirrored version (i.e. the helper entering from the left side, the hinderer from the right side). The order of the original and mirrored versions was counterbalanced within and between subjects. The experimenter played the video loop only when the subject was attentive and looking towards the screen; otherwise, the experimenter tried to get the subject’s attention back by calling the subject and/or showing food. When the video loop ended, the experimenter removed the screen and gave a grape to the subject (to maintain motivation of subjects to engage in the task).
+
+Figure 1. Frames from the video stimuli illustrating (a) the helper condition, (b) the hinderer condition, (c) the upward condition, and (d) the downward condition.
+
+Frames from the video stimuli illustrating.
+
+In the second part of the session, subjects could choose between two paper cut-outs representing the helper and hinderer for four trials (electronic supplementary material, video S1). Each trial started with the subject watching both helper and hinderer videos again once (the order of presentation and the version (original or mirrored) of the videos being counterbalanced within and between subjects). Then, the experimenter removed the screen, placed simultaneously two same-sized food items (banana chips) a few centimetres apart in the middle of the table and covered them with the paper cut-outs. The experimenter moved the two options to the opposite sides of the table so the subject could choose one. Pointing towards one of the options was used as a measure of preference. The experimenter placed the paper cut-out selected next to the food, gave the food under it to the subject, and then took back both paper cut-outs and the unchosen food reward. Unlike the study of Krupenye & Hare [39], we could not allow the Tonkean macaques to interact with the agents following their choices, as giving them the paper cut-outs would result in the subjects chewing or even eating the paper cut-outs (which is not permissible for health and safety reasons). If no choice within 30 s or no clear pointing was made, the experimenter pulled the two options back and waited a few seconds before presenting the options again. If no choice was made in three consecutive trials, the experimenter stopped the session (which never happened). The location of the helper and hinderer paper cut-outs on the table was counterbalanced and pseudo-randomized across trials.
+
+2.2.2. Control session
+
+The control session aimed to verify whether perceptual rather than social features, such as the movements of the animated shapes, could explain the subjects’ helper or hinderer preference. The procedure of the control session was similar to the test session except for the videos displayed to the subjects. Each control video was a variant of the test videos, with the climber replaced by an inanimate circle without eyes exhibiting no independent movement or goal-directed actions. The upward agent pushed the eyeless inanimate circle up the hill to control for the upward movement of the helper agent (figure 1c). By contrast, the downward agent pushed the eyeless inanimate circle down the hill to control for the downward movement of the hinderer agent (figure 1d). A preference for the upward (or downward) agent in the control session could explain a preference for the helper (or hinderer) agent in the test session by a sensitivity to the upward (or downward) movements of the shapes rather than their social interactions. The presentation order of the type (upward, downward) and the version (original, mirrored) of the videos were again counterbalanced between and within subjects.
+
+2.3. Data coding
+
+Subjects’ choices were scored live by the experimenter. All sessions were videotaped with a GoPro9 camera and coded frame by frame by two observers, including one who was unaware of the study design and hypothesis, using Behavioral Observation Research Interactive Software (BORIS v.8.20; [55]). For each session, videos were coded for (i) the choices of the subjects towards one paper shape agent (inter-coder reliability: Cohen’s kappa, κ = 1, n = 96), and (ii) the duration of looking at the screen when the videos were displayed in the first step of each session and before each choice trial (inter-coder reliability: intraclass correlation coefficients (ICC) = 0.819, n = 96). Unlike the study of Krupenye & Hare [39], we decided to measure subjects’ looking time in addition to their choices, as attentional level could affect the results and provide valuable information about subjects’ interest in the experimental stimuli. Inter-coder reliability was calculated using Cohen’s kappa coefficient for the choices and ICC [56] for the duration of looking based on a single rating (k = 2 raters), two-way mixed-effects model and consistency. We calculated ICCs with the function icc from the package irr (version 0.84.1) in R (version 4.3.2; [57]).
+
+2.4. Data analyses
+
+We assessed whether subjects preferred one animated agent over the other at the test (helper or hinderer) or the control session (upward or downward). We fitted a generalized linear mixed model [58] in R (version 4.3.2; [57]) with logit link function [59] and a binomial error structure using the function glmer of the package lme4 (version 1.1-35.1; [60]). In R, such an analysis of proportions is possible by using a two-column matrix with the number of successes and failures per individual as the response [58]. The response variable was a matrix comprising the number of choices for the helper and hinderer at the test session and for the upward and downward at the control session for each subject. The sample included 24 observations (session) from 12 subjects. This model included session (test, control) as the main predictor. To control for their potential effects, we also included sex and age of the subjects, order of presentation (whether test or control was presented first) and subjects’ attention to the videos. As subjects needed to observe the videos to obtain information about the animated agents’ actions, their amount of attention could have an effect on their choices at the trials afterwards. Subjects’ attention included in the model was the looking time per subject to the videos before the first trial (including the loop of videos and the two additional videos before the first trial) for each phase.
+
+To account for individual differences, avoid overconfident model estimates and keep the type I error rate at the nominal level of 5%, subject ID was included as a random intercept effect and session as a random slope within subject ID [61,62]. Correlations between the random intercept and slope were not included in the model. Before fitting the model, session was dummy-coded and then centred. At the same time, age and subjects’ attention were z-transformed to a mean of zero and a standard deviation of one to ease the interpretation of the model estimates [63] and aid model convergence. To test the effect of individual fixed effects, we conducted likelihood ratio tests [64] that compared the full models with reduced models, each lacking one fixed effect at a time [61]. We assessed whether collinearity was an issue using variance inflation factors (VIF; [65]), determined for a linear model using the function VIF of the package car (version 3.1-2; [66]). We estimated the stability of the model by dropping the subjects one at a time from the data and comparing the estimates derived for models fitted to these subsets with those obtained for the full dataset. We assessed overdispersion using a function provided by Roger Mundry [67]. The model revealed to be of good stability, was mildly underdispersed (dispersion parameter: 0.678, which may result in too conservative tests) and had no obvious issue of collinearity (maximum VIF: 2.3). We obtained confidence intervals of model estimates and fitted values using a parametric bootstrap (n = 1000 bootstraps; function bootMer of the package lme4).
+
+3. Results
+
+In the test session, subjects chose the helper agent 26 times and the hinderer agent 22 times out of the 48 trials (electronic supplementary material, table S1). In the control session, subjects chose the upward agent 21 times and the downward agent 27 times out of the 48 trials (electronic supplementary material, table S2). Of the 12 subjects, six chose the helper agent and six the hinderer agent on the first trial of the test session, while four chose the upward agent and eight the downward agent on the first trial of the control session. The probabilities of selecting the helper in the test session or the upward agent in the control session were not significantly different from chance (figure 2) and were not different from each other (p = 0.255; table 1). The model revealed no significant effects of subjects’ attention (p = 0.562), sex (p = 0.808), age (p = 0.760) or the presentation order of the sessions (p = 0.380; table 1). Subjects looked on average 37.2 ± 8.6 s (40%) at the videos before the first trial in the test session (individual range: 24.6–53.6 s) and 23.2 ± 8.2 s (39.3%) in the control session (individual range: 13.9–37.6 s).
+
+Figure 2. Probability of the subjects choosing the upward agent in the control session and the helper agent in the test session. The fitted model and its 95% confidence limits are shown for both sessions. Data points depict the mean probability of choosing the helper/upward agent for each subject; the area of the points is proportional to the number of subjects (range: 1–8).
+
+Probability of the subjects to choose the upward agent in the control session and the helper agent in the test session.
+
+Table 1. Results of the full model for the subjects’ choices in the test and control session. (Estimates together with standard errors (s.e.), 95% confidence limits (CLs), significance tests and the estimates range obtained when dropping levels of grouping factors one at a time. Session was dummy-coded and then centered, with its reference level being control. Attention and age were z-transformed to a mean of zero and a standard deviation of one. The reference levels for sex and first session were, respectively, female and control.)
+
+term
+
+	estimate
+
+	s.e.
+
+	CLlower
+
+	CLupper
+
+	χ 2
+
+	d.f.
+
+	p
+
+	min
+
+	max
+
+	
+(intercept)
+
+	−0.189
+
+	0.508
+
+	−1.267
+
+	0.864
+
+				−0.424
+
+	−0.021
+
+	
+session
+
+	0.662
+
+	0.587
+
+	−0.540
+
+	2.100
+
+	1.297
+
+	1
+
+	0.255
+
+	0.345
+
+	1.084
+
+	
+attention
+
+	−0.183
+
+	0.318
+
+	−0.951
+
+	0.514
+
+	0.336
+
+	1
+
+	0.562
+
+	−0.442
+
+	−0.014
+
+	
+sex
+
+	0.133
+
+	0.546
+
+	−0.994
+
+	1.369
+
+	0.059
+
+	1
+
+	0.808
+
+	−0.107
+
+	0.399
+
+	
+age
+
+	−0.083
+
+	0.274
+
+	−0.724
+
+	0.478
+
+	0.093
+
+	1
+
+	0.760
+
+	−0.139
+
+	0.037
+
+	
+first session
+
+	−0.409
+
+	0.468
+
+	−1.462
+
+	0.487
+
+	0.770
+
+	1
+
+	0.380
+
+	−0.642
+
+	−0.221
+
+	
+
+4. Discussion
+
+Tonkean macaques did not prefer the helper or the hinderer animated agent at the hill paradigm. The random choices found during the control session also indicated no effect of perceptual features of the shapes’ movements on the videos. Our results are similar to the ones found in infants [36] and dogs [37] but contrast with the hinderer preference found in bonobos [39]. However, only adult bonobos and not subadults preferred the hinderer. Although we managed to test Tonkean macaques of different ages (from 1 to 24 years old), we found no age effect in our study either. Therefore, Tonkean macaques did not show the same pattern of choices in the hill paradigm as the bonobos. While these two species share some behavioural and social characteristics (e.g. high social tolerance, prosocial behaviours), it is still unclear whether Tonkean macaques monitor and keep track of others’ prosocial behaviours to choose their social partners or whether they show preferential interactions with dominants as much as bonobos do [68,69].
+
+However, the relatively small sample size combined with minimal within-subject replication limits the interpretability of the results. One of our primary objectives was to strictly replicate the experimental design of experiment 1 of the Krupenye & Hare [39] study, which involved only four trials per subject in both test and control conditions. This limited number of trials was designed at minimizing the likelihood that subjects would develop preferences based on food acquisition. Although each subject was rewarded regardless of their choice, the possibility of reward-related learning, where monkeys develop a bias towards the first choice that had been followed by a reward, is still possible. Ideally, we would avoid providing food rewards and increase trial number, but in practice, when testing nonhuman primates, it is necessary to provide a few food rewards to keep them engaged and motivated.
+
+Yet, the testing conditions of the hill paradigm might not have motivated Tonkean macaques to pay attention to the videos and to evaluate the animated agents’ actions. Although the amount of attention our subjects paid did not affect their choices (similarly to infants’ results; [36]), overall, they looked at the videos not more than 40% of the time during the test and the control session. The attention to the videos was limited, although the experimenter called the subject and/or showed food when the subjects looked away to try to attract their attention back. The amount of attention the bonobos paid to the videos would have been useful information for comparing differences in attention and their potential effect on the choices between the two species.
+
+The low level of attention of the Tonkean macaques could explain our findings, but above all, it indicates a lack of interest in the experimental stimuli. The actions of the animated agents were of no direct relevance to the subjects, and no food was involved in the interactions between the social agents. Some of the previous studies showing a prosocial preference in nonhuman primates included social interactions between social agents that involved food [12–14,23] while others involved only objects [22,24,26]. Whether nonhuman primates perceive others only as social tools to access resources or whether they also evaluate (positively or negatively) the prosocial tendencies of their conspecifics needs to be further investigated in future studies.
+
+Similarly, a methodological difference from the previous studies on bonobos [39] and infants [29,36] should be considered. For health and safety reasons, Tonkean macaques were not allowed to explore and interact with the chosen agent following their choice, as they would chew or ingest the paper cut-outs. Such interaction may be important for the expression of social preferences. Additionally, while our procedure followed that of the bonobo study [39] by presenting food pieces paired with the paper cut-outs during choice trials, it differed from infant studies [29,36], which did not involve food rewards. Although we used a non-differential reward procedure with small food quantities to minimize choice-based learning, it remains possible that subjects were primarily motivated by the food reward rather than by expressing a preference for one of the agents. The presence of food may have drawn their attention away from the social agents themselves.
+
+Another potential limitation of our study is using videos and artificial animated shapes as social agents. Our subjects are highly habituated to screens as they have participated in touch screen cognitive experiments daily for several years [49–51]. However, they may not be able to associate the animated shapes with the paper cut-outs, similarly to young infants who reject animation-reality crossovers [70]. Similarly, they may not have perceived the animated shapes as social agents. While primate species can recognize the content of pictures, how they process images and video stimuli is still unclear [71]. Great apes and Japanese macaques have been shown to perceive animated shapes as agents with goal-directed movements [72–74]. Infant Japanese macaques, however, did not distinguish between objects in motion with or without eyes added [75]. Tonkean macaques showed an understanding of goal-directed actions and attentional states of human experimenters [48,76]. However, their understanding of attentional states was based on rough cues such as body and head position rather than eye cues. Similarly, Tonkean macaques did not follow the eye gaze of a human experimenter in another study [77].
+
+These previous findings suggest that Tonkean macaques may not rely on eye cues to interpret others’ intentions and visual perspectives in these specific experimental contexts, but it remains unclear whether Tonkean macaques use eye cues to attribute agency. Therefore, the use of googly eyes added on animated shapes with motion might not have been sufficient for Tonkean macaques to perceive them as social agents. In addition, Sliwa & Freiwald [78] found a brain network that was exclusively activated when macaques observed videos of social interactions and not during the observation of object–object interactions or individuals/objects without motion. This suggests that macaques’ perception of the interaction between animated shapes or between real social agents might be different.
+
+In conclusion, our findings suggest that Tonkean macaques did not prefer a helper over a hinderer animated agent (or vice versa) in the hill paradigm. Several methodological limitations combined with our relatively small sample size constrain the results’ interpretation. Above all, the artificial testing conditions might represent a critical limitation of the hill paradigm to investigate a prosocial preference in this species. In addition, the recent large-scale multi-laboratory replication study showing no prosocial preference of young infants in the hill paradigm calls into question the relevance of this paradigm for investigating social evaluation abilities in infants too [36]. The hinderer preference of bonobos in the hill paradigm and replicated with other paradigms using human experimenters [39] remains puzzling and encourages further investigation. Specifically, we encourage further studies on the social evaluation of prosocial behaviours in Tonkean macaques and other species with paradigms using conspecifics or human actors as social agents. Additionally, in future research, nonhuman primates’ prosocial behaviours and dominant-bias interactions need to be investigated to understand whether socio-ecological factors could explain the hinderer preference found in bonobos.
+
+Acknowledgements
+
+We are grateful to the management, researchers, and animal keepers of the Centre de Primatologie—Silabe de l’Université de Strasbourg (https://www.silabe.com) for their approval and valuable support in conducting this study. We would like to thank Shadab Javanmard Paghaleh, Michele Marziliano, and Mathieu Legrand for their crucial help with the data collection and Nadja Vögtle for video coding. We are deeply grateful to Christopher Krupenye for generously sharing the experimental videos used previously with the bonobos.
+
+Ethics
+
+This study respects the European ethical standards and regulations (directive 2010/63/UE). It has been approved by the internal ethical committee of the Centre de Primatologie—Silabe de l’Université de Strasbourg (SBEA 2022-03, registration no. B6732636). We only used positive reinforcement, and all individuals participated voluntarily. They had free access to the testing tunnel and could enter and leave as they wished. Their daily feeding regime was not affected by this experiment and water was available ad libitum at all times.
+
+Data accessibility
+
+The supplementary document, videos, data and statistical code associated with this article can be found at: [79].
+
+Declaration of AI use
+
+We have not used AI-assisted technologies in creating this article.
+
+Authors’ contributions
+
+M.H.: conceptualization, data curation, formal analysis, investigation, methodology, project administration, visualization, writing—original draft, writing—review and editing; H.M.: resources, writing— review and editing; H.R.: funding acquisition, writing—review and editing; J.F.: funding acquisition, writing— review and editing; S.K.: conceptualization, project administration, supervision, writing—review and editing.
+
+All authors gave final approval for publication and agreed to be held accountable for the work performed therein.
+
+Conflict of interest declaration
+
+We declare we have no competing interests.
+
+Funding
+
+This work was supported by Deutsche Forschungsgemeinschaft (DFG, German Research Foundation; project number: 254142454 / GRK 2070 ‘Understanding Social Relationships’) and an individual grant to S.K. (project number: 425330201).
+
+
+References
+
+1. Barclay P. 2016 Biological markets and the effects of partner choice on cooperation and friendship. Curr. Opin. Psychol. 7, 33–38. (10.1016/j.copsyc.2015.07.012)
+2. Schino G, Aureli F. 2009 Chapter 2 Reciprocal altruism in primates: partner choice, cognition, and emotions. In Advances in the study of behavior (eds HJ Brockmann, TJ Roper, M Naguib, KE Wynne-Edwards, JC Mitani, LW Simmons), pp. 45–69. London, UK: Academic Press. (10.1016/S0065-3454(09)39002-6)
+3. Schweinfurth MK, Call J. 2019 Reciprocity: different behavioural strategies, cognitive mechanisms and psychological processes. Learn. Behav. 47, 284–301. (10.3758/s13420-019-00394-5)31676946 PMC6877494
+4. Feinberg M, Willer R, Schultz M. 2014 Gossip and ostracism promote cooperation in groups. Psychol. Sci. 25, 656–664. (10.1177/0956797613510184)24463551
+5. Heiphetz L, Young L. 2014 A social cognitive developmental perspective on moral judgment. Behaviour 151, 315–335. (10.1163/1568539x-00003131)
+6. Holvoet C, Scola C, Arciszewski T, Picard D. 2016 Infants’ preference for prosocial behaviors: a literature review. Infant Behav. Dev. 45, 125–139. (10.1016/j.infbeh.2016.10.008)27852441
+7. Lyle HF, Smith EA. 2014 The reputational and social network benefits of prosociality in an Andean community. Proc. Natl Acad. Sci. USA 111, 4820–4825. (10.1073/pnas.1318372111)24639494 PMC3977260
+8. Margoni F, Surian L. 2018 Infants’ evaluation of prosocial and antisocial agents: a meta-analysis. Dev. Psychol. 54, 1445–1455. (10.1037/dev0000538)30010354
+9. Dugatkin LA. 1997 Cooperation among animals: an evolutionary perspective. New York, NY: Oxford University Press.
+10. Jaeggi AV, Gurven M. 2013 Reciprocity explains food sharing in humans and other primates independent of kin selection and tolerated scrounging: a phylogenetic meta-analysis. Proc. R. Soc. B 280, 20131615. (10.1098/rspb.2013.1615)PMC3757985 23945693
+11. Clutton-Brock T. 2009 Cooperation between non-kin in animal societies. Nature 462, 51–57. (10.1038/nature08366)19890322
+12. Russell YI, Call J, Dunbar RIM. 2008 Image scoring in great apes. Behav. Process. 78, 108–111. (10.1016/j.beproc.2007.10.009)18068313
+13. Subiaul F, Vonk J, Okamoto-Barth S, Barth J. 2008 Do chimpanzees learn reputation by observation? Evidence from direct and indirect experience with generous and selfish strangers. Anim. Cogn. 11, 611–623. (10.1007/s10071-008-0151-6)18357476
+14. Herrmann E, Keupp S, Hare B, Vaish A, Tomasello M. 2013 Direct and indirect reputation formation in nonhuman great apes (Pan paniscus, Pan troglodytes, Gorilla gorilla, Pongo pygmaeus) and human children (Homo sapiens). J. Comp. Psychol. 127, 63–75. (10.1037/a0028929)22746158
+15. Trösch M, Pellon S, Cuzol F, Parias C, Nowak R, Calandreau L, Lansade L. 2020 Horses feel emotions when they watch positive and negative horse–human interactions in a video and transpose what they saw to real life. Anim. Cogn. 23, 643–653. (10.1007/s10071-020-01369-0)32162112
+16. Leete J, Vonk J, Oriani S, Eaton T, Lieb J. 2020 Do domestic cats (Felis silvestris catus) infer reputation in humans after direct and indirect experience? Hum. Anim. Interact. Bull. 8, 35–53. (10.1079/hai.2020.0016)
+17. Carballo F, Freidin E, Putrino N, Shimabukuro C, Casanave E, Bentosela M. 2015 Dog’s discrimination of human selfish and generous attitudes: the role of individual recognition, experience, and experimenters’ gender. PLoS ONE 10, e0116314. (10.1371/journal.pone.0116314)25714915 PMC4340621
+18. Kundey SMA, De Los Reyes A, Royer E, Molina S, Monnier B, German R, Coshun A. 2011 Reputation-like inference in domestic dogs (Canis familiaris). Anim. Cogn. 14, 291–302. (10.1007/s10071-010-0362-5)21140184
+19. Jim HL, Plohovich M, Marshall-Pescini S, Range F. 2022 Wolves and dogs fail to form reputations of humans after indirect and direct experience in a food-giving situation. PLoS ONE 17, e0271590. (10.1371/journal.pone.0271590)35976865 PMC9385025
+20. Nitzschner M, Melis AP, Kaminski J, Tomasello M. 2012 Dogs (Canis familiaris) evaluate humans on the basis of direct experiences only. PLoS ONE 7, e46880. (10.1371/journal.pone.0046880)23056507 PMC3466196
+21. Nitzschner M, Kaminski J, Melis A, Tomasello M. 2014 Side matters: potential mechanisms underlying dogs’ performance in a social eavesdropping paradigm. Anim. Behav. 90, 263–271. (10.1016/j.anbehav.2014.01.035)
+22. Anderson JR, Bucher B, Kuroshima H, Fujita K. 2016 Evaluation of third-party reciprocity by squirrel monkeys (Saimiri sciureus) and the question of mechanisms. Anim. Cogn. 19, 813–818. (10.1007/s10071-016-0980-7)27021433
+23. Kawai N, Yasue M, Banno T, Ichinohe N. 2014 Marmoset monkeys evaluate third-party reciprocity. Biol. Lett. 10, 20140058. (10.1098/rsbl.2014.0058)24850892 PMC4046368
+24. Anderson JR, Takimoto A, Kuroshima H, Fujita K. 2013 Capuchin monkeys judge third-party reciprocity. Cognition 127, 140–146. (10.1016/j.cognition.2012.12.007)23376298
+25. Chijiiwa H, Kuroshima H, Hori Y, Anderson JR, Fujita K. 2015 Dogs avoid people who behave negatively to their owner: third-party affective evaluation. Anim. Behav. 106, 123–127. (10.1016/j.anbehav.2015.05.018)
+26. Anderson JR, Kuroshima H, Takimoto A, Fujita K. 2013 Third-party social evaluation of humans by monkeys. Nat. Commun. 4, 1561. (10.1038/ncomms2495)23463004
+27. Chijiiwa H, Takagi S, Arahori M, Anderson JR, Fujita K, Kuroshima H. 2021 Cats (Felis catus) show no avoidance of people who behave negatively to their owner. Anim. Behav. Cogn. 8, 23–35. (10.26451/abc.08.01.03.2021)
+28. Sugimoto T, Hirata S. 2023 Horses’ social evaluation of human third-party interactions. Anim. Behav. Cogn. 10, 95–104. (10.26451/abc.10.02.01.2023)
+29. Hamlin JK, Wynn K, Bloom P. 2007 Social evaluation by preverbal infants. Nature 450, 557–559. (10.1038/nature06288)18033298
+30. Hamlin JK, Wynn K, Bloom P. 2010 Three‐month‐olds show a negativity bias in their social evaluations. Dev. Sci. 13, 923–929. (10.1111/j.1467-7687.2010.00951.x)20977563 PMC2966030
+31. Hamlin JK, Wynn K. 2011 Young infants prefer prosocial to antisocial others. Cogn. Dev. 26, 30–39. (10.1016/j.cogdev.2010.09.001)21499550 PMC3076932
+32. Hamlin JK, Wynn K, Bloom P, Mahajan N. 2011 How infants and toddlers react to antisocial others. Proc. Natl Acad. Sci. USA 108, 19931–19936. (10.1073/pnas.1110306108)22123953 PMC3250174
+33. Scola C, Holvoet C, Arciszewski T, Picard D. 2015 Further evidence for infants’ preference for prosocial over antisocial behaviors. Infancy 20, 684–692. (10.1111/infa.12095)
+34. Scarf D, Imuta K, Colombo M, Hayne H. 2012 Social evaluation or simple association? Simple associations may explain moral reasoning in infants. PLoS ONE 7, e42698. (10.1371/journal.pone.0042698)22905161 PMC3414446
+35. Schlingloff L, Csibra G, Tatone D. 2020 Do 15-month-old infants prefer helpers? A replication of Hamlin et al. (2007). R. Soc. Open Sci. 7, 191795. (10.1098/rsos.191795)32431876 PMC7211864
+36. Lucca K et al. 2025 Infants’ social evaluation of helpers and hinderers: a large-scale, multi-lab, coordinated replication study. Dev. Sci. 28, e13581. (10.1111/desc.13581)39600132
+37. McAuliffe K, Bogese M, Chang LW, Andrews CE, Mayer T, Faranda A, Hamlin JK, Santos LR. 2019 Do dogs prefer helpers in an infant-based social evaluation task? Front. Psychol. 10, 591. (10.3389/fpsyg.2019.00591)30984062 PMC6449837
+38. Johnson CM, Sullivan J, Jensen J, Buck C, Trexel J, St. Leger J. 2018 Prosocial predictions by bottlenose dolphins (Tursiops spp.) based on motion patterns in visual stimuli. Psychol. Sci. 29, 1405–1413. (10.1177/0956797618771078)29889620
+39. Krupenye C, Hare B. 2018 Bonobos prefer individuals that hinder others over those that help. Curr. Biol. 28, 280–286. (10.1016/j.cub.2017.11.061)29307556
+40. Brügger RK, Willems EP, Burkart JM. 2021 Do marmosets understand others’ conversations? A thermography approach. Sci. Adv. 7, eabc8790. (10.1126/sciadv.abc8790)33536207 PMC7857675
+41. Riley EP. 2010 The endemic seven: four decades of research on the Sulawesi macaques. Evol. Anthropol. 19, 22–36. (10.1002/evan.20246)
+42. Thierry B, Anderson D JR, Desportes C, Petit C. 1994 Tonkean macaque behaviour from the perspective of the evolution of Sulawesi macaques. In Current primatology, vol.2: social development, learning and behaviour (eds JJ Roeder, B Thierry, JR Anderson, N Herrenschmidt), pp. 103–117. Strasbourg, France: Université Louis Pasteur.
+43. Thierry B, Singh M, Kaumanns W. 2004 Macaque societies: a model for the study of social organization. Cambridge, UK: Cambridge University Press.
+44. Thierry B, Sapolsky R, Sapolsky R. 2001 Chapter 6: Covariation of conflict management patterns across macaque species. In Natural conflict resolution (eds F Aureli, FBM de Waal), pp. 106–128. Berkeley, CA: University of California Press. (10.1525/9780520924932-010)
+45. Whitehouse J, Meunier H. 2020 An understanding of third-party friendships in a tolerant macaque. Sci. Rep. 10, 9777. (10.1038/s41598-020-66407-w)32555440 PMC7300006
+46. Canteloup C, Piraux E, Poulin N, Meunier H. 2016 Do Tonkean macaques (Macaca tonkeana) perceive what conspecifics do and do not see? PeerJ 4, e1693. (10.7717/peerj.1693)26925323 PMC4768696
+47. Canteloup C, Poitrasson I, Anderson JR, Poulin N, Meunier H. 2017 Factors influencing deceptive behaviours in Tonkean macaques (Macaca tonkeana). Behaviour 154, 765–784. (10.1163/1568539x-00003443)
+48. Canteloup C, Meunier H. 2017 ‘Unwilling’ versus ‘unable’: Tonkean macaques’ understanding of human goal-directed actions. PeerJ 5, e3227. (10.7717/peerj.3227)28480137 PMC5419206
+49. Ballesta S, Sadoughi B, Miss F, Whitehouse J, Aguenounon G, Meunier H. 2021 Assessing the reliability of an automated method for measuring dominance hierarchy in non-human primates. Primates 62, 595–607. (10.1007/s10329-021-00909-7)33847852
+50. Fizet J, Rimele A, Pebayle T, Cassel JC, Kelche C, Meunier H. 2017 An autonomous, automated and mobile device to concurrently assess several cognitive functions in group-living non-human primates. Neurobiol. Learn. Mem. 145, 45–58. (10.1016/j.nlm.2017.07.013)28774735
+51. Ballesta S, Meunier H. 2023 Is this worth the trouble? Strategic conflict management in Tonkean macaques. iScience 26, 108176. (10.1016/j.isci.2023.108176)37915605 PMC10616331
+52. Webster MM, Rutz C. 2020 How STRANGE are your study animals? Nature 582, 337–340. (10.1038/d41586-020-01751-5)32541916
+53. Hirel M, Meunier H, Mundry R, Rakoczy H, Fischer J, Keupp S. 2024 Choose your partner: social evaluation of skilfulness at cooperative co-action tasks in Tonkean macaques (Macaca tonkeana). BioRxiv. (10.1101/2024.07.18.604048)
+54. Hirel M, Marziliano M, Meunier H, Rakoczy H, Fischer J, Keupp S. 2025 Social evaluation of skilfulness in Tonkean macaques (Macaca tonkeana) and brown capuchins (Sapajus apella). BioRxiv, 2025.05.13.653791. (10.1101/2025.05.13.653791)
+55. Friard O, Gamba M. 2016 BORIS: a free, versatile open‐source event‐logging software for video/audio coding and live observations. Methods Ecol. Evol. 7, 1325–1330. (10.1111/2041-210x.12584)
+56. Koo TK, Li MY. 2016 A guideline of selecting and reporting intraclass correlation coefficients for reliability research. J. Chiropr. Med. 15, 155–163. (10.1016/j.jcm.2016.02.012)27330520 PMC4913118
+57. R Core Team. 2022 R: a language and environment for statistical computing. Vienna, Austria: R Foundation for Statistical Computing.
+58. Baayen RH. 2008 Analyzing linguistic data. Cambridge, UK: Cambridge University Press. (10.1017/CBO9780511801686)
+59. McCullagh P, Nelder JA. 1989 Generalized linear models, 2nd edn. London, UK: Chapman & Hall. (10.1201/9780203753736)
+60. Bates D, Mächler M, Bolker B, Walker S. 2015 Fitting linear mixed-effects models using lme4. J. Stat. Softw. 67, 1–48. (10.18637/jss.v067.i01)
+61. Barr DJ, Levy R, Scheepers C, Tily HJ. 2013 Random effects structure for confirmatory hypothesis testing: keep it maximal. J. Mem. Lang. 68, 255–278. (10.1016/j.jml.2012.11.001)PMC3881361 24403724
+62. Schielzeth H, Forstmeier W. 2009 Conclusions beyond support: overconfident estimates in mixed models. Behav. Ecol. 20, 416–420. (10.1093/beheco/arn145)19461866 PMC2657178
+63. Schielzeth H. 2010 Simple means to improve the interpretability of regression coefficients. Methods Ecol. Evol. 1, 103–113. (10.1111/j.2041-210x.2010.00012.x)
+64. Dobson AJ, Barnett AG. 2018 An introduction to generalized linear models, 4th edn. Boca Raton, FL: Chapman & Hall/CRC. (10.1201/9781315182780)
+65. Field A. 2005 Discovering statistics using SPSS. London, UK: Sage.
+66. Fox J, Weisberg S. 2011 An R companion to applied regression. Thousand Oaks, CA: Sage.
+67. Mundry R. 2023 Some R functions. Zenodo. (10.5281/zenodo.7670524)
+68. Hare B, Yamamoto S (eds). 2015 Bonobo cognition and behaviour. Leiden, The Netherlands; Boston, MA: Brill.
+69. Vervafcke H, de Vries H, van Elsacker L. 2000 Function and distribution of coalitions in captive bonobos (Pan paniscus). Primates 41, 249–265. (10.1007/BF02557595)30545177
+70. Revencu B, Csibra G. 2021 For 19-month-olds, what happens on-screen stays on-screen. Open Mind 5, 71–90. (10.1162/opmi_a_00043)34746616 PMC8563060
+71. Fagot J, Thompson RKR, Parron C. 2010 How to read a picture: lessons from nonhuman primates. Proc. Natl Acad. Sci. USA 107, 519–520. (10.1073/pnas.0913577107)20080714 PMC2818951
+72. Atsumi T, Koda H, Masataka N. 2017 Goal attribution to inanimate moving objects by Japanese macaques (Macaca fuscata). Sci. Rep. 7, 40033. (10.1038/srep40033)28053305 PMC5215463
+73. Uller C. 2004 Disposition to recognize goals in infant chimpanzees. Anim. Cogn. 7, 154–161. (10.1007/s10071-003-0204-9)14685823
+74. Rapport Munro E et al. 2025 Chimpanzees (Pan troglodytes) and bonobos (Pan paniscus) chase prey around obstacles in virtual environments. J. Comp. Psychol. 139, 155–177. (10.1037/com0000402)40126584
+75. Tsutsumi S, Ushitani T, Tomonaga M, Fujita K. 2012 Infant monkeys’ concept of animacy: the role of eyes and fluffiness. Primates 53, 113–119. (10.1007/s10329-011-0289-8)22143443
+76. Canteloup C, Bovet D, Meunier H. 2015 Do Tonkean macaques (Macaca tonkeana) tailor their gestural and visual signals to fit the attentional states of a human partner? Anim. Cogn. 18, 451–461. (10.1007/s10071-014-0814-4)25311803
+77. Itakura S. 1996 An exploratory study of gaze‐monitoring in nonhuman primates. Jpn Psychol. Res. 38, 174–180. (10.1111/j.1468-5884.1996.tb00022.x)
+78. Sliwa J, Freiwald WA. 2017 A dedicated network for social interaction processing in the primate brain. Science 356, 745–749. (10.1126/science.aam6383)28522533 PMC5540642
+79. Hirel M, Meunier H, Rakoczy H, Fischer J, Keupp S. 2025 Tonkean macaques do not prefer the helper or the hinderer in the hill paradigm. OSF. https://osf.io/qyngx/

@@ -1,0 +1,10 @@
+Genomic structure of the Aeromonas bacteriophage pAh6-C and its comparative genomic analysis.
+
+pAh6-C is a virulent bacteriophage (phage), isolated from a river in Korea, that infects a multiple-
+antibiotic-resistant A. hydrophila strain, JUNAH. The double-stranded DNA genome of pAh6-C is
+composed of 53,744 bp with a G + C content of 52.83 %. The genome encodes 86 putative ORFs, four
+putative promoters, and seven transcriptional terminator regions. Genome sequence analysis of pAh6-C
+and comparative analysis with the homologous Shewanella phage Spp001 revealed that there is a high
+degree of similarity between pAh6-C and Spp001 in 50 of the 86 ORFs of pAh6-C. The results of this
+investigation indicate that pAh6-C is closely related to Spp001, especially in the genes coding for
+proteins involved in DNA metabolism.

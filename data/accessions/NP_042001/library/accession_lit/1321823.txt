@@ -1,0 +1,18 @@
+Cloning and expression of gene 4 of bacteriophage T7 and creation and analysis of T7 mutants lacking the 4A primase/helicase or the 4B helicase.
+
+T7 gene 4, which is required for DNA replication, specifies two proteins whose coding sequences
+overlap in the same reading frame: the 4A protein, a 566-amino acid primase/helicase, and the 4B
+protein, a 503-amino acid helicase whose initiation codon is the 64th codon of the 4A protein. To
+study better the individual functions of these two overlapping proteins, we made clones that express
+both 4A and 4B proteins, only 4B protein, or only what we refer to as the 4A' protein, in which
+methionine 64 is replaced by leucine, thereby eliminating the 4B initiation codon. These clones
+provide considerably more gene 4 protein for biochemical analysis than do infected cells. They can
+also be used to isolate and propagate T7 gene 4 deletion mutants, and we have made T7 mutants which
+lack all gene 4 coding sequences, or which express 4A' protein but no 4B protein, or 4B protein but
+no 4A protein. Analysis of these phage mutants shows that 4A' protein without any 4B protein can
+support essentially normal replication and growth, whereas 4B protein without any 4A protein
+supports little replication or growth. Apparently, the primase activity of the 4A protein is
+essential for replication, but the 4B protein is dispensable, presumably because the 4A protein also
+supplies helicase activity. The mutation at amino acid 64 of 4A' appears to have little effect on 4A
+function. The rate of replication during normal T7 infection appears to be limited by the amount of
+gene 4 protein, but too high a level of either 4A or 4B protein is inhibitory to growth.

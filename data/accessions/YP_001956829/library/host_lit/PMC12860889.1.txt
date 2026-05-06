@@ -1,0 +1,259 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: J Nematol
+Journal ID: J Nematol
+Journal ID: jofnem
+
+Journal of Nematology
+
+ISSN: 0022-300X
+EISSN: 2640-396X
+Publisher: Society of Nematologists
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC12860889
+PMID: 41631096
+DOI: 10.2478/jofnem-2025-0064
+Article ID: jofnem-2025-0064
+Article version: 1
+Subjects: Research Paper
+
+Independent Evaluation of Rootstock Resistance and Endophytic Bacteria for Managing Citrus Nematode
+
+Banihashemian Seyedeh Najmeh n.banihashemian@areeo.ac.ir
+Mirghasemi Seyedeh Negin
+Seraji Ali
+Fard Hadi Karimipour
+Jamali Salar
+Citrus and Subtropical Fruits Research Center, Horticultural Science Research Institute, Agricultural Research Education and Extension Organization (AREEO) , Ramsar , Iran
+Plant Protection Department, Faculty of Agricultural Sciences , University of Guilan , Rasht , Iran
+Tea Research Center, Horticultural Science Research Institute, Agricultural Research Education and Extension Organization (AREEO) , Lahijan , Iran
+Plant Protection Research Department, Kohgiluyeh and Boyerahmad Agricultural and Natural Resources Research and Education Center, AREEO , Yasouj , Iran
+This paper was edited by Sapinder Bali.
+
+Electronic publication date: 2026 Jan 31
+Publication date: 2025 Feb
+Volume: 57
+Issue: 1
+Electronic Location ID: 20250064
+Received 2025 Jul 9
+Copyright: © 2025 Seyedeh Najmeh Banihashemian et al., published by Society of Nematologists, Inc.
+Copyright year: 2025
+Copyright holder: Seyedeh Najmeh Banihashemian et al., published by Society of Nematologists, Inc.
+License: This work is licensed under the Creative Commons Attribution 4.0 International License.
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Keywords: citrus nematode, ecofriendly, integrated management, sustainable agriculture
+Page count: 11
+
+==============================
+Abstract
+
+Tylenchulus semipenetrans, a destructive root-parasitic nematode, causes slow decline and significant yield losses worldwide in citrus. Developing resistant cultivars/rootstocks remains an important strategy for the sustainable management of plant-parasitic nematodes in integrated pest management (IPM) systems. Controlling the citrus nematode is challenging due to its wide host range and high adaptability. Although commonly used, chemical nematicides increase production costs and pose risks to human health and the environment. In this study, we separately evaluated the response of five commonly used citrus rootstocks, Citrus paradisi (M.) × Poncirus trifoliata (L.) Raf. (Citromelo), P. trifoliata (L.) Raf. (Poncirus), Citrus jambhiri Lush (Rough lemon), C. volkameriana Ten. & Pasq. (Volkamer lemon), and Citrus aurantium L. (Sour orange), to T. semipenetrans infection. In parallel, we evaluated the biocontrol potential of two bacterial strains, Bacillus safensis Q.en and Pseudomonas chlororaphis P.en, on the susceptible ‘Sour Orange’. The results showed that T. semipenetrans exhibited the highest reproduction on ‘Volkamer lemon’ (275 females/g root and 1,150 second-stage juveniles [J2s]/200 g soil), whereas ‘Citromelo’ showed the strongest resistance (8 females/g root and 220 J2s/200 g soil). Application of the bacterial agents to ‘Sour Orange’ significantly reduced the number of females on roots and juveniles in the soil, while also improving plant growth parameters compared to untreated controls. Our findings demonstrate the individual potential of using resistant rootstocks or biocontrol agents as economical, effective, and environmentally safe components for managing T. semipenetrans. The resistant genotypes identified may also be useful in future breeding programs.
+
+According to the Food and Agriculture Organization (FAOSTAT, 2023), global citrus (Citrus spp., family Rutaceae) production and harvested area were 13.4 million tons and 1.46 million hectares, respectively. Iran ranked fourth globally, with 633,000 tons of production and 23,700 hectares of harvested area. In the northern and southern provinces of Iran, citrus is a major horticultural crop. Commonly used rootstocks include Citromelo, Poncirus, Sour orange, Bakraei, and Rough lemon (Mohammad Alian et al., 2018).
+
+As a nutritionally valuable and economically important fruit, citrus contributes significantly to both domestic consumption and export markets in Iran. However, infections caused by plant-parasitic nematodes (PPNs), particularly T. semipenetrans, are among the primary causes of citrus orchard decline. The impact of this soil-borne nematode depends on several factors, including tree age, rootstock susceptibility, and nematode population density (Verdejo-Lucas and McKenry, 2004; Banihashemian et al., 2023a). Additional stresses, such as water shortage, poor tree vigor, or Phytophthora infections, can exacerbate nematode damage (Jaouad et al., 2020). T. semipenetrans has been recognized as a major constraint in citrus production, significantly reducing yield and fruit quality worldwide.
+
+Managing T. semipenetrans is challenging due to its wide host range within Citrus, adaptability, and persistence in soil. Although chemical nematicides provide fast suppression, they often harm non-target soil microorganisms and pose environmental and health risks. Consequently, sustainable alternatives for citrus, especially the use of resistant rootstocks and biological control, have gained increasing attention. The efficacy of such integrated strategies has been demonstrated against other nematodes in perennial crops, highlighting their potential for citrus nematode control (Banihashemian et al., 2023c).
+
+Considerable research has focused on the use of PPN-resistant cultivars or rootstocks, particularly in woody perennials (Claverie et al., 2011). For example, nematode-resistant rootstocks have proven effective in managing root-knot nematodes (Meloidogyne spp.) in perennial crops, such as kiwifruit (Banihashemian et al., 2023c). Evaluating host responses to T. semipenetrans infection represents a critical step in identifying and selecting resistant genotypes. In citrus, choosing a resistant rootstock may serve as a sustainable management strategy against this nematode, though current studies in this area remain limited (Zoubi et al., 2024).
+
+In citrus, Swingle citrumelo and P. trifoliata have been reported as resistant rootstocks (Ling et al., 2000; Mohammad Alian et al., 2018). Separately, C. aurantium L. (Sour orange) is widely used across Mediterranean regions due to its broad adaptability and high graft compatibility with commercial scions (Beniken et al., 2011; Bowman et al., 2021). However, this rootstock presents significant susceptibility to both Citrus Tristeza Virus (CTV) and T. semipenetrans nematode infestations (Mohammad Alian et al., 2018; Bowman et al., 2021; Ibrahim et al., 2022). Thus, further research for sustainable management of this nematode, such as developing nematode-resistant rootstock alternatives and biological control with bio-agent antagonists, is necessary. Biological control agents represent a promising option, particularly when resistant genotypes are unavailable. When integrated with resistant cultivars and other agronomic practices, this approach can contribute to long-term nematode suppression.
+
+In sustainable agriculture, beneficial microbes serve as an eco-friendly and good alternative to chemical materials. Endophytic bacteria, for instance, improve plant performance and pathogen resistance via both direct and indirect mechanisms. These mechanisms include improved nutrient uptake, particularly in nitrogen, phosphorus, and iron-deficient soils, by solubilizing minerals and synthesizing phytohormones (auxins, gibberellins, cytokinins, ethylene, and abscisic acid), which simultaneously induce growth and prime plant immune responses, a mechanism directly contributing to pathogen resistance (Rosier et al., 2018; Ali et al., 2021; Banihashemian et al., 2022). Therefore, further elucidating how these microbial functions collectively enhance plant stress adaptation remains a key research objective (Banihashemian and Mirmajlessi, 2025).
+
+There were reports of the successful application of Bacillus and Pseudomonas species for managing PPNs in woody trees. For example, kiwifruits inoculated with these two bacterial genera exhibited significant reduction of nematode reproduction factors, along with enhanced plant growth parameters, compared to controls (Banihashemian et al., 2023b; Mirghasemi et al., 2025). In addition, Bacillus strains exhibited high effectiveness against the T. semipenetrans, showing approximately 80% J2 mortality and reduced egg hatching in vitro. These bacteria also enhanced citrus growth and root development (Labiadh et al., 2023). Also, Pseudomonas species show significant nematicidal activity against T. semipenetrans in citrus under both laboratory and greenhouse conditions (Abdelnabby et al., 2011; Montasser et al., 2012; Hanawi, 2016).
+
+In this study, we first investigated the resistance of five commonly used citrus rootstocks, including Citromelo, Poncirus, Rough Lemon, Volkamer Lemon, and Sour Orange, to the T. semipenetrans. Then, the antagonistic potential of two endophytic bacterial strains, namely B. safensis Q.en and P. chlororaphis P.en, against T. semipenetrans was evaluated on the susceptible Sour orange rootstock.
+
+For the sustainable management of T. semipenetrans, this study was designed to systematically evaluate the two core components of an integrated strategy in parallel. We hypothesized that (1) commercial citrus rootstocks exhibit varying levels of resistance to the nematode, and (2) endophytic bacteria can effectively reduce nematode damage on a susceptible, widely planted rootstock. Although the direct combination of these tactics remains a key research objective, this study delivers the critical baseline data for each component, confirming their individual potential and facilitating future integration. These two strategies enable the immediate application of the most effective resistant rootstocks in new plantings, while simultaneously providing a biocontrol option for protecting existing orchards established on susceptible rootstocks, such as Sour orange.
+
+Materials and Methods
+
+Plant material and growth conditions
+
+Five citrus rootstocks, including C. paradisi (M.) × P. trifoliata (L.) Raf. (Citromelo), P. trifoliata (L.) Raf. (Poncirus), Citrus jambhiri Lush (Rough lemon), C. volkameriana, Ten. & Pasq. (Volkamer Lemon), and C. aurantium L. (Sour Orange), were selected to evaluate their resistance to T. semipenetrans. Seeds of each rootstock were surface-sterilized by immersion in 70% (v/v) ethanol for 2 min, followed by three rinses with sterile distilled water. The sterilized seeds were then germinated in trays containing a sterilized mixture of cocopeat, sand, and perlite in a 1:1:1 ratio (v/v/v). The 5-month-old seedlings were transferred to pots (2 L volume) filled with the same sterilized substrate. All plants were grown under greenhouse conditions at 25 ± 2°C and 70% relative humidity, in a controlled environment located in northern Iran. Plants were irrigated regularly and fertilized as needed to ensure uniform growth prior to nematode inoculation.
+
+Nematode inoculum and identification
+
+To obtain T. semipenetrans inoculum for experiments, soil and root samples were collected from nematode-infested citrus orchards in Ramsar city, Mazandaran province, northern Iran. Single egg masses were extracted from infected roots using a stereomicroscope (Nikon SMZ800, Nikon Corporation, Tokyo, Japan). A single egg mass was then inoculated onto the roots of the susceptible Rough lemon seedlings to establish, maintain, and multiply a pure nematode population in a greenhouse at 25 ± 2°C and 70% relative humidity. After 3 months, the roots were assessed for nematode infection. To visualize female nematodes, roots were stained with an acid fuchsin solution (0.39 g acid fuchsin in 75 mL distilled water and 25 mL glacial acetic acid) and then destained using a glycerol–HCl solution (100 mL glycerol + 100 μL HCl).
+
+Second-stage juveniles (J2s) were extracted using the tray method (Whitehead and Hemming, 1965) and stored at 4°C for up to 24 hr until further use. Molecular identification of T. semipenetrans was performed by sequencing the D2–D3 expansion segment of the LSU rDNA region, using primers and protocols described by Nunn (1992). The obtained sequence was submitted to GenBank under accession number PV698423.
+
+Plant growth parameters and nematode assessment
+
+The 5-month-old seedlings of citrus were inoculated with 2,000 J2s of T. semipenetrans through four holes around the root zone. Non-inoculated seedlings were used as healthy controls and maintained under identical greenhouse conditions. Plants were irrigated every 7 days based on growth requirements. After 60 days of incubation, seedlings were carefully uprooted. Roots were washed, stained with 0.01% acid fuchsin solution, and destained using a glycerol solution to visualize nematode infection.
+
+The population of T. semipenetrans was evaluated by counting the number of female nematodes per gram of root and the number of J2s per 200 g of soil under a stereomicroscope (Nikon SMZ800) (Whitehead and Hemming, 1965). To evaluate the resistance level of citrus rootstocks to T. semipenetrans, a nematode female index (NFI) was calculated based on a 0–5 rating scale Table 1.
+
+Table 1: Rating scale for evaluating the level of resistance/susceptibility of citrus rootstocks based on the number of female nematodes per gram of root.
+
+Scale	Number of T. semipenetrans females/gram of root	Resistance rating	
+0	0	Immune (I)	
+1	1–10	Resistant (R)	
+2	11–30	MR	
+3	31–60	MS	
+4	61–100	Susceptible (S)	
+5	>100	HS	
+Note: The resistance rating scale was adapted from established methods in nematology (e.g., Banihashemian et al., 2023c; Zoubi et al., 2024) and calibrated based on the distribution of nematode population counts observed in this study.
+
+HS, highly susceptible; MR, moderately resistant; MS, moderately susceptible.
+
+In addition, citrus growth parameters, including shoot and root fresh weights, were recorded immediately after harvest. Dry weights were determined after oven-drying the samples at 70°C for 72 hr. All experiments were conducted in a completely randomized design (CRD) with five replicates per treatment, and the entire experiment was repeated twice.
+
+Correlation and regression analyses were performed to assess the relationship between nematode infection and plant growth. The percentage reduction for each growth parameter (shoot/root fresh and dry weight) was calculated for each biological replicate using the formula: Percentage reduction = ([Value of control – Value of infected]/Value of control) × 100. Pearson correlation coefficients were then calculated between the mean number of females per gram of root and the mean percentage reduction values for each rootstock.
+
+Preparation and characterization of bacterial antagonists
+
+The endophytic bacterial isolates B. safensis strain Q.en (GenBank accession OK415424) and P. chlororaphis strain P.en (GenBank accession OK415418) was previously isolated from apparently healthy kiwifruit plants in northern Iran (Banihashemian et al., 2022). Isolation of strains Q.en and P.en was performed following the method described by Wicaksono et al. (2018). The isolates were cultured on sucrose nutrient agar (NAS) media and incubated at 25°C for 48 hr to ensure optimal growth. The pure colonies were obtained by successive re-culturing before storage at −80°C in 60% glycerol.
+
+Inoculation of B. safensis Q.en and P. chlororaphis P.en on seedlings and evaluation of plant growth parameters
+
+The endophytic bacteria were cultured in liquid Luria-Bertani (LB) medium (yeast extract 5 g, NaCl 10 g, tryptone 10 g, distilled water 950 mL) at 25°C with shaking at 200 rpm for 48 hr to obtain bacterial suspensions. The suspensions were centrifuged at 6,000 rpm for 5 min and washed three times with sterile distilled water. The bacterial pellets were then resuspended in sterile distilled water to reach an optical density (OD600) of 0.5.
+
+To evaluate the efficacy of the bacteria against T. semipenetrans, 5-month-old Sour orange seedlings were selected for this bioassay. This rootstock was chosen because it is sufficiently susceptible to allow clear evaluation of biocontrol effects, while also being the predominant and traditional rootstock in northern Iranian orchards, making the findings directly relevant to local growers. The seedlings were inoculated with 40 mL of bacterial suspension (107 CFU/mL) of B. safensis Q.en and P. chlororaphis P.en. After 48 hr, 2,000 J2s of T. semipenetrans were inoculated onto the roots of Sour orange seedlings, which were maintained under controlled greenhouse conditions as described above.
+
+Four treatments were considered as follows: (i) control: treated with sterile distilled water only; (ii) inoculated with T. semipenetrans only; (iii) pretreated with B. safensis strain Q.en followed by T. semipenetrans inoculation; and (iv) pretreated with P. chlororaphis strain P.en followed by T. semipenetrans inoculation. The experiment was conducted in a CRD with five replicates per treatment, and the entire experiment was repeated twice.
+
+Statistical analysis
+
+Quantitative data were analyzed using SAS software version 9.1 (SAS Institute Inc., Cary, NC, USA) with a one-way analysis of variance (ANOVA). Means ± standard error (X ± SE) was calculated for all experimental data. Differences between treatments were considered significant at P < 0.05, based on the least significant difference (LSD) test.
+
+Results
+
+Response of citrus rootstocks to T. semipenetrans
+
+The response of the five citrus rootstocks to infection by T. semipenetrans is shown in Figures 1A and 1B. Evaluation of the number of female nematodes that penetrated the roots revealed a significant difference among the rootstocks (P < 0.0001). The results showed that the highest number of T. semipenetrans females (275/gram of root) was recorded in ‘Volkamer lemon’, whereas the lowest numbers were observed in ‘Citromelo’ and ‘Poncirus’, respectively (Figs. 1A,B).
+
+Figure 1: Reaction of citrus rootstocks to infection by T. semipenetrans. (A) Number of females on roots; (B) number of J2s in the soil. Different letters denote statistically significant differences (P < 0.05). Error bars represent the SEM. SEM, standard error of the mean.
+
+The rating scale indicated that ‘Volkamer lemon’ and ‘Rough lemon’ were highly susceptible, with >100 female nematodes per gram of root. ‘Sour Orange’ was considered susceptible, with 81–100 females per gram of root. ‘Citromelo’ and ‘Poncirus’ were categorized as resistant and moderately resistant (MR), with 6–10 and 11–30 female nematodes per gram of root, respectively. Notably, ‘Citromelo’ showed significantly greater resistance than ‘Poncirus’ (Table 1; Fig. 1A).
+
+In addition, statistical analysis showed significant differences (P < 0.05) in the density of J2s in the soil among the tested rootstocks. The number of J2s per 200 g of soil was significantly higher in ‘Volkamer lemon’ and ‘Rough lemon’, while ‘Citromelo’ and ‘Poncirus’ exhibited significantly lower nematode densities. The lowest J2 count was observed in ‘Citromelo’ (Fig. 1B).
+
+Moreover, fresh and dry shoot and root weights varied among the rootstocks and were generally reduced in inoculated plants compared to the non-inoculated controls. Root fresh and dry weights were significantly decreased in nematode-infected rootstocks (Figs. 2A,B). The highest reduction in root fresh weight was observed in ‘Volkamer lemon’ (55.66%) and ‘Rough lemon’ (45.65%), followed by ‘Sour orange’ (32.42%). In contrast, the lowest reductions were recorded in ‘Citromelo’ (14.41%) and ‘Poncirus’ (20.91%) (Fig. 2A).
+
+Figure 2: Growth parameters of plants in response to infection by T. semipenetrans. (A) Fresh root weight; (B) dry root weight; (C) fresh shoot weight; and (D) dry shoot weight. Different letters indicate statistically significant differences (P < 0.05). Error bars represent the SEM. SEM, standard error of the mean.
+
+Similarly, ‘Volkamer lemon’ (70.56%), ‘Rough lemon’ (67.21%), and ‘Sour orange’ (58.75%) exhibited the greatest reduction in root dry weight, while ‘Citromelo’ (26.51%) and ‘Poncirus’ (38.82%) showed the least reduction (Fig. 2B).
+
+Shoot fresh and dry weights were significantly reduced in infected rootstocks compared to the control (Figs. 2C,D). The greatest reduction in shoot fresh weight was recorded in ‘Volkamer lemon’ (59.32%), ‘Rough lemon’ (49.44%), and ‘Sour orange’ (32.56%). In contrast, the lowest reduction was observed in ‘Citromelo’ (10.71%) and ‘Poncirus’ (16.31%) (Fig. 2C).
+
+Similarly, shoot dry weight showed the highest reduction in ‘Volkamer lemon’ (68.95%), followed by ‘Rough lemon’ (56.84%) and ‘Sour orange’ (49.92%). The lowest dry weight reduction was observed in ‘Citromelo’ (25.95%) and ‘Poncirus’ (32.22%) (Fig. 2D).
+
+Regression analysis revealed significant positive correlations between the number of T. semipenetrans females and reductions in fresh and dry shoot and root weights (Figs. 3A,B).
+
+Figure 3: Relationships between the number of T. semipenetrans females and percentage of reductions in fresh and dry root (A) and shoot (B) weights of citrus plants. See the key within the figure for symbol and line identifications.
+
+Antagonistic effects of the endophytic bacteria B. safensis Q.en and P. chlororaphis P.en against T. semipenetrans in greenhouse studies
+
+The number of T. semipenetrans females in the roots was significantly reduced in citrus seedlings pretreated with B. safensis strain Q.en and P. chlororaphis strain P.en, compared to the untreated control (Fig. 4). In addition, plant growth parameters, particularly shoot fresh and dry weights, were significantly improved following bacterial inoculation (Fig. 5)
+
+Figure 4: Antagonistic effects of B. safensis strain Q.en and P. chlororaphis strain P.en against T. semipenetrans in citrus under greenhouse conditions. (A) Number of females per gram of root. (B) Number of second-stage juveniles (J2s) per 200 g of soil. Different letters denote significant differences (P < 0.05). Data are means of five replicates repeated twice independently (n = 10). Error bars represent the SEM. Untreated (nematode-inoculated); B + N = B. safensis + Nematode; P + N = P. chlororaphis + Nematode. SEM, standard error of the mean.
+
+Figure 5: Effects of B. safensis strain Q.en and P. chlororaphis strain P.en on citrus growth parameters under greenhouse conditions. Different letters denote significant differences (P < 0.05). Data are the mean of five replications that were repeated two times independently (n = 10). Error bars represent the SEM. Untreated (nematode-inoculated); B + N = B. safensis + Nematode; P + N = P. chlororaphis + Nematode. SEM, standard error of the mean.
+
+Discussion
+
+Citrus production faces significant challenges of biotic and abiotic stresses. Among these, the T. semipenetrans poses a serious threat to the citrus industry in Iran and worldwide, significantly affecting plant growth and yield (Mohammad Alian et al., 2018; Kumar and Arthurs, 2021).
+
+Given these challenges, biological control agents have gained particular attention as eco-friendly and sustainable strategies for disease management. Integrating resistant rootstocks with microbial antagonists provides a promising approach against nematodes, which are difficult to control.
+
+The use of disease-resistant rootstocks has a long history in citrus production, although their resistance levels to T. semipenetrans vary widely among genotypes. In this study, we first evaluated the resistance of five commonly used citrus rootstocks (Citromelo, Poncirus, Sour orange, Volkamer lemon, and Rough Lemon) to nematode infection. Additionally, we investigated the antagonistic effects of two endophytic bacterial strains (B. safensis and P. chlororaphis) on Sour orange seedlings.
+
+Our findings showed that both bacterial strains significantly improved shoot and root biomass in infected and non-infected plants. In our experiment, T. semipenetrans exhibited high reproduction rates on Volkamer lemon and Rough lemon (275 and 150 females/g root, respectively), followed by Sour orange (83.1 females/g root). In contrast, Citromelo and Poncirus supported much lower nematode reproduction (8 females/g root and 19 females/g root, respectively). These results confirm that Citromelo is the most resistant and Poncirus MR among the tested rootstocks.
+
+These findings are consistent with earlier reports demonstrating that the genetic background of rootstocks plays a key role in nematode resistance (Ling et al., 2000; Mohammad Alian et al., 2018; Zoubi et al., 2024). Rootstocks with inherent resistance offer a valuable resource for breeding programs or use in nematode-infested orchards.
+
+Also, nematode infection significantly reduced growth parameters in all rootstocks compared to the non-inoculated controls. The greatest reduction in fresh and dry shoot and root weight was observed in Volkamer lemon and Rough lemon, followed by Sour orange. In contrast, Citromelo and Poncirus exhibited the least reduction, aligning with their resistance levels. While the overall negative correlation between nematode density and plant growth was clear across all rootstocks, future studies could characterize these relationships more precisely at the individual genotype level to better understand host-specific response patterns.
+
+Application of endophytic bacteria to Sour orange seedlings reduced nematode severity and improved plant development, likely by enhancing nutrient uptake and inducing systemic resistance through production of secondary metabolites (Liu et al., 2019; Banihashemian et al., 2023b). Previous studies have similarly shown that endophytic Bacillus and Pseudomonas spp. can suppress PPNs and improve host growth across multiple crops (Hu et al., 2018; Tran et al., 2019; Vetrivelkalai, 2019; Banihashemian et al., 2023b).
+
+The significant enhancement of plant growth in pretreated treatments with bacteria is interpreted as a combined effect of direct nematode suppression and the plant growth-promoting capabilities of the endophytic strains. This interpretation is consistent with the established role of endophytic bacteria, including our own prior findings where endophytic bacteria significantly improved plant growth and primed defense responses in the absence of pathogens (Banihashemian et al., 2023c). This supports the conclusion that the observed benefits are derived from the multifaceted action of endophytic bacteria as a management strategy.
+
+The observed suppression of T. semipenetrans by B. safensis and P. chlororaphis is likely mediated through a combination of direct and indirect mechanisms. Directly, these strains may produce a range of bioactive secondary metabolites, such as cyclic lipopeptides or hydrogen cyanide, with documented nematicidal activity that could paralyze or kill J2s before root penetration (Banihashemian et al., 2022; Mabrouk et al., 2025). The nematicidal and growth-promoting effects observed in our study align with recent reports of rhizosphere bacteria efficacy against T. semipenetrans, where various Bacillus species caused up to 85% J2 mortality, inhibited egg hatching, and enhanced citrus root growth (Labiadh et al., 2023). Similarly, a bacterial microbiome achieved near-complete juvenile mortality (98.98%) and significantly suppressed nematode populations under greenhouse conditions (Zoubi et al., 2025). Indirectly, their well-established capacity to induce systemic resistance (ISR) in host plants could prime the citrus root system, enhancing the production of defense-related compounds upon nematode challenge (Subedi et al., 2020; Banihashemian et al., 2023b). Furthermore, effective root colonization and biofilm formation by these endophytes are crucial prerequisites for both nutrient competition and sustained interaction with the host plant, creating a hostile rhizosphere environment for the nematode.
+
+It is noteworthy that the number of females per gram of root was selected as the key metric in this study because it directly quantifies the parasitic success of T. semipenetrans at its most damaging life stage. This provided a uniform measure for comparing both host resistance and biocontrol efficacy.
+
+The application of these promising greenhouse results to field efficacy requires consideration of several factors. The persistence and activity of the inoculated bacterial strains can be influenced by field variables such as soil type, temperature fluctuations, moisture content, and the native microbial community. Formulation of the biocontrol agents into stable products (e.g., solid powders or liquid concentrates) and application methods that protect them from environmental stresses (e.g., through seed coating or drip irrigation) will be critical for success. Supporting this, a recent study demonstrated that liquid formulations of P. chlororaphis and Bacillus velezensis significantly suppressed root-knot nematode in kiwifruit under both greenhouse and field conditions, highlighting the importance of proper formulation for field efficacy (Mirghasemi et al., 2025). Future field trials should monitor the population dynamics of the applied strains and their functional persistence throughout the growing season to validate their long-term control potential under real-world conditions.
+
+In summary, we demonstrated that Citromelo and Poncirus showed strong and moderate resistance, respectively, to T. semipenetrans. We also confirmed the biocontrol efficacy of Bacillus and Pseudomonas spp. against this nematode in Sour orange seedlings. These findings demonstrate the individual efficacy of both resistant rootstocks and biocontrol agents, providing the key components for an environmentally friendly strategy to manage citrus nematode infestations.
+
+Notably, while Volkamer lemon was the most susceptible rootstock, Rough lemon showed slightly lower susceptibility, aligning with previous reports (Giudice and Inserra, 1980; Ibrahim et al., 2022). The application of Bacillus and Pseudomonas strains effectively suppressed nematode infection, highlighting their potential as biocontrol agents.
+
+The combined evaluation of rootstock resistance and biocontrol provides a comprehensive framework for nematode management. The identification of Citromelo and Poncirus as highly resistant rootstocks offers a long-term solution for new plantings, while the demonstrated efficacy of the endophytic strains provides an immediate tool for protecting existing orchards on susceptible rootstocks like Sour orange. Most importantly, this parallel evaluation provides the foundation for direct testing of the integration of these resistant rootstocks with biocontrol agents in field conditions.
+
+Conclusion
+
+These findings offer practical implications for citrus production in nematode-infested regions. Implementing resistant rootstocks (especially Citromelo and Poncirus) or endophytic antagonists can reduce reliance on chemical nematicides and promote sustainable orchard management. Our results revealed lower T. semipenetrans populations in Citromelo and Poncirus, confirming their resistance. Furthermore, the biocontrol potential of Bacillus and Pseudomonas strains was demonstrated on the susceptible Sour orange. While the precise mechanisms of the bacterial strains in suppressing T. semipenetrans warrant further investigation under field conditions, this study provides the critical components for an integrated approach. This parallel evaluation establishes a robust foundation for integrating these core components. Our findings demonstrate their high potential for inclusion in a comprehensive, field-based integrated pest management strategy.
+
+Acknowledgments
+
+Not applicable.
+
+Declarations
+
+Author contribution
+
+SNB and SNM carried out the experiments. SNB and HKF performed analyses. SNB and HKF wrote the first draft of the manuscript. AS, HKF, and SJ conceptualized the project. All authors reviewed the manuscript.
+
+Funding statement
+
+Not applicable.
+
+Ethical approval
+
+This article does not contain any studies with human participants or animals by any of the authors.
+
+Consent for publication
+
+The manuscript has not been published elsewhere.
+
+Availability of data and material
+
+All data generated during the current study are included in this article.
+
+Competing interests
+
+The authors declare that they have no competing interests.
+
+
+References
+
+Abdelnabby H. M. Mohamed H. A. Aly H. E. A. 2011 Nematode-antagonistic compounds from certain bacterial species Egyptian Journal of Biological Pest Control 21 209 217 https://www.cabidigitallibrary.org/doi/pdf/10.5555/20123093869
+Ali M. Ali Q. Sohail M. A. Ashraf M. F. Saleem M. H. Hussain S. Zhou L. 2021 Diversity and taxonomic distribution of endophytic bacterial community in the rice plant and its prospective International Journal of Molecular Sciences 22 18 10165 10.3390/ijms221810165 34576331 PMC8465699
+Banihashemian S. N. Jamali S. Golmohammadi M. Ghasemnezhad M. 2022 Isolation and identification of endophytic bacteria associated with kiwifruit and their biocontrol potential against Meloidogyne incognita Egyptian Journal of Biological Pest Control 32 1 1 12 10.1186/s41938-022-00601-y
+Banihashemian S. N. Jamali S. Golmohammadi M. Ghasemnejad M. 2023a Specific identification of root-knot nematode Meloidogyne incognita common in kiwifruit orchards of Guilan and Mazandaran provinces using sec-1 gene sequence Journal of Applied Research in Plant Protection 11 4 63 72 10.22034/arpp.2022.15747
+Banihashemian S. N. Jamali S. Golmohammadi M. Ghasemnezhad M. 2023b Management of root-knot nematode in kiwifruit using resistance-inducing Bacillus altitudinis Tropical Plant Pathology 48 4 443 451 10.1007/s40858-023-00573-w.
+Banihashemian S. N. Jamali S. Golmohammadi M. Noorizadeh S. Atighi M. R. 2023c Reaction of commercial cultivars of kiwifruit to infection by root-knot nematode and its biocontrol using endophytic bacteria Journal of Nematology 55 1 20230020 37284000 10.2478/jofnem-2023-0020 PMC10241307
+Banihashemian S. N. Mirmajlessi S. M. 2025 Epigenetic modifications, immune control processes, and plant responses to nematodes Agriculture 15 7 742 10.3390/agriculture15070742
+Beniken L. Beqqali M. Dahan R. Benkirane R. Omari F. E. Benazouz A. Benyahia H. Gaboun F. 2011 Évaluation de la résistance de dix porte-greffes d'agrumes résistants à la tristeza vis-à-vis du déficit hydrique Fruits 66 6 373 384 10.1051/fruits/2011053
+Bowman K. D. McCollum G. Albrecht U. 2021 SuperSour: A new strategy for breeding superior citrus rootstocks Frontiers in Plant Science 12 741009 10.3389/fpls.2021.741009 34804088 PMC8600239
+Claverie M. Dirlewanger E. Bosselut N. Van Ghelder C. Voisin R. Kleinhentz M. Lafargue B. Abad P. Rosso M. N. Chalhoub B. 2011 The Ma gene for complete-spectrum resistance to Meloidogyne species in prunus is a TNL with a huge repeated C-terminal post-LRR region Plant Physiology 156 2 779 792 10.1104/pp.111.176230 21482634 PMC3177275
+FAOSTAT 2023 Citrus production in the word
+Giudice V. L. Inserra R. N. 1980 Reaction of citrus and noncitrus rootstocks to Tylenchulus semi-penetrans Nematologia Mediterranea 8 1 103 105
+Hanawi M. J. 2016 Fungal and bacterial bio-control agents in controlling citrus nematode Tylenchulus semipenetrans cobb in greenhouse and field European Academic Research 4 9 7824 7841
+Hu H. Wang C. Li X. Tang Y. Wang Y. Chen S. Yan S. 2018 RNA-Seq identification of candidate defense genes targeted by endophytic Bacillus cereus-mediated induced systemic resistance against Meloidogyne incognita in tomato Pest Management Science 74 12 2793 2805 10.1002/ps.5066 29737595
+Ibrahim I. K. A. Abu-Habib A. H. A. Kantor M. Handoo Z. A. 2022 Pathogenicity and control of the citrus nematode Tylenchulus semipenetrans on citrus, grape, olive, loquat, and persimmon species and cultivars Nematropica 52 2 20250064
+Jaouad M. Moinina A. Ezrari S. Lahlali R. 2020 Key pests and diseases of citrus trees with emphasis on root rot diseases: An overview Moroccan Journal of Agricultural Sciences 1 3 149 160
+Kumar K. K. Arthurs S. 2021 Recent advances in the biological control of citrus nematodes: A review Biological Control 157 104593 10.1016/j.biocontrol.2021.104593
+Labiadh M. Mhamdi B. Loulou A. Sadreddine K. 2023 Impact of rhizobacteria community of citrus root on Tylenchulus semipenetrans and on citrus plant growth Biocontrol Science and Technology 33 3 241 257 10.1080/09583157.2023.2175785
+Ling P. Duncan L. W. Deng Z. Dunn D. Hu X. Huang S. Gmitter F. G. Jr. 2000 Inheritance of citrus nematode resistance and its linkage with molecular markers Theoretical and Applied Genetics 100 1010 1017 10.1007/s001220051382
+Liu Y. Yao S. Deng L. Ming J. Zeng K. 2019 Different mechanisms of action of isolated epiphytic yeasts against Penicillium digitatum and Penicillium italicum on citrus fruit Postharvest Biology and Technology 152 100 110 10.1016/j.postharvbio.2019.03.002
+Mabrouk A. G. Xu D. Zhuo Z. Gouda H. Diab M. Zeyadah S. 2025 Bacillus safensis strain OM1 mediate growth promotion and Meloidogyne incognita suppression on potato (Solanum tuberosum) plants Egyptian Journal of Phytopathology 53 2 131 143 10.21608/ejp.2025.419743.1154
+Mirghasemi S. N. Khodaygan P. Taheri A. Jamali S. Banihashemian S. N. 2025 Biocontrol efficacy of formulated probiotic bacteria against Meloidogyne incognita in kiwifruit under greenhouse and field conditions Scientific Reports 15 19812 10.1038/s41598-025-05523-x 40473918 PMC12141461
+Mohammad Alian Y. Banihashemian S. N. Golmohammadi Seyed mehdi M. B. Bashiri S. 2018 Valuation of the tolerance of some citrus rootstocks to citrus nematode in greenhouse (Tylenchulus semipenetrans) Journal of Plant Protection Research 31 4 700 705 10.22067/jpp.v31i4.63458
+Montasser S. A. Abd El-Wahab A. E. Abd-Elgawad M. M. M. Abd-El-Khair H. Faika F. H. K. Hammam M. M. A. 2012 Effects of some fungi and bacteria as bio-control agents against citrus nematode Tylenchulus semipenetrans cobb Journal of applied sciences research 8 11 5436 5444
+Nunn G. B. 1992 Nematode molecular evolution: An investigation of evolutionary patterns among nematodes based upon DNA sequences Doctoral dissertation, University of Nottingham.
+Rosier A. Medeiros F. H. V. Bais H. P. 2018 Defining plant growth promoting rhizobacteria molecular and biochemical networks in beneficial plant-microbe interactions Plant and Soil 428 35 55 10.1007/s11104-018-3679-5
+Subedi P. Gattoni K. Liu W. Lawrence K. S. Park S. W. 2020 Current utility of plant growth-promoting rhizobacteria as biological control agents towards plant-parasitic nematodes Plants 9 9 1167 10.3390/plants9091167 32916856 PMC7569769
+Tran T. P. H. Wang S. L. Nguyen V. B. Tran D. M. Nguyen D. S. Nguyen A. D. 2019 Study of novel endophytic bacteria for biocontrol of black pepper root-knot nematodes in the Central Highlands of Vietnam Agronomy 9 11 714 10.3390/agronomy9110714
+Verdejo-Lucas S. McKenry M. V. 2004 Management of the citrus nematode, Tylenchulus semipenetrans Journal of Nematology 36 4 424 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2620797/ 19262822 PMC2620797
+Vetrivelkalai P. 2019 Evaluation of endophytic bacterial isolates against root-knot nematode, Meloidogyne incognita in tomato under glasshouse condition International Journal Current Microbiology Applied Science 8 1 2584 2589 10.20546/ijcmas.2019.801.271
+Whitehead A. G. Hemming J. R. 1965 A comparison of some quantitative methods of extracting small vermiform nematodes from soil Annals of applied Biology 55 1 25 38 10.1111/j.1744-7348.1965.tb07864.x
+Wicaksono W. A. Jones E. E. Casonato S. Monk J. Ridgway H. J. 2018 Biological control of Pseudomonas syringae pv. actinidiae (Psa), the causal agent of bacterial canker of kiwifruit, using endophytic bacteria recovered from a medicinal plant Biological Control 116 103 112 10.1016/j.biocontrol.2017.03.003
+Zoubi B. Hijri M. Mokrini F. Housseini A. I. Qaddoury A. 2025 Nematicidal and plant growth-promoting rhizobacteria: A sustainable strategy for controlling Tylenchulus semipenetrans and enhancing citrus growth International Microbiology 28 7 1 15 10.1007/s10123-025-00652-9 40035990
+Zoubi B. Mokrini F. Rafya M. Benkebboura A. Akachoud O. Ghoulam C. Housseini A. I. Qaddoury A. 2024 Citrus rootstocks vs. nematodes: A battle for resistance against Tylenchulus semipenetrans Scientia Horticulturae 331 113115 10.1016/j.scienta.2024.113115

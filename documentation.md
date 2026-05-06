@@ -5,6 +5,8 @@
 ## Overview
 Testing how various models performed
 
+Expanded dataset to 20 of each thermal range
+
 # V5 Results
 
 ## QWEN3.5

@@ -1,0 +1,17 @@
+Regulation of phenazine-1-carboxylic acid synthesis by hmgL in Pseudomonas chlororaphis and its role in restructuring plant microbiomes for disease resistance.
+
+The hmgL, encoding 3-hydroxy-3-methylglutaryl coenzyme A (HMG-CoA) lyase, is known for its metabolic
+role in cleaving HMG-CoA into acetyl-CoA and acetoacetate, but its involvement in antimicrobial
+activity remains unclear. In this study, we isolated Pseudomonas chlororaphis H2Q4, from vigorous
+and healthy apple branches, demonstrating strong biocontrol potential. Genetic analysis revealed
+that deletion of hmgL, significantly impaired the antimicrobial activity and colonization capacity
+of the H2Q4 strain in plant tissues. Notably, the deletion of hmgL led to a marked reduction in the
+production of phenazine-1-carboxylic acid (PCA). While phzD is recognized as essential for PCA
+synthesis in P. chlororaphis, our findings highlight a previously unrecognized role of hmgL in
+modulating PCA production. Furthermore, treatment with strain H2Q4 and PCA altered the bacterial
+community composition across various plant compartments in apple seedlings, with the leaf microbiome
+exhibiting enhanced resistance to plant pathogenic fungi. Interestingly, PCA treatment significantly
+increased the relative abundance of Bacillus species in the phyllosphere microbiome. These results
+underscore the dual role of hmgL in both secondary metabolism and microbial community dynamics,
+providing new insights into the biocontrol mechanisms of P. chlororaphis and its potential
+applications in sustainable agriculture.

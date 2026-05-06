@@ -1,0 +1,26 @@
+Assessing the reliability of an automated method for measuring dominance hierarchy in non-human primates.
+
+Among animal societies, dominance is an important social factor that influences inter-individual
+relationships. However, assessing dominance hierarchy can be a time-consuming activity which is
+potentially impeded by environmental factors, difficulties in the recognition of animals, or
+disturbance of animals during data collection. Here we took advantage of novel devices, machines for
+automated learning and testing (MALT), designed primarily to study non-human primate cognition, to
+additionally measure the dominance hierarchy of a semi-free-ranging primate group. When working on a
+MALT, an animal can be replaced by another, which could reflect an asymmetric dominance
+relationship. To assess the reliability of our method, we analysed a sample of the automated
+conflicts with video scoring and found that 74% of these replacements included genuine forms of
+social displacements. In 10% of the cases, we did not identify social interactions and in the
+remaining 16% we observed affiliative contacts between the monkeys. We analysed months of daily use
+of MALT by up to 26 semi-free-ranging Tonkean macaques (Macaca tonkeana) and found that dominance
+relationships inferred from these interactions strongly correlated with the ones derived from
+observations of spontaneous agonistic interactions collected during the same time period. An
+optional filtering procedure designed to exclude chance-driven displacements or affiliative contacts
+suggests that the presence of 26% of these interactions in data sets did not impair the reliability
+of this new method. We demonstrate that this method can be used to assess the dynamics of both
+individual social status, and group-wide hierarchical stability longitudinally with minimal research
+labour. Further, it facilitates a continuous assessment of dominance hierarchies in captive groups,
+even during unpredictable environmental or challenging social events, which underlines the
+usefulness of this method for group management purposes. Altogether, this study supports the use of
+MALT as a reliable tool to automatically and dynamically assess dominance hierarchy within captive
+groups of non-human primates, including juveniles, under conditions in which such technology can be
+used.

@@ -1,0 +1,16 @@
+Structural and biophysical characterization of PadR family protein Rv1176c of Mycobacterium tuberculosis H37Rv.
+
+Rv1176c of Mycobacterium tuberculosis H37Rv belongs to the PadR-s1 subfamily of the PadR family of
+protein. Rv1176c forms a stable dimer in solution. Its stability is characterized by a thermal
+melting transition temperature (Tm) of 39.4 °C. The crystal structure of Rv1176c was determined at a
+resolution of 2.94 Å, with two monomers in the asymmetric unit. Each monomer has a characteristic
+N-terminal winged-helix-turn-helix DNA-binding domain. Rv1176c C-terminal is a coiled-coil
+dimerization domain formed of α-helices α5 to α7. In the Rv1176c dimer, there is domain-swapping of
+the C-terminal domain in comparison to other PadR homologs. In the dimer, there is a long inter-
+subunit tunnel in which different ligands can bind. Rv1176c was found to bind to the promoter region
+of its own gene with high specificity. M. smegmatis MC2 155 genome lacks homolog of Rv1176c.
+Therefore, it was used as a surrogate to characterize the functional role of Rv1176c. Expression of
+Rv1176c in M. smegmatis MC2 155 cells imparted enhanced tolerance towards oxidative stress. Rv1176c
+expressing M. smegmatis MC2 155 cells exhibited enhanced intracellular survival in J774A.1 murine
+macrophage cells. Overall, our studies demonstrate Rv1176c to be a PadR-s1 subfamily transcription
+factor that can moderate the effect of oxidative stress.

@@ -1,0 +1,15 @@
+Molecular insight into 5' RNA capping with NpnNs by bacterial RNA polymerase.
+
+RNA capped with dinucleoside polyphosphates has been discovered in bacteria and eukaryotes only
+recently. The likely mechanism of this specific capping involves direct incorporation of
+dinucleoside polyphosphates by RNA polymerase as noncanonical initiating nucleotides. However, how
+these compounds bind into the active site of RNA polymerase during transcription initiation is
+unknown. Here, we explored transcription initiation in vitro, using a series of DNA templates in
+combination with dinucleoside polyphosphates and model RNA polymerase from Thermus thermophilus. We
+observed that the transcription start site can vary on the basis of the compatibility of the
+specific template and dinucleoside polyphosphate. Cryo-electron microscopy structures of
+transcription initiation complexes with dinucleoside polyphosphates revealed that both nucleobase
+moieties can pair with the DNA template. The first encoded nucleotide pairs in a canonical Watson-
+Crick manner, whereas the second nucleobase pairs noncanonically in a reverse Watson-Crick manner.
+Our work provides a structural explanation of how dinucleoside polyphosphates initiate RNA
+transcription.

@@ -1,0 +1,16 @@
+Analytical Centrifugal Ultrafiltration as a Tool for High Throughput Process Development in Virus Removal Filtration.
+
+Virus removal filtration constitutes an essential component in biopharmaceutical manufacturing
+processes for both recombinant and plasma-derived protein products. The increasing demand for
+protein-based therapies necessitates expedited analytical screening methodologies for virus
+filtration materials and process parameters utilizing high-throughput development (HTPD) platforms.
+This study examines a novel HTPD methodology, specifically the implementation of analytical
+centrifugal ultrafiltration, as a scaled-down virus removal filtration tool. A nanocellulose-derived
+filter membrane of controlled porosity (33 µm thickness, 23 nm) was integrated into a centrifugal
+ultrafiltration apparatus. The system underwent comprehensive evaluation to determine centrifugal
+ultrafiltration flux characteristics, product yield across varying buffer viscosities, virus removal
+capacity utilizing model MS2 (27 nm) and ΦX174 (28 nm) bacteriophages, and IgG throughput capacity.
+Application of centrifugal force facilitated the generation of multiple filtration pressure
+gradients suitable for small-volume sample processing. The resultant flux decay profiles exhibited
+high reproducibility, demonstrating superior IgG throughput and virus removal efficiency. Overall,
+the approach adds value to the arsenal of analytical tools useful for HTPD in biopharmaceutics.

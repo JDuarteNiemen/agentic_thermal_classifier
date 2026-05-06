@@ -1,0 +1,24 @@
+Bacteriophage T4 genome.
+
+Phage T4 has provided countless contributions to the paradigms of genetics and biochemistry. Its
+complete genome sequence of 168,903 bp encodes about 300 gene products. T4 biology and its genomic
+sequence provide the best-understood model for modern functional genomics and proteomics. Variations
+on gene expression, including overlapping genes, internal translation initiation, spliced genes,
+translational bypassing, and RNA processing, alert us to the caveats of purely computational
+methods. The T4 transcriptional pattern reflects its dependence on the host RNA polymerase and the
+use of phage-encoded proteins that sequentially modify RNA polymerase; transcriptional activator
+proteins, a phage sigma factor, anti-sigma, and sigma decoy proteins also act to specify early,
+middle, and late promoter recognition. Posttranscriptional controls by T4 provide excellent systems
+for the study of RNA-dependent processes, particularly at the structural level. The redundancy of
+DNA replication and recombination systems of T4 reveals how phage and other genomes are stably
+replicated and repaired in different environments, providing insight into genome evolution and
+adaptations to new hosts and growth environments. Moreover, genomic sequence analysis has provided
+new insights into tail fiber variation, lysis, gene duplications, and membrane localization of
+proteins, while high-resolution structural determination of the "cell-puncturing device," combined
+with the three-dimensional image reconstruction of the baseplate, has revealed the mechanism of
+penetration during infection. Despite these advances, nearly 130 potential T4 genes remain
+uncharacterized. Current phage-sequencing initiatives are now revealing the similarities and
+differences among members of the T4 family, including those that infect bacteria other than
+Escherichia coli. T4 functional genomics will aid in the interpretation of these newly sequenced
+T4-related genomes and in broadening our understanding of the complex evolution and ecology of
+phages-the most abundant and among the most ancient biological entities on Earth.

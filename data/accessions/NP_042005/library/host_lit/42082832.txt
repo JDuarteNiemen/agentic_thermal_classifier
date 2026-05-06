@@ -1,0 +1,14 @@
+Molecular mechanism of transition-state inhibitors of bacterial antibiotic efflux pumps.
+
+In many Gram-negative bacteria such as Escherichia coli and Klebsiella pneumoniae, the AcrAB-TolC
+efflux pump is central to multidrug resistance. We report the development of BDM91531, a nanomolar
+pyridylpiperazine inhibitor that potentiates the activity of several antibiotics. Structural
+analyses by X-ray crystallography and cryo-EM revealed that the divalent cationic BDM91531 binds
+AcrB through electrostatic interactions with a central role for residues D408 and E947, trapping
+protomers in an O to L transitional state and blocking the conformational cycling of the trimer.
+Differential scanning fluorimetry and susceptibility tests confirmed this inhibitory mechanism.
+Negative charges at the cytoplasmic rim are essential for inhibitor uptake as electrostatic
+attraction from rim carboxylates, including E947 and D951, facilitates entry. Loss of D951 abolished
+inhibitor sensitivity, whereas introducing alternative negative charges restored activity. These
+findings establish BDM91531 as a potent AcrB efflux pump inhibitor and highlight structural
+determinants for inhibitor access and binding.

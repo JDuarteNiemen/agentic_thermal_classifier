@@ -1,0 +1,12 @@
+Nucleotide sequence of the bacteriophage P22 gene 19 to 3 region: identification of a new gene required for lysis.
+
+The nucleotide sequence of a 2558-bp region of bacteriophage P22 at the right end of the genetic map
+between genes 19 and 3 was determined. A new gene that is partially required for lytic growth, named
+gene 15, was noted. P22 mutants were constructed which lack gene 15 function, and the gene 15
+product was found to be required for lysis in the presence of some divalent cations. It has
+extensive amino acid sequence similarity with the phage lambda Rz gene, which has a similar
+function, and weak similarity to the phage T7 18.5 gene which previously had no known function. A
+hybrid P22 phage, in which the T7 18.5 gene replaces the P22 gene 15, exhibits the plating
+properties of wild-type P22, strongly suggesting that the two genes have similar functions. In
+addition, deletions were constructed which show that phage P22 has no additional genes required for
+lytic growth of lysogeny between genes 19 and 3.

@@ -1,0 +1,316 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Sci Rep
+Journal ID: Sci Rep
+
+Scientific Reports
+
+EISSN: 2045-2322
+Publisher: Nature Publishing Group
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC11300654
+PMID: 39103410
+DOI: 10.1038/s41598-024-68636-9
+Article ID: 68636
+Article version: 1
+Subjects: Article
+
+Discovery and characterization of a novel LysinB from F2 sub-cluster mycobacteriophage RitSun
+
+Arora Ritu
+Nadar Kanika
+Bajpai Urmi urmibajpai@andc.du.ac.in
+
+https://ror.org/04gzb2213 grid.8195.5 0000 0001 2109 4999 Department of Biomedical Science, Acharya Narendra Dev College, University of Delhi, Govindpuri, Kalkaji, New Delhi, 110019 India
+Electronic publication date: 2024 Aug 5
+Publication date: 2024
+Volume: 14
+Electronic Location ID: 18073
+Received 2024 Mar 11; Accepted 2024 Jul 25
+Copyright: © The Author(s) 2024
+Copyright year: 2024
+License: Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
+License URL: https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Keywords: Mycobacteriophages, Antibiotic resistance, Endolysins, LysinB, Biofilm, M. smegmatis Mc2 155
+Keywords: Molecular biology, Microbiology, Phage biology, Genetic databases, Assay systems
+issue-copyright-statement: © Springer Nature Limited 2024
+
+==============================
+The escalating antibiotic resistance in mycobacterial species poses a significant threat globally, necessitating an urgent need to find alternative solutions. Bacteriophage-derived endolysins, which facilitate phage progeny release by attacking bacterial cell walls, present promising antibacterial candidates due to their rapid lytic action, high specificity and low risk of resistance development. In mycobacteria, owing to the complex, hydrophobic cell wall, mycobacteriophages usually synthesize two endolysins: LysinA, which hydrolyzes peptidoglycan; LysinB, which delinks mycolic acid-containing outer membrane and arabinogalactan, releasing free mycolic acid. In this study, we conducted domain analysis and functional characterization of a novel LysinB from RitSun, an F2 sub-cluster mycobacteriophage from our phage collection. Several key properties of RitSun LysinB make it an important antimycobacterial agent: its ability to lyse Mycobacterium smegmatis from without, a higher than previously reported specific activity of 1.36 U/mg and its inhibitory effect on biofilm formation. Given the impermeable nature of the mycobacterial cell envelope, dissecting RitSun LysinB at the molecular level to identify its cell wall-destabilizing sequence could be utilized to engineer other native lysins as fusion proteins, broadening their activity spectrum.
+
+Introduction
+
+The Mycobacterium genus consists of over 150 species, many of which are human pathogens. Tuberculosis (TB) caused by Mycobacterium tuberculosis (Mtb) is the world’s leading cause of death from a single infectious disease, with an estimated 1.6 million deaths in 20211. The estimated number of deaths has increased between 2019 and 2021, reversing many years of progress in reducing the TB burden. Antibiotic resistance is a widely acknowledged problem, identified by WHO as one of the most severe threats to global health, food security, and development today and has predicted it will inevitably result in higher medical costs, extended hospital stays, and higher mortality rates2,3. The chain of events, in turn, could damage any country’s economic, political, and social aspects. This has geared the scientific community to increase their efforts toward exploring alternatives to standard antibiotic therapy. Though TB is curable, the emergence of multi-drug-resistant (MDR) Mtb strains has significantly thwarted the progress toward eliminating TB. With the global burden of MDR-TB increasing by more than 20% per year over the past several years, drug-resistant TB is expected to kill 75 million people over the next 35 years, emphasizing the need to develop new alternative anti-tuberculosis therapies4. The infections caused by non-tuberculous mycobacteria (NTM) also threaten animals and human health5 and have emerged as a new concern, especially to the immunocompromised population. Hence, there is an urgent need to find new drugs and alternative solutions6.
+
+Bacteriophages, commonly known as phages, are viruses that infect and replicate in bacterial hosts and are being explored as alternatives to antibiotics with renewed vigour. Phages are ubiquitous and are estimated as the most abundant (1031) biological entity on earth7, and their encoded lytic proteins, such as endolysins, are also emerging as non-antibiotic options to treat drug-resistant bacterial infections. Mycobacteriophages infect mycobacterial hosts, including members from the M. tuberculosis complex and NTM hosts.
+
+Most double-stranded DNA (dsDNA) lytic bacteriophages end the infection cycle through programmed and controlled actions of a lytic cassette, which includes holin and endolysins. Holin is a membrane protein that oligomerizes and forms a channel in the bacterial cell membrane for endolysins to access and disintegrate the peptidoglycan (PG), for new phage progeny to release8,9. Unlike antibiotics, endolysins are specific to the target bacteria and hence do not harm the normal commensal microbiota, are effective against drug-resistant strains of pathogens too and offer additional advantages in targeting both growing and non-growing bacterial cells. They can either be used in native form or can be engineered to enhance their properties, which are desired in clinical applications or as biocontrol agents.
+
+Endolysins first emerged as promising anti-Gram-positive bacterial agents since they could lyse the bacteria due to direct contact with the PG10–13. However, in the case of Gram-negative bacteria and mycobacterial spp., the outer membrane/envelope acts as a barrier for enzymes to access the PG14,15. Hence, interventions such as outer membrane permeabilizers are required16–19.
+
+The first reports on the use of endolysins to treat drug-resistant infections came in the early years of this century20. Exebacase (lysin CF-301), which targets Streptococcus and Staphylococcus species to treat infective endocarditis, was the first to enter human clinical trials in the United States and succeeded in phase I and II21,22. Endolysin Sal200 targets antibiotic-resistant Staphylococcus infections and has been successful in phase I clinical trials21,23. Lysins have also been successfully demonstrated as commercial products; an example is Gladskin, developed by Micreos, which targets S. aureus infections, causing skin disorders such as eczema and acne21,24.
+
+The prevalence of drug-resistant strains of M. tuberculosis and a rise in infections caused by NTM pathogens demand an expanding repertoire of lysins, which can be screened for their lytic efficiency, structural diversity and host spectrum. However, fewer reports are available on lysins against Mycobacterial spp. The role of mycobacteriophages and their derived endolysins in human therapy has gained attention, especially in the last few years when mycobacteriophages were used to treat drug-resistant NTM infections25,26. Phages and endolysins can also play an important role in potentially shortening the treatment regimen of TB/NTM infections9,27. The mycobacterial cell envelope is more elaborate when compared to Gram-positive and Gram-negative bacteria; it contains an additional mycolylarabinogalactan layer, which forms an ester linkage with the PG. Due to the complexity of the cell wall, mycobacteriophages encode two endolysins: LysinA and LysinB. At the end of the phage life cycle, in most cases, holin helps in translocating endolysins to the periplasm, where LysinA acts upon the PG, and LysinB acts upon the mAGP (mycolyl-arabinogalactan-pepditoglycan) complex, cleaving the ester linkage between mycolic acid and arabinogalactan14.
+
+LysinB enzymes are unique to mycobacteriophages and have been examined more than LysinA. Exogenous administration of purified LysinB enzyme from D29 has shown lysis from without and disrupted mycobacterial biofilms14,28. Mycobacteriophage endolysins have also been demonstrated to be utilised on functionalized nanobeads to protect surfaces such as personal protective equipment (PPE) that routinely comes into contact with aerosolised bacteria28. Furthermore, the recent reports on D2929,30 and Ms6 LysinB31 have provided promising evidence to support LysinB as a new therapeutic strategy.
+
+In this report, we present the purification and characterization of a novel LysinB from an F2 sub-cluster mycobacteriophage ‘RitSun’ isolated on M. smegmatis Mc2 155. We studied its domain organization and performed sequence comparisons with LysinB from the other F sub-clusters, using online computational tools. We tested the esterase activity of the recombinant LysinB using an in vitro biochemical assay, and to assess the inhibitory effect of RitSun LysinB, growth assays were performed on M. smegmatis Mc2 155 planktonic cells and biofilm. With the planktonic cells, plate lysis assay and microtiter plate-based turbidity reduction methods were performed and the inhibitory effect on biofilm was carried out using Crystal Violet (CV) staining. The morphology of the enzyme-treated M. smegmatis Mc2 155 cells was examined by Field Emission Scanning Electron Microscopy (FESEM) analysis.
+
+Results and discussion
+
+RitSun mycobacteriophage was isolated from a soil sample collected from Gurgaon, Haryana, India. The genomic characterisation of RitSun revealed its genome size is 55,975 bp nucleotide, with 60.8% GC content, and the phage belongs to the F2 sub-cluster. Endolysins are the lytic enzymes synthesized in the later stages of the phage infection cycle. They target bonds present in the PG and the linkage between arabinogalactan and mycolic acid, impairing the mycobacterial host’s cell wall, causing  phage progeny to release and infect the neighbouring bacterial cells. The characterization and administration of purified recombinant lytic enzymes have been effectively tested in different animal models of human illnesses29,32–35, and their commercial use has also been approved in some cases21,36. Hence, characterising and developing lysin proteins as effective antimicrobials is gaining considerable importance.
+
+In silico characterization of RitSun LysinB
+
+RitSun lysis cassette
+
+The lytic cassette of RitSun consists of LysinA, LysinB and Holin-encoding genes and a hypothetical gene (Fig. 1A). In this report, we have characterised LysinB, which showed an intrinsic activity against M. smegmatis.Figure 1 (A) Lytic cassette of RitSun mycobacteriophage.The lytic cassette of RitSun comprises LysinA, LysinB, Holin and a hypothetical protein (HP), located between LysinB and Holin. (B) Domain organization of RitSun LysinB. InterProScan tool predicted two domains in RitSun LysinB: i) an Alpha/Beta hydrolase fold (93–279 aa) and ii) a C-linker domain (280–340 aa).
+
+RitSun LysinB domain organisation
+
+RitSun LysinB, comprised of 356 aa, is identified as a serine esterase based on the InterProScan predicted motifs and domains (Fig. 1B). The predicted motifs, which are characteristic of LysinB, are G-X-S-X-G pentapeptide (whereX1 = F and X2 = R) and GXP (X = N), a highly conserved motif found in lipases37. The predicted domains include the characteristic Alpha/Beta hydrolase fold and a C-linker domain. InterProScan analysis of LysinB enzymes, reported from other mycobacteriophages, also shows the presence of Alpha/Beta hydrolase fold and a C-terminal linker domain. In addition to these domains, D29 LysinB is reported to have a cutinase/acetyl xylan esterase domain embedded in the Alpha/Beta hydrolase fold (Table 1). Table1 Domain architecture of LysinB from different mycobacteriophages.
+
+LysinB	No. of amino acids	Domain(s)	References	
+RitSun	357	Alpha/Beta hydrolase fold (93–279 aa),
+
+C-linker domain (280–340 aa)
+
+	This study	
+PDRPxv	451	Alpha/Beta hydrolase fold (104–277 aa), A glycine-rich C-terminal (321–353 aa)	13	
+D29	254	Alpha/Beta hydrolase fold (3–251 aa), Cutinase/acetyl xylan esterase domain (39–169 aa), C-linker domain (176–244 aa)	14	
+Ms6	332	Alpha/Beta hydrolase fold (92–330 aa), C-linker domain (259–323 aa)	38	
+Yoshi	356	Alpha/Beta hydrolase fold (93–279), C-linker domain (280–340)	39	
+Che9d	357	Alpha/Beta hydrolase fold (93–280 aa), C-linker domain (281–341 aa)	39	
+
+Sequence alignment of RitSun LysinB protein sequence
+
+The enzymatic activity of D29 LysinB has been demonstrated to depend on the presence of the catalytic triad Ser82-Asp166-His240, with serine being a constituent of the pentapeptide. Fraga et al.29 reported Ser82Ala substitution to abolish its activity, indicating serine as a key residue for the enzymatic activity. Also, while Ser82 and Asp166 are highly conserved residues in the catalytic triad, Histidine shows a shift either by one position towards the N-terminal or three positions towards the C-terminal13,40. In Fig. 2,we have demonstrated an alignment of RitSun LysinB protein sequence with Ms6 LysinB (F1 sub-cluster), D29 LysinB (A2 sub-cluster), PDRPxv LysinB (B1 sub-cluster), Che9d LysinB (F2 sub-cluster) and Yoshi LysinB (F2 sub-cluster). Yoshi LysinB shows the highest identity with RitSun LysinB, and Che9d shares the same clade as RitSun LysinB and is observed to originate from a common ancestor. Hence, they are taken here as representative protein sequences from the F2 sub-cluster. In RitSun, Che9d and Yoshi LysinB, His residue is shifted by two positions towards the N-terminal (marked with a circle); Ms6 LysinB has a shift of single position, whereas PDRPxv and D29 LysinB do not show a shift in His residue and shows an alignment with each other.Figure 2 Sequence Alignment of LysinB protein sequences. Sequence Alignment of LysinB from RitSun, Yoshi, Che9d, Ms6, D29, and PDRPxv mycobacteriophages was done using ClustalW (https://www.genome.jp/tools-bin/clustalw). The conserved GXSXG and GXP motifs are highlighted with a rectangular box. Ser and Asp of the catalytic triad are present at positions 186 and 270, respectively and marked with a red arrow aligned with that of D29 LysinB, whereas His (339) is shifted by two positions towards N terminal in RitSun LysinB. Symbols ‘*’, ‘:’, and ‘.’ denote identical amino acids, conserved substitutions, and semi-conserved substitutions, respectively.
+
+Comparative analysis of RitSun LysinB with phages from other F sub-clusters
+
+The F cluster is divided into five sub-clusters: F1 to F5, and the F2 sub-cluster has seven mycobacteriophages reported to date (excluding RitSun)39. We used BLAST to compare the RitSun LysinB sequence with LysinB from the other F sub-clusters phages. Out of seven sub-cluster phages, RitSun LysinB revealed maximum identity (91.29%) with LysinB from mycobacteriophage Yoshi and a minimum identity (83.71%) with LysinB from mycobacteriophage Soul22.
+
+F1 is the most populated sub-cluster, with 221 members. We extracted the LysinB protein sequence from 150 F1 sub-cluster phages for a comparative analysis. We found RitSun LysinB to show > 83% identity (100% query cover) with seven F1 phages: EleanorGeorge, Enby, Girr, Kingsley, Lorde, MisterCuddles and Ovechkin and 84.73% identity, with a query cover of 97%, with Hamulus LysinB. All the other phages from the F1 sub-cluster showed less than 30% identity when the query cover was ≥ 95%. The F3 sub-cluster has only one phage reported, and in its genome, a Lysin gene has not been predicted39. The F4 sub-cluster has four phages, out of which LysinB from phages ThetaBob and TChen showed 88.52% and 88.24% sequence identity, respectively at 100% query cover.  The F5 sub-cluster has only one reported phage. Its LysinB showed 28.65% identity (with a 99% query cover) with RitSun LysinB.
+
+Using InterProScan, we also performed a comparative domain analysis of RitSun LysinB with the other F sub-cluster phage LysinB. From the F2, F4, and F5 sub-clusters, all the LysinB protein sequences were analysed, while from the F1 sub-cluster, three phages, namely EleanorGeorge, Hamulus, and Flathead, were compared. We observed that LysinB sequences showing a high identity with RitSun LysinB (> 83%) display a similar architecture: an alpha/beta hydrolase fold followed by a linker domain. Interestingly, those showing low sequence identity (< 30%) with RitSun LysinB﻿ were predicted to have a C-terminal linker domain embedded within the Alpha/Beta hydrolase fold. A comparison of the domain organisation of RitSun LysinB with low sequence identity LysinBs from F1 sub-cluster (Flathead), F4 sub-cluster (Renaud18) and F5 sub-cluster (Cornie) phages is given in Supplementary Fig. 1.
+
+Purification of RitSun LysinB and Western Blot analysis
+
+The His-tagged RitSun LysinB was overexpressed in E. coli BL21 (DE3) and purified to 95% homogeneity by Ni–NTA affinity chromatography (Fig. 3A).Western blotting with anti-His antibodies confirmed the presence of the purified recombinant LysinB (Fig. 3B).Figure 3 Analysis of His-tagged recombinant RitSun LysinB. (A) SDS-PAGE (12%) analysis shows His-tagged recombinant RitSun LysinB purified to 95% homogeneity, visualized using Coomassie Brilliant Blue stain. (B) Western blot analysis of His-tagged recombinant RitSun LysinB was performed using anti-His antibodies. The blot was developed using 3,3-diaminobenzidine (DAB) as the chromophore and H2O2 as the substrate.
+
+In vitro assay (pNPB) of RitSun LysinB
+
+Using pNPB as the substrate, the esterase activity of LysinB was estimated at different enzyme concentrations and incubation temperatures. The release of pNP was measured at 410 nm (Fig. 4A), and the specific activity was calculated.While examining the concentration effect of RitSun LysinB (0.5–10 μM) on the enzyme activity, the pNP release plateaued at 5 μM concentration (Fig. 4A). Hence, for the subsequent analysis of the temperature effect on enzyme activity, the assays were performed using 5 μM enzyme concentration.Figure 4 In-vitro esterase activity of RitSun LysinB using pNPB assay. (A) Effect of enzyme concentration on esterase activity. The enzyme concentration effect was measured using different concentrations of RitSun LysinB with 10 mM pNPB (in 25 mM Tris buffer, pH 7.2). The Absorbance410 was measured after incubation at 37 °C for 15 min. The red arrow indicates the concentration used to study temperature effects on enzyme activity. (B) Effect of temperature on enzyme activity. The activity of RitSun LysinB at different incubation temperatures (37 °C, 45 °C, 55 °C) was analysed. All the enzyme reactions were performed twice in duplicate sets (n = 4).
+
+We found our enzyme activity was stable up to 55 °C (Fig. 4B). Other researchers, who examined the thermostability of LysinB enzymes by measuring their melting temperatures (Tm) using NanoDifferential Scanning Fluorimetry (NanoDSF), found the values in the 45–60 °C range. Examples include LysinB from mycobacteriophage Omega, which has a Tm of 57.7 °C, while D29’s Tm is 54.7 °C. Obama12 and Saal showed lower Tm values of 47.9 °C and 45.7 °C, respectively40.
+
+Notably, the specific activity (1.36 U/mg) of this novel LysinB is higher- five to ten times more than the reported LysinBs: PDRPxv (0.56 U/mg)13, D29 (0.72 U/mg)14, and Ms6 (0.12 U/mg)38.This may be attributed to differences in motifs, domain organization or conserved residues essential for enzyme activity. Our preliminary analysis of RitSun LysinB sequence alignment with other LysinBs (Fig. 2) reveals a distinctive feature: a shift in the position of Histidine residue by two positions towards the N-terminal in the catalytic triad of RitSun, Che9d and Yoshi LysinB, compared to a single-position shift in Ms6 LysinB, and no shift in PDRPxv and D29 LysinBs. Although the in vitro activity of Che9d and Yoshi LysinB has not been documented, their belonging to the same sub-cluster (F2), RitSun LysinB’s highest sequence identity with Yoshi LysinB, and sharing a clade with Che9d  LysinB suggest that the shifted position of Histidine residue may have a role in the higher activity of RitSun LysinB. However, this hypothesis requires further validation through structural and mutational analysis.
+
+Antibacterial effect of RitSun LysinB on M. smegmatis Mc2 155
+
+Spot test, turbidity reduction method (TRM) and growth inhibitory effect
+
+The initial evidence of endolysins’ potential as antimicrobial agents came from their intrinsic bacteriolytic activity on Gram-positive bacteria, confirmed by their capacity to lyse bacteria on exogenous application20,41. Enzymatic activity can be detected by measuring the clearance of bacterial suspension as a zone of clearance and a reduction in viable bacterial cells. A spot test with a fixed amount of 100 μg (15 μM) of RitSun LysinB (in the presence of 0.05% Tween-80) showed a clear zone on M. smegmatis lawn after 48 h of incubation at 37 °C (Fig. 5A), demonstrating its cell lytic activity from without. The turbidometric reduction method (TRM) and plate dilutions of treated cells were used to study the growth inhibitory effect of RitSun LysinB. TRM analysis (Fig. 5B) showed a 45.6% ± 2.5% reduction in M. smegmatis Mc2 155 growth after 24 h of treatment with 15 µM enzyme concentration. Untreated cells showed a 232.1% ± 9.5% increase in growth after 24 h compared to 0 h. Dilutions of enzyme-treated M. smegmatis cells were spotted on 7H10 plates, and at 10−2 dilution, no bacterial colonies were observed after 24 h of incubation (Fig. 5C).Figure 5 Anti-bacterial activity of RitSun LysinB. (A) Spot test of RitSun LysinB on M. smegmatis Mc2 155 growth in 7H10 media containing Tween-80 (0.05%). (B) Turbidity Reduction Method (TRM). Antimycobacterial activity of RitSun LysinB (measured at OD600) on M. smegmatis Mc2 155 at 0 and 24 h of treatment. The percentage decrease in growth was calculated by taking growth at 0 h as 100%. The enzyme concentration was 15 µM, and the experiment was performed twice in duplicate sets (n = 4). (C) Growth inhibitory effect of RitSun LysinB on M. smegmatis Mc2155, performed at 50 μg and 100 μg (corresponds to 7.5 µM and 15 µM concentrations) after 24 h of incubation at 37 °C. 1–Untreated cells; 2–Treatment with 7.5 µM RitSun LysinB; 3–Treatment with 15 µM RitSun LysinB: ‘a’ represents growth at dilution 10−1 and ‘b’ at 10−2. Untreated cells do not contain RitSun LysinB. (D) FESEM images of M. smegmatis Mc2 155 cells treated with 7.5 μM RitSun LysinB for 4 h at 37 °C. The images were acquired at 15,000 × magnification. The assays were performed twice in duplicate sets (n = 4).
+
+Based on a comparable or higher specific activity of RitSun LysinB with the reported LysinB from other mycobacteriophages and its antibacterial effect, the potential of this enzyme as an antimycobacterial protein is promising. Moreover, given the complex and hydrophobic structure of the mycobacterial cell envelope42, it is significant that RitSun LysinB can lyse M. smegmatis cells on exogenous application without the aid of an outer membrane permeabilizing agent (OMP). To test the enzyme’s permeability to other mycobacterial species, RitSun LysinB’s lytic ability was tested on M. fortuitum and M. tuberculosis (H37Rv). Although the enzyme was not active against these pathogenic species of mycobacteria (data not shown), we believe its further characterization, particularly identifying features enabling it to cross the complex mycobacterial cell envelope and those that make it host-specific, could provide valuable insights.
+
+FESEM analysis of RitSun LysinB treated planktonic cells
+
+To observe the effect of the enzyme on cell morphology, M. smegmatis cells were treated with LysinB (7.5 μM) for 4 h at 37 °C and analysed by FESEM (Fig. 5D). Compared to the untreated cells, RitSun LysinB-treated cells showed morphological disruption, indicating the cell-damaging effect of LysinB. Structural damage to the cell wall compromises bacterial cell integrity, leading to cell death10. LysinB targets mycobacteria due to its activity as a mycolylarabinogalactan esterase, hydrolyzing the ester bond between the mycolic acid-rich outer membrane andarabinogalactan. This activity likely weakens and disrupts the bacterial cell wall structure29. The ability of our endolysin to cause mycobacterial cell (M. smegmatis) lysis on external application, without the aid of a permeabilizing agent, is significant and can hold potential for clinical applications.
+
+Inhibitory effect of RitSun LysinB on M. smegmatis Mc2 155 biofilm formation
+
+Biofilms are notorious for causing recalcitrant infections and contributing to drug resistance43. Endolysins, with their ability to damage bacterial cell walls without requiring metabolically active bacteria, can target persistent bacteria and biofilms that lead to chronic infections44. We used the CV staining method to assess the impact of RitSun LysinB on M. smegmatis biofilm formation and noted an inhibitory effect of 79.18% ± 2.20% (Fig. 6). The anti-biofilm property of a chemical drug molecule or a biologic makes them relevant for clinical applications. Since the role of endolysins on mycobacterial biofilm formation hasn’t yet been reported, the inhibitory effect of RitSun LysinB noted in this study further supports the efficacy of this novel enzyme as an enzybiotic candidate.Figure 6 Inhibitory effect of RitSun LysinB on M. smegmatis Mc2 155 biofilm formation. Control: M. smegmatis Mc2 155 biofilm formation after 96 h incubation at 37 °C; Treatment group: LysinB added to M. smegmatis Mc2 155 before biofilm formation. The assay was performed twice in duplicate sets (n = 4).
+
+Conclusion
+
+Endolysins stand out as one of the most effective anti-bacterial candidates, primarily due to their rapid action and low occurrence of resistance20,45, as evident by studies on various bacterial species, including Bacillus anthracis, Streptococcus pneumoniae and Streptocooccus pyogenes, which did not report any resistance to endolysins20,46,47. In addition, their specificity to the target bacteria, low toxicity, and anti-biofilm activity further contribute to their emerging potential as an alternative to antibiotics in combating drug-resistant bacterial infections.
+
+The intricate structure of the mycobacterial cell envelope distinguishes it from other bacteria. Mycobacteria possess peptidoglycan (PG) covalently bonded to an arabinogalactan (AG) polymer, the AG-PG is esterified to mycolic acids and the whole entity is known as the mycolyl arabinogalactan PG (mAGP) complex. Most of the mycobacteriophage genomes encode for a second Lysin, LysinB, which targets the mAGP complex. LysinB’s esterase activity, which breaks the ester linkage between mycolic acid and arabinogalactan layer, makes it a more compelling therapeutic candidate than LysinA.
+
+In this study, we conducted structural (in silico) and functional (in vitro) analysis of the predicted LysinB from RitSun mycobacteriophage (the sub-cluster F2), which we isolated from soil near a hospital in Gurgaon, Haryana, India. Compared to previously reported LysinBs from phages D29, Ms6 and PDRPxv, RitSun LysinB exhibited a greater specific activity (esterase). Also, its inherent property to permeate the M. smegmatis cell wall, causing cell lysis and its anti-biofilm activity underscores its potential as a promising candidate for developing antimycobacterial enzybiotics.
+
+Although RitSun LysinB is specific to M. smegmatis and did not exhibit bacterial clearance against M. fortuitum and M. tuberculosis (H37Rv), further studies to identify its motifs and other structural features with permeabilizing activity can pave the way for developing fusion lysins effective against the pathogenic species of mycobacteria.
+
+Materials and methods
+
+In silico characterization of LysinB
+
+Analysis of RitSun LysinB sequence
+
+The LysinB gene sequence was identified from the RitSun mycobacteriophage genome (GenBank ID: MZ343158.1). The protein sequence was analysed using BLASTp48, InterProScan49 and HMMER50 based on sequence homology and domain organisation. The ClustalW tool51 was used for multiple sequence alignment. The comparative analysis of RitSun LysinB with sequences from other F sub-cluster phages was performed using BLASTp and InterProScan.
+
+Cloning and expression of LysinB
+
+The LysinB gene-specific primers for PCR amplification (LysBF: 5ʹ-CCGGAATTCATGAAACTCAACGGGGTATATG-3ʹ); LysBR: 5ʹ-CCCAAGCTTTCATGCGACACCCCTCATC-3ʹ) were synthesised by Eurofins, India and pET28a (Novagen, USA), a gift from Dr S. Ramachandran (Institute of Genomics and Integrative Biology, New Delhi) was used as a cloning vector.
+
+The cloned gene was expressed in E. coli BL21 (DE3), as previously described by Eniyan et al.13. E. coli BL21 (DE3) cells transformed with pET28a-LysinB plasmid were grown in Luria Broth (LB) media to an OD600 of 0.4–0.6. The induction parameters for the overexpression of the LysinB gene were optimized at varying concentrations (0.1 mM, 0.5 mM and 1 mM) of isopropyl-β-d-thiogalactopyranoside (IPTG) (Supplementary Fig. 2). The final conditions for induction were 1 mM IPTG and incubation at 37 °C for 3 h under shaking conditions (200 rpm). After induction, the cells were harvested and resuspended in lysis buffer (25 mM Tris, pH 7.9; 0.5 M NaCl, 10 mM Imidazole, 1 mM PMSF). The cell suspension was sonicated at 90% amplitude with 30 s each on/off pulse for ten cycles, followed by centrifugation of the lysate at 5000 × g, 4 °C for 45 min. The soluble and pellet fractions were analysed for the expression of the recombinant LysinB.
+
+Purification of RitSun LysinB
+
+The recombinant endolysin protein was purified using Ni–NTA affinity chromatography, as described previously13. Briefly, soluble fraction and Ni–NTA matrix agarose (Qiagen, Germany) were kept for binding for 2 h at 4 °C. The agarose gel bound with the His-tagged recombinant protein was packed in the chromatography column (Qiagen, Germany), and the flow through was discarded. The column was washed twice with increasing concentrations of imidazole (20 & 40 mM), and the protein was eluted at 250 mM imidazole. The eluted fractions were analyzed by SDS-PAGE (12%) and dialysed in a buffer containing 25 mM Tris and 150 mM NaCl.
+
+Western blotting
+
+The purified protein was transferred from the gel to the polyvinylidene fluoride (PVDF) membrane for 2 h at 90 V. The membrane was blocked with 3% BSA at 4 °C and incubated with 1:2000 dilution of mouse anti-His antisera (Santacruz Biotech, USA) for 4 h. Post-incubation, the membrane was washed once with 1 x  PBS, thrice with 1 x PBS-T (containing 0.05% Tween-80) and again with 1 x PBS and incubated with 1:10,000 anti-mouse IgG HRP-conjugated antibody (Santacruz Biotech, USA) for 45 min and washed as mentioned above. The membrane blot was developed using 3,3-diaminobenzidine (DAB) as the chromophore and H2O2 as the substrate13,52.
+
+In vitro assay of RitSun LysinB
+
+The esterase activity of the LysinB enzyme was estimated by p-nitrophenol butyrate (pNPB) assay 29. Release of p-Nitrophenol (PNP) was measured by incubating different concentrations (0.5–10 µM range) of LysinB with pNPB (10 mM in 25 mM Tris buffer, pH 7.2) at 37 °C for 15 min, and the absorbance was measured at 410 nm. Each experiment was performed twice independently (in duplicates; n = 4), and the results were calculated as average ± SD.
+
+Effect of temperature on RitSun LysinB activity
+
+The activity of RitSun LysinB was tested at different temperatures (37 °C, 45 °C, and 55 °C) using the esterase assay as described above. The release of p-Nitrophenol (PNP) was measured by incubating 5 µM of LysinB with pNPB (10 mM in 25 mM Tris buffer, pH 7.2) at different temperatures for 15 min, and the absorbance was measured at 410 nm. Each experiment was performed twice independently (in duplicates; n = 4), and the results were calculated as average ± SD.
+
+Antibacterial effect of LysinB using spot test and turbidity reduction method (TRM)
+
+To assess the lytic activity of RitSun LysinB, the purified protein was spotted on M. smegmatis Mc2 155 lawn spread on 7H10-Tween-80 (0.05%) plates and incubated at 37 °C until a clearance zone appeared. The spot test on M. fortuitum and M. tuberculosis (H37Rv) was performed at the National JALMA Institute for Leprosy and Other Mycobacterial Diseases (NJIL&OMD). For microtiter plate-based TRM studies, M. smegmatis Mc2 155 cells, adjusted to an OD600 to 0.3, were treated with RitSun LysinB enzyme at a fixed concentration (15 μM) and incubated at 37 °C for 24 h under shaking conditions (200 rpm). OD600 was measured at 0 h and after 24 h of incubation. P-values were calculated to obtain a level of significance for each treatment group. The bacterial culture without adding the enzyme was treated as a control. The treated and the untreated cells were serially diluted and spotted on 7H10 plates containing Tween-80 (0.05%) and incubated at 37 °C for 48 h. Each experiment was performed twice independently (in duplicates; n = 4).
+
+FESEM analysis of LysinB-treated M. smegmatis cells
+
+For the FESEM analysis, the protocol by Lai et al.10 was followed. M. smegmatis Mc2 155 planktonic culture was grown in 7H9 complete media, and LysinB was added at < 15 μM concentrations. Aliquots (500 µl) of M. smegmatis Mc2 155 cells adjusted to an OD600 of 0.5 were treated with LysinB and incubated at 37 °C for 4 h. Treated cells were centrifuged at 11,000 × g for 5 min, and the cell pellet waswashed with 1 × PBS. The washed cells were fixed overnight in 2.5% glutaraldehyde at 4 °C. Glutaraldehyde and the fixed cells were washed once with 1 × PBS, followed by gradient dehydration with ethanol (5 min each in 60%, 80%, 90% and 10 min in 100% ethanol). The dehydrated cells were resuspended in 1 × PBS + Tween-80 (0.05%) and placed on a 0.2 µm polycarbonate (PC) membrane. The membrane was air-dried and mounted on a stub for gold sputter coating. Samples were visualized in TESCAN (at the Indian Institute of Technology, New Delhi) at 15,000 × magnification.
+
+Anti-biofilm activity of LysinB
+
+To examine the inhibitory effect of RitSun LysinB on M. smegmatis Mc2 155 biofilm formation, the Kiefer and Dahl et al.53 protocol was followed with minor modifications. Briefly, M. smegmatis cells (OD600 adjusted to 0.1) were mixed with LysinB in a 24-well plate and incubated at 37 °C for 96 h. Biofilms were quantified using the CV staining method. The experiments were performed twice independently (in duplicates; n = 4) and the results were calculated as an average of the percentage inhibition ± SD observed over untreated biofilm.
+
+Crystal violet (CV) staining
+
+After completing LysinB treatment, the unattached cells were aspirated, and the biofilm was air-dried and stained with freshly prepared CV solution (1%). Briefly, 1 ml of CV was added to each well. After an incubation of 30 min, the CV stain was aspirated and the wells were air-dried. The wells were then washed with 1 ml of 1 × PBS twice and air-dried again. The CV stain was then extracted with 95% ethanol for 20 min at 37 °C, and the absorbance was measured at 590 nm53.
+
+Supplementary Information
+
+Supplementary Figures.
+
+Supplementary Information
+
+The online version contains supplementary material available at 10.1038/s41598-024-68636-9.
+
+Acknowledgements
+
+We thank the Science and Engineering Research Board (SERB), New Delhi, India, for supporting the project (EMR/2017/004051). R.A received the Senior Research Fellowship (SRF) from the University Grants Commission (UGC), New Delhi, India. K.N. received the Innovation in Science Pursuit for Inspired Research (INSPIRE) fellowship from the Department of Science and Technology (DST), India. We thank Dr Amit Kumar Singh, Scientist ‘E’, Experimental Animal Facility, NJIL&OMD, for the experiments on M. fortuitum and M. tuberculosis (H37Rv).We thank Acharya Narendra Dev College (ANDC), University of Delhi, New Delhi, India, for providing the infrastructural support.
+
+Author contributions
+
+U.B. conceptualized, designed, and supervised the experiments and edited the manuscript. R.A. performed the experiments and prepared and edited the original draft. K.N. performed the Western Blotting and the Biofilm experiment. All the authors have read and approved the final manuscript.
+
+Data availability
+
+All the data generated and analyzed during this study is included in this published article or its supplementary files.
+
+Competing interests
+
+The authors declare no competing interests.
+
+Publisher's note
+
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+
+References
+
+1. Global TB report, 2022 (https://www.who.int/teams/global-tuberculosis-programme/tb-reports/global-tuberculosis-report-2022).
+2. Dadgostar, P. Antimicrobial resistance: Implications and costs. Infect. Drug Resist. 3903–3910 (2019).10.2147/IDR.S234610 PMC6929930 31908502
+3. Majumder, M. A. A. et al. Antimicrobial stewardship: Fighting antimicrobial resistance and protecting global public health. Infect. Drug Resist. 4713–4738 (2020).10.2147/IDR.S290835 PMC7778387 33402841
+4. Allué-Guardia A Saranathan R Chan J Torrelles JB Mycobacteriophages as potential therapeutic agents against drug-resistant tuberculosis Int. J. Mol. Sci. 2021 22 2 735 10.3390/ijms22020735 33450990 PMC7828454
+Allué-Guardia, A., Saranathan, R., Chan, J. & Torrelles, J. B. Mycobacteriophages as potential therapeutic agents against drug-resistant tuberculosis. Int. J. Mol. Sci. 22(2), 735 (2021).33450990 10.3390/ijms22020735 PMC7828454
+5. Zulu M Monde N Nkhoma P Malama S Munyeme M Nontuberculous mycobacteria in humans, animals, and water in Zambia: A systematic review Front. Trop. Dis. 2021 2 9 10.3389/fitd.2021.679501
+Zulu, M., Monde, N., Nkhoma, P., Malama, S. & Munyeme, M. Nontuberculous mycobacteria in humans, animals, and water in Zambia: A systematic review. Front. Trop. Dis. 2, 9 (2021).10.3389/fitd.2021.679501
+6. Tarashi S Siadat SD Fateh A Nontuberculous mycobacterial resistance to antibiotics and disinfectants: Challenges still ahead BioMed. Res. Int. 2022 2022 8168750 10.1155/2022/8168750 35257011 PMC8898113
+Tarashi, S., Siadat, S. D. & Fateh, A. Nontuberculous mycobacterial resistance to antibiotics and disinfectants: Challenges still ahead. BioMed. Res. Int. 2022, 8168750 (2022).35257011 10.1155/2022/8168750 PMC8898113
+7. Esteves NC Scharf BE Flagellotropic bacteriophages: Opportunities and challenges for antimicrobial applications Int. J. Mol. Sci. 2022 23 13 7084 10.3390/ijms23137084 35806089 PMC9266447
+Esteves, N. C. & Scharf, B. E. Flagellotropic bacteriophages: Opportunities and challenges for antimicrobial applications. Int. J. Mol. Sci. 23(13), 7084 (2022).35806089 10.3390/ijms23137084 PMC9266447
+8. Schmelcher M Donovan DM Loessner MJ Bacteriophage endolysins as novel antimicrobials Futur. Microbiol. 2012 7 10 1147 1171 10.2217/fmb.12.97 PMC3563964 23030422
+Schmelcher, M., Donovan, D. M. & Loessner, M. J. Bacteriophage endolysins as novel antimicrobials. Futur. Microbiol. 7(10), 1147–1171 (2012).10.2217/fmb.12.97 PMC3563964 23030422
+9. Abdelrahman F Phage-encoded endolysins Antibiotics 2021 10 2 124 10.3390/antibiotics10020124 33525684 PMC7912344
+Abdelrahman, F. et al. Phage-encoded endolysins. Antibiotics 10(2), 124 (2021).33525684 10.3390/antibiotics10020124 PMC7912344
+10. Lai MJ Antimycobacterial activities of endolysins derived from a mycobacteriophage, BTCU-1 Molecules 2015 20 10 19277 19290 10.3390/molecules201019277 26506338 PMC6332426
+Lai, M. J. et al. Antimycobacterial activities of endolysins derived from a mycobacteriophage, BTCU-1. Molecules 20(10), 19277–19290 (2015).26506338 10.3390/molecules201019277 PMC6332426
+11. Gerstmans H Rodríguez-Rubio L Lavigne R Briers Y From endolysins to Artilysin® s: Novel enzyme-based approaches to kill drug-resistant bacteria Biochem. Soc. Trans. 2016 44 1 123 128 10.1042/BST20150192 26862197
+Gerstmans, H., Rodríguez-Rubio, L., Lavigne, R. & Briers, Y. From endolysins to Artilysin® s: Novel enzyme-based approaches to kill drug-resistant bacteria. Biochem. Soc. Trans. 44(1), 123–128 (2016).26862197 10.1042/BST20150192
+12. Love MJ Bhandari D Dobson RC Billington C Potential for bacteriophage endolysins to supplement or replace antibiotics in food production and clinical care Antibiotics 2018 7 1 17 10.3390/antibiotics7010017 29495476 PMC5872128
+Love, M. J., Bhandari, D., Dobson, R. C. & Billington, C. Potential for bacteriophage endolysins to supplement or replace antibiotics in food production and clinical care. Antibiotics 7(1), 17 (2018).29495476 10.3390/antibiotics7010017 PMC5872128
+13. Eniyan K Sinha A Ahmad S Bajpai U Functional characterization of the endolysins derived from mycobacteriophage PDRPxv World J. Microbiol. Biotechnol. 2020 36 1 11 10.1007/s11274-020-02858-7 32468233
+Eniyan, K., Sinha, A., Ahmad, S. & Bajpai, U. Functional characterization of the endolysins derived from mycobacteriophage PDRPxv. World J. Microbiol. Biotechnol. 36, 1–11 (2020).10.1007/s11274-020-02858-7 32468233
+14. Payne K Sun Q Sacchettini J Hatfull GF Mycobacteriophage Lysin B is a novel mycolylarabinogalactan esterase Mol. Microbiol. 2009 73 3 367 381 10.1111/j.1365-2958.2009.06775.x 19555454 PMC2774421
+Payne, K., Sun, Q., Sacchettini, J. & Hatfull, G. F. Mycobacteriophage Lysin B is a novel mycolylarabinogalactan esterase. Mol. Microbiol. 73(3), 367–381 (2009).19555454 10.1111/j.1365-2958.2009.06775.x PMC2774421
+15. Catalão MJ Pimentel M Mycobacteriophage lysis enzymes: Targeting the mycobacterial cell envelope Viruses 2018 10 8 428 10.3390/v10080428 30110929 PMC6116114
+Catalão, M. J. & Pimentel, M. Mycobacteriophage lysis enzymes: Targeting the mycobacterial cell envelope. Viruses 10(8), 428 (2018).30110929 10.3390/v10080428 PMC6116114
+16. Zermeño-Cervantes LA Martínez-Díaz SF Venancio-Landeros AA Cardona-Félix CS Evaluating the efficacy of endolysins and membrane permeabilizers against Vibrio parahaemolyticus in marine conditions Res. Microbiol. 2023 174 7 104104 10.1016/j.resmic.2023.104104 37422006
+Zermeño-Cervantes, L. A., Martínez-Díaz, S. F., Venancio-Landeros, A. A. & Cardona-Félix, C. S. Evaluating the efficacy of endolysins and membrane permeabilizers against Vibrio parahaemolyticus in marine conditions. Res. Microbiol. 174(7), 104104 (2023).37422006 10.1016/j.resmic.2023.104104
+17. Gontijo MTP Jorge GP Brocchi M Current status of endolysin-based treatments against gram-negative bacteria Antibiotics 2021 10 10 1143 10.3390/antibiotics10101143 34680724 PMC8532960
+Gontijo, M. T. P., Jorge, G. P. & Brocchi, M. Current status of endolysin-based treatments against gram-negative bacteria. Antibiotics 10(10), 1143 (2021).34680724 10.3390/antibiotics10101143 PMC8532960
+18. Rahman MU Endolysin, a promising solution against antimicrobial resistance Antibiotics 2021 10 11 1277 10.3390/antibiotics10111277 34827215 PMC8614784
+Rahman, M. U. et al. Endolysin, a promising solution against antimicrobial resistance. Antibiotics 10(11), 1277 (2021).34827215 10.3390/antibiotics10111277 PMC8614784
+19. Vazquez R Garcia E Garcia P Phage lysins for fighting bacterial respiratory infections: A new generation of antimicrobials Front. Immunol. 2018 9 2252 10.3389/fimmu.2018.02252 30459750 PMC6232686
+Vazquez, R., Garcia, E. & Garcia, P. Phage lysins for fighting bacterial respiratory infections: A new generation of antimicrobials. Front. Immunol. 9, 2252 (2018).30459750 10.3389/fimmu.2018.02252 PMC6232686
+20. Nelson D Loomis L Fischetti VA Prevention and elimination of upper respiratory colonization of mice by group A streptococci by using a bacteriophage lytic enzyme Proc. Natl. Acad. Sci. 2001 98 7 4107 4112 10.1073/pnas.061038398 11259652 PMC31187
+Nelson, D., Loomis, L. & Fischetti, V. A. Prevention and elimination of upper respiratory colonization of mice by group A streptococci by using a bacteriophage lytic enzyme. Proc. Natl. Acad. Sci. 98(7), 4107–4112 (2001).11259652 10.1073/pnas.061038398 PMC31187
+21. Murray E Draper LA Ross RP Hill C The advantages and challenges of using endolysins in a clinical setting Viruses 2021 13 4 680 10.3390/v13040680 33920965 PMC8071259
+Murray, E., Draper, L. A., Ross, R. P. & Hill, C. The advantages and challenges of using endolysins in a clinical setting. Viruses 13(4), 680 (2021).33920965 10.3390/v13040680 PMC8071259
+22. Watson A Antimicrobial activity of exebacase (lysin CF-301) against the most common causes of infective endocarditis Antimicrob. Agents Chemother. 2019 63 10 10 1128 10.1128/AAC.01078-19 PMC6761524 31332073
+Watson, A. et al. Antimicrobial activity of exebacase (lysin CF-301) against the most common causes of infective endocarditis. Antimicrob. Agents Chemother. 63(10), 10–1128 (2019).10.1128/AAC.01078-19 PMC6761524 31332073
+23. Jun SY Pharmacokinetics and tolerance of the phage endolysin-based candidate drug SAL200 after a single intravenous administration among healthy volunteers Antimicrob. Agents Chemother. 2017 61 6 10 1128 10.1128/AAC.02629-16 PMC5444177 28348152
+Jun, S. Y. et al. Pharmacokinetics and tolerance of the phage endolysin-based candidate drug SAL200 after a single intravenous administration among healthy volunteers. Antimicrob. Agents Chemother. 61(6), 10–1128 (2017).10.1128/AAC.02629-16 PMC5444177 28348152
+24. Totté JE van Doorn MB Pasmans SG Successful treatment of chronic Staphylococcus aureus-related dermatoses with the topical endolysin Staphefekt SA. 100: A report of 3 cases Case Rep. Dermatol. 2017 9 2 19 25 10.1159/000473872 28611631 PMC5465516
+Totté, J. E., van Doorn, M. B. & Pasmans, S. G. Successful treatment of chronic Staphylococcus aureus-related dermatoses with the topical endolysin Staphefekt SA. 100: A report of 3 cases. Case Rep. Dermatol. 9(2), 19–25 (2017).28611631 10.1159/000473872 PMC5465516
+25. Dedrick RM Engineered bacteriophages for treatment of a patient with a disseminated drug-resistant Mycobacterium abscessus Nat. Med. 2019 25 5 730 733 10.1038/s41591-019-0437-z 31068712 PMC6557439
+Dedrick, R. M. et al. Engineered bacteriophages for treatment of a patient with a disseminated drug-resistant Mycobacterium abscessus. Nat. Med. 25(5), 730–733 (2019).31068712 10.1038/s41591-019-0437-z PMC6557439
+26. Dedrick RM Phage therapy of Mycobacterium infections: Compassionate use of phages in 20 patients with drug-resistant mycobacterial disease Clin. Infectious Dis. 2023 76 1 103 112 10.1093/cid/ciac453 PMC9825826 35676823
+Dedrick, R. M. et al. Phage therapy of Mycobacterium infections: Compassionate use of phages in 20 patients with drug-resistant mycobacterial disease. Clin. Infectious Dis. 76(1), 103–112 (2023).10.1093/cid/ciac453 PMC9825826 35676823
+27. Hosseiniporgham S Sechi LA A review on mycobacteriophages: From classification to applications Pathogens 2022 11 7 777 10.3390/pathogens11070777 35890022 PMC9317374
+Hosseiniporgham, S. & Sechi, L. A. A review on mycobacteriophages: From classification to applications. Pathogens 11(7), 777 (2022).35890022 10.3390/pathogens11070777 PMC9317374
+28. Davies CG Reilly K Altermann E Hendrickson HL PLAN-M; Mycobacteriophage endolysins fused to biodegradable nanobeads mitigate mycobacterial growth in liquid and on surfaces Front. Microbiol. 2021 12 562748 10.3389/fmicb.2021.562748 33981289 PMC8107382
+Davies, C. G., Reilly, K., Altermann, E. & Hendrickson, H. L. PLAN-M; Mycobacteriophage endolysins fused to biodegradable nanobeads mitigate mycobacterial growth in liquid and on surfaces. Front. Microbiol. 12, 562748 (2021).33981289 10.3389/fmicb.2021.562748 PMC8107382
+29. Fraga AG Antimicrobial activity of Mycobacteriophage D29 Lysin B during Mycobacterium ulcerans infection PLoS Negl. Trop. Dis. 2019 13 8 e0007113 10.1371/journal.pntd.0007113 31425525 PMC6730932
+Fraga, A. G. et al. Antimicrobial activity of Mycobacteriophage D29 Lysin B during Mycobacterium ulcerans infection. PLoS Negl. Trop. Dis. 13(8), e0007113 (2019).31425525 10.1371/journal.pntd.0007113 PMC6730932
+30. Singh AK Mycobacteriophage D29 Lysin B exhibits promising anti-mycobacterial activity against drug-resistant Mycobacterium tuberculosis Microbiol. Spectr. 2023 11 6 e04597 e4622 10.1128/spectrum.04597-22 37800970 PMC10714809
+Singh, A. K. et al. Mycobacteriophage D29 Lysin B exhibits promising anti-mycobacterial activity against drug-resistant Mycobacterium tuberculosis. Microbiol. Spectr. 11(6), e04597-e4622 (2023).37800970 10.1128/spectrum.04597-22 PMC10714809
+31. Griego, A. et al. Endolysin B: A new archetype in M. tuberculosis treatment. Preprint available at: 10.1101/2023.12.05.569960 (2023).
+32. Loeffler JM Fischetti V Synergistic lethal effect of a combination of phage lytic enzymes with different activities on penicillin-sensitive and-resistant Streptococcus pneumoniae strains Antimicrob. Agents Chemother. 2003 47 1 375 377 10.1128/AAC.47.1.375-377.2003 12499217 PMC149014
+Loeffler, J. M. & Fischetti, V. Synergistic lethal effect of a combination of phage lytic enzymes with different activities on penicillin-sensitive and-resistant Streptococcus pneumoniae strains. Antimicrob. Agents Chemother. 47(1), 375–377 (2003).12499217 10.1128/AAC.47.1.375-377.2003 PMC149014
+33. Cheng Q Nelson D Zhu S Fischetti VA Removal of group B streptococci colonizing the vagina and oropharynx of mice with a bacteriophage lytic enzyme Antimicrob. Agents Chemother. 2005 49 1 111 117 10.1128/AAC.49.1.111-117.2005 15616283 PMC538902
+Cheng, Q., Nelson, D., Zhu, S. & Fischetti, V. A. Removal of group B streptococci colonizing the vagina and oropharynx of mice with a bacteriophage lytic enzyme. Antimicrob. Agents Chemother. 49(1), 111–117 (2005).15616283 10.1128/AAC.49.1.111-117.2005 PMC538902
+34. Fischetti VA Nelson D Schuch R Reinventing phage therapy: Are the parts greater than the sum? Nat. Biotechnol. 2006 24 12 1508 1511 10.1038/nbt1206-1508 17160051
+Fischetti, V. A., Nelson, D. & Schuch, R. Reinventing phage therapy: Are the parts greater than the sum?. Nat. Biotechnol. 24(12), 1508–1511 (2006).17160051 10.1038/nbt1206-1508
+35. Grandgirard D Loeffler JM Fischetti VA Leib SL Phage lytic enzyme Cpl-1 for antibacterial therapy in experimental pneumococcal meningitis J. Infectious Dis. 2008 197 11 1519 1522 10.1086/587942 18471063
+Grandgirard, D., Loeffler, J. M., Fischetti, V. A. & Leib, S. L. Phage lytic enzyme Cpl-1 for antibacterial therapy in experimental pneumococcal meningitis. J. Infectious Dis. 197(11), 1519–1522 (2008).18471063 10.1086/587942
+36. Gutierrez D Fernandez L Rodriguez A Garcia P Are phage lytic proteins the secret weapon to kill Staphylococcus aureus? mBio 2018 9 10 1128 10.1128/mBio.01923-17 PMC5784253 29362234
+Gutierrez, D., Fernandez, L., Rodriguez, A. & Garcia, P. Are phage lytic proteins the secret weapon to kill Staphylococcus aureus?. mBio 9, 10–1128 (2018).10.1128/mBio.01923-17 PMC5784253 29362234
+37. Korany AH Comparative structural analysis of different mycobacteriophage-derived mycolylarabinogalactan esterases (Lysin B) Biomolecules 2019 10 1 45 10.3390/biom10010045 31892223 PMC7022511
+Korany, A. H. et al. Comparative structural analysis of different mycobacteriophage-derived mycolylarabinogalactan esterases (Lysin B). Biomolecules 10(1), 45 (2019).31892223 10.3390/biom10010045 PMC7022511
+38. Gil F Mycobacteriophage Ms6 LysB specifically targets the outer membrane of Mycobacterium smegmatis Microbiology 2010 156 Pt 5 1497 10.1099/mic.0.032821-0 20093291 PMC2889447
+Gil, F. et al. Mycobacteriophage Ms6 LysB specifically targets the outer membrane of Mycobacterium smegmatis. Microbiology 156(Pt 5), 1497 (2010).20093291 10.1099/mic.0.032821-0 PMC2889447
+39. https://phagesdb.org/
+40. Abouhmad A Korany AH Grey C Dishisha T Hatti-Kaul R Exploring the enzymatic and antibacterial activities of novel mycobacteriophage lysin B enzymes Int. J. Mol. Sci. 2020 21 9 3176 10.3390/ijms21093176 32365915 PMC7246905
+Abouhmad, A., Korany, A. H., Grey, C., Dishisha, T. & Hatti-Kaul, R. Exploring the enzymatic and antibacterial activities of novel mycobacteriophage lysin B enzymes. Int. J. Mol. Sci. 21(9), 3176 (2020).32365915 10.3390/ijms21093176 PMC7246905
+41. Zheng T Zhang C Engineering strategies and challenges of endolysin as an antibacterial agent against Gram-negative bacteria Microb. Biotechnol. 2024 17 4 e14465 10.1111/1751-7915.14465 38593316 PMC11003714
+Zheng, T. & Zhang, C. Engineering strategies and challenges of endolysin as an antibacterial agent against Gram-negative bacteria. Microb. Biotechnol. 17(4), e14465 (2024).38593316 10.1111/1751-7915.14465 PMC11003714
+42. Alderwick LJ Harrison J Lloyd GS Birch HL The mycobacterial cell wall—peptidoglycan and arabinogalactan Cold Spring Harbor Perspect. Med. 2015 5 8 a021113 10.1101/cshperspect.a021113 PMC4526729 25818664
+Alderwick, L. J., Harrison, J., Lloyd, G. S. & Birch, H. L. The mycobacterial cell wall—peptidoglycan and arabinogalactan. Cold Spring Harbor Perspect. Med. 5(8), a021113 (2015).10.1101/cshperspect.a021113 PMC4526729 25818664
+43. Shree P Singh CK Sodhi KK Surya JN Singh DK Biofilms: Understanding the structure and contribution towards bacterial resistance in antibiotics Med. Microecol. 2023 16 100084 10.1016/j.medmic.2023.100084
+Shree, P., Singh, C. K., Sodhi, K. K., Surya, J. N. & Singh, D. K. Biofilms: Understanding the structure and contribution towards bacterial resistance in antibiotics. Med. Microecol. 16, 100084 (2023).10.1016/j.medmic.2023.100084
+44. Fursov MV Antibiofilm activity of a broad-range recombinant endolysin LysECD7: In vitro and in vivo study Viruses 2020 12 5 545 10.3390/v12050545 32429199 PMC7291189
+Fursov, M. V. et al. Antibiofilm activity of a broad-range recombinant endolysin LysECD7: In vitro and in vivo study. Viruses 12(5), 545 (2020).32429199 10.3390/v12050545 PMC7291189
+45. Grover N Paskaleva EE Mehta KK Dordick JS Kane RS Growth inhibition of Mycobacterium smegmatis by mycobacteriophage-derived enzymes Enzym. Microb. Technol. 2014 63 1 6 10.1016/j.enzmictec.2014.04.018 25039052
+Grover, N., Paskaleva, E. E., Mehta, K. K., Dordick, J. S. & Kane, R. S. Growth inhibition of Mycobacterium smegmatis by mycobacteriophage-derived enzymes. Enzym. Microb. Technol. 63, 1–6 (2014).10.1016/j.enzmictec.2014.04.018 25039052
+46. Fischetti VA Bacteriophage lytic enzymes: Novel anti-infectives Trends Microbiol. 2005 13 10 491 496 10.1016/j.tim.2005.08.007 16125935
+Fischetti, V. A. Bacteriophage lytic enzymes: Novel anti-infectives. Trends Microbiol. 13(10), 491–496 (2005).16125935 10.1016/j.tim.2005.08.007
+47. Nelson DC Endolysins as antimicrobials Adv. Virus Res. 2012 83 299 365 10.1016/B978-0-12-394438-2.00007-4 22748813
+Nelson, D. C. et al. Endolysins as antimicrobials. Adv. Virus Res. 83, 299–365 (2012).22748813 10.1016/B978-0-12-394438-2.00007-4
+48. Altschul SF Gish W Miller W Myers EW Lipman DJ Basic local alignment search tool J. Mol. Biol. 1990 215 3 403 410 10.1016/S0022-2836(05)80360-2 2231712
+Altschul, S. F., Gish, W., Miller, W., Myers, E. W. & Lipman, D. J. Basic local alignment search tool. J. Mol. Biol. 215(3), 403–410 (1990).2231712 10.1016/S0022-2836(05)80360-2
+49. Jones P InterProScan 5: Genome-scale protein function classification Bioinformatics 2014 30 9 1236 1240 10.1093/bioinformatics/btu031 24451626 PMC3998142
+Jones, P. et al. InterProScan 5: Genome-scale protein function classification. Bioinformatics 30(9), 1236–1240 (2014).24451626 10.1093/bioinformatics/btu031 PMC3998142
+50. Eddy SR Profile hidden Markov models Bioinformatics 1998 14 9 755 763 10.1093/bioinformatics/14.9.755 9918945
+Eddy, S. R. Profile hidden Markov models. Bioinformatics 14(9), 755–763 (1998).9918945 10.1093/bioinformatics/14.9.755
+51. Madeira F The EMBL-EBI search and sequence analysis tools APIs in 2019 Nucleic Acids Res. 2019 47 W1 W636 W641 10.1093/nar/gkz268 30976793 PMC6602479
+Madeira, F. et al. The EMBL-EBI search and sequence analysis tools APIs in 2019. Nucleic Acids Res. 47(W1), W636–W641 (2019).30976793 10.1093/nar/gkz268 PMC6602479
+52. Mahmood T Yang PC Western blot: Technique, theory, and troubleshooting North Am. J. Med. Sci. 2012 4 9 429 10.4103/1947-2714.100998 PMC3456489 23050259
+Mahmood, T. & Yang, P. C. Western blot: Technique, theory, and troubleshooting. North Am. J. Med. Sci. 4(9), 429 (2012).10.4103/1947-2714.100998 PMC3456489 23050259
+53. Kiefer B Dahl JL Disruption of Mycobacterium smegmatis biofilms using bacteriophages alone or in combination with mechanical stress Adv. Microbiol. 2015 5 10 699 10.4236/aim.2015.510073
+Kiefer, B. & Dahl, J. L. Disruption of Mycobacterium smegmatis biofilms using bacteriophages alone or in combination with mechanical stress. Adv. Microbiol. 5(10), 699 (2015).10.4236/aim.2015.510073

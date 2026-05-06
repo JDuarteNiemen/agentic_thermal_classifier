@@ -1,0 +1,13 @@
+Discovery of 2-phenylquinazolines as potent Mycobacterium avium efflux pump inhibitors able to synergize with clarithromycin against clinical isolate.
+
+Nontuberculous mycobacteria (NTM), which include the Mycobacterium avium complex, are classified as
+difficult-to-treat pathogens due to their ability to quickly develop drug resistance against the
+most common antibiotics used to treat NTM infections. The overexpression of efflux pumps (EPs) was
+demonstrated to be a key mechanism of clarithromycin (CLA) resistance in NTM. Therefore, in this
+work, 24 compounds from an in-house library, characterized by chemical diversity, were tested as
+potential NTM EP inhibitors (EPIs) against Mycobacterium smegmatis mc2 155 and M. avium clinical
+isolates. Based on the acquired results, 12 novel analogs of the best derivatives 1b and 7b were
+designed and synthesized to improve the NTM EP inhibition activity. Among the second set of
+compounds, 13b emerged as the most potent NTM EPI. At a concentration of 4 µg/mL, it reduced the CLA
+minimum inhibitory concentration by 16-fold against the clinical isolate M. avium 2373
+overexpressing EPs as primary mechanism of CLA resistance.

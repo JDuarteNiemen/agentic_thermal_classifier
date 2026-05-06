@@ -1,0 +1,19 @@
+Do primates flexibly use spatio-temporal cues when foraging?
+
+Foraging in seasonal environments can be cognitively demanding. Comparative studies have associated
+large brain size with a frugivorous diet. We investigated the ability of three semi-free-ranging
+primate species with different degrees of frugivory (Ntrials: Macaca tonkeana = 419, Macaca
+fascicularis = 197, Sapajus apella = 346) in developing a mental representation of the spatio-
+temporal distribution of food using foraging experiments. Forty-two boxes were fixed on trees, and
+each week ("season"), some of them were filled with fruits which were either highly preferred, or
+less preferred. Spatial (geometrical panels) and temporal (peel skin of the available fruit) cues
+were present at each season to indicate where (food location), what (which food) was available, and
+when. To test the flexible use of the cues in primate foraging behaviour, we first removed the
+spatial and temporal cues one at a time, and then, we manipulated the "seasonal" order of the
+available fruit. We compared the foraging performances in the absence and the presence of the cues
+and during the usual and unusual seasonal order. The average proportion of baited boxes chosen by
+the subjects in presence of both cues was high (between 73% and 98%) for all species. The primates
+seemed to remember the spatio-temporal food availability (or used other cues) because no difference
+was found between trials with or without our spatial and temporal cues. When the usual seasonal
+pattern was changed, they flexibly adjusted the feeding choice by using the provided temporal cues.
+We discuss these results also in view of a possible experimental bias.

@@ -1,0 +1,17 @@
+Characterization and genome analysis of G1 sub-cluster mycobacteriophage Lang.
+
+Phage therapy is revitalized as an alternative to antibiotics therapy against antimicrobials
+resistant pathogens. Mycobacteriophages are genetically diverse viruses that can specifically infect
+Mycobacterium genus including Mycobacterium tuberculosis and Mycobacterium smegmatis. Here, we
+isolated and annotated the genome of a mycobacteriophage Lang, a temperate mycobacteriophage
+isolated from the soil of Hohhot, Inner Mongolia, China, by using Mycolicibacterium smegmatis mc2
+155 as the host. It belongs to the Siphoviridae family of Caudovirales as determined by transmission
+electron microscopy. The morphological characteristics and certain biological properties of the
+phage were considered in detail. Phage Lang genomes is 41,487 bp in length with 66.85% GC content
+and encodes 60 putative open reading frames and belongs to the G1 sub-cluster. Genome annotation
+indicated that genes for structure proteins, assembly proteins, replications/transcription and lysis
+of the host are present in function clucters. The genome sequence of phage Lang is more than 95%
+similar to that of mycobacteriophage Grizzly and Sweets, differing in substitutions, insertions and
+deletions in Lang. One-step growth curve revealed that Lang has a latent period of 30 min and a
+outbreak period of 90 min. The short latent period and rapid outbreak mark the unique properties of
+phage Lang, which can be another potential source for combating M. tuberculosis.

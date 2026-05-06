@@ -1,0 +1,9 @@
+Genome structure of mycobacteriophage D29: implications for phage evolution.
+
+Mycobacteriophage D29 is a lytic phage that infects both fast and slow-growing mycobacterial
+species. The complete genome sequence of D29 reveals that it is a close relative of the temperate
+mycobacteriophage L5, whose sequence has been described previously. The overall organization of the
+D29 genome is similar to that of L5, although a 3.6 kb deletion removing the repressor gene accounts
+for the inability of D29 to form lysogens. Comparison of the two genomes shows that they are
+punctuated by a large number of insertions, deletions, and substitutions of genes, consistent with
+the genetic mosaicism of lambdoid phages.

@@ -1,0 +1,14 @@
+Genome-Scale CRISPRi Screening Identifies Gene Targets for Enhanced Octanoic Acid Tolerance and Production in Escherichia coli.
+
+Medium-chain fatty acids (MCFAs) are valuable precursors for biofuels and other commodity chemicals;
+however, the microbial biosynthesis of these compounds is severely constrained by cytotoxic effects.
+Here, we employed a genome-scale CRISPR interference (CRISPRi) library to systematically identify
+gene targets whose repression enhanced the tolerance to octanoic acid (C8) in Escherichia coli.
+Among the identified targets, repression of ygaM, gluQ, gatY, and talA enabled a 1.1- to 1.7-fold
+increase in C8 production relative to the parental strain MS-1. Mechanistic analyses revealed that
+the enhanced tolerance was associated with improved membrane properties, reduced reactive oxygen
+species (ROS) levels, and a shorter cell morphology. Further metabolic engineering to optimize NADPH
+availability increased C8 production to 1083 mg/L, representing a 2.3-fold increase over that of the
+MS-1 strain. This study provides new insights into engineering robust E. coli strains for MCFAs
+production and highlights the utility of genome-scale CRISPRi screening for identifying genetic
+determinants of microbial stress tolerance.

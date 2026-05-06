@@ -1,0 +1,21 @@
+First conjugation directed traverse of gene cassettes harboring α1,3GT from fast-growing Mycobacterium smegmatis mc2 155 to slow-growing pathogen Mycobacterium tuberculosis H37Rv, presumably opening up new scopes in tuberculosis treatment.
+
+Mycobacterium smegmatis strain mc2 155 is a fast-growing and non-pathogenic mycobacteria and widely
+used in genetic studies of mycobacteria. It has been shown that this species of mycobacterium can
+transfer its genomic DNA fragments to other species of mycobacteria during the conjugation process.
+Galα1-3Galβ1-4GlcNAc-R (α-gal) glycan epitope is a highly immunogenic epitope exerted by the enzyme
+α1-3-galactosyltransferase (α1,3GT) in mammalian cells on the glycan skeleton. However, the enzyme
+is inactive in humans, primates and Old World monkeys as a result of evolutionary mutations. The
+robust immunogenicity induced by the epitope in human, has attracted much attention to apply the
+epitope in vaccine research. In this study we proved successful transfer of desired expression
+cassettes from fast-growing Mycobacterium smegmatis mc2 155, to the slow-growing pathogen
+Mycobacterium tuberculosis H37Rv. We designed gene cassettes encoding the α1,3GT enzyme under
+control the potent G13 promoter and the cassette containing hygromycin resistance gene under a Mtb
+specific promoter, Ptpa in the vector pMV306DIG13 +FflucRT (harboring attP site). The resulting
+construct was electroporated into mc2 155 strain in combination with pBS-int containing the gene
+encoding Mycobacteriophage L5 integrase to integrate pMV306DIG13 +FflucRT-cassettes into mc2 155
+genome. Following the integration, the recombinant clones were placed in vicinity to the
+Mycobacterium tuberculosis H37Rv strain to establish conjugation. Conjugated recombinant clones were
+selected on the medium containing the hygromycin B and transfer of the desired cassettes to
+Mycobacterium tuberculosis was confirmed. The enzyme α1,3GT in transconjugants were also
+investigated.

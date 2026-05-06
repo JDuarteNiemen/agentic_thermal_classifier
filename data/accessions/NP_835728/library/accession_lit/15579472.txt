@@ -1,0 +1,16 @@
+Characterization of a 5'-polynucleotide kinase/3'-phosphatase from bacteriophage RM378.
+
+A polynucleotide kinase from the thermophilic bacteriophage RM378 that infects the thermophilic
+eubacterium Rhodothermus marinus was identified, expressed, and purified. This polynucleotide kinase
+was demonstrated to have a 5'-kinase domain as well as a 3'-phosphohydrolase domain. The RM378
+polynucleotide kinase had limited sequence similarity to the 5'-kinase domain of the T4
+bacteriophage polynucleotide kinase, but apparent homology was not evident within the
+3'-phosphohydrolase domain. The domain order of RM378 polynucleotide kinase was reversed relative to
+that of the T4 polynucleotide kinase. The RM378 phosphohydrolase domain displayed some sequence
+similarity with the bacterial poly(A) polymerase family, including an HD motif characteristic of the
+diverse superfamily of metal-dependent HD phosphohydrolases. The RM378 polynucleotide kinase was
+biochemically characterized and shown to possess 5'-kinase activity on RNA and single- and double-
+stranded DNA at elevated temperatures. It also showed phosphohydrolase activity on 2':3'-cyclic
+adenosine monophosphate. This description of the RM378 polynucleotide kinase, along with the
+recently described RM378 RNA ligase, suggests that the RM378 bacteriophage has to counter a similar
+anti-phage mechanism in R. marinus as the one that the T4 phage has to counter in Escherichia coli.

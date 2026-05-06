@@ -1,0 +1,29 @@
+Urinary tract infections at an Australian sexual health service: bacterial etiologies, antibiotic susceptibilities, and antimicrobial prescribing patterns.
+
+Urinary tract infections (UTIs) are one of the most common infections. Management of UTIs often
+involves empiric antibiotics, which can contribute to antibiotic overuse. We aimed to investigate
+the causative organisms, prevalence of antimicrobial resistance, and empiric prescribing practices
+to improve antibiotic use for UTIs. We conducted a retrospective audit of UTIs in premenopausal
+nonpregnant persons with a vagina aged 18-51 years attending the Melbourne Sexual Health Centre from
+2 January 2018 to 24 January 2023. We calculated the proportion of culture samples with pathogen(s)
+isolated, and their antimicrobial resistance profiles with 95% confidence intervals (CIs). We
+assessed adherence to first-line Australian Therapeutic guideline recommendations for acute
+uncomplicated lower UTIs (trimethoprim, nitrofurantoin, and cefalexin) during our study period. We
+included 1,680 acute UTI episodes (n = 1,569 patients). Midstream urine culture was performed in
+1,503 episodes, with 911 (60.6%, 95% CI: 58.1-63.1) classified as laboratory-defined UTIs. The most
+common isolate was Escherichia coli (n = 615/948; 64.9%, 95% CI: 61.7-67.9). Of the first-line
+Australian Therapeutic Guideline recommended antibiotics, E. coli isolates were most commonly
+resistant to trimethoprim (n = 195/612; 31.9%, 95% CI: 28.2-35.7). Empiric antibiotics were
+prescribed for 1,533 (91.3%, 95% CI: 89.8-92.6) episodes. Most prescriptions (n = 1,465/1,533;
+95.6%, 95% CI: 94.4-96.5) adhered to first-line recommendations, and trimethoprim accounted for 842
+(54.9%, 95% CI: 52.4-57.4) prescriptions. At Australia's largest sexual health service, E. coli
+caused two-thirds of UTIs, with one-third of E. coli isolates demonstrating trimethoprim resistance.
+Empiric antibiotics were commonly prescribed and compliant with national recommendations;
+trimethoprim accounted for >50% of empiric prescriptions. Trimethoprim resistance indicates changes
+to empiric recommendations could be needed.IMPORTANCEEscherichia coli was the most common
+uropathogen isolated in women with uncomplicated urinary tract infection (UTI) over the past 5
+years. One-third of these infections were resistant to trimethoprim, an antibiotic recommended as
+first-line presumptive therapy for UTIs in Australia and prescribed in over 50% of these E. coli
+urinary tract infections. These data demonstrate higher than previously reported levels of
+trimethoprim resistance in community-acquired E. coli UTIs in Australia, and the need for changes to
+empiric antimicrobial recommendations.

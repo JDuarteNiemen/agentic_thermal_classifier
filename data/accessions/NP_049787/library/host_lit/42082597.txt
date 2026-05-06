@@ -1,0 +1,16 @@
+Evaluation of an ultraviolet C device for hospital pharmacy compounding.
+
+Aseptic pharmaceutical compounding is a high-risk activity in hospital pharmacies requiring strict
+environmental control. Ultraviolet-C (UVC) irradiation offers a "non-touch" and chemical-free method
+of disinfection for materials entering in white rooms. The present study aimed to investigate the
+efficacy of a UVC disinfection device (Artemisia, Byola, Faulquemont, France) for inactivating
+common hospital pathogens in vitro. Stock solutions of Staphylococcus aureus, Bacillus spizizenii,
+Escherichia coli, Pseudomonas aeruginosa, and Candida albicans were prepared and spread on Petri
+dishes. Plates were placed in the disinfection device and exposed to UVC for 1, 2, 3, 4, and 5 min
+(2, 5, and 10 min for B. spizizenii). After UVC exposure, culture plates were incubated at 32 ± 2 °C
+and colony forming unit were quantified 24- and 120-hours post-exposure. Microorganisms were chosen
+as they have different cell wall compositions and are associated with healthcare-associated
+infections; B. spizizenii spores were included as a surrogate microorganism for pathogenic spore
+species and strains. For all microorganisms, after 2 min of exposure a reduction > 7 log10 was
+observed at 24- and 120-hours post-exposure. The Artemisia tested herein thus demonstrates potential
+to be used for sterilisation, at least against the microorganisms tested.

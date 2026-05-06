@@ -1,0 +1,19 @@
+Spot the odd one out: do snake pictures capture macaques' attention more than other predators?
+
+Detecting and identifying predators quickly is key to survival. According to the Snake Detection
+Theory (SDT), snakes have been a substantive threat to primates for millions of years, so that
+dedicated visual skills were tuned to detect snakes in early primates. Past experiments confronted
+the SDT by measuring how fast primate subjects detected snake pictures among non-dangerous
+distractors (e.g., flowers), but did not include pictures of primates' other predators, such as
+carnivorans, raptors, and crocodilians. Here, we examined the detection abilities of N = 19 Tonkean
+macaques (Macaca tonkeana) and N = 6 rhesus macaques (Macaca mulatta) to spot different predators.
+By implementing an oddity task protocol, we recorded success rates and reaction times to locate a
+deviant picture among four pictures over more than 400,000 test trials. Pictures depicted a
+predator, a non-predator animal, or a simple geometric shape. The first task consisted of detecting
+a deviant picture among identical distractor pictures (discrimination) and the second task was
+designed to evaluate detection abilities of a deviant picture among different distractor pictures
+(categorization). The macaques detected pictures of geometric shapes better and faster than pictures
+of animals, and were better and faster at discriminating than categorizing. The macaques did not
+detect snakes better or faster than other animal categories. Overall, these results suggest that
+pictures of snakes do not capture visual attention more than other predators, questioning previous
+findings in favor of the SDT.

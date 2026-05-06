@@ -691,9 +691,11 @@ def ClassifyThermalRangeHostLiterature(state: AgentState) -> dict:
 
         prompt = f"""You are an expert microbiology information extraction system.
 
-            Your task is to determine the thermal characteristics of the organism needed from information described in the paper.
+            Your task is to determine the thermal characteristics of the host organism needed from information described in the paper.
+            At this stage you are classifying the thermal range of the host organism.
 
             The organism in question: {state['phage']}
+            The host organism in question: {state['host']}
 
             STRICT RULES:
             - Only use information explicitly stated in the paper.
@@ -910,6 +912,7 @@ def MESOTHERMOPSYCHRO(accession: str, model: str) -> AgentState:
 
     metadata=FetchNcbiMetadata(accession)
     phage=metadata.get('organism', 'unknown')
+    WriteJson(metadata, f'data/accessions/{accession}/{accession}')
 
     graph = BuildGraph()
 

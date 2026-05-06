@@ -1,0 +1,16 @@
+Assessing the role of E451, D452, and H139 in the catalytic function of a Thermus thermophilus bacterial laccase.
+
+Laccases are oxidoreductase enzymes that require four electrons and four protons for each catalytic
+cycle to trigger the conversion of one oxygen molecule into two water molecules. However, for
+bacterial laccases, including the laccase from Thermus thermophilus HB27 (Tth-MCO), the complete
+proton transfer pathway from the solvent-exposed surface of the protein to the trinuclear center
+remains unclear. This paper describes new crystallographic structures of a partially copper-occupied
+Tth-MCO, subjected to a cumulative X-ray radiation strategy to uncover the effect of the X-ray
+driven chemical reduction on the residues related to the enzyme's proton relay. Additionally, we
+constructed and analyzed single and double mutants of residues H139 and E451 to assess their effect
+on the kinetic parameters of Tth-MCO. The proper folding of the mutants was evaluated using circular
+dichroism, while the structural stability of the mutants was analyzed using molecular dynamics
+calculations based on AlphaFold 2 models. Such analysis of the structural and kinetic data obtained
+provides deeper insights into the amino acids involved in the proton relay mechanism of Tth-MCO.
+Considering the conservation of amino acids involved in several bacterial laccase sequences, the
+proposed multi-step proton relay mechanism may also exist in other bacterial laccases.

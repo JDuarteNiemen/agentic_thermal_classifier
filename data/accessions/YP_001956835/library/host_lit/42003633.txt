@@ -1,0 +1,6 @@
+Whole-genome sequencing of two chromogenic bacteria, Exiguobacterium spp. and Pseudomonas chlororaphis, isolated from environmental sources in Northern Colorado.
+
+Exiguobacterium spp. (EA-TM-5) and Pseudomonas chlororaphis (PC-TM-6) were sequenced via Nanopore
+technology. De novo assembly resulted in one circular contig representing the complete genome of P.
+chlororaphis (PC-TM-6) and three circular contigs for Exiguobacterium spp. (EA-TM-5) representing
+its complete genome and two plasmids. Annotation revealed various antibiotic resistance genes.

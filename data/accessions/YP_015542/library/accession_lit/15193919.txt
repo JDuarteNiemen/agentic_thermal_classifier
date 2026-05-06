@@ -1,0 +1,14 @@
+Morphology and genome organization of the virus PSV of the hyperthermophilic archaeal genera Pyrobaculum and Thermoproteus: a novel virus family, the Globuloviridae.
+
+A novel virus, termed Pyrobaculum spherical virus (PSV), is described that infects anaerobic
+hyperthermophilic archaea of the genera Pyrobaculum and Thermoproteus. Spherical enveloped virions,
+about 100 nm in diameter, contain a major multimeric 33-kDa protein and host-derived lipids. A viral
+envelope encases a superhelical nucleoprotein core containing linear double-stranded DNA. The PSV
+infection cycle does not cause lysis of host cells. The viral genome was sequenced and contains
+28337 bp. The genome is unique for known archaeal viruses in that none of the genes, including that
+encoding the major structural protein, show any significant sequence matches to genes in public
+sequence databases. Exceptionally for an archaeal double-stranded DNA virus, almost all the
+recognizable genes are located on one DNA strand. The ends of the genome consist of 190-bp inverted
+repeats that contain multiple copies of short direct repeats. The two DNA strands are probably
+covalently linked at their termini. On the basis of the unusual morphological and genomic properties
+of this DNA virus, we propose to assign PSV to a new viral family, the Globuloviridae.

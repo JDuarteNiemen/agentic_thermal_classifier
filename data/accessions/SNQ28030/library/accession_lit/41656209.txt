@@ -1,0 +1,17 @@
+Point cloud deformation modeling for particle selection following cryo-EM 2D classification.
+
+Cryo-electron microscopy (cryo-EM) has emerged as a powerful technique for high-resolution
+structural determination of macromolecules. However, accurately classifying single-particle cryo-EM
+images remains challenging, especially when dealing with deformed particles. In traditional 2D
+classification methods, clustering algorithms are used for classification. This assumption leads to
+some deformed particles being misclassified in 2D images, which adversely affects downstream tasks.
+To address this challenge, we propose a point cloud-based deformation measurement model that
+integrates a Variational Autoencoder (VAE) with a heuristic point cloud matching algorithm to
+calculate particle deformation values. This model enables the identification and removal of
+particles with large deformations. Our experiments on simulated and real cryo-EM datasets, including
+Tobacco Mosaic Virus (TMV) and mixed capsids of MS2 virions (MS2). The model achieves robust
+classification (F1: 0.85-0.88) while preserving 93-95% of structural details, and can effectively
+filter out deformed particles after 2D classification. The model identifies and removes deformed or
+misclassified particles to improve classification quality. It serves as a data-filtering post-
+processing step following 2D classification. By improving the quality of particle datasets, it
+enhances the reliability of subsequent analysis in cryo-EM.

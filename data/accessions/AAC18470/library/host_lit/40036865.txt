@@ -1,0 +1,18 @@
+1,3,4-oxadiazoles with effective anti-mycobacterial activity.
+
+The search for new drugs to treat tuberculosis and nontuberculous mycobacteria (NTM)-caused diseases
+is still desired. This is the first study aimed at determining the activity of two innovative
+synthetic 1,3,4-oxadiazole molecules, (4-[cyclohexyl(ethyl)
+sulfamoyl]-N-[5-(furan-2-yl)-1,3,4-oxadiazol-2-yl]benzamide), namely LMM11, and ((N-cyclo-hexyl-N-
+ethylsulfamoil)-N-(5- (4-fluorophenyl)-1,3,4-oxadiazol-2-il) benzamide), namely LMM6, against
+Mycobacterium tuberculosis and nontuberculous mycobacteria, and their ability to present synergism
+in activity against M. tuberculosis when combined with anti-TB drugs. In vitro cytotoxicity studies
+were conducted in HeLa and VERO cells. The minimum inhibitory concentration (MIC) and combinatory
+effect were carried out in M. tuberculosis H37Rv and resistant isolates, NTM, and other genera of
+bacteria. The LMM6 and LMM11 MIC ranged from 8.27 to 33.07 µM and 15.58 to 70.30 µM in M.
+tuberculosis, respectively. LMM6 showed activity against M. smegmatis mc2 155 (8.25 μM), M. szulgai
+(2.05 μM), and M. kansasii (66.03 μM), while LMM11 showed activity against M. szulgai (8.77 μM), and
+M. smegmatis (70.19 μM). Synergism and modulatory activity of LMM6 and LMM11 with anti-TB drugs were
+observed, and they showed to be more selective for mycobacteria than HeLa and VERO cells. Both new
+oxadiazoles showed activity against mycobacteria, in fact, more pronounced against M. tuberculosis,
+and seem to bring light to the synthesis of new antimicobacterial.

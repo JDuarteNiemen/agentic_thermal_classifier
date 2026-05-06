@@ -1,16 +1,61 @@
-Thermal Range,Species,Host,Accession,Protein
-mesophile,Tequatrovirus T4,Acinetobacter baumannii,ADI87650,"major head protein, partial [Tequatrovirus T4]"
-mesophile,Teseptimavirus T7,Escherichia coli B,WXH46553,terminase large subunit [Teseptimavirus T7]
-mesophile,Escherichia phage Lambda,Escherichia coli,WRQ14408,endolysin [Escherichia phage Lambda]
-mesophile,Escherichia phage T2,Escherichia coli,XYW65533,DNA helicase [Escherichia phage T2]
-mesophile,Emesvirus zinderi,Escherichia coli,SNQ28030,"RNA replicase, beta subunit [Emesvirus zinderi]"
-thermophile,Thermus phage P23-45,Thermus thermophilus,A7XXB7,DNA-packaging protein
-thermophile,Thermus phage TSP4,Thermus sp. TC4,QAY18187,metal-dependent hydrolase [Thermus phage TSP4]
-thermophile,Geobacillus virus E2,Geobacillus,YP_001285867,ATPase [Geobacillus virus E2]
-thermophile,Rhodothermus phage RM378,Rhodothermus marinus,NP_835731,RNA polymerase sigma factor [Rhodothermus phage RM378]
-thermophile,Thermus virus YS40,Thermus thermophilus,YP_874174,Fe-S oxidoreductase [Thermus phage phiYS40]
-psychrophile,Pseudoalteromonas phage vB_Psp_PY6,Pseudoalteromonas sp. YM19,XJP07760,terminase large subunit [Pseudoalteromonas phage vB_Psp_PY6]
-psychrophile,Pseudoalteromonas phage proACA1-A,Acinetobacter baumannii,WMT83805,integrase [Pseudoalteromonas phage proACA1-A]
-psychrophile,Shewanella phage SppYZU05,Unknown,YP_009790355,tail fiber protein [Shewanella phage SppYZU05]
-psychrophile,Colwellia phage 9A,Colwellia psychrerythraea strain 34H,YP_006489335,"hypothetical protein COPG_00149, partial [Colwellia phage 9A]"
-psychrophile,Polaribacter phage P12002L,Polaribacter sp. IMCC12002,YP_009209738,hypothetical protein AVT43_gp78 [Polaribacter phage P12002L]
+Thermal Range,Accession
+mesophile,ADI87650
+mesophile,WXH46553
+mesophile,WRQ14408
+mesophile,XYW65533
+mesophile,SNQ28030
+mesophile,NP_049775
+mesophile,NP_049787
+mesophile,YP_001956829
+mesophile,AAC18470
+mesophile,NP_046847
+mesophile,NP_040628
+mesophile,NP_040587
+mesophile,NP_042001
+mesophile,NP_042005
+mesophile,NP_041967
+mesophile,NP_049666
+mesophile,YP_010085862
+mesophile,YP_009168084
+mesophile,YP_001956832
+mesophile,YP_001956835
+thermophile,A7XXB7
+thermophile,QAY18187
+thermophile,YP_001285867
+thermophile,NP_835731
+thermophile,YP_874174
+thermophile,YP_001468074
+thermophile,YP_001468079
+thermophile,YP_001468077
+thermophile,YP_001468072
+thermophile,YP_001285862
+thermophile,BFP65619
+thermophile,YP_001285822
+thermophile,ABI36835
+thermophile,NP_835728
+thermophile,NP_835725
+thermophile,YP_001210360
+thermophile,YP_015542
+thermophile,YP_001468067
+thermophile,YP_009509140
+thermophile,YP_009509134
+psychrophile,XJP07760
+psychrophile,WMT83805
+psychrophile,YP_009790355
+psychrophile,YP_006489335
+psychrophile,YP_009209738
+psychrophile,WMT83702
+psychrophile,WMT83700
+psychrophile,YP_009790354
+psychrophile,YP_009790351
+psychrophile,YP_009790347
+psychrophile,YP_009790336
+psychrophile,YP_009008887
+psychrophile,YP_009008883
+psychrophile,YP_009008872
+psychrophile,YP_006489330
+psychrophile,YP_006489329
+psychrophile,YP_006489332
+psychrophile,YP_112541
+psychrophile,YP_010108907
+psychrophile,YP_010108902

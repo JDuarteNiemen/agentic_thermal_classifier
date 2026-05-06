@@ -1,0 +1,19 @@
+The β-hairpin effect: Structural insights into bacterial laccase function and stability.
+
+Laccases are a class of multicopper oxidases that serve diverse functions across multiple
+industries. The laccase from Thermus thermophilus strain HB27 (TthMCO) is a thermostable enzyme
+characterized by a methionine-rich motif, proposed as a distinctive structural feature of laccases
+from Thermus, Meiothermus, and Aquifex. This motif in TthMCO and in the Multicopper oxidase from
+Aquifex aeolicus (McoA) partially occludes the T1 copper site solvent access (PDB entries 2XU9 and
+6SYY, respectively). This structural feature, a β-hairpin in TthMCO, has been proposed to influence
+the catalytic activity and pH dependence of this enzyme. To address the knowledge gap, we generated
+two deletion variants: ∆1, removing the most mobile region (B-values >12 Å2), and ∆2, deleting the
+entire β-hairpin to mimic a fungal laccase architecture. This strategy allowed for direct comparison
+of structural integrity, catalytic parameters, and pH-dependent activity while maintaining the
+global fold. This work represents the first systematic combination of crystallography, kinetic
+analysis, and pH profiling applied to β-hairpin deletion mutants of TthMCO. Our results demonstrate
+that deletion of the β-hairpin expands the pH enzymatic activity range and improved the Km values of
+the variants, although it negatively affected the overall reaction velocity. The findings described
+in this work reveal that the β-hairpin is critical for balancing substrate accessibility with
+electron-transfer efficiency, providing fundamental insights into the rational engineering of
+bacterial laccases related to TthMCO.

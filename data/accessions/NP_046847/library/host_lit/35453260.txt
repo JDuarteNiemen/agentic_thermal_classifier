@@ -1,0 +1,17 @@
+Inactivation of a New Potassium Channel Increases Rifampicin Resistance and Induces Collateral Sensitivity to Hydrophilic Antibiotics in Mycobacterium smegmatis.
+
+Rifampicin is a critical first-line antibiotic for treating mycobacterial infections such as
+tuberculosis, one of the most serious infectious diseases worldwide. Rifampicin resistance in
+mycobacteria is mainly caused by mutations in the rpoB gene; however, some rifampicin-resistant
+strains showed no rpoB mutations. Therefore, alternative mechanisms must explain this resistance in
+mycobacteria. In this work, a library of 11,000 Mycobacterium smegmatis mc2 155 insertion mutants
+was explored to search and characterize new rifampicin-resistance determinants. A transposon
+insertion in the MSMEG_1945 gene modified the growth rate, pH homeostasis and membrane potential in
+M. smegmatis, producing rifampicin resistance and collateral susceptibility to other antitubercular
+drugs such as isoniazid, ethionamide and aminoglycosides. Our data suggest that the M. smegmatis
+MSMEG_1945 protein is an ion channel, dubbed MchK, essential for maintaining the cellular ionic
+balance and membrane potential, modulating susceptibility to antimycobacterial agents. The functions
+of this new gene point once again to potassium homeostasis impairment as a proxy to resistance to
+rifampicin. This study increases the known repertoire of mycobacterial ion channels involved in drug
+susceptibility/resistance to antimycobacterial drugs and suggests novel intervention opportunities,
+highlighting ion channels as druggable pathways.

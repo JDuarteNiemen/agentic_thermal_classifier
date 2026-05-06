@@ -1,0 +1,19 @@
+Sequence elements essential for rho-dependent transcription termination at lambda tR1.
+
+To determine the location of DNA sequences required for the utilization of rho factor in
+transcription termination at the tR1 terminator of phage lambda, we constructed and analyzed a
+series of deletion mutants affecting several distinct regions of the cro-gene sequence. Two distinct
+sequence blocks, rutA and rutB, are shown to be particularly important for rho action at tR1 during
+in vitro transcription. They are located in the region between the sequence encoding the translation
+termination codon of cro mRNA and the start of tR1. Although other sequences contribute to rho
+action, their function can be replaced by unrelated heterologous DNA sequences encoding highly
+structured RNA segments, while the function of the rut sequences cannot. The lambda tR1 rut
+sequences encode RNA segments that contain a high proportion of cytidylate residues and that lack
+extensive intramolecular base pairing. Thus, the rut transcript segments are likely to be parts of
+the site on the nascent cro RNA that binds specifically with rho factor as an essential step in the
+termination process. This view is supported further by the findings (Chen, C.-Y. A., Galluppi, G.
+R., and Richardson, J. P. (1986) Cell 46, 1023-1028) that rho action at tR1 is specifically
+inhibited by DNA oligonucleotides that form hybrid helices with rut transcript segments. We also
+examined the effect of the auxiliary transcription factor NusA on transcription of our mutant
+templates and show that deletion of the boxA sequence of cro gene does not diminish the ability of
+NusA to reduce rho action at tR1.

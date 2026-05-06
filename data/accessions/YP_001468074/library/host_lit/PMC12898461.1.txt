@@ -1,0 +1,475 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Int J Mol Sci
+Journal ID: Int J Mol Sci
+Journal ID: ijms
+
+International Journal of Molecular Sciences
+
+EISSN: 1422-0067
+Publisher: Multidisciplinary Digital Publishing Institute (MDPI)
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC12898461
+PMID: 41683795
+DOI: 10.3390/ijms27031372
+Article ID: ijms-27-01372
+Article version: 1
+Subjects: Article
+
+Production of Novel Thermostable Esterases from Thermus thermophilus Strain ET-1 in Escherichia coli and Thermus thermophilus HB27 Using the Bifunctional Expression System pTGT-1 and Characterization of the Recombinant Enzymes
+
+https://orcid.org/0000-0002-8938-4746 Valenzuela Bernardita Conceptualization Methodology Writing – original draft Writing – review & editing 1 2 *
+Cayo Mayra Resources Data curation Writing – original draft 2
+Solís-Cornejo Francisco 2 3
+Reyes María-Belen Methodology Validation 4
+Palma Ignacia Methodology Resources 4
+Uribe Elena 4
+Zamorano Pedro Conceptualization Validation Investigation Writing – review & editing 2 3 *
+Capasso Clemente Academic Editor
+Baykov Alexander Academic Editor
+1 Departamento de Educación, Facultad de Educación, Universidad de Antofagasta, Antofagasta 1240000, Chile
+2 Laboratorio de Microorganismos Extremófilos, Instituto Antofagasta, Universidad de Antofagasta, Antofagasta 1240000, Chile; mayra.cayo@uamail.cl (M.C.); francisco.solis@uamail.cl (F.S.-C.)
+3 Departamento Biomédico, Facultad de Ciencias de la Salud, Universidad de Antofagasta, Antofagasta 1240000, Chile
+4 Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción 4070386, Chile; marireyesc@udec.cl (M.-B.R.); igpalma2021@udec.cl (I.P.); auribe@udec.cl (E.U.)
+* Correspondence: bernardita.valenzuela@uamail.cl (B.V.); pedro.zamorano@uamail.cl (P.Z.); Tel.: +56-55-2637620 (B.V.); +56-55-2637629 (P.Z.)
+Electronic publication date: 2026 Jan 29
+Publication date: 2026 Feb
+Volume: 27
+Issue: 3
+Electronic Location ID: 1372
+Received 2025 Aug 7; Revised 2026 Jan 27; Accepted 2026 Jan 27
+Copyright: © 2026 by the authors.
+Copyright year: 2026
+License: Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Keywords: Thermus, lipases, esterases, thermozymes
+
+Funding: ANID-Chile program “Valorización de los resultados de Universidad (VIU)-FONDEF, MB ThermoSystems: Molecular bricks for thermozymes expression VIU20P0029 TGT: Thermophilic Genetic Tools VIU16E0051 Financiado por el programa Semillero de Investigación, SEM-18-03 de la Dirección de Gestión de la Investigación, Universidad de Antofagasta Fortalecimiento de la investigación, innovación y postgrado de la Universidad de Antofagasta, enfatizando la asociatividad con alianzas y programas de postgrado que impacten en las necesidades regionales, código ANT20992 Fortaleciendo la formación educativa de manera integral: asegurando la calidad, implementando un nuevo modelo educativo, gestionando el currículo, profesionalizando la docencia, fomentando la investigación, la innovación y la creatividad y promoviendo la inclusión, código ANT23991 Proyecto Semillero de Investigación 2024 Riboswitches: Nuevos reguladores genéticos aislados de microorganismos termófilos de la región de Antofagasta SEM24-006 proyecto MINEDUC-UA, código ANT 22991 This research was funded by ANID-Chile program “Valorización de los resultados de Universidad (VIU)-FONDEF, MB ThermoSystems: Molecular bricks for thermozymes expression, grant number VIU20P0029”. Additionally, “TGT: Thermophilic Genetic Tools grant number VIU16E0051” and “Financiado por el programa Semillero de Investigación, SEM-18-03 de la Dirección de Gestión de la Investigación, Universidad de Antofagasta”. Further support was funded through the following projects: “Fortalecimiento de la investigación, innovación y postgrado de la Universidad de Antofagasta, enfatizando la asociatividad con alianzas y programas de postgrado que impacten en las necesidades regionales, código ANT20992”, “Fortaleciendo la formación educativa de manera integral: asegurando la calidad, implementando un nuevo modelo educativo, gestionando el currículo, profesionalizando la docencia, fomentando la investigación, la innovación y la creatividad y promoviendo la inclusión, código ANT23991” (Vicerrectoría de Investigación, Innovación y Postgrado-VRIIP, Universidad de Antofagasta), and “Proyecto Semillero de Investigación 2024 “Riboswitches: Nuevos reguladores genéticos aislados de microorganismos termófilos de la región de Antofagasta, Cod. SEM24-006”. This work was partially done by Pedro Zamorano for a visit at the University of Duisburg-Essen, supported by proyecto MINEDUC-UA, código ANT 22991.
+
+==============================
+The thermophilic bacterium Thermus thermophilus represents a crucial genetic reservoir for exploring thermostable enzymes as valuable biocatalysts for industrial and biotechnology applications. Here, we identify, clone, and characterize Ces1-ET, Est1-ET, and Plp1-ET, three lipolytic enzymes obtained from T. thermophilus strain ET-1 isolated from El Tatio Geothermal Field in Northern Chile. To enable recombinant expression, we constructed the pTGT-1 expression system, a versatile bifunctional shuttle vector compatible with both Escherichia coli and T. thermophilus. The three thermoenzymes Ces1-ET, Est1-ET, and Plp1-ET, were successfully cloned, expressed, and purified using the pTGT-1 system, with a molecular mass of 25 kDa, 36 kDa, and 28 kDa, respectively. The recombinant purified enzymes displayed optimal temperatures at 60 °C, 80 °C, and 70 °C and optimal pH of 7.5, 9.0, and 8.0 for Ces1-ET, Est1-ET, and Plp1-ET, respectively. Functional biochemical assays revealed a broad tolerance to surfactants, detergents, divalent cations, and high salinity, relevant properties for their application in an industrial setting. These thermostable esterases expand the repertoire of thermozymes from Thermus spp., introducing pTGT-1 as an innovative tool for thermophilic protein expression and highlighting T. thermophilus strain ET-1 from El Tatio Geothermal Field as a valuable source of thermostable enzymes for industrial and biotechnology applications.
+
+1. Introduction
+
+Thermostable esterases represent an important group of biocatalysts due to their ability to function in harsh physicochemical conditions, mainly high temperature, extreme pH and in the presence of surfactants or high salinity [1,2]. These enzymes hydrolyze ester bonds (ester, carbonyl ester, phosphoric ester, and sulfuric ester), generating alcohols and carboxylic acid. However, under certain conditions, they may also catalyze transesterification reactions, positioning them as versatile tools for industrial biotransformations [3,4]. True esterases, commonly referred to as carboxylesterase (EC 3.1.1.1), are serine-dependent enzymes with high substrate specificity that act mainly on short-chain acyl esters [5,6]; in contrast, phospholipases (EC 3.1.1.32 and EC 3.1.1.4) specifically catalyze phospholipid hydrolysis.
+
+Thermophilic microorganisms are a rich reservoir of robust enzymes, particularly lipolytic thermozymes, adapted to high temperature, high ionic strength, and chemical stressors, offering some advantages over enzymes from mesophilic microorganisms [1]. Among thermophiles, T. thermophilus is a valuable chassis for thermozymes expression due to its genetic stability, natural transformations, and the development of molecular tools, such as bifunctional vectors, adaptable for expression in both mesophilic and thermophilic microorganisms [7,8,9]. Only a third of thermophilic genes can be expressed as functional proteins in E. coli [7,8,10], and this lack of functionality is mainly due to misfolding or the expression of inactive enzymes. Successful expression of enzymes has been demonstrated in the thermophilic bacterium T. thermophilus, achieving overexpression levels comparable to those in E. coli, underscoring the importance of this microorganism and the development of shuttle vectors.
+
+Thermostable esterases have gained particular interest due to their relevance in industrial biotechnology and their potential contribution to the circular economy. Their stability at high temperatures allows their use in thermal environments with low risk of contamination with mesophiles. Furthermore, high temperatures increase enzyme reaction rates and substrate solubility, making them suitable for thermophilic fermentations, biodiesel synthesis, and polymer degradation, including aliphatic polyesters and PET-related intermediates, where elevated temperatures enhance polymer dynamics and hydrolysis efficiency [11,12].
+
+Recently, we isolated T. thermophilus strain ET-1 from El Tatio Geothermal Field in Northern Chile, a poly-extreme habitat characterized by high temperatures (80 °C), high solar radiation and acidic and alkaline fumaroles [13]. Strain ET-1 shows a growth profile with an optimum of 80 °C and pH 8, suggesting that this strain may encode novel thermozymes with biotechnological potential. In this study, we identify, clone, and characterize three esterases (Ces1-ET, Est1-ET, and Plp1-ET) from the draft genome of ET-1, using a newly constructed bifunctional vector, functional in E. coli and T. thermophilus. We report the biochemical and kinetic properties of these recombinant enzymes and evaluate their performance under industrially relevant conditions, including high temperature, alkaline pH, salt, surfactants, and commercial detergents. These findings expand the catalog of thermostable esterases from Thermus spp. and highlight the biotechnological value of extremophiles from the Andean geothermal ecosystems [14].
+
+2. Results
+
+2.1. Identification of Esterases Genes
+
+Based on the preliminary draft of partial genome sequencing for strain ET-1 (accession number NCBI BioProject: PRJNA1134705), bioinformatic analysis revealed the presence of three putative genes encoding lipolytic enzymes, namely Ces1-ET, Est1-ET, and Plp1-ET. Blast analysis within the National Center for Biotechnology Information (NCBI) Database (https://www.ncbi.nlm.nih.gov/refseq/; accessed on 11 September 2023) [9] identified proteins with similar amino acid and nucleotide sequences. Ces1-ET shows a 97.8% identity with the amino acid sequence of an alpha/beta fold hydrolase from T. thermophilus (WP_014629056.1) and a 98.4% similarity with the nucleotide sequences from two enzymes: monoacylglycerol lipase from T. thermophilus TTHBAR1 (LR027517.1) and esterase/lipase from T. thermophilus JL-18 (CP003252.1). Est1-ET shares a 94.9% identity with the amino acid sequences of a pectin acetylesterase from T. thermophilus (WP_223965571.1) and a 98.0% similarity with the nucleotide sequences of a hypothetical protein from T. thermophilus AK1-1 (AP024937.1). As for Plp1-ET, it exhibits an 87.2% identity with the amino acid sequence of a patatin-like phospholipase from T. thermophilus (WP_143586050.1) and a 90.2% similarity with the nucleotide sequences of a patatin-like phospholipase from T. thermophilus HB27 (CP053287.1). The three genes’ closest sequences in both amino acids and nucleotides are presented in Table 1. A phylogenetic tree was constructed to classify these genes within the lipolytic enzyme family IV (Figure 1A). Additionally, a comprehensive multiple sequence alignment uncovered a characteristic catalytic triad (Ser-Asp-His) (Figure 1B), further supporting the lipolytic nature of these enzymes. Predicted molecular structures generated using AlphaFold display this catalytic triad (Figure 1C). Alignments for each enzyme with four homologous sequences available in GenBank are also shown in Figure A1, Figure A2 and Figure A3; Appendix A.
+
+These analyses allow the classification of these gene sequences from T. thermophilus Strain ET1 as a carboxylesterase (Ces1-ET), an esterase (Est1-ET), and a phospholipase (Plp1-ET). The amino acid sequences for these enzymes are shown in Table A1, Table A2 and Table A3; Appendix A.
+
+2.2. PCR and Cloning
+
+Specific primers were designed based on the gene sequences (see Table 2) to amplify the open reading frames (ORFs) of the different esterases. Using genomic DNA from T. thermophilus strain ET-1, three genes were successfully amplified: 705 bp (Ces1-ET), 987 bp (Est1-ET) and 771 bp (Plp1-ET). The amplicons were cloned into the pGEM-T easy vector (Promega, Madison, WI, USA).
+
+The pTGT-1 vector was engineered from the pMKE-2 vector by replacing the Ptgt-promoter and inserting the sfGFP ORF as a reporter (Figure 2). The resulting plasmid, designated pTGT-1, demonstrated functionality by enabling recombinant expression of sfGFP at temperatures up to 50 °C in T. thermophilus (Figure A4; Appendix A).
+
+The esterases’ ORFs were subsequently cloned in the pTGT-1 plasmid and into the commercial expression vector pET22b(+) (Figure A5; Appendix A).
+
+2.3. Recombinant Expression and Purification of Esterases
+
+Recombinant esterases were constitutively expressed after 16 h of growth in E. coli (TOP10) and T. thermophilus HB27 using the pTGT-1 expression plasmid. The esterases were purified from total cellular lysates through affinity chromatography on a nickel nitrilotriacetate column, and the fractions were analyzed by SDS-PAGE gels (Figure 3A). Bands of the expected molecular masses were observed: 25 kDa for Ces1-ET, 36 kDa for Est1-ET, and 28 kDa for Plp1-ET. No detectable expression was observed using the pET22b(+) vector in E. coli (TOP10). SDS-PAGE gels are shown in Figure A6; Appendix A.
+
+2.4. Esterase Activity
+
+To determine the optimal substrate for the enzyme activity assay, two p-nitrophenyl esters with acyl chains of varying lengths, butyrate (C4) and palmitate (C16), were used. Hydrolysis of the ester bond is visualized by the release of p-nitrophenol, indicated by a yellow color, and the absorbance was measured at 410 nm. In the lipolytic assay, p-nitrophenyl-butyrate (pNP-butyrate) proved to be the most efficient substrate for all three enzymes, while a low esterase activity was exhibited towards the p-nitrophenyl-palmitate substrate (Figure 3B).
+
+For the biochemical characterization of the purified enzymes and crude extracts, pNP-butyrate was used as the standard substrate.
+
+2.5. Temperature Effect on Esterase Activity
+
+The temperature profile of Ces1-ET activity was maintained above 50% between 40 and 70 °C, with an optimum at 60 °C, but retained less than 20% activity at 90 °C. Est1-ET exhibited more than 70% activity between 60 and 80 °C, with optimal activity at 80 °C. At 90 °C, Est1-ET retained approximately 50% activity. Plp1-ET showed catalytic activity between 40 and 90 °C, with an optimum at 70 °C, and retained nearly 50% activity at 80 °C and less than 20% at 90 °C (Figure 4A).
+
+2.6. pH Effect on Esterase Activity
+
+The pH dependency analysis of Ces1-ET exhibited more than 50% relative activity at pH between 7.0 and 8.5, reaching its optimal activity at approximately pH 7.5, Est1-ET revealed that the enzyme displays more than 50% relative activity within the pH range 7.0–9.0, with a maximum activity at pH 9.0. In contrast, Plp1-ET showed more than 50% relative activity between pH 7.5 and 8.5, with its highest activity at pH 8.0 (Figure 4B).
+
+2.7. Kinetic Parameters of Enzymatic Activity
+
+The kinetic properties of the recombinant esterases Ces1-ET, Est1-ET, and Plp1-ET, as presented in Table 3, reveal minor differences in their catalytic efficiencies and substrate affinities. Ces1-ET exhibits a maximum reaction velocity (Vmax) of 15 ± 4 μmoles p-nitrophenol/10 min/1 µg protein. In contrast, Est1-ET exhibits a maximum reaction velocity (Vmax) of 13 ± 2 μmoles p-nitrophenol/10 min/1 µg protein, indicating a relatively lower catalytic activity compared to the other two enzymes. Plp1-ET shows a Vmax value of 18 ± 4 μmoles p-nitrophenol/10 min/1 µg protein. Regarding substrate affinity, Ces1-ET has a Michaelis constant (Km) of 0.25 ± 0.05 mM, and Est1-ET presents a Km of 0.20 ± 0.01 mM, while Plp1-ET presents a Km of 0.30 ± 0.05 mM, suggesting a similar affinity to the substrate by the enzymes. Michaelis–Menten curves for Ces1-ET, Est1-ET and Plp1-ET were generated at 55 °C and pH 8.0, using pNP-butyrate as the substrate (Figure A8 and Figure A9).
+
+2.8. Effect of Divalent Cations on Esterase Activity
+
+The effect of divalent cations at 2 mM and 10 mM is shown in Table 4. In the presence of 2 mM CaCl2, the relative enzymatic activity of Ces1-ET and Plp1-ET remains largely unchanged compared to the control; however, Est1-ET exhibits a 35% increase in activity. When the concentration of this ion is increased to 10 mM, activity decreases by 10% for Ces1-ET and Plp1-ET, whereas Est1-ET shows a slight increase of 10%.
+
+In the presence of 2 mM MgCl2, only minor variations were observed for the three esterases. At 10 mM, activity decreased by 24% for Ces1-ET, 7% for Est1-ET, and 21% for Plp1-ET.
+
+In the presence of MgSO4, a slight variation was observed at 2 mM, whereas, at 10 mM, a decrease of 17%, 41% and 27% was observed for Ces1-ET, Est1-ET and Plp1-ET, respectively.
+
+In the presence of 2mM ZnSO4, all enzymes showed an increase in relative activity, with Ces1-ET increasing by 8%, Est1-ET by 38%, and Plp1-ET by 18%. Conversely, at 10 mM, the relative activity decreased by 20% for Ces1-ET, 9% for Est1-ET, and 4% for Plp1-ET.
+
+In the case of CuSO4, the relative enzymatic activity decreased at both concentrations. At 2 mM, activity decreased by 20%, 23%, and 10% for Ces1-ET, Est1-ET, and Plp1-ET, respectively. At 10 mM, the decreases became more pronounced, reaching 35%, 55%, and 27% for these enzymes.
+
+Finally, in the presence of 2 mM BaCl2, activity increased by 11%, 34%, and 20% for Ces1-ET, Est1-ET, and Plp1-ET, respectively. At 10 mM, however, the relative activity decreased by 27%, 39%, and 41%, respectively.
+
+2.9. Effect of Inhibitors on Esterase Activity
+
+The effect of the four enzymatic inhibitors on esterase activity is shown in Table 4. In the presence of β-mercaptoethanol, enzymatic activity decreased at both concentrations. At 1 mM, activity was reduced by 65%, 31%, and 45% for Cest1-ET, Est1-ET, and Plp1-ET, respectively. Notably, no activity was observed at 10 mM.
+
+For PMSF and DTT, inhibition of activity was complete in all three recombinant enzymes at both concentrations tested. At 1 mM EDTA, enzymatic activity decreased by 78%, 51%, and 70% for Ces1-ET, Est1, and Plp1-ET, respectively. At 10 mM of EDTA, activity decreased by 65%, 21%, and 60% for Ces1-ET, Est1-ET, and Plp1-ET, respectively.
+
+2.10. Effect of Surfactants on Esterase Activity
+
+The effect of surfactants on esterase activity is shown in Table 4. Overall, most surfactants caused a reduction in enzymatic activity; however, Est1-ET was an exception. This enzyme exhibited a 42% and 34% increase in activity in the presence of Tween 80 at 1% and 10% (v/v), respectively. A similar trend was observed with Triton X-100, where activity increased by 65% and 66% at 1% and 10%, respectively, compared to the control without surfactants.
+
+In contrast, 1% (w/v) SDS led to decreased activity in all enzymes, which retained 84%, 32%, and 82% relative activity for Ces1-ET, Est1-ET, and Plp1-ET, respectively. In the presence of 10% (w/v) SDS, activity dropped significantly, with enzymes retaining only 21%, 14%, and 21%, respectively. On the other hand, both concentrations of LDS caused a severe inhibitory effect, with Est1-ET showing the highest residual activity (26% at 1%). This stronger inhibitory effect of LDS compared to SDS can be attributed to lithium ion, which destabilizes the protein structure more efficiently than sodium, leading to enhanced denaturation and a sharper reduction in enzymatic activity even at lower concentrations. Lastly, CTAB 1% (w/v) relative activity decreased by 36%, 71%, and 18% for Ces1-ET, Est1-ET, and Plp1-ET, respectively. At 10% (w/v) CTAB, activity was further reduced, with enzymes retaining only 18%, 17%, and 21% for Ces1-ET, Est1-ET, and Plp1-ET, respectively.
+
+2.11. Enzymatic Activity in Commercial Detergent
+
+The effect of liquid commercial detergents on esterase activity is shown in Table 4. Interestingly, for Ces1-ET at a detergent concentration of 1% (v/v), activity increased 81% in Ariel and 52% in OMO, whereas only slight increases of 1% and 3% were observed in Sun and Quix, respectively. In contrast, in the presence of 1% (v/v) Perla detergent, activity decreased by 55%. When the detergent concentration increased to 10% (v/v), activity was completely abolished in Ariel and Quix, while, in OMO, Sun and Perla, activity decreased by 58%, 13% and 65%, respectively.
+
+For Est1-ET, at 1% (v/v) detergent concentration, activity increased by 2% in Perla, 30% in Quix, and 23% in Sun, whereas, in OMO and Ariel, the activity decreased by 19% and 11%, respectively. When the detergent concentration was increased to 10%, activity decreased in all tested detergents, with relative activity values of 27% (Perla), 26% (OMO), 21% (Ariel), 16% (Quix), and 15% (Sun).
+
+For Plp1-ET, at 1% detergent concentration, activity increased by 30% in OMO and 50% in Ariel while decreasing by 59% in Perla, 10% in Quix, and 20% in Sun. When the detergent concentration increased to 10%, activity decreased in all detergents, retaining a relative activity of 34% (Perla), 40% (OMO), and 50% (Sun), whereas, in Ariel and Quix, activity was completely abolished.
+
+2.12. Effect of NaCl on Esterase Activity
+
+The effect of NaCl concentration on enzymatic activity is shown in Table 5. As the NaCl concentration increases, the three recombinant esterases exhibit a progressive decrease in relative activity. In the case of Ces1-ET, activity is maintained at 55% at 2 M of NaCl, dropping to 39% at 4 M of NaCl. For Est1-ET, enzymatic activity remains at 52% at 2 M of NaCl and decreases to 41% at 4 M of NaCl. Similarly, Plp1-ET retains 60% activity at 2 M and 45% at 4 M of NaCl.
+
+3. Discussion
+
+The genome-guided identification of three lipolytic enzymes in T. thermophilus ET-1 expands the diversity of esterases known for this thermophilic genus [13]. BLAST analysis showed a high identity among similar enzymes found in Thermus spp., such as esterases [15], carboxylesterases and patatin-like phospholipases [16,17,18], suggesting a conserved function across geographically distant isolates, which is relevant due to the broad cosmopolitan distribution of T. thermophilus [19].
+
+Furthermore, the molecular analyses, including sequence alignments and AlphaFold structure predictions, confirmed the lipolytic nature of Ces1-ET, Est1-ET, and Plp1-ET. The esterases contain the classical Ser-Asp-His catalytic triad, which is essential for enzyme stability and functionality of the enzyme active site [20,21,22]. This triad is considered crucial for the activity and stability of thermostable lipases and esterases from extreme environments, such as hot springs [23,24]. These conserved residues, identified through structural predictions and alignments, underscore a broad evolutionary conservation in thermophilic and alkaliphilic lipases [25,26]. Phylogenetic analysis placed these genes in the lipolytic enzyme family IV [23,27].
+
+Expression of thermoenzymes in mesophilic microorganisms like E. coli often results in improper folding, formation of inclusion bodies, and loss of activity [10,28]. Expression of the ORFs of Ces1-ET, Est1-ET, and Plp1-ET into the pET22b(+) system in E. coli was unsuccessful, confirming this limitation. Similarly, the lack of expression of thermozymes using the pET22b(+) system has been previously reported [29]. Our engineered bifunctional pTGT-1 plasmid overcomes these limitations, allowing constitutive expression of these esterases in both E. coli and T. thermophilus. This system integrates the Ptgt promoter derived from the CarH gene. Unlike the pMKE-2 vector cassette promoter, which is inducible by microaerophilia and 40 mM potassium nitrate [8], the Ptgt promoter supports consistent protein expression under normal culture conditions without overexpression. This system provides a comparative advantage for evaluating the expression of thermozymes in mesophilic and thermophilic hosts and could be useful in biotechnology pipelines for screening and characterizing thermozymes [30,31].
+
+The biochemical characterization of Ces1-ET, Est1-ET, and Plp1-ET revealed features important for biotechnology and industrial applications. All enzymes demonstrated significant activity at high temperatures, with optimal activity between 60 °C and 80 °C, suggesting their potential for a wide range of temperature applications [32]. Their ability to maintain activity at high temperatures is advantageous for bioprocesses in high-temperature reactors, enzymatic cleaning, biodiesel production or hydrolysis of recalcitrant substrates, where increased thermal energy improves solubility [33,34]. Furthermore, they exhibited significant alkaline activity (pH 8.0–8.5), suggesting a potential application in detergents or waste treatment where high pH is common [35,36,37].
+
+In this study, the Vmax and Km kinetic parameters of Ces1-ET, Est1-ET, and Plp1-ET were determined using pNP-butyrate as a substrate. Plp1-ET exhibited a slightly higher Vmax; however, all the enzymes showed comparable efficiencies and Km values, indicating similar substrate-binding affinities, which is typical for these structurally related enzymes [4].
+
+Ces1-ET, Est1-ET, and Plp1-ET displayed differential tolerance to ions, surfactants, and commercial detergents. The capacity of Plp1-ET and Ces1-ET to retain activity in the presence of 1–2% detergent, together with Est1-ET’s activation by Tween 80 and Triton X-100, suggests potential application as enzymatic additives in cleaning products, textile processing, or lipid-rich industrial effluents where surfactants are unavoidable. High tolerance to divalent cations, especially Ca2+ and Zn2+, is advantageous, because calcium-stabilized esterases exhibit improved rigidity and therefore enhanced operational stability in bioprocessing environments [38].
+
+Furthermore, the effects of surfactants and detergents on esterase activity revealed varied responses, including unexpected increases in activity for some enzymes. This finding could support the development of detergent formulations that rely on enzymatic activity for enhanced effectiveness [35,36,37].
+
+From a circular bioeconomy perspective, thermostable esterases are increasingly valuable for the depolymerization of synthetic and natural polyesters, lipid-rich waste valorization, and bioremediation in high-temperature settings [39,40,41]. Thermophilic hydrolysis can improve polymer chain mobility, reduce viscosity, and accelerate depolymerization, advantages particularly relevant for PET-associated cutinase-esterase systems developed for plastic recycling.
+
+Some of the attributes of Ces1-ET, Est1-ET, and Plp1-ET differ from those described for esterases in T. thermophilus HB27. Differences in molecular size and optimal pH indicate that these enzymes have unique attributes, exhibiting maximal activity at higher pH and high temperatures [42,43,44,45]. These features may reflect genetic adaptations of Thermus populations inhabiting unique Andean thermal ecosystems.
+
+Overall, these results demonstrate that T. thermophilus ET-1 is a promising source of novel thermoenzymes and that the pTGT-1 system offers a flexible platform for the production and characterization of thermozymes. The combined thermostability, alkaline tolerance, and detergent compatibility of Ces1-ET, Est1-ET, and Plp1-ET underscore their relevance to industrial biotechnology and sustainable applications in the circular bioeconomy. Future work will focus on protein engineering to enhance catalytic efficiency, as well as evaluating their performance in polyester degradation and thermophilic bioreactor systems.
+
+4. Materials and Methods
+
+4.1. Identification of Esterases Genes
+
+The partial genome sequencing analysis of T. thermophilus ET-1 was conducted using the UniProt UGENE program v49.1 [46]. Three specific genes coding for esterase/lipase enzymes were identified and compared with similar amino acid and nucleotide sequences through BLAST v2.14.0 analysis [47] using the National Center for Biotechnology Information (NCBI) Database (https://www.ncbi.nlm.nih.gov/refseq/; accessed on 11 September 2023). The classification was carried out by examining the enzyme structure using the SMART website [48] (URL: http://smart.embl.de/; accessed on 20 September 2023). Additionally, a comprehensive multiple sequence alignment uncovered a characteristic catalytic triad (Ser-Asp-His), further supporting the lipolytic nature of these enzymes. Meanwhile, prediction of the molecular structures was performed with AlphaFold [49] (URL: https://alphafold.ebi.ac.uk/; accessed on 20 November 2023). To predict the presence of signal peptides in the esterase sequences, SignalP 6.0 software was used.
+
+4.2. DNA Extraction, PCR and Cloning
+
+The Thermus thermophilus strain ET-1 employed in this study was retrieved from a cryopreserved collection maintained at −80 °C in liquid culture supplemented with 50% glycerol. Subsequent cultivation followed the protocol described by Valenzuela et al. (2024) [14]. Briefly, the strain was initially propagated in liquid ATM medium at 70 °C, after which aliquots were plated on ATM medium solidified with 2% agar. Plates were incubated at 70 °C in a humid chamber for three days, resulting in well-defined isolated colonies suitable for downstream experimentation. Liquid cultures were prepared by inoculating isolated colonies into 10 mL of AMT medium [14] and incubating at 70 °C with constant agitation for 3 days. Following incubation, 6 mL of the culture were harvested and centrifuged at 8000× g for 4 min to pellet the bacterial cells. The bacterial pellet was treated with 200 µL of lysis solution (50 mM Tris-HCl, 15 mM NaCl, 10 mM EDTA, and 10% SDS; pH 7.5) supplemented with 30 µL of lysozyme (50 mg/mL) and incubated at 37 °C for 1 h. Subsequently, the lysate underwent freeze–thaw cycles (−80 °C for 5 min, followed by 80 °C for 5 min, repeated twice), was treated with 6 µL of RNAse A (50 mg/mL) at 37 °C for 30 min, and then mixed with 400 µL of 50 mM Tris-HCl (pH 7.5) and 400 µL of phenol:chloroform:alcohol (125:24:1). After centrifugation at 10,000× g for 10 min at 4 °C, the aqueous phase was recovered, transferred, and subjected to a second extraction with phenol:chloroform:alcohol, followed by chloroform:alcohol (25:1). The resulting aqueous phase was precipitated with cold absolute ethanol, washed with 70% ethanol, air-dried, and resuspended in 30 µL of nuclease-free water at 42 °C for 10 min.
+
+Genomic DNA from T. thermophilus strain ET-1 served as a template for amplifying the esterase genes with specific primers designed for Ces1-ET (Ces1-FP and Ces1-RP), for Est1-ET (Est1-FP and Est1-RP) and for Plp1-ET (Plp1-FP and Plp1-RP) (sequences shown in Table 2). These primers were designed to incorporate NdeI/NotI and EcoRI restriction sites. The polymerase chain reaction (PCR) conditions consisted of an initial denaturation (94 °C, 1 min), followed by 35 cycles of denaturation (94 °C, 30 s), annealing (53 °C, 30 s), extension (72 °C, 2 min), and a final extension step (72 °C, 10 min) using Taq DNA polymerase High Fidelity (New England Biolab, Ipswich, MA, USA). PCR products were cloned into the pGEM-T Easy plasmid (Promega, Madison, WI, USA) and integrated into the pTGT-1 and the commercial pET22b(+), (Novagen, Madison, WI, USA).
+
+4.3. Plasmid Construction and Subcloning of Esterases ORFs
+
+The Ptgt promoter sequence (122 bp) was synthesized in silico, incorporating −35 and −10 regions with a transcriptional spacer (17 bp), a ribosome binding site (RBS) sequence, the transcription start site (+1), and XbaI and NdeI restriction sites. The design included a defined translation start (Figure 2A). Simultaneously, the coding sequence (ORF) of super-folded green fluorescent protein sfGFP was chemically synthesized, incorporating NdeI sites at the 5’ end and EcoRV, EcoRI, and SalI sites at the 3’ end. Plasmid assembly for pTGT-1 was performed using XbaI, NdeI, and SalI restriction sites, as depicted in Figure 2B.
+
+The subcloning of the three esterase sequences (Ces1-ET, Est1-ET, and Plp1-ET) into the pTGT-1 vector was carried out using NdeI and EcoRI sites, resulting in the subsequent constructs: pTGT1-Ces1, pTGT1-Est1, and pTGT1-Plp1, as illustrated in Figure 2B. The subcloning of the three esterase sequences (Ces1-ET, Est1-ET, and Plp1-ET) into the pET22b(+) vector was performed using NotI and EcoRI restriction sites, yielding the constructs pET22b-Ces1, pET22b-Est1, and pET22b-Plp1 (Figure A2, Appendix A).
+
+The transformation of T. thermophilus HB27 was performed following a modified protocol based on Berenguer [50]. A single colony was cultivated in AMT medium [13] for 14 days. This culture was then used to inoculate a sterile 10 mL tube containing 3 mL of AMT medium, starting with an initial optical density (OD) of 0.1 (550 nm). The culture was incubated at 70 °C with agitation until an OD of 0.3 (550 nm). Subsequently, 1 mL of the cultured broth was transferred to a tube preheated to 70 °C, where 100 ng of pTGT-1 vector was added. The mixture was incubated with agitation at 70 °C for 1 h. After incubation, the culture was centrifuged at 10,000× g rpm for 2 min to remove the supernatant, retaining approximately 200 μL for cell resuspension. The resuspended cells were then plated onto preheated Petri dishes containing AMT medium supplemented with kanamycin (50 mg/mL). Plates were incubated in a humid chamber at 55 °C for 2–3 days until visible colonies were formed.
+
+4.4. Recombinant Expression and Purification of Esterases
+
+The expression of the esterases was carried out using the pET22b(+) and pTGT-1 vector systems in E. coli TOP10 and T. thermophilus HB27, respectively. A single colony with the plasmids containing the ORFs of the esterases containing a 6xHis tag was grown at 37 °C or 70 °C during 24 h in a rotary shaker (LabNet 311DS, Edison, NJ, USA) at 1500 rpm in Erlenmeyer flasks loaded with LB broth (pH 7.5) or AMT medium, both supplemented with 50 μg/mL kanamycin. Purification of the esterases was carried out using Protino Ni-NTA agarose (Macherey-Nagel, Düren, Germany). Briefly, the bacterial pellet was homogenized in lysis buffer (50 mM NaH2PO4, 300 mM NaCl, and 10 mM imidazole, pH 8.0) and loaded into an equilibrated column. The column was washed with wash buffer (50 mM NaH2PO4, 300 mM NaCl, and 20 mM imidazole, pH 8.0), and the purified protein was eluted in elution buffer (50 mM NaH2PO4, 300 mM NaCl, and 250 mM imidazole, pH 8.0). The eluted proteins were dialyzed in 50 mM Tris-HCl (pH 8.0) before characterization assays.
+
+Sodium dodecyl sulfate-polyacrylamide gel electrophoresis (SDS-PAGE) was conducted following the Laemmli protocol [51]. A vertical slab mini-gel system (BIO-RAD, Hercules, CA, USA) with a 12% separating gel was used, applying 120 mA for 6 h. Each sample (75 μL) was mixed with 25 μL of loading buffer (BIO-RAD, Hercules, CA, USA), homogenized, incubated at 99 °C for 5 min, and loaded onto the gel. Post-migration, the gels underwent protein detection through staining with silver nitrate. A broad-range SDS-PAGE molecular weight standard, AccuRuler RGB Plus Prestained Protein Ladder (MaestroGen Inc., Hsinchu City, Taiwan), was used as reference.
+
+4.5. Substrate Specificity
+
+For the initial tests, a solution was prepared using 50 mM of Tris-HCl buffer, pH 7.5, which contained pNP-butyrate or pNP-palmitate as a substrate for lipolytic activity. To determine substrate specificity, each reaction contained 5 µL of one of the enzymes (Ces1-ET, Est1-ET and Plp1-ET); 5 µL of 10 mM specific substrate; 20 µL of absolute ethanol and 470 µL of Tris-HCl buffer, pH 7.5. Reactions were incubated at 60 °C for 1 h in a dry incubator (LabNet 311DS), after which absorbance was measured at 410 nm. Blanks without enzymes were included to incorporate any non-enzymatic changes in absorbance. This blank contained all the components of the reaction mixture except the enzymes.
+
+4.6. Lipolytic Activity Assay
+
+Lipolytic activity was determined in solution using 10 mM pNP-butyrate as the substrate, with product formation monitored spectrophotometrically at 410 nm [52], and in 50 mM Tris-HCl buffer (pH 8.0) at 70 °C over 60 min of reaction time. One activity unit was defined as the amount of enzyme that released 1 μmol of p-nitrophenol per minute under standard assay conditions. All measurements were carried out in triplicate.
+
+4.7. Temperature Effect on Esterase Activity
+
+The effect of temperature on the esterase activity was evaluated as described in Section 4.6, using the pNP-butyrate as a substrate in 50 mM Tris-HCl buffer at pH 8.0 at different temperatures in the range of 40–90 °C. All measurements were carried out in triplicate.
+
+4.8. pH Effect on Esterase Activity
+
+The determination of the optimal pH for the recombinant esterases was evaluated similarly as described in Section 4.6, using pNP-butyrate as a substrate in 50 mM Tris-HCl buffer at different temperatures (Ces1-ET at 60 °C, Est1 at 80 °C and Plp1-ET at 70 °C). The different pH values were obtained using 50 mM Tris-HCl adjusted pH values 7.0, 7.5, 8.0, 8.5, and 9.0 at the indicated temperatures. The extinction coefficients were determined using a 25 µM solution of p-nitrophenol (pNP) at each pH value tested. From these measurements, the corresponding extinction coefficients were calculated, and a correction factor was obtained for each pH. These pH-specific correction factors were applied to adjust the absorbance values recorded in the esterase assays used to determine the optimal pH of the enzymes.
+
+4.9. Esterases Purification and Kinetic Parameters
+
+Ces1-ET, Est1-ET and Plp1-ET were partially purified by means of NTA-Ni2+ affinity chromatography in the AKTA Start Protein Purification System (Cytiva Company, Marlborough, MA, USA). Proteins were eluted with 100–200 mM imidazole and subsequently dialyzed against 50 mM Tris-HCl buffer (pH 8.0) to remove imidazole interference. For determining the kinetic parameters, esterase activity was carried out at 60 °C in a 50 mM Tris-HCl buffer at pH 8.0.
+
+Kinetic parameters were obtained by fitting the experimental data to the Michaelis–Menten equation (V0=Vmax[S]Km+[S]) using nonlinear regression in GraphPad Prism version 8.0 for Windows (GraphPad Software Inc., San Diego, CA, USA). Protein concentration was quantified using the standard Bio-Rad protein assay (Bio-Rad, Hercules, CA, USA), with bovine serum albumin as the standard.
+
+4.10. Effect of Surfactants on Esterase Activity
+
+The enzymatic activity of the recombinant esterases was evaluated in the presence of different surfactants, such as sodium dodecyl sulfate (SDS), lithium dodecyl sulfate (LDS), Tween 80, Triton X-10, and cetyltrimethylammonium bromide (CTAB), at two concentrations, 1 and 10% v/v, in the enzymatic reaction mixture.
+
+To assess their potential as detergent additives, the activity of the enzymes was also tested in the presence of commercially available liquid detergents such as Perla, OMO, Ariel, Quix and Sun. These detergents were added to the reaction mixture at final concentrations of 1% and 10% (v/v). Prior to enzyme addition, detergent solutions were heated at 80 °C for 1 h to inactivate the endogenous enzymes present in the commercial formulations, thus preventing any interference with the assay. The lipolytic activity was measured as described in Section 4.6.
+
+4.11. Effect of NaCl on Esterase Activity
+
+The effect of NaCl on the enzymatic activity was evaluated by incorporating different molar concentrations of NaCl (0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, and 4.0) into 50 mM Tris HCl buffer, pH 8.0. The relative activity of each of the enzymes was determined under these conditions. The lipolytic activity was measured as described in Section 4.6.
+
+4.12. Effect of Inhibitors on Esterase Activity
+
+Four enzymatic inhibitors, β-mercaptoethanol, PMSF, DTT, and EDTA, were evaluated for their inhibitory effects on the activity of Est1-ET, Ces1-ET and Plp1-ET at final concentration of 1 mM, 5 mM and 10 mM. The enzyme was incubated with each inhibitor prior to conducting the activity assay, and residual activity was then measured. The lipolytic activity was quantified as described in Section 4.6.
+
+4.13. Effect of Divalent Cations on Esterase Activity
+
+The enzymatic activity of Ces1-ET, Est1-ET and Plp1-ET under study was measured in the presence of different divalent ions. The effect of divalent cations on the activity of Ces1-ET, Est1-ET and Plp1-ET was evaluated by adding the following salts (CaCl2, MgCl2, MgSO4, ZnSO4, CuSO4 and BaCl2) at concentrations of 2 mM, 5 mM and 10 mM into a 50 mM Tris HCl buffer, pH 8.0. The lipolytic activity was measured as described in Section 4.6.
+
+5. Conclusions
+
+This study highlights T. thermophilus strain ET-1 as a valuable source of thermostable enzymes with potential industrial applications, demonstrating the diversity of thermophilic microorganisms present in Andean geothermal ecosystems in Northern Chile. The newly developed pTGT-1 vector allows the flexible expression of thermostable enzymes in both E. coli and the thermophilic host T. thermophilus HB27, facilitating the production and characterization of thermozymes of biotechnological interest in both hosts.
+
+The characterized esterases (Ces1-ET, Est1-ET and Plp1-ET) exhibit high optimal temperature, alkaline tolerance, compatibility, and resistance to salinity, positioning them as potential candidates for industrial and biotechnology applications requiring thermozymes.
+
+The T. thermophilus strain ET-1, and other extremophiles from the understudied El Tatio Geothermal Field, represent a promising reservoir of novel biomolecules and biotechnological innovations, supported by the unique microbial diversity that flourishes in these high-altitude Andean geothermal environments.
+
+6. Patents
+
+The data presented in this publication are associated with the international application published under the Patent Cooperation Treaty (PCT), Number WO 2023/184047, with a publication date of 5 October 2023. This application includes a biological material deposit made at Chilean Collection of Microbial Genetic Resources (https://www.cchrgm.cl/; accessed on 15 October 2021—RGM Cod. 3133). The patent was filed by the Universidad de Antofagasta and recognizes the intellectual property rights of the four authors of this publication affiliated with Universidad de Antofagasta.
+
+Acknowledgments
+
+We would like to thank the Oficina de Transferencia y Licenciamiento (OTL) of Universidad de Antofagasta for the management and support throughout the patenting process of thermoenzyme technology. We would also like to thank Sheyla Choque for her contribution in optimizing the transformation protocols of Thermus thermophilus.
+
+Author Contributions
+
+Conceptualization, B.V. and P.Z.; methodology, B.V., F.S.-C., E.U., M.-B.R. and I.P.; data curation, M.C., E.U., M.-B.R., I.P. and F.S.-C.; writing—original draft preparation, B.V. and M.C.; writing—review and editing, B.V. and P.Z.; funding acquisition, B.V. and M.C. All authors have read and agreed to the published version of the manuscript.
+
+Institutional Review Board Statement
+
+Not applicable for studies not involving humans or animals.
+
+Informed Consent Statement
+
+Not applicable.
+
+Data Availability Statement
+
+The sequence data for the characterized enzymes and the assembled genome of Thermus thermophilus strain ET-1 have been deposited in the NCBI database. Raw data from all experiments, including sequencing datasets, will be made available through an institutional server, in line with Universidad de Antofagasta’s commitment to Open Science, and will be linked to the DOI of the present publication. Full public access to all datasets will be granted once the patent process has been concluded, as early release of certain data could compromise intellectual property protection related to the esterases described in this study.
+
+Conflicts of Interest
+
+The authors declare no conflicts of interest.
+
+Appendix A
+
+Figure A1 Alignment of Ces1-ET with 4 homologous sequences available in GenBank, where “*” explains total identity, “:” conserved substitution, and “ “ a non-conserved amino acid.
+
+Figure A2 Alignment of Est1-ET with 4 homologous sequences available in GenBank, where “*” explains total identity, “:” conserved substitution, and “ “ a non-conserved amino acid.
+
+Figure A3 Alignment of Plp1-ET with 4 homologous sequences available in GenBank, where “*” explains total identity, “:” conserved substitution, and “ “ a non-conserved amino acid.
+
+Figure A4 Recombinant expression of superfold GFP (sfGFP) in Thermus thermophilus transformed with pTGT-1-sfGFP. (A) Culture plate with visibly fluorescent CFUs excited with blue light (480 nm). (B) Microbiological liquid culture excited with blue light (480 nm).
+
+Figure A5 Subcloning schemes of Ces1-ET, Et1-ET and Plp1-ET in the pET22b vector.
+
+Figure A6 SDS-PAGE of the crude extract of recombinant expression of Ces1-ET, Et1-ET and Plp1-ET/pET22b vectors in Escherichia coli BL21 (DE3). The red numbers indicate the lanes of the SDS-PAGE gels for the three esterases, analyzed at different IPTG induction times. Lanes 1–4 correspond to the BL21 (DE3) host without plasmid; lanes 5–7 correspond to the BL21 (DE3) host carrying the empty pET-22b plasmid; and lanes 8–13 correspond to the host carrying the pET-22b plasmid containing the esterase ORF (Ces1, Est1, and Plp1, respectively). The red box indicates the expected molecular size of the overexpressed recombinant protein.
+
+Figure A7 Properties of Ces1-ET, Est1-ET and Plp1-ET expressed in T. thermophilus. (A) Effect of reaction temperature on enzymatic activity in range 40–90 °C. (B) Effect of pH on enzyme activity using 50 mM Tris-HCl buffer across pH of 7.0–9.0.
+
+Figure A8 Michaelis–Menten plot for the esterase activity of Ces1-ET, Est1-ET and Plp1-ET. Activity was performed at 55 °C and 50 mM Tris-HCl at pH 8.0 using pNP-butyrate as the substrate. At each substrate concentration, the spontaneous hydrolysis of pNP-butyrate was subtracted. The graph shows a representative result from three independent experiments.
+
+Figure A9 SDS-PAGE partially purified by the mean of NTA-Ni2+ affinity chromatography in the AKTA start protein purification system. The arrows indicate the size of the enzymes.
+
+ijms-27-01372-t0A1_Table A1 Table A1 Accession numbers of the nucleotide and protein sequences described in the study.
+
+Thermus thermophilus Strain ET-1	Acc. No. PRJNA1134705	
+Esterase Name	Nucleotide Sequence Acc. No.	Protein Sequence Acc. No.	
+Ces1-ET	PV146438	XPQ45698.1	
+Est1-ET	PV146437	XPQ45697.1	
+Plp1-ET	PV146439	XPQ45699.1	
+
+ijms-27-01372-t0A2_Table A2 Table A2 (Data Figure 3B): Enzymatic activity assay against two substrates, pNP-butyrate- and pNP-palmitate, considering Abs 410 nm/µg protein.
+
+Abs 410 nm/µg Protein	
+Ces1-ET	Est1-ET	Plp1-ET	Ces1-ET	Est1-ET	Plp1-ET	
+pNP-butyrate	pNP-palmitate	
+0.139 ± 0.007	0.236 ± 0.030	0.134 ± 0.004	0.004 ± 0.001	0.024 ± 0.003	0.008 ± 0.001	
+The data are presented as mean ± standard deviation (SD, n = 3).
+
+ijms-27-01372-t0A3_Table A3 Table A3 (Data Figure 4): Properties of Ces1-ET, Est1-ET and Plp1-ET expressed in E. coli.
+
+Relative Activity (%)	
+Optimal Temperature	
+°C	Ces1-ET	Est1-ET	Plp1-ET	
+40	60 ± 20	60 ± 12	56 ± 10	
+50	82 ± 6	74 ± 3	76 ± 9	
+60	100 ± 10	79 ± 3	93 ± 15	
+70	86 ± 7	96 ± 10	100 ± 18	
+80	40 ± 2	100 ±8	52 ± 31	
+90	17 ± 20	52 ± 7	14 ± 30	
+Optimal pH	
+pH	Ces1-ET	Est1-ET	Plp1-ET	
+7	76 ± 5	93 ± 24	23 ± 8	
+7.5	100 ± 1	76 ± 18	54 ± 23	
+8	67 ± 3	70 ± 6	100 ± 4	
+8.5	83 ± 7	72 ± 4	69 ± 5	
+9	14 ±14	100 ± 15	28 ± 7	
+The data are presented as mean ± standard deviation (SD, n = 3).
+
+Figure 1 Molecular characterization of the studied esterases. (A) Phylogenetic analysis of Ces1-ET, Est1-ET and Plp1-ET sequences. (B) Amino acid compositions of the residues forming the catalytic triad of thermophilic esterases; in red is highlighted the catalytic residues. (C) Structural predictions generated with AlphaFold and visualized in ChimeraX. The catalytic residues are displayed in different colors: serine in red, aspartic acid in blue, and histidine in green. Complete sequence alignments for each enzyme sequence are provided in Figure A1, Figure A2 and Figure A3 (Appendix A).
+
+Figure 2 Construction of the pTGT-1 shuttle vector and subcloning strategy for thermophilic esterases. (A) Sequences of the Ptgt-promoter indicating the −35 and −10 regions, the transcript start site (+1), and the ribosome binding site (RBS); arrows indicate translation orientation. (B) Construction of pTGT-1 from pMKE-2 plasmid. (B1) Replacement of Pnar promoter with Ptgt promoter using XbaI and SalI sites. (B2) Inserting of Ptgt and the sfGFP ORF via the NdeI and SalI sites. The sfGFP ORF was replaced for esterase RFs (Ces1-ET, Est1-ET and Plp1-ET) using the NdeI and EcoRI sites (B3).
+
+Figure 3 Characterization of recombinant esterases expressed in E. coli. (A) SDS-PAGE analysis of heterologous expression and purification of esterases in E. coli. M, molecular weight markers; lane 1, crude extract of E. coli (TOP10); lane 2, empty vector control (pTGT1-GFP); lanes 3 and 4, partially purified and crude extracts of Ces1-ET; lanes 5 and 6, Est1-ET; lanes 7 and 8, Plp1-ET. Enzyme sizes are highlighted in red. (B) Substrate specificity assay. Relative activities of Ces1-ET, Est1-ET, and Plp1-ET toward p-nitrophenyl-butyrate and p-nitrophenyl-palmitate, considering the Abs 410 nm/µg protein. Data are presented as mean ± SD (n = 3), and the red line in the image indicates the standard deviation when performing the experiments.
+
+Figure 4 Properties of Ces1-ET, Est1-ET, and Plp1-ET expressed in E. coli. (A) Effect of temperature on enzymatic activity in the range of 40–90 °C. (B) Effect of pH on enzyme activity using 50 mM Tris-HCl buffer across pH of 7.0–9.0. The extinction coefficient of p-nitrophenol was determined at various pH values using a 25 mM solution. The resulting values (in M−1·cm−1) were: pH 7.0–11.0, 360; pH 7.5–15.0, 400; pH 8.0–15.0, 400; pH 8.5–18.0, 120; pH 9.0–20.0, 080. These coefficients were subsequently used to correct the relative enzymatic activity measurements across pH conditions. Enzymatic activity for optimal temperature was assessed by incubating the enzyme for 60 min at the indicated temperature. Assays for optimal pH were performed by incubating for 60 min at each enzyme’s optimal temperature and the corresponding pH. Similar determinations were carried out using purified enzymes expressed in T. thermophilus (Figure A7).
+
+ijms-27-01372-t001_Table 1 Table 1 Closest amino acids and nucleotide sequences to Ces1-ET, Est1-ET and Plp1-ET.
+
+	Genus	Specie	Identity	GenBank Number	Functional Classification	
+Ces1-ET (amino acid)	Thermus	thermophilus	97.8%	WP_014629056.1	Alpha/beta fold hydrolase	
+Thermus	thermophilus	97.3%	WP_244340854.1	Alpha/beta fold hydrolase	
+Thermus	thermophilus	97.3%	WP_201350924.1	Alpha/beta fold hydrolase	
+Ces1-ET (nucleotide)	Thermus	thermophilus TTHBAR1	98.4%	LR027517.1	Thermostable monoacylglycerol lipase	
+Thermus	thermophilus JL-18	98.4%	CP003252.1	Esterase/Lipase	
+Thermus	thermophilus SNM1-7	97.8%	AP025603.1	Carboxylesterase	
+Est1-ET (amino acid)	Thermus	thermophilus	94.9%	WP_223965571.1	Pectin acetylesterase	
+Thermus	thermophilus	94.6%	WP_165738509.1	Pectin acetylesterase	
+Uncultured bacterium	94.6%	QRD81008.1	Lipolytic protein	
+Est1-ET (nucleotide)	Thermus	thermophilus AK1-1	98.0%	AP024937.1	Hypothetical protein	
+Thermus	thermophilus AA1-1	98.0%	AP024926.1	Hypothetical protein	
+Thermus	thermophilus AA2-29	97.8%	AP019794.1	Hypothetical protein	
+Plp1-ET (amino acid)	Thermus	thermophilus	87.2%	WP_143586050.1	Patatin-like phospholipase	
+Uncultured bacterium	87.2%	QRD81043.1	Lipolytic protein	
+Thermus	thermophilus	87.6%	WP_024119695.1	Patatin-like phospholipase	
+Plp1-ET (nucleotide)	Thermus	thermophilus HB27	90.2%	CP053287.1	Patatin-like phospholipase	
+Thermus	thermophilus HC11	90.0%	AP019801.1	Phospholipase	
+Thermus	thermophilus AA2-29	90.1%	AP019794.1	Phospholipase	
+
+ijms-27-01372-t002_Table 2 Table 2 Sequence oligos used for esterases’ amplification.
+
+Name	Primer Sequence	
+Ces1-FP (EcoRI)	GAATTCTATGCACCTTCTCCTCCTC	
+Ces1-RP (NotI)	GCGGCCGCTTGCAAGTAGTTATCACTTGC	
+Ces1-Rp (NdeI)	CATATGTTGCAAGTAGTTATCACTTGC	
+Est1-FP (EcoRI)	GAATTCTATGAAGCGCTTATCGCGCTGGT	
+Est1-RP (NotI)	GCGGCCGCAGGCCGCACCCGGGGGGG	
+Est1-RP (NdeI)	CATATGAGGCCGCACCCGGGGGGG	
+Plp1-FP (EcoRI)	GAATTCTATGCGCGGCCTCGTGCTT	
+Plp1-RP (NotI)	GCGGCCGCTCATACCTCCCCCACTCTACT	
+Plp1-RP (NdeI)	CATATGTCATACCTCCCCCACTCTACT	
+
+ijms-27-01372-t003_Table 3 Table 3 Kinetic properties of Ces1-ET, Est1-ET and Plp1-ET.
+
+Enzyme	Vmax
+(µmoles p-Nitrophenol/10 min)	Km (mM)	
+Ces1-ET	15 ± 4	0.25 ±0.05 	
+Est1-ET	13 ± 2	0.20 ±0.01 	
+Plp1-ET	18 ± 4	0.30 ± 0.05 	
+The kinetic values correspond to the mean of three independent experiments. Reactions were carried out at 55 °C in 50 mM Tris-HCl, pH 8.0 using pNP-butyrate as the substrate and 1 µg of protein in the assay.
+
+ijms-27-01372-t004_Table 4 Table 4 Effect of metal ions, inhibitors, and detergents on the lipolytic activity of Ces1-ET, Est1-ET and Plp1-ET esterases.
+
+	Relative Activity (%)	
+Ces1-ET	Est1-ET	Plp1-ET	Ces1-ET	Est1-ET	Plp1-ET	
+Divalent Cations	2 mM	10 mM	
+CaCl2	100 ± 9	135 ± 6	105 ± 16	90 ± 14	110 ± 9	90 ± 27	
+MgCl2	90 ± 11	100 ± 20	105± 14	76 ± 27	93 ± 11	79 ± 20	
+MgSO4	98 ± 1	104 ± 1	93 ± 5	83 ± 14	59 ± 22	73 ± 22	
+ZnSO4	108 ± 1	138 ± 0	118 ± 0	80 ± 9	91 ± 10	96 ± 11	
+CuSO4	80 ± 5	77 ± 5	90 ± 0	65 ± 13	45 ± 15	73 ± 16	
+BaCl2	111 ± 14	134 ± 10	120 ± 10	73 ± 2	61 ± 8	59 ± 8	
+Inhibitors	1 mM	10 mM	
+β-mercaptoethanol	35 ± 17	69 ± 22	55± 19	0 ± 19	0 ± 18	0 ± 17	
+phenylmethylsulfonyl fluoride (PMSF)	0 ± 7	0 ± 8	0 ± 3	0 ± 11	0 ± 2	0 ± 13	
+Ditiotreitol (DTT)	0 ± 15	0 ± 14	0 ± 19	0 ± 18	0 ± 29	0 ± 17	
+Ethylenediaminetetraacetic acid (EDTA)	22 ± 17	49 ± 15	30 ± 19	35 ± 19	79 ± 17	40 ± 18	
+Surfactants	Concentration (1%)	Concentration (10%)	
+Sodium dodecyl sulfate (SDS)	84 ± 2	32 ± 8	82 ± 2	21 ± 11	14 ± 12	21 ± 12	
+Lithium dodecyl sulfate (LDS)	0 ± 1	26 ± 2	0 ± 2	0 ± 2	6 ± 2	0 ± 3	
+Tween 80	12 ± 24	142 ± 2	14 ± 26	0 ± 16	134 ± 3	0 ± 15	
+Triton x-100	0 ± 3	165 ± 1	0 ± 0	0 ± 9	166 ± 2	0 ± 0	
+Cetyltrimethylammonium Bromide (CTAB)	64 ± 6	29 ± 7	82 ± 7	18 ± 9	17 ± 11	21 ± 10	
+Commercial Detergent	Concentration (1%)	Concentration (10%)	
+Perla	45 ± 8	102 ± 2	41 ± 9	35 ± 23	27 ± 10	34 ± 38	
+OMO	152 ± 3	81 ± 5	130 ± 3	43 ± 22	26 ± 20	40 ± 23	
+Ariel	181 ± 1	89 ± 2	150 ± 5	0 ± 5	21 ± 2	10 ± 1	
+Quix	97 ± 9	130 ± 3	90 ± 9	0 ± 16	16 ± 4	0 ± 16	
+Sun	99 ± 5	123 ± 3	80 ± 5	87 ± 7	15 ± 11	50 ± 18	
+The data are presented as mean ± standard deviation (SD, n = 3).
+
+ijms-27-01372-t005_Table 5 Table 5 Effect of NaCl in lipolytic activity.
+
+[NaCl] (M)	Relative Activity (%)	
+Ces1-ET	Est1-ET	Plp1-ET	
+0	100 ± 0	100 ± 0	100 ± 1	
+0.5	76 ± 1	85 ± 1	89 ± 1	
+1.0	76 ± 7	80 ± 8	86 ± 9	
+1.5	55 ± 4	57 ± 2	66 ± 4	
+2.0	55 ± 3	52 ± 1	60 ± 7	
+2.5	50 ± 9	52 ± 1	56 ± 1	
+3.0	44 ± 7	45 ± 0	50 ± 1	
+3.5	40 ± 2	45 ± 1	49 ± 6	
+4.0	39 ± 1	41 ± 2	45 ± 3	
+The data are presented as mean ± standard deviation (SD, n = 3).
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+
+References
+
+1. Borrelli G. Trono D. Recombinant lipases and phospholipases and their use as biocatalysts for industrial applications Int. J. Mol. Sci. 2015 16 20774 20840 10.3390/ijms160920774 26340621 PMC4613230
+2. Buller R. Lutz S. Kazlauskas R.J. Snajdrova R. Moore J.C. Bornscheuer U.T. From nature to industry: Harnessing enzymes for biocatalysis Science 2023 382 eadh8615 10.1126/science.adh8615 37995253
+3. Anthonsen H.W. Baptista A. Drabløs F. Martel P. Petersen S.B. Sebastião M. Vaz L. Lipases and esterases: A review of their sequences, structure and evolution Biotechnol. Annu. Rev. 1995 1 315 371 10.1016/S1387-2656(08)70056-5 9704093
+4. Chahiniana H. Sarda L. Distinction between esterases and lipases: Comparative biochemical properties of sequence-related carboxylesterases Protein Pept. Lett. 2009 16 1149 1161 10.2174/092986609789071333 19508178
+5. Matinja A.I. Kamarudin N.H.A. Leow A.T.C. Oslan S.N. Ali M.S.M. Cold-active lipases and esterases: A review on recombinant overexpression and other essential issues Int. J. Mol. Sci. 2022 23 15394 10.3390/ijms232315394 36499718 PMC9740821
+6. Meghwanshi G.K. Verma S. Srivastava V. Kumar R. Archaeal lipolytic enzymes: Current developments and further prospects Biotechnol. Adv. 2022 61 108054 10.1016/j.biotechadv.2022.108054 36307049
+7. Kirchner L. Müller V. Averhoff B. A temperature dependent pilin promoter for production of thermostable enzymes in Thermus thermophilus Microb. Cell Factories 2023 22 187 10.1186/s12934-023-02192-1 PMC10507856 37726752
+8. Moreno R. Zafra O. Cava F. Berenguer J. Development of a gene expression vector for Thermus thermophilus based on the promoter of the respiratory nitrate reductase Plasmid 2003 49 2 8 10.1016/S0147-619X(02)00146-4 12583995
+9. Takayama G. Kosuge T. Sunamura S. Matsui I. Ishikawa K. Nakamura A. Hoshino T. Use of a Thermus thermophilus host-vector system for expression of genes from the hyperthermophilic archaeon Pyrococcus horikoshii J. Jpn. Soc. Extrem. 2004 3 28 36 10.3118/jjse.3.1_28
+10. Jia B. Jeon C.O. High-throughput recombinant protein expression in Escherichia coli: Current status and future perspectives Open Biol. 2016 6 160196 10.1098/rsob.160196 27581654 PMC5008019
+11. Haki G. Developments in industrially important thermostable enzymes: A review Bioresour. Technol. 2003 89 17 34 10.1016/S0960-8524(03)00033-6 12676497
+12. Rigoldi F. Donini S. Redaelli A. Parisini E. Gautieri A. Review: Engineering of thermostable enzymes for industrial applications APL Bioeng. 2018 2 011501 10.1063/1.4997367 31069285 PMC6481699
+13. Valenzuela B. Solís-Cornejo F. Araya R. Zamorano P. Isolation and characterization of Thermus thermophilus strain ET-1: An extremely thermophilic bacterium with extracellular thermostable proteolytic activity isolated from El Tatio Geothermal Field, Antofagasta, Chile Int. J. Mol. Sci. 2023 24 14512 10.3390/ijms241914512 37833960 PMC10572604
+14. Valenzuela B. Solís-Cornejo F. Araya R. Zamorano P. Isolation of thermophilic bacteria from extreme environments in northern Chile Microorganisms 2024 12 473 10.3390/microorganisms12030473 38543524 PMC10972389
+15. Fuciños P. González R. Atanes E. Sestelo A.B.F. Pérez-Guerra N. Pastrana L. Rúa M.L. Lipases and esterases from extremophiles: Overview and case example of the production and purification of an esterase from Thermus thermophilus HB27 Lipases and Phospholipases Sandoval G. Springer Berlin/Heidelberg, Germany 2012 10.1007/978-1-61779-600-5_15 22426723
+16. Fuciños P. Pastrana L. Sanromán A. Longo M.A. Hermoso J.A. Rúa M.L. An esterase from Thermus thermophilus HB27 with hyper-thermoalkalophilic properties: Purification, characterisation and structural modelling J. Mol. Catal. B Enzym. 2011 70 127 137 10.1016/j.molcatb.2011.02.017
+17. González-González R. Fuciños P. Beneventi E. López-López O. Pampín B. Rodríguez R. González-Siso M.I. Cruces J. Rúa M.L. Reactivity of a recombinant esterase from Thermus thermophilus HB27 in aqueous and organic media Microorganisms 2022 10 915 10.3390/microorganisms10050915 35630360 PMC9143606
+18. López-López O. Fuciños P. Pastrana L. Rúa M.L. Cerdán M.E. González-Siso M.I. Heterologous expression of an esterase from Thermus thermophilus HB27 in Saccharomyces cerevisiae J. Biotechnol. 2010 145 226 232 10.1016/j.jbiotec.2009.11.017 19961884
+19. Navas L.E. Florin-Christensen M. Benintende G.B. Zandomeni R.O. Berretta M.F. Characterization of a novel thermostable enzyme from Thermus sp. 2.9 with phospholipase and acyltransferase activities Microb Physiol. 2018 28 99 106 10.1159/000491698 30149390
+20. Chatonnet A. Perochon M. Velluet E. Marchot P. The esther database on alpha/beta hydrolase fold proteins—An overview of recent developments Chem. Biol. Interact. 2023 383 110671 10.1016/j.cbi.2023.110671 37582413
+21. Liaw R.B. Chen J.C. Cheng M.P. Molecular cloning and characterization of a new family VI esterase from an activated sludge metagenome Microorganisms 2022 10 2403 10.3390/microorganisms10122403 36557656 PMC9786865
+22. Mariam I. Rova U. Christakopoulos P. Matsakas L. Patel A. structural insights into thraustochytrid-specific lipases using alphafold to identify the role of GXSXG motif BMC Biotechnol. 2025 25 32 10.1186/s12896-025-00972-8 40325405 PMC12054267
+23. Kour D. Rana K.L. Kaur T. Singh B. Chauhan V.S. Kumar A. Rastegari A.A. Yadav N. Yadav N.A. Gupta V.K. Extremophiles for hydrolytic enzymes productions: Biodiversity and potential biotechnological applications Bioprocessing for Biomolecules Production 1st ed. Molina G. Gupta V. Singh B. Gathergood N. Wiley Hoboken, NJ, USA 2019 10.1002/9781119434436.ch16
+24. Johan U.U.M. Rahman R.N.Z.R.A. Kamarudin N.H.A. Latip W. Ali M.S.M. A new hyper-thermostable carboxylesterase from Anoxybacillus geothermalis D9 Int. J. Biol. Macromol. 2022 222 2486 2497 10.1016/j.ijbiomac.2022.10.033 36223866
+25. Al-Ghanayem A.A. Joseph B. Current prospective in using cold-active enzymes as eco-friendly detergent additive Appl. Microbiol. Biotechnol. 2020 104 2871 2882 10.1007/s00253-020-10429-x 32037467
+26. Sander D. Yu Y. Sukul P. Schäkermann S. Bandow J.E. Mukherjee T. Mukhopadhyay S.K. Leichert L.I. Metaproteomic discovery and characterization of a novel lipolytic enzyme from an Indian hot spring Front. Microbiol. 2021 12 672727 10.3389/fmicb.2021.672727 34149658 PMC8212958
+27. López-López O. Cerdán M.E. González-Siso M.I. Thermus thermophilus as a source of thermostable lipolytic enzymes Microorganisms 2015 3 792 808 10.3390/microorganisms3040792 27682117 PMC5023265
+28. Hidalgo A. Betancor L. Moreno R. Zafra O. Cava F. Fernández-Lafuente R. Guisán J.M. Berenguer J. Thermus thermophilus as a cell factory for the production of a thermophilic Mn-dependent catalase which fails to be synthesized in an active form in Escherichia coli Appl. Environ. Microbiol. 2004 70 3839 3844 10.1128/AEM.70.7.3839-3844.2004 15240253 PMC444780
+29. Adams M.W.W. Kelly R.M. Finding and using hyperthermophilic enzymes Trends Biotechnol. 1998 16 329 332 10.1016/S0167-7799(98)01193-7 9720321
+30. Tang W.L. Zhao H. Industrial biotechnology: Tools and applications Biotechnol. J. 2009 4 1725 1739 10.1002/biot.200900127 19844915
+31. Mesbah N.M. Industrial biotechnology based on enzymes from extreme environments Front. Bioeng. Biotechnol. 2022 10 870083 10.3389/fbioe.2022.870083 35480975 PMC9036996
+32. Arcus V.L. Van Der Kamp M.W. Pudney C.R. Mulholland A.J. Enzyme evolution and the temperature dependence of enzyme catalysis Curr. Opin. Struct. Biol. 2020 65 96 101 10.1016/j.sbi.2020.06.001 32659635
+33. Unsworth L.D. Van Der Oost J. Koutsopoulos S. Hyperthermophilic enzymes − stability, activity and implementation strategies for high temperature applications FEBS J. 2007 274 4044 4056 10.1111/j.1742-4658.2007.05954.x 17683334
+34. Fulladosa E. Serra X. Gou P. Arnau J. Effects of potassium lactate and high pressure on transglutaminase restructured dry-cured hams with reduced salt content Meat Sci. 2009 82 213 218 10.1016/j.meatsci.2009.01.013 20416756
+35. Helistö P. Korpela T. Effects of detergents on activity of microbial lipases as measured by the nitrophenyl alkanoate esters method Enzym. Microb. Technol. 1998 23 113 117 10.1016/S0141-0229(98)00024-6
+36. Jung Y.J. Lee J.K. Sung C.G. Oh T.K. Kim H.K. Nonionic detergent-induced activation of an esterase from Bacillus megaterium 20-1 J. Mol. Catal. B Enzym. 2003 26 223 229 10.1016/j.molcatb.2003.06.006
+37. Zafar A. Rahman Z. Mubeen H. Makhdoom J. Tariq J. Mahjabeen Ali Z. Hamid A. Shafique E. Aftab M.N. Heterologous expression, molecular studies and biochemical characterization of a novel alkaline esterase gene from Bacillus thuringiensis for detergent industry RSC Adv. 2022 12 34482 34495 10.1039/D2RA06138D 36545586 PMC9709933
+38. Arbab S. Ullah H. Khan M.I.U. Khattak M.N.K. Zhang J. Li K. Hassan I.U. Diversity and distribution of thermophilic microorganisms and their applications in biotechnology J. Basic Microbiol. 2022 62 95 108 10.1002/jobm.202100529 34878177
+39. Venturi V. Lerin L.A. Presini F. Giovannini P.P. Catani M. Buratti A. Marchetti N. Dilliraj L.N. Aprile S. Enzymatic synthesis of ascorbic acid-ketone body hybrids Catalysts 2023 13 691 10.3390/catal13040691
+40. Zappaterra F. Presini F. Venturi V. Lerin L.A. Giovannini P.P. Costa S. Biocatalytic insights for the synthesis of new potential prodrugs: Design of two ibuprofen derivatives Appl. Sci. 2023 13 9852 10.3390/app13179852
+41. Zhang T. Han W.J. Liu Z.P. Gene cloning and characterization of a novel esterase from activated sludge metagenome Microb. Cell Factories 2009 8 67 10.1186/1475-2859-8-67 PMC3224729 20028524
+42. Fuciños P. Atanes E. López-López O. Solaroli M. Cerdán M.E. González-Siso M.I. Pastrana L. Rúa M.L. Cloning, expression, purification and characterization of an oligomeric His-tagged thermophilic esterase from Thermus thermophilus HB27 Process Biochem. 2014 49 927 935 10.1016/j.procbio.2014.03.006
+43. Fuciños P. Abadín C.M. Sanromán A. Longo M.A. Pastrana L. Rúa M.L. Identification of extracellular lipases/esterases produced by Thermus thermophilus HB27: Partial purification and preliminary biochemical characterisation J. Biotechnol. 2005 117 233 241 10.1016/j.jbiotec.2005.01.019 15862353
+44. Chandra P. Enespa Singh R. Arora P.K. Microbial lipases and their industrial applications: A comprehensive review Microb. Cell Factories. 2020 19 169 10.1186/s12934-020-01428-8 32847584 PMC7449042
+45. Patel N. Rai D. Shivam Shahane S. Mishra U. Lipases: Sources, production, purification, and applications Recent Pat. Biotechnol. 2019 13 45 56 10.2174/1872208312666181029093333 30370868
+46. Okonechnikov K. Golosova O. Fursov M. The UGENE Team Unipro UGENE: A unified bioinformatics toolkit Bioinformatics 2012 28 1166 1167 10.1093/bioinformatics/bts091 22368248
+47. Altschul S.F. Gish W. Miller W. Myers E.W. Lipman D.J. Basic local alignment search tool J. Mol. Biol. 1990 215 403 410 10.1016/S0022-2836(05)80360-2 2231712
+48. Letunic I. Khedkar S. Bork P. SMART: Recent updates, new developments and status in 2020 Nucleic Acids Res. 2021 49 D458 D460 10.1093/nar/gkaa937 33104802 PMC7778883
+49. Jumper J. Evans R. Pritzel A. Green T. Figurnov M. Ronneberger O. Tunyasuvunakool K. Bates R. Žídek A. Potapenko A. Highly accurate protein structure prediction with AlphaFold Nature 2021 596 583 589 10.1038/s41586-021-03819-2 34265844 PMC8371605
+50. Blesa A. Berenguer J. Transformation of Thermus species by natural competence BIO-Protoc. 2016 6 e2007 10.21769/BioProtoc.2007
+51. Goldberg H.A. Warner K.J. The staining of acidic proteins on polyacrylamide gels: Enhanced sensitivity and stability of “Stains-All” staining in combination with silver nitrate Anal. Biochem. 1997 251 227 233 10.1006/abio.1997.2252 9299020
+52. Yıldırım Akatın M. Purification and characterization of a novel thermostable esterase from Thermus sp. NCCB 100425T Turk. J. Biochem. 2015 40 116 124 10.5505/tjb.2015.13008

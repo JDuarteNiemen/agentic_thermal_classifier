@@ -1,0 +1,14 @@
+The rex region of bacteriophage lambda: two genes under three-way control.
+
+The nucleotide sequence of the phage lambda rex region consists of 1428 bp and codes for two genes,
+rexA and rexB. Hence the complete lambda immunity region codes for four genes and covers 2664 bp of
+sequence unique to lambda, as defined by the left and right boundaries of the imm434 region.
+Coordinate expression of both rexA and rexB, which are co-regulated with the cI repressor gene from
+promoters p rm and p re is responsible for the Rex phenotype, i.e. exclusion of a wide variety of
+superinfecting phage such as T4rII. The position of a third promoter, p lit, which overlaps the
+carboxy-terminal end of the rexA coding region, permits expression of rexB without rexA, from the
+resulting 470 nucleotide lit RNA. The lit transcript, therefore, must act as messenger for rexB in
+the noncoordinate expression of the rex genes that occurs late in lambda lytic infection. The
+coordinate and noncoordinate expression of rexB and rexA suggests a dual role for the very
+hydrophobic rexB protein. Studies of lambda early and late DNA replication implicate rexB as having
+auxiliary functions in both lysogenisation and lytic infection.

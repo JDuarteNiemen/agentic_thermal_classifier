@@ -1,0 +1,19 @@
+Tn-seq of Thermus thermophilus Genome Reveals Unexpected Tolerance to Insertions in Bacterial Common Essential Genes.
+
+A large library based on a Tn5 minitransposon carrying a thermostable kanamycin resistance gene was
+prepared using Thermus thermophilus HB27 genomic DNA as target. To increase the yield of
+transformants, DNA from the in vitro transposition reaction was amplified using isothermal multiple
+displacement amplification. The resulting product was first transformed into the high-transformation
+efficiency addAB/ppol strain and then into a wild-type HB27 strain. Tn-seq analysis of the libraries
+showed that almost all genes contained insertions and the distribution of the number of insertions
+per gene was unimodal, unlike the bimodal distribution reported in most Tn-seq analyzes, thus
+hindering the discrimination of required or essential genes. Upon comparing the Tn-seq results with
+gene conservation in pangenomic analysis from Thermus thermophilus to Deiococcota levels, as well as
+with available HB27 RNA-seq data, we observed a very low correlation between core genes or gene
+transcription levels and Tn-seq insertion frequency. Notably, many genes largely deemed part of the
+essential bacterial core, supporting critical cellular pathways, showed relatively high transposon
+insertion numbers. In the case of DNA repair routes, which are essential but somewhat redundant, our
+results align well with previously published essentiality data, indicating that many genes are
+dispensable and permissive to insertions. The analysis of these striking results in the context of
+Thermus biology suggests that the polyploidy of the Thermus genome and the differential stability of
+proteins may explain the apparent non-essentiality of key genes.

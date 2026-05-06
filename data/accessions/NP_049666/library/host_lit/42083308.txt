@@ -1,0 +1,15 @@
+Gut microbiota and diet in colorectal cancer: Converging determinants of carcinogenesis.
+
+Diet and the gut microbiome are major, interdependent determinants of colorectal cancer (CRC) risk.
+This review discusses current evidence on how dietary patterns reshape microbial ecology, modulate
+microbial virulence, and alter host metabolic, inflammatory, and oncogenic pathways to influence
+colorectal carcinogenesis. We highlight key CRC-associated microbes, including pks⁺ Escherichia
+coli, Fusobacterium nucleatum, enterotoxigenic Bacteroides fragilis, and Streptococcus gallolyticus,
+and discuss how diet governs their abundance, toxin production, and oncogenic potential. Mechanistic
+investigations into diet-microbe interactions reveal how pro-inflammatory, low-fiber Western-style
+diets foster mucosal inflammation, generation of reactive oxygen and nitrogen species, and genotoxic
+microbial niches, whereas fiber- and polyphenol-rich diets support protective commensals and
+production of anti-inflammatory metabolites. We also outline major challenges, including
+interindividual microbiome variability and limited translational models, and propose future
+directions for integrating dietary, microbial, and host-targeted strategies for CRC prevention and
+therapy.

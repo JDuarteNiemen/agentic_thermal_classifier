@@ -1,0 +1,16 @@
+Bacteriophage T4 propagation in E.coli exposed to severe substrate limitation.
+
+Understanding bacteriophage propagation on bacteria in different physiological conditions is
+imperative for predicting phage therapy efficacy on various bacterial infections, especially chronic
+ones. We investigated phage T4 propagation on bacteria E.coli grown in a chemostat at very low
+dilution rates extending down to 0.027 h-1 and bacteria exposed to nutrient deprivation. An increase
+in adsorption constant and latent period with dilution rate D decrease and burst size being
+proportional to dilution rate (D) was confirmed, consistent with previously published results,
+extending validity of previous findings. Additional bacterial exposure to starvation, either through
+nutrient cessation or transferring bacteria into SM buffer, sustained phage propagation during first
+hours of starvation and diminished to formation of a single phage per infected cell after 24 h.
+Nutrient deprivation effects were investigated on fast growing bacteria and bacteria in a death
+phase. While no phage generation was observed within bacteria in death phase, fast growing bacteria
+transferred into SM buffer generated a single phage within 48 h without lysis, indicating that
+bacterial exposure to nutrient depleted conditions triggers a so called "scavenger response" whose
+intensity depends on starvation exposure time.

@@ -1,0 +1,29 @@
+Co-existence of blaCTX-M and mcr-1 in avian pathogenic Escherichia coli in Southern Xinjiang: current status and antimicrobial resistance characteristics.
+
+Extended-spectrum β-lactamases (ESBLs) constitute one of the principal mechanisms underlying
+multidrug resistance (MDR) in avian pathogenic Escherichia coli (APEC). The coexistence of ESBL-
+encoding genes, particularly blaCTX-M, together with the plasmid-mediated colistin resistance gene
+mcr-1 in APEC raises serious concern, as it undermines the effectiveness of third-generation
+cephalosporins and colistin. To clarify the current epidemiological status and potential
+transmission risks associated with the co-occurrence of ESBL and mcr-1 genes in southern Xinjiang,
+133 liver samples from chickens that had died after exhibiting clinical signs consistent with
+colibacillosis were collected, from which 100 of these isolates (75.2%, 100/133) were confirmed as
+APEC. The double-disk diffusion test revealed that 65 strains (65.0%, 65/100) were ESBL-producing.
+Among these ESBL-producing APEC isolates, resistance rates to ampicillin, cefazolin, ceftiofur, and
+cefoxitin were 100% (65/65), 100% (65/65), 92.3% (60/65), and 4.6% (3/65, intermediate/susceptible),
+respectively. PCR detection revealed that 95.4% (62/65) carried blaCTX-M and 93.8% (61/65) carried
+blaTEM and five isolates (7.7%, 5/65) were resistant to colistin and carried the mcr-1 gene.
+Integron analysis revealed that int1 was detected in 98.5% (64/65) of the ESBL-APEC isolates.
+Notably, all five mcr-1-positive strains co-harbored int1. These five isolates exhibited MDR
+phenotypes and were assigned to phylogenetic groups A (n = 1), B1 (n = 3), and D (n = 1). Whole-
+genome sequencing (WGS) revealed that the five mcr-1-positive APEC strains belonged to four sequence
+types (STs): ST6792 (n = 1), ST1196 (n = 2), ST155 (n = 1), and ST162 (n = 1), and harbored three
+blaCTX-M subtypes (blaCTX-M-55 [n = 3], blaCTX-M-64 [n = 1], and blaCTX-M-65[n = 1]). Furthermore,
+these strains carried IncI2 or IncFIB plasmid replicons alongside the int1 integrase gene,
+highlighting the co-occurrence of critical resistance determinants with mobile genetic elements
+known to facilitate horizontal dissemination. The coexistence of blaCTX-M and mcr-1 in high-risk
+clones such as ST155 and ST162, which are associated with human infections worldwide, indicates that
+the region faces a threat from multidrug-resistant strains and a potential risk of cross-species
+transmission. Given the limited geographic scope and sample size, our findings should be considered
+a preliminary warning. Future studies with expanded sampling and experimental validation of
+horizontal transfer are needed to fully assess the transmission risks.

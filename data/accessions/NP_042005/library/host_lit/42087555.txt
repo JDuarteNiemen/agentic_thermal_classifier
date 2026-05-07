@@ -1,0 +1,17 @@
+Ligify 2.0: a web server for predicted small molecule biosensors.
+
+Prokaryotic transcription factors (TFs) serve as small molecule biosensors with broad applications
+in biotechnology, yet only a fraction have been characterized. To address this gap, we recently
+described the bioinformatic method Ligify, which leverages information from genome context and
+enzyme reaction databases to predict a TF's cognate effector molecule. Here, we report Ligify 2.0, a
+modern web server for Ligify predictions. We systematically evaluate 10 965 small molecules within
+the Rhea enzyme reaction database for associations to TFs, ultimately generating 13 435 hypothetical
+interactions between 1 362 small molecules and 3 164 TFs. We then develop an interactive web server
+(https://ligify.groov.bio) to search and visualize prediction data. Each TF sensor page includes
+visualizations for chemical ligand structures, interactive TF protein structures, and genome
+context. Pages also include metadata links, predicted promoter sequences, prediction confidence
+metrics, and references to relevant literature. A plasmid builder tool enables users to generate
+custom biosensor circuit designs. Finally, we provide case studies using Ligify 2.0 to identify two
+TFs from the pathogens Escherichia coli O157:H7 and Mycobacterium abscessus responsive to
+4-hydroxybenzoate and Pseudomonas Quinolone Signal, respectively. The Ligify web server aims to
+facilitate the systematic characterization of biosensors for chemical-control of biological systems.

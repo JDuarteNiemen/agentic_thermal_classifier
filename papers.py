@@ -95,13 +95,20 @@ def FetchPMIDS(accession: str) -> list[dict]:
     uid = ids[0]
 
     # Step 2: Link to PubMed
-    link = requests.get(base + "elink.fcgi", params={
+    response = requests.get(base + "elink.fcgi", params={
         "dbfrom": "protein",
         "db": "pubmed",
         "id": uid,
         "retmode": "json",
-    }).json()
+    })
     sleep(0.3)
+
+    try:
+        link = response.json()
+    except ValueError:
+        print("Bad JSON in elink:")
+        return []
+
     try:
         pmids = link["linksets"][0]["linksetdbs"][0]["links"]
     except (KeyError, IndexError):

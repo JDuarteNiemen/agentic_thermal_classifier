@@ -4,40 +4,10 @@ Comparing the outputs from various different models
 
 
 ## Overview
-Using the method outlined in v4 to test the accuracy of different models.
-Example dataset expanded to 60. 20 of each thermal range
+Improving the model prompts in v5. Making them consistent.
 
-## Models 
-### qwen3.5
-Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.
-
-#### Details
- Model
-    architecture        qwen35    
-    parameters          9.7B      
-    context length      262144    
-    embedding length    4096      
-    quantization        Q4_K_M    
-    requires            0.17.1    
-
-  Capabilities
-    completion    
-    vision        
-    tools         
-    thinking      
-
-  Parameters
-    presence_penalty    1.5     
-    temperature         1       
-    top_k               20      
-    top_p               0.95    
-
-  License
-    Apache License               
-    Version 2.0, January 2004  
-
-
-
+## Model
+Will use gemma4 moving forward due to its performance on example data in terms of speed and accuracy
 ### gemma4:e4b 
 Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding
 
@@ -66,28 +36,7 @@ Gemma 4 models are designed to deliver frontier-level performance at each size. 
     Apache License               
     Version 2.0, January 2004 
 
-### granite4.1:8b
-Granite 4.1 language models are a family of state-of-the-art open foundation models featuring dense decoder-only architectures
 
-#### Details
-  Model
-    architecture        granite    
-    parameters          8.8B       
-    context length      131072     
-    embedding length    4096       
-    quantization        Q4_K_M     
-
-  Capabilities
-    completion    
-    tools         
-
-  License
-    Apache License               
-    Version 2.0, January 2004   
-
-
-
----
 
 
 ## Pipeline Steps

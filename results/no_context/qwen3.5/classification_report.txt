@@ -1,9 +1,0 @@
-              precision    recall  f1-score   support
-
-   mesophile       0.65      1.00      0.78        20
-psychrophile       1.00      0.45      0.62        20
- thermophile       1.00      1.00      1.00        20
-
-    accuracy                           0.82        60
-   macro avg       0.88      0.82      0.80        60
-weighted avg       0.88      0.82      0.80        60

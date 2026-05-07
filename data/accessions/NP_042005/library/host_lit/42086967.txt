@@ -1,0 +1,16 @@
+ADA-GEL composite hydrogel films incorporating mesoporous bioactive glass nanoparticles and silver-doped bioactive glass nanoparticles for biomedical applications.
+
+Hydrogels made from natural polymers are widely used in biomedical engineering as they resemble the
+extracellular matrix. Alginate dialdehyde-gelatin (ADA-GEL) hydrogels are notable for their
+biocompatibility, biodegradability, and adjustable crosslinking. However, their limited mechanical
+strength and bioactivity present significant challenges for use in tissue regeneration and wound
+healing. To overcome these issues, this study explores the addition of 0.1 and 1 wt.% mesoporous
+bioactive glass nanoparticles (MBGNs) or silver-doped bioactive glass nanoparticles (Ag-BGNs) into
+ADA-GEL hydrogels to create composite hydrogel films. These nanocomposites were tested in terms of
+printability, swelling, degradation, antibacterial effects, and in vitro compatibility using MG-63
+cells (osteosarcoma cells). MBGNs improved the hydrogels' osteogenic ability and structural
+stability. At the same time, Ag-BGNs provided vigorous antibacterial activity, especially against
+Staphylococcus aureus and Escherichia coli, without significantly affecting cell viability and
+morphology. The use of bioactive and antimicrobial nanoparticles in the ADA-GEL matrix offers a
+promising approach for developing new soft biomaterials for applications such as bone regeneration,
+wound healing, and implant coatings.

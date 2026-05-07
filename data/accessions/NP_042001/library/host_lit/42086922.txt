@@ -1,0 +1,17 @@
+Online Raman spectroscopy-guided strategy for efficient production of DNA recombinase UvsX in Escherichia coli.
+
+The rapid development of recombinase polymerase amplification (RPA) has driven a growing demand for
+UvsX, the key DNA recombinase for this technique. During bioreactor cultivation for UvsX production
+in Escherichia coli, biomass and substrate are critical factors affecting its efficient expression.
+However, the real-time monitoring techniques for these parameters remain immature, leading to
+delayed process control, hindering stable high-level production and precise process optimization.
+Using an online Raman spectrometer, this study developed synchronous quantitative prediction models
+for critical process parameters by partial least squares (PLS). Robust multivariate regression
+models showed strong correlations between predicted and measured values for biomass (R2 = 0.994),
+glucose (R2 = 0.979), UvsX (R2 = 0.989), and total product (R2 = 0.983). Based on these predictive
+models, the study implemented online monitoring and feedback control of critical fermentation
+parameters, successfully raising UvsX and total product titer to 8.23 g/L and 9.17 g/L, representing
+increases of 33.17% and 27.54% compared with conventional strategies. This study achieved a marked
+improvement in UvsX titer and production efficiency by applying Raman spectroscopy as a simple and
+rapid tool for process monitoring and optimization, providing dependable technical support for
+scaling up and quality control of complex recombinant proteins.

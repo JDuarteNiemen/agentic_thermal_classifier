@@ -1,0 +1,25 @@
+Targeting iNOS and associated proteins in neutrophils: An in-silico and ex-vivo approach for anti-sepsis therapy.
+
+Previous reports from the lab have demonstrated the role of inducible nitric oxide synthase (iNOS)
+and associated proteins in sepsis-induced neutrophilic hyperinflammation. This study aimed to
+identify FDA-approved drugs that inhibit iNOS and associated proteins to attenuate neutrophil-
+induced excessive inflammation. An in-silico approach involving STRING and Cytoscape was used to map
+protein-protein interactions (PPI). The FDA-approved drugs that target these proteins were retrieved
+from DrugBank. Candidate drugs were identified from the DrugBank database using a target sequence of
+iNOS and associated proteins. The human iNOS and associated proteins were investigated for
+interacting partners using the STRING database (highest confidence >0.90). The UCSF Chimera and
+Discovery Studio were used to perform molecular docking and Molecular Dynamics (MD) simulation to
+evaluate drug binding affinities. Thirty sepsis patients and twenty healthy volunteers were
+enrolled. The effect of high-scoring candidate drugs was assessed under an ex-vivo model by
+isolating neutrophils from sepsis patients and healthy volunteers. Levels of reactive oxygen species
+(ROS), nitric oxide (NO), neutrophil extracellular traps (NETs) and phospho-p38MAPK activity
+following Phorbol 12-myristate 13-acetate (PMA), Escherichia coli, Staphylococcus aureus, and LPS
+stimulation in the presence or absence of candidate drugs were also evaluated. The result of the PPI
+network was developed by using the Cytoscape plugin. The molecular docking and MD simulation
+analysis showed that dexamethasone and curcumin have high binding affinities to iNOS and associated
+proteins. Ex-vivo studies showed that neutrophils from sepsis patients had elevated ROS, NO, NET,
+and phospho-p38MAPK levels, which were significantly attenuated by dexamethasone + curcumin
+treatment (p < 0.01 for ROS, NO, and NET; p < 0.001 for phospho-p38MAPK). Results obtained from in
+silico and ex-vivo studies showed that dexamethasone and curcumin have the potential to inhibit
+neutrophilic functions attributed to iNOS and associated proteins. These findings support their
+potential for repurposing as targeted immunomodulatory therapies in sepsis management.

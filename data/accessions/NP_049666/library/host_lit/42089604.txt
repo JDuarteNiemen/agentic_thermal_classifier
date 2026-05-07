@@ -1,0 +1,27 @@
+A nutritional link to antimicrobial resistance: iron scarcity promotes plasmid co-selection in Escherichia coli.
+
+Multidrug-resistant (MDR) Escherichia coli represents a larger fraction of the E. coli population in
+preweaned dairy calf feces compared to older postweaned calves and adult cows. Previous work
+demonstrated that the MDR genotype is strongly associated with iron-acquisition genes (iucABCD-iutA
+and sitABCD), which are primarily carried on IncFIB plasmids that frequently co-encode these systems
+with antimicrobial-resistance genes in bovine E. coli. We hypothesized that iron limitation in the
+preweaned calf gut favors E. coli carrying these iron-acquisition systems, thereby indirectly
+selecting for antimicrobial resistance. To test this, we quantified growth by isothermal
+microcalorimetry in bovine cecal medium and used RT-qPCR to measure expression of iron-acquisition
+genes under iron-replete and iron-limited conditions. Under iron-replete conditions, plasmid
+carriage imposed a negligible fitness cost. Under iron limitation, IncFIB-positive strains generated
+up to 3.5-fold more cumulative heat and sustained metabolic activity 6-10 h longer than their
+plasmid-negative counterparts. This advantage corresponded to strong siderophore gene upregulation,
+with iucA expression increased by up to 38.4-fold. Multivariate analysis further distinguished
+plasmid-bearing from plasmid-free groups under iron stress. The results of this study demonstrate
+that plasmid maintenance costs are negligible in rich medium, and they are fully offset by the
+significant growth advantage conferred by iron-acquisition systems in iron-limited growth
+conditions. These findings suggest that gut iron availability contributes to the maintenance of
+antimicrobial resistance in young calves and highlight nutrition-based strategies as potential
+interventions to reduce antimicrobial resistance in these animals.IMPORTANCEThe preweaned calf gut
+is an iron-poor environment that favors Escherichia coli carrying IncFIB plasmids encoding both
+siderophore systems and antimicrobial resistance genes. Our findings show that these plasmids
+convert a potential liability, the cost of extra DNA, into a fitness advantage under iron
+limitation. This nutritional-genetic interaction explains why multidrug-resistant strains persist in
+young calves and suggests that dietary iron management could help reduce antimicrobial resistance in
+livestock, with implications for food safety and public health.

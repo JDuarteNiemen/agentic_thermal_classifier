@@ -1,0 +1,19 @@
+Multifunctional and Self-Healing Oxidized Bacterial Nanocellulose-Based Composite Hydrogels with pH-Switchable Cascade Enzyme Catalytic Activity for Accelerating Diabetic Wound Healing.
+
+Effective healing of diabetic wounds remains a major clinical challenge due to persistent
+hyperglycemia, bacterial infections, and hypoxia. In this study, a multifunctional self-healing
+hydrogel by embedding Fe3O4 nanoparticles (NPs) immobilized with glucose oxidase (Fe3O4/GOD) into a
+dynamic Schiff base-crosslinked hydrogel matrix of composed of oxidized bacterial nanocellulose
+(OBNC-D), carboxymethyl chitosan (CMC), and ε-poly-L-lysine (ε-PL) is developed. The resulting
+Fe3O4/GOD@H hydrogel exhibited excellent injectability, mechanical robustness, and self-healing
+capability, attributed to dynamic imine bond formation. Functionally, the embedded Fe3O4/GOD
+nanozyme enabled glucose-responsive cascade reactions, generating hydroxyl radicals (·OH) under
+mildly acidic conditions for potent antibacterial activity, and producing oxygen under neutral
+conditions to alleviate local hypoxia. In vitro experiments confirmed efficient ·OH generation,
+sustained oxygen release, and significant antibacterial efficacy against Staphylococcus aureus and
+Escherichia coli. The hydrogel also exhibited good hemocompatibility and cytocompatibility,
+particularly at optimized nanozyme concentrations. In a diabetic rat model, Fe3O4/GOD@H markedly
+accelerated wound closure and achieved complete re-epithelialization within 14 days, with minimal
+tissue toxicity. This intelligently responsive hydrogel provides a promising strategy for diabetic
+wound treatment by integrating glucose regulation, antibacterial action, and oxygen delivery to
+overcome multiple healing barriers.

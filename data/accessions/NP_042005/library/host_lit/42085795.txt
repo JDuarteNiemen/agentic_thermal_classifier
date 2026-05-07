@@ -1,0 +1,24 @@
+Distribution patterns and driving mechanisms of antibiotic resistance genes and virulence factor genes under the urbanization gradient.
+
+Antibiotic resistance genes (ARGs), as emerging environmental contaminants, have become a global
+environmental health concern due to their distribution and dissemination across urbanization
+gradients. This study systematically investigated the diversity, abundance patterns, and driving
+mechanisms of 173 ARGs, 30 mobile genetic elements (MGEs), and 120 virulence factor genes (VFGs)
+along a typical urbanization gradient (urban, suburban, and ecological zones) using soil samples
+collected from Baoding city center to Baiyangdian Lake periphery. High-throughput sequencing and
+quantitative PCR analyses revealed that suburban areas exhibited significantly higher total relative
+abundance of ARGs compared to urban and ecological zones (p < 0.05), particularly for
+aminoglycoside-, fluoroquinolone-, Macrolide-Lincosamide-Streptogramin B-, and multidrug-resistance
+genes. Suburban soils also showed elevated levels of VFGs associated with Klebsiella pneumoniae,
+Salmonella enterica, and Escherichia coli (p < 0.05). Notably, significant associations between ARGs
+and VFGs were observed, with both demonstrating high loads in suburban areas, suggesting these
+transitional zones may serve as "incubators" for resistant pathogens. Correlation analyses suggest
+that both biotic (MGEs, microbial communities) and abiotic factors (urbanization, heavy metals, soil
+properties) may contribute to ARGs and VFGs dissemination, with MGEs appearing to play a central
+role. Structural equation modeling indicates that urbanization could influence ARGs and VFGs
+assembly, potentially by altering soil properties, heavy metals, and microbial communities. MGE-
+mediated horizontal transfer might facilitate ARGs spread, whereas heavy metals and specific
+microbial taxa may be associated with VFG distribution patterns. These findings provide critical
+scientific insights into the transmission dynamics of resistance genes during urbanization and offer
+strategic guidance for developing targeted environmental management policies to mitigate resistance
+dissemination.

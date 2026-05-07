@@ -1,0 +1,13 @@
+Global Transcriptomic Profiling Reveals Conserved and Phage-specific Responses to Phage Infection in Escherichia Coli.
+
+Although phages shape bacterial evolution and physiology, the specificity of host transcriptomic
+responses to phage infection remains incompletely understood. Here, we performed global
+transcriptomic profiling of Escherichia coli exposed to two lytic phages, ΦX174 and T4, and the
+temperate phage λ, to explore both conserved and phage-specific host responses. All infections
+induced stress-related genes, including SOS and general stress pathways, along with repression of
+anabolic processes such as purine and amino acid biosynthesis, suggesting a metabolic shift to
+conserve resources. Notably, ΦX174 strongly activated the phage shock protein operon, while both
+ΦX174 and λ selectively induced soxS, a regulator of oxidative stress. Despite infecting the same
+host, each phage triggered distinct transcriptional signatures. These findings highlight the
+complexity of bacterial responses and the value of transcriptomics in decoding host-phage
+interactions, offering insights into resistance, survival, and co-evolution.

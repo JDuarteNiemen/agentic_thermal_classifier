@@ -1,0 +1,20 @@
+Frequency and characterization of β-lactam-resistant Escherichia coli from wild birds from Marmara Region in Turkey.
+
+This study aimed to phenotypically and genotypically detect beta-lactam-resistant Escherichia coli
+in the feces of wild and migratory birds residing in or passing through the Marmara Region during
+seasonal migration. A total of 272 fresh fecal samples were non-invasively collected and grouped as
+follows: (1) resident wild waterfowl, (2) resident urban birds (e.g., pigeons, crows, sparrows), (3)
+migratory birds overwintering in Turkey, and (4) migratory birds staying during spring and summer.
+Samples were cultured on MacConkey agar with and without cefotaxime (1 mg/L). Carbapenem resistance
+was assessed using the Modified Hodge Test; none of the 212 isolates tested positive. Among the 272
+birds sampled, 62 (22.8%) carried ESBL and/or AmpC producing isolates. Antimicrobial-resistant E.
+coli were identified in 59 of 272 birds (21.7%), including 47 ESBL-positive, 6 AmpC-positive, and 5
+harboring both resistance types. Group 1 (mainly gulls) showed the highest resistance rates. PCR
+analysis revealed that among 84 isolates, 48 carried only beta-lactamase genes, 3 only AmpC genes,
+and 5 both. Detected genes included: blaCTX-M (n = 50), blaSHV (n = 2), and blaOXA10 (n = 10); for
+AmpC: blaMOX (n = 6) and blaCIT (n = 2). Species-specific results confirmed the highest frequency of
+resistance genes in gulls. The Frequency of resistant isolates was significantly higher in Groups 1
+and 2 (P < 0.001). The resistance profiles identified in gulls especially those feeding at landfills
+or in direct contact with human, animal, and agricultural waste suggest a likely anthropogenic
+and/or zoonotic origin of the beta lactam resistance observed in this study conducted in Marmara
+Region.

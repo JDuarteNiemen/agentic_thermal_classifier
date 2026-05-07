@@ -1,0 +1,30 @@
+Polyacrylamide hydrogel-immobilized Escherichia coli cell lysate for efficient removal and reduction in transformability of extracellular antibiotic resistance genes in water.
+
+The dissemination of extracellular antibiotic resistance genes (eARGs) through horizontal gene
+transfer poses a serious threat to global water safety. While Escherichia coli MG1655 is known to
+employ intracellular nucleases to defend against foreign DNA, the potential of its cell lysate to
+enzymatically degrade plasmid-borne eARGs and disrupt their environmental propagation remains
+unexplored. This study demonstrated that E. coli MG1655 cell lysate can degrade the plasmid-borne
+ampR gene by 99.9% within 48 h, and the maximum first-order degradation rate constant measured by
+long amplicon qPCR was 0.20 h-1 at the selected dosage state. This degradation eliminated the
+ability of the plasmid pUC19 for transformation, reducing it to below detectable levels (<10-6
+transformants/recipients). The DNase I, produced by the chromosomal endA gene, was identified as the
+likely nuclease driving eARG cleavage. Environmental conditions critically modulated degradation
+efficiency: humic acid (50 mg/L) decreased the rate by 41.3%, while divalent cations (e.g., Mg2+)
+increased the rate by 1.65-fold. To transmit laboratory findings into real-world application, a
+polyacrylamide hydrogel-immobilized lysate (PAM-cell lysate) was engineered, which outperformed free
+lysate in treating plasmid-spiked real wastewater, sustaining 99.9% of ampR removal across three
+treatment cycles. This research demonstrated that PAM-cell lysate, without genetic modification, can
+be a cost-effective and scalable solution for attenuating the spread of eARGs in water, advancing
+the development of complementary enzymatic strategies for sustainable water
+remediation.IMPORTANCEThe mitigation of extracellular antibiotic resistance genes (eARGs) is an
+urgent priority for controlling the spread of antibiotic resistance via natural transformation.
+Developing environmentally benign strategies to effectively degrade plasmid-borne eARGs and prevent
+their transformation is therefore essential. However, few studies have explored the potential of
+bacterial cell lysates retaining native nuclease activity for eARG removal. In this work, we
+demonstrate that a candidate Escherichia coli cell lysate can rapidly degrade the plasmid pUC19
+carrying the ampR gene, with DNase I identified as the primary degradative enzyme. Furthermore, we
+show that immobilized E. coli cell lysate can concurrently adsorb and enzymatically degrade eARGs,
+effectively suppressing horizontal gene transfer via transformation. These findings highlight a
+novel, cost-effective, and scalable biocatalytic strategy for controlling the dissemination of eARGs
+in water treatment and environmental systems.

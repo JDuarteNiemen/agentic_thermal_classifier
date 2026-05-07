@@ -1,0 +1,19 @@
+Non-targeted metabolomics and postbiotics survey of an Iranian Koupa cheese Lactiplantibacillus plantarum isolate.
+
+Bacterial postbiotics, bioactive compounds produced by probiotic bacteria, offer enhanced stability
+and safety compared with live microorganisms, making them valuable candidates for functional foods
+and therapeutic applications. In the present study, the probiotic properties and postbiotic
+compounds of a Lactiplantibacillus plantarum strain isolated from a traditional Iranian cheese were
+investigated. The strain exhibited a 71.28% survival rate under simulated gastrointestinal (SGI)
+conditions and demonstrated cell surface hydrophobicity and auto-aggregation capabilities of 60.39%
+and 54.30%, respectively. The cell-free supernatant (CFS) of bacterial culture was extracted with
+methanol and subsequently fractionated using n-hexane and ethyl acetate. A bioassay-guided
+fractionation approach was applied to the CFS, involving the identification of the most effective
+antibacterial extract/fraction against selected microorganisms, the isolation of potent
+antibacterial fractions via Sephadex LH-20 column, and identification of the active compounds
+through liquid chromatography-mass spectrometry. EtOAc proved to be the most effective solvent for
+extracting antibacterial compounds. Fractions 4 and 5 exhibited the highest inhibitory effect
+against Staphylococcus aureus and Escherichia coli, respectively. Identification of nocardamine and
+cyclic dipeptides, specifically diketopiperazines such as cyclo(Hyp-Leu) and cyclo(Tyrosyl-Prolyl),
+as major bioactive constituents in these fractions underscores their notable potential for enhancing
+health benefits and combating pathogenic bacteria.

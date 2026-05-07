@@ -1,0 +1,18 @@
+Probiotic-conditioned microbiota from preterm infants modulate immune response to pathogen challenge in a microbiota-humanized mouse model.
+
+Early-life host-microbe interactions critically shape immune development, lifelong homeostasis, and
+disease susceptibility. The PRIMAL trial (Priming Immunity at the Beginning of Life) demonstrated
+that multistrain probiotics shifted the gut microbiota of very preterm infants toward eubiosis
+without affecting sepsis incidence, yet the immunological consequences remained unresolved. To
+explore this, we colonized germ-free female mice with fecal samples from probiotic- or placebo-
+treated preterm infants from the PRIMAL trial. Microbiota composition was vertically transmitted and
+stable across generations. At steady-state, 3-week-old pups colonized with probiotic-conditioned
+microbiota exhibited markedly reduced populations of innate immune cells, particularly in the colon,
+with subtler effects in the small intestine and spleen, while adaptive immune subsets were less
+affected. Upon enteropathogenic Escherichia coli challenge at day 5, pups harboring probiotic-
+conditioned microbiota displayed reduced growth and impaired bacterial clearance, correlating with
+diminished numbers of key innate immune cell populations. These findings demonstrate that probiotic-
+driven shifts in human-derived microbial communities can attenuate immune cell development in mice
+and alter early-life infection outcomes. Our study underscores the complex, context-dependent
+effects of probiotics on the neonatal microbiota-immune axis and provides mechanistic insight into
+how interventions in preterm infants may influence susceptibility to infection.

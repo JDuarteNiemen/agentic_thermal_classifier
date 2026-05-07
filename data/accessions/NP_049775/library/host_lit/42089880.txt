@@ -1,0 +1,22 @@
+Whole-genome sequencing to investigate the prevalence and transmission of multidrug-resistant Gram-negative pathogens in an adult intensive care unit in the UK.
+
+Background. Rates of multidrug resistance (MDR) in Gram-negative bacteria (GNB), particularly those
+harbouring extended-spectrum beta-lactamases (ESBL) and/or carbapenemases, are increasing globally.
+Intensive care unit (ICU) patients are vulnerable to healthcare-associated infection (HCAI).
+Surveillance for carriage of multidrug-resistant Gram-negative bacteria (MDR GNB) is inconsistent,
+with differing practices amongst ICUs, hospitals and countries. Furthermore, the impact of
+asymptomatic carriage on HCAI rates is unclear.Methods. We conducted a 6-month prospective
+surveillance study of MDR GNB in a UK adult ICU. Screening samples were collected from all study
+participants on admission, once a week (depending on length of stay) and on discharge from the ICU.
+Whole-genome sequencing (WGS) was used to examine the population structure and antimicrobial
+resistance mechanisms of MDR GNB and to determine evidence of recent transmission between
+patients.Findings. Of 424 participants recruited between June and December 2016, 15% (n=64) were
+positive for MDR GNB during admission screening to the ICU. The most frequently identified organisms
+were Pseudomonas aeruginosa, Escherichia coli and Klebsiella pneumoniae. In total, 10% (n=42) of
+patients acquired an ESBL-producing or carbapenem-resistant MDR GNB during their ICU admission. WGS
+of the bacterial populations reflected national trends. An undetected outbreak of carbapenemase-
+producing K. pneumoniae, which had spread to several wards, was identified and controlled. Most
+positive patients carried identical lineages across multiple body sites.Interpretation. Our findings
+suggest that prospective screening for MDR GNB in ICU patients could be beneficial and be considered
+in other UK critical care settings. This would not only improve early detection but also enable the
+prompt institution of enhanced infection control measures.

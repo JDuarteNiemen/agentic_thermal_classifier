@@ -1,0 +1,264 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Sci Rep
+Journal ID: Sci Rep
+
+Scientific Reports
+
+EISSN: 2045-2322
+Publisher: Nature Publishing Group
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC13139609
+PMID: 42082620
+DOI: 10.1038/s41598-026-49830-3
+Article ID: 49830
+Article version: 1
+Subjects: Article
+
+Synthesis of vanadium pentoxide doped zinc oxide nanocomposites via laser ablation and their antibacterial activity and cell viability
+
+Menazea A. A. aanter7@gmail.com
+
+https://ror.org/02n85j827 grid.419725.c 0000 0001 2151 8157 Spectroscopy Department, Physics Research Institute, National Research Centre, Dokki, Giza, 12622 Egypt
+Electronic publication date: 2026 May 4
+Publication date: 2026
+Volume: 16
+Electronic Location ID: 14163
+Received 2025 Oct 20; Accepted 2026 Apr 16
+Copyright: © The Author(s) 2026
+Copyright year: 2026
+License: Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Keywords: V2O5@ZnO, Green synthesis, Laser ablation, Antibacterial
+Keywords: Biotechnology, Chemistry, Materials science, Microbiology, Nanoscience and technology
+
+Funding: National Research Centre Egypt Open access funding provided by The Science, Technology & Innovation Funding Authority (STDF) in cooperation with The Egyptian Knowledge Bank (EKB).
+
+issue-copyright-statement: © Springer Nature Limited 2026
+
+==============================
+This paper introduce new rout preparation of Zinc oxide nanoparticles (ZnO NPs) via green laser ablation. V2O5@ZnO was synthesized via co-precipitation. The fabricated ZnO and V2O5@ZnO have been annealed at 900 °C. In vitro antibacterial experiments have been conducted for the prepared samples against negative and positive organisms. Additionally, this study discusses the impact of vanadium oxide insertion on the cytotoxicity of zinc oxide toward the human osteoblast cell line. The value of cell viability for ZnO was around 78.72 ± 3.54 and improved to 89.64 ± 2.65% for V2O5@ZnO nanocomposite approve the good biocompatibility of samples. The antibacterial activity of V2O5@ZnO nanocomposite that has been fabricated via co-precipitation method and annealed at 900 °C has been enhanced. The inhibation zone against B. subtilis, S. aureus, P. aeruginosa, and E. coli have been modified to 17.57 ± 0.67, 10.94 ± 0.35, 18.26 ± 0.91, 17.72 ± 0.98, respectively suggesting the application of the fabricated V2O5@ZnO in biological use such as wound healing.
+
+Introduction
+
+Recent research has focused on green synthesis tools to produce nanoparticle solutions to avoid environmental problems caused by industrial wastes worsen over time1. Many researchers created environmentally friendly nanoparticles from laser ablation2–4. Nanocomposites are utilized in various biomedical and medicinal applications5,6. As a result, the material prepared using green routes doesn’t contain any remaining bioactive substances, which may result in high non-toxicity behavior7,8. Because of their intriguing properties in photocatalytic, gas sensing, dye-sensitised solar cells, photovoltaic applications, and other fields, ZnO and V2O5 are the most sought-after components in nanoscience and technology9,10.
+
+Our skin is a vital organ in our bodies. It shields the body from outside invasion. Wound healing is the process by which the skin is repaired and remodeled after it has been damaged11,12. It is made up of four overlapping steps, including molecular and physiological processes. Hemostasis, inflammatory, proliferation, and remodeling are all interleaved processes13. Many cells and growth factors are involved in these steps. Wound dressing is a natural product that heals wounds.
+
+Infections cause a delay in the healing process14. Pseudomonas aeruginosa and Staphylococcus aureus are two microorganisms that can cause severe skin inflammation15. Deep within the body, microorganisms colonize when they are absorbed through wounds. The healing process is impacted by this16. It prolongs the process of regeneration and healing. There will be an extension of the inflammatory phase of tissue repair. This will cause a delay in the angiogenesis process. For the wound to heal, these infections must be treated17. Catalytic activity18,19 and antibacterial activity20,21 against bacteria that cause wound infection are two properties of nanomaterials. The development of metal oxide nanoparticles with carefully regulated size and structure has resulted in a novel class of nanomaterials22–25. Antimicrobial nanomaterials have piqued the interest of scientists in various biological applications26. The antibacterial activities of nanomaterials are because of their unique nanoscale characterization27. When the shape and size of nanoparticles are changed at the nano level, their properties improve28. The size of these metal oxide nanoparticles has a significant impact on their antimicrobial properties29. Because they can penetrate bacterial cells with pores on their surface the size of micrometers, size is crucial. The pores on the bacterial cell surface are nanometres. Hydrogen peroxide is produced by metal oxide nanoparticles30. This promotes cell growth. Metal oxide nanoparticles have this property, which can be used to heal wounds31. Metal oxide nanoparticles produce reactive oxygen species, which encourage fibroblast development32.
+
+Zinc Oxide (ZnO) is a vital metal oxide that is used in a variety of biomedical applications33. The communication between nanoparticles and cells is critical in their biological applications. The biological and medical behaviour of ZnO nanoparticles is proportional to their size34,35. The formation of electron–hole pairs is responsible for ZnO’s biological applications. It aids in the re-epithelialization of tissue regeneration. Numerous techniques for producing nanocomposite powder have been proposed, including co-precipitation, sol–gel precipitation, solid-state reaction, and solution combustion36. Among such methods, the sol–gel precipitating strategy is the most popular for synthesizing nano-crystalline materials due to its ability to infer distinguishable metastable structure at low reaction temperatures and superb chemical homogeneity, with the additional benefit of preparing high purity and well-crystallised powder of the nanocomposites37. Metallic implants containing bioactive materials have several advantages, including greater corrosion resistance of implant surfaces and increased osteoconductivity with surrounding tissues38. The implant’s corrosion behavior and tissue biocompatibility are determined by the protective metal oxide thin coating, which is stable. When compared to other oxides, zinc oxide (ZnO) has a variety of advantages, including low toxicity, strong corrosion resistance, biocompatibility, and significant antibacterial activity39–41.
+
+Due to its benefits over conventional techniques, the Pulsed Laser Ablation in Liquids (PLAL) process is the most efficient physical method for nano production42. This method’s simplicity and the absence of a chemical reagent solution are its advantages43. The PLAL technique is notable for its methodological simplicity, flexible physical procedure, and lack of chemical reagents in solutions as compared to other traditional methods for creating metal colloids44. This type of plasma, known as laser-induced plasma, is created instantly when the laser beam ablates the solid target’s surface. The thermodynamic state of the laser-induced plasma is entirely different since the plasma is instantly contained by the liquid medium following its creation in the liquid environment.
+
+Transition metal toxicity varies greatly but often involves disrupting essential metal balance (homeostasis) and causing oxidative stress via reactive oxygen species (ROS) production, leading to cellular damage, inflammation, and various acute/chronic health issues like organ damage, neurological problems, and even cancer, with common culprits including45. Certain metals, such as titanium dioxide (TiO2), are less hazardous than others, such as copper oxide (CuO) or vanadium pentoxide (V2O5). Toxicity is largely dependent on the particular metal, its form (such as nanoparticles), dose, exposure route, and duration. Because of the unique features and benefits of ZnO nanoparticles, a variety of goods containing these nanoparticles are being provided to the service of humanity, and the effort required to manufacture them is expanding every day46,47. The ZnO nanoparticles were made utilizing the laser ablation in this work. The green synthesis process produces ZnO nanoparticles that are ecologically friendly, produce minimal waste, and are extremely safe and non-toxic48.
+
+Herin, we introduce synthesis V2O5@ZnO composite at a high annealing temperature 900 °C. Zinc oxide NPs were synthesizedvia green laser ablation route and V2O5 doped zinc oxide via co-precipitation. It have been characterised structurally and morphologically. The research also investigates the cytotoxicity of the films towards the human osteoblast cell line to evaluate their biocompatibility. Moreover, in-vitro cell availability and antibacterial activity have been performed.
+
+Experimental work
+
+Materials
+
+The high-purity (99.999%) zinc plate was acquired from Sigma-Aldrich. Vanadium pentoxide nanoparticles (V2O5 NPs) were bought from Merck Co.
+
+Synthesis of zinc oxide nanoparticles via laser ablation in liquids
+
+The PLAL method has been used to manufacture ZnO NPs. A tiny beaker containing 30 ml of ultra-pure water was used to submerge a high-purity zinc plate. The ablation process has been powered by a Nd:YAG nanosecond laser with a wavelength of 1064 nm, a power output of 3.6 W, a pulse repetition rate of 10 Hz, and a pulse duration of 7 ns. The laser ablation method has been thoroughly examined before, and the experimental work has been explained. A convex lens with a focal length of 10 cm focused the laser beam perpendicularly on the zinc plate. The synthesized zinc oxide nanoparticles solution has been dried in oven to get ZnO NPs in powder form.
+
+Synthesis V2O5@ZnO nano-composite
+
+To prepare make V2O5@ZnO nano-composite V2O5@ZnO, 3 gm of V2O5 and previously made ZnO were combined in identical conditions via co-precipitation method. To achieve high crystallinity, the powder of the synthesized pure ZnO NPs and the prepared V2O5@ZnO nano-composite via co-precipitation method have been annealed at 900 °C for 2 h at a rate of 10 °C/min.
+
+Characterization techniques
+
+PANalytical X-Pert PRO XRD has been utilized for structural analysis of the prepared pure ZnO via green laser ablation route and the prepared V2O5@ZnO via co-precipitation method and annealed at 900 °C using a Copper target and K radiation of wavelength (λ = 1.5404 Å). The tube was operated at 30 kV with a Bragg angle (2 theta) of 5 to 80. The (Perkin-Elmer 2000) spectrometer has been utilized to record FT-IR spectroscopy data in the 4000–400 cm−1 range. Scanning electron microscope model (QUANTA-FEG250, Netherlands) was used to investigate the surface morphology.
+
+Cell viability test
+
+The human osteoblast cell line (HFB4) has been used to study the cell viability of the synthesized pure ZnO using green laser ablation route and the manufactured V2O5@ZnO via co-precipitation technique and annealed at 900 °C under DMEM culturing conditions. These cell lines were obtained from the VACSERA-Cell Culture Unit, Cairo, Egypt. The cells have been grown on the samples in 24-well plates and then incubated at 37 °C for three days. MTT (3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide) has been injected into each well, followed by an optical analyzer to evaluate cell viability. The measurement has been repeated three times for obtaining the standard deviation. The statistical analysis was conducted using MedCalc software version 15.0, developed in Mariakerke, Belgium. The calculation below was used to calculate the proportion of viable cells compared to the total number of cells49.1 \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\mathrm{Viability}}\left( {{\% }} \right) = \frac{{\text{Mean optical density of test samples}}}{{\text{Mean optical density of the control }}} \times 100$$\end{document}
+
+Antibacterial test
+
+The antibacterial behavior of the synthesized pure ZnO via green laser ablation route and the prepared V2O5@ZnO via co-precipitation method and annealed at 900 °C have been tested against Gram-positive bacteria; (B. subtilis NRRL B-94and S. aureus NRRL B-313) and against Gram-negative bacteria; (P. aeruginosa NRC B-32 and E. coli NRC B-3703) using agar plate method. The control samples have been considered as Amikacin (30 µg Oxoid lot no. 2288626) and Ciprofloxacin (5 µg Oxoid lot no. 2280856). In Petri dishes containing agar media, 5 mg/ml of the liquid samples have been implanted and cultivated for 20 h at 37 °C. To obtain positive and negative deviations, the last approach was repeated three times. The algorithm below was used to calculate the antimicrobial activity index %50:2 \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\% }}\;{\mathrm{Activity}}\;{\mathrm{Index}} = \frac{{{\mathrm{Zone}}\;{\mathrm{of}}\;{\mathrm{inhibition}}\;{\mathrm{by}}\;{\mathrm{test}}\;{\mathrm{compound}}\left( {{\mathrm{diameter}}} \right)}}{{{\mathrm{Zone}}\;{\mathrm{of}}\;{\mathrm{inhibition}}\;{\mathrm{by}}\;{\mathrm{standard}}\left( {{\mathrm{diameter}}} \right)}} \times 100$$\end{document}
+
+Results and discussions
+
+FTIR
+
+The composition of the synthesized samples has been performed and illustrated via FTIR technique in Fig. 1. The bands that illustrates at 871 cm−1, 453 cm−1 could be ascribed to vibrations of tetrahedral complexes and oxygen vacancy in ZnO, respectively51. The band is at 689 cm−1 because of the bending vibration52. The band at 539 cm−1 was due to (Zn–O) C–H vibrational mode53. For the sample V2O5@ZnO, the bands at 1129 and 991 cm−1 have been ascribed to (CO3)2 carbonate group54. The bands at 904, 853, 788, 743, and 668 cm−1 have been assigned to tetrahedral complex vibrations55. Bands centered on 496 cm−1 have been linked to oxygen vacancies in ZnO hexagonal symmetry56.Fig. 1 FT-IR spectra of the synthesized pure ZnO via green laser ablation route and the prepared V2O5@ZnO via co-precipitation method and annealed at 900 °C.
+
+XRD
+
+The structural characterization of the synthesized samples has been performed and illustrated via XRD technique. Figure 2 obtains XRD spectra of both ZnO and V2O5@ZnO samples. It shows diffraction peaks; the peak at 2θ = 31.76° corresponds to (100) plane, the peak at 34.47° corresponds to (002) plane, the peak at 36.41° corresponds to (101) plane, the peak at 47.64° corresponds to (102) plane, the peak at 56.74° corresponds to, (110) plane the peak at 62.93° corresponds to (103) plane and the peak at 67.97° corresponds to (112) plane. The structure of ZnO nanoparticles is characterized by these planes. As per the standard JCPDS file for ZnO (No. 89–1397), all the diffraction peaks matched well with a hexagonal structure of ZnO57,58. There were no additional impurity-related peaks visible, indicating that the high-purity ZnO nanoparticles were produced. In addition, the prepared V2O5@ZnO via co-precipitation method and annealed at 900 °C obtains the characteristic peak of ZnO NPs in addition the appearance of vanadium pentoxide NPs that was observed at 2θ values of 16.63°, 21.47°, 25.92°, 29.63°, 33.67° and 51.48°, which corresponding to the lattice planes (200), (001), (110), (400), (310), and (020) of orthorhombic V2O5 (JCPDS NO 41-1426)59.Fig. 2 XRD pattern of the synthesized pure ZnO via green laser ablation route and the prepared V2O5@ZnO via co-precipitation method and annealed at 900 °C.
+
+The crystallite size of the synthesized samples has been recorded via debye- Scherrer’s equation as follows59:3 \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\mathrm{D}} = {{{\mathrm{k}}\lambda } \mathord{\left/ {\vphantom {{{\mathrm{k}}\lambda } {\beta \cos \theta }}} \right. \kern-0pt} {\beta \cos \theta }}$$\end{document}
+
+where D is the crystallite size, \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\uplambda$$\end{document} is the wavelength, k is a constant value, \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\upbeta$$\end{document} is FWHM, and \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\uptheta$$\end{document} is Bragg’s angle. The crystallite size of zinc oxide is at about 32.74 nm, and for V2O5@ZnO the crystallite size enhanced to about 34.63 nm.
+
+Morphological investigations
+
+The morphological investigation of the synthesized samples was done with SEM analysis. Figure 3 shows the dispersion of small white spherical spots dispersed and distributed on the surface of the sample in addition to the appearance of semi-uniform big spherical which could be related to the agglomeration of vanadium pentoxide. Furthermore, the SEM image indicates that the development of ZnO could serves as the nano-composite, while V2O5 serve as fillers. As a result, the porosity could be reduced, thereby improving mechanical qualities.Fig. 3 SEM scanning of the prepared V2O5@ZnO via co-precipitation method and annealed at 900 °C.
+
+Cell viability
+
+This study attempts to investigate the effect adding vanadium pentoxide to the zinc oxide on its cytotoxicity towards a human lung cell line. The cell viability of the prepared samples has been obtained. Following two days of treatment, the MTT assay was utilized to assess the cells’ reaction to ZnO and V2O5@ZnO. In Fig. 4, the lowest cell viability ratio for pure ZnO was approximately 76.72%; however, it increased to 89.64% for V2O5@ZnO nanocomposite, indicating that both compositions are biocompatible. Additionally, this study explores the impact of vanadium pentoxide doping on the cytotoxicity of the zinc oxide towards a the human osteoblast cell line.Fig. 4 Cell viability of the synthesized pure ZnO via green laser ablation route and the prepared V2O5@ZnO via co-precipitation method and annealed at 900 °C.
+
+Antibacterial studies
+
+The antibacterial activity of the fabricated samples has been conducted against Gram-positive bacteria and Gram-negative bacteria using the agar plate method60. Table 1 and Fig. 5 illustrate how the antibacterial behaviour was ascertained by measuring the inhibition zone following a 24-h incubation period by Eq. 2. Good values were obtained in the inhibition zone of the synthesized pure ZnO via green laser ablation route and annealed at 900 °C; it was 21.21 ± 0.43 for B. subtilis, 13.47 ± 0.86 for S. aureus, 22.43 ± 1.3 for P. aeruginosa, and 16.02 ± 0.78 for E. coli. Additionally, by using a co-precipitation method and annealing the V2O5@ZnO at 900 °C, the inhibition zone was improved to 17.57 ± 0.67 for B. subtilis, 10.94 ± 0.35 for S. aureus, 18.26 ± 0.91 for P. aeruginosa, and 17.72 ± 0.98 for E. coli. Antibacterial inhibition refers to the formation of vanadium pentoxide nanoparticles from V2O5@ZnO that infiltrate into the agar layer and impede the formation of agar microbial colonies. We can conclude that all strains of B. subtilis, S. aureus, P. aeruginosa, and E. coli have an enhanced activity index when exposed to V2O5 nanoparticles doped with ZnO. After more investigation, the generated compositions’ enhanced antibacterial activity makes them a solid contender for use in microbial applications.Table 1 The inhibation zone of ZnO NPs the fabricated via laser ablation route and V2O5@ZnO nanocomposite.
+
+Type of bactaria	Zone of inhibition (mm)	
+ZnO	V2O5@ZnO	
+B. subtilis	17.57 ± 0.67	21.21 ± 0.43	
+S. aureus	10.94 ± 0.35	13.47 ± 0.86	
+P. aeruginosa	18.26 ± 0.91	22.43 ± 1.3	
+E. coli	16.02 ± 0.78	17.72 ± 0.98	
+
+Fig. 5 Antibacterial activity of the synthesized pure ZnO via green laser ablation route and the prepared V2O5@ZnO via co-precipitation method and annealed at 900 °C.
+
+Conclusion
+
+For biomedical applications, a metal oxide nanocomposite of vanadium pentoxide@zinc oxide (V2O5@ZnO) was synthesized at a high annealing temperature. Laser ablation route was used to make zinc oxide nanoparticles using a green technique. Co-precipitation was used to make V2O5@ZnO. ZnO and V2O5@ZnO were produced and annealed at 900°C. Antibacterial tests were performed in vitro on the produced samples against both negative and positive microorganisms. The cell viability ratio for pure ZnO was around 78.72 and improved to 89.64% for V2O5@ZnO nanocomposite, suggesting the good biocompatibility of both compositions The antibacterial activity of the fabricated V2O5@ZnO via co-precipitation method and annealed at 900 °C has been enhanced to; 17.57 ± 0.67 for B. subtilis, 10.94 ± 0.35 for S. aureus, 18.26 ± 0.91 for P. aeruginosa, and 17.72 ± 0.98 for E. coli. Greenly produced V2O5@ZnO composites free of toxic ingredients could be recommended for biological use.
+
+Author contributions
+
+A. A. Menazea: Methodology, Investigation, Formal Analysis, Investigation, Writing—original draft, Writing—Review & Editing.
+
+Funding
+
+Open access funding provided by The Science, Technology & Innovation Funding Authority (STDF) in cooperation with The Egyptian Knowledge Bank (EKB). No funding was received for conducting this study.
+
+Data availability
+
+Data will be available on reasonable request from the corresponding author.
+
+Declarations
+
+Competing interests
+
+The authors declare no competing interests.
+
+Publisher’s note
+
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+
+References
+
+1. Akintelu SA Folorunso AS Folorunso FA Oyebamiji AK Green synthesis of copper oxide nanoparticles for biomedical application and environmental remediation Heliyon 2020 6 7 e04508 10.1016/j.heliyon.2020.e04508 32715145 PMC7378697
+Akintelu, S. A., Folorunso, A. S., Folorunso, F. A. & Oyebamiji, A. K. Green synthesis of copper oxide nanoparticles for biomedical application and environmental remediation. Heliyon 6(7), e04508 (2020).32715145 10.1016/j.heliyon.2020.e04508 PMC7378697
+2. Al-Otaify A Younis AM Mostafa AM Au/ZnO nanocomposites based on simple laser ablation method for water treatment Mater. Chem. Phys. 2024 328 129967 10.1016/j.matchemphys.2024.129967
+Al-Otaify, A., Younis, A. M. & Mostafa, A. M. Au/ZnO nanocomposites based on simple laser ablation method for water treatment. Mater. Chem. Phys. 328, 129967 (2024).
+3. Bogatyrev A Liao Z Axinte D Norton A Femtosecond laser ablation of zirconia-based ceramic materials: From ablation mechanism to modelling of large-scale processing J. Mater. Process. Technol. 2025 335 118668 10.1016/j.jmatprotec.2024.118668
+Bogatyrev, A., Liao, Z., Axinte, D. & Norton, A. Femtosecond laser ablation of zirconia-based ceramic materials: From ablation mechanism to modelling of large-scale processing. J. Mater. Process. Technol. 335, 118668 (2025).
+4. Gao L Liu C Liu J Multi-pulse femtosecond laser ablation of SiC/SiC composites: Morphological evolution, oxidation mechanisms and component characterization J. Manuf. Process. 2024 124 316 333 10.1016/j.jmapro.2024.06.030
+Gao, L., Liu, C. & Liu, J. Multi-pulse femtosecond laser ablation of SiC/SiC composites: Morphological evolution, oxidation mechanisms and component characterization. J. Manuf. Process. 124, 316–333 (2024).
+5. Chan MH Liu RS Hsiao M Graphitic carbon nitride-based nanocomposites and their biological applications: A review Nanoscale 2019 11 32 14993 15003 10.1039/C9NR04568F 31380525
+Chan, M. H., Liu, R. S. & Hsiao, M. Graphitic carbon nitride-based nanocomposites and their biological applications: A review. Nanoscale 11(32), 14993–15003 (2019).31380525 10.1039/c9nr04568f
+6. Hosseinpour-Mashkani SM Mohandes F Salavati-Niasari M Venkateswara-Rao K Microwave-assisted synthesis and photovoltaic measurements of CuInS2 nanoparticles prepared by using metal–organic precursors Mater. Res. Bull. 2012 47 11 3148 3159 10.1016/j.materresbull.2012.08.017
+Hosseinpour-Mashkani, S. M., Mohandes, F., Salavati-Niasari, M. & Venkateswara-Rao, K. Microwave-assisted synthesis and photovoltaic measurements of CuInS2 nanoparticles prepared by using metal–organic precursors. Mater. Res. Bull. 47(11), 3148–3159 (2012).
+7. Vanderfleet OM Cranston ED Production routes to tailor the performance of cellulose nanocrystals Nat. Rev. Mater. 2021 6 2 124 144 10.1038/s41578-020-00239-y
+Vanderfleet, O. M. & Cranston, E. D. Production routes to tailor the performance of cellulose nanocrystals. Nat. Rev. Mater. 6(2), 124–144 (2021).
+8. Kirubakaran D Wahid JBA Karmegam N Jeevika R Sellapillai L Rajkumar M SenthilKumar KJ A comprehensive review on the green synthesis of nanoparticles: Advancements in biomedical and environmental applications Biomed. Mater. Devices 2025 10.1007/s44174-025-00295-4
+Kirubakaran, D. et al. A comprehensive review on the green synthesis of nanoparticles: Advancements in biomedical and environmental applications. Biomed. Mater. Devices10.1007/s44174-025-00295-4 (2025).
+9. Ajala, E. O., Ajala, M. A., & Saka, H. B. Vanadium pentoxide-Based Nanocatalysts in Biodiesel Production. Nano-and Biocatalysts for Biodiesel Production. (2021)‏
+10. Pataniya PM Late D Sumesh CK Photosensitive WS2/ZnO nano-heterostructure-based electrocatalysts for hydrogen evolution reaction ACS Appl. Energy Mater. 2021 4 1 755 762 10.1021/acsaem.0c02608
+Pataniya, P. M., Late, D. & Sumesh, C. K. Photosensitive WS2/ZnO nano-heterostructure-based electrocatalysts for hydrogen evolution reaction. ACS Appl. Energy Mater. 4(1), 755–762 (2021).
+11. Liu Y Study on a novel poly (vinyl alcohol)/graphene oxide-citicoline sodium-lanthanum wound dressing: biocompatibility, bioactivity, antimicrobial activity, and wound healing effect Chem. Eng. J. 2020 395 125059 10.1016/j.cej.2020.125059
+Liu, Y. et al. Study on a novel poly (vinyl alcohol)/graphene oxide-citicoline sodium-lanthanum wound dressing: biocompatibility, bioactivity, antimicrobial activity, and wound healing effect. Chem. Eng. J. 395, 125059 (2020).
+12. Tottoli EM Dorati R Genta I Chiesa E Pisani S Conti B Skin wound healing process and new emerging technologies for skin wound care and regeneration Pharmaceutics 2020 12 8 735 10.3390/pharmaceutics12080735 32764269 PMC7463929
+Tottoli, E. M. et al. Skin wound healing process and new emerging technologies for skin wound care and regeneration. Pharmaceutics 12(8), 735 (2020).32764269 10.3390/pharmaceutics12080735 PMC7463929
+13. Fernando S Bursill CA Nicholls SJ Psaltis PJ Pathophysiology of atherosclerosis Mechanisms of Vascular Disease 2020 Springer 19 45
+Fernando, S., Bursill, C. A., Nicholls, S. J. & Psaltis, P. J. Pathophysiology of atherosclerosis. In Mechanisms of Vascular Disease 19–45 (Springer, 2020).
+14. Kaushik M Niranjan R Thangam R Madhan B Pandiyarasan V Ramachandran C Oh D-H Venkatasubbu GD Investigations on the antimicrobial activity and wound healing potential of ZnO nanoparticles Appl. Surf. Sci. 2019 479 1169 1177 10.1016/j.apsusc.2019.02.189
+Kaushik, M. et al. Investigations on the antimicrobial activity and wound healing potential of ZnO nanoparticles. Appl. Surf. Sci. 479, 1169–1177 (2019).
+15. Farzam H Farahani A Tafkik A Karaji AG Mohajeri P Rezaei M Jalalvandi F Antibacterial effect of tramadol against Staphylococcus aureus and Pseudomonas aeruginosa: An in vivo study New Microbes New Infect. 2018 24 42 46 10.1016/j.nmni.2018.04.001 29922476 PMC6004770
+Farzam, H. et al. Antibacterial effect of tramadol against Staphylococcus aureus and Pseudomonas aeruginosa: An in vivo study. New Microbes New Infect. 24, 42–46 (2018).29922476 10.1016/j.nmni.2018.04.001 PMC6004770
+16. Maheswary T Nurul AA Fauzi MB The insights of microbes’ roles in wound healing: A comprehensive review Pharmaceutics 2021 13 7 981 10.3390/pharmaceutics13070981 34209654 PMC8308956
+Maheswary, T., Nurul, A. A. & Fauzi, M. B. The insights of microbes’ roles in wound healing: A comprehensive review. Pharmaceutics 13(7), 981 (2021).34209654 10.3390/pharmaceutics13070981 PMC8308956
+17. Seyed Ahmadi SG Farahpour MR Hamishehkar H Topical application of Cinnamon verum essential oil accelerates infected wound healing process by increasing tissue antioxidant capacity and keratin biosynthesis Kaohsiung J. Med. Sci. 2019 35 11 686 694 10.1002/kjm2.12120 31448873 PMC11900683
+Seyed Ahmadi, S. G., Farahpour, M. R. & Hamishehkar, H. Topical application of Cinnamon verum essential oil accelerates infected wound healing process by increasing tissue antioxidant capacity and keratin biosynthesis. Kaohsiung J. Med. Sci. 35(11), 686–694 (2019).31448873 10.1002/kjm2.12120 PMC11900683
+18. Ghanbari M Salavati-Niasari M Tl4CdI6 nanostructures: Facile sonochemical synthesis and photocatalytic activity for removal of organic dyes Inorg. Chem. 2018 57 18 11443 11455 10.1021/acs.inorgchem.8b01293 30160103
+Ghanbari, M. & Salavati-Niasari, M. Tl4CdI6 nanostructures: Facile sonochemical synthesis and photocatalytic activity for removal of organic dyes. Inorg. Chem. 57(18), 11443–11455 (2018).30160103 10.1021/acs.inorgchem.8b01293
+19. Salavati-Niasari M Nanoscale microreactor-encapsulation 14-membered nickel (II) hexamethyl tetraaza: Synthesis, characterization and catalytic activity J. Mol. Catal. A Chem. 2005 229 1-2 159 164 10.1016/j.molcata.2004.11.016
+Salavati-Niasari, M. Nanoscale microreactor-encapsulation 14-membered nickel (II) hexamethyl tetraaza: Synthesis, characterization and catalytic activity. J. Mol. Catal. A Chem. 229(1–2), 159–164 (2005).
+20. Muniyan A Ravi K Mohan U Panchamoorthy R Characterization and in vitro antibacterial activity of saponin-conjugated silver nanoparticles against bacteria that cause burn wound infection World J. Microbiol. Biotechnol. 2017 33 7 1 12 10.1007/s11274-017-2309-3 28634713
+Muniyan, A., Ravi, K., Mohan, U. & Panchamoorthy, R. Characterization and in vitro antibacterial activity of saponin-conjugated silver nanoparticles against bacteria that cause burn wound infection. World J. Microbiol. Biotechnol. 33(7), 1–12 (2017).28634713 10.1007/s11274-017-2309-3
+21. Lakkim V Reddy MC Pallavali RR Reddy KR Reddy CV Bilgrami AL Lomada D Green synthesis of silver nanoparticles and evaluation of their antibacterial activity against multidrug-resistant bacteria and wound healing efficacy using a murine model Antibiotics 2020 9 12 902 10.3390/antibiotics9120902 33322213 PMC7763323
+Lakkim, V. et al. Green synthesis of silver nanoparticles and evaluation of their antibacterial activity against multidrug-resistant bacteria and wound healing efficacy using a murine model. Antibiotics 9(12), 902 (2020).33322213 10.3390/antibiotics9120902 PMC7763323
+22. Salavati-Niasari M Mir N Davar F Synthesis and characterization of NiO nanoclusters via thermal decomposition Polyhedron 2009 28 6 1111 1114 10.1016/j.poly.2009.01.026
+Salavati-Niasari, M., Mir, N. & Davar, F. Synthesis and characterization of NiO nanoclusters via thermal decomposition. Polyhedron 28(6), 1111–1114 (2009).
+23. Salavati-Niasari M Davar F Loghman-Estarki MR Long chain polymer assisted synthesis of flower-like cadmium sulfide nanorods via hydrothermal process J. Alloys Compd. 2009 481 1-2 776 780 10.1016/j.jallcom.2009.03.086
+Salavati-Niasari, M., Davar, F. & Loghman-Estarki, M. R. Long chain polymer assisted synthesis of flower-like cadmium sulfide nanorods via hydrothermal process. J. Alloys Compd. 481(1–2), 776–780 (2009).
+24. Salavati-Niasari M Davar F Fereshteh Z Synthesis of nickel and nickel oxide nanoparticles via heat-treatment of simple octanoate precursor J. Alloys Compd. 2010 494 1-2 410 414 10.1016/j.jallcom.2010.01.063
+Salavati-Niasari, M., Davar, F. & Fereshteh, Z. Synthesis of nickel and nickel oxide nanoparticles via heat-treatment of simple octanoate precursor. J. Alloys Compd. 494(1–2), 410–414 (2010).
+25. Salavati-Niasari M Nanodimensional microreactor-encapsulation of 18-membered decaaza macrocycle copper (II) complexes Chem. Lett. 2005 34 2 244 245 10.1246/cl.2005.244
+Salavati-Niasari, M. Nanodimensional microreactor-encapsulation of 18-membered decaaza macrocycle copper (II) complexes. Chem. Lett. 34(2), 244–245 (2005).
+26. Kasinathan K Marimuthu K Murugesan B Sathaiah M Subramanian P Sivakumar P Swaminathan U Subbiah R Fabrication of eco-friendly chitosan functionalized few-layered WS2 nanocomposite implanted with ruthenium nanoparticles for in vitro antibacterial and anticancer activity: Synthesis, characterization, and pharmaceutical applications Int. J. Biol. Macromol. 2021 190 520 532 10.1016/j.ijbiomac.2021.08.153 34480908
+Kasinathan, K. et al. Fabrication of eco-friendly chitosan functionalized few-layered WS2 nanocomposite implanted with ruthenium nanoparticles for in vitro antibacterial and anticancer activity: Synthesis, characterization, and pharmaceutical applications. Int. J. Biol. Macromol. 190, 520–532 (2021).34480908 10.1016/j.ijbiomac.2021.08.153
+27. Xu JW Yao K Xu ZK Nanomaterials with a photothermal effect for antibacterial activities: An overview Nanoscale 2019 11 18 8680 8691 10.1039/C9NR01833F 31012895
+Xu, J. W., Yao, K. & Xu, Z. K. Nanomaterials with a photothermal effect for antibacterial activities: An overview. Nanoscale 11(18), 8680–8691 (2019).31012895 10.1039/c9nr01833f
+28. Jamkhande PG Ghule NW Bamer AH Kalaskar MG Metal nanoparticles synthesis: An overview on methods of preparation, advantages and disadvantages, and applications J. Drug Deliv. Sci. Technol. 2019 53 101174 10.1016/j.jddst.2019.101174
+Jamkhande, P. G., Ghule, N. W., Bamer, A. H. & Kalaskar, M. G. Metal nanoparticles synthesis: An overview on methods of preparation, advantages and disadvantages, and applications. J. Drug Deliv. Sci. Technol. 53, 101174 (2019).
+29. Sengul AB Asmatulu E Toxicity of metal and metal oxide nanoparticles: A review Environ. Chem. Lett. 2020 18 5 1659 1683 10.1007/s10311-020-01033-6
+Sengul, A. B. & Asmatulu, E. Toxicity of metal and metal oxide nanoparticles: A review. Environ. Chem. Lett. 18(5), 1659–1683 (2020).
+30. Qiu S Zhou H Shen Z Hao L Chen H Zhou X Synthesis, characterization, and comparison of antibacterial effects and elucidating the mechanism of ZnO, CuO and CuZnO nanoparticles supported on mesoporous silica SBA-3 RSC Adv. 2020 10 5 2767 2785 10.1039/C9RA09829A 35496109 PMC9048980
+Qiu, S. et al. Synthesis, characterization, and comparison of antibacterial effects and elucidating the mechanism of ZnO, CuO and CuZnO nanoparticles supported on mesoporous silica SBA-3. RSC Adv. 10(5), 2767–2785 (2020).35496109 10.1039/c9ra09829a PMC9048980
+31. Alavi M Nokhodchi A An overview on antimicrobial and wound healing properties of ZnO nanobiofilms, hydrogels, and bionanocomposites based on cellulose, chitosan, and alginate polymers Carbohydr. Polym. 2020 227 115349 10.1016/j.carbpol.2019.115349 31590840
+Alavi, M. & Nokhodchi, A. An overview on antimicrobial and wound healing properties of ZnO nanobiofilms, hydrogels, and bionanocomposites based on cellulose, chitosan, and alginate polymers. Carbohydr. Polym. 227, 115349 (2020).31590840 10.1016/j.carbpol.2019.115349
+32. Sarfraz S Javed A Mughal SS Bashir M Rehman A Parveen S Sharif Mughal S Khushi A Kamran Khan M Khan MK Copper oxide nanoparticles: Reactive oxygen species generation and biomedical applications Int. J. Comput. Theor. Chem. 2020 8 40 46 10.11648/j.ijctc.20200802.12
+Sarfraz, S. et al. Copper oxide nanoparticles: Reactive oxygen species generation and biomedical applications. Int. J. Comput. Theor. Chem. 8, 40–46 (2020).
+33. Murali M Kalegowda N Gowtham HG Ansari MA Alomary MN Alghamdi S Shilpa N Singh SB Thriveni MC Aiyaz M Angaswamy N Lakshmidevi N Adil SF Hatshan MR Amruthesh KN Plant-mediated zinc oxide nanoparticles: Advances in the new millennium towards understanding their therapeutic role in biomedical applications Pharmaceutics 2021 13 10 1662 10.3390/pharmaceutics13101662 34683954 PMC8540056
+Murali, M. et al. Plant-mediated zinc oxide nanoparticles: Advances in the new millennium towards understanding their therapeutic role in biomedical applications. Pharmaceutics 13(10), 1662 (2021).34683954 10.3390/pharmaceutics13101662 PMC8540056
+34. Siddiqi KS ur Rahman A Husen A Properties of zinc oxide nanoparticles and their activity against microbes Nanoscale Res. Lett. 2018 13 1 1 13 10.1186/s11671-018-2532-3 29740719 PMC5940970
+Siddiqi, K. S., ur Rahman, A. & Husen, A. Properties of zinc oxide nanoparticles and their activity against microbes. Nanoscale Res. Lett. 13(1), 1–13 (2018).29740719 10.1186/s11671-018-2532-3 PMC5940970
+35. Jiang X Light-induced assembly of metal nanoparticles on ZnO enhances the generation of charge carriers, reactive oxygen species, and antibacterial activity J. Phys. Chem. C 2018 122 51 29414 29425 10.1021/acs.jpcc.8b10578
+Jiang, X. et al. Light-induced assembly of metal nanoparticles on ZnO enhances the generation of charge carriers, reactive oxygen species, and antibacterial activity. J. Phys. Chem. C 122(51), 29414–29425 (2018).
+36. Upadhyay GK Rajput JK Pathak TK Kumar V Purohit LP Synthesis of ZnO: V2O5 nanocomposites for photocatalyst application in visible light Vacuum 2019 160 154 163 10.1016/j.vacuum.2018.11.026
+Upadhyay, G. K., Rajput, J. K., Pathak, T. K., Kumar, V. & Purohit, L. P. Synthesis of ZnO: V2O5 nanocomposites for photocatalyst application in visible light. Vacuum 160, 154–163 (2019).
+37. Ali, N., et al. TiO 2 nanoparticles and epoxy-TiO 2 nanocomposites: A Review of synthesis, modification strategies, and photocatalytic potentialities. J. Inorg. Organomet. Polym. Mater. 1–18 (2020).
+38. Kaliaraj GS Tamilvanan S Ramadoss A Surface functionalized bioceramics coated on metallic implants for biomedical and anticorrosion performance–A review J. Mater. Chem. B 2021 10.1039/d1tb01301g 34755756
+Kaliaraj, G. S., Tamilvanan, S. & Ramadoss, A. Surface functionalized bioceramics coated on metallic implants for biomedical and anticorrosion performance–A review. J. Mater. Chem. B10.1039/d1tb01301g (2021).34755756 10.1039/d1tb01301g
+39. Jain P Patidar B Bhawsar J Potential of nanoparticles as a corrosion inhibitor: A review J. Bio- Tribo-Corros. 2020 6 2 1 12 10.1007/s40735-020-00335-0
+Jain, P., Patidar, B. & Bhawsar, J. Potential of nanoparticles as a corrosion inhibitor: A review. J. Bio- Tribo-Corros. 6(2), 1–12 (2020).
+40. Bhatt VK Patel M Pataniya PM Iyer BD Sumesh CK Late DJ Enhanced antifungal activity of WS2/ZnO nanohybrid against Candida albicans ACS Biomater. Sci. Eng. 2020 6 11 6069 6075 10.1021/acsbiomaterials.0c00786 33449651
+Bhatt, V. K. et al. Enhanced antifungal activity of WS2/ZnO nanohybrid against Candida albicans. ACS Biomater. Sci. Eng. 6(11), 6069–6075 (2020).33449651 10.1021/acsbiomaterials.0c00786
+41. Som N Cutting-edge PCN-ZnO nanocomposites with experimental and DFT insights into enhanced hydrogen evolution reaction ACS Appl. Energy Mater. 2024 7 20 9402 9413 10.1021/acsaem.4c01932 39484080 PMC11523037
+Som, N. et al. Cutting-edge PCN-ZnO nanocomposites with experimental and DFT insights into enhanced hydrogen evolution reaction. ACS Appl. Energy Mater. 7(20), 9402–9413 (2024).39484080 10.1021/acsaem.4c01932 PMC11523037
+42. Ahmed, A. M., Halim, M. M., Ahmed, N. M., Rashid, M., & Taha, B. A. Advances in pulsed laser ablation in liquid for silver and copper synthesis: from plasma generation to nanoparticle formation. physica status solidi (a), 222(18), 2500382. (2025).
+43. Wang H Kim HS Development of high-performance cobalt oxide electrocatalysts for alkaline water splitting via integrated pulsed laser ablation in liquid (PLAL) and electrophoretic deposition (EPD) Int. J. Hydrog. Energy 2025 132 102 115 10.1016/j.ijhydene.2025.04.347
+Wang, H. & Kim, H. S. Development of high-performance cobalt oxide electrocatalysts for alkaline water splitting via integrated pulsed laser ablation in liquid (PLAL) and electrophoretic deposition (EPD). Int. J. Hydrog. Energy 132, 102–115 (2025).
+44. Attallah AH Abdulwahid FS Abdulrahman HJ Haider AJ Ali YA Investigate toxicity and control size and morphological of iron oxide nanoparticles synthesis by PLAIL method for industrial, environmental, and medical applications: A review Plasmonics 2025 20 3 1491 1521 10.1007/s11468-024-02383-5
+Attallah, A. H., Abdulwahid, F. S., Abdulrahman, H. J., Haider, A. J. & Ali, Y. A. Investigate toxicity and control size and morphological of iron oxide nanoparticles synthesis by PLAIL method for industrial, environmental, and medical applications: A review. Plasmonics 20(3), 1491–1521 (2025).
+45. Peana M Pelucelli A Medici S Cappai R Nurchi VM Zoroddu MA Metal toxicity and speciation: A review Curr. Med. Chem. 2021 28 35 7190 7208 10.2174/0929867328666210324161205 33761850
+Peana, M. et al. Metal toxicity and speciation: A review. Curr. Med. Chem. 28(35), 7190–7208 (2021).33761850 10.2174/0929867328666210324161205
+46. Al-Obaidi MT Rashid TM Rahmah MI Compositional tuning of Au/ZnO nanoparticles for superior antibacterial and photocatalytic activities Trans. Indian Inst. Met. 2025 78 10 239 10.1007/s12666-025-03720-w
+Al-Obaidi, M. T., Rashid, T. M. & Rahmah, M. I. Compositional tuning of Au/ZnO nanoparticles for superior antibacterial and photocatalytic activities. Trans. Indian Inst. Met. 78(10), 239 (2025).
+47. Ahmed AM Rahmah MI Synthesis and evaluation of PVP-stabilized platinum-doped ZnO nanoparticles: A dual approach for photocatalytic and antibacterial applications BioNanoScience 2025 15 3 332 10.1007/s12668-025-01977-5
+Ahmed, A. M. & Rahmah, M. I. Synthesis and evaluation of PVP-stabilized platinum-doped ZnO nanoparticles: A dual approach for photocatalytic and antibacterial applications. BioNanoScience 15(3), 332 (2025).
+48. Rahmah MI Qasim HB A novel method to prepare antibacterial ZnO nanoflowers Appl. Phys. A. 2022 128 11 998 10.1007/s00339-022-06161-0
+Rahmah, M. I. & Qasim, H. B. A novel method to prepare antibacterial ZnO nanoflowers. Appl. Phys. A. 128(11), 998 (2022).
+49. Rajeshkumar S Kumar SV Ramaiah A Agarwal H Lakshmi T Roopan SM Biosynthesis of zinc oxide nanoparticles usingMangifera indica leaves and evaluation of their antioxidant and cytotoxic properties in lung cancer (A549) cells Enzym. Microb. Technol. 2018 117 91 95 10.1016/j.enzmictec.2018.06.009 30037558
+Rajeshkumar, S. et al. Biosynthesis of zinc oxide nanoparticles usingMangifera indica leaves and evaluation of their antioxidant and cytotoxic properties in lung cancer (A549) cells. Enzym. Microb. Technol. 117, 91–95 (2018).10.1016/j.enzmictec.2018.06.009 30037558
+50. Porto, W. F., Ferreira, K. C., Ribeiro, S. M., & Franco, O. L. Sense the Moment: A highly sensitive antimicrobial activity predictor based on hydrophobic moment. Biochimica et Biophysica Acta (BBA)-General Subjects, 130070 (2021).‏10.1016/j.bbagen.2021.130070 34953809
+51. Rammal MB Omanovic S Synthesis and characterization of NiO, MoO3, and NiMoO4 nanostructures through a green, facile method and their potential use as electrocatalysts for water splitting Mater. Chem. Phys. 2020 255 123570 10.1016/j.matchemphys.2020.123570
+Rammal, M. B. & Omanovic, S. Synthesis and characterization of NiO, MoO3, and NiMoO4 nanostructures through a green, facile method and their potential use as electrocatalysts for water splitting. Mater. Chem. Phys. 255, 123570 (2020).
+52. Li H Lin H Chen W Luo L IR and Raman investigation on the structure of (100-x)[0.33 B2O3–0.67 ZnO]–xV2O5 glasses J. Non-Cryst. Solids 2006 352 28-29 3069 3073 10.1016/j.jnoncrysol.2006.03.073
+Li, H., Lin, H., Chen, W. & Luo, L. IR and Raman investigation on the structure of (100-x)[0.33 B2O3–0.67 ZnO]–xV2O5 glasses. J. Non-Cryst. Solids 352(28–29), 3069–3073 (2006).
+53. Konne, J. L., & Christopher, B. O. Sol‐Gel Syntheses of Zinc Oxide and Hydrogenated Zinc Oxide (ZnO: H) Phases. Journal of Nanotechnology, 2017(1), 5219850. (2017).
+54. Winiarski, J., Tylus, W., Winiarska, K., Szczygieł, I., & Szczygieł, B. XPS and FT‐IR characterization of selected synthetic corrosion products of zinc expected in neutral environment containing chloride ions. Journal of Spectroscopy, 2018(1), 2079278. (2018).
+55. Feng C Tang J Gao L Liu Z Chu M Effects of CaO/SiO2 on viscous behaviors and structure of CaO-SiO2-11.00 wt% MgO-11.00 wt% Al2O3-43.00 wt% V2O5 slag systems ISIJ Int. 2019 59 1 31 38 10.2355/isijinternational.ISIJINT-2018-444
+Feng, C., Tang, J., Gao, L., Liu, Z. & Chu, M. Effects of CaO/SiO2 on viscous behaviors and structure of CaO-SiO2-11.00 wt% MgO-11.00 wt% Al2O3-43.00 wt% V2O5 slag systems. ISIJ Int. 59(1), 31–38 (2019).
+56. Khan, A. A., Tahir, M., & Mohamed, A. R. Constructing S-scheme heterojunction of carbon nitride nanorods (g-CNR) assisted trimetallic CoAlLa LDH nanosheets with electron and holes moderation for boosting photocatalytic CO2 reduction under solar energy. Chemical Engineering Journal, 433, 133693. (2022).
+57. Thi TUD Nguyen TT Thi YD Thi KHT Phan BT Pham KN Green synthesis of ZnO nanoparticles using orange fruit peel extract for antibacterial activities RSC. Adv. 2020 10 40 23899 23907 10.1039/D0RA04926C 35517333 PMC9055061
+Thi, T. U. D. et al. Green synthesis of ZnO nanoparticles using orange fruit peel extract for antibacterial activities. RSC. Adv. 10(40), 23899–23907 (2020).35517333 10.1039/d0ra04926c PMC9055061
+58. Muhammad W Ullah N Haroon M Abbasi BH Optical, morphological and biological analysis of zinc oxide nanoparticles (ZnO NPs) using Papaver somniferum L RSC. Adv. 2019 9 51 29541 29548 10.1039/C9RA04424H 35531532 PMC9071912
+Muhammad, W., Ullah, N., Haroon, M. & Abbasi, B. H. Optical, morphological and biological analysis of zinc oxide nanoparticles (ZnO NPs) using Papaver somniferum L. RSC. Adv. 9(51), 29541–29548 (2019).35531532 10.1039/c9ra04424h PMC9071912
+59. Jing P Wei W Luo W Li X Xu F Li H Wei M Yu D Zhu Q Liu G In-situ XRD study of the structure and electrochemical performance of V2O5 nanosheets in aqueous zinc ion batteries Inorg. Chem. Commun. 2020 117 107953 10.1016/j.inoche.2020.107953
+Jing, P. et al. In-situ XRD study of the structure and electrochemical performance of V2O5 nanosheets in aqueous zinc ion batteries. Inorg. Chem. Commun. 117, 107953 (2020).
+60. Luo J Xie L Yang M Liu M Li Q Wang P Fan J Jin J Luo C Synergistic antibacterial effect of phage pB3074 in combination with antibiotics targeting cell wall against multidrug-resistant Acinetobacter baumannii in vitro and ex vivo Microbiol. Spectr. 2023 11 4 e00341-23 10.1128/spectrum.00341-23 37260382 PMC10434185
+Luo, J. et al. Synergistic antibacterial effect of phage pB3074 in combination with antibiotics targeting cell wall against multidrug-resistant Acinetobacter baumannii in vitro and ex vivo. Microbiol. Spectr. 11(4), e00341-23 (2023).37260382 10.1128/spectrum.00341-23 PMC10434185

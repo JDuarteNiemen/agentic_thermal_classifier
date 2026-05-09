@@ -42,83 +42,8 @@ They are well-suited for reasoning, agentic workflows, coding, and multimodal un
     Version 2.0, January 2004 
 
 
-# Fast classification
 
-## Pipeline Steps
-
-### 1. Accession Library Creation
-- Builds a structured library of all accession records for downstream processing.
-
----
-
-### 2. Thermal Identification from Metadata
-- Scans metadata to determine whether thermal range information is already present.
-
-#### IF thermal range is found:
-- Return thermal range
-
-#### IF NOT:
-- Proceed to literature retrieval
-
----
-
-### 3. Accession-linked Literature Analysis
-- Retrieves literature associated with the accession for thermal inference.
-
----
-
-### 4. Thermal Range Identification from Accession Literature
-- Classifies thermal range using accession-linked literature.
-
-#### IF thermal range is found:
-- Return thermal range
-
-#### IF NOT:
-- Proceed to host identification step
-
----
-
-### 5. Host Identification
-- Identifies host organism associated with the accession.
-
-#### IF host is NOT found:
-- Perform forced classification using metadata
-- Return thermal range
-
-#### IF host IS found:
-- Proceed to host literature retrieval
-
----
-
-### 6. Literature Retrieval for Host (Query Search)
-- Retrieves literature associated with the identified host.
-
----
-
-### 7. Thermal Range Identification from Host Literature
-- Classifies thermal range using host-associated literature.
-
-#### IF thermal range is found:
-- Return thermal range
-
-#### IF NOT:
-- Proceed to final fallback classification
-
----
-
-### 8. Forced Classification Using Phage Metadata
-- Applies final fallback thermal classification using phage-level metadata.
-
-#### Output:
-- Return thermal range
-
-
-
-![Agentic Workflow](images/graph.png)
-
----
-
-# Comprehensive classifiction
+# Democratic classifiction
 
 ## Pipeline Steps
 

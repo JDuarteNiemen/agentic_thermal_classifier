@@ -1,0 +1,21 @@
+Bioinformatics and immunoinformatic approaches for structural modeling and vaccine design of the CCHFV whole genome to develop a novel broad-spectrum multiepitope vaccine candidate.
+
+Crimean-Congo hemorrhagic fever virus (CCHFV), the causative agent of Crimean-Congo hemorrhagic
+fever (CCHF), represents the most widely distributed tick-borne viral disease in humans and is
+currently managed only through supportive care. Consequently, considerable efforts have been
+directed toward the development of an effective vaccine to control this pathogen. Here, we report
+the first comprehensive in silico prediction of immunogenic CD8⁺ T cells, CD4⁺ T cells, and B-cell
+epitopes across the S, M, and L segments of CCHFV. Candidate epitopes were evaluated for
+conservation in mouse and human homologs of HLA alleles, as well as for antigenicity, toxicity,
+sequence homology, cellular topology, and binding affinity to a broad range of human leukocyte
+antigen (HLA) alleles. The final multiepitope vaccine construct was assembled by linking selected
+epitopes with an adjuvant via KK, AAY, and GPGPG linkers. Codon optimization and in silico cloning
+into prokaryotic and eukaryotic expression vectors confirmed high-level expression potential in
+Escherichia coli and human cells. Molecular docking analyses demonstrated that the vaccine-derived
+epitopes bind HLA molecules with affinities comparable to those of naturally processed peptides.
+Molecular dynamics simulations further revealed stable and robust interactions between the vaccine
+construct and Toll-like receptors (TLRs) throughout the simulation period, indicating the potential
+to elicit strong immune activation upon administration. The designed vaccine is predicted to
+stimulate both humoral and cellular immunity effectively. Although the construct exhibits promising
+immunogenicity, safety, and stability in silico, experimental validation in appropriate model
+systems is warranted to substantiate these findings.

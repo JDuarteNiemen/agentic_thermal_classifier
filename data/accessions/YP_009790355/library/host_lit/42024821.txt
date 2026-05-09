@@ -1,0 +1,22 @@
+Boosting Persistent Luminescence with Spatially Confined Ion Doping for Profiling Bacterial-Environment Interactions.
+
+Ion doping is widely employed to introduce defects in persistent luminescence nanoparticles (PLNPs)
+to enhance the luminescence efficiency. However, the influence of ion doping on persistent
+luminescence remains insufficiently studied, and current doping strategies require further
+optimization. In this study, we systematically investigated the effects of heterovalent K+ doping on
+the persistent luminescence of CaSc2O4:Tb PLNPs and further refined the doping strategy. Results
+indicate that the luminescence enhancement in CaSc2O4:Tb,K via K+ doping is seriously constrained by
+concentration quenching, with an optimal K+ doping ratio of only 1.5%. To further improve the
+doping-enhanced persistent luminescence, we designed two types of core-shell structured PLNPs:
+CaSc2O4:Tb@CaSc2O4:K (Tb@K) and CaSc2O4:K@CaSc2O4:Tb (K@Tb). In these architectures, the luminescent
+center Tb3+ and dopant K+ are spatially separated, which increases the optimal K+ doping ratio to
+7%. Notably, the persistent luminescence intensities of Tb@K and K@Tb reach up to 1.9 and 2.2 times
+those of codoped CaSc2O4:Tb,K, respectively. Furthermore, by coating the surface-confined persistent
+luminescent K@Tb with a coordination network composed of Fe2+/3+ and tannic acid (TA), we
+constructed a reversible K@Tb@Fe-TA nanoprobe for monitoring bacterial-environment interactions.
+Shewanella putrefaciens (S. putrefaciens) reduces Fe3+ to Fe2+ in K@Tb@Fe-TA, leading to attenuation
+of the persistent luminescence. Using this probe, we observed that the intensity of the S.
+putrefaciens-environment interaction varies with the bacterial growth stage. This work presents a
+superior ion-doping strategy to boost persistent luminescence efficiency and offers a promising
+approach for tracking bacterial-environment interactions. Moreover, it also opens exciting
+possibilities for the development and biomedical applications of PLNPs.

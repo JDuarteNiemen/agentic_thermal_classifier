@@ -1,0 +1,37 @@
+=============Reasoning for ABI36835 from metadata=============
+Classification: thermophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'deep-sea hydrothermal field', which strongly implies a high-temperature environment, characteristic of thermophiles.
+
+
+=============Reasoning for ABI36835 from accession literature=============
+Paper: 18573317.txt
+Classification: thermophile
+Confidence: high
+Inference Type: inferred
+Reasoning: The paper describes the phage as a "deep-sea thermophilic bacteriophage GVE2". Although it does not provide a specific temperature range, the explicit use of the term "thermophilic" classifies it according to the provided definitions (> 45°C).
+
+
+=============Reasoning for ABI36835 from host literature=============
+Paper: PMC13135583.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states that 'Geobacillus strains are of special interest... known for their ability to thrive at high temperatures (optimal growth between 45 and 70 °C).' Furthermore, the abstract mentions that 'G. thermoleovorans evolved for robust growth on adipate and 1,4-butanediol at 60 °C.' The general description of the genus places it in the thermophile category (> 45°C).
+
+
+Paper: PMC13130090.1.txt
+Classification: thermophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text explicitly states the growth conditions for the host bacterium, *Geobacillus kaustophilus* HTA426: "Geobacillus kaustophilus HTA426 is a thermophilic Gram-positive bacterium that grows at higher temperatures from 42 to 74 °C, with an optimum at 60 °C [7]." Since the phage is associated with this host, the thermal characteristic is derived from the host's description.
+
+
+=============Reasoning for ABI36835 from metadata (Forced)=============
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The metadata indicates the isolation source is a 'deep-sea hydrothermal field'. Hydrothermal vents are characterized by high temperatures, which strongly suggests the associated bacteriophage is adapted to thermophilic conditions. Therefore, 'thermophile' is the most probable classification.
+
+

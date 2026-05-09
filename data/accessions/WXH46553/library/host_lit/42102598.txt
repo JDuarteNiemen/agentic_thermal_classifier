@@ -1,0 +1,20 @@
+Identification of a monoclonal antibody recognizing a B-cell epitope within the nuclear localization signal of porcine circovirus 4 (PCV4) capsid protein.
+
+Porcine circovirus type 4 (PCV4) is an emerging pathogen with a broad geographical distribution,
+having been detected in both healthy and diseased pigs across China, South Korea, Europe, and other
+regions. Similar to PCV2, PCV4 rescued from infectious clones has been shown to be pathogenic in
+pigs, posing a potential threat to the swine industry. The capsid (Cap) protein, the primary
+structural and immunogenic component of PCV4, contains a nuclear localization signal (NLS) critical
+for viral replication. However, the immunogenicity and antigenic epitopes of PCV4 Cap protein remain
+poorly characterized. In this study, the PCV4 Cap protein was expressed and used to immunize BALB/c
+mice. Four monoclonal antibodies (mAbs) specific to PCV4 Cap were generated through hybridoma
+technique and screened by indirect ELISA. Western blot and indirect immunofluorescence assays
+demonstrated that all four mAbs specifically recognized PCV4 Cap protein expressed in both HEK293T
+cells and Escherichia coli. Subclass typing revealed that the mAbs possessed IgG1 heavy chains and
+kappa light chains. Epitope mapping using truncated Cap proteins identified a common B-cell epitope
+recognized by all four mAbs, located within the NLS region corresponding to amino acid residues
+28-43. The mAbs exhibited high specificity for PCV4 Cap, with no cross-reactivity against PCV2 or
+PCV3 Cap proteins. The generation of these PCV4 Cap-specific mAbs provides valuable tools for
+developing pathogen-specific detection methods to support epidemiological surveillance of PCV4 and
+for further investigating NLS-associated viral replication mechanisms, particularly those involving
+nuclear import and export processes.

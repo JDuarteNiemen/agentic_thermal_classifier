@@ -1,0 +1,44 @@
+=============Reasoning for YP_874174 from metadata=============
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The title contains the text '[Thermus phage phiYS40]' and the old_name is 'Thermus thermophilus phage YS40'. The genus 'Thermus' is associated with thermophilic organisms, and the presence of 'Thermus' in the name strongly implies a thermophilic nature.
+
+
+=============Reasoning for YP_874174 from accession literature=============
+=============Reasoning for YP_874174 from host literature=============
+Paper: PMC13039148.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that the host bacterium, *Thermus thermophilus*, is a "thermophilic bacterium" in the Introduction section: "Thermus thermophilus is a Gram-negative, thermophilic bacterium that, due to its efficient DNA uptake system6,7, has been used as a model system for studying T4P assembly and natural transformation for many years." Furthermore, the culture conditions used for the experiments confirm this, noting that "For negative stain electron microscopy, overnight liquid cultures were diluted to an OD of 0.1 and incubated at 68 °C until an OD of 0.6–0.8 was reached. For cryoET, cells from a 24-h pre-culture were transferred onto TM+ plates (containing 2% [wt/vol] agar) and incubated for 48 h at 68 °C." Since the phage is studied in relation to this host, the phage is characterized as thermophilic.
+
+
+Paper: PMC13140390.1.txt
+Classification: thermophile
+Confidence: high
+Inference Type: inferred
+Reasoning: The paper states that the genus Thermus is "characterized by extreme thermophilic bacteria that grow at temperatures ranging from 55°C to 80°C (Da Costa et al. 2006)". The phage is associated with the study of *Thermus thermophilus*, which belongs to this genus. Therefore, the phage is inferred to be associated with a thermophilic environment.
+
+
+Paper: PMC12980113.1.txt
+Classification: thermophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The glucose-binding protein used for the sensor is explicitly stated to be from "ttGBP (Thermus thermophilus glucose-binding protein) from Thermus thermophilus." The text also notes, "Proteins from thermophiles often exhibit enhanced stability." This indicates the source organism is a thermophile, and the protein is derived from it.
+
+
+Paper: 41906752.txt
+Classification: thermophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The paper discusses the laccase from 'hyperthermophilic Thermus thermophilus (TtL) laccase'. Although no specific optimal temperature is given for the phage, the host/enzyme source is explicitly identified as 'hyperthermophilic', which implies a thermophilic nature. The text also mentions 'engineering of extremophilic laccase for high temperature industrial application.'
+
+
+=============Reasoning for YP_874174 from metadata (Forced)=============
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The target phage is named 'Thermus phage phiYS40' and the associated organism/title mentions 'Thermus'. Thermus is a genus of bacteria known for thriving in high-temperature environments (thermophiles). Therefore, the phage is inferred to be thermophilic, aligning with the definition (>45°C).
+
+

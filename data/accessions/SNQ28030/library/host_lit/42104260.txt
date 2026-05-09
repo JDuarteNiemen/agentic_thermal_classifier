@@ -1,0 +1,29 @@
+Arctic deep-sea hydrothermal microbiomes as a natural niche for novel antimicrobial peptides.
+
+The escalating threat of antimicrobial resistance (AMR) has created an urgent need for new
+antimicrobial agents. Antimicrobial peptides (AMPs) are promising alternatives to conventional
+antibiotics due to their broad-spectrum activity and reduced risk of resistance development. While
+most AMP discovery efforts have focused on terrestrial microbes, extreme environments remain largely
+untapped. Deep-sea hydrothermal vent biofilms, such as those from the Arctic Mid-Ocean Ridges
+(AMOR), are unique ecosystems characterized by high pressure, temperature gradients, and chemical
+extremes. These conditions select for microorganisms with specialized adaptations, including the
+production of bioactive compounds that confer survival advantages. Such peptides may exhibit
+enhanced stability and novel mechanisms of action, making hydrothermal biofilms an exceptional
+resource for next-generation antimicrobials. Using metagenomic and metatranscriptomic datasets from
+nine recently published AMOR biofilms, we predicted 961 AMP sequences with Macrel, of which 873 were
+unique and showed no identity to entries in the Antimicrobial Peptide Database (APD). AMPs were
+distributed across 51 microbial phyla, including underrepresented archaeal groups such as
+Asgardarchaeota, Nanoarchaeota, and Micrarchaeota. Transcriptomic profiling detected AMP expression
+in 25 phyla, including low-abundance candidate taxa, highlighting active AMP production. In silico
+minimum inhibitory concentration (MIC) prediction using APEX 1.1 suggested that 16.7% of AMPs may
+inhibit at least one clinically relevant pathogen, with Acinetobacter baumannii emerging as the most
+susceptible. Four peptides were synthesized for experimental validation; AMP OLKFNNDA_52_10
+exhibited moderate in vitro activity against Staphylococcus aureus and weak activity against
+Escherichia coli, while showing low cytotoxicity toward human HEK293 cells. Other tested peptides
+displayed weak or no activity, underscoring discrepancies between computational predictions and
+biological outcomes. Our study reveals extensive taxonomic and structural diversity of AMPs in
+Arctic hydrothermal vent biofilms and identifies novel candidates withbioactive potential. These
+findings emphasize the importance of integrating metagenomics, transcriptomics, machine learning,
+and experimental validation to uncover bioactive compounds from underexplored microbial ecosystems.
+Overall, AMOR biofilms represent a rich and untapped source of AMPs, offering new opportunities for
+antimicrobial drug discovery in the fight against AMR.

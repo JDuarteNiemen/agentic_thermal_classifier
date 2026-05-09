@@ -1,0 +1,16 @@
+=============Reasoning for YP_001956835 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Pseudomonas chlororaphis') and the phage name, but no explicit or strongly implied temperature or environmental condition (psychrophile, mesophile, thermophile) is stated.
+
+
+=============Reasoning for YP_001956835 from accession literature=============
+=============Reasoning for YP_001956835 from host literature=============
+=============Reasoning for YP_001956835 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Pseudomonas phage 201phi2-1) and its host (Pseudomonas chlororaphis). 2. No explicit thermal range (psychrophile, mesophile, or thermophile) is stated in the metadata. 3. The decision rules require assigning a classification. Since the host, Pseudomonas chlororaphis, is a common environmental bacterium, and no specific environmental context suggesting extreme temperatures is provided, the most probable default classification is mesophile (15–45°C). 4. Therefore, 'mesophile' is assigned as the fallback classification.
+
+

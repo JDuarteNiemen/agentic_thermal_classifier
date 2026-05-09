@@ -1,82 +1,13 @@
 # imports
-from platform import node
 
-from langchain_ollama import ChatOllama
-from langgraph.graph import StateGraph, START, END
+
 from langchain_core.exceptions import OutputParserException
-import requests
-from typing import TypedDict, Optional
-import json
 from tools import *
 import time
 from papers import *
-from pydantic import BaseModel
 from prompts import *
-from helpers import _truncate, _build_llm, OLLAMA_MODEL, OLLAMA_BASE_URL, _max_paper_chars
-
-
-# ---------------------------------------------------------------------------
-# State
-# ---------------------------------------------------------------------------
-class AgentState(TypedDict):
-    #model
-    model: str
-
-    # Phage Specific metric
-    accession: str
-    phage: str #species name
-    metadata: str
-
-    #  host classification
-    host: str
-    taxonomic_level: str
-    host_reasoning: str
-    host_confidence: str
-    host_source: str
-    host_found: bool
-
-    # thermal classification
-    thermal_range: str
-    temperature: str
-    thermal_reasoning: str
-    thermal_confidence: str
-    thermal_source: str
-    thermal_found: bool
-    inference_type:str
-
-    # paper info
-    paper_dir: str
-    host_paper_dir: str
-    host_paper: str
-    thermal_paper: str
-    #may need to add extra paper things e.g. number of papers and current paper/ seperate accession and host papers
-
-    #meta information
-    duration: float
-    decision: str
-    nodes: list
-    timings: dict
-    JSONDecodeError: bool
-
-
-# ---------------------------------------------------------------------------
-# Structured Output States
-# ---------------------------------------------------------------------------
-# Thermal Classification output state
-class ThermalOutput(BaseModel):
-    thermal_range: str
-    temperature: Optional[str] = None
-    inference_type: str
-    thermal_reasoning: str
-    thermal_confidence: Optional[str] = None
-    thermal_found: bool
-
-class HostOutput(BaseModel):
-    host: str
-    taxonomic_level: str
-    host_reasoning: str
-    host_found: bool
-
+from helpers import  _build_llm, OLLAMA_MODEL, _max_paper_chars
+from states import *
 
 
 # ---------------------------------------------------------------------------
@@ -84,7 +15,7 @@ class HostOutput(BaseModel):
 # ---------------------------------------------------------------------------
 
 def ClassifyThermalMetadata(state: AgentState) -> dict:
-    """Use the LLM to extract host species from metadata."""
+    """Use the LLM to classify the thermal range from metadata."""
     model = state.get("model") or OLLAMA_MODEL
     llm = _build_llm(model)
     llm=llm.with_structured_output(ThermalOutput)
@@ -147,11 +78,14 @@ def ClassifyThermalMetadata(state: AgentState) -> dict:
 
 
 def CreateAccessionLibrary(state: AgentState) -> dict:
+    """Create library fro  literature associated with the ncbi accession"""
     node='CreateAccessionLibrary'
     nodes = (state.get("nodes") or []) + [node]
 
     start = time.time() # set start
     CreateLibrary(state['accession'], state['metadata']) # create library for accession
+
+    paper_dir_size=len(os.listdir(state['paper_dir']))
     end = time.time() # set end
 
     # Updating durations
@@ -164,11 +98,12 @@ def CreateAccessionLibrary(state: AgentState) -> dict:
     return {'decision': 'ClassifyThermalLiterature',
             'duration': updated_duration,
             'nodes': nodes,
-            'timings': timings}
+            'timings': timings,
+            'paper_dir_size': paper_dir_size,}
 
 
 def ClassifyThermalLiterature(state: AgentState) -> dict:
-    """Use the LLM to extract host species from paper text."""
+    """Use the LLM to classify thermal range of the phage from paper text."""
     node='ClassifyThermalLiterature'
     nodes = (state.get("nodes") or []) + [node]
 
@@ -224,6 +159,8 @@ def ClassifyThermalLiterature(state: AgentState) -> dict:
             timings = state.get("timings", {}).copy()
             timings[node] = duration
 
+
+
             return {
                 "thermal_range": out.thermal_range,
                 "temperature": out.temperature,
@@ -263,7 +200,7 @@ def ClassifyHostMetadata(state: AgentState) -> dict:
     llm = _build_llm(model)
     llm = llm.with_structured_output(HostOutput)
 
-    prompt = CLASSIFYTHERMALMETADATAPROMPT(state['metadata'])
+    prompt = CLASSIFYHOSTMETADATAPROMPT(state['metadata'])
 
     start = time.time()
     out = llm.invoke(prompt)
@@ -330,9 +267,6 @@ def ClassifyHostLiterature(state: AgentState) -> dict:
         print(f'{node}: {out}\n\n')
 
 
-        if not host_found:
-            continue
-
         if out.host_found:
             host_found=True
             end=time.time()
@@ -344,7 +278,6 @@ def ClassifyHostLiterature(state: AgentState) -> dict:
                 "host": out.host,
                 "taxonomic_level": out.taxonomic_level,
                 "host_reasoning": out.host_reasoning,
-                "host_confidence": out.host_confidence,
                 "host_found": True,
                 "host_source": 'literature',
                 'host_paper': paper,
@@ -375,8 +308,13 @@ def CreateHostLibrary(state: AgentState) -> dict:
     start = time.time()
     host=state.get('host')
     accession=state.get('accession')
-
+    #create librbar
     HostLibrary(accession, host)
+
+    #get number of papers
+    papers=os.listdir(state['host_paper_dir'])
+    host_paper_dir_size=len(papers)
+
     end = time.time()
     duration = round((end - start), 2)
     updated_duration = state['duration'] + duration
@@ -387,13 +325,14 @@ def CreateHostLibrary(state: AgentState) -> dict:
             'duration': updated_duration,
             'nodes': nodes,
             'timings': timings,
-            'host_paper_dir': f'data/accessions/{accession}/library/host_lit'}
+            'host_paper_dir': f'data/accessions/{accession}/library/host_lit',
+            'host_paper_dir_size': host_paper_dir_size}
 
 
 
 
 def ClassifyThermalRangeHostLiterature(state: AgentState) -> dict:
-    """Use the LLM to extract host species from paper text."""
+    """Use the LLM to Classify thermal range from host literature"""
     node = 'ClassifyThermalRangeHostLiterature'
     nodes = (state.get("nodes") or []) + [node]
 
@@ -519,117 +458,302 @@ def ClassifyThermalForced(state: AgentState) -> dict:
         "nodes": nodes,
 
     }
+# ================ #
+# Democratic Nodes #
+# ================ #
+
+def ClassifyThermalMetadataVote(state: AgentState) -> dict:
+    """Use the LLM to extract host species from metadata."""
+    model = state.get("model") or OLLAMA_MODEL
+    llm = _build_llm(model)
+    llm=llm.with_structured_output(ThermalOutput)
+
+    with open(state['thermal_reasoning_file'], 'w') as f:
+        f.write(f'=============Reasoning for {state["accession"]} from metadata=============\n')
+
+    #Defining node and adding it to the list
+    node = "ClassifyThermalMetadataVote"
+    nodes = (state.get("nodes") or []) + [node]
+
+    prompt=CLASSIFYTHERMALMETADATAPROMPT(state['metadata'])
+
+    start=time.time()
+    out = llm.invoke(prompt)
+    print(f'{node}: {out}\n\n')
+    end = time.time()
+    duration = round((end-start),2)
+
+    #update duration
+    updated_duration=state['duration'] + duration
+
+    #update timings
+    timings = state.get("timings", {}).copy()
+    timings[node] = duration
+
+
+    # Update dictionary
+    print(f'Classification{repr(out.thermal_range)}')
+    thermal = out.thermal_range.strip().lower()
+    votes = state.get("thermal_votes", {}).copy()
+    try:
+        votes[thermal] += 1
+    except KeyError:
+        return {
+            "thermal_votes": votes,
+            "decision": 'ClassifyThermalLiteratureVotes',
+            "duration": updated_duration,
+            "timings": timings,
+            "nodes": nodes,
+                }
+
+    # Save reasoning
+    with open(state['thermal_reasoning_file'], 'a') as f:
+        f.write(f'Classification: {out.thermal_range}\n')
+        f.write(f'Confidence: {out.thermal_confidence}\n')
+        f.write(f'Inference Type: {out.inference_type}\n')
+        f.write(f'Reasoning: {out.thermal_reasoning}\n\n\n')
+
+
+    return {
+    "thermal_votes": votes,
+    "decision": 'ClassifyThermalLiteratureVotes',
+    "duration": updated_duration,
+    "timings": timings,
+    "nodes": nodes,
+}
 
 
 
-# ---------------------------------------------------------------------------
-# Graph
-# ---------------------------------------------------------------------------
-def route(state: AgentState):
-    return state["decision"]
+def ClassifyThermalLiteratureVotes(state: AgentState) -> dict:
+    """Use the LLM to vote on the thermal range of each paper."""
+    with open(f'{state["thermal_reasoning_file"]}', 'a') as f:
+        f.write(f'=============Reasoning for {state["accession"]} from accession literature=============\n')
 
 
-def BuildGraph() -> StateGraph:
-    graph = StateGraph(AgentState)
+    node = 'ClassifyThermalLiteratureVotes'
+    nodes = (state.get("nodes") or []) + [node]
 
-    # Define nodes
-    graph.add_node('ClassifyThermalMetadata', ClassifyThermalMetadata)
-    graph.add_node('CreateAccessionLibrary', CreateAccessionLibrary)
-    graph.add_node('ClassifyThermalLiterature', ClassifyThermalLiterature)
-    graph.add_node('ClassifyHostMetadata', ClassifyHostMetadata)
-    graph.add_node('ClassifyHostLiterature', ClassifyHostLiterature)
-    graph.add_node('CreateHostLibrary', CreateHostLibrary)
-    graph.add_node('ClassifyThermalRangeHostLiterature', ClassifyThermalRangeHostLiterature)
-    graph.add_node('ClassifyThermalForced', ClassifyThermalForced)
+    votes = state.get("thermal_votes", {}).copy()
 
-    # Define paths
-    # Can thermal range be confidently inferred from metadata
-    graph.add_edge(START, 'ClassifyThermalMetadata')
-
-    graph.add_conditional_edges('ClassifyThermalMetadata', route,
-                                {'end': END,
-                                 'CreateAccessionLibrary': 'CreateAccessionLibrary'})
-
-    graph.add_edge('CreateAccessionLibrary', 'ClassifyThermalLiterature')
-
-    graph.add_conditional_edges('ClassifyThermalLiterature', route,
-                               {'end': END,
-                                'ClassifyHostMetadata': 'ClassifyHostMetadata'})
-
-    graph.add_conditional_edges('ClassifyHostMetadata', route,
-                               {'ClassifyHostLiterature': 'ClassifyHostLiterature',
-                                'CreateHostLibrary': 'CreateHostLibrary'})
-
-    graph.add_conditional_edges('ClassifyHostLiterature', route,
-                               {'ClassifyThermalForced': 'ClassifyThermalForced',
-                                'CreateHostLibrary': 'CreateHostLibrary'})
-
-    graph.add_edge('CreateHostLibrary', 'ClassifyThermalRangeHostLiterature')
-
-    graph.add_conditional_edges('ClassifyThermalRangeHostLiterature', route,
-                               {'end': END,
-                                'ClassifyThermalForced': 'ClassifyThermalForced'})
-
-    graph.add_edge('ClassifyThermalForced', END)
-
-    return graph.compile()
-
-def VisualiseGraph():
-    graph = BuildGraph()
-
-    png = graph.get_graph().draw_mermaid_png()
-    with open("images/graph.png", "wb") as f:
-        f.write(png)
+    start = time.time()
+    model = state.get("model") or OLLAMA_MODEL
+    llm = _build_llm(model)
+    llm = llm.with_structured_output(ThermalOutput)
+    max_chars = _max_paper_chars(model)
 
 
-def MESOTHERMOPSYCHRO(accession: str, model: str) -> AgentState:
+    patterns = {
+        # organisms
+        "mesophile": r"\bmesophil(?:e|ic|es|icity)?\b",
+        "psychrophile": r"\bpsychrophil(?:e|ic|es|icity)?\b",
+        "thermophile": r"\bthermophil(?:e|ic|es|icity)?\b",
+        # temperature concepts
+        "temperature": r"\btemperatur(e|es)?\b",
+        "optimal_growth": r"\boptimal(?:ly)?\s+(growth|temperature|growing)\b",
+        # units
+        "celsius": r"\b\d+(?:\.\d+)?\s?°?\s?[Cc]\b|\bCelsius\b",
+        "kelvin": r"\b\d+(?:\.\d+)?\s?[Kk]\b|\bKelvin\b"
+    }
 
-    metadata=FetchNcbiMetadata(accession)
-    phage=metadata.get('organism', 'unknown')
+    # Rank papers and remove any with 0 hits
+    ranked_papers = RankPapers(state['paper_dir'], patterns)
+    ranked_papers_list = [
+        key for key, value in ranked_papers.items()
+        if value != 0
+    ]
 
-    os.makedirs(f'data/accessions/{accession}', exist_ok=True)
-    WriteJson(metadata, f'data/accessions/{accession}/{accession}')
 
-    graph = BuildGraph()
+    for paper in ranked_papers_list:
+        with open(f"{state['paper_dir']}/{paper}", 'r') as f:
+            paper_text = f.read()
 
-    result=graph.invoke({
-    #model
-    'model': model or OLLAMA_MODEL,
-    # Phage Specific metric
-    'accession': accession,
-    'phage': phage, #species name
-    'metadata': metadata,
+        prompt = CLASSIFYTHERMALLITERATUREPROMPT(state['phage'], paper_text, max_chars)
 
-    #  host classification
-    'host': None,
-    'taxonomic_level': None,
-    'host_reasoning': None,
-    'host_confidence': None,
-    'host_source': None,
-    'host_found': False,
+        out = llm.invoke(prompt)
+        print(f'{node}: {out}\n\n')
 
-    # thermal classification
-    'thermal_range': None,
-    'temperature': None,
-    'thermal_reasoning': None,
-    'thermal_confidence': None,
-    'thermal_source': None,
-    'thermal_found': False,
-    'inference_type': None,
+        try:
+            if not out.thermal_found:
+                continue
+        except OutputParserException:
+            continue
 
-    # paper info
-    'paper_dir': f'data/accessions/{accession}/library/accession_lit',
-    'host_paper_dir': None,
-    'host_paper': None,
-    'thermal_paper': None,
-    #may need to add extra paper things e.g. number of papers and current paper/ seperate accession and host papers
 
-    #meta information
-    'duration': 0.0,
-    'decision': '',
-    'nodes': [],
-    'timings': {},
-    'JSONDecodeError': False
-    })
 
-    return result
+        #Update dictionary
+        thermal = out.thermal_range.strip().lower()
+        try:
+            votes[thermal] += 1
+        except KeyError:
+            continue
+
+        # Save reasoning
+        with open(state['thermal_reasoning_file'], 'a') as f:
+            f.write(f'Paper: {paper}\n')
+            f.write(f'Classification: {out.thermal_range}\n')
+            f.write(f'Confidence: {out.thermal_confidence}\n')
+            f.write(f'Inference Type: {out.inference_type}\n')
+            f.write(f'Reasoning: {out.thermal_reasoning}\n\n\n')
+
+
+
+    end=time.time()
+    duration = round((end - start), 2)
+    updated_duration = state['duration'] + duration
+
+    timings = state.get("timings", {}).copy()
+    timings[node] = duration
+
+    return {'duration': updated_duration,
+            'timings': timings,
+            'thermal_votes': votes,
+            'nodes': nodes,
+            'decision': 'ClassifyThermalRangeHostLiteratureVotes'
+            }
+
+
+
+
+def ClassifyThermalRangeHostLiteratureVotes(state: AgentState) -> dict:
+    """Use the LLM to extract host species from paper text."""
+    node = 'ClassifyThermalRangeHostLiterature'
+    nodes = (state.get("nodes") or []) + [node]
+
+    votes = state.get("thermal_votes", {}).copy()
+
+    with open(f"{state['thermal_reasoning_file']}", 'a') as f:
+        f.write(f'=============Reasoning for {state["accession"]} from host literature=============\n')
+
+    start = time.time()
+    model = state.get("model") or OLLAMA_MODEL
+    llm = _build_llm(model)
+    llm = llm.with_structured_output(ThermalOutput)
+    max_chars = _max_paper_chars(model)
+
+    votes = state.get("thermal_votes", {}).copy()
+
+    patterns = {
+        # organisms
+        "mesophile": r"\bmesophil(?:e|ic|es|icity)?\b",
+        "psychrophile": r"\bpsychrophil(?:e|ic|es|icity)?\b",
+        "thermophile": r"\bthermophil(?:e|ic|es|icity)?\b",
+        # temperature concepts
+        "temperature": r"\btemperatur(e|es)?\b",
+        "optimal_growth": r"\boptimal(?:ly)?\s+(growth|temperature|growing)\b",
+        # units
+        "celsius": r"\b\d+(?:\.\d+)?\s?°?\s?[Cc]\b|\bCelsius\b",
+        "kelvin": r"\b\d+(?:\.\d+)?\s?[Kk]\b|\bKelvin\b"
+    }
+
+    # Ranking papers and skipping any with 0 hits for regex
+    ranked_papers = RankPapers(state['host_paper_dir'], patterns)
+    ranked_papers_list = [
+        key for key, value in ranked_papers.items()
+        if value != 0
+    ]
+
+
+    for paper in ranked_papers_list:
+        with open(f"{state['host_paper_dir']}/{paper}", 'r') as f:
+            paper_text = f.read()
+
+        prompt = CLASSIFYTHERMALLITERATUREPROMPT(phage=state['phage'], paper_text=paper_text, max_chars=max_chars)
+
+        out = llm.invoke(prompt)
+        print(f'{node}: {out}\n\n')
+
+        try:
+            if not out.thermal_found:
+                continue
+        except OutputParserException:
+            continue
+
+        # Update dictionary
+        thermal = out.thermal_range.strip().lower()
+        try:
+            votes[thermal] += 1
+        except KeyError:
+            continue
+
+        # Save reasoning
+        with open(state['thermal_reasoning_file'], 'a') as f:
+            f.write(f'Paper: {paper}\n')
+            f.write(f'Classification: {out.thermal_range}\n')
+            f.write(f'Confidence: {out.thermal_confidence}\n')
+            f.write(f'Inference Type: {out.inference_type}\n')
+            f.write(f'Reasoning: {out.thermal_reasoning}\n\n\n')
+
+    end = time.time()
+    duration = round((end - start), 2)
+    updated_duration = state['duration'] + duration
+
+    timings = state.get("timings", {}).copy()
+    timings[node] = duration
+
+    return {'duration': updated_duration,
+            'timings': timings,
+            'thermal_votes': votes,
+            'nodes': nodes,
+            'decision': 'ClassifyThermalForcedVote'
+            }
+
+def ClassifyThermalForcedVote(state: AgentState) -> dict:
+    """Use the LLM to extract host species from metadata."""
+    model = state.get("model") or OLLAMA_MODEL
+    llm = _build_llm(model)
+    llm=llm.with_structured_output(ThermalOutput)
+
+    with open(state['thermal_reasoning_file'], 'a') as f:
+        f.write(f'=============Reasoning for {state["accession"]} from metadata (Forced)=============\n')
+
+    #Defining node and adding it to the list
+    node = "ClassifyThermalForcedVote"
+    nodes = (state.get("nodes") or []) + [node]
+
+    prompt=CLASSIFYTHERMALFORCEDPROMPT(phage=state['phage'], metadata=state['metadata'])
+
+    start=time.time()
+    out = llm.invoke(prompt)
+    print(f'{node}: {out}\n\n')
+    end = time.time()
+    duration = round((end-start),2)
+
+    #update duration
+    updated_duration=state['duration'] + duration
+
+    #update timings
+    timings = state.get("timings", {}).copy()
+    timings[node] = duration
+
+
+    # Update dictionary
+    votes = state.get("thermal_votes", {}).copy()
+    thermal = out.thermal_range.strip().lower()
+
+    try:
+        votes[thermal] += 1
+    except KeyError:
+        return {
+            "thermal_votes": votes,
+            "decision": 'end',
+            "duration": updated_duration,
+            "timings": timings,
+            "nodes": nodes,
+                }
+
+    # Save reasoning
+    with open(state['thermal_reasoning_file'], 'a') as f:
+        f.write(f'Classification: {out.thermal_range}\n')
+        f.write(f'Confidence: {out.thermal_confidence}\n')
+        f.write(f'Inference Type: {out.inference_type}\n')
+        f.write(f'Reasoning: {out.thermal_reasoning}\n\n\n')
+
+
+    return {
+    "thermal_votes": votes,
+    "decision": 'end',
+    "duration": updated_duration,
+    "timings": timings,
+    "nodes": nodes,
+}
+

@@ -1,0 +1,44 @@
+=============Reasoning for YP_009509134 from metadata=============
+Classification: thermophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The title contains the name '[Thermoproteus tenax virus 1]', and 'Thermoproteus' suggests a thermophilic association. The presence of 'Thermoproteus' in the title is used to infer the thermal range.
+
+
+=============Reasoning for YP_009509134 from accession literature=============
+Paper: 2505050.txt
+Classification: thermophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The paper states that the virus TTV1 belongs to the 'thermophilic archaebacterium Thermoproteus tenax strain Kra1'. Although the thermal characteristic of the phage itself is not explicitly stated, the association with a thermophilic host strongly suggests the phage is adapted to high temperatures, leading to the classification of the phage as thermophilic.
+
+
+=============Reasoning for YP_009509134 from host literature=============
+Paper: PMC6339583.1.txt
+Classification: thermophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text explicitly states that the TreT enzyme used is from *Thermoproteus tenax*, and the enzyme is described as a "thermostable enzyme" and that the reaction was incubated "at 70 °C—an elevated temperature that was enabled by the high thermostability of T. tenax TreT." Furthermore, the conclusion notes that "TreT is a thermostable enzyme, which has practical advantages such as extended shelf life and heating of reactions to increase rate..."
+
+
+Paper: PMC7919099.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that the chemoenzymatic synthesis method employs a "highly substrate-tolerant, thermostable trehalose synthase enzyme, TreT from Thermoproteus tenax." Furthermore, when describing the optimization of the TreT method, the authors found that "the enzyme retained optimum activity at 70–90 °C," and "we ran the screening reactions for 1 h at 70 °C prior to quenching and HPLC analysis." The genus *Thermoproteus* is associated with hyperthermophilic archaea, and the text explicitly mentions that "Species in the Thermoproteus genus are hydrogen-sulfur autotrophs that primarily dwell in hot springs and water holes, growing at temperatures up to 95 °C." Since the enzyme is thermostable and active at 70–90 °C, this classifies it as thermophilic (> 45°C).
+
+
+Paper: 36125762.txt
+Classification: thermophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The text mentions the enzyme comes from 'Thermoproteus tenax', which is described as a 'hyperthermophilic crenarchaeon'. Although a specific temperature range for the phage (or enzyme derived from it) is not given, the source organism's classification as 'hyperthermophilic' strongly implies a thermophilic nature for the associated biological components.
+
+
+=============Reasoning for YP_009509134 from metadata (Forced)=============
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The target is 'Thermoproteus tenax virus 1'. The genus 'Thermoproteus' is known to inhabit high-temperature environments. Furthermore, the name 'Thermoproteus' itself strongly suggests a thermophilic nature. Although no explicit temperature range is given, the genus name provides a strong inference pointing towards high-temperature adaptation, classifying it as a thermophile (>45°C).
+
+

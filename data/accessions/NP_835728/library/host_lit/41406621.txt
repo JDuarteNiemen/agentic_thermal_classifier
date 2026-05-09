@@ -1,0 +1,18 @@
+Site-selective CE4 enzyme from Rhodothermus marinus and diversified LmbE-Like catalysis in Bacillus cereus.
+
+Chitooligosaccharides (COS) display diverse biological functions that depend strongly on their
+N-acetylation pattern, motivating enzymatic approaches that enable regioselective deacetylation.
+Here, we identified a CE4 deacetylase, RmCBDA2510 from Rhodothermus marinus that performs strict,
+site-selective, and chain-length-dependent mono-deacetylation of COS. Exoglycosidase probing
+together with MALDI-TOF/TOF MS/MS showed that RmCBDA2510 precisely generates AD (GlcNAc-GlcN), ADA
+(GlcNAc-GlcN-GlcNAc), and AADA (GlcNAc-GlcNAc-GlcN-GlcNAc) from chitobiose, chitotriose, and
+chitotetraose, respectively, revealing a distinctive internal subsite preference. The enzyme is
+thermophilic and alkaline-active, and site-directed mutagenesis identified Asp41 as essential for
+catalysis, establishing RmCBDA2510 as a highly selective biocatalyst for producing structurally
+uniform, partially deacetylated COS. In contrast, the LmbE-like enzyme BCLmbE1534 from Bacillus
+cereus catalyzes both the deacetylation of N-acetylglucosamine glycosides and acylation/trans-
+acylation with short-chain fatty acids and biotin. This represents the first demonstration of trans-
+acylation within the LmbE family and expands its catalytic repertoire beyond simple deacetylation.
+Together, RmCBDA2510 and BCLmbE1534 provide complementary enzymatic platforms for tailoring COS
+structures and diversifying amino-sugar derivatives, thereby broadening the synthetic utility of
+carbohydrate-active deacetylases.

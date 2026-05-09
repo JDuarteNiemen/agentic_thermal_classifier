@@ -1,0 +1,12 @@
+Enzymological characteristics of a novel archaeal dye-linked D-lactate dehydrogenase showing loose binding of FAD.
+
+A gene-encoding a dye-linked D-lactate dehydrogenase (Dye-DLDH) homolog was identified in the genome
+of the hyperthermophilic archaeon Thermoproteus tenax. The gene was expressed in Escherichia coli
+and the product was purified to homogeneity. The recombinant protein exhibited highly thermostable
+Dye-DLDH activity. To date, four types of Dye-DLDH have been identified in hyperthermophilic archaea
+(in Aeropyrum pernix, Sulfolobus tokodaii, Archaeoglobus fulgidus, and Candidatus Caldiarchaeum
+subterraneum). The amino acid sequence of T. tenax Dye-DLDH showed the highest similarity (45%) to
+A. pernix Dye-DLDH, but neither contained a known FAD-binding motif. Nonetheless, both homologs
+required FAD for enzymatic activity, suggesting that FAD binds loosely to the enzyme and is easily
+released unlike in other Dye-DLDHs. Our findings indicate that Dye-DLDHs from T. tenax and A. pernix
+are a novel type of Dye-DLDH characterized by loose binding of FAD.

@@ -1,0 +1,17 @@
+The exploration of dominant spoilage bacteria in blue mussels (Mytilus edulis) stored under different modified atmospheres by MALDI-TOF MS in combination with 16S rRNA sequencing.
+
+Few studies have addressed species-level identification of spoilage bacteria in blue mussels packed
+under modified atmospheres (MAs). We investigated the effect of MAs and seasons on the tentative
+species-level of dominant spoilage bacteria in blue mussels. Summer (s) and winter (w) blue mussels
+were stored at 4 °C in the atmospheres (%CO2/O2/N2): A40s (30/40/30), B60s (40/60/0), C60s
+(0/60/40), A40w (30/40/30), and D75w (25/75/0). In total, 122 culturable isolates were obtained at
+the final stage of shelf life, when mortality was high (56-100%) and total psychrotrophic bacteria
+counted >7 log CFU g-1. Biochemical properties were analyzed using gram reactions, catalase and
+oxidase activities, and salt tolerance tests. Culturable isolates were identified through matrix-
+assisted laser desorption/ionization time-of-flight mass spectrometry (MALDI-TOF MS) and 16 S rRNA
+gene sequence analysis. Spoilage potential tests were investigated by evaluating protease, lipase,
+and fermentation activities as well as gas and H2S production. The culturable isolates showed
+tolerance to varied salt concentrations. Psychromonas arctica, Pseudoalteromonas elyakovii, and
+Shewanella frigidimarina were dominating in specific MAs. Winter blue mussels resulted in a higher
+variation of spoilage bacteria, including S. frigidimarina, S. vesiculosa, S. polaris, Micrococcus
+luteus, Paeniglutamicibacter terrestris sp. nov., and Alteromonas sp.

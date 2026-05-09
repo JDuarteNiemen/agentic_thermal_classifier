@@ -1,0 +1,23 @@
+=============Reasoning for WMT83805 from metadata=============
+Classification: psychrophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is 'arctic sediment', which strongly implies a cold environment, consistent with psychrophile conditions.
+
+
+=============Reasoning for WMT83805 from accession literature=============
+=============Reasoning for WMT83805 from host literature=============
+Paper: PMC11324256.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: For *Psychrosphaera algicola* sp. nov. (G1-22T), the text states: "Growth occurs at 15–30 °C (optimum, 25–30 °C)". For *Paraglaciecola algarum* sp. nov. (G1-23T), the text states: "Growth occurs at 15–30 °C (optimum, 25–30 °C)". The defined range for mesophile is 15–45°C, which encompasses the reported optimal and growth ranges for both phages.
+
+
+=============Reasoning for WMT83805 from metadata (Forced)=============
+Classification: psychrophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The metadata indicates the 'isolation_source' is 'arctic sediment' and provides geographical coordinates (73.640000 N 166.510000 W), which strongly suggests a cold environment. According to the decision rules, if no explicit evidence exists, inference from environmental context is used. Arctic environments are associated with low temperatures, aligning best with the definition of a psychrophile (<15°C).
+
+

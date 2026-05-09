@@ -1,0 +1,24 @@
+Correlation between root exudate composition and beneficial bacteria underlies Fusarium wilt resistance in cucumber.
+
+Rhizosphere microbes regulated by root exudates play important roles in promoting plant growth and
+suppressing soil-borne diseases. However, their functions in monoculture systems are not well
+studied. Here, we integrated metabolomic and microbiome analyses to compare root exudate profiles
+and rhizosphere communities of Fusarium oxysporum f. sp. cucumerinum (Foc) resistant (CL11) and
+susceptible (ZN6) cultivars grown in naturally infested, continuous-cropping soil. The asymptomatic,
+resistant cultivar CL11 (CL11H) exhibited a metabolic signature enriched in defensive compounds
+(ganoderic acid I and L-isoleucine) and harbored a beneficial bacterial community dominated by
+Streptomyces, Cellvibrio, and Ensifer. While the asymptomatic susceptible cultivar ZN6 (ZN6H) showed
+elevated levels of primary metabolites (methylmalonic and succinic acids) and an enrichment in the
+relative abundance of Amycolatopsis and Flavobacterium. Upon symptom development, susceptible
+symptomatic ZN6 (ZN6D) mounted a "cry-for-help" response, accumulating L-tryptophan and citric acid,
+which correlated with recruitment of Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium. Conversely,
+resistant symptomatic CL11 (CL11D) deployed a metabolic profile (L-3-cyanoalanine, 4-hydroxybenzoyl
+glucose, D-fructose), which enriched Bacillus and Cellvibrio. Exogenous application of citric acid,
+L-isoleucine, L-tryptophan, hexadecanedioic acid, and succinic acid to susceptible ZN6 plants
+significantly suppressed wilt disease. These metabolites restructured the rhizosphere bacterial
+communities, demonstrated by enrichments of Pseudomonas, Burkholderia-Caballeronia-Paraburkholderia,
+and Comamonadaceae by L-tryptophan, as well as Pseudomonas and Bacillus promoted by L-isoleucine and
+citric acid, respectively. Moreover, succinic acid suppressed disease through microbiome-mediated
+mechanisms despite its in vitro positive effect on Foc growth. These findings demonstrate that root
+exudates are linked to cultivar-specific disease outcomes, and that target metabolite application
+can suppress Fusarium wilt through microbiome-mediated mechanisms or a combined antifungal mode.

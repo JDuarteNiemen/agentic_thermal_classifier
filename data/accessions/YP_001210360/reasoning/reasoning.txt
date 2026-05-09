@@ -1,0 +1,51 @@
+=============Reasoning for YP_001210360 from metadata=============
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The isolation source is explicitly stated as 'hot acidic (93degC, pH1.5) spring'. The temperature 93degC indicates a thermophilic environment.
+
+
+=============Reasoning for YP_001210360 from accession literature=============
+Paper: 17412384.txt
+Classification: thermophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The paper states that the Acidianus bottle-shaped virus, ABV, "infects strains of the hyperthermophilic archaeal genus Acidianus". Since the phage infects a hyperthermophilic host, the phage is inferred to be adapted to high temperatures, classifying it as a thermophile (> 45°C).
+
+
+=============Reasoning for YP_001210360 from host literature=============
+Paper: PMC11018855.1.txt
+Classification: thermophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text explicitly states that *Acidianus brierleyi* "grows between 45 to 75 °C (Topt 70 °C)" and refers to it as a "hyperthermoacidophilic archaeon." The definition for thermophile is > 45°C, which encompasses the stated optimal growth temperature of 70°C.
+
+
+Paper: PMC11681762.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper discusses microbial communities from hot springs in the Kuril Islands. The general temperature range reported for the sampling sites is 45–94 °C. The Acidic Archaeal group (AA) is explicitly associated with temperatures of 50–94 °C, and the discussion notes that Archaea were absolutely dominant in springs with low pH and higher temperatures (AA), matching classical views of 'major lovers' of the most extreme habitats. Furthermore, the general description of the environment mentions 'hot springs' and the temperature range of 30 to 100 °C. Since the highest recorded temperatures are 94 °C, this strongly indicates a thermophilic environment (> 45°C).
+
+
+Paper: PMC11447690.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The table in the paper lists the optimal temperature (Topt) for several species, including *Acidianus brierleyi*. For *Acidianus brierleyi*, the Topt is explicitly stated as 70°C in Table 1. The definition for thermophile is > 45°C, and 70°C falls into this category. Furthermore, the text mentions that 'extreme thermoacidophiles' are studied, and the general conditions used for bioleaching experiments were 70–75 °C.
+
+
+Paper: 40183960.txt
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper describes the growth energetics of *Acidianus ambivalens* under anaerobic conditions at 76 °C. Although the target phage is 'Acidianus bottle-shaped virus' and the paper discusses the host bacterium *Acidianus ambivalens*, the only temperature information provided relates to the host's optimal/tested growth condition (76 °C). Since 76 °C is significantly above 45°C, this suggests a thermophilic association, which is the only thermal characteristic that can be inferred.
+
+
+=============Reasoning for YP_001210360 from metadata (Forced)=============
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The metadata explicitly states the isolation source as 'hot acidic (93degC, pH1.5) spring'. The temperature of 93°C falls well within the definition of a thermophile (>45°C).
+
+

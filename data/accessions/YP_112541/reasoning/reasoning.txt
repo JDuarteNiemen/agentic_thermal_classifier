@@ -1,0 +1,23 @@
+=============Reasoning for YP_112541 from metadata=============
+Classification: psychrophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The isolation source is listed as 'Arctic Flavobacterium'. Arctic environments are associated with cold temperatures, suggesting a psychrophilic nature.
+
+
+=============Reasoning for YP_112541 from accession literature=============
+Paper: 16932843.txt
+Classification: psychrophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The paper states that the phage infects a "psychrophilic Flavobacterium isolate from Arctic sea-ice." Although the phage itself is not explicitly assigned a thermal range, the association with a psychrophilic host strongly suggests the phage is adapted to cold conditions. The text also mentions that the phage genome is the first to be described of a "cultivated virus infecting a psychrophilic host".
+
+
+=============Reasoning for YP_112541 from host literature=============
+=============Reasoning for YP_112541 from metadata (Forced)=============
+Classification: psychrophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The metadata explicitly states the 'isolation_source' as 'Arctic Flavobacterium'. Arctic environments are characterized by cold temperatures, which strongly suggests that the associated phage, Flavobacterium phage 11b, is adapted to cold conditions. According to the definitions, psychrophiles are associated with cold environments (<15°C). Therefore, the classification is psychrophile.
+
+

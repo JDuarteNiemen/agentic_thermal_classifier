@@ -1,0 +1,15 @@
+Novel Catabolic Pathway of Mesotrione and Its Metabolite AMBA by a Newly Mesotrione-Degrading Strain Staphylococcus saprophyticus B05.
+
+Mesotrione is widely used in agriculture as an herbicide. However, its persistence and the
+incomplete degradation of its metabolite, 2-amino-4-methylsulfonylbenzoic acid (AMBA), raise
+environmental concerns. Here, three mesotrione-degrading isolates, B05, B33, and U410, were screened
+from activated sludge and identified as Staphylococcus saprophyticus, Pseudochelatococcus sp., and
+Flavobacterium sp., respectively. Isolate B05 efficiently degraded both mesotrione and AMBA, while
+B33 and U410 converted only mesotrione to AMBA. A catabolic pathway in B05 was proposed, involving
+nitro reduction or β-diketone cleavage to AMBA. AMBA is further deaminated to
+4-methylsulfonylbenzoic acid, then decarboxylated to methyl phenyl sulfone, and subsequently
+demethylated to benzenesulfonic acid. Furthermore, a novel mesotrione nitroreductase, SsMNR4,
+sharing only 13.3-46.1% sequence similarity with reported enzymes, was identified. The specific
+activity of SsMNR4 toward mesotrione was 87.4 nmol/min/mg with NADH and 84.3 nmol/min/mg with NADPH.
+These findings clarify the downstream degradation of AMBA and enhance our understanding of
+mesotrione detoxification and bioremediation.

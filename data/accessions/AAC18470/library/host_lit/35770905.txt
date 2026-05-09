@@ -1,8 +1,0 @@
-Streptocinnamides A and B, Depsipeptides from Streptomyces sp. KMM 9044.
-
-The bacterium Streptomyces sp. KMM 9044 from a sample of marine sediment collected in the
-northwestern part of the Sea of Japan produces highly chlorinated depsiheptapeptides
-streptocinnamides A (1) and B (2), representatives of a new structural group of antibiotics. The
-structures of 1 and 2 were determined using nuclear magnetic resonance and mass spectrometry studies
-and confirmed by a series of chemical transformations. Streptocinnamide A potently inhibits
-Micrococcus sp. KMM 1467, Arthrobacter sp. ATCC 21022, and Mycobacterium smegmatis MC2 155.

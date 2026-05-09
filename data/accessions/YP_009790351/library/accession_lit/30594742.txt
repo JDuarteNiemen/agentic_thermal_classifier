@@ -1,0 +1,25 @@
+Isolation and characterization of virulent phages infecting Shewanella baltica and Shewanella putrefaciens, and their application for biopreservation of chilled channel catfish (Ictalurus punctatus).
+
+The growth of Shewanella spp., mainly S. baltica and S. putrefaciens, is responsible for the
+spoilage of chilled fresh fish. Phages are an alternative tool to control bacterial growth. In this
+study, virulent phages infecting 4 S. baltica and 6 S. putrefaciens strains were isolated and
+characterized. Transmission electron microscopy revealed that 6 out of 10 phages (3 phages infecting
+S. baltica and 3 phages infecting S. putrefaciens) belonged to Myoviridae, while the other 4 phages
+(1 phage infecting S. baltica and 3 phages infecting S. putrefaciens) belonged to Siphoviridae.
+Phage SppYZU01 and SppYZU05 showed the broadest host range, being lytic towards all the 4 S. baltica
+strains and 5 out of the 6 S. putrefaciens strains, respectively. The genome sequence of SppYZU01
+had no similarity with known genome sequences, while that of SppYZU05 was 88.5% similar to the
+genome of a virulent S. putrefaciens-infecting phage (Spp001). According to the host range and lytic
+activity, 3 phages, including SppYZU01, SppYZU05, and SppYZU06, were combined into a cocktail
+(designated as SPMIX3-156). SPMIX3-156 showed potential as an antimicrobial agent to control S.
+baltica and S. putrefaciens strain growth in catfish matrices. Bacterial growth in the catfish
+muscle juice inoculated with 104 colony-forming units (CFU)/mL of Shewanella strains was partially
+inhibited by 105 plaque-forming units (PFU)/mL of SPMIX3-156 at both 25 °C and 4 °C. The catfish
+fillets inoculated with Shewanella strains were used as a model to evaluate the biopreservative
+effects of SPMIX3-156. Total viable counts of fillet samples treated with 107 PFU/mL of SPMIX3-156
+were reduced by 3.21 and 2.75 log units after 1 day at 25 °C and 10 day at 4 °C, respectively,
+compared to those of untreated samples. Fillet quality indices, including pH, total volatile basic
+nitrogen, and sensory value of the SPMIX3-156-treated samples, considerably improved compared to
+those of the control samples at both 4 °C and 25 °C. Our results suggest that SPMIX3-156 is a
+promising biological agent against S. baltica and S. putrefaciens, and may have a potential use in
+chilled fish fillet biopreservation.

@@ -1,0 +1,51 @@
+=============Reasoning for YP_006489330 from metadata=============
+Classification: psychrophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The metadata lists the 'lab_host' as 'Colwellia psychrerythaea strain 34H'. The species name 'psychrerythaea' strongly implies adaptation to cold environments, classifying it as psychrophile.
+
+
+=============Reasoning for YP_006489330 from accession literature=============
+Paper: 23224375.txt
+Classification: psychrophile
+Confidence: high
+Inference Type: inferred
+Reasoning: The paper describes the bacteriophage 9A as 'cold-active' and states that it replicates in the host, 'Colwellia psychrerythraea strain 34H (between -12 and 8 °C)'. The host's temperature range is explicitly given as being in the psychrophilic range. The text also mentions 'molecular adaptation to low temperature' and 'restricted temperature range for replication as compared to host', strongly linking the phage's biology to the cold environment of the host.
+
+
+=============Reasoning for YP_006489330 from host literature=============
+Paper: PMC11858272.1.txt
+Classification: psychrophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text explicitly states: "Cp34H is an obligately psychrophilic strain with a temperature growth range of −12 to 19 °C."
+
+
+Paper: PMC5718298.1.txt
+Classification: psychrophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper discusses the structural characterization of a polysaccharide from *Colwellia psychrerythraea* 34H. The text explicitly states that *C. psychrerythraea 34H* is a "psychrophilic $\gamma$-proteobacterium isolated from Arctic marine sediments" and that "C. psychrerythraea grows in a temperature range of approximately -1 °C to 10 °C, with cardinal growth optimum temperatures of 8 °C." Since the phage is not mentioned, but the host bacterium (*Colwellia psychrerythraea*) is characterized as psychrophilic and the study focuses on the host's components, the thermal characteristic is inferred from the host's known biology.
+
+
+Paper: PMC5517026.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states: "CpsIadA has maximal activity at pH 8–8.5 and 45°C, and was completely inactivated at 60°C." This indicates an optimal temperature of 45°C, which falls within the mesophile range (15–45°C).
+
+
+Paper: PMC6390093.1.txt
+Classification: psychrophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text explicitly states that the research group focused on the mechanism of action of oligoribonuclease (CpsORN) from the "psychrophilic gram-negative bacterium Colwellia psychrerythraea strain 34H" and that "Cold-active enzymes have high catalytic efficiency at low and moderate temperatures". Furthermore, the results section notes, "These results suggest that CpsORN has typical properties of cold-active enzymes." The temperature-dependent activity change was studied in the range of 10–60°C, with maximum activity at 40°C and significant activity remaining at 10°C, supporting its cold-active nature.
+
+
+=============Reasoning for YP_006489330 from metadata (Forced)=============
+Classification: psychrophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The metadata explicitly lists the 'lab_host' as 'Colwellia psychrerythaea strain 34H'. The genus 'psychrerythaea' strongly suggests an association with psychrophilic (cold-loving) environments. Although no explicit temperature range is given for the phage itself, the association with a psychrophilic host is the strongest available piece of evidence, leading to the inference of a psychrophilic thermal range.
+
+

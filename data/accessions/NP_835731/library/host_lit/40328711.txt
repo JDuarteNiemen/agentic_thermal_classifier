@@ -1,0 +1,10 @@
+[Construction of an intein-mediated Split-Cre system].
+
+The Split-Cre system consists of two inactive polypeptides: NCre and CCre, which can be recombined
+into an active full-length Cre under certain conditions. This system is typically used with LoxP. To
+develop an efficient Split-Cre system, this study used Rma intein from Rhodothermus marinus to split
+Cre and screened out the split site S102 which could efficiently mediate the recombination of Cre in
+the "Traffic Light" reporter cell line. Moreover, the S102 Split-Cre system was delivered to mice by
+dual-adeno-associated virus (AAV), and it was demonstrated that the efficiency of the Rma intein-
+mediated S102 Split-Cre system was comparable to the full-length Cre in mice. This system lays a
+foundation for both basic and applied research on Split-Cre.

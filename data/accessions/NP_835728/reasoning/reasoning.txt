@@ -1,0 +1,47 @@
+=============Reasoning for NP_835728 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata mentions the phage is 'similar to major head protein [Rhodothermus phage RM378]' and the host is 'Rhodothermus marinus'. However, no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is provided in the metadata.
+
+
+=============Reasoning for NP_835728 from accession literature=============
+Paper: 24318108.txt
+Classification: thermophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper states that the phage was isolated from the thermophilic bacterium Rhodothermus marinus. Furthermore, regarding its stability, it is noted that "The titer remained stable up to 65 °C but the phage lost viability when incubated at higher temperatures." Since 65 °C is significantly above the mesophilic range (15–45°C) and indicates stability at high temperatures, this supports a thermophilic classification.
+
+
+Paper: 15579472.txt
+Classification: thermophile
+Confidence: high
+Inference Type: inferred
+Reasoning: The text states that the polynucleotide kinase is 'from the thermophilic bacteriophage RM378' and that the enzyme was 'biochemically characterized and shown to possess 5'-kinase activity on RNA and single- and double-stranded DNA at elevated temperatures.' Furthermore, the phage infects the 'thermophilic eubacterium Rhodothermus marinus.' Since the phage is explicitly stated to be from a thermophilic source and its enzyme activity is tested at elevated temperatures, the phage is classified as thermophilic.
+
+
+=============Reasoning for NP_835728 from host literature=============
+Paper: 41406621.txt
+Classification: thermophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text states, "The enzyme is thermophilic and alkaline-active," referring to RmCBDA2510, which is the enzyme associated with the phage's host, Rhodothermus marinus.
+
+
+Paper: 39970754.txt
+Classification: thermophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The paper mentions that the enzyme's half-life was 'over 8 days at 50 ℃'. Since 50°C is greater than 45°C, this indicates thermophilic characteristics.
+
+
+=============Reasoning for NP_835728 from metadata (Forced)=============
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: 1. **Analyze Metadata:** The target phage is 'Rhodothermus phage RM378', and its host is 'Rhodothermus marinus'.
+2. **Determine Context:** The genus 'Rhodothermus' is known to contain thermophilic bacteria, as indicated by the 'thermo' prefix and general knowledge of the genus.
+3. **Apply Decision Rules:** Since no explicit temperature range is given, inference must be used. The association with a thermophilic host strongly suggests the phage itself is adapted to high temperatures.
+4. **Classification:** Therefore, the most probable classification is thermophile (>45°C).
+
+

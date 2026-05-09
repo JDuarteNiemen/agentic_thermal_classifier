@@ -3,30 +3,32 @@
 **Model:** qwen3.5  
 
 ## Overview
-Testing how various models performed
+This branch adds a new strategy for classifying proteins into a thermal range.
+It is a more comprehensive and longer version. ach paper is used as a vote for the final classification
 
 Expanded dataset to 20 of each thermal range
-Made prompts more consistent between each other.
 Moving forward using gemma4 due to its performance in speed and accuracy
 
-# V6 Results
+# Democratic Results
 
-![Confusion Matrix](results/confusion_matrix.png)
+![Confusion Matrix](results/democratic_confusion_matrix.png)
 
               precision    recall  f1-score   support
 
-        None       0.00      0.00      0.00         0
-   mesophile       0.63      0.95      0.76        20
+   mesophile       0.65      1.00      0.78        20
+        none       0.00      0.00      0.00         0
 psychrophile       1.00      0.40      0.57        20
  thermophile       1.00      1.00      1.00        20
 
-    accuracy                           0.78        60
-   macro avg       0.66      0.59      0.58        60
-weighted avg       0.88      0.78      0.78        60
+    accuracy                           0.80        60
+   macro avg       0.66      0.60      0.59        60
+weighted avg       0.88      0.80      0.79        60
 
 
- Total Duration: 51.95 minutes
+ Total Duration: 142.82 minutes
 
 
-So far the results for psychrophiles are still really bad. To improve this i will begin to look at different approaches.
-
+Democratic version results in one more correct classification for mesophiles, however there is still very poor performance
+for psychrophiles
+The exact same results are acquired from the fast classification and the democratic classification in terms of pychrophiles.
+Mesophiles see a performance increase with one extra correct classification

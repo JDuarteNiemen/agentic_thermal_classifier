@@ -1,0 +1,51 @@
+=============Reasoning for A7XXB7 from metadata=============
+Classification: thermophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The organism listed is 'Thermus phage P23-45' and the host is 'Thermus thermophilus'. The genus 'Thermus' is associated with thermophilic organisms, implying a thermophilic thermal range.
+
+
+=============Reasoning for A7XXB7 from accession literature=============
+Paper: PMC6397560.1.txt
+Classification: thermophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text explicitly states: "...we established in vitro packaging for the thermophilic bacteriophage P23-45 of Thermus thermophilus. Both the unexpanded procapsid and the expanded mature capsid can package DNA in the presence of packaging ATPase over the 20 °C to 70 °C temperature range, with optimum activity at 50 °C to 65 °C." The phage is identified as 'thermophilic' and the host is 'Thermus thermophilus'. The definition for thermophile is > 45°C, which aligns with the stated optimal activity range (50°C to 65°C).
+
+
+=============Reasoning for A7XXB7 from host literature=============
+Paper: PMC13039148.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that the host bacterium, *Thermus thermophilus*, is a "thermophilic bacterium" in the Introduction section: "Thermus thermophilus is a Gram-negative, thermophilic bacterium that, due to its efficient DNA uptake system6,7, has been used as a model system for studying T4P assembly and natural transformation for many years." The phage is associated with this host, and the culture conditions used for the experiments further confirm this, as the cells were incubated at 68°C for negative stain EM and 48h at 68°C for cryoET, and the host is identified as *T. thermophilus*.
+
+
+Paper: PMC13140390.1.txt
+Classification: thermophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The paper states that the genus Thermus is "characterized by extreme thermophilic bacteria that grow at temperatures ranging from 55°C to 80°C (Da Costa et al. 2006)". The phage is associated with the study of *Thermus thermophilus*, which belongs to this genus. Therefore, the phage is inferred to be associated with a thermophilic environment.
+
+
+Paper: PMC12980113.1.txt
+Classification: thermophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The sensor utilizes the glucose-binding protein (ttGBP) from *Thermus thermophilus*. The text states: "...the glucose‐binding protein from T. thermophilus..." and later, "Proteins from thermophiles often exhibit enhanced stability. For generating a Matryoshka‐type glucose sensor, the glucose‐binding protein from Thermus thermophilus... was chosen as the recognition element..."
+
+
+Paper: 41906752.txt
+Classification: thermophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The paper discusses the laccase from 'hyperthermophilic Thermus thermophilus (TtL) laccase'. Although no specific optimal temperature is given for the phage, the host/enzyme source is explicitly identified as 'hyperthermophilic', which implies a thermophilic nature. The text also mentions 'engineering of extremophilic laccase for high temperature industrial application.'
+
+
+=============Reasoning for A7XXB7 from metadata (Forced)=============
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The target phage is named 'Thermus phage P23-45' and its host is listed as 'Thermus thermophilus'. The genus 'Thermus' is well-known for containing thermophilic organisms. Therefore, it is strongly inferred that the phage is adapted to high-temperature environments, classifying it as a thermophile (>45°C).
+
+

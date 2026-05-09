@@ -1,0 +1,26 @@
+=============Reasoning for NP_046847 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the lab host ('Mycobacterium smegmatis mc2 155') and collection location ('USA: Los Angeles, California'), but no explicit or strongly implied temperature range (psychrophile, mesophile, or thermophile) is stated for the phage or its host.
+
+
+=============Reasoning for NP_046847 from accession literature=============
+=============Reasoning for NP_046847 from host literature=============
+Paper: PMC12838053.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that the M. smegmatis derivative strains were grown in 7H9 medium at 37 °C for 1–3 days, and the cold sensitivity assay was performed using incubation temperatures of 42 °C, 37 °C, 30 °C, and 20 °C. The optimal growth temperature mentioned for the WT strain is 37 °C, which falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for NP_046847 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. Check for explicit thermal data: The metadata does not contain any explicit information regarding the optimal growth temperature or the environmental temperature range for Mycobacterium phage D29.
+2. Check for environmental context: The metadata provides geographical coordinates (USA: Los Angeles, California) and collection details, but these do not specify a narrow, defining temperature range for the phage itself.
+3. Apply decision rules: Since no explicit evidence exists, and the environmental context is too broad to confidently assign psychrophile or thermophile, the system must default to the 'mesophile' classification as per the mandatory fallback rule (Rule 4).
+4. Conclusion: Assign 'mesophile' with low confidence due to the lack of specific thermal data.
+
+

@@ -1,0 +1,25 @@
+=============Reasoning for NP_040587 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Escherichia phage Lambda') and its host ('Escherichia coli'), but no explicit or strongly implied temperature ranges (psychrophile, mesophile, or thermophile) are present.
+
+
+=============Reasoning for NP_040587 from accession literature=============
+Paper: 3156406.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states that the fragment mediated antitermination of transcription at "30 degrees C". It also states that "At 42 degrees C, however, antitermination at the lambda tL1 terminator was abolished." Since 30°C falls within the mesophile range (15–45°C), and the experiment details specific temperatures within this range, the characteristic is mesophilic.
+
+
+=============Reasoning for NP_040587 from host literature=============
+=============Reasoning for NP_040587 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (Escherichia phage Lambda) and its host (Escherichia coli). 
+2. There is no explicit mention of optimal growth temperature, isolation temperature, or environmental temperature range.
+3. Based on the host organism, *Escherichia coli*, which is a well-known mesophile, and the lack of any temperature-specific data, the most probable classification is mesophile, following the fallback rule (Rule 4).
+
+

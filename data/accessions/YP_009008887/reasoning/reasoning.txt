@@ -1,0 +1,37 @@
+=============Reasoning for YP_009008887 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the phage name, host name ('Shewanella putrefaciens'), and accession details, but no explicit or strongly implied temperature or environmental condition (psychrophile, mesophile, or thermophile) is mentioned.
+
+
+=============Reasoning for YP_009008887 from accession literature=============
+Paper: 30594742.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The study tested the inhibition of bacterial growth (and thus the phage activity) in catfish matrices at 25°C and 4°C. The optimal growth conditions for the host bacteria (Shewanella spp.) are related to the spoilage of 'chilled fresh fish,' which implies refrigeration temperatures. The tested temperatures (4°C and 25°C) fall within the mesophilic range (15–45°C). Since the phage activity is tested under these conditions, and the host bacteria are associated with spoilage in chilled fish, the phage's activity is characterized in a mesophilic context. Specifically, the text mentions inhibition at '25 °C and 4 °C' and 'both 4 °C and 25 °C' for fillet quality indices.
+
+
+Paper: 24214837.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The study investigates the effect of bacteriophage Spp001 on spoilage organisms in fish fillets stored under 'chilled storage' and specifically notes its effectiveness 'even at low temperature (4°C)' and 'under chilled conditions'. Since the optimal conditions tested and discussed are low temperatures (4°C), and the definition for mesophile is 15–45°C, the most appropriate classification based on the operational environment described is mesophile, as 4°C falls within or near the lower end of the mesophilic range, and no other specific optimal temperature is given for the phage itself. The host/environment is kept chilled (4°C).
+
+
+=============Reasoning for YP_009008887 from host literature=============
+Paper: PMC13074001.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper states that the SA-SCNPs demonstrated excellent stability across a wide temperature range, specifically mentioning stability at "−18 °C, 4 °C, and 25 °C" in Section 2.6.3. The antibacterial activity was tested by culturing bacteria at "30 °C" (Section 2.7). The optimal growth temperature for the host bacteria, Shewanella putrefaciens, is not explicitly given, but the general spoilage conditions and testing temperatures (4 °C, 25 °C, 30 °C) fall within the mesophilic range (15–45°C). The conclusion summarizes the stability across "−18 to 25 °C," which is consistent with mesophilic application.
+
+
+=============Reasoning for YP_009008887 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Shewanella phage Spp001) and its host (Shewanella putrefaciens). 2. No explicit thermal range data (optimal growth temperature, isolation temperature, etc.) is present in the metadata. 3. Therefore, no classification can be made based on explicit evidence. 4. According to the decision rules, if environmental context is weak or absent, the system must default to 'mesophile'.
+
+

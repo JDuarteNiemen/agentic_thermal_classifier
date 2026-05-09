@@ -1,0 +1,24 @@
+Bioinspired synergistic chitosan-graphene-tannin hydrogel orchestrates inflammation resolution and accelerates skin tissue repair.
+
+Wound healing remains a major clinical challenge due to the complex metabolic disturbances present
+within the wound microenvironment. In this study, we report the development and comprehensive
+validation of a novel multifunctional hydrogel composed of chitosan (CS), reduced graphene oxide
+(rGO), and tannins (TA) (CS-rGO-TA), specifically engineered as an advanced wound dressing. The
+hydrogel was thoroughly characterized using SEM to examine its porous microstructure, FTIR to
+analyze component interactions, the DPPH assay to assess antioxidant capacity, and total phenols to
+evaluate the release kinetics of TA. Antibacterial activity was tested in vitro against Escherichia
+coli and Staphylococcus aureus using standard colony-forming unit assays. Biocompatibility and
+regenerative potential were assessed through cell viability and migration assays using human dermal
+fibroblasts. In vivo evaluation included a skin irritability model in guinea pigs and a full-
+thickness excisional wound model in rats, divided into four treatment groups. Wound closure
+progression was monitored over time, and histological analysis was performed using hematoxylin and
+eosin (H&E), Mallory, and Masson's Trichrome staining to assess tissue morphology and collagen
+deposition. The CS-rGO-TA3 hydrogel demonstrated controlled and sustained TA release, strong
+antioxidant and antibacterial properties, and excellent biocompatibility, with no signs of
+irritation or adverse effects. Its application significantly accelerated wound closure and promoted
+organized deposition of collagen (types I and III). Molecular analysis revealed early resolution of
+inflammation, enhanced angiogenesis, and polarization of macrophages toward a reparative M2
+phenotype, as evidenced by modulation of markers such as MPO, CD68, ARG1, and interleukins IL-6,
+IL-10, IL-1β, and IL-1rn. Collectively, these findings highlight the CS-rGO-TA3 hydrogel as a safe
+and effective therapeutic platform with strong potential for tissue regeneration and clinical wound
+management.

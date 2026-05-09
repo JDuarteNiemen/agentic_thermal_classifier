@@ -1,0 +1,146 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Microbiol Resour Announc
+Journal ID: Microbiol Resour Announc
+Journal ID: mra
+
+Microbiology Resource Announcements
+
+EISSN: 2576-098X
+Publisher: American Society for Microbiology (ASM)
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC13151707
+PMID: 42003638
+DOI: 10.1128/mra.00866-25
+Article ID: mra00866-25
+Article ID: mra.00866-25
+Article version: 1
+Subjects: Genome Sequences
+
+Complete genome of marine flavobacterium Dokdonia sp. strain Dokd-P16 isolated from the low-iron waters of the subarctic Northeast Pacific Ocean
+
+https://orcid.org/0000-0003-2921-7476 Alqattan Anwar 1 Funding acquisition Methodology Writing – original draft Writing – review and editing anwar.alqattan@ku.edu.kw
+https://orcid.org/0000-0002-0372-0033 Suttle Curtis A. 1 2 3 4 Funding acquisition Project administration Supervision Validation Writing – review and editing
+Maldonado Maria T. 1 Methodology Project administration Resources Supervision Validation Visualization Writing – original draft Writing – review and editing
+1 Department of Earth, Ocean and Atmospheric Sciences, The University of British Columbia 8166 https://ror.org/03rmrcq20 , Vancouver , British Columbia , Canada
+2 Department of Microbiology and Immunology, University of British Columbia 8166 https://ror.org/03rmrcq20 , Vancouver , British Columbia , Canada
+3 Department of Botany, University of British Columbia 8166 https://ror.org/03rmrcq20 , Vancouver , British Columbia , Canada
+4 Institute for the Oceans and Fisheries, University of British Columbia 8166 https://ror.org/03rmrcq20 , Vancouver , British Columbia , Canada
+Editor Becket Elinne California State University San Marcos , San Marcos, California, USA
+
+Address correspondence to Anwar Alqattan, anwar.alqattan@ku.edu.kwPresent address: Department of Marine Science, Kuwait University, Fintas, Safat, Kuwait
+
+The authors declare no conflict of interest.
+
+Publication date: 2026 May
+Electronic publication date: 2026 Apr 20
+Volume: 15
+Issue: 5
+Electronic Location ID: e00866-25
+Received 2025 Aug 20; Accepted 2026 Feb 22
+Copyright: Copyright © 2026 Alqattan et al.
+Copyright year: 2026
+Copyright holder: Alqattan et al.
+
+License: This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International license.
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Keywords: heterotrophic bacterium, Dokdonia, iron limitation, flavobacterium, proteorhodopsin
+
+Funding: Kuwait Foundation for the Advancement of Sciences http://dx.doi.org/10.13039/501100003286 CB18-64SE-01 Alqattan Anwar Natural Sciences and Engineering Research Council of Canada http://dx.doi.org/10.13039/501100000038 RGPIN-2020-06519 Suttle Curtis A.
+Count: 0
+Count: 3
+Figure count: 1
+Table count: 1
+Reference count: 26
+Page count: 5
+
+cover-date: May 2026
+
+==============================
+ABSTRACT
+
+The genome of Dokdonia sp. strain Dokd-P16, isolated from iron-limited waters of the subarctic Northeast Pacific Ocean, shows evidence of adaptation to iron/nutrient-limiting conditions. These include coding sequences for two putative rhodopsins and for proteins involved in iron acquisition and homeostasis, gliding motility and hydrolysis of complex carbohydrates.
+
+ANNOUNCEMENT
+
+Most members of phylum Bacteriodota carry putative genes for gliding motility and hydrolytic enzymes to degrade algal polymers under nutrient-limited conditions (1–3). Trace metals, like iron, influence their genomic traits that rely on iron-containing proteins for biochemical processes (4).
+
+The proteorhodopsin-containing gram-negative, marine heterotrophic flavobacterium Dokdonia sp. strain Dokd-P16 was isolated from the iron-limited surface layers at Station P16 (49°17.00 and 134°40.00, Cruise, 22 May–9 June 2012) in the Northeast (NE) Pacific Ocean, which is a part of the high-nutrient, low-chlorophyll region, well-established as iron-limited sites through enrichment bioassays, dissolved iron measurements, and regional mesoscale iron-enrichment experiments (5–9).
+
+Samples were serially diluted up to 10⁻5 and plated on marine agar containing 0.05 g L⁻¹ of a 1:1 mix of bactopeptone and casein hydrolysate (6, 7), prepared in 0.22 μm filtered seawater collected from Station P16. Colonies were subsequently purified by quadrant streaking onto CMP agar plates and incubation at 19 ± 1°C for 24–48 h (6, 7). Pure cultures were inoculated to CMP liquid medium and incubated at 19 ± 3°C for 24 h in light, without shaking. Genomic DNA was extracted using phenol–chloroform method with minor modifications (10). Cells were treated with lysozyme (5 mg/mL, 37°C, 30 min), followed by 1% SDS and proteinase K (200 µg/mL, 55°C, 1 h) and RNase A (100 µg/mL, 37°C, 2 h). DNA was purified using phenol:chloroform:isoamyl alcohol (25:24:1) with chloroform re-extraction and precipitated with 0.5 volume 7.5 M ammonium acetate and two volumes isopropanol (−20°C, 1 h).
+
+Ten micrograms of genomic DNA was sequenced using Pacific Biosciences RSII sequencer (University of Delaware Sequencing and Genotype Center, USA). Samples were prepared using the SMRT bell Template Prep Kit 1.0 (PacBio), and size selection was performed using BluePippin (Sage Science, USA) with a 10 kb cutoff. PacBio generated a total of 96,700 reads, and raw reads were processed using the SMRT Analysis pipeline, to remove adapter sequences and filter subreads, resulting in 40,583 reads with an N50 read length of 15,235 bp. The genome was assembled using PacBio’s HGAP (ver3) (10) with no detectable plasmids. Additionally, de novo assembly using Canu (v2.1.1) identified overlapping contig ends, and the chromosome was circularized using Circlator v1.4.1 (11, 12). The Dokd-P16 consists of a circular double-stranded genome of 3,623,447 bp, with an average Guanine-Cytosine (GC) content of 37.16% (Fig. 1). CheckM (Ver 1.1.3) analysis showed a completeness of 99.24% with zero contamination (13) (Table 1).
+
+Fig 1 Circular genomic map of Dokdonia sp. strain Dokd-P16 generated using the CGview server. The outermost to innermost rings of the map represent the following: (i) Clusters of Orthologus Groups (COG) functional categories for forward strand coding sequences; (ii) forward strand sequence representing the locations of identified genes; (iii) reverse strand sequence representing locations of identified genes; (iv) COG functional categories for reverse strand coding sequences; (v) the black ring shows GC content; and (vi) GC skew, with the green and purple bands representing positive and negative values, respectively.
+
+Circular genomic map of Dokdonia sp. strain Dokd-P16 showing gene distributions on forward and reverse strands, COG functional categories, GC content, and GC skew with positive green and negative purple values.
+
+TABLE 1 General features of Dokdonia sp. strain Dokd-P16 genome in comparison to other Dokdonia species
+
+Parameters	Dokdonia sp. Dokd-P16	Dokdonia sp. 4H-3-7-5	Dokdonia sp. PRO95	Dokdonia donghaensis MED134	Dokdonia donghaensis DSW-1	Dokdonia pacifica DSM 25597	Dokdonia sinensis SH27	Dokdonia sp. Hel_I_63	
+Size (bp)	3,623,447	3,389,993	3,305,093	3,301,953	3,219,590	5,520,745	3,651,050	3,472,909	
+% G + C	37.16%	37.29%	37.38%	38.16%	38.07%	34.10%	39.53%	37.26%	
+Predicted genes	3,202	3,048	3,038	2,999	2,923	4,968	3,325	3,130	
+Predicted no. of Coding DNA sequence (CDS)	3,146	2,995	2,978	2,944	2,865	4,884	3,274	3,038	
+RNA genes	56	53	60	55	58	84	46	92	
+Ribosomal RNA	9	9	2	9	5	6	3	17	
+Transfer RNA	43	42	36	46	40	68	39	49	
+Other RNA	3	2	22	NA	13	10	4	26	
+Genes coding signal peptides	425	348	396	391	406	702	501	374	
+GenBank accession number	CP029151	CP002528	CM001837	CP009301	CP015125	FZNY00000000	REFV00000000	VISD00000000	
+Completeness value	99.24	99.62	98.86	99.62	99.62	99.62	99.62	99.62	
+Isolation	Surface seawater (25 m depth, Station P-16, NE Pacific Ocean)	Subseafloor sediments (31.4 m depth, Suruga Bay, Japan)	Surface seawater (Hogland island, North Sea, Germany)	Surface seawater (0.5 m depth, Northwest Mediterranean Sea)	Seawater (in between the two islands of Dokdo, East Sea)	Surface seawater (South Pacific Gyre)	Seawater (Xiaoshi Island, China)	(Hogland island, North Sea, Germany)	
+References	(5)	(14)	(15)	(16)	(17)	(18)	(19)	–a	
+a –, not applicable.
+
+The genome was annotated using National Center for Biotechnology Information (NCBI) Prokaryotic Genome Annotation Pipeline (v.4.5) (20), identifying 3,202 open reading frames and 3,119 protein coding genes (Table 1). Coding genes and metabolic pathways were annotated using Kyoto Encyclopedia of Genes and Genomes (21) and RAST Annotation Server and Pathway Tools software (Ver 2) (22–24). Pfam (Ver 32.0) (25) analysis assigned functional annotations to 75.8% of the protein-coding genes, with 6.2% being involved in coenzyme transport and metabolism, and 5.8% in inorganic ion transport and metabolism. Furthermore, 17 regulatory and miscellaneous elements were assigned, and 927 hypothetical genes were identified without functional predictions using PHASTER (26). All analyses were performed using default parameters.
+
+The Dokd-P16 genome encodes a full set of genes for gliding motility, ABC/TBDT receptors for efficient iron and DOM uptake, and de novo vitamin B1 synthesis. In contrast, it lacks genes for iron-dependent enzymes such as Fe-SOD and FumA, suggesting adaptation to nutrient/iron-limited conditions.
+
+ACKNOWLEDGMENTS
+
+We greatly appreciate the expert advice and guidance given by members of the Suttle lab, especially from Amy M. Chan on the culturing, purification, and DNA extraction for Dokd-P16; from Dr. Christoph Deeg on amplification, sequencing, and analysis of PCR products; and from Dr. Kevin Xu Zhong for advising on genome sequencing and analysis.
+
+We thank previous members of the Maldonado lab, Drs. Anna Posacka and Nina Schuback, who isolated and maintained the Dokd-P16 isolate.
+
+We are grateful to the University of Delaware Sequencing and Genotype Center for sequencing and annotation.
+
+This work was supported by the Kuwait Foundation for the Advancement of Sciences (KFAS, project code: CB18-64SE-01), and a Discovery grant (RGPIN-2020-06519) from the Natural Sciences and Engineering Research Council of Canada to C.A.S.
+
+DATA AVAILABILITY
+
+This genome project is registered in GenBank under BioProject; PRJNA450898, the complete genome and 16S ribosomal RNA sequences are available in GenBank (NZ_CP029151.1 and PQ870337, respectively). All raw sequencing files are deposited in NCBI Sequence Read Archive database under SRR33419195. Genome annotation details are available on Figshare (https://doi.org/10.6084/m9.figshare.29816336 and https://doi.org/10.6084/m9.figshare.29850293).
+
+
+REFERENCES
+
+1 Abell GCJ, Bowman JP. 2005. Ecological and biogeographic relationships of class flavobacteria in the southern Ocean. FEMS Microbiol Ecol 51:265–277. doi:10.1016/j.femsec.2004.09.001 16329875
+2 Teeling H, Fuchs BM, Becher D, Klockow C, Gardebrecht A, Bennke CM, Kassabgy M, Huang S, Mann AJ, Waldmann J, et al.. 2012. Substrate-controlled succession of marine bacterioplankton populations induced by a phytoplankton bloom. Science 336:608–611. doi:10.1126/science.1218344 22556258
+3 Mikhailov IS, Zakharova YR, Bukin YS, Galachyants YP, Petrova DP, Sakirko MV, Likhoshway YV. 2019. Co-occurrence networks among bacteria and microbial eukaryotes of lake Baikal during a spring phytoplankton bloom. Microb Ecol 77:96–109. doi:10.1007/s00248-018-1212-2 29882155
+4 Hogle SL, Bundy RM, Blanton JM, Allen EE, Barbeau KA. 2016. Copiotrophic marine bacteria are associated with strong iron‐binding ligand production during phytoplankton blooms. Limnol Oceanogr Letters 1:36–43. doi:10.1002/lol2.10026
+5 Posacka AM, Semeniuk DM, Maldonado MT. 2019. Effects of copper availability on the physiology of marine heterotrophic bacteria. Front Mar Sci 5:523. doi:10.3389/fmars.2018.00523
+6 Martin JH, Fitzwater SE. 1988. Iron deficiency limits phytoplankton growth in the north-east Pacific subarctic. Nature 331:341–343. doi:10.1038/331341a0
+7 Boyd P, Harrison PJ. 1999. Phytoplankton dynamics in the NE subarctic Pacific. Deep Sea Research Part II: Topical Studies in Oceanography 46:2405–2432. doi:10.1016/S0967-0645(99)00069-7
+8 Boyd PW, Law CS, Wong CS, Nojiri Y, Tsuda A, Levasseur M, Takeda S, Rivkin R, Harrison PJ, Strzepek R, et al.. 2004. The decline and fate of an iron-induced subarctic phytoplankton bloom. Nature 428:549–553. doi:10.1038/nature02437 15058302
+9 Nishioka J, Obata H. 2017. Dissolved iron distribution in the western and central subarctic Pacific: HNLC water formation and biogeochemical processes. Limnology & Oceanography 62:2004–2022. doi:10.1002/lno.10548
+10 Chin C-S, Alexander DH, Marks P, Klammer AA, Drake J, Heiner C, Clum A, Copeland A, Huddleston J, Eichler EE, Turner SW, Korlach J. 2013. Nonhybrid, finished microbial genome assemblies from long-read SMRT sequencing data. Nat Methods 10:563–569. doi:10.1038/nmeth.2474 23644548
+11 Koren S, Walenz BP, Berlin K, Miller JR, Bergman NH, Phillippy AM. 2017. Canu: scalable and accurate long-read assembly via adaptive k-mer weighting and repeat separation. Genome Res 27:722–736. doi:10.1101/gr.215087.116 28298431 PMC5411767
+12 Hunt M, Silva ND, Otto TD, Parkhill J, Keane JA, Harris SR. 2015. Circlator: automated circularization of genome assemblies using long sequencing reads. Genome Biol 16:294. doi:10.1186/s13059-015-0849-0 26714481 PMC4699355
+13 Parks DH, Imelfort M, Skennerton CT, Hugenholtz P, Tyson GW. 2015. CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes. Genome Res 25:1043–1055. doi:10.1101/gr.186072.114 25977477 PMC4484387
+14 Klippel B, Lochner A, Bruce DC, Davenport KW, Detter C, Goodwin LA, Han J, Han S, Hauser L, Land ML, Nolan M, Ovchinnikova G, Pennacchio L, Pitluck S, Tapia R, Woyke T, Wiebusch S, Basner A, Abe F, Horikoshi K, Keller M, Antranikian G. 2011. Complete genome sequences of Krokinobacter sp. strain 4H-3-7-5 and Lacinutrix sp. strain 5H-3-7-4, polysaccharide-degrading members of the family Flavobacteriaceae. J Bacteriol 193:4545–4546. doi:10.1128/JB.05518-11 21725025 PMC3165524
+15 Riedel T, Gómez-Consarnau L, Tomasch J, Martin M, Jarek M, González JM, Spring S, Rohlfs M, Brinkhoff T, Cypionka H, Göker M, Fiebig A, Klein J, Goesmann A, Fuhrman JA, Wagner-Döbler I. 2013. Genomics and physiology of a marine flavobacterium encoding a proteorhodopsin and a xanthorhodopsin-like protein. PLoS One 8:e57487. doi:10.1371/journal.pone.0057487 23526944 PMC3587595
+16 González JM, Pinhassi J, Fernández-Gómez B, Coll-Lladó M, González-Velázquez M, Puigbò P, Jaenicke S, Gómez-Consarnau L, Fernàndez-Guerra A, Goesmann A, Pedrós-Alió C. 2011. Genomics of the proteorhodopsin-containing marine flavobacterium Dokdonia sp. strain MED134. Appl Environ Microbiol 77:8676–8686. doi:10.1128/AEM.06152-11 22003006 PMC3233072
+17 Kim K, Kwon S-K, Yoon J-H, Kim JF. 2016. Complete genome sequence of the proteorhodopsin-containing marine flavobacterium Dokdonia donghaensis DSW-1T, isolated from seawater off Dokdo in the East sea (sea of Korea). Genome Announc 4:e00804-16. doi:10.1128/genomeA.00804-16 27491981 PMC4974333
+18 Zhang Z, Gao X, Wang L, Zhang X-H. 2015. Dokdonia pacifica sp. nov., isolated from seawater. Int J Syst Evol Microbiol 65:2222–2226. doi:10.1099/ijs.0.000252 25862384
+19 Zhou L-Y, Meng X, Zhong Y-L, Li G-Y, Du Z-J, Mu D-S. 2020. Dokdonia sinensis sp. nov., a flavobacterium isolated from surface seawater. Int J Syst Evol Microbiol 70:1617–1622. doi:10.1099/ijsem.0.003949 32228747
+20 Haft DH, Badretdin A, Coulouris G, DiCuccio M, Durkin AS, Jovenitti E, Li W, Mersha M, O’Neill KR, Virothaisakun J, Thibaud-Nissen F. 2024. RefSeq and the prokaryotic genome annotation pipeline in the age of metagenomes. Nucleic Acids Res 52:D762–D769. doi:10.1093/nar/gkad988 37962425 PMC10767926
+21 Kanehisa M, Goto S. 2000. KEGG: kyoto encyclopedia of genes and genomes. Nucleic Acids Res 28:27–30. doi:10.1093/nar/28.1.27 10592173 PMC102409
+22 Karp PD, Paley S, Romero P. 2002. The pathway tools software. Bioinformatics 18 Suppl 1:S225–32. doi:10.1093/bioinformatics/18.suppl_1.s225 12169551
+23 Moriya Y, Itoh M, Okuda S, Yoshizawa AC, Kanehisa M. 2007. KAAS: an automatic genome annotation and pathway reconstruction server. Nucleic Acids Res 35:W182–W185. doi:10.1093/nar/gkm321 17526522 PMC1933193
+24 Brettin T, Davis JJ, Disz T, Edwards RA, Gerdes S, Olsen GJ, Olson R, Overbeek R, Parrello B, Pusch GD, Shukla M, Thomason JA 3rd, Stevens R, Vonstein V, Wattam AR, Xia F. 2015. RASTtk: a modular and extensible implementation of the RAST algorithm for building custom annotation pipelines and annotating batches of genomes. Sci Rep 5:8365. doi:10.1038/srep08365 25666585 PMC4322359
+25 El-Gebali S, Mistry J, Bateman A, Eddy SR, Luciani A, Potter SC, Qureshi M, Richardson LJ, Salazar GA, Smart A, Sonnhammer ELL, Hirsh L, Paladin L, Piovesan D, Tosatto SCE, Finn RD. 2019. The Pfam protein families database in 2019. Nucleic Acids Res 47:D427–D432. doi:10.1093/nar/gky995 30357350 PMC6324024
+26 Arndt D, Grant JR, Marcu A, Sajed T, Pon A, Liang Y, Wishart DS. 2016. PHASTER: a better, faster version of the PHAST phage search tool. Nucleic Acids Res 44:W16–W21. doi:10.1093/nar/gkw387 27141966 PMC4987931

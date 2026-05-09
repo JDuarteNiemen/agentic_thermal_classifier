@@ -1,0 +1,15 @@
+Unraveling the antibacterial mechanism of exogenous autoinducers against Shewanella putrefaciens revealed by metabolomics and its potential application on preserving large yellow croaker (Pseudosciaena crocea).
+
+Specific spoilage organisms (SSOs) play a crucial role in causing the deterioration of aquatic
+products. This study investigated the antibacterial activity and mechanism of exogenous autoinducers
+through biochemical and metabolomics analysis against Shewanella putrefaciens. The potential
+application of exogenous autoinducers on large yellow croaker preservation was further investigated.
+C4-HSL, C10-HSL and C14-HSL with the strongest antibacterial activity on S. putrefaciens were
+selected, from the aspects of growth curve, biofilm formation, and motility ability, which damaged
+the integrity of cell membrane. Metabolomics analysis demonstrated C10-HSL significantly affected
+key metabolic pathways including alanine, aspartate and glutamate metabolism, glycine, serine and
+threonine metabolism, arginine biosynthesis, phenylalanine metabolism, tricarboxylic acid (TCA)
+cycle, pyrimidine and purine metabolism. Furthermore, C10-HSL exhibited the most effective
+preservation performance for large yellow croaker. These findings highlighted the antibacterial
+mechanism of exogenous acylated homoserine lactones (AHLs) and confirmed the potential of exogenous
+AHLs to prolong the shelf-life of aquatic products.

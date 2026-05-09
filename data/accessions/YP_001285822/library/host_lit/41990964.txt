@@ -1,0 +1,19 @@
+Directed evolution of a thermostable laccase from Geobacillus stearothermophilus for efficient reduction of oxygen.
+
+The growing demand for laccases with enhanced stability and high redox potential is driven by their
+potential applications in diverse bioelectrochemical processes. Bacterial laccases are generally
+more stable than their fungal counterparts but typically exhibit lower redox potentials. To address
+the need for a laccase with both high redox potential and enhanced stability, we identified a gene
+encoding a multicopper oxidase in the gram-positive, thermophilic bacterium Geobacillus
+stearothermophilus. Recombinant heterologous expression and characterization identified the enzyme
+as a putative laccase (GbsLac). GbsLac showed activity toward phenolic substrates, with a specific
+activity of 3.3 U/mg. It displayed thermophilic properties, with an optimum temperature of 70 °C at
+pH 7.5 and a high melting temperature of 91.8 °C, indicating strong thermostability. Electrochemical
+analysis of oxygen reduction reaction (ORR) revealed a lower onset potential compared to T.
+versicolor laccase (Tvl). Site-directed mutations-M503L and D438A-caused anodic shifts of ∼120 ± 25
+mV and ∼40 ± 10 mV, respectively, indicating enhanced redox potential due to modifications in the T1
+copper coordination sphere. These effects are attributed to the removal of weak axial coordination
+(SMet-T1Cu) via M503 deletion and reduced electron donation by H440 following disruption of its
+hydrogen bond with D438. Additionally, replacement with non-polar residues likely reduced
+reorganization energy, contributing to the increased ET1°. These findings highlight GbsLac as a
+promising biocatalyst for ORR applications.

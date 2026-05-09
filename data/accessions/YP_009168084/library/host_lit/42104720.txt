@@ -1,0 +1,17 @@
+Assessing antimicrobial resistance in Shiga toxin-producing Escherichia coli O157 isolates from human clinical cases in the United States, 2010-2021.
+
+To characterize antimicrobial resistance (AMR) patterns and temporal trends among Shiga toxin-
+producing Escherichia coli O157 (STEC O157) clinical isolates from humans in the United States.
+1,995 STEC O157 isolates collected from cases between 2010 and 2021 were analyzed. Resistance to
+antimicrobials was assessed, and temporal trends were evaluated using the Mann-Kendall test.
+Associations between AMR and demographic factors, including age and region, were examined using
+logistic regression models. Resistance was most common to tetracycline (12.4%) and sulfisoxazole
+(9.9%), with temporal increases observed in resistance for these agents, along with chloramphenicol
+and trimethoprim-sulfamethoxazole (Mann-Kendall tau = 0.69-0.87, p < 0.001). Regional differences in
+AMR were noted for tetracycline, trimethoprim-sulfamethoxazole, and chloramphenicol. Cases aged
+20-39 had higher odds of resistance to trimethoprim-sulfamethoxazole compared to those aged 0-4.
+Since antimicrobials are not recommended for treating STEC O157 infections in humans, the sources of
+resistant strains could be foodborne, direct animal contact, the environment, or treatment for
+bacterial coinfections. The increase in the prevalence of AMR among STEC O157 strains in humans
+warrants investigation into the factors driving the emergence of resistant isolates. These findings
+call for an "One Health" approach for antimicrobial stewardship to mitigate AMR risks.

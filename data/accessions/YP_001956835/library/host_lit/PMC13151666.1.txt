@@ -1,0 +1,145 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Microbiol Resour Announc
+Journal ID: Microbiol Resour Announc
+Journal ID: mra
+
+Microbiology Resource Announcements
+
+EISSN: 2576-098X
+Publisher: American Society for Microbiology (ASM)
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC13151666
+PMID: 42003633
+DOI: 10.1128/mra.00091-26
+Article ID: mra00091-26
+Article ID: mra.00091-26
+Article version: 1
+Subjects: Genome Sequences
+
+Whole-genome sequencing of two chromogenic bacteria, Exiguobacterium spp. and Pseudomonas chlororaphis, isolated from environmental sources in Northern Colorado
+
+Melling Taylor 1 Formal analysis Investigation Methodology Writing – original draft
+https://orcid.org/0000-0002-7634-5131 Mehaffy Carolina 1 Conceptualization Investigation Methodology Resources Supervision Validation Writing – review and editing Carolina.mehaffy@colostate.edu
+1 Department of Microbiology, Immunology and Pathology, Colorado State University 3447 https://ror.org/03k1gpj17 , Fort Collins , Colorado , USA
+Editor Newton Irene L. G. Indiana University, Bloomington , Bloomington, Indiana, USA
+
+Address correspondence to Carolina Mehaffy, Carolina.mehaffy@colostate.eduThe authors declare no conflict of interest.
+
+Publication date: 2026 May
+Electronic publication date: 2026 Apr 20
+Volume: 15
+Issue: 5
+Electronic Location ID: e00091-26
+Received 2026 Jan 21; Accepted 2026 Mar 24
+Copyright: Copyright © 2026 Melling and Mehaffy.
+Copyright year: 2026
+Copyright holder: Melling and Mehaffy.
+
+License: This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International license.
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Keywords: pigment genes, antimicrobial resistance, whole genome
+Count: 0
+Count: 2
+Figure count: 1
+Table count: 1
+Reference count: 18
+Page count: 4
+
+cover-date: May 2026
+
+==============================
+ABSTRACT
+
+Exiguobacterium spp. (EA-TM-5) and Pseudomonas chlororaphis (PC-TM-6) were sequenced via Nanopore technology. De novo assembly resulted in one circular contig representing the complete genome of P. chlororaphis (PC-TM-6) and three circular contigs for Exiguobacterium spp. (EA-TM-5) representing its complete genome and two plasmids. Annotation revealed various antibiotic resistance genes.
+
+ANNOUNCEMENT
+
+Soil and water samples were collected at Colorado coordinates 40°34′31.2″N 105°05′09.5″W and 40°26′30.4″N 104°48′21.1″W, respectively. Samples were inoculated into nutrient agar and incubated at room temperature (RT) for 48 hours. Selected colonies (EA-TM-5 from water and PC-TM-6 from soil) were streaked for isolation, and glycerol stocks from each isolate were made. EA-TM-5 produced an orange pigment, and PC-TM-6 produced a green pigment. 16S rRNA Sanger sequencing identified EA-TM-5 as Exiguobacterium acetylicum, a gram-positive, facultative anaerobe, rod-shaped bacterium (1). PC-TM-6 was identified as Pseudomonas chlororaphis, a gram-negative, aerobic, rod-shaped bacterium (1) via MALDI-ToF (Bruker) with a score of 2.34.
+
+These isolates may have relevance in pigment production. Exiguobacterium species produce a carotenoid orange-yellow pigment that has the potential to have antimicrobial properties (2). P. chlororaphis is known to produce phenazines, which can be multiple colors depending on the specific compound and strain (3).
+
+Isolates were plated on tryptic soy agar and incubated at RT for 72 hours and then grown in 5 mL of LB in a shaker at RT. Genomic DNA (gDNA) was isolated using the New England BioLabs Inc. Monarch Nucleic Acid Purification kit #T3010A, following the manufacturer’s instructions. gDNA was quantified by NanoDrop and Qubit and then sequenced at the Institute of Arctic Biology’s Genomics Core Lab using the Nanopore library kit SQK-RBK114-24 for 72 hours on a Gridion using flow cell FLO-MIN114. Reads were called with the Dorado v7.9.8 and the base calling algorithm dna_r10.4.1_e8.2_400bps_sup@v5.0.0.
+
+Assembly and polishing were performed in the Galaxy server v25.1.rc1 (4, 5) using default parameters. Nanoplot v1.46.1+galaxy0 was used to assess quality control of reads (6). Reads were pre-processed using Porechop v0.2.4+galaxy1 (7). Reads shorter than 1,000 bp were removed using Filtlong v 0.3.1+galaxy0 (8). De novo genome assembly used Flye version 2.9.6+galaxy0 with Nano-hq settings (9). Bandage Image v2022.09+galaxy4 was used to visualize assemblies (10), and Quast v5.3.0+galaxy1 was used to provide quality metrics for assemblies (11). De novo assembly of isolate EA-TM-5 resulted in a total length of 3,327,795 bp and 3 circular contigs (N50 = 3,119,822). De novo assembly of isolate PC-TM-6 resulted in one circular contig (N50 = 6,824,689) (Table 1). Circularity was determined by Flye.
+
+TABLE 1 Genome assembly, antibiotic resistance genes, and pigment-related genes of strains EA-TM-5 and PC-TM-6
+
+Species	Raw reads QC	Trimmed and filter-
+ed reads QC	Contig	Length (bp)a	Coverage	GC (%)	Number of annotated CDS	Antibiotic resistance genes	Pigment-related genes	
+Exiguobacterium spp. (EA-TM-5)
+Genome Accession number:
+JBSRPW01
+Reads accession number: SRR36386096	Number of reads = 75,449
+N50 = 5,307 bp
+Median Q score = 14.1.	Number of reads= 36,533
+N50 = 6,318 bp
+Median Q score= 17.6	1	3,119,822	46×	45.82	1,883	vanY gene in
+vanA cluster
+and vanY
+gene in vanM
+cluster	Carotenoid	
+2	10,622	51×	0	 None	 None	
+3	197,351	44×	47	 None	 None	
+P. chlororaphis
+(PC-TM-6)
+Genome Accession number: JBSVDE01
+Reads accession number: SRR36386172	Number of reads = 17,591
+N50 =17,502 bp
+Median Q score =15.7.	Number of reads = 13,041
+N50 = 17.782 bp
+Median Q score =18.1	1	6,824,689	19×	62.82	3,681	    - adeF
+    - FosA8
+    - ArnT
+    -Streptomyces rimosus otr(A)
+    -Pseudomonas aeruginosa soxR
+    - vanH gene in vanA cluster
+    - rsmA
+    - VanG	    - Pf-5 pyoverdine
+    - endophenazine A/endophenazine B
+    - APE Vf	
+a All contigs were circular.
+
+Visualization was performed in Proksee (12) using the assembled genomes’ fasta files. Genome annotation using the PGAP pipeline is available on NCBI. FastANI v1.34 (13) was run in Proksee using reference genomes CP075897.1 (E. acetylicum) and CP118151.1 (P. chlororaphis). FastANI resulted in an average nucleotide identity (ANI) for EA-TM-5 of 89.82% against E. acetylicum and 98.01% for PC-TM-6 against P. chlororaphis. Confirmation of species identification was performed in PubMLST (14). This analysis indicated EA-TM-5 to be E. acetylicum (81% support) and PC-TM-6 to be P. chlororaphis (100% support). The assembled genome of EA-TM-5 was further analyzed using the comprehensive analysis tool in BV-BCR (15), which indicated the closest related genome was E. aceytilicum via the core genome phylogenomic tree. Upon submission of the EA-TM-5 assembled genome to NCBI, the taxonomy was determined to be inconclusive. These results suggest that EAT-TM-5 may represent a novel species of Exiguobacterium and is not E. acetylicum (Fig. 1). Antibiotic resistance genes were identified using the CARD database (16) in Proksee, and AntiSMASH v8.0.4 was used to identify pigment-producing genes (17, 18) (Table 1).
+
+Fig 1 Top panel: Phylogenomic tree generated by the BV-BCR comprehensive analysis tool for the EA-TM-5, supporting the conclusion that EA-TM-5 may be a novel Exiguobacterium species closely related to E. acetylicum. Bottom panel: Results from FastANI (average nucleotide identity) between EA-TM-5 and E. acetylicum reference genome (accession: CP075897.1). FastANI indicated a 89.82%. Each red line segment denotes a reciprocal mapping between the “query” (Top, CP75897.1) and “reference” (EA-TM-5, bottom) genomes. Each red line segment denotes a reciprocal mapping between the query (top) and reference (bottom) genomes. The shade of red represents the ANI percentage. Colors on the query and reference genome (horizontal segments) represent orthologous fragments of 3,000 bp.
+
+Phylogenomic tree and FastANI analysis showing EA-TM-5 genomic relationship to Exiguobacterium acetylicum. Genome comparison reveals 89.82% average nucleotide identity with reciprocal mapping patterns between query and reference sequences.
+
+ACKNOWLEDGMENTS
+
+Research reported in this publication was supported by an Institutional Development Award (IDeA) from the National Institute of General Medical Sciences of the National Institutes of Health under grant number P20GM103395.
+
+The content is solely the responsibility of the authors and does not necessarily reflect the official views of the NIH.
+
+The authors would like to thank Emma Barret and Gabriela DeSimone for their initial work isolating these strains. We also thank the Microbiology, Immunology, and Pathology department for funds supporting the Course-based undergraduate research experiences, which made this research possible.
+
+DATA AVAILABILITY
+
+The Whole-Genome Shotgun project for P. chlororaphis, PC-TM-6 has been deposited in GenBank under the accession number PRJNA1377689, biosample SAMN53798171. The version described in this paper is the first version JBSVDE01. Reads can be accessed in Sequence Read Archive with accession number SRR36386172. The Whole-Genome Shotgun project for Exyguobacterium spp., EA-TM-5 has been deposited in GenBank under the accession number PRJNA1358277, biosample SAMN53107724. The version described in this paper is the first version JBSRPW01. Reads can be accessed in Sequence Read Archive with accession number SRR36386096.
+
+
+REFERENCES
+
+1 Parte AC, Sardà Carbasse J, Meier-Kolthoff JP, Reimer LC, Göker M. 2020. List of prokaryotic names with standing in nomenclature (LPSN) moves to the DSMZ. Int J Syst Evol Microbiol 70:5607–5612. doi:10.1099/ijsem.0.004332 32701423 PMC7723251
+2 Keerthana P, Illanjiam S. 2024. Study on Exiguobacterium acetylicum KI3 strain pigment optimization and antibacterial activity. Paripex Indian Journal of Research 13. doi:10.36106/paripex/4003895
+3 Blum S, Groth I, Rohr J, Fielder HP. 1996. Biosynthetic capacities of actinomycetes. 5. dioxolides, novel secondary metabolites from Streptomyces tendae. J Basic Microbiol 36:19–25. doi:10.1002/jobm.3620360105 8819841
+4 Abueg LAL, Afgan E, Allart O, Awan AH, Bacon WA, Baker D, Bassetti M, Batut B, Bernt M, Blankenberg D, et al.. 2024. The galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update. Nucleic Acids Res 52:W83–W94. doi:10.1093/nar/gkae410 38769056 PMC11223835
+5 Goecks J, Nekrutenko A, Taylor J, Galaxy T. 2010. Galaxy: a comprehensive approach for supporting accessible, reproducible, and transparent computational research in the life sciences. Genome Biol 11:R86. doi:10.1186/gb-2010-11-8-r86 20738864 PMC2945788
+6 De Coster W, D’Hert S, Schultz DT, Cruts M, Van Broeckhoven C. 2018. NanoPack: visualizing and processing long-read sequencing data. Bioinformatics 34:2666–2669. doi:10.1093/bioinformatics/bty149 29547981 PMC6061794
+7 Wick R. 2017. Porechop. GitHub Repository. Available from: https://github.com/rrwick/Porechop
+8 WickR. 2017. Filtlong. Github Repository. Available from: https://github.com/rrwick/Filtlong
+9 Kolmogorov M. 2021. Flye. GitHub. Available from: https://github.com/fenderglass/Flye
+10 Wick RR, Schultz MB, Zobel J, Holt KE. 2015. Bandage: interactive visualization of de novo genome assemblies. Bioinformatics 31:3350–3352. doi:10.1093/bioinformatics/btv383 26099265 PMC4595904
+11 Gurevich A, Saveliev V, Vyahhi N, Tesler G. 2013. QUAST: quality assessment tool for genome assemblies. Bioinformatics 29:1072–1075. doi:10.1093/bioinformatics/btt086 23422339 PMC3624806
+12 Grant JR, Enns E, Marinier E, Mandal A, Herman EK, Chen C, Graham M, Van Domselaar G, Stothard P. 2023. Proksee: in-depth characterization and visualization of bacterial genomes. Nucleic Acids Res 51:W484–W492. doi:10.1093/nar/gkad326 37140037 PMC10320063
+13 Jain C, Rodriguez-R LM, Phillippy AM, Konstantinidis KT, Aluru S. 2018. High throughput ANI analysis of 90K prokaryotic genomes reveals clear species boundaries. Nat Commun 9:5114. doi:10.1038/s41467-018-07641-9 30504855 PMC6269478
+14 Jolley KA, Bray JE, Maiden MCJ. 2018. Open-access bacterial population genomics: BIGSdb software, the PubMLST.org website and their applications. Wellcome Open Res 3:124. doi:10.12688/wellcomeopenres.14826.1 30345391 PMC6192448
+15 Olson RD, Assaf R, Brettin T, Conrad N, Cucinell C, Davis JJ, Dempsey DM, Dickerman A, Dietrich EM, Kenyon RW, et al.. 2023. Introducing the Bacterial and Viral Bioinformatics Resource Center (BV-BRC): a resource combining PATRIC, IRD and ViPR. Nucleic Acids Res 51:D678–D689. doi:10.1093/nar/gkac1003 36350631 PMC9825582
+16 Alcock BP, Huynh W, Chalil R, Smith KW, Raphenya AR, Wlodarski MA, Edalatmand A, Petkau A, Syed SA, Tsang KK, et al.. 2023. CARD 2023: expanded curation, support for machine learning, and resistome prediction at the comprehensive antibiotic resistance database. Nucleic Acids Res 51:D690–D699. doi:10.1093/nar/gkac920 36263822 PMC9825576
+17 Blin K, Shaw S, Vader L, Szenei J, Reitz ZL, Augustijn HE, Cediel-Becerra JDD, de Crécy-Lagard V, Koetsier RA, Williams SE, et al.. 2025. antiSMASH 8.0: extended gene cluster detection capabilities and analyses of chemistry, enzymology, and regulation. Nucleic Acids Res 53:W32–W38. doi:10.1093/nar/gkaf334 40276974 PMC12230676
+18 Blin K, Szenei J, Vader L. 2025. Using antiSMASH. Methods Enzymol 717:1–28. doi:10.1016/bs.mie.2025.04.006 40651821

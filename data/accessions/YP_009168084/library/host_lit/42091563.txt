@@ -1,0 +1,23 @@
+Nigella sativa Seed Oil Antibacterial and Antibiofilm Activity against Escherichia coli O157H7 Shiga Toxin-2.
+
+Shiga toxin type 2 (Stx2)-producing Escherichia coli O157H7 has become a global risk to public
+health. The study aimed to investigate the emergence of antimicrobial resistance patterns in the
+clinical isolates of E. coli. The isolates revealed a pattern of strong resistance to the majority
+of the common antibiotics. Most E. coli isolates were susceptible to gentamicin and were classified
+as MDR. The Stx2 determinant was screened in E. coli O157:H7 isolates through the PCR technique, and
+the Stx2 was purified by cation exchange and gel filtration chromatography. The purification yielded
+5.2 milligrams of pure Stx2. Nigella sativa oil's obtained by the mechanical expression of seeds at
+room temperature was evaluated for its antibacterial activity against 16 E. coli O157:H7 isolates at
+different concentrations. The oil induced inhibition zone diameter of 9.83, 16.71, and 27.48 mm at
+the concentration of 16, 32, and 64 μg/mL, respectively. Minimum inhibitory concentration (MIC) of
+N. sativa seed oil (NSSO) and gentamicin-treated biofilm-forming different isolates ranged from
+64-502 and 32-256 μg/mL, respectively. Optical density (O.D.) and viable counts showed significant
+differences before and after the treatment with sub-MIC. The injections of Stx2 caused
+microangiopathy in mice, including hemolytic anemia, thrombocytopenia, and renal impairment. The
+Stx2 also caused microvascular thrombosis and other histologic damage in the kidney, spleen, and
+liver, as well as a significant reduction in the splenic size of the infected mice. The results
+showed that the variance in the values of the complete blood count, as well as histopathological
+alteration in the spleen, occurred in mice treated with Nigella sativa oil, which was improved
+compared with the control. This study is the first report on NSSO exhibiting inhibitory activity on
+E. coli and its Shiga toxin, which can also inhibit virulence in E. coli, thereby suggesting it as
+an alternative for therapy.

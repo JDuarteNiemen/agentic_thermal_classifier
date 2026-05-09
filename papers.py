@@ -198,34 +198,54 @@ def DownloadPaper(pmcid, save_dir):
 
 def CleanXml(xml_text: str) -> dict | None:
 
-    parser = etree.XMLParser(recover=True)
-    root = etree.fromstring(xml_text.encode(), parser)
+    try:
+        # Skip empty inputs
+        if not xml_text or not xml_text.strip():
+            return None
+        parser = etree.XMLParser(recover=True)
+        root = etree.fromstring(xml_text.encode(), parser)
 
-    # Title
-    title_elem = root.find(".//ArticleTitle")
-    title = "".join(title_elem.itertext()).strip() if title_elem is not None else None
+        # Failed parse
+        if root is None:
+            return None
 
-    # Abstract (more robust)
-    abstract_parts = []
-    for elem in root.findall(".//AbstractText"):
-        text = "".join(elem.itertext()).strip()
-        if text:
-            abstract_parts.append(text)
-    abstract = " ".join(abstract_parts).strip() if abstract_parts else None
+        # Title
+        title_elem = root.find(".//ArticleTitle")
+        title = (
+            "".join(title_elem.itertext()).strip()
+            if title_elem is not None
+            else None
+        )
 
-    # Optional fallback: some records use plain Abstract node text
-    if not abstract:
-        full_abstract = root.find(".//Abstract")
-        if full_abstract is not None:
-            abstract = "".join(full_abstract.itertext()).strip() or None
+        # Abstract
+        abstract_parts = []
+        for elem in root.findall(".//AbstractText"):
+            text = "".join(elem.itertext()).strip()
+            if text:
+                abstract_parts.append(text)
+        abstract = (
+            " ".join(abstract_parts).strip()
+            if abstract_parts
+            else None
+        )
 
-    # skip completely empty records
-    if not title and not abstract:
+        # Fallback abstract
+        if not abstract:
+            full_abstract = root.find(".//Abstract")
+            if full_abstract is not None:
+                abstract = "".join(full_abstract.itertext()).strip() or None
+
+        # Skip empty records
+        if not title and not abstract:
+            return None
+        return {
+            "title": title,
+            "abstract": abstract
+        }
+
+    except Exception as e:
+        print(f"XML parsing error: {e}")
         return None
-    return {
-        "title": title,
-        "abstract": abstract
-    }
 
 
 def SearchPubmed(query: str, max_results: int = 20) -> list[str]:
@@ -262,7 +282,7 @@ def WritePaper(paper, save_dir):
 import os
 
 
-def CreateLibrary(accession, meta):
+def CreateLibrary(accession, meta, search_results=5):
     # Make dirs to accept papers
     os.makedirs(f'data/accessions/{accession}/library/accession_lit', exist_ok=True)
 
@@ -284,7 +304,7 @@ def CreateLibrary(accession, meta):
             if pmcid: # pmid converted to pmcid
                 DownloadPaper(pmcid, f'data/accessions/{accession}/library/accession_lit/') # download the paper
     else:
-        pmids = SearchPubmed(species) # query search species name
+        pmids = SearchPubmed(species, search_results) # query search species name
         for pmid in pmids:
             pmcid = PMID2PMCID(pmid) #convert pmid to pmcid
             if not pmcid: # not convertable
@@ -294,10 +314,10 @@ def CreateLibrary(accession, meta):
             if pmcid:
                 DownloadPaper(pmcid, f'data/accessions/{accession}/library/accession_lit/')
 
-def HostLibrary(accession, host):
+def HostLibrary(accession, host, search_results=5):
     os.makedirs(f'data/accessions/{accession}/library/host_lit', exist_ok=True)
 
-    pmids = SearchPubmed(host)
+    pmids = SearchPubmed(host, search_results)
     for pmid in pmids:
         pmcid = PMID2PMCID(pmid)
         if not pmcid:

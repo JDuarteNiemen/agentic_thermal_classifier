@@ -1,0 +1,15 @@
+Thermus thermophilus bacteriophage phiYS40 genome and proteomic characterization of virions.
+
+We determined the sequence of the 152,372 bp genome of phiYS40, a lytic tailed bacteriophage of
+Thermus thermophilus. The genome contains 170 putative open reading frames and three tRNA genes.
+Functions for 25% of phiYS40 gene products were predicted on the basis of similarity to proteins of
+known function from diverse phages and bacteria. phiYS40 encodes a cluster of proteins involved in
+nucleotide salvage, such as flavin-dependent thymidylate synthase, thymidylate kinase,
+ribonucleotide reductase, and deoxycytidylate deaminase, and in DNA replication, such as DNA
+primase, helicase, type A DNA polymerase, and predicted terminal protein involved in initiation of
+DNA synthesis. The structural genes of phiYS40, most of which have no similarity to sequences in
+public databases, were identified by mass spectrometric analysis of purified virions. Various
+phiYS40 proteins have different phylogenetic neighbors, including myovirus, podovirus, and
+siphovirus gene products, bacterial genes and, in one case, a dUTPase from a eukaryotic virus.
+phiYS40 has apparently arisen through multiple acts of recombination between different phage genomes
+as well as through acquisition of bacterial genes.

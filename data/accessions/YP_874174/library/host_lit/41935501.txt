@@ -1,0 +1,20 @@
+Tracing the molecular evolution of essential GTPase Obg CgtA reveals a direct association of its C-terminal domain with the diversity of bacterial phyla.
+
+The GTPase Obg CgtA is a multifunctional essential bacterial protein consisting of conserved
+N-terminal Obg and GTPase domains and a variable C-Terminal Domain (CgtA-CTD). Using a large-scale
+bioinformatic analysis of CgtA sequences from 737 bacterial reviewed strains from different species,
+we undertook a phylogenetic study of this important protein. Our results reveal positive
+correlations between the length of CgtA and phylogeny and evolution. Specifically, early-diverging
+phyla predominantly retain an ordered CgtA-CTD structure with a unique fold identified from the
+crystal structure of CgtA from Thermus thermophilus, called Obg C-Terminal fold or OCT-fold;
+whereas, later-evolving phyla, containing primarily Gram-negative bacteria, exhibit a notable
+absence of OCT-like fold and a significant overall loss of amino acid length at CTD. This loss is
+also observed in endosymbiotic candidates Cyanobacteria and Alphaproteobacteria, linked to the
+origin of eukaryotic organelles. Furthermore, the presence of OCT-like folds in chloroplastic CgtA-
+homologs, but their absence in mitochondrial and cytoplasmic counterparts, highlights distinct
+evolutionary paths. These observations collectively emphasize the evolutionary significance of CgtA,
+particularly its CTD and its role in microbial adaptation, offering insights into bacterial
+evolution and the origin of eukaryotic organelles. Thus, the study reveals that structural
+variability at CgtA-CTD is non-random and likely linked to bacterial phylogeny, cellular
+architecture, and evolutionary history suggesting CgtA as a potential molecular marker for exploring
+protein evolution.

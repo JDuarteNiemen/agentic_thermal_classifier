@@ -7,7 +7,7 @@ Comparing the outputs from various different models
 Will add a new strategy. V6 is a fast, first to evidence classification
 
 Democratic uses each paper associated with the accession as host as a vote towards the classification. aswell as a 
-forced and normal classification from metadata contributing a vote each respectively.
+forced and normal classification of metadata contributing a vote each respectively.
 
 
 ## Model

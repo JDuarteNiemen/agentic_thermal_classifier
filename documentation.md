@@ -1,6 +1,6 @@
 # Model Benchmarking
 
-**Model:** qwen3.5  
+**Model:** Gemma4
 
 ## Overview
 Testing how various models performed
@@ -28,5 +28,5 @@ weighted avg       0.88      0.78      0.78        60
  Total Duration: 51.95 minutes
 
 
-So far the results for psychrophiles are still really bad. To improve this i will begin to look at different approaches.
+So far the results for psychrophiles are still really bad. To improve this I will begin to look at different approaches.
 

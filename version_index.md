@@ -111,7 +111,7 @@ Gemma 4 models are designed to deliver frontier-level performance at each size. 
 
 ![Agentic Workflow](images/graph.png)
 
-Total Duration: 38.38 minutes
+
 
 
 

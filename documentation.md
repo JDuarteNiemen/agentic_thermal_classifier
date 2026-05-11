@@ -4,8 +4,7 @@
 
 ## Overview
 This branch adds a new strategy for classifying proteins into a thermal range.
-It is a more comprehensive and longer version. ach paper is used as a vote for the final classification
-
+This will be a version that summarises all relevant papers into a single document that will be given to an LLM to classify
 Expanded dataset to 20 of each thermal range
 Moving forward using gemma4 due to its performance in speed and accuracy
 

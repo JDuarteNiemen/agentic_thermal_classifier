@@ -103,3 +103,33 @@ def DemocraticGraph():
 
     return graph.compile()
 
+
+def SummaryGraph():
+    graph = StateGraph(AgentState)
+
+    # Define nodes
+    graph.add_node('CreateAccessionLibrary', CreateAccessionLibrary)
+    graph.add_node('ClassifyHostMetadata', ClassifyHostMetadata)
+    graph.add_node('ClassifyHostLiterature', ClassifyHostLiterature)
+    graph.add_node('CreateHostLibrary', CreateHostLibrary)
+    graph.add_node('FilterRelevantLiterature', FilterRelevantLiterature)
+    graph.add_node('FilterRelevantHostLiterature', FilterRelevantHostLiterature)
+    graph.add_node('SummariseAccessionLiterature', SummariseAccessionLiterature)
+    graph.add_node('SummariseHostLiterature', SummariseHostLiterature)
+    graph.add_node('ClassifyLiteratureSummary', ClassifyLiteratureSummary)
+
+    # Define paths
+    graph.add_edge(START, 'CreateAccessionLibrary')
+    graph.add_edge('CreateAccessionLibrary', 'ClassifyHostMetadata')
+    graph.add_conditional_edges('ClassifyHostMetadata', route,
+                                {'CreateHostLibrary': 'CreateHostlibrary',
+                                        'ClassifyHostLibrary': 'ClassifyHostLibrary'})
+    graph.add_edge('CreateHostLibrary', 'FilterRelevantLiterature')
+    graph.add_edge('FilterRelevantLiterature', 'FilterRelevantHostLiterature')
+    graph.add_edge('FilterRelevantHostLiterature', 'SummariseAccessionLiterature')
+    graph.add_edge('SummariseAccessionLiterature', 'SummariseHostLiterature')
+    graph.add_edge('ClassifyLiteratureSummary', END)
+
+    return graph.compile()
+
+

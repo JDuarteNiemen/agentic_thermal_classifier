@@ -757,3 +757,54 @@ def ClassifyThermalForcedVote(state: AgentState) -> dict:
     "nodes": nodes,
 }
 
+
+def FilterRelevantLiterature(state: AgentState) -> dict:
+    """Use LLM to classify whether a paper is relevant to the classification task"""
+    node = "FilterRelevantLiterature"
+
+    #build structured output model
+    model = state.get("model") or OLLAMA_MODEL
+    llm = _build_llm(model)
+    llm = llm.with_structured_output(RelevantOutput)
+
+    accession_papers = os.listdir(state['paper_dir'])
+    relevant_papers = []
+    for paper in accession_papers:
+        with open(os.path.join(state['paper_dir'], paper), 'r') as f:
+            paper_text = f.read()
+
+        #create prompt
+        prompt=RelevantLiteraturePrompt(**args)
+
+        out = llm.invoke(prompt)
+
+        if out.relevant:
+            relevant_papers.append(paper)
+
+    return {'relevant_accession_papers': relevant_papers,}
+
+def FilterRelevantHostLiterature(state: AgentState) -> dict:
+    """Use LLM to classify whether a paper is relevant to the classification task"""
+    node = "FilterRelevantLiterature"
+
+    #build structured output model
+    model = state.get("model") or OLLAMA_MODEL
+    llm = _build_llm(model)
+    llm = llm.with_structured_output(RelevantOutput)
+
+    accession_papers = os.listdir(state['host_paper_dir'])
+    relevant_papers = []
+    for paper in accession_papers:
+
+        with open(os.path.join(state['host_paper_dir'], paper) as f:
+            paper_text=f.read()
+
+        #create prompt
+        prompt=RelevantHostLiteraturePrompt(paper_text**)
+
+        out = llm.invoke(prompt)
+
+        if out.relevant:
+            relevant_papers.append(paper)
+
+    return {'relevant_host_papers': relevant_papers,}

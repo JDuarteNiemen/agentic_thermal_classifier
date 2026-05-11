@@ -116,3 +116,9 @@ class HostOutput(BaseModel):
     taxonomic_level: str
     host_reasoning: str
     host_found: bool
+
+class SummaryOutput(BaseModel):
+    summary: str
+
+class RelevantOutput(BaseModel):
+    relevant: bool

@@ -47,73 +47,32 @@ They are well-suited for reasoning, agentic workflows, coding, and multimodal un
 
 ## Pipeline Steps
 
-### 1. Accession Library Creation
 - Builds a structured library of all accession records for downstream processing.
 
----
+- LLM call to assess whether the paper is about the phage and whether it may have any clues about the thermal range.
 
-### 2. Host Identification
-- Attempts to identify the host organism directly from accession metadata.
+#### IF paper is relevant:
+- summarise the paper and write summary to a file
 
-#### IF host is found in metadata:
-- Store host assignment
+#### IF paper is NOT relevant
+- remove it from the library
 
-#### IF host is NOT found:
-- Retrieve accession-linked literature
-- Attempt host identification from literature
+#### IF no relevant papers
+- classify host from metadata or literature
 
-#### IF host is still NOT found:
-- Continue pipeline without host assignment
+- assess host literature for relevance
 
----
+- if relevant summarise it and write summary to a file
 
-### 3. Accession-linked Literature Retrieval
-- Retrieves all literature associated with the accession record.
+IF relevant papers:
+extract host
+get host literature
+write them to a file
 
----
+run the summary through an LLM call. prompting it as to whether the full summary would be talking about a mesophile, thermophile or psychrophile.
 
-### 4. Thermal Range Classification from Accession papers
-- Performs thermal range classification using:
-  - accession metadata
-  - accession-linked literature (if literature has at least one hit for the regex)
-
-- Each successful classification contributes a **vote** toward a thermal category.
-
-#### Output:
-- Accession-level thermal votes
-
----
-
-### 5. Host Literature Retrieval
-- IF a host organism was identified:
-  - Retrieve literature associated with the host organism.
-
-#### IF no host was identified:
-- Skip to final vote aggregation
-
----
-
-### 6. Thermal Range Classification from Host Literature
-- Performs thermal range classification using host-associated literature. (if paper has at least one hit on regex scan)
-
-- Each successful classification contributes an additional **vote** toward a thermal category.
-
-#### Output:
-- Host-derived thermal votes
-
----
-
-### 7. Vote Aggregation and Final Thermal Assignment
-- Aggregates all thermal classification votes generated from:
-  - accession metadata
-  - accession-linked literature
-  - host-associated literature
-
-- The thermal range with the highest total number of votes is selected as the final classification.
-
-#### Output:
-- Final thermal range assignment
-- Vote distribution across thermal categories
+summary will be annonymized, the prompt will be to summarise only the target species, but in place of writing the species name
+instead it will be a place holder ('the organism' or 'target species' etc..) So thay summary of the accession literature and host can all be in one file.
 
 ![Democratic agentic workflow](images/DemocraticGraph.png)
 

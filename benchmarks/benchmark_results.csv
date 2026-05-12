@@ -1,9 +1,0 @@
-﻿version,precision,recall,f1,support,duration (minutes),test_data_size,model,reasoning,literature classifications,version description
-v2,"","","",15,1215,15,,TRUE,,"original version no, graph just 2 simple llm calls"
-v3,0.93,0.94,0.93,15,54.2,15,qwen3.5,FALSE,,same as v2 but reasoning=False
-v4,0.65,0.71,0.66,15,38.38,15,qwen3.5,FALSE,,introduced state graph
-v5-qwen3.5,0.71,0.65,0.66,15,39.64,15,qwen3.5,FALSE,,same as v4
-v5-gemma4,0.65,0.59,0.58,60,31.98,60,gemma4,FALSE,18/60,v4 but with structured output
-v5-granite4.1,0.82,0.73,0.7,60,39.85,60,granite4.1,FALSE,,v4 but with structured output
-v6,0.66,0.59,0.58,60,51.95,60,gemma4,FALSE,24/60,made prompts more consistent across llm calls
-v7,0.66,0.6,0.59,60,142.82,60,gemma4,FALSE,,democratic workflow with papers and metadata providing votes to the decision

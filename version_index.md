@@ -1,6 +1,4 @@
-# Model Benchmarking
-
-Comparing the outputs from various different models
+# V8 Implementing the summary workflow
 
 
 ## Overview
@@ -43,38 +41,123 @@ They are well-suited for reasoning, agentic workflows, coding, and multimodal un
 
 
 
-# Democratic classifiction
+# Summary classifiction
 
-## Pipeline Steps
+## 1. Load Accession
+- Load accession metadata.
+- Build a local working library for the accession.
 
-- Builds a structured library of all accession records for downstream processing.
+---
 
-- LLM call to assess whether the paper is about the phage and whether it may have any clues about the thermal range.
+## 2. Retrieve Associated Literature
+- Collect all papers linked to the accession.
+- Store papers as text files for processing.
 
-#### IF paper is relevant:
-- summarise the paper and write summary to a file
+---
 
-#### IF paper is NOT relevant
-- remove it from the library
+## 3. Literature Relevance Screening
+For each paper associated with the accession:
 
-#### IF no relevant papers
-- classify host from metadata or literature
+- Run an LLM classification step to determine:
+  - Whether the paper is about the target phage.
+  - Whether it contains information related to thermal range or temperature adaptation.
 
-- assess host literature for relevance
+### If relevant:
+- Generate a concise summary of the paper.
+- Save the summary to file.
+- Keep the paper in the working library.
 
-- if relevant summarise it and write summary to a file
+### If not relevant:
+- Remove the paper from the working library.
 
-IF relevant papers:
-extract host
-get host literature
-write them to a file
+---
 
-run the summary through an LLM call. prompting it as to whether the full summary would be talking about a mesophile, thermophile or psychrophile.
+## 4. Check for Relevant Phage Literature
 
-summary will be annonymized, the prompt will be to summarise only the target species, but in place of writing the species name
-instead it will be a place holder ('the organism' or 'target species' etc..) So thay summary of the accession literature and host can all be in one file.
+### If relevant phage papers exist:
+#### Extract Host Information
+- Extract host organism(s) from the relevant literature.
+- Retrieve host-associated literature.
+- Summarise relevant host literature.
+- Save summaries to file.
 
-![Democratic agentic workflow](images/DemocraticGraph.png)
+### If no relevant phage papers exist:
+#### Fallback Host-Based Analysis
+- Infer or classify the host organism using:
+  - accession metadata
+  - linked literature
+
+- Retrieve host-associated literature.
+
+- Assess host literature for relevance to thermal adaptation.
+
+### If relevant:
+- Generate summaries of the host literature.
+- Save summaries to file.
+
+---
+
+## 5. Final Fallback: Forced Metadata Classification
+
+### Trigger condition:
+- No relevant phage literature exists.
+- No relevant host literature exists.
+- No usable literature is available for the accession.
+
+### Steps:
+- Perform a forced classification using only available metadata, including:
+  - host taxonomy
+  - isolation source
+  - geographic information
+  - environmental descriptors
+  - accession annotations
+
+- Infer the most likely thermal category from metadata alone.
+
+---
+
+## 6. Combine and Anonymise Summaries
+### Trigger condition:
+- Relevant literature summaries exist.
+
+### Steps:
+- Combine:
+  - phage literature summaries
+  - host literature summaries
+
+- Replace species names with placeholders such as:
+  - `"the organism"`
+  - `"the target species"`
+
+### Purpose:
+- Prevent species-name bias during classification.
+
+---
+
+## 7. Thermal Classification
+### If literature summaries exist:
+- Pass the anonymised summary into a final LLM classification step.
+
+### If no literature summaries exist:
+- Use the forced metadata classification result.
+
+### Target classifications:
+- Psychrophile
+- Mesophile
+- Thermophile
+
+---
+
+## 8. Save Outputs
+Store:
+- accession metadata
+- relevance decisions
+- extracted hosts
+- literature summaries
+- anonymised summaries
+- metadata-only classification (if used)
+- final thermal classification
+![Summary agentic workflow](images/SummaryGraph.png)
 
 
 

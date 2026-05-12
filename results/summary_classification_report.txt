@@ -8,5 +8,4 @@ psychrophile       1.00      0.70      0.82        20
    macro avg       0.92      0.90      0.90        60
 weighted avg       0.92      0.90      0.90        60
 
-
  Total Duration: 210.05 minutes

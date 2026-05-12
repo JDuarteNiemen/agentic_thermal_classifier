@@ -1,8 +1,5 @@
-# Model Benchmarking
-
-Comparing the outputs from various different models
-
-
+# v7
+Adding a democratic workflow
 ## Overview
 Will add a new strategy. V6 is a fast, first to evidence classification
 

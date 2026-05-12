@@ -105,7 +105,7 @@ def DemocraticGraph():
 
 
 def SummaryGraph():
-    graph = StateGraph(AgentState)
+    graph = StateGraph(SummaryState)
 
     # Define nodes
     graph.add_node('CreateAccessionLibrary', CreateAccessionLibrary)
@@ -114,21 +114,27 @@ def SummaryGraph():
     graph.add_node('CreateHostLibrary', CreateHostLibrary)
     graph.add_node('FilterRelevantLiterature', FilterRelevantLiterature)
     graph.add_node('FilterRelevantHostLiterature', FilterRelevantHostLiterature)
-    graph.add_node('SummariseAccessionLiterature', SummariseAccessionLiterature)
-    graph.add_node('SummariseHostLiterature', SummariseHostLiterature)
-    graph.add_node('ClassifyLiteratureSummary', ClassifyLiteratureSummary)
+    graph.add_node('SummariseLiterature', SummariseLiterature)
+    graph.add_node('ClassifySummary', ClassifySummary)
+    graph.add_node('ClassifyThermalForced', ClassifyThermalForced)
 
     # Define paths
     graph.add_edge(START, 'CreateAccessionLibrary')
     graph.add_edge('CreateAccessionLibrary', 'ClassifyHostMetadata')
     graph.add_conditional_edges('ClassifyHostMetadata', route,
-                                {'CreateHostLibrary': 'CreateHostlibrary',
-                                        'ClassifyHostLibrary': 'ClassifyHostLibrary'})
+                                {'CreateHostLibrary': 'CreateHostLibrary',
+                                        'ClassifyHostLiterature': 'ClassifyHostLiterature'})
+    graph.add_edge('ClassifyHostLiterature', 'CreateHostLibrary')
     graph.add_edge('CreateHostLibrary', 'FilterRelevantLiterature')
     graph.add_edge('FilterRelevantLiterature', 'FilterRelevantHostLiterature')
-    graph.add_edge('FilterRelevantHostLiterature', 'SummariseAccessionLiterature')
-    graph.add_edge('SummariseAccessionLiterature', 'SummariseHostLiterature')
-    graph.add_edge('ClassifyLiteratureSummary', END)
+    graph.add_edge('FilterRelevantHostLiterature', 'SummariseLiterature')
+    graph.add_conditional_edges('SummariseLiterature', route,
+                                {'ClassifySummary': 'ClassifySummary',
+                                 'ClassifyThermalForced': 'ClassifyThermalForced'})
+    graph.add_conditional_edges('ClassifySummary', route,
+                                {'ClassifyThermalForced': 'ClassifyThermalForced',
+                                 'end': END})
+    graph.add_edge('ClassifyThermalForced', END)
 
     return graph.compile()
 

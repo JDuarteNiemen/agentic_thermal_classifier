@@ -1,0 +1,55 @@
+Summary file for NP_042005
+Number of papers: 3
+=============Summaries=============
+
+Paper: PMC12875140.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: 37 °C
+- Survival temperature range: Not explicitly stated
+- Incubation conditions: 37 °C with shaking at 220 rpm (for general growth/plating); 37 °C for overnight incubation; 20 °C for protein expression (for some assays).
+- Environmental source/habitat: Not explicitly stated (Experiments conducted in vitro using laboratory strains).
+- Mention of adaptations: None mentioned.
+
+Environmental Context:
+- Habitat/source: Laboratory culture conditions (LB medium, MMCG medium).
+
+Concise Summary:
+The experimental procedures utilized a consistent optimal growth temperature of 37 °C for bacterial growth and plating assays. Protein expression was performed at 20 °C in some instances. The study focused on *in vitro* characterization of phage-host interactions using laboratory-adapted *E. coli* strains (MG1655 and ECOR collection). No data regarding the organism's natural thermal niche, extreme environment isolation, or specific thermal adaptations (thermophilic, psychrophilic, etc.) were provided; the organisms were maintained under standard mesophilic laboratory conditions.
+
+
+Paper: PMC12785254.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: 4–37 °C
+- Survival temperature range: Stable at 4 °C; significant loss of infectivity observed at 50 °C and 65 °C.
+- Incubation conditions: Tested at 4 °C, 25 °C, and 37 °C for stability assessment.
+- Environmental source/habitat: Sewage sample.
+- Thermophilic adaptation: None mentioned.
+- Psychrophilic adaptation: None mentioned.
+- Mesophilic growth: Implied by optimal growth at 37 °C.
+- Heat tolerance: Heat-sensitive (thermolabile), with significant loss of infectivity at 50 °C and 65 °C.
+- Cold tolerance: Stable at 4 °C.
+- Enzymes adapted to temperature: None mentioned.
+- Membrane adaptations: None mentioned.
+- Thermal stress responses: None mentioned.
+
+Environmental Context:
+- Habitat/source: Sewage sample.
+
+Concise Summary:
+The phage exhibits optimal growth and stability at 37 °C, with a general stability range of 4–37 °C. It demonstrated robust stability at 4 °C, suggesting good cold tolerance, while being significantly heat-sensitive (thermolabile), showing marked loss of infectivity at 50 °C and 65 °C. The phage was isolated from a sewage sample, and its physiological characteristics align with a mesophilic organism, showing no evidence of adaptation to extreme temperatures.
+
+
+Paper: 42104428.txt
+Thermal Evidence:
+- No specific optimal growth temperature or temperature range was explicitly stated.
+- No survival temperature range was provided.
+- No specific incubation temperature was mentioned, only that fermentation conditions were optimized.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or thermal stress responses.
+
+Environmental Context:
+- The organism was not stated to be isolated from an extreme environment.
+- No explicit thermal classification was given by the authors.
+
+

@@ -1,0 +1,65 @@
+Summary file for QAY18187
+Number of papers: 4
+=============Summaries=============
+
+Paper: 32442498.txt
+Thermal Evidence:
+- No specific optimal or growth temperature range for the host organism was provided.
+- The source organism is derived from an extremophilic phage, suggesting thermophilic adaptation.
+- The resulting protein (lysin) is explicitly described as 'thermostable'.
+
+Environmental Context:
+- The source phage is derived from an extremophilic organism.
+
+Concise Summary:
+The study details the high cell-density fermentation, overproduction, and purification of a thermostable bacteriophage lysin. The lysin originates from a phage associated with an extremophilic source. While the host organism's specific growth temperature was not detailed, the source material and the purified protein exhibit inherent thermostability, indicating adaptation to high temperatures.
+
+
+Paper: 20806260.txt
+Thermal Evidence:
+- Optimal stability observed at 65 °C.
+- No explicit growth temperature range or optimal growth temperature provided, but stability was tested at 65 °C.
+- Survival stability noted at 65 °C.
+- Incubation conditions mentioned include pH 7.6.
+- The phage exhibits characteristics suggesting adaptation to high temperatures, as it was isolated from hot springs and showed stability at 65 °C.
+
+Environmental Context:
+- Isolated from hot springs.
+- The source environment is characterized as extreme (hot springs).
+
+Concise Summary:
+A bacteriophage was isolated from hot springs. The phage demonstrated high stability at 65 °C and pH 7.6. The study notes the phage's stability at elevated temperatures, suggesting thermophilic adaptation. The phage was isolated from a hot spring environment, indicating adaptation to extreme thermal conditions.
+
+
+Paper: PMC7077265.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 60 °C (for substrate culture).
+- Growth temperature range: 40–80 °C (for the phage's host).
+- Survival temperature range: Maintained >90% activity after 30 min heat treatment between 40 and 70 °C.
+- Incubation conditions: 37 °C (for antibacterial assays and in vivo model).
+- Environmental source/habitat: Isolated from a hot spring.
+- Thermophilic adaptation: Yes, the phage was isolated from an extremophilic source.
+- Heat tolerance: High, demonstrated by maintaining activity at elevated temperatures.
+
+Environmental Context:
+- Habitat/Source: Hot spring (Tengchong hot spring).
+- Classification: The phage is derived from a thermophilic organism, and the lysin exhibits thermostability.
+
+Concise Summary:
+The phage lysin was derived from a phage isolated from a hot spring, indicating an extremophilic origin. The host bacterium for the phage is characterized as a thermophile, thriving between 40–80 °C. The lysin itself exhibits significant thermostability, retaining over 90% activity after 30 minutes of heat treatment between 40 °C and 70 °C. While the lysin's optimal activity was tested at 60 °C against the host, its antibacterial efficacy was demonstrated at 37 °C, which is consistent with physiological conditions for human pathogens. The overall profile suggests a highly thermostable enzyme adapted to high-temperature environments, while retaining potent activity at mesophilic temperatures relevant for infection models.
+
+
+Paper: PMC9629493.1.txt
+Thermal Evidence:
+- Optimal activity for the polymerase enzyme was measured at approximately 70°C, comparable to another reference polymerase.
+- The enzyme exhibited significantly limited activity below 40°C, suggesting a narrow functional temperature range compared to commercial polymerases.
+- The enzyme's activity profile was tested across a broad range of temperatures (20 to 85°C) for polymerase activity, and the 3'–5' exonuclease activity was assessed at 65°C.
+
+Environmental Context:
+- The enzyme originates from a bacteriophage infecting a bacterium found in coastal hot springs.
+- The source material for the exonuclease component was a metagenome collected from several hot springs in Iceland.
+
+Concise Summary:
+The enzyme is derived from a bacteriophage infecting a bacterium isolated from coastal hot springs. The enzyme exhibits optimal polymerase activity around 70°C and shows limited activity below 40°C, indicating thermophilic characteristics. The source material for the associated exonuclease domain was obtained from a metagenome collected in hot springs. The authors classify the enzyme as belonging to a group of thermophilic bacteriophages, and the enzyme itself is characterized by its thermophilic adaptation.
+
+

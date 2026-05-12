@@ -1,6 +1,6 @@
 # Model Benchmarking
 
-**Model:** qwen3.5  
+**Model:** gemma4  
 
 ## Overview
 This branch adds a new strategy for classifying proteins into a thermal range.

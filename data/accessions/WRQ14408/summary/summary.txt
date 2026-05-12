@@ -1,0 +1,20 @@
+Summary file for WRQ14408
+Number of papers: 1
+=============Summaries=============
+
+Paper: PMC13142098.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C
+- Growth temperature range: Not explicitly stated, but experiments were conducted at 30°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: 8 h incubation at 30°C.
+- Environmental source/habitat: Not specified; the system uses *E. coli* cells.
+- Mention of adaptations: None mentioned.
+
+Environmental Context:
+- Habitat/source: *E. coli* cells used in the I-Block assay.
+
+Concise Summary:
+The experimental system utilized *E. coli* cells, which were incubated at an optimal temperature of 30°C for 8 hours. No information regarding the organism's natural environmental source, extreme adaptation, or specific thermal classification (e.g., mesophilic, thermophilic) was provided in the text.
+
+

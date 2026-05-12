@@ -1,0 +1,61 @@
+Summary file for YP_015542
+Number of papers: 4
+=============Summaries=============
+
+Paper: 36125762.txt
+Thermal Evidence:
+- The enzyme utilized originates from a hyperthermophilic crenarchaeon.
+- The enzyme exhibits intrinsic thermostability.
+
+Environmental Context:
+- The source organism is associated with extreme environments.
+
+
+Paper: PMC6339583.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C (for *M. smegmatis* culture).
+- Growth temperature range: Not explicitly stated for all organisms, but 37 °C is used for *M. smegmatis* culture.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: 15 min at 70 °C (for radiosynthesis); 60 min at 37 °C (for cell uptake experiments).
+- Environmental source/habitat: Not explicitly stated for all organisms.
+- Thermophilic adaptation: The enzyme used for synthesis is from a thermophilic organism.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: *M. smegmatis* is cultured at 37 °C, suggesting mesophilic conditions.
+- Heat tolerance: The enzyme used for synthesis is thermostable, allowing reactions at 70 °C.
+- Cold tolerance: Not mentioned.
+- Enzymes adapted to temperature: The enzyme used for synthesis is from a thermophilic organism.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- Habitat/source: The enzyme source is from a hyperthermophilic archaeon. The bacterial model organism (*M. smegmatis*) is cultured at 37 °C.
+
+Concise Summary:
+The study utilized an enzyme sourced from a hyperthermophilic archaeon, which is noted for its thermostability, enabling enzymatic reactions at elevated temperatures (e.g., 70 °C) for rapid radiosynthesis. In contrast, the bacterial model organism (*M. smegmatis*) was cultured and tested under conditions mimicking human physiological temperature (37 °C), suggesting mesophilic growth characteristics for this pathogen model. The enzyme's thermostability is a key feature facilitating the synthetic protocol, while the bacterial uptake assays were conducted at 37 °C. The enzyme source is explicitly classified as thermophilic, whereas the bacterial model is associated with mesophilic culture conditions.
+
+
+Paper: 30206766.txt
+Thermal Evidence:
+- The source organism is described as a hyperthermophilic archaeon.
+- The recombinant protein exhibited highly thermostable activity.
+
+Environmental Context:
+- The organism was isolated from an extreme environment (implied by 'hyperthermophilic').
+
+Concise Summary:
+The enzyme was sourced from a hyperthermophilic archaeon, and the resulting recombinant protein demonstrated highly thermostable activity. The source organism is classified as hyperthermophilic.
+
+
+Paper: PMC7919099.1.txt
+Thermal Evidence:
+- Optimal activity observed at 70–90 °C.
+- Enzyme retained optimum activity at 70–90 °C.
+- Enzyme was confirmed to be thermostable.
+
+Environmental Context:
+- Source: Hyperthermophilic archaeon, dwelling in hot springs and water holes.
+
+Concise Summary:
+The enzyme utilized for the chemoenzymatic synthesis method is derived from a hyperthermophilic archaeon, exhibiting thermostability and optimal activity in the 70–90 °C range. The organism is explicitly classified as dwelling in hot springs and water holes.
+
+

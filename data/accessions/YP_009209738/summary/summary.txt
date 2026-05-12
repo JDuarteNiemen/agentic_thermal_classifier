@@ -1,0 +1,38 @@
+Summary file for YP_009209738
+Number of papers: 2
+=============Summaries=============
+
+Paper: PMC4615864.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 20 °C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 20 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation for plaque assays was performed at 20 °C for a week. Host bacteria were incubated at 20 °C with shaking at 100 rpm.
+- Environmental source/habitat: Coastal seawater of Korea (Marine water column).
+- Mention of adaptations: No explicit mention of thermophilic, psychrophilic, mesophilic, or heat/cold tolerance adaptations was found.
+- Explicit classification: No explicit thermal classification was given by the authors for the phages or host.
+
+Environmental Context:
+- Habitat/Source: Coastal seawater of Korea (Marine water column).
+
+Concise Summary:
+The phages were isolated from coastal seawater in the marine water column. The host bacterium was cultured and the phages were assayed and incubated at 20 °C. No specific thermal adaptation or growth temperature range beyond the tested 20 °C was reported.
+
+
+Paper: PMC4615864.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 20 °C
+- Growth temperature range: Not explicitly stated, but incubation was performed at 20 °C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation for plaque assays was performed at 20 °C for a week. Host bacteria were incubated at 20 °C with shaking at 100 rpm.
+- Environmental source/habitat: Coastal seawater of Korea (Marine water column).
+- Mention of adaptations: No explicit mention of thermophilic, psychrophilic, mesophilic, or heat/cold tolerance adaptations was found.
+- Explicit classification: No explicit thermal classification was given by the authors for the phages or host.
+
+Environmental Context:
+- Habitat/Source: Coastal seawater of Korea (Marine water column).
+
+Concise Summary:
+The phages were isolated from coastal seawater in the marine water column. The host bacterium was cultured and the phages were assayed and incubated at 20 °C. No specific thermal adaptation or growth temperature range beyond the tested 20 °C was reported.
+
+

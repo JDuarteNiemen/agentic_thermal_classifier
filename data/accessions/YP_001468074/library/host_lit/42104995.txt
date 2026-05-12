@@ -1,0 +1,25 @@
+Immobilization of TtAlaDH on magnetic nanoparticles: effects on stability and reuse.
+
+L-Alanine dehydrogenase (L-AlaDH) is a microbial enzyme that catalyzes the reversible oxidative
+deamination of L-Alanine to pyruvate. This enzyme catalyzes the reversible conversion of L-Alanine
+to pyruvate, while concurrently maintaining redox homeostasis through the NAD + /NADH coenzyme
+system. Despite the critical role of the L-AlaDH enzyme in biotechnological amino acid production,
+its implementation is hampered by poor operational stability, specifically difficulties in
+maintaining activity at high temperatures and ensuring adequate reusability. In this study, the
+recombinant plasmid encoding TtAlaDH from Thermus thermophilus was transformed into E. coli BL21
+(DE3) for heterologous expression and was successfully immobilized on the surface of functionalized
+magnetic nanoparticles (F-NH2 and FS-NH2) (immobilized TtAlaDHs). The chemical characterization of
+magnetic nanoparticles and immobilized TtAlaDHs was validated using FTIR, SEM, EDS, TGA, and XRD
+investigations. This immobilization conferred significant advantages, including enhanced activity at
+elevated temperatures, improved long-term storage stability (at 4 °C) and reusability. Specifically,
+the TtAlaDH enzyme immobilized on the surface of the F-NH2 magnetic nanoparticles demonstrated
+superior thermal stability, retaining approximately 85% of its initial activity at the elevated
+temperature of 85 °C. Furthermore, the F-NH2-E magnetic nanoparticle system (F-NH2-E) maintained 50%
+of the initial TtAlaDH activity following ten (10) repeated catalytic cycles. Crucially, immobilized
+TtAlaDHs demonstrated excellent storage stability, maintaining nearly 100% of its activity at 4 °C.
+Consequently, the demonstrated superior thermal and operational stability of immobilized TtAlaDHs,
+coupled with its magnetic separability, establishes this biocatalyst as highly promising for
+continuous flow biocatalysis. This enhancement provides a clear path toward the economic viability
+and scalability of L-Alanine production in industrial biotechnological applications. KEY POINTS:
+F-NH2-E retains 85% activity at 85 °C50% activity after 10 cycles with F-NH₂-ENear 100% storage
+stability at 4 °C.

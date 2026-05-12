@@ -1,0 +1,80 @@
+Summary file for XYW65533
+Number of papers: 4
+=============Summaries=============
+
+Paper: 42096524.txt
+Thermal Evidence:
+- Optimal growth temperature: Not specified.
+- Growth temperature range: Not specified.
+- Survival temperature range: 4°C (better preservation over 48 hours) vs. room temperature (worse preservation over 48 hours); -80°C (31.6% viability after 90 days) vs. -20°C (9.4% viability after 90 days).
+- Incubation conditions: Storage at 4°C for up to 48 hours; Long-term storage at -80°C (up to 3 months, maximum 7 days); Avoidance of -20°C for long-term storage.
+- Environmental source/habitat: Human milk (donor milk).
+- Thermophilic adaptation: Not mentioned.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: Not mentioned.
+- Heat tolerance: No significant effect observed with Holder and High Temperature Short Time pasteurization.
+- Cold tolerance: Viability was higher at -80°C compared to -20°C over 90 days.
+- Enzymes adapted to temperature: Not mentioned.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- Habitat/Source: Human milk.
+- Extreme environment isolation: No.
+- Explicit classification: None provided.
+
+
+Paper: PMC11043490.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but assays were performed at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation was performed at 37°C for various periods (e.g., 10-day period, overnight).
+- Environmental source/habitat: Not specified; the organism is studied in laboratory culture conditions (M9 minimal media, LB media).
+- Thermal adaptation: No mention of thermophilic, psychrophilic, or specific thermal stress responses.
+
+Environmental Context:
+- Habitat/Source: Laboratory culture conditions (M9 minimal media, LB media).
+
+Concise Summary:
+The study utilized laboratory culture conditions, with assays and incubations consistently performed at 37°C. The organism's physiological responses, including mutation assays and enzyme activity measurements, were conducted under controlled laboratory settings using defined minimal media (M9) and rich media (LB). There is no evidence provided regarding the organism's natural habitat, extreme environment isolation, or any specific thermal adaptations (thermophilic, psychrophilic, etc.).
+
+
+Paper: PMC12849093.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C
+- Growth temperature range: Not explicitly stated, but optimal growth was achieved at 37 °C.
+- Survival temperature range: Not mentioned.
+- Incubation conditions: Shake-flask cultures were performed at 37 °C and shaken at 200 rpm.
+- Environmental source/habitat: Not mentioned.
+- Thermophilic adaptation: No mention.
+- Psychrophilic adaptation: No mention.
+- Mesophilic growth: Implied by optimal growth at 37 °C.
+- Heat tolerance: No specific data provided.
+- Cold tolerance: No specific data provided.
+- Enzymes adapted to temperature: No mention.
+- Membrane adaptations: No mention.
+- Thermal stress responses: No mention.
+
+Environmental Context:
+- Habitat/Source: Not mentioned.
+
+Concise Summary:
+The organism was cultured optimally at 37 °C under shaking conditions (200 rpm) in shake flasks. The physiological data provided focuses on metabolic engineering, growth kinetics, and recombinant protein production under various media conditions (M9, enriched M9, LB) and does not contain specific information regarding the organism's thermal adaptation, survival temperature range, or environmental isolation source.
+
+
+Paper: PMC12671086.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: Not explicitly stated, but assays were performed at 37°C.
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: Incubation at 37°C for 6 h (for plaque assays) and overnight incubation at 37°C (for phage stocks).
+- Environmental source/habitat: Small ponds in a botanical garden.
+
+Environmental Context:
+- Habitat/source: Freshwater ponds.
+
+Concise Summary:
+The phages were isolated from environmental water samples collected from small ponds in a botanical garden. All experimental assays, including plaque assays and phage stock preparation, were conducted and incubated at 37°C, indicating an optimal growth temperature for the host and the phages under laboratory conditions. No specific information regarding thermophilic, psychrophilic, or extreme temperature adaptations was provided for the phages or their host system.
+
+

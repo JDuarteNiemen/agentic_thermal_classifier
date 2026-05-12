@@ -20,9 +20,23 @@ def FetchNcbiMetadata(accession: str) -> dict:
         "term": accession,
         "retmode": "json",
     }
-    search = requests.get("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi", params=params)
-    uid = search.json()["esearchresult"]["idlist"][0]
-    sleep(0.3)
+
+    url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
+
+    max_tries = 5
+    for attempt in range(max_tries):
+        search = requests.get(url, params=params, timeout=10)
+        try:
+            data = search.json()
+            idlist = data["esearchresult"]["idlist"]
+            if idlist:  # success case
+                uid = idlist[0]
+                break
+        except Exception:
+            pass  # ignore and retry
+        sleep(1.5 * (attempt + 1))  # backoff
+    else:
+        raise RuntimeError(f"Failed to fetch UID for accession: {accession}")
 
     # Step 2: Fetch the full summary record using the UID
     fetch = requests.get("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi", params={
@@ -32,8 +46,10 @@ def FetchNcbiMetadata(accession: str) -> dict:
     })
     sleep(0.3)
 
-    rec = fetch.json()["result"]
-    res = rec.get(rec["uids"][0])
+    rec = fetch.json().get("result", {})
+    res = rec.get(str(uid))
+    if res is None:
+        raise RuntimeError(f"No summary record found for UID {uid}")
 
     # subtype/subname are pipe-delimited strings encoding key-value feature pairs
     # e.g. subtype="strain|country" subname="H1N1|USA" -> {"strain": "H1N1", "country": "USA"}

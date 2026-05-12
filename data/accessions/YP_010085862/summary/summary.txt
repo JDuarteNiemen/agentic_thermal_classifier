@@ -1,0 +1,50 @@
+Summary file for YP_010085862
+Number of papers: 4
+=============Summaries=============
+
+Paper: PMC6212904.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for this virus.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes was found.
+
+Environmental Context:
+- The virus was isolated from an infected macaque, indicating a mammalian/animal host source.
+- The study does not report isolation from an extreme environment.
+
+Concise Summary:
+The provided article focuses on the whole genome characterization, phylogenetic analysis, and comparative genomics of a novel zoonotic orthopoxvirus strain. There is no physiological or biochemical data presented regarding the virus's thermal requirements, growth temperatures, or adaptation to extreme thermal environments. The virus was isolated from an infected macaque, suggesting a mammalian reservoir, but no specific thermal classification (e.g., mesophile) was assigned based on the text.
+
+
+Paper: PMC10804609.1.txt
+Thermal Evidence:
+- No specific temperature data, growth ranges, or adaptations (thermophilic, psychrophilic, mesophilic, etc.) were reported for the identified parasites or associated organisms.
+
+Environmental Context:
+- The organisms were isolated from fecal samples and adult nematodes collected from captive non-human primates in Italian wildlife recovery centers and a zoological garden.
+
+Concise Summary:
+This study is a parasitological survey focusing on the identification and molecular characterization of intestinal parasites (protozoans and nematodes) in captive non-human primates in Italy. The analysis details the detection of various taxa, including *Entamoeba coli*, *Iodamoeba bütschlii*, *Giardia sp.*, *Balantidium/Buxtonella sp.*, *Capillaria sp.*, *Trichuris sp.*, *Strongyliform larvae*, and *Oesophagostomum sp.*, through fecal samples and necropsy specimens. Molecular analysis confirmed the presence of *Trichuris* specimens clustering within the *T. trichiura* clade, suggesting potential zoonotic circulation. The research emphasizes the importance of regular parasitological monitoring in captive settings for One-Health risk assessment. No information regarding the thermal physiology, optimal growth temperature, or temperature adaptations of the identified parasites was provided.
+
+
+Paper: PMC12819564.1.txt
+Thermal Evidence:
+- No temperature-related data was provided in the text.
+
+Environmental Context:
+- The study subjects were nonhuman primates (Tonkean macaques and brown capuchins) living in wooded outdoor enclosures.
+
+Concise Summary:
+This paper details behavioral experiments on nonhuman primates concerning social evaluation of skillfulness. It does not contain any microbiological or physiological data related to temperature, growth conditions, or thermal adaptation. The subjects were observed in a captive, wooded outdoor enclosure setting.
+
+
+Paper: PMC11650955.1.txt
+Thermal Evidence:
+- No temperature-related data was provided in the text.
+
+Environmental Context:
+- The study was conducted on a species housed in an enclosure comprising an indoor area and an outdoor grassy area.
+
+Concise Summary:
+This paper details the quantitative analysis of facial communication in a primate species, focusing on two distinct bared-teeth facial displays (BT and OMBT). The research utilized advanced techniques like MaqFACS and unsupervised clustering to analyze the morphology, stereotypy (using Levenshtein Distance), and context specificity of these signals across peaceful, playful, and agonistic social contexts. Key findings include the morphological separation of BT and OMBT, the observation that OMBT generally exhibits higher stereotypy than BT, and the identification of context-specific Action Units (AUs) that predict social states. The analysis emphasizes that facial expressions are highly plastic and context-dependent, suggesting that signal meaning is determined by the interplay between morphology, stereotypy, and social context, rather than being fixed to a single emotion or context.
+
+

@@ -1,0 +1,20 @@
+Vaginal Escherichia coli infection impairs ovarian homeostasis: Phenotypic characterization and mechanistic insights.
+
+Premature ovarian insufficiency (POI), a condition characterized by the loss of ovarian function
+before age 40, has emerged as a critical contributor to declining global fertility rates and the
+increasing prevalence of female infertility. Growing epidemiological evidence suggests that
+reproductive tract infections may represent a previously underappreciated risk factor for POI
+development, although the underlying mechanisms remain unclear. This study established a mouse model
+of chronic vaginal Escherichia coli (E. coli) infection to systematically investigate the potential
+impacts and underlying mechanisms of long-term vaginal E. coli infections on ovarian function, with
+particular focus on vaginal microbiota homeostasis and female reproductive health. Our study
+observed that long-term vaginal E. coli infection significantly impairs reproductive function of
+mice, manifesting as reduced fertility with diminished offspring production, concurrent with
+disrupted estrous cycle and impaired ovarian endocrine function. The infection caused significant
+ovarian reserve depletion, characterized by reduced primordial follicle counts accompanied by
+increased numbers of atretic follicles, as well as diminished follicular quality. Mechanistically,
+over-activation of the PI3K-mTORC signaling pathway was identified as a key driver of primordial
+follicle pool exhaustion, thereby accelerating ovarian reserve decline. These findings establish
+chronic reproductive tract infections as a modifiable risk factor for ovarian dysfunction,
+highlighting the importance of infection screening in fertility preservation strategies and paving
+the way for future research into microbiota-based interventions for maintaining ovarian health.

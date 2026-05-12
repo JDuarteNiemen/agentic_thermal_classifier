@@ -1,0 +1,71 @@
+Summary file for ADI87650
+Number of papers: 4
+=============Summaries=============
+
+Paper: 42096524.txt
+Thermal Evidence:
+- Optimal growth temperature: Not specified.
+- Growth temperature range: Not specified.
+- Survival temperature range: 4°C (better preservation over 48 hours) vs. room temperature (worse preservation over 48 hours); -80°C (31.6% viability after 90 days) vs. -20°C (9.4% viability after 90 days).
+- Incubation conditions: Storage at 4°C for up to 48 hours; Long-term storage at -80°C (up to 3 months, maximum 7 days); Avoidance of -20°C for long-term storage.
+- Environmental source/habitat: Human milk (donor milk).
+- Thermophilic adaptation: Not mentioned.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: Not mentioned.
+- Heat tolerance: No significant effect observed with Holder and High Temperature Short Time pasteurization.
+- Cold tolerance: Viability was higher at -80°C compared to -20°C over 90 days.
+- Enzymes adapted to temperature: Not mentioned.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- Habitat/Source: Human milk.
+- Extreme environment isolation: No.
+- Explicit classification: None provided.
+
+
+Paper: PMC13142089.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not explicitly stated, but one-step growth analysis was performed at 28°C.
+- Growth temperature range: Not explicitly stated.
+- Survival temperature range: Viable at 40°C; activity began to decline at 50°C, losing activity entirely when heated at more than 60°C for 1h.
+- Incubation conditions: One-step growth analysis was conducted at 28°C.
+- Environmental source/habitat: Isolated from the sandy area of Kota Kinabalu, Sabah, Malaysia.
+- Thermophilic adaptation: No evidence provided.
+- Psychrophilic adaptation: No evidence provided.
+- Mesophilic growth: The phage was stable at 40°C, suggesting mesophilic tolerance, but the optimal range is not defined.
+- Heat tolerance: Lytic activity was lost above 60°C for 1h.
+- Cold tolerance: The phage was stable at 40°C.
+- Enzymes adapted to temperature: No specific enzymes adapted to temperature were detailed.
+- Membrane adaptations: No evidence provided.
+- Thermal stress responses: The phage showed stability at 40°C, but activity was lost above 60°C.
+
+Environmental Context:
+- Habitat/Source: Sandy area of Kota Kinabalu, Sabah, Malaysia.
+
+Concise Summary:
+The phage was isolated from the sandy area of Kota Kinabalu, Malaysia. In vitro kinetic studies were performed at 28°C. The phage demonstrated stability at 40°C, but its lytic activity was significantly reduced starting at 50°C and was completely lost after incubation at temperatures exceeding 60°C for one hour. This suggests a mesophilic nature with limited high-temperature tolerance.
+
+
+Paper: PMC12883358.1.txt
+Thermal Evidence:
+- No temperature-related data was provided for any microorganisms.
+
+Environmental Context:
+- No environmental source or habitat information related to temperature was provided for any microorganisms.
+
+Concise Summary:
+This paper focuses on the relationship between gut microbiota dysbiosis, neuroimmune-endocrine markers, and cancer-related fatigue in breast cancer patients undergoing chemotherapy. It does not contain any microbiological data regarding optimal growth temperature, temperature ranges, or thermal adaptations of any microorganisms.
+
+
+Paper: PMC13126132.1.txt
+Thermal Evidence:
+- No specific temperature data, growth ranges, or thermal adaptations (thermophilic, psychrophilic, mesophilic) were reported for the identified microbial taxa.
+
+Environmental Context:
+- The organisms were isolated from the gut microbiome of human patients in Kampala, Uganda, under conditions related to COVID-19 infection.
+
+Concise Summary:
+The provided analysis focuses on the gut microbiome composition of COVID-19 patients in Uganda using 16S rRNA sequencing and machine learning. The study details shifts in microbial abundance, noting an increase in opportunistic pathogens and a decrease in beneficial microbes associated with disease severity. No information regarding the optimal growth temperature, temperature range, or specific thermal adaptations of the identified taxa was presented.
+
+

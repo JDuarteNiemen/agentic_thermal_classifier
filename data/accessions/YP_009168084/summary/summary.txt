@@ -1,0 +1,77 @@
+Summary file for YP_009168084
+Number of papers: 4
+=============Summaries=============
+
+Paper: PMC8809338.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C (for one-step growth curve).
+- Growth temperature range: Stable at 30°C and 50°C after 24 h of treatment.
+- Survival temperature range: Stable at 30°C to 50°C after 24 h of treatment. Decreased titer at 65°C (2.2 log after 1 h; 8 log after 24 h).
+- Incubation conditions: Tested at 25°C (for stability and application) and 4°C (for storage and in vitro activity).
+- Environmental source/habitat: Isolated from surface water collected in a produce-growing area.
+- Thermal adaptation: Demonstrated stability at 30°C to 50°C. The phage was stable at 4°C for 36 days in buffer, but stability was tested across a range including 4°C and 25°C.
+- Heat tolerance: Showed significant loss of titer at 65°C.
+- Cold tolerance: Maintained comparable titer at 4°C for 36 days.
+- Enzymes adapted to temperature: No specific mention of temperature-adapted enzymes.
+- Membrane adaptations: No specific mention of membrane adaptations.
+- Thermal stress responses: Stability was tested across various temperatures, indicating resilience up to 50°C for 24h.
+
+Environmental Context:
+- Habitat/Source: Surface water from a produce-growing area.
+- Extreme environment isolation: Not explicitly stated as isolated from an extreme environment.
+- Explicit classification: No explicit classification (e.g., thermophilic, psychrophilic) was given by the authors; the phage was characterized as stable across a wide range of temperatures (30°C to 50°C) and showed stability at 4°C for extended periods.
+
+
+Paper: 11808783.txt
+Thermal Evidence:
+- Optimal growth temperature: 35 degrees C
+- Growth temperature range: 35 degrees C
+- Survival temperature range: Not specified
+- Incubation conditions: 35 degrees C for 24 h
+- Environmental source/habitat: Not specified
+- Thermophilic adaptation: Not mentioned
+- Psychrophilic adaptation: Not mentioned
+- Mesophilic growth: Implied by incubation at 35 degrees C
+- Heat tolerance: Not mentioned
+- Cold tolerance: Not mentioned
+- Enzymes adapted to temperature: Not mentioned
+- Membrane adaptations: Not mentioned
+- Thermal stress responses: Not mentioned
+
+Environmental Context:
+- Habitat/Source: Not specified
+
+Concise Summary:
+The experimental procedures utilized an incubation temperature of 35 degrees C for 24 hours for both bacterial subculturing and the conductimetric monitoring assay. This temperature suggests the organism is optimally cultured under mesophilic conditions. No information regarding survival temperature ranges, adaptation to extreme temperatures (thermophilic or psychrophilic), or specific thermal stress responses was provided in the text.
+
+
+Paper: 42102705.txt
+Thermal Evidence:
+- Optimal growth temperature: 37°C
+- Growth temperature range: 37°C
+- Incubation conditions: Selective enrichment in modified tryptone soy broth supplemented with novobiocin (mTSB+n) at 37°C for 18-24 h.
+
+Environmental Context:
+- Habitat/Source: Raw meat and mixed minced meat products (ground beef, kebab, lahmacun, meatball mixtures, raw poultry) marketed in Kocaeli, Türkiye.
+
+Concise Summary:
+The study utilized a specific incubation condition for selective enrichment: 37°C for 18-24 hours. This indicates the organism was cultured under mesophilic conditions, consistent with the physiological requirements for growth in raw meat matrices. No information regarding optimal, survival, or environmental temperature ranges, or specific adaptations (thermophilic, psychrophilic, etc.) was provided. The organism was isolated from processed meat products.
+
+
+Paper: PMC13139102.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 25°C (for biofilm formation).
+- Growth temperature range: 25°C (for biofilm formation).
+- Survival temperature range: Not explicitly stated for the organism, but the study utilized 4°C for storage of beef exudate and 10°C for contamination incubation.
+- Incubation conditions: 16 hours at 10°C for contamination; 6 days at 25°C for biofilm development.
+- Environmental source/habitat: Bovine feces (source of the pathogenic strain).
+- Mention of adaptations: None explicitly mentioned regarding thermophilic, psychrophilic, mesophilic, or cold tolerance for the organism itself.
+- Enzymes adapted to temperature: Enzymes were tested and selected for activity at reduced operating temperatures (40–50°C).
+
+Environmental Context:
+- Habitat/Source: Red meat processing plants, contaminated with beef residues.
+
+Concise Summary:
+The pathogenic strain was cultured and studied in conditions mimicking a meat processing environment, with biofilm formation occurring over 6 days at 25°C. Contamination simulations involved incubation at 10°C for 16 hours. The study focused on enzymatic efficacy at reduced operating temperatures (40–50°C), which is significantly milder than the high temperatures (60°C) used in conventional sanitation. The organism was isolated from bovine feces, and the research utilized these temperature parameters to demonstrate the potential for sustainable, low-temperature sanitation alternatives.
+
+

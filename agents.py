@@ -2,6 +2,8 @@
 
 
 from langchain_core.exceptions import OutputParserException
+from networkx.classes import nodes
+
 from tools import *
 import time
 from papers import *
@@ -758,9 +760,10 @@ def ClassifyThermalForcedVote(state: AgentState) -> dict:
 }
 
 
-def FilterRelevantLiterature(state: AgentState) -> dict:
+def FilterRelevantLiterature(state: SummaryState) -> dict:
     """Use LLM to classify whether a paper is relevant to the classification task"""
     node = "FilterRelevantLiterature"
+    nodes = (state.get("nodes") or []) + [node]
 
     #build structured output model
     model = state.get("model") or OLLAMA_MODEL
@@ -769,42 +772,179 @@ def FilterRelevantLiterature(state: AgentState) -> dict:
 
     accession_papers = os.listdir(state['paper_dir'])
     relevant_papers = []
+    start = time.time()
     for paper in accession_papers:
         with open(os.path.join(state['paper_dir'], paper), 'r') as f:
             paper_text = f.read()
 
         #create prompt
-        prompt=RelevantLiteraturePrompt(**args)
+        prompt=RELEVANTLITERATUREPROMPT(state['phage'], paper_text)
 
         out = llm.invoke(prompt)
 
-        if out.relevant:
+        if out.verdict:
             relevant_papers.append(paper)
 
-    return {'relevant_accession_papers': relevant_papers,}
 
-def FilterRelevantHostLiterature(state: AgentState) -> dict:
+    #update timings
+    end = time.time()
+    duration = round((end-start), 2)
+    updated_duration=state['duration'] + duration
+    timings = state.get("timings", {}).copy()
+    timings[node] = duration
+
+    return {'relevant_accession_papers': relevant_papers,
+            'relevant_accession_papers_size': len(relevant_papers),
+            'nodes': nodes,
+            'duration': updated_duration,
+            'decision': 'FilterRelevantHostLiterature',
+            'timings': timings,
+            }
+
+def FilterRelevantHostLiterature(state: SummaryState) -> dict:
     """Use LLM to classify whether a paper is relevant to the classification task"""
-    node = "FilterRelevantLiterature"
+    #Establish nodes
+    node = "FilterRelevantHostLiterature"
+    nodes = (state.get("nodes") or []) + [node]
 
     #build structured output model
     model = state.get("model") or OLLAMA_MODEL
     llm = _build_llm(model)
     llm = llm.with_structured_output(RelevantOutput)
 
-    accession_papers = os.listdir(state['host_paper_dir'])
+    host_papers = os.listdir(state['host_paper_dir'])
     relevant_papers = []
-    for paper in accession_papers:
 
-        with open(os.path.join(state['host_paper_dir'], paper) as f:
+    start=time.time()
+    for paper in host_papers:
+
+        with open(os.path.join(state['host_paper_dir'], paper)) as f:
             paper_text=f.read()
 
         #create prompt
-        prompt=RelevantHostLiteraturePrompt(paper_text**)
+        prompt=RELEVANTLITERATUREPROMPT(state['host'], paper_text)
 
         out = llm.invoke(prompt)
 
-        if out.relevant:
+        if out.verdict:
             relevant_papers.append(paper)
 
-    return {'relevant_host_papers': relevant_papers,}
+    #update timings
+    end = time.time()
+    duration = round((end-start), 2)
+    updated_duration=state['duration'] + duration
+    timings = state.get("timings", {}).copy()
+    timings[node] = duration
+
+    return {'relevant_host_papers': relevant_papers,
+            'relevant_host_dir_size': len(relevant_papers),
+            'decision': 'SummariseLiterature',
+            'nodes': nodes,
+            'duration': updated_duration,
+            'timings': timings,}
+
+
+def SummariseLiterature(state: SummaryState) -> dict:
+    """Use LLM to summarise the paper"""
+    start = time.time()
+
+    node = "SUMMARISELITERATURE"
+    nodes = (state.get("nodes") or []) + [node]
+
+    model = state.get("model") or OLLAMA_MODEL
+    llm = _build_llm(model)
+    llm = llm.with_structured_output(SummaryOutput)
+
+    max_chars=_max_paper_chars(state['model'])
+
+    # Join relevant papers
+    accession_papers = state['relevant_accession_papers']
+    host_papers = state['relevant_host_papers']
+    all_papers = accession_papers + host_papers
+
+    # Get maximum =m summary size
+    try:
+        max_chars_each_paper = max_chars / len(all_papers)
+    except ZeroDivisionError:
+        end = time.time()
+        duration = round((end - start), 2)
+        updated_duration = state['duration'] + duration
+        timings = state.get("timings", {}).copy()
+        timings[node] = duration
+        return {'decision': 'ClassifyThermalForced',
+                'nodes': nodes,
+                'duration': updated_duration,
+                'timings': timings,}
+
+
+    #Make summary dir
+    os.makedirs(f'data/accessions/{state["accession"]}/summary', exist_ok=True)
+    with open(os.path.join(state['summary_file']), 'w') as f:
+        f.write(f'Summary file for {state["accession"]}\nNumber of papers: {len(all_papers)}\n=============Summaries=============\n\n')
+
+
+    for paper in all_papers:
+        #Read papers from correct dirs accession or host
+        if paper in accession_papers:
+            with open(os.path.join(state['paper_dir'], paper), 'r') as f:
+                paper_text = f.read()
+        else:
+            with open(os.path.join(state['host_paper_dir'], paper), 'r') as f:
+                paper_text = f.read()
+
+        prompt=SUMMARISELITERATUREPROMPT(paper_text, max_chars_each_paper)
+
+        out = llm.invoke(prompt)
+
+        with open(state['summary_file'], 'a') as f:
+            f.write(f"Paper: {paper}\n{out.summary}\n\n\n")
+
+    # update timings
+    end=time.time()
+    duration = round((end - start),2)
+    updated_duration = state['duration'] + duration
+    timings = state.get("timings", {}).copy()
+    timings[node] = duration
+
+    return {'nodes': nodes,
+            'duration': updated_duration,
+            'decision': 'ClassifySummary'}
+
+
+def ClassifySummary(state: SummaryState) -> dict:
+    """Use LLM to classify thermal range from the summary file"""
+    node = "ClassifySummary"
+    nodes = (state.get("nodes") or []) + [node]
+
+    model = state.get("model") or OLLAMA_MODEL
+    llm = _build_llm(model)
+    llm=llm.with_structured_output(ThermalOutput)
+
+    with open(state['summary_file']) as f:
+        summary_text=f.read()
+
+    prompt=CLASSIFYSUMMARYPROMPT(summary_text)
+    start = time.time()
+    out = llm.invoke(prompt)
+
+    end = time.time()
+    duration = round((end - start), 2)
+    updated_duration=state['duration'] + duration
+    timings = state.get("timings", {}).copy()
+    timings[node] = duration
+
+    if out.thermal_found:
+        return {'thermal_range': out.thermal_range,
+                'thermal_reasoning': out.thermal_reasoning,
+                'temperature': out.temperature,
+                'thermal_confidence': out.thermal_confidence,
+                'thermal_found': out.thermal_found,
+                'duration': updated_duration,
+                'timings': timings,
+                'nodes': nodes,
+                'decision': 'end'}
+    else:
+        return {'duration': updated_duration,
+         'timings': timings,
+         'nodes': nodes,
+         'decision': 'ClassifyThermalForced'}

@@ -1,0 +1,44 @@
+Summary file for YP_001210360
+Number of papers: 2
+=============Summaries=============
+
+Paper: PMC11018855.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 70°C (Topt 70°C).
+- Growth temperature range: 45 to 75°C.
+- Survival temperature range: Activity observed at 10°C, 25°C, 37°C, and 70°C.
+- Incubation conditions: Experiments conducted at 70°C, 37°C, 25°C, and 10°C.
+- Thermophilic adaptation: The organism is described as an obligate thermophile with a Topt of 70°C.
+- Heat tolerance: Demonstrated activity at 70°C, and H oxidation remained active at 10°C for over two weeks.
+- Cold tolerance: Activity observed at 10°C and 25°C, suggesting resilience to temperatures outside its optimal growth range.
+
+Environmental Context:
+- Habitat/Source: Isolated from an acidic hot spring.
+- Extreme Environment: Yes, the organism is a hyperthermoacidophile.
+- Classification: The authors classify the organism as an obligate thermophile.
+
+Concise Summary:
+An obligate thermophile, the organism exhibits optimal growth at 70°C, with a general growth range spanning 45 to 75°C. It was isolated from an acidic hot spring, confirming its adaptation to extreme, hot, and acidic conditions. The organism demonstrates remarkable metabolic flexibility, maintaining constitutive activity of trace gas oxidation (H† and CO) across a wide thermal gradient. While its optimal growth is at 70°C, H†oxidation activity was successfully measured at significantly lower temperatures, including 10°C, 25°C, and 37°C, and this activity persisted for over two weeks at 10°C. Furthermore, the ability to scavenge trace gases was shown to enhance cell viability during persistence at temperate conditions (25°C) and high temperatures (70°C) when carbon-starved. The study highlights that this metabolic capability allows the organism to sustain energy needs during dispersal through temperate environments, suggesting a broad metabolic plasticity beyond its typical hyperthermophilic niche.
+
+
+Paper: PMC11681762.1.txt
+Thermal Evidence:
+- **Temperature Range:** Observed temperatures spanned from $30^	ext{o}	ext{C}$ to $100^	ext{o}	ext{C}$ in the general area, with specific sampling sites ranging from $40^	ext{o}	ext{C}$ to $94^	ext{o}	ext{C}$.
+- **Optimal/Dominant Temperature Groups:**
+    - **Circumneutral Bacterial Group (CNB):** $40^	ext{o}	ext{C}$ to $79^	ext{o}	ext{C}$.
+    - **Acidic Bacterial Group (AB):** $41^	ext{o}	ext{C}$ to $64^	ext{o}	ext{C}$.
+    - **Acidic Archaeal Group (AA):** $50^	ext{o}	ext{C}$ to $94^	ext{o}	ext{C}$.
+- **Adaptation/Tolerance:**
+    - **Thermophilic/Hyperthermophilic:** Dominant taxa in the AA group were associated with high temperatures ($50^	ext{o}	ext{C}$–$94^	ext{o}	ext{C}$). Specific genera mentioned include those associated with high-temperature environments.
+    - **Mesophilic:** Some bacteria detected in the CNB group were characterized as mesophiles, with growth temperatures lower than the hot spring conditions.
+    - **Heat Tolerance:** The overall community structure suggests adaptation to significant thermal gradients.
+- **Enzymes/Adaptations:** No specific enzyme adaptations to temperature were detailed, but the classification of taxa implies metabolic adaptations to varying thermal regimes.
+
+Environmental Context:
+- **Habitat/Source:** Terrestrial hot springs, solfatara fields, marine intertidal zones, and deep-sea hydrothermal vent analogues (in terms of physicochemical similarity).
+
+Concise Summary:
+The microbial communities inhabiting the Kuril hot springs exhibit distinct thermal zonation correlated with pH. The overall temperature range studied was $30^	ext{o}	ext{C}$ to $100^	ext{o}	ext{C}$, with sampled sites ranging from $40^	ext{o}	ext{C}$ to $94^	ext{o}	ext{C}$. Three primary community groups were identified based on physicochemical parameters: the Circumneutral Bacterial Group (CNB) ($40^	ext{o}	ext{C}$–$79^	ext{o}	ext{C}$), the Acidic Bacterial Group (AB) ($41^	ext{o}	ext{C}$–$64^	ext{o}	ext{C}$), and the Acidic Archaeal Group (AA) ($50^	ext{o}	ext{C}$–$94^	ext{o}	ext{C}$). The AA group is characterized by the highest temperatures and is dominated by taxa adapted to extreme thermophilic conditions. The CNB group shows the highest bacterial diversity and includes both thermotolerant and mesophilic components. The overall diversity is strongly correlated with pH, while temperature correlation was found to be low. The study highlights the presence of taxa adapted to varying thermal niches, from mesophilic to hyperthermophilic, within a single geothermal system.
+
+
+

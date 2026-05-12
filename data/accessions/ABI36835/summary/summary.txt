@@ -1,0 +1,141 @@
+Summary file for ABI36835
+Number of papers: 8
+=============Summaries=============
+
+Paper: PMC8005036.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C (for *E. coli* growth in AIM).
+- Growth temperature range: 37 °C (for *E. coli* growth in AIM); 20 °C (for *E. coli* growth in AIM).
+- Survival temperature range: Not explicitly stated for the scaffold proteins, but the scaffold proteins themselves are derived from organisms with known thermal characteristics.
+- Incubation conditions: 37 °C (for *E. coli* growth in AIM); 20 °C (for *E. coli* growth in AIM).
+- Environmental source/habitat: Not explicitly stated for the scaffold proteins, but the scaffold proteins are derived from organisms with known thermal characteristics.
+- Thermophilic adaptation: The scaffold protein derived from *Aquifex aeolicus* is noted as a lumazine synthase, and the scaffold protein derived from *Geobacillus stearothermophilus* is used.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: The scaffold protein derived from *E. coli* is used, which is generally mesophilic.
+- Heat tolerance: The scaffold protein derived from *Geobacillus stearothermophilus* is used.
+- Cold tolerance: Not mentioned.
+- Enzymes adapted to temperature: The scaffold protein derived from *Aquifex aeolicus* is noted.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- The scaffold protein derived from *Aquifex aeolicus* is associated with a lumazine synthase, and the scaffold protein derived from *Geobacillus stearothermophilus* is used. The scaffold protein derived from *E. coli* is used.
+
+Concise Summary:
+The study utilized three different self-assembling multimeric protein scaffold particles (MPSPs) for vaccine development. These scaffolds are based on: 1) Lumazine synthase from *Aquifex aeolicus* (a protein associated with a known thermal profile); 2) A modified aldolase from *Geobacillus stearothermophilus* (a thermophilic organism); and 3) A protein derived from *E. coli* (a mesophilic bacterium). The *E. coli* scaffold was grown at 37 °C and 20 °C. The scaffold derived from *Geobacillus stearothermophilus* is explicitly noted as a thermophilic scaffold. The overall methodology relies on the structural properties of these scaffold proteins for self-assembly into nanoparticles, rather than on the thermal properties of the final vaccine construct itself.
+
+
+Paper: 18573317.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was provided.
+- No survival temperature range was provided.
+- No explicit incubation conditions were provided.
+- The source organism is described as belonging to a deep-sea thermophilic bacteriophage.
+- The protein was characterized in the context of a thermophilic phage, suggesting thermophilic adaptation.
+
+Environmental Context:
+- Deep-sea habitat.
+- The organism was isolated from an extreme environment (deep-sea).
+- The authors explicitly classify the phage as 'thermophilic'.
+
+Concise Summary:
+Characterization focused on a novel portal protein from a deep-sea thermophilic bacteriophage. The phage originates from a deep-sea environment and is explicitly classified as thermophilic. The study details the protein's function in viral DNA packaging and its localization within the virion structure, but provides no quantitative data regarding optimal growth temperature, growth range, or survival temperature range.
+
+
+Paper: PMC6963370.1.txt
+Thermal Evidence:
+- Thermophile endolysin catalytic domains were sourced from bacteria isolated from hot springs at Yellowstone National Park, USA, and grown at 70 °C in the laboratory.
+- Another source bacterium was collected from an 88 °C water outflow from a hot spring.
+- A third endolysin was isolated from a deep-sea hydrothermal vent, and its parent enzyme was previously shown to be active at temperatures up to 80 °C.
+- The resulting chimeric proteins showed improved thermostability compared to native endolysins.
+- The fusion proteins retained substantial activity after heat challenges at 60 °C, and some showed activity after 70 °C heat treatment.
+- The best performing fusion protein retained >14% of its activity after incubation at 95 °C.
+- The study compared thermostability to native lysins, noting that native lysins often lost activity between 50 °C and 60 °C.
+- The optimal conditions for testing residual activity included incubation at 15 min at elevated temperatures, followed by cooling and assaying at 40 °C.
+
+Environmental Context:
+- Sources include hot springs (Yellowstone National Park, deep-sea hydrothermal vents) and high-temperature water outflows.
+
+Concise Summary:
+The study utilized endolysin catalytic domains derived from thermophilic bacteria, with sources including hot springs (Yellowstone National Park, 70 °C growth) and deep-sea hydrothermal vents. The enzymes exhibit inherent thermostability, with one source enzyme active up to 80 °C. The chimeric fusion proteins created showed enhanced thermostability compared to native enzymes, retaining activity after heat challenges up to 70 °C, and one candidate maintained activity after 95 °C incubation. The optimal conditions for assessing thermostability involved incubation at elevated temperatures followed by testing at 40 °C. The overall goal was to create enzymes stable enough for use in heat-treated animal feed pellets (steam conditioning up to 95 °C).
+
+
+
+Paper: PMC5304195.1.txt
+Thermal Evidence:
+- The enzyme is derived from a bacteriophage infecting a bacterium isolated from a deep-sea hydrothermal field.
+- The phage is explicitly described as a "deep-sea thermophilic bacteriophage."
+- The enzyme itself is characterized as a "thermostable HNH endonuclease from a thermophilic bacteriophage."
+- The biochemical assays for DNA nicking were performed at $60^	ext{o}	ext{C}$.
+- The thermal unfolding assays were conducted using CD analysis, monitoring stability across a range from $30^	ext{o}	ext{C}$ to $90^	ext{o}	ext{C}$.
+
+Environmental Context:
+- Deep-sea hydrothermal field.
+
+Concise Summary:
+The enzyme is sourced from a bacteriophage infecting a bacterium isolated from a deep-sea hydrothermal field. The phage and the resulting endonuclease are characterized as thermophilic and thermostable. Functional assays were conducted at $60^	ext{o}	ext{C}$, and thermal stability testing spanned a range from $30^	ext{o}	ext{C}$ to $90^	ext{o}	ext{C}$. The structural and functional analysis confirms the enzyme's adaptation to high temperatures, suggesting thermophilic characteristics.
+
+
+Paper: PMC13130090.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 60 °C
+- Growth temperature range: 42 to 74 °C
+- Survival temperature range: Not explicitly stated
+- Incubation conditions: Growth tests were conducted at 60 °C for the organism.
+- Thermophilic adaptation: The organism is explicitly identified as a thermophilic bacterium.
+
+Environmental Context:
+- Habitat/Source: Not specified, but the organism is characterized by its thermophilic nature.
+
+Concise Summary:
+The organism is a thermophilic Gram-positive bacterium with an optimal growth temperature of 60 °C and a reported growth temperature range of 42 to 74 °C. The study utilized growth tests conducted at 60 °C. The authors explicitly classify the organism as thermophilic, indicating adaptation to high temperatures. No information regarding survival temperature range, specific environmental source, or adaptations for psychrophilic/mesophilic conditions was provided.
+
+
+Paper: PMC13137057.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for the identified microbial taxa.
+- No mention was made of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The study analyzed the lung microbiome following exposure to burn pit emissions and/or sand inhalation in rats. The identified genera were associated with the lung environment, which is a mammalian respiratory tract niche.
+
+Concise Summary:
+The provided manuscript focuses on the impact of in-theater inhalation exposures (burn pit emissions and sand) on the lung microbiome of rats. The analysis utilized 16S rRNA gene sequencing to characterize shifts in bacterial community structure (alpha and beta diversity) at 4 and 90 days post-exposure. The findings indicate that burn pit emissions significantly alter the lung microbiome, causing distinct compositional changes, while sand exposure alone did not cause significant alterations. The study details the methodology, including whole-body inhalation exposure chambers and bronchoalveolar lavage fluid collection, but contains no physiological or molecular data pertaining to the thermal ecology, growth temperatures, or temperature adaptations of the identified microbial taxa.
+
+
+Paper: PMC13135583.1.txt
+Thermal Evidence:
+- Optimal growth temperature: $60^	ext{o}	ext{C}$ (mentioned multiple times for cultivations).
+- Growth temperature range: $60^	ext{o}	ext{C}$ (used consistently for all main cultivations).
+- Survival temperature range: Not explicitly stated, but the organism is characterized as a thermophile.
+- Incubation conditions: Cultivations were performed at $60^	ext{o}	ext{C}$ in shake flasks and bioreactors.
+- Environmental source/habitat: Not explicitly stated, but the organism is a known thermophile.
+- Thermophilic adaptation: The organism is identified as a thermophile, and the study focuses on engineering it for high-temperature processes.
+- Psychrophilic adaptation: Not mentioned.
+- Mesophilic growth: The study contrasts the organism's high-temperature requirements with mesophilic microbes (e.g., $30^	ext{o}	ext{C}$).
+- Heat tolerance: The organism is inherently thermophilic, and the process requires elevated temperatures ($70–80^	ext{o}	ext{C}$) for optimal enzymatic hydrolysis, necessitating the use of a thermophilic chassis.
+- Cold tolerance: Not mentioned.
+- Enzymes adapted to temperature: The process requires elevated temperatures ($70–80^	ext{o}	ext{C}$) for efficient enzymatic hydrolysis, suggesting the need for thermostable enzymes.
+- Membrane adaptations: Not mentioned.
+- Thermal stress responses: Not mentioned.
+
+Environmental Context:
+- The organism is a known thermophile, and the study utilizes its inherent thermophilic nature to facilitate consolidated bioprocessing (CBP) at high temperatures.
+
+Concise Summary:
+The organism studied is a thermophile, with optimal and consistent growth conditions established at $60^	ext{o}	ext{C}$ for all experimental cultivations. The research context highlights the necessity of thermophilic chassis for efficient enzymatic hydrolysis of polyesters, which optimally occurs at $70–80^	ext{o}	ext{C}$. The organism was engineered via Adaptive Laboratory Evolution (ALE) to thrive on plastic monomers (adipic acid and 1,4-butanediol) under these elevated temperatures. The study explicitly contrasts the organism's high-temperature requirements with the mesophilic range ($30^	ext{o}	ext{C}$) used for comparison, emphasizing the advantage of using a thermophilic host for integrated, high-temperature bioprocessing of plastic waste. The overall strategy is centered on leveraging the organism's thermophilic nature for robust, high-temperature CBP applications.
+
+
+Paper: 41990964.txt
+Thermal Evidence:
+- Optimum activity temperature: 70 °C
+- Melting temperature: 91.8 °C
+- Thermophilic properties observed.
+
+Environmental Context:
+- Source organism is a thermophilic bacterium.
+
+Concise Summary:
+The enzyme was characterized from a thermophilic bacterium. The enzyme exhibited thermophilic properties, with an optimum activity temperature of 70 °C and a high melting temperature of 91.8 °C, indicating strong thermostability. The source organism is explicitly identified as thermophilic.
+
+

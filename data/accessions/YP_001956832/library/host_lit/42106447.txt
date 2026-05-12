@@ -1,0 +1,18 @@
+New isolates of Pseudomonas and Streptomyces as bioremediation tools for aclonifen removal.
+
+Aclonifen is a persistent diphenyl-ether herbicide whose accumulation in agricultural soils poses an
+increasing environmental challenge. Identifying efficient microbial degraders is therefore essential
+for developing sustainable remediation strategies. In this study, we demonstrate for the first time
+the ability of four previously characterized diflufenican-degrading bacterial isolates: Pseudomonas
+sp. 10Kp8 - A1, Pseudomonas chlororaphis subsp. aureofaciens B19 - A2, Pseudomonas baetica JZY4-9 -
+C1, and Streptomyces atratus ROA017 - D1, and their four-strain consortium to degrade aclonifen in
+liquid medium and soil. All strains were able to remove aclonifen as the sole carbon source,
+achieving degradation efficiencies of 50-60% in mineral salt medium (MSM) after 21 days. Strains A2
+and D1 were the most effective and were therefore selected for soil experiments, where the maximum
+degradation reached 69% for strain D1 by day 28. In both environments, individual strains
+consistently outperformed the mixed consortium, indicating potential antagonistic interactions
+within the mixture. By demonstrating that bacteria originally selected for diflufenican removal can
+successfully target another herbicide, this work introduces a novel and promising biological
+strategy for the remediation of aclonifen-contaminated environments. These findings broaden the
+range of microbial candidates for sustainable pesticide remediation and establish a basis for the
+future development of biological strategies for contaminated agricultural soils.

@@ -1,0 +1,19 @@
+Fournier Gangrene in a Tertiary Surgical Center: Patterns of Microbiology, Antibiotic Resistance, and Risk Stratification.
+
+Fournier gangrene is a rapidly progressive and life-threatening soft-tissue infection originating in
+the perineal and genital regions, spreading quickly along fascial planes. Early identification of
+causative pathogens and their antimicrobial susceptibility is essential to guide empirical therapy
+and improve outcomes. This retrospective study was conducted at a tertiary academic medical center.
+Among 59 surgically treated patients, 30 with complete clinical and microbiological data and
+available wound cultures were included. Demographic characteristics, microbiological profiles, and
+antimicrobial susceptibility patterns were analyzed. The mean age was 59.2 years (range 45-84), and
+56.7% were male. Nearly half of the patients were aged 50-59 years (46.7%). Wound cultures revealed
+monomicrobial growth in 50.0%, polymicrobial in 26.7%, and no growth in 23.3%. Escherichia coli was
+the leading pathogen (56.3%), followed by Klebsiella pneumoniae (9.4%), while anaerobes were rarely
+isolated. Resistance rates were 41.4% among Gram-positives and 38.3% among Gram-negatives. Amikacin
+(100%) and carbapenems (>80%) showed the highest susceptibility, whereas fluoroquinolones and
+aminopenicillins exhibited resistance exceeding 40%. E. coli was the predominant organism in
+Fournier gangrene, accompanied by substantial resistance to commonly used antibiotics.
+Aminoglycosides and carbapenems remain the most reliable empirical choices. Although most patients
+presented with low FGSI scores, the presence of resistant isolates highlights the need for region-
+specific antibiotic stewardship and ongoing surveillance.

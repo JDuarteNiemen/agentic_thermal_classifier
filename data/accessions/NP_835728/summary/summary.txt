@@ -1,0 +1,51 @@
+Summary file for NP_835728
+Number of papers: 4
+=============Summaries=============
+
+Paper: 15579472.txt
+Thermal Evidence:
+- The source organism is described as a thermophilic eubacterium.
+- The purified enzyme was shown to possess activity at elevated temperatures.
+
+Environmental Context:
+- The enzyme was derived from a bacteriophage infecting a thermophilic eubacterium.
+
+Concise Summary:
+The enzyme was characterized from a bacteriophage infecting a thermophilic eubacterium. The enzyme itself was shown to retain biochemical activity on both RNA and DNA substrates at elevated temperatures, indicating adaptation to high temperatures.
+
+
+Paper: 24318108.txt
+Thermal Evidence:
+- Stable titer observed up to 65 °C.
+- Loss of viability noted at higher temperatures.
+- Titer reduced by $10^4$ after 30 min incubation at 96 °C.
+
+Environmental Context:
+- Isolated from a thermophilic bacterium.
+
+Concise Summary:
+The phage exhibits stability up to 65 °C, indicating thermotolerance. Viability is lost at temperatures exceeding this range, with significant titer reduction observed after incubation at 96 °C. The phage was isolated from a thermophilic bacterium, suggesting adaptation to high-temperature environments.
+
+
+Paper: 41406621.txt
+Thermal Evidence:
+- The enzyme from the first organism is described as thermophilic and alkaline-active.
+
+Environmental Context:
+- The first enzyme was isolated from *Rhodothermus marinus*.
+
+Concise Summary:
+Two enzymes were characterized: one from a thermophilic source and another from *Bacillus cereus*. The enzyme from the thermophilic source exhibits thermophilic adaptation. No specific optimal growth temperature or temperature range was provided for either enzyme, only the thermophilic nature of one enzyme.
+
+
+Paper: 39970754.txt
+Thermal Evidence:
+- Half-life was over 8 days at 50 ℃.
+
+Environmental Context:
+- No specific habitat or growth temperature range was provided for the organism itself, only stability data for the isolated enzyme.
+
+Concise Summary:
+An enzyme isolated from a source capable of functioning at elevated temperatures demonstrated significant thermostability, exhibiting a half-life exceeding 8 days at 50 °C. The study focuses on the enzyme's catalytic activity under reaction conditions rather than the organism's optimal growth temperature or environmental niche.
+
+

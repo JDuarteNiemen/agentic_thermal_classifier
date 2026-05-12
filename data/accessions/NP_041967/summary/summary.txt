@@ -1,0 +1,18 @@
+Summary file for NP_041967
+Number of papers: 1
+=============Summaries=============
+
+Paper: 42104428.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was provided.
+- No survival temperature range was provided.
+- No explicit incubation conditions related to temperature were provided, other than the optimization of 'cultivation temperature'.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or specific temperature-adapted enzymes/membranes was made.
+
+Environmental Context:
+- No environmental source or habitat was mentioned.
+
+Concise Summary:
+The study focused on metabolic engineering and bioprocess optimization for the high-level production of shikimic acid in a bacterium. Optimization included adjusting 'cultivation temperature' alongside substrate concentration, inoculation size, induction time, and C/N ratio. No specific thermal parameters (optimal temperature, range, or adaptation type) were detailed in the provided text.
+
+

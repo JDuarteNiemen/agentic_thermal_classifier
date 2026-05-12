@@ -1,0 +1,70 @@
+Summary file for SNQ28030
+Number of papers: 5
+=============Summaries=============
+
+Paper: 41902306.txt
+Thermal Evidence:
+- Refrigerator temperatures: Phages remained stable for several months in liquid culture.
+- 50 °C: Two non-enveloped phages survived for up to one week; one enveloped phage was inactivated within one day.
+- 37 °C: Two non-enveloped phages survived for two to seven days, depending on relative humidity (RH).
+- 25 °C: Two non-enveloped phages remained detectable regardless of humidity.
+- General stability was noted to be temperature-dependent.
+
+Environmental Context:
+- No specific extreme environment source or habitat was mentioned for the phages.
+- No explicit classification (e.g., thermophilic, psychrophilic) was provided by the authors.
+
+
+Paper: PMC13143981.1.txt
+Thermal Evidence:
+- No specific temperature data, growth ranges, or thermal adaptation mechanisms (thermophilic, psychrophilic, etc.) were reported for any detected pathogens.
+
+Environmental Context:
+- Pathogens were isolated from human respiratory specimens (nasopharyngeal swabs and bronchoalveolar lavage fluid) of critically ill patients with severe pneumonia in an Intensive Care Unit (ICU) setting.
+
+Concise Summary:
+This study focused on the molecular surveillance of drug-resistant bacterial and fungal pathogens in severe ICU pneumonia using targeted next-generation sequencing. The analysis compared results from non-invasive nasopharyngeal swabs (NPS) against the reference standard, bronchoalveolar lavage fluid (BALF). The detected pathogens included common respiratory flora and opportunistic pathogens, such as *Klebsiella pneumoniae*, *Pseudomonas aeruginosa*, *Acinetobacter baumannii*, *Staphylococcus aureus*, and various fungal species (e.g., *Candida* spp., *Aspergillus* spp.). The study provided detailed concordance metrics (PPA, NPA) for these pathogens but contained no information regarding the optimal growth temperature, temperature ranges, or any specific thermal adaptations of the isolated microbes.
+
+
+Paper: 42104428.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was provided.
+- No survival temperature range was provided.
+- No explicit incubation conditions related to temperature were provided, other than the optimization of 'cultivation temperature'.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or specific temperature-adapted enzymes/membranes was made.
+
+Environmental Context:
+- No environmental source or habitat was mentioned.
+
+Concise Summary:
+The study focused on metabolic engineering and bioprocess optimization for high-level shikimic acid production in a bacterium. While fermentation conditions were comprehensively optimized, the provided text does not contain specific data regarding the optimal growth temperature, temperature ranges, or thermal adaptations (thermophilic, psychrophilic, etc.) of the organism. The organism's source or habitat was not reported.
+
+
+Paper: PMC13143937.1.txt
+Thermal Evidence:
+- No specific temperature data regarding optimal growth, growth range, survival range, or incubation conditions were provided for the tested bacterial species.
+- No mention was made of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The isolates were collected from clinical hospital settings (Peking University First Hospital, Peking Union Medical College Hospital, Huashan Hospital affiliated with Fudan University, and Sir Run Run Shaw Hospital affiliated with Zhejiang University School of Medicine).
+- The organisms were isolated from human clinical samples, indicating a typical human-associated commensal or pathogenic niche, but no extreme environmental source was noted.
+
+Concise Summary:
+The study focused on determining tentative epidemiological cutoff values (TECOFFs) for the antibiotic faropenem against five common human pathogens: *E. coli*, *K. pneumoniae*, *S. aureus*, *H. influenzae*, and *S. pneumoniae*. The methodology involved susceptibility testing using clinical isolates collected from four major Chinese hospitals between 2019 and 2021. The analysis was purely microbiological and pharmacological, establishing antibiotic resistance breakpoints (MIC and inhibition zone diameters) for clinical interpretation. No data regarding the thermal physiology, growth temperature, or environmental adaptation of these bacterial species were presented or analyzed.
+
+
+Paper: PMC13144091.1.txt
+Thermal Evidence:
+- Optimal stability was observed at a temperature range of 4°C–37°C.
+- The phages demonstrated stability at 4°C, 25°C, and 37°C.
+- Phage titers were completely inactivated at 70°C (for one phage) and 80°C (for the other phage).
+- The phages were stable between pH 4.0 and 7.0, but were completely inactivated at pH 1.0 and 2.0.
+- The phages were highly sensitive to strongly acidic and alkaline conditions.
+
+Environmental Context:
+- The phages were isolated from animal husbandry and hospital wastewater.
+
+Concise Summary:
+The bacteriophages exhibited optimal stability across a temperature range of 4°C to 37°C. They maintained viability at 4°C, 25°C, and 37°C, but showed significant inactivation at higher temperatures, with one phage losing activity at 70°C and the other at 80°C. Stability was also noted across a pH range of 4.0 to 7.0, indicating sensitivity to extreme pH levels. The phages were isolated from wastewater sources, suggesting environmental resilience. The overall profile suggests mesophilic characteristics with limited thermal tolerance above 50°C.
+
+

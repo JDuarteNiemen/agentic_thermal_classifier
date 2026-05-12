@@ -1,0 +1,31 @@
+Summary file for NP_040628
+Number of papers: 2
+=============Summaries=============
+
+Paper: 3156406.txt
+Thermal Evidence:
+- Optimal/Functional temperature for antitermination: 30 degrees C.
+- Temperature at which antitermination is abolished: 42 degrees C.
+- Restoration of antitermination at 42 degrees C required the presence of both the boxA and the core sequence.
+
+Environmental Context:
+- No specific environmental source or habitat mentioned.
+
+Concise Summary:
+Transcriptional control mediated by a DNA recognition site exhibits temperature dependence. Antitermination activity was observed at 30 degrees C, but this function was lost at 42 degrees C. The restoration of efficient antitermination at the higher temperature (42 degrees C) required the presence of both the boxA sequence and the core recognition sequence, suggesting a temperature-dependent requirement for both elements for optimal function.
+
+
+Paper: 42104428.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was provided.
+- No survival temperature range was provided.
+- No explicit incubation conditions related to temperature were provided, other than the optimization of 'cultivation temperature'.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or specific temperature-adapted enzymes/membranes was made.
+
+Environmental Context:
+- No environmental source or habitat was mentioned.
+
+Concise Summary:
+The study focused on metabolic engineering and bioprocess optimization for the high-level production of shikimic acid in a model bacterium. Optimization included adjusting 'cultivation temperature' alongside substrate concentration, inoculation size, induction time, and C/N ratio. No specific thermal parameters (optimal temperature, range, or adaptation type) were detailed in the provided text.
+
+

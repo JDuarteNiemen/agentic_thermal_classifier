@@ -1,0 +1,57 @@
+Summary file for YP_009008883
+Number of papers: 4
+=============Summaries=============
+
+Paper: 24214837.txt
+Thermal Evidence:
+- Growth/Storage Temperature: Chilled storage conditions (4 °C).
+- Inhibition observed at 4 °C.
+
+Environmental Context:
+- No specific environmental source/habitat mentioned for the organisms studied.
+
+Concise Summary:
+Bacteriophage treatment successfully inhibited the growth of a spoilage organism under chilled storage conditions (4 °C). The bacteriophage demonstrated efficacy in extending the shelf life of fish fillets at this low temperature, suggesting potential for biocontrol in refrigerated food preservation.
+
+
+Paper: 30594742.txt
+Thermal Evidence:
+- Growth inhibition was observed at both 25 °C and 4 °C.
+- Reduction in viable counts was measured after 1 day at 25 °C and 10 days at 4 °C.
+
+Environmental Context:
+- The study models spoilage in chilled fresh fish fillets.
+
+Concise Summary:
+Phage activity was tested for controlling bacterial growth in chilled fish matrices at both 25 °C and 4 °C. The observed inhibition and reduction in bacterial counts confirm activity under refrigeration and ambient chilled conditions.
+
+
+Paper: 29369685.txt
+Thermal Evidence:
+- No specific optimal growth temperature or growth temperature range was provided.
+- The proteins demonstrated high temperature resistance.
+- The activity was tested against 'chilled' bacteria, suggesting efficacy under low-temperature conditions.
+- The enzyme exhibited superior enzymatic activity across a pH range (5.0 to 10.0) that matches environmental conditions, implying functional stability across varying environmental temperatures.
+
+Environmental Context:
+- The source organism is associated with spoilage in seafood.
+- No explicit classification regarding temperature adaptation (e.g., thermophilic, psychrophilic) was given for the enzyme or the organism.
+
+Concise Summary:
+Two lysis-related proteins were characterized from a phage associated with a spoilage organism found in seafood. The recombinant protein showed high temperature resistance and maintained superior enzymatic activity across a pH range (5.0–10.0) suitable for environmental application in seafood. The proteins demonstrated lytic activity against 'chilled' bacterial cultures, indicating functional efficacy under cold conditions. No specific optimal growth temperature or classification of temperature adaptation was reported.
+
+
+Paper: PMC13074001.1.txt
+Thermal Evidence:
+- Survival temperature range: -18 °C to 25 °C
+- Cold tolerance: Demonstrated stability at 4 °C and superior cryostability at -18 °C, attributed to the cryoprotective effect of the stabilizing polymer.
+- Optimal growth temperature: 30 °C (for antibacterial testing)
+- Incubation conditions: 30 °C for 24 h (for antibacterial testing)
+
+Environmental Context:
+- Habitat/Source: Aquatic products (spoiled aquatic products)
+
+Concise Summary:
+The system demonstrated excellent thermal stability across a wide range relevant to food storage, specifically from -18 °C to 25 °C. The antibacterial efficacy testing was conducted at 30 °C, which served as the optimal growth temperature for the tested spoilage bacteria. The stability at 4 °C and the superior cryostability observed at -18 °C, attributed to the stabilizing polymer's cryoprotective effect, confirm its suitability for the entire cold chain, including frozen storage. The system's robustness across this temperature spectrum is crucial for practical application in aquatic product preservation.
+
+

@@ -3,7 +3,7 @@ import requests
 
 
 # Set model to be used
-OLLAMA_MODEL = "qwen3.5"
+OLLAMA_MODEL = "gemma4:e4b"
 OLLAMA_BASE_URL = "http://localhost:11434"
 
 # ---------------------------------------------------------------------------

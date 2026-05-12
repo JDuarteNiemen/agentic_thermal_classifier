@@ -98,6 +98,51 @@ class DemocraticState(TypedDict):
     JSONDecodeError: bool
 
 
+# ---------------------------------------------------------------------------
+# Summary State
+# ---------------------------------------------------------------------------
+class SummaryState(TypedDict):
+    #model
+    model: str
+
+    #phage specific metrics
+    accession: str
+    phage: str
+    metadata: str
+
+    #  host classification
+    host: str
+    taxonomic_level: str
+    host_reasoning: str
+    host_confidence: str
+    host_source: str
+    host_found: bool
+
+    # thermal classification
+    thermal_range: str
+    temperature: str
+    thermal_reasoning: str
+    thermal_confidence: str
+    thermal_found: bool
+
+    # paper info
+    summary_file: str
+    paper_dir: str
+    paper_dir_size: int
+    relevant_accession_papers: list
+    relevant_accession_dir_size: int
+    host_paper_dir: str
+    host_paper_dir_size: int
+    relevant_host_papers: list
+    relevant_host_dir_size: int
+
+
+    #meta information
+    duration: float
+    decision: str
+    nodes: list
+    timings: dict
+    JSONDecodeError: bool
 
 # ---------------------------------------------------------------------------
 # Structured Output States
@@ -121,4 +166,5 @@ class SummaryOutput(BaseModel):
     summary: str
 
 class RelevantOutput(BaseModel):
-    relevant: bool
+    verdict: bool
+    reasoning: str

@@ -1,0 +1,17 @@
+Analysis of unmapped RNA-seq data from cancer spatial transcriptome toward characterizing cancer microbiome.
+
+Spatial characterization of microbial-like signals in tumor tissues remains challenging,
+particularly in direct Visium data, where microbial reads are sparse and may not be fully retained
+in standard count matrices. Here, we present an extended unmapped-read analysis as a proof-of-
+concept workflow for summarizing microbial-like 16S rRNA signals in four direct Visium specimens
+from colorectal cancer (CRC), oral squamous cell carcinoma (OSCC), and head and neck squamous cell
+carcinoma (HNSC). The workflow uses a custom reference containing four selected 16S rRNA sequences
+and computes a per-spot mismatch ratio to quantify sequence-level dissimilarity relative to each
+reference. Compared with PathSeq, the workflow yielded different spatial signal patterns and
+mismatch summaries across the analyzed specimens. Among the four tested references, the CRC specimen
+showed lower mismatch ratios relative to the E. coli reference than the other analyzed specimens, an
+observation compatible with the intestinal context but not definitive evidence of species-level
+presence or evolutionary proximity. Given the small sample set, restricted reference panel, and lack
+of dedicated negative controls, these findings should be interpreted as hypothesis-generating. This
+study provides a complementary proof-of-concept framework for exploring microbial-like signals in
+direct Visium data.

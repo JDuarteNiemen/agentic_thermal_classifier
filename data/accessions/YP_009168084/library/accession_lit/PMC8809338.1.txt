@@ -1,0 +1,370 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Microbiol Spectr
+Journal ID: Microbiol Spectr
+Journal ID: spectrum
+
+Microbiology Spectrum
+
+EISSN: 2165-0497
+Publisher: American Society for Microbiology (ASM)
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC8809338
+PMID: 35107386
+DOI: 10.1128/spectrum.02220-21
+Article ID: 02220-21
+Article ID: spectrum.02220-21
+Article version: 1
+Subjects: Research Article
+
+Characterization of a T4-like Bacteriophage vB_EcoM-Sa45lw as a Potential Biocontrol Agent for Shiga Toxin-Producing Escherichia coli O45 Contaminated on Mung Bean Seeds
+
+https://orcid.org/0000-0002-4181-5308 Liao Yen-Te a
+Zhang Yujie a
+Salvador Alexandra a
+Harden Leslie A. a
+https://orcid.org/0000-0002-1525-1078 Wu Vivian C. H. a vivian.wu@usda.gov
+a Produce Safety and Microbiology Research Unit, Department of Agriculture, Agricultural Research Service, Western Regional Research Center, Albany, California, United States
+Editor Gralnick Jeffrey A. University of Minnesota
+
+The authors declare no conflict of interest.
+
+Electronic publication date: 2022 Feb 2
+Publication date: 2022 Jan-Feb
+Volume: 10
+Issue: 1
+Electronic Location ID: e02220-21
+Received 2021 Dec 14; Accepted 2021 Dec 29
+
+License: This is a work of the U.S. Government and is not subject to copyright protection in the United States. Foreign copyrights may apply.
+License URL: https://doi.org/10.1128/AuthorWarrantyLicense.v1
+
+Keywords: lytic phage, whole-genome sequencing, STEC O45 & O157, biocontrol agent, mung bean seeds
+
+Funding: U.S. Department of Agriculture (USDA) https://doi.org/10.13039/100000199 2030-42000-055-00D Wu Vivian C. H.
+Count: 1
+Figure count: 9
+Table count: 2
+Equation count: 0
+Reference count: 78
+Page count: 17
+
+cover-date: January/February 2022
+
+==============================
+ABSTRACT
+
+Application of lytic bacteriophages is a promising and alternative intervention technology to relieve antibiotic resistance pressure and control bacterial pathogens in the food industry. Despite the increase of produce-associated outbreaks caused by non-O157 Shiga toxin-producing E. coli (STEC) serogroups, the information of phage application on sprouts to mitigate these pathogens is lacking. Therefore, the objective of this study was to characterize a T4-like Escherichia phage vB_EcoM-Sa45lw (or Sa45lw) for the biocontrol potential of STEC O45 on mung bean seeds. Phage Sa45lw belongs to the Tequatrovirus genus under the Myoviridae family and displays a close evolutionary relationship with a STEC O157-infecting phage AR1. Sa45lw contains a long-tail fiber gene (gp37), sharing high genetic similarity with the counterpart of Escherichia phage KIT03, and a unique tail lysozyme (gp5) to distinguish its host range (STEC O157, O45, ATCC 13706, and Salmonella Montevideo and Thompson) from phage KIT03 (O157 and Salmonella enterica). No stx, antibiotic resistance, and lysogenic genes were found in the Sa45lw genome. The phage has a latent period of 27 min with an estimated burst size of 80 PFU/CFU and is stable at a wide range of pH (pH 3 to pH 10.5) and temperatures (–80°C to 50°C). Phage Sa45lw is particularly effective in reducing E. coli O45:H16 both in vitro (MOI = 10) by 5 log and upon application (MOI = 1,000) on the contaminated mung bean seeds for 15 min by 2 log at 25°C. These findings highlight the potential of phage application against non-O157 STEC on sprout seeds.
+
+IMPORTANCE Seeds contaminated with foodborne pathogens, such as Shiga toxin-producing E. coli, are the primary sources of contamination in produce and have contributed to numerous foodborne outbreaks. Antibiotic resistance has been a long-lasting issue that poses a threat to human health and the food industry. Therefore, developing novel antimicrobial interventions, such as bacteriophage application, is pivotal to combat these pathogens. This study characterized a lytic bacteriophage Sa45lw as an alternative antimicrobial agent to control pathogenic E. coli on the contaminated mung bean seeds. The phage exhibited antimicrobial effects against both pathogenic E. coli and Salmonella without containing virulent or lysogenic genes that could compromise the safety of phage application. In addition, after 15 min of phage treatment, Sa45lw mitigated E. coli O45:H16 on the contaminated mung bean seeds by a 2-log reduction at room temperature, demonstrating the biocontrol potential of non-O157 Shiga toxin-producing E. coli on sprout seeds.
+
+INTRODUCTION
+
+In recent years, the pursuit of a healthier lifestyle has prompted high consumer demand for fresh produce, typically consumed raw in many western culinary dishes (1). As a result, the numbers of produce-associated foodborne outbreaks are on the rise in the United States, and sprouts are one of the most frequently associated food vehicles, contributing to 27% of the cases (1). In addition, there are a total of 147,000 reported cases of sprout-related foodborne outbreaks around the world from 1988 to 2020, causing 214 hospitalization and 58 deaths, primarily from Salmonella and Shiga toxin-producing Escherichia coli (STEC) O157 infections (2). In 2011, a catastrophic sprout-associated outbreak in Germany caused by E. coli O104:H4, bearing two different virulence factors of enteroaggregative E. coli (EAEC) and STEC, involved more than 3,000 cases of human infection in which 850 patients developed hemolytic uremic syndrome (HUS), and 53 died (3). Ever since then, there have been more and more foodborne outbreaks related to sprouts contaminated with different serogroups of non-O157 STEC strains (2), which can cause human illnesses as severe as STEC O157 (4).
+
+Seeds are one of the primary contamination sources of produce production (2); this is particularly critical for sprouts because the seeds release macromolecules, such as nutrient substances, during germination that can facilitate bacterial growth (5). Various disinfection methods, such as chemical-based antimicrobial agents (calcium hypochlorite) or physical treatments (high pressure and heat), were studied to reduce microbiological levels on the contaminated seeds (6, 7). However, these technologies may inhibit the germination rate or adversely affect sprout quality during production (8, 9). Furthermore, despite the food industry establishing its standardized procedures to mitigate STEC O157, these intervention strategies may not render similar effects against individual non-O157 STEC serogroups (10). Therefore, alternative antimicrobial interventions are critically demanding for effective control of foodborne pathogens on seeds without adversely impacting the viability or quality (10, 11).
+
+Bacteriophages (or phages) are viruses that propagate via infection of bacteria, and they are highly diverse and ubiquitous in the ecosystem where their bacterial hosts are present (12). Phages are host-specific because they need to bind to the specific receptor proteins located on the surface of their bacterial host cells to initiate the infection (13, 14). Because of the nature of the lytic infection, phage could hijack bacterial machinery and cause bacterial lysis to release phage progenies for subsequent infection (15). Unlike antibiotics, lytic phages are host-specific without eliminating background flora and do not contribute to the development of bacterial antibiotic resistance (12, 16). In addition, these phages can also combat and reduce the spread of antibiotic-resistant strains in an agricultural field (17, 18) and minimize any environmental burden on subsequent terrestrial surroundings (12). Most importantly, U.S. Food and Drug Administration (FDA) has approved several commercial phage products as Generally Recognized As Safe (GRAS) to be used directly on ready-to-eat food for the treatment of foodborne pathogens (17, 19). These findings shed a bright light on the development of phage-based interventional technology and application to improve the safety of fresh produce.
+
+In the context of produce safety, numerous studies have focused on the use of lytic phages to reduce E. coli O157:H7 (18). Snyder et al. presented several candidate phages for the control of STEC O157 and found that one phage, with a strong antimicrobial effect, reduced E. coli O157:H7 by 3 log and 3.5 log on green peppers and spinach leaves, respectively, during post-harvest treatment at refrigeration storage (4°C) (20). Another study found a myophage with a wide host range showing antimicrobial effect against E. coli O157:H7 with a reduction of viable cells by 3.5 log on the contaminated romaine lettuce stored at 4°C for 5 days (21). Despite many studies examining phage application on the control of STEC on fresh produce, the relevant information on produce seeds, particularly sprout seeds, is scarce. Moreover, most phage research and product development, including commercial phage products, focuses on the target of E. coli O157:H7 more than the top six non-O157 STEC serogroups, such as O45 (22). Although STEC O45 is less frequently associated with foodborne outbreaks than other non-O157 serogroups (4), our previous study indicated the genetic evidence of STEC O45 sharing similar virulence factors of another non-O157 STEC associated with foodborne outbreaks (23). Food processors may easily ignore the negative impact of this type of pathogens in the sprout industry. Thus, the objective of this study was to characterize Escherichia Phage vB_EcoM-Sa45lw isolated from a produce-growing area for the biocontrol potential of STEC O45 to improve the microbiological safety of mung bean seeds.
+
+RESULTS
+
+Genomic and comparative analyses of Sa45lw.
+
+The phage contained double-stranded DNA with a genome size of 167,353 bp and an average GC content of 35.4%. The phylogenetic analysis of whole-genome sequence using the Virus Classification and Tree Building Online Resource (VICTOR) revealed that phage Sa45lw shared the closest relation with phage AR1 at the amino acid level and was in the same clade containing the phages classified into the Tequatrovirus genus (Fig. 1). Furthermore, comparative analysis (with the threshold of 70% nucleotide similarity) showed that phage Sa45lw contained common regions/open reading frames (ORFs), coding for hypothetical proteins, small outer capsid protein, and tail long tail fiber protein, compared to phage AR1 (Fig. 2). In addition, ORF125 and ORF162, coding for a predicted endonuclease V N-glycosylase UV repair enzyme and homing endonuclease, respectively, in phage Sa45lw, were absent in phage AR1 genome.
+
+FIG 1 Phylogenetic analysis of whole-genome sequences of phage vB_EcoM-Sa45lw (Sa45lw) and the reference phages belonging to various genera under the Myoviridae family at the amino acid level using VICTOR. Gray dot indicates no genus classification is assigned to the specific phages. GenBank accession number of each phage is provided in the parenthesis followed by the phage name.
+
+FIG 2 Genome comparison of vB_EcoM-Sa45lw (Sa45lw) and its reference Enterobacter phage AR1, using BLASTn and visualization with EasyFig. Genome maps of phages AR1 and Sa45lw are presented as blue arrows, which indicate the order of annotated open reading frames (ORFs) from left to right along the phage genomes. Regions of sequence similarity are connected by a gray-scale shaded area; the unshared ORFs are highlighted in yellow, and the ORFs highlighted in red are tRNAs.
+
+Among 282 ORFs, there were 136 annotated with predicted functions, including structural proteins, host lysis, DNA replication, and transcription regulation, such as anti-sigma factors specifically found in T-even phages, and host cell regulation and metabolism (Table S1). Sa45lw contained 11 tRNAs in the phage genome. Furthermore, no stx genes, lysogenic genes, and antibiotic resistance genes were found in the phage genome (Table S1).
+
+Comparative analyses were conducted on the ORFs predicted with the functions of bacterial host recognition (gp37 and gp5), cell lysis (holin and endolysin), and virion replication mechanism (terminase large subunit). The results showed that ORF_258 coding for a long-tail fiber (gp37) in phage Sa45lw was closely related to its counterpart in phage KIT03 (Fig. 3A). Phage Sa45lw contained ORF_160 annotated with a tail lysozyme (gp5), distinct from other reference phages (Fig. 3B). ORF_126 in Sa45lw genome encoded an endolysin, sharing a close evolutionary relationship with the counterpart in phage RB14 (Fig. 3C). In addition, the results showed that ORF_176 in phage Sa45lw, coding for a terminase large subunit, was associated with virion DNA packaging mechanism and was genetically classified in the cluster of headful T4 (Fig. 3D).
+
+FIG 3 Neighbor-joining phylogenetic tree of phage vB-EcoM-Sa45lw (with yellow highlight) and the closely-related T4-like phage reference genomes based on the Clustal Omega alignment of the amino acid sequences of (A) long tail fiber (gp37), (B) tail lysozyme (gp5), (C) endolysin, and (D) terminase large subunit. Numbers next to the branches are bootstrap values (500 replicates). The scale represents the homology percentage.
+
+Morphology.
+
+Phage Sa45lw contained an icosahedral head, with a diameter of approximately 87.5 ± 3.1 nm, and a long contractile tail, with 120 ± 5 nm in length. The phage also had a visible baseplate and whiskers, showing the morphology similar to phage T4 in the Myoviridae family (Fig. 4).
+
+FIG 4 Transmission electron microscopy image of phage Sa45lw with a capsid (87.5 ± 3.1 nm in diameter) and a long contractile tail (120 ± 5 nm in length), showing Myoviridae morphology.
+
+One-step growth curve.
+
+The results of growth factors indicated that phage Sa45lw had an estimated 17-min eclipse period and a 27-min latent period against generic E. coli ATCC 13706 strain (Fig. 5). An average burst size of 80 progeny virions per infected cell was produced after an approximately 35-min incubation at 37°C.
+
+FIG 5 One-step growth curve of phage Sa45lw using generic E. coli strain (ATCC 13706). The growth parameters of the phage indicate an eclipse period (EP) of 17 min, a latent period (LP) of 27 min, and average burst size (BS) of 80 phages per infected cell. Closed red triangles indicate non-chloroform-treated samples; closed blue circles indicate chloroform-treated samples. The error bars present the standard error of the mean (SEM) for each time point of the one-step growth curve.
+
+Phage temperature, storage, and pH stability.
+
+For thermal stability, phage Sa45lw was stable at the temperatures between 30°C and 50°C after 24 h of the treatment but decreased in titer at 65°C by approximately 2.2 log and 8 log after 1 h and 24 h, respectively (Fig. 6A). For the storage test, the phage stock in SM buffer was able to remain at a comparable titer at 4°C for 36 days but was dropped approximately 0.6 log (P < 0.05) after 164 days of storage (Fig. 6B). Although the titer of the phage stock mixed with 30% glycerol (vol/vol) dropped from the initial phage concentration, phage Sa45lw remained stable at −80°C for 36 days (Fig. 6B).
+
+FIG 6 Stability of phage Sa45lw at (A) different temperatures (30°C to 65°C) for one and 24 h, (B) 4°C and −80°C storage, and (C) various pH (pH 3, pH 5, pH 7.5, pH 9, pH 10.5, and pH 12) at 25°C for 24 h. No statistical differences were observed between each time point of the thermal stability and −80°C storage (P > 0.05). For the temperature test, different treatment periods were analyzed separately. For all tests, means of phage titers that lack common letters (a and b or a', b' and c') differ (P < 0.05). The error bars show the SEM.
+
+Regarding pH stability, a range of pH from 3 to 12 was tested at room temperature (25°C). The results indicated that phage Sa45lw was maintained at a similar titer of 7 log PFU/ml (P > 0.05) among pH 5 to pH 9 after 24 h of treatment but significantly dropped (P < 0.05) at pH 4 and pH 10.5 by approximately 0.71 and 0.70 log, respectively (Fig. 6C). In addition, the phage was below detection level at pH 3 and pH 12 after 24 h of the treatment at room temperature.
+
+Analysis of phage structural proteins.
+
+The separation of phage proteins by sodium dodecyl sulfate-polyacrylamide gel electrophoresis (SDS-PAGE) revealed 16 bands related to Sa45lw-associated proteins, with molecular weights ranging from approximately 15 to 250 kDa (Fig. 7). The identified gel bands, labeled with A to P, included various structural phage proteins, such as baseplate wedge, long-tail fiber subunit, tail sheath, tail tube, Wac fibritin neck whiskers, major capsid protein, etc., with the coverage of amino acid sequences ranging from 22% to 92% by mass spectrometry (Table 1). In addition, phage DNA replication-associated proteins were identified at gel bands D, E, and M, including RNA polymerase-ADP-ribosyltransferase, adenosylribosyl-transferase packaged injected with DNA, DNA end protector protein, and sliding clamp DNA polymerase accessory protein. All protein bands identified by mass spectrometry matched the genome annotation results of Sa45lw.
+
+FIG 7 The proteins of phage Sa45lw detected on a 12% SDS-PAGE gel, visualized by Coomassie brilliant blue R-250. A = baseplate wedge protein gp7; B = large distal long tail fiber subunit; C = baseplate protein; D = RNA polymerase-ADP-ribosyltransferase & baseplate wedge subunit; E = adenosylribosyl-transferase packaged injected with DNA & tail sheath protein; F: short tail fiber & portal protein; I = capsid vertex protein. Refer to Table 1 for the protein information of the rest of the bands.
+
+TABLE 1 The proteins of phage Sa45lw, identified by high-performance liquid chromatography with tandem mass spectrometry (HPLC-MS-MS)
+
+Gel band	Detected protein/ORF	Predicted function	Mol wt (kDa)	No. of peptides	Sequence coverage	
+A	Sa45lw_165	Baseplate wedge protein gp7	119.01	37	39.50%	
+B	Sa45lw_258	Large distal long tail fiber subunit	119.41	47	67.90%	
+C	Sa45lw_168	Baseplate wedge subunit and tail pin	66.34	20	47.60%	
+Sa45lw_201	Baseplate hub subunit tail length determinator	64.52	30	57.60%	
+D	Sa45lw_205	RNA polymerase-ADP-ribosyltransferase	75.91	29	50.20%	
+Sa45lw_164	Baseplate wedge subunit	74.36	31	62.60%	
+E	Sa45lw_206	Adenosylribosyl-transferase packaged injected with DNA	77.94	46	63.00%	
+Sa45lw_177	Tail sheath protein	71.40	32	56.40%	
+F	Sa45lw_170	Short tail fiber	55.39	30	87.00%	
+Sa45lw_179	Portal protein	61.02	29	59.90%	
+G	Sa45lw_171	Wac fibritin neck whiskers	52.57	31	88.70%	
+H	Sa45lw_184	Major capsid protein	56.17	28	71.40%	
+I	Sa45lw_185	Capsid vertex protein	47.04	25	61.60%	
+J	Sa45lw_189	Large head outer capsid protein	40.67	19	79.50%	
+Sa45lw_256	Hinge connector of long tail fiber, proximal	40.10	21	85.70%	
+Sa45lw_202	Baseplate tail tubecap	39.75	21	77.20%	
+Sa45lw_166	Baseplate wedge subunit	38.04	15	66.20%	
+Sa45lw_199	Baseplate hub subunit	44.28	21	65.60%	
+K	Sa45lw_172	Neck protein	34.76	18	61.20%	
+Sa45lw_174	Tail sheath stabilizer and completion protein	31.61	14	63.60%	
+Sa45lw_160	Baseplate hub subunit and tail lysozyme	63.10	14	37.00%	
+L	Sa45lw_203	Baseplate tail tube initiator	34.91	9	41.40%	
+Sa45lw_173	Neck protein	29.56	8	46.50%	
+M	Sa45lw_167	Baseplate wedge subunit and tail fiber connector	30.97	16	88.90%	
+Sa45lw_157	DNA end protector protein	31.63	12	50.00%	
+Sa45lw_53	Sliding clamp DNA polymerase accessory protein	24.89	8	44.30%	
+N	Sa45lw_178	Tail tube protein	18.46	13	70.60%	
+Sa45lw_156	Tail completion and sheath stabilizer protein	19.71	4	22.20%	
+O	Sa45lw_124	Putative Ip4 internal head protein	17.74	7	49.70%	
+P	Sa45lw_29	Small outer capsid protein	8.53	7	92.30%	
+Sa45lw_196	Baseplate wedge subunit	15.10	7	61.40%	
+
+Host range and productive infection of Sa45lw.
+
+The host range results showed that phage Sa45lw had a broad host range with lytic activity against generic E. coli (ATCC 13706), E. coli O45:H16, E. coli O45:H-, E. coli O157:H7 (RM18959, ATCC 35150, and ATCC 43888), Salmonella Montevideo, Salmonella Thompson, and Salmonella Anatum strains, but was unable to infect clinical E. coli O45:H2 strains (SJ7 and 96–3285) (Table 2). Furthermore, the efficiency of plating (EOP) was used to determine productive infection of Sa45lw on the susceptible bacterial strains versus the host strain E. coli ATCC 13707, used for the phage isolation. The results demonstrated that E. coli strains of O157:H7 (ATCC 43888), O45:H16 (RM13752), isolated from environmental samples, and Salmonella Thompson had a high phage-producing efficiency (Table 2); E. coli O45:H- (RM10729), also from an environmental sample, two E. coli O157:H7 (RM18959, ATCC 35150), and Salmonella Montevideo strains possessed a medium phage-producing efficiency.
+
+TABLE 2 Host range and efficiency of plating (EOP) of phage Sa45lw against various Shiga toxin-producing Escherichia coli (STEC) and Salmonella enterica strains
+
+Strains	Strain ref. no.	EOPa	
+STEC O26	E. coli O26:H− (RM18132), E. coli O26:H− (RM17133)	R*	
+STEC O45	E. coli O45:H− (RM10729)	0.39	
+	E. coli O45:H16 (RM13752)	0.56	
+	Clinical E. coli O45:H2 (SJ7), E. coli O45:H2 (96-3285)	R	
+STEC O103	E. coli O103:H− (RM10744), E. coli O103:H2 (RM13322)	R	
+STEC O111	E. coli O111:H− (RM11765), E. coli O111:H− (RM14488)	R	
+STEC O121	E. coli O121:H19 (96-1585), E. coli O121:H− (RM8082)	R	
+STEC O145	E. coli O145:H+ (RM9872), E. coli O145:H- (RM10808)	R	
+STEC O157	E. coli O157:H7 (RM18959)	0.17	
+	E. coli O157:H7 (ATCC 35150)	0.19	
+	E. coli O157:H7 (ATCC 43888)	0.76	
+Generic E. coli	ATCC 13706	H^	
+	DH5α	R	
+Salmonella	Salmonella Montevideo	0.11	
+	Salmonella Newport	R	
+	Salmonella Heidelberg	R	
+	Salmonella Enteritidis	R	
+ 	Salmonella Typhimurium	R	
+	Salmonella Thompson	1.05	
+	Salmonella Anatum	<0.001	
+a EOP was conducted on the spot test-positive strains and is presented with a value that was calculated by the ratio of phage titer on test bacterium relative to the phage titer on the primary bacterium used for isolation. High production efficiency is EOP ≥ 0.5, medium production efficiency is 0.5 > EOP ≥ 0.1, low production efficiency is 0.1 > EOP > 0.001, and the inefficiency of phage production is EOP ≤ 0.001. * R denotes no lysis from the spot test assay. ^H was the primary bacterial strain used for isolation.
+
+Lysis from without.
+
+To determine bacterial lysis without complete phage infection, also known as lysis from without (LO), different MOIs (10, 100, and 1,000) of phage Sa45lw against E. coli O45:H16 strain were determined using a spectrophotometer. The results showed that LO occurred at MOIs of 100 and 1,000 because the corresponding OD600 value dropped within 5 min to the level similar to the blank TSB without bacterial culture (Fig. S1).
+
+Antimicrobial activity of Sa45lw in lysogeny broth.
+
+Based on the LO results, an MOI of 10 was used to determine the in vitro lytic effects of Sa45lw on the reduction of E. coli O45:H16 (RM13752) and E. coli O157:H7 (RM35150) at room (25°C) and refrigeration temperatures (4°C). The results showed that E. coli O45:H16 was significantly reduced to a minimum level (0.56 log CFU/ml) in 6 h at 25°C, with a 5.5-log reduction in comparison to the control group (Fig. 8A). After 24 h of incubation, the phage-treated E. coli O45:H16 rebounded to 4.5 log CFU/ml, with 0.4 and 4.2 log reduction compared to the initial bacterial concentration and the control group, respectively. For E. coli O157:H7, the treated culture was reduced to the lowest level at 4.1 log CFU/ml within 6 h, with a reduction of 2.5 log in comparison to the control (Fig. 8B). Similarly, the culture of E. coli O157:H7 grew to 7.7 log CFU/ml at 24 h, with 1.2 log lower than the control group. However, Sa45lw was incapable of reducing both E. coli O45:H16 and E. coli O157:H7 at refrigeration temperature (data not shown).
+
+FIG 8 Antimicrobial activities of phage Sa45lw against (A) E. coli O45:H16 (RM13752) and (B) E. coli O157:H7 (RM35150) at an MOI of 10 in LB at 25°C for 24 h. The control group contained bacterial culture without phages (blue solid line), and the treatment group contained bacterial culture treated with phage Sa45lw (green dashed line). Data of each time point (0, 2, 4, 6 or 24 h) were analyzed separately, and asterisk indicates a significant difference at P < 0.05 between the control and treatment groups. The error bars present the SEM for each time point of the control and treatment.
+
+Application of Sa45lw on the contaminated mung bean seeds.
+
+Based on in vitro antimicrobial results, phage application against E. coli O45:H16 (RM13752) was evaluated on the artificially inoculated mung bean seeds. To increase the likelihood of phage and bacterial cells coming into contact, Sa45lw with a high MOI of 1,000 was utilized. The results revealed that the phage-treated E. coli O45:H16 was reduced by approximately 2 log in 6 h, which was significantly higher than the control group; however, the bacterial levels of the treated group remained similar throughout the 24-h incubation at room temperature (Fig. 9). Although the bacterial reduction of the control group increased by 0.2 log from 6 h to 24 h, the overall reduction of bacterial levels on the control mung bean seeds was significantly lower than the treatment group (P < 0.05). Forty bacterial colonies were obtained from the mung bean seeds treated with Sa45lw at the 24-h time point to determine the development of phage resistance. Only two colonies were resistant to Sa45lw infection, with OD600 values similar to the levels of original E. coli O45:H16 and the two counterpart colonies without phage added in the wells.
+
+FIG 9 Application of phage Sa45lw on the mung bean seeds contaminated with 4.8 log CFU/g of E. coli O45:H16 (RM13752) at an MOI of 1,000 for 15 min. Treated mung bean seeds were stored at room temperature (25°C) for 24 h. Asterisk indicates a significant difference at P < 0.05 between the time point (6 or 24 h) and the initial treatment (0 h). The error bars present the SEM for each time point.
+
+DISCUSSION
+
+Ever since FDA granted the first phage product as GRAS in 2006 (17), phage application used as a microbial intervention alternative became an attractive but underdeveloped technology to be used in the food industry, specifically for produce production. Because of the features of lytic phage application, including host specificity, cost efficiency, and reduction of antimicrobial-resistant bacteria, as novel and alternative antimicrobial interventions (24), there are several commercial phage products available on the market for the control of foodborne pathogens, such as Listeria monocytogenes, Salmonella spp., and E. coli O157:H7 (17). Primary efforts toward antimicrobial intervention development focus on E. coli O157:H7, frequently associated with STEC-related infection and foodborne outbreaks, even though the top six non-O157 STEC have also contributed to a similar scale of foodborne outbreaks as well as the severity of illness (19, 25). A similar phenomenon happens to the phage-based intervention development in the agricultural field. Although several studies isolated different non-O157 STEC-infecting phages from the samples of animal origins, the phages lytic against STEC O45 were barely found; thus, further isolation and characterization of novel phages for antimicrobial potential are needed (26, 27). Luckily, our previous studies found that in no specific pattern, the lytic phages specific to STEC O45 strains were present in various agricultural environments with minimum to moderate animal activities, such as in surface water from a produce-growing area and different environmental samples from an organic farm (28–30). This study evaluated a new member of T4-like phage, vB_EcoM-Sa45lw, via biological and genomic characterization for the biocontrol potential on STEC O45 adulterated mung bean seeds. The information could provide valuable insights into the diversity of lytic phages and the effects of phage application on produce seeds contaminated with the top six non-O157 STEC foodborne pathogens.
+
+Based on morphological and genomic evidence, phage Sa45lw is a new member of T4-like phage belonging to the genus Tequatrovirus and has the highest whole-genome sequence similarity (over 90%) with phage AR1. However, the primary difference of the sequence regions between these two phages includes the genes encoding a large distal long tail fiber and a tail fiber adhesion, both proteins associated with the binding specificity to the receptor proteins on bacterial membranes. As a result, Sa45lw has a different host range (E. coli K-12, STEC O45, STEC O157, Salmonella Montevideo, and Salmonella Thompson) from phage AR1 (STEC O157, Shigella dysenteriae, and Salmonella enterica subsp. enterica serovars Choleraesuis and Enteritidis) (31, 32). In addition, the phylogenetic analysis indicated that Sa45lw contained a long tail fiber gene similar to that of various E. coli O157:H7-specific phages, with the highest evolutionary relationship with Escherichia phage KIT03, able to lyse both E. coli O157:H7 and S. Choleraesuis (33). On the other hand, Sa45lw harbored a unique gene coding for a tail lysozyme (gp5), which contained a C-terminal domain responsible for recognizing and adsorbing lipopolysaccharide on the host membranes (34). This gene may contribute to a stronger affinity of Sa45lw to adsorb onto the membranes of STEC O45 than STEC O157 compared to other STEC O157-infecting phages without harboring the gene, such as phages KIT03 and AR1. However, Sa45lw was not able to infect two clinical E. coli O45:H2 strains used in this study; the bacterial resistance to Sa45lw infection was likely due to the genetic relatedness of these two STEC O45 strains to serogroup O103 (23). Sa45lw contained a tRNA cluster at a similar region in the phage genomes of other T4-like phages. Among 11 Sa45lw-encoded tRNAs, there are 7 tRNAs, including Arg (TCT), His (GTG), Asn (GTT), Tyr (GTA), Met (CAT), Thr (TGT), and Ser (TGA), also found in the genome of phage AR1 with the same sequence order. A previous study has indicated that tRNAs in the phage AR1 genome are closely related to the optimal codon usage for the expression of late genes for the structural proteins, in particular, to increase both phage protein synthesis rate and burst size (31). In this study, the presence of tRNAs is likely relevant to the lytic effects, broad host range, and pH stability (pH 4 to pH 10.5) of phage Sa45lw to enhance the phage fitness under various environments and external stresses (35, 36). Like most T4-like phages, Sa45lw does not involve horizontal gene transfer during infection due to the lack of segB gene, first reported in T4 phage and coding for homing endonucleases associated with the evolution of T4 phage via horizontal gene transfer during the co-infection process (37). Most importantly, Sa45lw does not harbor virulence-related genes, antibiotic-resistance genes, or any lysogenic factors, such as integrase, recombinase, repressors, or excisionase, which are closely associated with the insertion of a phage genome into a bacterial chromosome (38, 39). These findings corroborate the great potential of phage Sa45lw as a novel antimicrobial agent in food and food-related environment.
+
+Phage stability is a critical factor in ensuring phage viability and must be assessed prior to the application under various environments. Previous studies indicated that multiple phages possessed a variety of susceptibilities when exposed to different pH and temperature ranges (40–42). In the current study, Sa45lw can maintain infectivity at a pH range from pH 4 to pH 10.5 and withstand thermal treatment up to 65°C and 50°C for 1 h and 24 h, respectively. In addition, phage Sa45lw is stable to store at both refrigeration temperature and −80°C for 164 days. Furthermore, a previous study conducted in our lab demonstrated that Sa45lw lyophilized with cryoprotectants, such as sucrose or trehalose, was sustainable during 6-month storage at −80°C without the loss of its infectivity (43). These characteristics of Sa45lw completely accommodate the thermal and pH settings commonly used in the produce industry and for sprout production (44).
+
+In this study, the lytic cycle characterization indicates that phage Sa45lw has a relatively short latent period (27 min) and medium burst size (80 phages per infected cell) against a generic E. coli (ATCC 13706) in contrast to other STEC O45-infecting phages from another study (45). A large burst size is highly favorable for a lytic phage combating target bacteria by propagating a large number of phage progenies for diffusion and the subsequent infection (46). An earlier study conducted by Gallet et al. found that a small burst size generally resulted from a shorter phage infection cycle (47). However, the burst size of a phage may vary when coming in contact with various bacterial hosts (48) or the same bacterial strain at different life cycle stages, affecting the phage adsorption rate (49). For future scale-up phage production, the capability of phage Sa45lw to propagate with a nonpathogenic strain is a critical criterion in selecting adequate phage candidates to avoid acquiring unwanted genes from the pathogenic strains and to ensure the safety of phage application (50, 51).
+
+To assess in vitro antimicrobial activity through lytic infection of phage, the MOI of 10, without causing LO (52), is used in this study. Phage Sa45lw (MOI of 10) reduces both E. coli O45:H16 and E. coli O157:H7 in liquid broth to the minimum levels of 0.33 and 3.92 log CFU/ml, respectively, in 6 h at room temperature. However, the bacterial reductions of both STEC O45 and STEC O157 by Sa45lw are hindered at 4°C. The phenomenon is likely because bacteria slow down their growth rate at refrigeration temperature and subsequently affect the lytic cycle of the phage. In addition, our previous study indicated that a STEC O145-infecting phage, Ro145clw, with MOI = 100 was able to mitigate E. coli O145:H28 in LB broth to a minimum level in 4 h (42). The difference in the time required for the maximum bacterial reduction between the current and our previous study may be due to different MOIs and the phage’s burst sizes (both phages Sa45lw and Ro145clw have a similar length of single infection cycle). The findings potentially suggest that a high concentration of lytic phage within the level of LO can render a better antimicrobial effect than a low-dose phage. Nevertheless, for biocontrol purposes, the use of high MOIs with LO may provide additional antimicrobial effects of phage treatment at refrigeration temperature.
+
+With regard to microbial contamination on sprouts, most studies focus on phage application for the control of Salmonella rather than non-O157 STEC on the contaminated seeds (8, 53). The current results demonstrate a significant antimicrobial effect of Sa45lw in reducing E. coli O45:H16 upon application for 15 min on the contaminated mung bean seeds (by 2 log) at room temperature (25°C), representing the temperature setting commonly used in the sprout production (54). The 15-min phage application used in this study is based on the time commonly used for chlorinated compound application in the sprout industry (54). Concerning the phage application, Sa45lw at MOI = 1,000 did not cause a further bacterial reduction on the mung bean seeds after 24 h in this study. The phenomenon could be due to the limited phage-bacterial contact time, compared to the in vitro study, and dryness during the storage period hindered the free movement of phage Sa45lw and the target bacteria to encounter and initiate the subsequent killing effect (55). However, the bacterial reduction on mung bean seeds achieved by phage Sa45lw is close to the level of Salmonella strains reduced on lettuce seeds treated with a six-phage commercial cocktail (MOI = 1,000) for 1 h (53). The finding suggests the biocontrol potential of phage Sa45lw reducing pathogenic STEC O45 with a short contact time. According to the National Advisory Committee on Microbiological Criteria for Foods regarding sprout seeds, the treatment time for seed disinfection using chemical-based disinfectants is restricted based on the chemical types and the concentrations to prevent potential phytotoxic effects on the growing sprouts (54, 56). Additionally, these chemicals need to be approved by Environmental Protection Agency (EPA) and registered under Federal Insecticide, Fungicide, and Rodenticide Act (FIFRA) to ensure their safe use as seed disinfectants (44). In contrast, phage application is safer than these chemicals and less likely to affect sprout quality and yield (8). In the current study, no cosmetic difference was observed between the phage-treated and untreated mung bean seeds.
+
+In this study, a trace amount of E. coli O45:H16 recovered from the phage-treated mung bean seeds became resistant to Sa45lw infection. Phage resistance is a natural event but a common problem from phage-treated bacteria (57). Bacteria develop resistance to phage infection via mechanisms to inhibit phage adsorption, including changes of phage receptors, such as bacterial outer membrane protein (OMP) and lipopolysaccharide (LPS) (58, 59). Maffei et al. also confirmed that T4-like phages infecting E. coli used OmpA and OmpC as primary receptors to initiate lytic infection (60). However, bacteria in exchange for developing resistance to phage infection might have a fitness cost due to the mutated genes, resulting in decreasing bacterial growth (61), loss of virulence (62), or less resistance to environmental stress (63). Therefore, the low-frequent occurrence of Sa45lw resistance is less likely to compromise its application. Recent studies indicated that using a phage cocktail or combination of a hurdle intervention method with phage application significantly reduced the development of phage resistance (24, 53). On the other hand, phages can co-evolve with their bacterial hosts to counteract the resistance of phage-resistant strains and sometimes increase phage efficiency after mutation of tail-associated genes to target different receptor proteins (64, 65). All evidence shows lytic phages have the potential to be implemented as alternative antimicrobial agents to prevent the spread of antibiotic-resistant superbugs as a long-term solution. Although promising, future studies are necessary to optimize the effectiveness of Sa45lw upon application on mung bean seeds via phage cocktail formulation and/or hurtle intervention methods.
+
+MATERIALS AND METHODS
+
+Bacteriophage preparation.
+
+Escherichia phage vB_EcoM-Sa45lw (or Sa45lw) was previously isolated and purified from surface water collected in a produce-growing area using the primary host of E. coli ATCC 13706 strain (30). The phage was propagated with a fresh overnight bacterial culture of ATCC 13706 in 40 ml tryptic soy broth (TSB; Difco, Becton, Dickinson, Sparks, MD USA), supplemented with CaCl2 at a final concentration of 10 mM, at 37°C for 24 h. Subsequently, the propagated phage was centrifuged at 8000 × g for 10 min, followed by filtration through a 0.22-μm filter membrane to remove bacterial debris before the experimental phage antimicrobial activity test(s). For TEM, proteomic analysis, and DNA extraction, the phage lysate was further concentrated via a 50 kDa cutoff Amicon Ultra-15 Centrifugal Filter Unit (Merck Millipore, Billerica, MA, USA) and purified by CsCl gradient ultracentrifugation as previously described (66).
+
+Bacterial strains.
+
+A panel of nonpathogenic E. coli, including ATCC 13706, ATCC 43888, and DH5α, and STEC strains, including serogroups of O26, O45, O103, O111, O121, O145, and O157, were obtained from the Produce Safety and Microbiology (PSM) Research Unit at the U.S. Department of Agriculture (USDA), Agricultural Research Service (ARS), Western Regional Research Center, Albany, CA, USA (Table S2). These strains were used for the host range, efficiency of plating, and bacterial reduction tests in this study. E. coli ATCC 13706 was the primary host of Sa45lw and was used for phage propagation, the one-step growth curve study, and phage quantification from stability experiments. Fresh overnight culture of each selected strain was prepared by inoculating a sterile test tube containing 10 ml of TSB with 1 μl loopful of each strain and incubated at 37°C for 18 h prior to use.
+
+Genomic analysis.
+
+Phage Sa45lw was previously sequenced using a MiSeq reagent kit v2 (500-cycle) on the MiSeq platform (Illumina, San Deigo, CA, USA), generating approximately 5 million 2 × 250-bp paired-end reads (67) and deposited on National Center for Biotechnology Information (NCBI) with the accession number MK977694.
+
+The whole-genome phylogenetic tree of Sa45lw and the phages belonging to the Tevenvirinae subfamily, obtained from the International Committee on Taxonomy of Viruses (ICTV; Table S3), was conducted using the Genome-BLAST Distance Phylogeny (GBDP) method (68) with the Virus Classification and Tree Building Online Resource (VICTOR) server at the default settings for prokaryotic viruses (69) and further visualized using Interactive Tree of Life (iTOL) webserver (70). The genome comparison between phage Sa45lw and its close related reference phage genome was visualized using the EasyFig tool (71).
+
+Comparative analysis of the predicted amino acid sequences encoded by long-tail fiber (gp37), tail lysozyme (gp5), endolysin, and terminase large subunit genes was conducted to align with the similar sequences from the Universal Protein Resource (UniProt) database (72) using the ClustalW (version 1.2.3). The terminase large subunit genes used for the analysis were experimentally determined with phage DNA packaging mechanisms from other studies (Table S4) (73). The phylogenetic tree was generated using MEGA7 program with the maximum composite likelihood method and 500 bootstrap replications (74). The presence of antibiotic-resistance genes in the phage genome was identified using the ResFinder (version 4.1) database (75).
+
+Transmission electron microscopy.
+
+The CsCl-concentrated phage was used to observe the phage morphology using a sample preparation method and transmission electron microscope (FEI Tecnai G2) as previously described (30).
+
+One-step growth curve.
+
+One-step growth curve of phage Sa45lw was performed with generic E. coli ATCC 13706 according to the procedures as previously described with slight modification (42). Briefly, E. coli ATCC 13706 culture was prepared in 10 ml of TSB and incubated at 37°C overnight, which was subcultured in 20 ml TSB at 37°C to reach OD600 of 0.3 to 0.5. Later, phage Sa45lw was added to the bacterial solution at an MOI of 0.01 and then incubated at 37°C for 5 min for phages to absorb onto the bacterial membranes. After phage adsorption, the mixture was centrifuged at 10,000 × g for 4 min at 4°C. After removing the supernatant, the bacterial pellet containing the phage-infected cells was gently washed three times with 2 ml TSB before being resuspended in 20 ml TSB and subsequently incubated at 37°C for 45 min. Immediately after resuspension, the phage-infected bacterial cells were determined by mixing 10 μl of the sample (resuspended culture) with 0.99 ml of overnight E. coli ATCC 13706 culture and 3 ml of molten 50% tryptic soy agar (TSA) for double-layer plaque assay (76). Meanwhile, an aliquot of 1 ml of the phage-infected bacterial sample was obtained every five min and filtered through a 0.22-μm pore-size membrane filter. The phage titers at each time point were determined using a double-layer plaque assay with duplication, as described above. Simultaneously, an additional sample set of 1 ml was collected and treated with CHCl3 for 2 min. After centrifugation at 10,000 × g for 2 min, the supernatant was obtained and subjected to a double-layer plaque assay. All plaque assay plates were incubated at 37°C overnight. The experiment was conducted in three replications to estimate the latent period, eclipse period, and burst size of phage Sa45lw (77).
+
+Phage stability (pH, temperature, and storage).
+
+A wide range of pH was used to test the stability of phage Sa45lw at different temperatures using a similar method as previously described (42). In brief, 200 μl of phage Sa45lw lysate, with approximately 8.5 log PFU/ml, was added to 1.8 ml of SM buffer with the final pH values of 3, 5, 7.5, 9, 10.5, and 12. Samples were incubated at 25 and 4°C for 24 h before the viable phage particles were enumerated using the double-layer plaque assay. The experiment was conducted in three replications.
+
+For the temperature stability test, one part of the phage lysate was mixed with 9 parts of SM buffer before dispensing 1 ml of phage solution in sterile microcentrifuge tubes. The tubes containing the phage Sa45lw were submerged in different water baths with the temperature set to 30 (control), 40, 50, and 65°C, accordingly, for 24 h. The selected temperatures covered all possible conditions in the pre-harvest produce environmental settings, including extreme weather conditions. Phage concentrations were determined after 24 h of treatment using the double-layer plaque assay. The experiment was performed in three replications.
+
+For frozen storage stability, an aliquot of 500 μl phage lysate was mixed with glycerol at a final concentration of 30% and stored at −80°C for 164 days (about 5 and a half months). For refrigeration storage, phage lysate was mixed with SM buffer at the ratio of 1:9 (vo/vo) and stored at 4°C for 164 days. The experiment was conducted in three replications.
+
+Structural protein analysis.
+
+The purified and concentrated phage lysate was subjected to gel electrophoresis, in-gel digestion with trypsin, reverse phase nanoflow high-performance liquid chromatography with tandem mass spectrometry (HPLC-MS-MS), and data analyses as previously described (42). In brief, the CsCl-purified phage lysate was reduced with 0.5% 2-mercaptoethanol in Laemmli buffer per manufactures' instructions (Bio-Rad, Hercules, CA, USA) and subsequently subjected to SDS-PAGE using a 1D Bio-Rad 12% TGX gel (Bio-Rad, Hercules, CA, USA). The gel was stained using ImperialTM Protein Stain (ThermoFisher, Waltham, MA, USA). Protein bands were excised and subsequently digested in gel with Trypsin (Promega, Madison, WI, USA) using a Digest Pro robot (Intavis, Köln, Germany). Sample digests were subjected to nanoflow reversed-phase chromatography with an Eksigent NanoLC (Sciex, Framingham, MA, USA) using Picochip columns (New Objectives, Woburn, MA, USA). Tandem mass spectra (MS-MS) were obtained in positive ion mode with an Orbitrap Elite mass spectrometer (Thermo Fisher Scientific, Waltham, MA, USA). Mascot software (Matrix Science, Boston, MA, USA) was used to match the MS-MS data to amino acid sequences derived from nucleotide sequences previously obtained from the phage isolates.
+
+Host range and efficiency of plating.
+
+Phage Sa45lw was subjected to the host range test against nonpathogenic E. coli and STEC strains, as described above, using spot test assay as previously described (42). As a result, the strains susceptible to phage infection were further tested for EOP to determine productive infection of phage Sa45lw by measuring the phage progenies produced from these strains versus the phage progenies produced from the primary host strain (ATCC 13706), as previously described (42). In brief, fresh overnight cultures were prepared in TSB at 37°C for 18 h. For each bacterial strain, the diluted phage Sa45lw with four successive dilutions (10−3 to 10−7) was used to mix with the bacterial culture for the phage quantification using a double-layer plaque assay. The plates were incubated at 37°C overnight. The whole experiment was conducted in three replications. Generally, EOP of 0.5 or higher was classified as a high phage-producing efficiency; EOP above 0.1 but below 0.5 indicated a medium-producing efficiency; EOP between 0.001 and 0.1 indicated a low-producing efficiency; any value under 0.001 represented inefficient phage production.
+
+Lysis from without.
+
+The lysis from without (LO) of the phage Sa45lw against E. coli O45:H16 strain was determined at different MOIs using a spectrophotometer. A fresh overnight culture was prepared in 10 ml of TSB and diluted in TSB to the final concentration of 1 × 105 CFU/ml before dispensing 180 μl of the diluted bacterial culture to a 96-well plate. Subsequently, an aliquot of 20 μl of phage Sa45lw was added to each well containing the bacterial culture at MOIs of 10, 100, and 1000 with three replications. The bacterial culture added with the same volume of SM buffer without phage was used as the control. The optical density at 600 nm (OD600) reading was recorded every 5 min for 20 min at room temperature.
+
+Antimicrobial activity test in LB.
+
+The culture of E. coli O45:H16 was prepared in 10 ml TSB at 37°C for 18 h and subsequently diluted in LB broth (Invitrogen, Carlsbad, CA, USA) to reach the final concentration at 1 × 105 CFU/ml for the experiment. For the treatment group, the bacterial solution was treated with phage Sa45lw at an MOI of 10. For the control, SM buffer, with the same volume of phage used in the treatment, was added to the bacterial solution. Both control and treatment groups were incubated at 25°C, and the bacterial counts were quantified at various time points (0, 2, 4, 6, and 24 h) during the incubation. In brief, the samples were serially diluted in sterile 0.1% peptone water and spread plated on MacConkey agar (BD, Franklin Lakes, NJ) overlayered thin TSA (Thin Agar Layer Method, TAL) (78). The plates were placed at 37°C overnight for incubation and subsequent bacterial quantification.
+
+Phage application on mung bean seeds.
+
+Mung beans seeds, purchased from a local store, were disinfected by using 2% of NaClO for 15 min and then rinsed with sterile water five times to remove NaClO residue. The sterilized seeds were air dry in a biosafety hood before use. Prior to the experiment, the mung bean seeds (5 g) were homogenized with 20 ml of sterile 0.1% peptone water and plated on MacConkey plates to determine if the seeds were properly sterilized.
+
+Bacterial inoculum of E. coli O45:H16 was prepared by mixing 0.2 ml of the overnight culture with 40 ml of sterile LB broth. For bacterial inoculation, mung bean seeds (50 g) were submerged in the bacterial solution for 1 h at room temperature and air dry under a biosafety hood. Later, 10 grams of the inoculated seeds were homogenized with 20 ml of 0.1% peptone water for 1 min, and the bacterial inoculation levels were quantified using the spread plate method on MacConkey plates. At the same time, the inoculated seeds (20 g) were treated with phage Sa45lw in SM buffer at an MOI of 1,000 for 15 min at room temperature. Later, phage solution was removed, and both Sa45lw-treated and untreated mung bean seeds were dried and stored at room temperature (25°C) for 24 h, and the bacterial counts were subsequently determined after 6 and 24 h of storage. Briefly, 10 g of samples (untreated or treated) were homogenized with 20 ml of 0.1% peptone water and then diluted before plating on MacConkey TAL plates. The plates were incubated overnight at 37°C before bacterial quantification.
+
+Determination of bacteriophage-insensitive mutant.
+
+A total of 40 colonies on the MacConkey TAL plates were obtained from the Sa45lw-treated mung bean seeds spiked with E. coli O45:H16 after 24 h of storage at room temperature. The bacteriophage-insensitive mutants (BIM) were determined by adding the selected colonies and original E. coli O45:H16 with Sa45lw at MOI of 1 in the individual well, containing TSB, of a 96-well plate and measuring the OD600 using a spectrophotometer after incubation at 30°C overnight. The culture of E. coli O45:H16 with and without Sa45lw was used as the control. The presence of BIM was confirmed if the OD600 value of the phage-treated colonies was similar to that of the cultures without Sa45lw. The experiments were conducted in three replications.
+
+Statistical analysis.
+
+Experiments were performed with three individual repetitions. Bacterial colony counts and phage titers were calculated as CFU/ml or PFU/ml and logarithmically transformed for statistical analysis. One-way analysis of variance (ANOVA) with the statistical significance at a 5% level was used to evaluate the effects of pH and temperature tests on the recovery of phage titers. The Student's t test was used to determine the in vitro antimicrobial activity of Sa45lw between the control and phage-treated groups at each time point, and the application of Sa45lw on the mung bean seeds contaminated with E. coli O45:H16 between the initial treatment and the treated seeds during different post-treatment storage time points.
+
+Data availability.
+
+The genome sequence of Escherichia phage vB_EcoM-Sa45lw was deposited in GenBank under accession number MK977694. The raw sequence reads were submitted to the NCBI sequence read archive (SRA) with accession number PRJNA544313.
+
+ACKNOWLEDGMENTS
+
+We thank Valerie M. Lavenburg and Angeline L. Hsu for their assistance in the experiments of the one-step growth curve, host range, and EOP tests. This research was funded by the USDA-ARS CRIS projects 2030-42000-055-00D.
+
+Supplemental material is available online only.
+
+10.1128/spectrum.02220-21.1 SUPPLEMENTAL FILE 1 Supplemental material. Download Spectrum02220-21_Supplementary_Tables_S1-S4_updated.xlsx, XLSX file, 0.04 MB
+
+10.1128/spectrum.02220-21.2 SUPPLEMENTAL FILE 2 Supplemental material. Download SPECTRUM02220-21_Supp_2_seq12.pdf, PDF file, 0.1 MB
+
+
+REFERENCES
+
+1 Carstens CK, Salazar JK, Darkoh C. 2019. Multistate outbreaks of foodborne illness in the united states associated with fresh produce from 2010 to 2017. Front Microbiol 10:2667. doi:10.3389/fmicb.2019.02667.31824454 PMC6883221
+2 Miyahira RF, Antunes AEC. 2021. Bacteriological safety of sprouts: A brief review. Int J Food Microbiol 352:109266. doi:10.1016/j.ijfoodmicro.2021.109266.34111728
+3 Beutin L, Martin A. 2012. Outbreak of Shiga toxin-producing Escherichia coli (STEC) O104:H4 infection in Germany causes a paradigm shift with regard to human pathogenicity of STEC strains. J Food Prot 75:408–418. doi:10.4315/0362-028X.JFP-11-452.22289607
+4 Luna-Gierke RE, Griffin PM, Gould LH, Herman K, Bopp CA, Strockbine N, Mody RK. 2014. Outbreaks of non-O157 Shiga toxin-producing Escherichia coli infection: USA. Epidemiol Infect 142:2270–2280. doi:10.1017/S0950268813003233.24398154 PMC9151257
+5 Yang Y, Meier F, Lo JA, Yuan W, Sze VLP, Chung H-J, Yuk H-G. 2013. Overview of recent events in the microbiological safety of sprouts and new intervention technologies. Comprehensive Rev in Food Science and Food Safety 12:265–280. doi:10.1111/1541-4337.12010.
+6 Ding H, Fu T-J, Smith MA. 2013. Microbial contamination in sprouts: how effective is seed disinfection treatment? J Food Sci 78:R495–501. doi:10.1111/1750-3841.12064.23464679
+7 Bari ML, Enomoto K, Nei D, Kawamoto S. 2010. Practical evaluation of Mung bean seed pasteurization method in Japan. J Food Prot 73:752–757. doi:10.4315/0362-028x-73.4.752.20377967
+8 Fong K, LaBossiere B, Switt AIM, Delaquis P, Goodridge L, Levesque RC, Danyluk MD, Wang S. 2017. Characterization of four novel bacteriophages isolated from British Columbia for control of non-typhoidal salmonella in vitro and on sprouting alfalfa seeds. Front Microbiol 8:2193. doi:10.3389/fmicb.2017.02193.29187834 PMC5694753
+9 Bari ML, Nei D, Enomoto K, Todoriki S, Kawamoto S. 2009. Combination treatments for killing Escherichia coli O157:H7 on alfalfa, radish, broccoli, and mung bean seeds. J Food Prot 72:631–636. doi:10.4315/0362-028x-72.3.631.19343955
+10 Liao Y-T, Brooks JC, Martin JN, Echeverry A, Loneragan GH, Brashears MM. 2015. Antimicrobial interventions for O157:H7 and non-O157 Shiga toxin-producing Escherichia coli on beef subprimal and mechanically tenderized steaks. J Food Prot 78:511–517. doi:10.4315/0362-028X.JFP-14-178.25719874
+11 Mir RA, Kudva IT. 2019. Antibiotic-resistant Shiga toxin-producing Escherichia coli: An overview of prevalence and intervention strategies. Zoonoses Public Health 66:1–13. doi:10.1111/zph.12533.30375197
+12 O'Sullivan L, Bolton D, McAuliffe O, Coffey A. 2019. Bacteriophages in food applications: from foe to friend. Annu Rev Food Sci Technol 10:151–172. doi:10.1146/annurev-food-032818-121747.30633564
+13 Milho C, Silva MD, Alves D, Oliveira H, Sousa C, Pastrana LM, Azeredo J, Sillankorva S. 2019. Escherichia coli and Salmonella Enteritidis dual-species biofilms: interspecies interactions and antibiofilm efficacy of phages. Sci Rep 9:18183. doi:10.1038/s41598-019-54847-y.31796870 PMC6890764
+14 Pinto G, Almeida C, Azeredo J. 2020. Bacteriophages to control Shiga toxin-producing E. coli - safety and regulatory challenges. Crit Rev Biotechnol 40:1081–1097. doi:10.1080/07388551.2020.1805719.32811194
+15 Clokie MRJ, Millard AD, Letarov AV, Heaphy S. 2011. Phages in nature. Bacteriophage 1:31–45. doi:10.4161/bact.1.1.14942.21687533 PMC3109452
+16 Hagens S, Loessner MJ. 2010. Bacteriophage for biocontrol of foodborne pathogens: calculations and considerations. Curr Pharm Biotechnol 11:58–68. doi:10.2174/138920110790725429.20214608
+17 Kahn LH, Bergeron G, Bourassa MW, De Vegt B, Gill J, Gomes F, Malouin F, Opengart K, Ritter GD, Singer RS, Storrs C, Topp E. 2019. From farm management to bacteriophage therapy: strategies to reduce antibiotic use in animal agriculture. Ann N Y Acad Sci 1441:31–39. doi:10.1111/nyas.14034.30924542 PMC6850639
+18 Amarillas L, Chaidez C, Gonzalez-Robles A, Lugo-Melchor Y, Leon-Felix J. 2016. Characterization of novel bacteriophage phiC119 capable of lysing multidrug-resistant Shiga toxin-producing Escherichia coli O157:H7. PeerJ 4:e2423. doi:10.7717/peerj.2423.27672499 PMC5028729
+19 Vikram A, Tokman JI, Woolston J, Sulakvelidze A. 2020. Phage biocontrol improves food safety by significantly reducing the level and prevalence of Escherichia coli O157:H7 in various foods. J Food Protection 83:668–676. doi:10.4315/0362-028X.JFP-19-433.32221572
+20 Snyder AB, Perry JJ, Yousef AE. 2016. Developing and optimizing bacteriophage treatment to control enterohemorrhagic Escherichia coli on fresh produce. Int J Food Microbiol 236:90–97. doi:10.1016/j.ijfoodmicro.2016.07.023.27454784
+21 Park D-W, Lim G-y, Lee Y-d, Park J-H. 2020. Characteristics of lytic phage vB_EcoM-ECP26 and reduction of Shiga-toxin producing Escherichia coli on produce romaine. Appl Biol Chem 63:19. doi:10.1186/s13765-020-00502-4.
+22 Tolen TN, Xie Y, Hairgrove TB, Gill JJ, Taylor TM. 2018. Evaluation of commercial prototype bacteriophage intervention designed for reducing O157 and non-O157 shiga-toxigenic Escherichia coli (STEC) on beef cattle hide. Foods 7:114. doi:10.3390/foods7070114.30012993 PMC6068917
+23 Zhang Y, Liao Y-T, Sun X, Wu VCH. 2020. Is shiga toxin-producing Escherichia coli O45 no longer a food safety threat? The danger is still out there. Microorganisms 8:782. doi:10.3390/microorganisms8050782.32455956 PMC7285328
+24 Moye ZD, Das CR, Tokman JI, Fanelli B, Karathia H, Hasan NA, Marek PJ, Senecal AG, Sulakvelidze A. 2020. Treatment of fresh produce with a Salmonella-targeted bacteriophage cocktail is compatible with chlorine or peracetic acid and more consistently preserves the microbial community on produce. J Food Saf 40:e12763. doi:10.1111/jfs.12763.
+25 Niu YD, Liu H, Du H, Meng R, Sayed Mahmoud E, Wang G, McAllister TA, Stanford K. 2021. Efficacy of individual bacteriophages does not predict efficacy of bacteriophage cocktails for control of Escherichia coli O157. Front Microbiol 12:616712. doi:10.3389/fmicb.2021.616712.33717006 PMC7943454
+26 Wang J, Niu YD, Chen J, Anany H, Ackermann HW, Johnson RP, Ateba CN, Stanford K, McAllister TA. 2015. Feces of feedlot cattle contain a diversity of bacteriophages that lyse non-O157 Shiga toxin-producing Escherichia coli. Can J Microbiol 61:467–475. doi:10.1139/cjm-2015-0163.26011668
+27 Bumunang EW, McAllister TA, Stanford K, Anany H, Niu YD, Ateba CN. 2019. Characterization of non-O157 STEC infecting bacteriophages isolated from cattle faeces in North-West South Africa. Microorganisms 7:615. doi:10.3390/microorganisms7120615.31779135 PMC6956337
+28 Liao Y-T, Lavenburg VM, Lennon M, Salvador A, Hsu AL, Wu VCH. 2020. The effects of environmental factors on the prevalence and diversity of bacteriophages lytic against the top six non-O157 Shiga toxin-producing Escherichia coli on an organic farm. J Food Saf. doi:10.1111/jfs.12865.
+29 Liao Y-T, Liu F, Wu VCH. 2019. Complete Genome Sequence of a Lytic T7-Like Phage, Escherichia Phage vB_EcoP-Ro45lw. Microbiol Resour Announc 8:e00036-19. doi:10.1128/MRA.00036-19.30834377 PMC6395862
+30 Liao Y-T, Quintela IA, Nguyen K, Salvador A, Cooley MB, Wu VCH. 2018. Investigation of prevalence of free Shiga toxin-producing Escherichia coli (STEC)-specific bacteriophages and its correlation with STEC bacterial hosts in a produce-growing area in Salinas, California. PLoS One 13:e0190534. doi:10.1371/journal.pone.0190534.29300761 PMC5754052
+31 Liao WC, Ng WV, Lin IH, Syu W, Jr, Liu T-T, Chang CH. 2011. T4-Like genome organization of the Escherichia coli O157:H7 lytic phage AR1. J Virol 85:6567–6578. doi:10.1128/JVI.02378-10.21507986 PMC3126482
+32 Yu S, Ding H, Seah J, Wu K, Chang Y, Chang KS, Tam MF, Syu W, Syu W. 1998. Characterization of a phage specific to hemorrhagic Escherichia coli O157:H7 and disclosure of variations in host outer membrane protein ompC. J Biomed Sci 5:370–382. doi:10.1007/BF02253447.9758911
+33 Pham-Khanh NH, Sunahara H, Yamadeya H, Sakai M, Nakayama T, Yamamoto H, Truong Thi Bich V, Miyanaga K, Kamei K. 2019. Isolation, characterisation and complete genome sequence of a Tequatrovirus phage, Escherichia phage KIT03, which simultaneously infects Escherichia coli O157:H7 and Salmonella enterica. Curr Microbiol 76:1130–1137. doi:10.1007/s00284-019-01738-0.31342082
+34 Bhardwaj A, Olia AS, Cingolani G. 2014. Architecture of viral genome-delivery molecular machines. Curr Opin Struct Biol 25:1–8. doi:10.1016/j.sbi.2013.10.005.24878339 PMC4040186
+35 Delesalle VA, Tanke NT, Vill AC, Krukonis GP. 2016. Testing hypotheses for the presence of tRNA genes in mycobacteriophage genomes. Bacteriophage 6:e1219441. doi:10.1080/21597081.2016.1219441.27738556 PMC5056768
+36 Bailly-Bechet M, Vergassola M, Rocha E. 2007. Causes for the intriguing presence of tRNAs in phages. Genome Res 17:1486–1495. doi:10.1101/gr.6649807.17785533 PMC1987346
+37 Brok-Volchanskaya VS, Kadyrov FA, Sivogrivov DE, Kolosov PM, Sokolov AS, Shlyapnikov MG, Kryukov VM, Granovsky IE. 2008. Phage T4 SegB protein is a homing endonuclease required for the preferred inheritance of T4 tRNA gene region occurring in co-infection with a related phage. Nucleic Acids Res 36:2094–2105. doi:10.1093/nar/gkn053.18281701 PMC2330249
+38 Necel A, Bloch S, Nejman-Faleńczyk B, Grabski M, Topka G, Dydecka A, Kosznik-Kwaśnicka K, Grabowski Ł, Jurczak-Kurek A, Wołkowicz T, Węgrzyn G, Węgrzyn A. 2020. Characterization of a bacteriophage, vB_Eco4M-7, that effectively infects many Escherichia coli O157 strains. Sci Rep 10:3743. doi:10.1038/s41598-020-60568-4.32111934 PMC7048862
+39 Atsumi S, Little JW. 2006. Role of the lytic repressor in prophage induction of phage lambda as analyzed by a module-replacement approach. Proc Natl Acad Sci USA 103:4558–4563. doi:10.1073/pnas.0511117103.16537413 PMC1450210
+40 Son HM, Duc HM, Masuda Y, Honjoh KI, Miyamoto T. 2018. Application of bacteriophages in simultaneously controlling Escherichia coli O157:H7 and extended-spectrum beta-lactamase producing Escherichia coli. Appl Microbiol Biotechnol 102:10259–10271. doi:10.1007/s00253-018-9399-1.30267128
+41 Merabishvili M, Vervaet C, Pirnay J-P, De Vos D, Verbeken G, Mast J, Chanishvili N, Vaneechoutte M. 2013. Stability of Staphylococcus aureus phage ISP after freeze-drying (lyophilization). PLoS One 8:e68797. doi:10.1371/journal.pone.0068797.23844241 PMC3699554
+42 Liao Y-T, Salvador A, Harden LA, Liu F, Lavenburg VM, Li RW, Wu VCH. 2019. Characterization of a lytic bacteriophage as an antimicrobial agent for biocontrol of shiga toxin-producing Escherichia coli O145 strains. Antibiotics 8:74. doi:10.3390/antibiotics8020074.31195679 PMC6627115
+43 Lavenburg VM, Liao YT, Salvador A, Hsu AL, Harden LA, Wu VCH. 2020. Effects of lyophilization on the stability of bacteriophages against different serogroups of Shiga toxin-producing Escherichia coli. Cryobiology 96:85–91. doi:10.1016/j.cryobiol.2020.07.012.32750360
+44 FDA. 2017. Compliance with and recommendations for implementation of the standards for the growing, harvesting, packing, and holding of produce for human consumption for sprout operations: guidance for industry. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/draft-guidance-industry-compliance-and-recommendations-implementation-standards-growing-harvesting. Accessed September 1, 2021.
+45 Litt PK, Saha J, Jaroni D. 2018. Characterization of Bacteriophages Targeting Non-O157 Shiga Toxigenic Escherichia coli. J Food Prot 81:785–794. doi:10.4315/0362-028X.JFP-17-460.29624104
+46 Nilsson AS. 2014. Phage therapy–constraints and possibilities. Ups J Med Sci 119:192–198. doi:10.3109/03009734.2014.902878.24678769 PMC4034558
+47 Gallet R, Kannoly S, Wang IN. 2011. Effects of bacteriophage traits on plaque formation. BMC Microbiol 11:181. doi:10.1186/1471-2180-11-181.21827665 PMC3176204
+48 Nabergoj D, Modic P, Podgornik A. 2018. Effect of bacterial growth rate on bacteriophage population growth rate. MicrobiologyOpen 7:e00558. doi:10.1002/mbo3.558.29195013 PMC5911998
+49 Storms ZJ, Brown T, Cooper DG, Sauvageau D, Leask RL. 2014. Impact of the cell life-cycle on bacteriophage T4 infection. FEMS Microbiol Lett 353:63–68. doi:10.1111/1574-6968.12402.24822278
+50 López-Cuevas O, Medrano-Félix JA, Castro-Del Campo N, Chaidez C. 2021. Bacteriophage applications for fresh produce food safety. Int J Environ Health Res 31:687–702. doi:10.1080/09603123.2019.1680819.31646886
+51 Santos SB, Fernandes E, Carvalho CM, Sillankorva S, Krylov VN, Pleteneva EA, Shaburova OV, Nicolau A, Ferreira EC, Azeredo J. 2010. Selection and characterization of a multivalent Salmonella phage and its production in a nonpathogenic Escherichia coli strain. Appl Environ Microbiol 76:7338–7342. doi:10.1128/AEM.00922-10.20817806 PMC2976242
+52 Abedon ST. 2011. Lysis from without. Bacteriophage 1:46–49. doi:10.4161/bact.1.1.13980.21687534 PMC3109453
+53 Zhang X, Niu YD, Nan Y, Stanford K, Holley R, McAllister T, Narvaez-Bravo C. 2019. SalmoFresh effectiveness in controlling Salmonella on romaine lettuce, mung bean sprouts and seeds. Int J Food Microbiol 305:108250. doi:10.1016/j.ijfoodmicro.2019.108250.31226567
+54 NACMCF. 1999. Microbiological safety evaluations and recommendations on sprouted seeds: National Advisory Committee on Microbiological Criteria for Foods. Int J Food Microbiol 52:123–153. doi:10.1016/s0168-1605(99)00135-x.10733245
+55 Guo Y, Li J, Islam MS, Yan T, Zhou Y, Liang L, Connerton IF, Deng K, Li J. 2021. Application of a novel phage vB_SalS-LPSTLL for the biological control of Salmonella in foods. Food Res Int 147:110492. doi:10.1016/j.foodres.2021.110492.34399488
+56 Schrader WL. 2002. Sprout production in California. UCANR Publications.
+57 Mutalik VK, Adler BA, Rishi HS, Piya D, Zhong C, Koskella B, Kutter EM, Calendar R, Novichkov PS, Price MN, Deutschbauer AM, Arkin AP. 2020. High-throughput mapping of the phage resistance landscape in E. coli. PLoS Biol 18:e3000877. doi:10.1371/journal.pbio.3000877.33048924 PMC7553319
+58 Rostøl JT, Marraffini L. 2019. (Ph)ighting phages: How bacteria resist their parasites. Cell Host Microbe 25:184–194. doi:10.1016/j.chom.2019.01.009.30763533 PMC6383810
+59 Bertozzi Silva J, Storms Z, Sauvageau D. 2016. Host receptors for bacteriophage adsorption. FEMS Microbiology Lett 363:fnw002. doi:10.1093/femsle/fnw002.26755501
+60 Maffei E, Shaidullina A, Burkolter M, Druelle V, Willi L, Estermann F, Michaelis S, Hilbi H, Thaler DS, Harms A. 2021. Systematic exploration of Escherichia coli phage-host interactions with the BASEL phage collection. bioRxiv.10.1371/journal.pbio.3001424 PMC8594841 34784345
+61 Burmeister AR, Turner PE. 2020. Trading-off and trading-up in the world of bacteria-phage evolution. Curr Biol 30:R1120–R1124. doi:10.1016/j.cub.2020.07.036.33022253 PMC10291559
+62 Wang Y. 2002. The function of OmpA in Escherichia coli. Biochem Biophys Res Commun 292:396–401. doi:10.1006/bbrc.2002.6657.11906175
+63 Smith SG, Mahon V, Lambert MA, Fagan RP. 2007. A molecular Swiss army knife: OmpA structure, function and expression. FEMS Microbiol Lett 273:1–11. doi:10.1111/j.1574-6968.2007.00778.x.17559395
+64 Botka T, Pantůček R, Mašlaňová I, Benešík M, Petráš P, Růžičková V, Havlíčková P, Varga M, Žemličková H, Koláčková I, Florianová M, Jakubů V, Karpíšková R, Doškař J. 2019. Lytic and genomic properties of spontaneous host-range Kayvirus mutants prove their suitability for upgrading phage therapeutics against staphylococci. Sci Rep 9:5475. doi:10.1038/s41598-019-41868-w.30940900 PMC6445280
+65 Koskella B, Brockhurst MA. 2014. Bacteria-phage coevolution as a driver of ecological and evolutionary processes in microbial communities. FEMS Microbiol Rev 38:916–931. doi:10.1111/1574-6976.12072.24617569 PMC4257071
+66 Lennon M, Liao Y-T, Salvador A, Lauzon CR, Wu VCH. 2020. Bacteriophages specific to Shiga toxin-producing Escherichia coli exist in goat feces and associated environments on an organic produce farm in Northern California, USA. PLoS One 15:e0234438. doi:10.1371/journal.pone.0234438.32525945 PMC7289414
+67 Liao Y-T, Zhang Y, Salvador A, Wu VCH. 2019. Genome sequence of a T4-like phage, Escherichia phage vB_EcoM-Sa45lw, infecting shiga toxin-producing Escherichia coli strains. Microbiol Resour Announc 8:e00804-19. doi:10.1128/MRA.00804-19.31395650 PMC6687937
+68 Meier-Kolthoff JP, Auch AF, Klenk H-P, Göker M. 2013. Genome sequence-based species delimitation with confidence intervals and improved distance functions. BMC Bioinformatics 14:60. doi:10.1186/1471-2105-14-60.23432962 PMC3665452
+69 Meier-Kolthoff JP, Göker M. 2017. VICTOR: genome-based phylogeny and classification of prokaryotic viruses. Bioinformatics 33:3396–3404. doi:10.1093/bioinformatics/btx440.29036289 PMC5860169
+70 Letunic I, Bork P. 2019. Interactive Tree Of Life (iTOL) v4: recent updates and new developments. Nucleic Acids Res 47:W256–W259. doi:10.1093/nar/gkz239.30931475 PMC6602468
+71 Sullivan MJ, Petty NK, Beatson SA. 2011. Easyfig: a genome comparison visualizer. Bioinformatics 27:1009–1010. doi:10.1093/bioinformatics/btr039.21278367 PMC3065679
+72 Consortium TU. 2007. The Universal Protein Resource (UniProt). Nucleic Acids Res 35:D193–D197. doi:10.1093/nar/gkl929.17142230 PMC1669721
+73 Esterman ES, Wolf YI, Kogay R, Koonin EV, Zhaxybayeva O. 2021. Evolution of DNA packaging in gene transfer agents. Virus Evol 7:veab015. doi:10.1093/ve/veab015.33732503 PMC7947584
+74 Tamura K, Stecher G, Peterson D, Filipski A, Kumar S. 2013. MEGA6: Molecular Evolutionary Genetics Analysis version 6.0. Mol Biol Evol 30:2725–2729. doi:10.1093/molbev/mst197.24132122 PMC3840312
+75 Zankari E, Hasman H, Cosentino S, Vestergaard M, Rasmussen S, Lund O, Aarestrup FM, Larsen MV. 2012. Identification of acquired antimicrobial resistance genes. J Antimicrob Chemother 67:2640–2644. doi:10.1093/jac/dks261.22782487 PMC3468078
+76 Topka G, Bloch S, Nejman-Faleńczyk B, Gąsior T, Jurczak-Kurek A, Necel A, Dydecka A, Richert M, Węgrzyn G, Węgrzyn A. 2018. Characterization of bacteriophage vB-EcoS-95, isolated from urban sewage and revealing extremely rapid lytic development. Front Microbiol 9:3326. doi:10.3389/fmicb.2018.03326.30697202 PMC6340994
+77 Adams MH. 1959. Bacteriophage, 2nd ed Interscience Publishers, Inc, New York, NY.
+78 Wu VCH. 2008. A review of microbial injury and recovery methods in food. Food Microbiol 25:735–744. doi:10.1016/j.fm.2008.04.011.18620965

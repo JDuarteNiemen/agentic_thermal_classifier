@@ -307,3 +307,83 @@ You MUST assign exactly one thermal range.
 METADATA:
 {metadata}
 """
+
+
+def RELEVANTLITERATUREPROMPT(organism, paper_text):
+    return f"""You are an academic librarian
+You are responsible for filtering our irrelevant literature.
+Does paper mention temperature ranges for the organism in question??
+Paper: {paper_text}
+Organism: {organism}
+
+OUTPUT RULES:
+Only return an answer of True or False
+"""
+
+def SUMMARISELITERATUREPROMPT(paper_text, max_chars):
+    return f"""
+    You are an expert microbiologist specialising in microbial physiology.
+Your task is to analyse the following scientific paper and produce a concise, evidence-focused summary for downstream thermal classification.
+
+PAPER:
+{paper_text}
+
+INSTRUCTIONS:
+Focus primarily on information related to temperature and growth conditions.
+Extract and summarise:
+- Optimal growth temperature
+- Growth temperature range
+- Survival temperature range
+- Incubation conditions
+- Environmental source/habitat
+- Any mention of:
+  - thermophilic adaptation
+  - psychrophilic adaptation
+  - mesophilic growth
+  - heat tolerance
+  - cold tolerance
+  - enzymes adapted to temperature
+  - membrane adaptations
+  - thermal stress responses
+
+Also include:
+- Whether the organism was isolated from an extreme environment
+- Any explicit classification given by the authors
+  (e.g. “moderately thermophilic”, “psychrotolerant”, “mesophile”)
+
+IMPORTANT:
+- Do not state what is missing, just summarise what is there, only the importsnt details are needed for downstream analysis
+- Ensure the organism is made anonymous. DO NOT INCLUDE IDENTIFIABLE NAMES
+
+OUTPUT FORMAT:
+
+Thermal Evidence:
+- [bullet points with temperature findings]
+
+Environmental Context:
+- [habitat/source]
+
+
+Concise Summary:
+[Less than {max_chars} characters evidence-focused summary]
+DO NOT EXCEED {max_chars}
+"""
+
+def CLASSIFYSUMMARYPROMPT(summarised_paper):
+    return f"""
+You are a microbiology expert
+Is this summary about a psychrophile, mesophile or thermophile?
+Paper: {summarised_paper}
+
+OUTPUT FORMAT (STRICT JSON ONLY):
+{{
+    "thermal_range": "psychrophile | mesophile | thermophile | None",
+    "temperature": "exact value or None",
+    "inference_type": "explicit | inferred | none",
+    "thermal_reasoning": "step-by-step explanation including quotes from the paper",
+    "thermal_confidence": "low | medium | high",
+    "thermal_found": true/false
+}}
+
+Return the classification that the majority of evidence points towards
+"""

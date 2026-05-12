@@ -1,0 +1,8 @@
+Mutants of bacteriophage T7 that escape F restriction.
+
+Mutants of bacteriophage T7 that escape F restriction have been isolated. Two mutations in gene 10,
+which codes for the capsid protein, and one mutation in gene 1.2 are required for these phages to
+grow on F-containing strains. The products of these two genes are the two targets of the exclusion
+system; the presence of either wild-type product results in an abortive infection. Phages that grow
+normally in male hosts still lead to membrane dysfunction and nucleotide efflux from the infected
+cell. This type of membrane damage and the abortive infection are therefore separable phenomena.

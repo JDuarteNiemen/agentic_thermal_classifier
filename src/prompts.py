@@ -1,5 +1,5 @@
 # PROMPTS BEING USED IN THE WORKFLOW
-from helpers import _truncate
+from .helpers import _truncate
 
 def CLASSIFYTHERMALMETADATAPROMPT(metadata):
     return f"""

@@ -1,8 +1,8 @@
-# V8 - Implementing the summary workflow
+# V9 - Adding all workflows into a single repo. With options to call any of them
 
 
 ## Overview
-Will add a new strategy. V6 is a fast, first to evidence classification
+Comprehensive repo containing all the outlined strategies
 
 Democratic uses each paper associated with the accession as host as a vote towards the classification. aswell as a 
 forced and normal classification from metadata contributing a vote each respectively.

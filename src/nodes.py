@@ -1,23 +1,19 @@
-# imports
-
-
+# Importsd
 from langchain_core.exceptions import OutputParserException
-from networkx.classes import nodes
-
-from tools import *
+from typing import Mapping, Any
 import time
-from papers import *
-from prompts import *
-from helpers import  _build_llm, OLLAMA_MODEL, _max_paper_chars
-from states import *
+from .papers import *
+from .prompts import *
+from .helpers import  _build_llm, OLLAMA_MODEL, _max_paper_chars
+from .states import *
 
 
 # ---------------------------------------------------------------------------
-# GRAPH NODES
+# Fast NODES
 # ---------------------------------------------------------------------------
 
-def ClassifyThermalMetadata(state: AgentState) -> dict:
-    """Use the LLM to classify the thermal range from metadata."""
+def ClassifyThermalMetadata(state: Mapping[str, Any]) -> dict:
+    """Use the LLM to extract host species from metadata."""
     model = state.get("model") or OLLAMA_MODEL
     llm = _build_llm(model)
     llm=llm.with_structured_output(ThermalOutput)
@@ -79,15 +75,12 @@ def ClassifyThermalMetadata(state: AgentState) -> dict:
                 'timings': timings}
 
 
-def CreateAccessionLibrary(state: AgentState) -> dict:
-    """Create library fro  literature associated with the ncbi accession"""
+def CreateAccessionLibrary(state: Mapping[str, Any]) -> dict:
     node='CreateAccessionLibrary'
     nodes = (state.get("nodes") or []) + [node]
 
     start = time.time() # set start
     CreateLibrary(state['accession'], state['metadata']) # create library for accession
-
-    paper_dir_size=len(os.listdir(state['paper_dir']))
     end = time.time() # set end
 
     # Updating durations
@@ -100,12 +93,11 @@ def CreateAccessionLibrary(state: AgentState) -> dict:
     return {'decision': 'ClassifyThermalLiterature',
             'duration': updated_duration,
             'nodes': nodes,
-            'timings': timings,
-            'paper_dir_size': paper_dir_size,}
+            'timings': timings}
 
 
-def ClassifyThermalLiterature(state: AgentState) -> dict:
-    """Use the LLM to classify thermal range of the phage from paper text."""
+def ClassifyThermalLiterature(state: Mapping[str, Any]) -> dict:
+    """Use the LLM to extract host species from paper text."""
     node='ClassifyThermalLiterature'
     nodes = (state.get("nodes") or []) + [node]
 
@@ -161,8 +153,6 @@ def ClassifyThermalLiterature(state: AgentState) -> dict:
             timings = state.get("timings", {}).copy()
             timings[node] = duration
 
-
-
             return {
                 "thermal_range": out.thermal_range,
                 "temperature": out.temperature,
@@ -193,7 +183,7 @@ def ClassifyThermalLiterature(state: AgentState) -> dict:
 
         }
 
-def ClassifyHostMetadata(state: AgentState) -> dict:
+def ClassifyHostMetadata(state: Mapping[str, Any]) -> dict:
     """Use the LLM to extract host species from metadata."""
     node='ClassifyHostMetadata'
     nodes = (state.get("nodes") or []) + [node]
@@ -202,7 +192,7 @@ def ClassifyHostMetadata(state: AgentState) -> dict:
     llm = _build_llm(model)
     llm = llm.with_structured_output(HostOutput)
 
-    prompt = CLASSIFYHOSTMETADATAPROMPT(state['metadata'])
+    prompt = CLASSIFYTHERMALMETADATAPROMPT(state['metadata'])
 
     start = time.time()
     out = llm.invoke(prompt)
@@ -235,7 +225,7 @@ def ClassifyHostMetadata(state: AgentState) -> dict:
             'timings': timings,
         }
 
-def ClassifyHostLiterature(state: AgentState) -> dict:
+def ClassifyHostLiterature(state: Mapping[str, Any]) -> dict:
     node='ClassifyHostLiterature'
     nodes = (state.get("nodes") or []) + [node]
 
@@ -269,6 +259,9 @@ def ClassifyHostLiterature(state: AgentState) -> dict:
         print(f'{node}: {out}\n\n')
 
 
+        if not host_found:
+            continue
+
         if out.host_found:
             host_found=True
             end=time.time()
@@ -280,6 +273,7 @@ def ClassifyHostLiterature(state: AgentState) -> dict:
                 "host": out.host,
                 "taxonomic_level": out.taxonomic_level,
                 "host_reasoning": out.host_reasoning,
+                "host_confidence": out.host_confidence,
                 "host_found": True,
                 "host_source": 'literature',
                 'host_paper': paper,
@@ -303,20 +297,15 @@ def ClassifyHostLiterature(state: AgentState) -> dict:
             }
 
 
-def CreateHostLibrary(state: AgentState) -> dict:
+def CreateHostLibrary(state: Mapping[str, Any]) -> dict:
     node='CreateHostLibrary'
     nodes = (state.get("nodes") or []) + [node]
 
     start = time.time()
     host=state.get('host')
     accession=state.get('accession')
-    #create librbar
+
     HostLibrary(accession, host)
-
-    #get number of papers
-    papers=os.listdir(state['host_paper_dir'])
-    host_paper_dir_size=len(papers)
-
     end = time.time()
     duration = round((end - start), 2)
     updated_duration = state['duration'] + duration
@@ -327,14 +316,13 @@ def CreateHostLibrary(state: AgentState) -> dict:
             'duration': updated_duration,
             'nodes': nodes,
             'timings': timings,
-            'host_paper_dir': f'data/accessions/{accession}/library/host_lit',
-            'host_paper_dir_size': host_paper_dir_size}
+            'host_paper_dir': f'data/accessions/{accession}/library/host_lit'}
 
 
 
 
-def ClassifyThermalRangeHostLiterature(state: AgentState) -> dict:
-    """Use the LLM to Classify thermal range from host literature"""
+def ClassifyThermalRangeHostLiterature(state: Mapping[str, Any]) -> dict:
+    """Use the LLM to extract host species from paper text."""
     node = 'ClassifyThermalRangeHostLiterature'
     nodes = (state.get("nodes") or []) + [node]
 
@@ -414,7 +402,7 @@ def ClassifyThermalRangeHostLiterature(state: AgentState) -> dict:
         }
 
 
-def ClassifyThermalForced(state: AgentState) -> dict:
+def ClassifyThermalForced(state: Mapping[str, Any]) -> dict:
     """Use the LLM to extract host species from metadata."""
     model = state.get("model") or OLLAMA_MODEL
     llm = _build_llm(model)
@@ -460,11 +448,180 @@ def ClassifyThermalForced(state: AgentState) -> dict:
         "nodes": nodes,
 
     }
-# ================ #
-# Democratic Nodes #
-# ================ #
 
-def ClassifyThermalMetadataVote(state: AgentState) -> dict:
+
+
+
+
+# ---------------------------------------------------------------------------
+# Democratic NODES
+# ---------------------------------------------------------------------------
+
+def DemocraticCreateAccessionLibrary(state: Mapping[str, Any]) -> dict:
+    """Create library fro  literature associated with the ncbi accession"""
+    node='CreateAccessionLibrary'
+    nodes = (state.get("nodes") or []) + [node]
+
+    start = time.time() # set start
+    CreateLibrary(state['accession'], state['metadata']) # create library for accession
+
+    paper_dir_size=len(os.listdir(state['paper_dir']))
+    end = time.time() # set end
+
+    # Updating durations
+    duration = round((end-start),2)
+    updated_duration=state['duration'] + duration
+    timings = state.get("timings", {}).copy()
+    timings[node] = duration
+
+
+    return {'decision': 'DemocraticClassifyHostMetadata',
+            'duration': updated_duration,
+            'nodes': nodes,
+            'timings': timings,
+            'paper_dir_size': paper_dir_size,}
+
+
+
+
+def DemocraticClassifyHostMetadata(state: Mapping[str, Any]) -> dict:
+    """Use the LLM to extract host species from metadata."""
+    node='ClassifyHostMetadata'
+    nodes = (state.get("nodes") or []) + [node]
+
+    model = state.get("model") or OLLAMA_MODEL
+    llm = _build_llm(model)
+    llm = llm.with_structured_output(HostOutput)
+
+    prompt = CLASSIFYHOSTMETADATAPROMPT(state['metadata'])
+
+    start = time.time()
+    out = llm.invoke(prompt)
+    print(f'{node}: {out}\n\n')
+    end = time.time()
+
+    duration = round((end - start), 2)
+    updated_duration = state['duration'] + duration
+    timings = state.get("timings", {}).copy()
+    timings[node] = duration
+
+
+    if out.host_found:
+        return {
+            "host": out.host,
+            "host_found": out.host_found,
+            "taxonomic_level": out.taxonomic_level,
+            "host_reasoning": out.host_reasoning,
+            'host_source': 'metadata',
+            'nodes': nodes,
+            'duration': updated_duration,
+            'timings': timings,
+            'decision': 'DemocraticCreateHostLibrary',
+        }
+    else:
+        return {
+            'decision': 'DemocraticClassifyHostLiterature',
+            'nodes': nodes,
+            'duration': updated_duration,
+            'timings': timings,
+        }
+
+def DemocraticClassifyHostLiterature(state: Mapping[str, Any]) -> dict:
+    node='ClassifyHostLiterature'
+    nodes = (state.get("nodes") or []) + [node]
+
+    start = time.time()
+
+    model = state.get("model") or OLLAMA_MODEL
+    llm = _build_llm(model)
+    llm = llm.with_structured_output(HostOutput)
+    max_chars = _max_paper_chars(model)
+
+
+
+    patterns={
+    "infection_terms": r"\b(infects?|infecting|infected)\b",
+    "isolation_terms": r"\b(isolated from|recovered from|obtained from|detected in)\b",
+    "host_terms": r"\b(host bacterium|host bacteria|bacterial host)\b",
+    "phage_of": r"\bphage (?:of|infecting)\b",
+}
+    ranked_papers=RankPapers(state['paper_dir'], patterns)
+    ranked_papers_list=list(ranked_papers.keys())
+
+    host_found=False
+
+    for paper in ranked_papers_list:
+        with open(f"{state['paper_dir']}/{paper}", 'r') as f:
+            paper_text=f.read()
+
+        prompt = CLASSIFYHOSTLITERATUREPROMPT(state['phage'], paper_text, max_chars)
+
+        out = llm.invoke(prompt)
+        print(f'{node}: {out}\n\n')
+
+
+        if out.host_found:
+            host_found=True
+            end=time.time()
+            duration = round((end - start), 2)
+            updated_duration = state['duration'] + duration
+            timings = state.get("timings", {}).copy()
+            timings[node] = duration
+            return {
+                "host": out.host,
+                "taxonomic_level": out.taxonomic_level,
+                "host_reasoning": out.host_reasoning,
+                "host_found": True,
+                "host_source": 'literature',
+                'host_paper': paper,
+                'duration': updated_duration,
+                'timings': timings,
+                'nodes': nodes,
+                'decision': 'DemocraticCreateHostLibrary',
+            }
+    if not host_found:
+        end = time.time()
+        duration = round((end - start), 2)
+        updated_duration = state['duration'] + duration
+        timings = state.get("timings", {}).copy()
+        timings[node] = duration
+
+        return {
+            'nodes': nodes,
+            'duration': updated_duration,
+            'timings': timings,
+            }
+
+
+def DemocraticCreateHostLibrary(state: Mapping[str, Any]) -> dict:
+    node='CreateHostLibrary'
+    nodes = (state.get("nodes") or []) + [node]
+
+    start = time.time()
+    host=state.get('host')
+    accession=state.get('accession')
+    #create librbar
+    HostLibrary(accession, host)
+
+    #get number of papers
+    papers=os.listdir(state['host_paper_dir'])
+    host_paper_dir_size=len(papers)
+
+    end = time.time()
+    duration = round((end - start), 2)
+    updated_duration = state['duration'] + duration
+    timings = state.get("timings", {}).copy()
+
+
+    return {'decision': 'DemocraticClassifyThermalMetadata',
+            'duration': updated_duration,
+            'nodes': nodes,
+            'timings': timings,
+            'host_paper_dir': f'data/accessions/{accession}/library/host_lit',
+            'host_paper_dir_size': host_paper_dir_size}
+
+
+def DemocraticClassifyThermalMetadata(state: Mapping[str, Any]) -> dict:
     """Use the LLM to extract host species from metadata."""
     model = state.get("model") or OLLAMA_MODEL
     llm = _build_llm(model)
@@ -502,7 +659,7 @@ def ClassifyThermalMetadataVote(state: AgentState) -> dict:
     except KeyError:
         return {
             "thermal_votes": votes,
-            "decision": 'ClassifyThermalLiteratureVotes',
+            "decision": 'DemocraticClassifyThermalLiterature',
             "duration": updated_duration,
             "timings": timings,
             "nodes": nodes,
@@ -518,7 +675,7 @@ def ClassifyThermalMetadataVote(state: AgentState) -> dict:
 
     return {
     "thermal_votes": votes,
-    "decision": 'ClassifyThermalLiteratureVotes',
+    "decision": 'DemocraticClassifyThermalLiterature',
     "duration": updated_duration,
     "timings": timings,
     "nodes": nodes,
@@ -526,7 +683,7 @@ def ClassifyThermalMetadataVote(state: AgentState) -> dict:
 
 
 
-def ClassifyThermalLiteratureVotes(state: AgentState) -> dict:
+def DemocraticClassifyThermalLiterature(state: Mapping[str, Any]) -> dict:
     """Use the LLM to vote on the thermal range of each paper."""
     with open(f'{state["thermal_reasoning_file"]}', 'a') as f:
         f.write(f'=============Reasoning for {state["accession"]} from accession literature=============\n')
@@ -610,13 +767,13 @@ def ClassifyThermalLiteratureVotes(state: AgentState) -> dict:
             'timings': timings,
             'thermal_votes': votes,
             'nodes': nodes,
-            'decision': 'ClassifyThermalRangeHostLiteratureVotes'
+            'decision': 'DemocraticClassifyThermalRangeHostLiterature'
             }
 
 
 
 
-def ClassifyThermalRangeHostLiteratureVotes(state: AgentState) -> dict:
+def DemocraticClassifyThermalRangeHostLiterature(state: Mapping[str, Any]) -> dict:
     """Use the LLM to extract host species from paper text."""
     node = 'ClassifyThermalRangeHostLiterature'
     nodes = (state.get("nodes") or []) + [node]
@@ -696,10 +853,10 @@ def ClassifyThermalRangeHostLiteratureVotes(state: AgentState) -> dict:
             'timings': timings,
             'thermal_votes': votes,
             'nodes': nodes,
-            'decision': 'ClassifyThermalForcedVote'
+            'decision': 'DemocraticClassifyThermalForced'
             }
 
-def ClassifyThermalForcedVote(state: AgentState) -> dict:
+def DemocraticClassifyThermalForced(state: Mapping[str, Any]) -> dict:
     """Use the LLM to extract host species from metadata."""
     model = state.get("model") or OLLAMA_MODEL
     llm = _build_llm(model)
@@ -752,6 +909,7 @@ def ClassifyThermalForcedVote(state: AgentState) -> dict:
 
 
     return {
+    "thermal_range": max(votes, key=votes.get),
     "thermal_votes": votes,
     "decision": 'end',
     "duration": updated_duration,
@@ -760,7 +918,225 @@ def ClassifyThermalForcedVote(state: AgentState) -> dict:
 }
 
 
-def FilterRelevantLiterature(state: SummaryState) -> dict:
+
+
+# ---------------------------------------------------------------------------
+# SUMMARY Nodes
+# ---------------------------------------------------------------------------
+def SummaryCreateAccessionLibrary(state: Mapping[str, Any]) -> dict:
+    """Create library fro  literature associated with the ncbi accession"""
+    node='CreateAccessionLibrary'
+    nodes = (state.get("nodes") or []) + [node]
+
+    start = time.time() # set start
+    CreateLibrary(state['accession'], state['metadata']) # create library for accession
+
+    paper_dir_size=len(os.listdir(state['paper_dir']))
+    end = time.time() # set end
+
+    # Updating durations
+    duration = round((end-start),2)
+    updated_duration=state['duration'] + duration
+    timings = state.get("timings", {}).copy()
+    timings[node] = duration
+
+
+    return {'decision': 'ClassifyHostMetadata',
+            'duration': updated_duration,
+            'nodes': nodes,
+            'timings': timings,
+            'paper_dir_size': paper_dir_size,}
+
+
+
+def SummaryClassifyHostMetadata(state: Mapping[str, Any]) -> dict:
+    """Use the LLM to extract host species from metadata."""
+    node='ClassifyHostMetadata'
+    nodes = (state.get("nodes") or []) + [node]
+
+    model = state.get("model") or OLLAMA_MODEL
+    llm = _build_llm(model)
+    llm = llm.with_structured_output(HostOutput)
+
+    prompt = CLASSIFYHOSTMETADATAPROMPT(state['metadata'])
+
+    start = time.time()
+    out = llm.invoke(prompt)
+    print(f'{node}: {out}\n\n')
+    end = time.time()
+
+    duration = round((end - start), 2)
+    updated_duration = state['duration'] + duration
+    timings = state.get("timings", {}).copy()
+    timings[node] = duration
+
+
+    if out.host_found:
+        return {
+            "host": out.host,
+            "host_found": out.host_found,
+            "taxonomic_level": out.taxonomic_level,
+            "host_reasoning": out.host_reasoning,
+            'host_source': 'metadata',
+            'nodes': nodes,
+            'duration': updated_duration,
+            'timings': timings,
+            'decision': 'SummaryCreateHostLibrary',
+        }
+    else:
+        return {
+            'decision': 'SummaryClassifyHostLiterature',
+            'nodes': nodes,
+            'duration': updated_duration,
+            'timings': timings,
+        }
+
+def SummaryClassifyHostLiterature(state: Mapping[str, Any]) -> dict:
+    node='ClassifyHostLiterature'
+    nodes = (state.get("nodes") or []) + [node]
+
+    start = time.time()
+
+    model = state.get("model") or OLLAMA_MODEL
+    llm = _build_llm(model)
+    llm = llm.with_structured_output(HostOutput)
+    max_chars = _max_paper_chars(model)
+
+
+
+    patterns={
+    "infection_terms": r"\b(infects?|infecting|infected)\b",
+    "isolation_terms": r"\b(isolated from|recovered from|obtained from|detected in)\b",
+    "host_terms": r"\b(host bacterium|host bacteria|bacterial host)\b",
+    "phage_of": r"\bphage (?:of|infecting)\b",
+}
+    ranked_papers=RankPapers(state['paper_dir'], patterns)
+    ranked_papers_list=list(ranked_papers.keys())
+
+    host_found=False
+
+    for paper in ranked_papers_list:
+        with open(f"{state['paper_dir']}/{paper}", 'r') as f:
+            paper_text=f.read()
+
+        prompt = CLASSIFYHOSTLITERATUREPROMPT(state['phage'], paper_text, max_chars)
+
+        out = llm.invoke(prompt)
+        print(f'{node}: {out}\n\n')
+
+
+        if out.host_found:
+            host_found=True
+            end=time.time()
+            duration = round((end - start), 2)
+            updated_duration = state['duration'] + duration
+            timings = state.get("timings", {}).copy()
+            timings[node] = duration
+            return {
+                "host": out.host,
+                "taxonomic_level": out.taxonomic_level,
+                "host_reasoning": out.host_reasoning,
+                "host_found": True,
+                "host_source": 'literature',
+                'host_paper': paper,
+                'duration': updated_duration,
+                'timings': timings,
+                'nodes': nodes,
+                'decision': 'SummaryCreateHostLibrary',
+            }
+    if not host_found and state['paper_dir_size'] == 0:
+        end = time.time()
+        duration = round((end - start), 2)
+        updated_duration = state['duration'] + duration
+        timings = state.get("timings", {}).copy()
+        timings[node] = duration
+
+        return {
+            'nodes': nodes,
+            'duration': updated_duration,
+            'timings': timings,
+            'decision': 'SummaryClassifyThermalForced'
+            }
+
+
+def SummaryCreateHostLibrary(state: Mapping[str, Any]) -> dict:
+    node='CreateHostLibrary'
+    nodes = (state.get("nodes") or []) + [node]
+
+    start = time.time()
+    host=state.get('host')
+    accession=state.get('accession')
+    #create librbar
+    HostLibrary(accession, host)
+
+    #get number of papers
+    papers=os.listdir(state['host_paper_dir'])
+    host_paper_dir_size=len(papers)
+
+    end = time.time()
+    duration = round((end - start), 2)
+    updated_duration = state['duration'] + duration
+    timings = state.get("timings", {}).copy()
+
+
+    return {'decision': 'FilterRelevantLiterature',
+            'duration': updated_duration,
+            'nodes': nodes,
+            'timings': timings,
+            'host_paper_dir': f'data/accessions/{accession}/library/host_lit',
+            'host_paper_dir_size': host_paper_dir_size}
+
+
+
+def SummaryClassifyThermalForced(state: Mapping[str, Any]) -> dict:
+    """Use the LLM to extract host species from metadata."""
+    model = state.get("model") or OLLAMA_MODEL
+    llm = _build_llm(model)
+    llm = llm.with_structured_output(ThermalOutput)
+
+    node='ClassifyThermalForced'
+    nodes = (state.get("nodes") or []) + [node]
+
+    prompt = CLASSIFYTHERMALFORCEDPROMPT(state['phage'], state['metadata'])
+    start=time.time()
+    out = llm.invoke(prompt)
+    print(f'{node}: {out}\n\n')
+    end = time.time()
+    duration = round((end-start),2)
+
+    #update duration
+    updated_duration=state['duration'] + duration
+
+    #update timings
+    timings = state.get("timings", {}).copy()
+    timings[node] = duration
+
+
+    if not out.thermal_found:
+        return {
+            'decision': 'end',
+            'nodes': nodes,
+            'duration': updated_duration,
+            'timings': timings,
+            'JSONDecodeError': True
+        }
+
+
+    return {
+        "thermal_range": out.thermal_range,
+        "inference_type": 'forced',
+        "thermal_reasoning": 'forced',
+        "thermal_source": 'metadata',
+        "thermal_found": True,
+        "decision": 'end',
+        "duration": updated_duration,
+        "timings": timings,
+        "nodes": nodes,
+
+    }
+
+
+def FilterRelevantLiterature(state: Mapping[str, Any]) -> dict:
     """Use LLM to classify whether a paper is relevant to the classification task"""
     node = "FilterRelevantLiterature"
     nodes = (state.get("nodes") or []) + [node]
@@ -801,7 +1177,7 @@ def FilterRelevantLiterature(state: SummaryState) -> dict:
             'timings': timings,
             }
 
-def FilterRelevantHostLiterature(state: SummaryState) -> dict:
+def FilterRelevantHostLiterature(state: Mapping[str, Any]) -> dict:
     """Use LLM to classify whether a paper is relevant to the classification task"""
     #Establish nodes
     node = "FilterRelevantHostLiterature"
@@ -844,7 +1220,7 @@ def FilterRelevantHostLiterature(state: SummaryState) -> dict:
             'timings': timings,}
 
 
-def SummariseLiterature(state: SummaryState) -> dict:
+def SummariseLiterature(state: Mapping[str, Any]) -> dict:
     """Use LLM to summarise the paper"""
     start = time.time()
 
@@ -863,18 +1239,7 @@ def SummariseLiterature(state: SummaryState) -> dict:
     all_papers = accession_papers + host_papers
 
     # Get maximum =m summary size
-    try:
-        max_chars_each_paper = max_chars / len(all_papers)
-    except ZeroDivisionError:
-        end = time.time()
-        duration = round((end - start), 2)
-        updated_duration = state['duration'] + duration
-        timings = state.get("timings", {}).copy()
-        timings[node] = duration
-        return {'decision': 'ClassifyThermalForced',
-                'nodes': nodes,
-                'duration': updated_duration,
-                'timings': timings,}
+    max_chars_each_paper = max_chars / len(all_papers)
 
 
     #Make summary dir
@@ -911,7 +1276,7 @@ def SummariseLiterature(state: SummaryState) -> dict:
             'decision': 'ClassifySummary'}
 
 
-def ClassifySummary(state: SummaryState) -> dict:
+def ClassifySummary(state: Mapping[str, Any]) -> dict:
     """Use LLM to classify thermal range from the summary file"""
     node = "ClassifySummary"
     nodes = (state.get("nodes") or []) + [node]
@@ -947,4 +1312,4 @@ def ClassifySummary(state: SummaryState) -> dict:
         return {'duration': updated_duration,
          'timings': timings,
          'nodes': nodes,
-         'decision': 'ClassifyThermalForced'}
+         'decision': 'SummaryClassifyThermalForced'}

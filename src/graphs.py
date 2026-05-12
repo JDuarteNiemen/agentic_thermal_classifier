@@ -1,9 +1,10 @@
-from states import *
-from agents import *
+from .states import *
+from .nodes import *
+
 
 from langgraph.graph import StateGraph, START, END
 
-def route(state: AgentState):
+def route(state):
     return state["decision"]
 
 def VisualiseGraph(graph_function):
@@ -20,10 +21,8 @@ def VisualiseGraph(graph_function):
 # ---------------------------------------------------------------------------
 # FAST Graph
 # ---------------------------------------------------------------------------
-
-
-def BuildGraph() -> StateGraph:
-    graph = StateGraph(AgentState)
+def FastGraph() -> StateGraph:
+    graph = StateGraph(FastState)
 
     # Define nodes
     graph.add_node('ClassifyThermalMetadata', ClassifyThermalMetadata)
@@ -38,31 +37,23 @@ def BuildGraph() -> StateGraph:
     # Define paths
     # Can thermal range be confidently inferred from metadata
     graph.add_edge(START, 'ClassifyThermalMetadata')
-
     graph.add_conditional_edges('ClassifyThermalMetadata', route,
                                 {'end': END,
                                  'CreateAccessionLibrary': 'CreateAccessionLibrary'})
-
     graph.add_edge('CreateAccessionLibrary', 'ClassifyThermalLiterature')
-
     graph.add_conditional_edges('ClassifyThermalLiterature', route,
                                {'end': END,
                                 'ClassifyHostMetadata': 'ClassifyHostMetadata'})
-
     graph.add_conditional_edges('ClassifyHostMetadata', route,
                                {'ClassifyHostLiterature': 'ClassifyHostLiterature',
                                 'CreateHostLibrary': 'CreateHostLibrary'})
-
     graph.add_conditional_edges('ClassifyHostLiterature', route,
                                {'ClassifyThermalForced': 'ClassifyThermalForced',
                                 'CreateHostLibrary': 'CreateHostLibrary'})
-
     graph.add_edge('CreateHostLibrary', 'ClassifyThermalRangeHostLiterature')
-
     graph.add_conditional_edges('ClassifyThermalRangeHostLiterature', route,
                                {'end': END,
                                 'ClassifyThermalForced': 'ClassifyThermalForced'})
-
     graph.add_edge('ClassifyThermalForced', END)
 
     return graph.compile()
@@ -75,66 +66,68 @@ def BuildGraph() -> StateGraph:
 # DEMOCRATIC Graph
 # ---------------------------------------------------------------------------
 def DemocraticGraph():
-    graph = StateGraph(AgentState)
+    graph = StateGraph(DemocraticState)
 
     #Define nodes
-    graph.add_node('CreateAccessionLibrary', CreateAccessionLibrary)
-    graph.add_node('ClassifyHostMetadata', ClassifyHostMetadata)
-    graph.add_node('ClassifyHostLiterature', ClassifyHostLiterature)
-    graph.add_node('CreateHostLibrary', CreateHostLibrary)
-    graph.add_node('ClassifyThermalMetadataVote', ClassifyThermalMetadataVote)
-    graph.add_node('ClassifyThermalLiteratureVotes', ClassifyThermalLiteratureVotes)
-    graph.add_node('ClassifyThermalRangeHostLiteratureVotes', ClassifyThermalRangeHostLiteratureVotes)
-    graph.add_node('ClassifyThermalForcedVote', ClassifyThermalForcedVote)
+    graph.add_node('DemocraticCreateAccessionLibrary', DemocraticCreateAccessionLibrary)
+    graph.add_node('DemocraticClassifyHostMetadata', DemocraticClassifyHostMetadata)
+    graph.add_node('DemocraticClassifyHostLiterature', DemocraticClassifyHostLiterature)
+    graph.add_node('DemocraticCreateHostLibrary', DemocraticCreateHostLibrary)
+    graph.add_node('DemocraticClassifyThermalMetadata', DemocraticClassifyThermalMetadata)
+    graph.add_node('DemocraticClassifyThermalLiterature', DemocraticClassifyThermalLiterature)
+    graph.add_node('DemocraticClassifyThermalRangeHostLiterature', DemocraticClassifyThermalRangeHostLiterature)
+    graph.add_node('DemocraticClassifyThermalForced', DemocraticClassifyThermalForced)
 
 
     #Define paths
-    graph.add_edge(START, 'CreateAccessionLibrary')
-    graph.add_edge('CreateAccessionLibrary', 'ClassifyHostMetadata')
-    graph.add_conditional_edges('ClassifyHostMetadata', route,
-                                {'CreateHostLibrary': 'CreateHostLibrary',
-                                 'ClassifyHostLiterature': 'ClassifyHostLiterature'})
-    graph.add_edge('ClassifyHostLiterature', 'CreateHostLibrary')
-    graph.add_edge('CreateHostLibrary', 'ClassifyThermalMetadataVote')
-    graph.add_edge('ClassifyThermalMetadataVote', 'ClassifyThermalLiteratureVotes')
-    graph.add_edge('ClassifyThermalLiteratureVotes', 'ClassifyThermalRangeHostLiteratureVotes')
-    graph.add_edge('ClassifyThermalRangeHostLiteratureVotes', 'ClassifyThermalForcedVote')
-    graph.add_edge('ClassifyThermalForcedVote', END)
+    graph.add_edge(START, 'DemocraticCreateAccessionLibrary')
+    graph.add_edge('DemocraticCreateAccessionLibrary', 'DemocraticClassifyHostMetadata')
+    graph.add_conditional_edges('DemocraticClassifyHostMetadata', route,
+                                {'DemocraticCreateHostLibrary': 'DemocraticCreateHostLibrary',
+                                 'DemocraticClassifyHostLiterature': 'DemocraticClassifyHostLiterature'})
+    graph.add_edge('DemocraticClassifyHostLiterature', 'DemocraticCreateHostLibrary')
+    graph.add_edge('DemocraticCreateHostLibrary', 'DemocraticClassifyThermalMetadata')
+    graph.add_edge('DemocraticClassifyThermalMetadata', 'DemocraticClassifyThermalLiterature')
+    graph.add_edge('DemocraticClassifyThermalLiterature', 'DemocraticClassifyThermalRangeHostLiterature')
+    graph.add_edge('DemocraticClassifyThermalRangeHostLiterature', 'DemocraticClassifyThermalForced')
+    graph.add_edge('DemocraticClassifyThermalForced', END)
 
     return graph.compile()
 
-
+# ---------------------------------------------------------------------------
+# SUMMARY Graph
+# ---------------------------------------------------------------------------
 def SummaryGraph():
     graph = StateGraph(SummaryState)
 
     # Define nodes
-    graph.add_node('CreateAccessionLibrary', CreateAccessionLibrary)
-    graph.add_node('ClassifyHostMetadata', ClassifyHostMetadata)
-    graph.add_node('ClassifyHostLiterature', ClassifyHostLiterature)
-    graph.add_node('CreateHostLibrary', CreateHostLibrary)
+    graph.add_node('SummaryCreateAccessionLibrary', SummaryCreateAccessionLibrary)
+    graph.add_node('SummaryClassifyHostMetadata', SummaryClassifyHostMetadata)
+    graph.add_node('SummaryClassifyHostLiterature', SummaryClassifyHostLiterature)
+    graph.add_node('SummaryCreateHostLibrary', SummaryCreateHostLibrary)
     graph.add_node('FilterRelevantLiterature', FilterRelevantLiterature)
     graph.add_node('FilterRelevantHostLiterature', FilterRelevantHostLiterature)
     graph.add_node('SummariseLiterature', SummariseLiterature)
     graph.add_node('ClassifySummary', ClassifySummary)
-    graph.add_node('ClassifyThermalForced', ClassifyThermalForced)
+    graph.add_node('SummaryClassifyThermalForced', SummaryClassifyThermalForced)
 
     # Define paths
-    graph.add_edge(START, 'CreateAccessionLibrary')
-    graph.add_edge('CreateAccessionLibrary', 'ClassifyHostMetadata')
-    graph.add_conditional_edges('ClassifyHostMetadata', route,
-                                {'CreateHostLibrary': 'CreateHostLibrary',
-                                        'ClassifyHostLiterature': 'ClassifyHostLiterature'})
-    graph.add_edge('ClassifyHostLiterature', 'CreateHostLibrary')
-    graph.add_edge('CreateHostLibrary', 'FilterRelevantLiterature')
+    graph.add_edge(START, 'SummaryCreateAccessionLibrary')
+    graph.add_edge('SummaryCreateAccessionLibrary', 'SummaryClassifyHostMetadata')
+    graph.add_conditional_edges('SummaryClassifyHostMetadata', route,
+                                {'SummaryCreateHostLibrary': 'SummaryCreateHostLibrary',
+                                        'SummaryClassifyHostLiterature': 'SummaryClassifyHostLiterature'})
+    graph.add_conditional_edges('SummaryClassifyHostLiterature', route,
+                                {'SummaryCreateHostLibrary': 'SummaryCreateHostLibrary',
+                                 'SummaryClassifyThermalForced': 'SummaryClassifyThermalForced',})
+    graph.add_edge('SummaryCreateHostLibrary', 'FilterRelevantLiterature')
     graph.add_edge('FilterRelevantLiterature', 'FilterRelevantHostLiterature')
     graph.add_edge('FilterRelevantHostLiterature', 'SummariseLiterature')
-    graph.add_conditional_edges('SummariseLiterature', route,
-                                {'ClassifySummary': 'ClassifySummary',
-                                 'ClassifyThermalForced': 'ClassifyThermalForced'})
+    graph.add_edge('SummariseLiterature', 'ClassifySummary')
     graph.add_conditional_edges('ClassifySummary', route,
-                                {'ClassifyThermalForced': 'ClassifyThermalForced',
+                                {'SummaryClassifyThermalForced': 'SummaryClassifyThermalForced',
                                  'end': END})
-    graph.add_edge('ClassifyThermalForced', END)
+    graph.add_edge('SummaryClassifyThermalForced', END)
 
     return graph.compile()
 

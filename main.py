@@ -1,9 +1,9 @@
-from papers import *
-from graphs import *
-from agents import *
+from src.papers import *
+from src.graphs import *
 
 
-def MESOTHERMOPSYCHRO(accession: str, model: str,) -> AgentState:
+
+def FastTMP(accession: str, model: str,) -> FastState:
 
     metadata=FetchNcbiMetadata(accession)
     phage=metadata.get('organism', 'unknown')
@@ -11,7 +11,7 @@ def MESOTHERMOPSYCHRO(accession: str, model: str,) -> AgentState:
     os.makedirs(f'data/accessions/{accession}', exist_ok=True)
     WriteJson(metadata, f'data/accessions/{accession}/{accession}')
 
-    graph = BuildGraph()
+    graph = FastGraph()
 
     result=graph.invoke({
     #model
@@ -56,7 +56,7 @@ def MESOTHERMOPSYCHRO(accession: str, model: str,) -> AgentState:
     return result
 
 
-def DemocraticTMP(accession: str, model: str) -> AgentState:
+def DemocraticTMP(accession: str, model: str) -> DemocraticState:
 
     metadata=FetchNcbiMetadata(accession)
     phage=metadata.get('organism', 'unknown')
@@ -90,7 +90,7 @@ def DemocraticTMP(accession: str, model: str) -> AgentState:
         'thermal_source': None,
         'thermal_found': False,
         'inference_type': None,
-        'thermal_votes': {'mesophile': 0, 'thermophile': 0, 'psychrophile': 0, 'none': 0},
+        'thermal_votes': {'thermophile': 0, 'psychrophile': 0, 'mesophile': 0, 'none': 0},
         'thermal_reasoning_file': f'data/accessions/{accession}/reasoning/reasoning.txt',
 
 
@@ -111,9 +111,11 @@ def DemocraticTMP(accession: str, model: str) -> AgentState:
         'JSONDecodeError': False
     })
 
+    result['thermal_range'] = max(result["thermal_votes"], key=result["thermal_votes"].get)
+
     return result
 
-def SummaryTMP(accession: str, model: str) -> AgentState:
+def SummaryTMP(accession: str, model: str) -> SummaryState:
 
     metadata=FetchNcbiMetadata(accession)
     phage=metadata.get('organism', 'unknown')
@@ -165,5 +167,6 @@ def SummaryTMP(accession: str, model: str) -> AgentState:
         'timings': {},
         'JSONDecodeError': False
     })
+
 
     return result

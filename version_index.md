@@ -1,4 +1,4 @@
-# V8 Implementing the summary workflow
+# V8 - Implementing the summary workflow
 
 
 ## Overview

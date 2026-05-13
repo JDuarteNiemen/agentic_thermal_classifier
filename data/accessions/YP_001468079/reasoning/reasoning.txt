@@ -28,6 +28,13 @@ Inference Type: explicit
 Reasoning: The sensor utilizes the glucose-binding protein (ttGBP) from *Thermus thermophilus*. The text states: "...the glucose‐binding protein from T. thermophilus..." and later, "Proteins from thermophiles often exhibit enhanced stability. For generating a Matryoshka‐type glucose sensor, the glucose‐binding protein from Thermus thermophilus... was chosen as the recognition element..."
 
 
+Paper: 42104995.txt
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The enzyme TtAlaDH is sourced from *Thermus thermophilus*. The text mentions that the immobilization conferred 'enhanced activity at elevated temperatures' and specifically notes that the immobilized enzyme 'retaining approximately 85% of its initial activity at the elevated temperature of 85 °C.' Since 85 °C is significantly above the 45°C threshold, this suggests thermophilic characteristics, consistent with the source organism.
+
+
 Paper: 41906752.txt
 Classification: thermophile
 Confidence: medium

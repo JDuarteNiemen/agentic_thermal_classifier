@@ -259,8 +259,8 @@ The authors declare that they have no competing financial or personal interests 
 
 References
 
-Adarme-Duran CA Ágreda J Brandão PFB Castillo E Cadmium availability in rhizosphere and non-rhizosphere soils in cacao farms in Santander, Colombia World J Microbiol Biotechnol 2024 196 1 14 10.1007/s10661-024-13301-x PMC11599408 39589552
-Adarme-Duran CA, Ágreda J, Brandão PFB, Castillo E (2024) Cadmium availability in rhizosphere and non-rhizosphere soils in cacao farms in Santander, Colombia. World J Microbiol Biotechnol 196:1–1410.1007/s10661-024-13301-x PMC11599408 39589552
+Adarme-Duran CA Ágreda J Brandão PFB Castillo E Cadmium availability in rhizosphere and non-rhizosphere soils in cacao farms in Santander, Colombia World J Microbiol Biotechnol 2024 196 1 14
+Adarme-Duran CA, Ágreda J, Brandão PFB, Castillo E (2024) Cadmium availability in rhizosphere and non-rhizosphere soils in cacao farms in Santander, Colombia. World J Microbiol Biotechnol 196:1–14
 Alloway BJ Heavy Metals in Soils 2013 London Blackie Academic & Professional
 Alloway BJ (2013) Heavy Metals in Soils. Blackie Academic & Professional, London
 Argüello D Chavez E Lauryssen F Vanderschueren R Smolders E Montalvo D Soil properties and agronomic factors affecting cadmium concentrations in cacao beans: a nationwide survey in Ecuador Sci Total Environ 2019 649 120 127 10.1016/j.scitotenv.2018.08.292 30173024
@@ -287,8 +287,8 @@ Bravo D Pardo-Díaz S Benavides-Erazo J Rengifo-Estrada G Braissant O Leon-Moren
 Bravo D, Pardo-Díaz S, Benavides-Erazo J, Rengifo-Estrada G, Braissant O, Leon-Moreno C (2018) Cadmium and cadmium-tolerant soil bacteria in cacao crops from northeastern Colombia. J Appl Microbiol 124:1175–119429345852 10.1111/jam.13698
 Bravo D Leon-Moreno C Martínez CA Varón-Ramírez VM Araujo-Carrillo GA Vargas R Quiroga-Mateus R Zamora A Rodríguez EAG The first national survey of cadmium in cacao farm soil in Colombia Agronomy 2021 11 1 18 10.3390/agronomy11040761
 Bravo D, Leon-Moreno C, Martínez CA, Varón-Ramírez VM, Araujo-Carrillo GA, Vargas R, Quiroga-Mateus R, Zamora A, Rodríguez EAG (2021) The first national survey of cadmium in cacao farm soil in Colombia. Agronomy 11:1–18
-Bravo D Araujo-Carrillo G Carvalho F Chaali N León-Moreno C Quiroga-Mateus R Lopez-Zuleta S Domínguez O Arenas P Avella E First national mapping of cadmium in cacao beans in Colombia Sci Total Environ 2024 954 1 15 10.1016/j.scitotenv.2024.176398 39326763
-Bravo D, Araujo-Carrillo G, Carvalho F, Chaali N, León-Moreno C, Quiroga-Mateus R, Lopez-Zuleta S, Domínguez O, Arenas P, Avella E (2024a) First national mapping of cadmium in cacao beans in Colombia. Sci Total Environ 954:1–1510.1016/j.scitotenv.2024.176398 39326763
+Bravo D Araujo-Carrillo G Carvalho F Chaali N León-Moreno C Quiroga-Mateus R Lopez-Zuleta S Domínguez O Arenas P Avella E First national mapping of cadmium in cacao beans in Colombia Sci Total Environ 2024 954 1 15 10.1016/j.scitotenv.2024.176398
+Bravo D, Araujo-Carrillo G, Carvalho F, Chaali N, León-Moreno C, Quiroga-Mateus R, Lopez-Zuleta S, Domínguez O, Arenas P, Avella E (2024a) First national mapping of cadmium in cacao beans in Colombia. Sci Total Environ 954:1–15
 Bravo D Quiroga-Mateus R López-Casallas M Torres S Contreras R Otero AM Araujo-Carrillo GA González-Orozco CE Assessing the cadmium content of cacao crops in Arauca, Colombia Environ Monit Assess 2024 196 387 10.1007/s10661-024-12539-9 38509267 PMC10954870
 Bravo D, Quiroga-Mateus R, López-Casallas M, Torres S, Contreras R, Otero AM, Araujo-Carrillo GA, González-Orozco CE (2024b) Assessing the cadmium content of cacao crops in Arauca, Colombia. Environ Monit Assess 196:38738509267 10.1007/s10661-024-12539-9 PMC10954870
 Bravo D, Romero Y, Quiroga-Mateus R, Franco V, Botina B, Torres S, Lopez S (2026) Fertilisation based on a chemical, mineral, and microbiological approach to mitigate Cd content in cacao crops in Arauca, Colombia. Discover Environ. 10.1007/s44274-026-00677-5
@@ -306,15 +306,15 @@ Gil JP López-Zuleta S Quiroga-Mateus RY Benavides-Erazo J Chaali N Bravo D Cadm
 Gil JP, López-Zuleta S, Quiroga-Mateus RY, Benavides-Erazo J, Chaali N, Bravo D (2022) Cadmium distribution in soils, soil litter and cacao beans: a case study from Colombia. Int J Environ Sci Technol 19:2455–2476
 Gómez-Tapias J Ramírez NEM Meléndez MFA Gutiérrez FAA Montoya CAM Diederix H Geological map of Colombia 2015 Episodes J Int Geosci 2017 40 201 212 10.18814/epiiugs/2017/v40i3/017023
 Gómez-Tapias J, Ramírez NEM, Meléndez MFA, Gutiérrez FAA, Montoya CAM, Diederix H (2017) Geological map of Colombia 2015. Episodes J Int Geosci 40:201–212
-Gonzalez-Orozco C Porcel M Escobar S Cacao (Theobroma cacao L.) climate zones and its associated agrobiodiversity in Arauca, Colombia Biodivers Data J 2023 11 1 10 10.3897/BDJ.11.e112771 PMC10698748 38078291
-Gonzalez-Orozco C, Porcel M, Escobar S et al (2023) Cacao (Theobroma cacao L.) climate zones and its associated agrobiodiversity in Arauca, Colombia. Biodivers Data J 11:1–1010.3897/BDJ.11.e112771 PMC10698748 38078291
+Gonzalez-Orozco C Porcel M Escobar S Cacao (Theobroma cacao L.) climate zones and its associated agrobiodiversity in Arauca, Colombia Biodivers Data J 2023 11 1 10 10.3897/BDJ.11.e112771
+Gonzalez-Orozco C, Porcel M, Escobar S et al (2023) Cacao (Theobroma cacao L.) climate zones and its associated agrobiodiversity in Arauca, Colombia. Biodivers Data J 11:1–10
 Gramlich A Tandy S Andres C Chincheros Paniagua J Armengot L Schneider M Schulin R Cadmium uptake by cacao trees in agroforestry and monoculture systems under conventional and organic management Sci Total Environ 2017 580 677 686 10.1016/j.scitotenv.2016.12.014 28040226
 Gramlich A, Tandy S, Andres C, Chincheros Paniagua J, Armengot L, Schneider M, Schulin R (2017) Cadmium uptake by cacao trees in agroforestry and monoculture systems under conventional and organic management. Sci Total Environ 580:677–68628040226 10.1016/j.scitotenv.2016.12.014
 Hattori H Influence of heavy metals on soil microbial activities Soil Sci Plant Nutr 1992 38 93 100 10.1080/00380768.1992.10416956
 Hattori H (1992) Influence of heavy metals on soil microbial activities. Soil Sci Plant Nutr 38:93–100
 ICCO (2025) February 2025 Quarterly Bulletin of Cacao Statistics. p.^pp.
-Jaramillo-Mazo C Bravo D Sierra BEG Alvarez JC Association between bacterial community and cadmium distribution across Colombian cacao crops Microbiol Spectr 2024 12 1 14 10.1128/spectrum.03363-23 PMC11218527 38814085
-Jaramillo-Mazo C, Bravo D, Sierra BEG, Alvarez JC (2024) Association between bacterial community and cadmium distribution across Colombian cacao crops. Microbiol Spectr 12:1–1410.1128/spectrum.03363-23 PMC11218527 38814085
+Jaramillo-Mazo C Bravo D Sierra BEG Alvarez JC Association between bacterial community and cadmium distribution across Colombian cacao crops Microbiol Spectr 2024 12 1 14 10.1128/spectrum.03363-23
+Jaramillo-Mazo C, Bravo D, Sierra BEG, Alvarez JC (2024) Association between bacterial community and cadmium distribution across Colombian cacao crops. Microbiol Spectr 12:1–14
 Kanekar PP Kanekar SP Kanekar PP Kanekar SP Metallophilic, metal-resistant, and metal-tolerant microorganisms Diversity and biotechnology of extremophilic microorganisms from India 2022 Singapore Springer Nature Singapore 187 213
 Kanekar PP, Kanekar SP (2022) Metallophilic, metal-resistant, and metal-tolerant microorganisms. In: Kanekar PP, Kanekar SP (eds) Diversity and biotechnology of extremophilic microorganisms from India. Springer Nature Singapore, Singapore, pp 187–213
 Knotek-Smith HM Deobald LA Ederer M Crawford DL Cadmium stress studies: media development, enrichment, consortia analysis, and environmental relevance Biometals 2003 16 251 261 10.1023/A:1020617013927 12572683

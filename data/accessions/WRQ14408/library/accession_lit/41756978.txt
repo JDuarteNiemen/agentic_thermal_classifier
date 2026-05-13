@@ -1,0 +1,18 @@
+Single-phage profiling illuminates viral individuality during cell fate determination.
+
+The choice between cell death (lysis) and viral dormancy (lysogeny) following bacteriophage
+infection serves as a founding paradigm for the emergence of cellular heterogeneity in a genetically
+uniform population. The determination of host fate arises through the stochastic transcription from
+multiple viral genomes present within each cell, but this activity remains hidden from empirical
+interrogation, which typically stops at the whole-cell level. Here we use parallel sequential
+fluorescence in situ hybridization (par-seqFISH), followed by spatial clustering of phage-encoded
+transcripts within each cell, to profile the transcriptional activity of individual phages during
+synchronized infection of Escherichia coli (E. coli) by bacteriophage lambda. At the whole-cell
+level, transcription kinetics capture the developmental choice between lysis and lysogeny, and
+further demonstrate that viral replication is required for the emergence of diverging fate
+decisions. Zooming in to the single-phage level illuminates an individuality of viral activity
+during infection. We find that, while cells pursuing lysogeny display consensus activity of all
+inhabiting phages, lytic cells may contain phages that exhibit lysogenic activity. These findings
+support an earlier suggestion that consensus among coinfecting phages is required for cell dormancy.
+More broadly, our results highlight the need to identify how whole-cell behavior emerges from the
+activity of physically distinct copies of the same genetic circuit.

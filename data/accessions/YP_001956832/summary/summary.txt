@@ -34,23 +34,9 @@ Thermal Evidence:
 - The IMC measurements were conducted over a 30-hour period at isothermal conditions.
 
 Environmental Context:
-- The study was conducted in cacao soils from farms in Arauca, Colombia.
+- The study was conducted in cacao soils from farms in the Arauca department, Colombia.
 
 Concise Summary:
-The metabolic activity assessment utilized isothermal microcalorimetry (IMC) under controlled, thermostable conditions at 25°C over a 30-hour period. No specific information regarding optimal, growth, or survival temperature ranges, or adaptations (thermophilic, psychrophilic, etc.), was provided for the bacterial strains studied. The analysis focused on metabolic flux changes in response to cadmium stress rather than temperature-dependent physiological characterization.
-
-
-Paper: PMC13118963.1.txt
-Thermal Evidence:
-- No specific optimal, growth, or survival temperature ranges were provided for the microbial communities or enzymes analyzed.
-- No mention of thermophilic, psychrophilic, mesophilic, heat tolerance, cold tolerance, or thermal stress responses was found.
-- No specific temperature-adapted enzymes were detailed.
-
-Environmental Context:
-- The study was conducted in a field setting in Turpan, Xinjiang, China, under continuous watermelon cropping conditions.
-- The analysis focused on rhizosphere soil samples collected from this agricultural environment.
-
-Concise Summary:
-The paper provides a detailed analysis of rhizosphere microbial communities and soil properties in watermelon grown under continuous cropping in Xinjiang, China. The investigation utilized high-throughput sequencing (16S rRNA and ITS) and correlated microbial shifts with soil physicochemical parameters and crop performance. The study focused on the comparative effects of various exogenous organic amendments (e.g., organic fertilizer, organic acids, amino acids) on soil health and plant growth. No direct evidence regarding the optimal growth temperature, temperature range, or thermal adaptations of the isolated microorganisms was presented in the provided text.
+The metabolic activity of the bacteria was assessed using isothermal microcalorimetry (IMC) under controlled, thermostable conditions at 25°C over a 30-hour period. No specific optimal, growth, or survival temperature ranges, or adaptations (thermophilic, psychrophilic, etc.), were reported for the organism. The organism was isolated from cacao farm soils in the Arauca department, Colombia.
 
 

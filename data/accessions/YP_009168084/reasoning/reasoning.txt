@@ -6,6 +6,13 @@ Reasoning: The metadata provides the phage name, host, and general notes, but no
 
 
 =============Reasoning for YP_009168084 from accession literature=============
+Paper: PMC8809338.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The abstract states that the phage "is stable at a wide range of pH (pH 3 to pH 10.5) and temperatures (–80°C to 50°C)". Furthermore, the section 'Phage temperature, storage, and pH stability' mentions that "phage Sa45lw was stable at the temperatures between 30°C and 50°C after 24 h of the treatment". The optimal growth temperature for the host bacteria (E. coli ATCC 13706) is explicitly stated in the 'One-step growth curve' section as "an average burst size of 80 progeny virions per infected cell was produced after an approximately 35-min incubation at 37°C". Since 37°C falls within the mesophilic range (15–45°C), and this is the temperature used for optimal growth/activity, the classification is mesophile.
+
+
 Paper: 11808783.txt
 Classification: mesophile
 Confidence: None

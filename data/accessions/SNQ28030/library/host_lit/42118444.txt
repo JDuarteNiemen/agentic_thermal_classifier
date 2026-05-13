@@ -1,0 +1,16 @@
+In vitro Evaluation of Immunomodulatory and Antioxidant Potential of Isolated Lactic Acid Bacteria from Iranian Dairy Products: An Insight into beneficial potential of cheese-derived isolates.
+
+In the current study, two isolates from Iranian dairy products, Koozeh cheese, were screened and
+identified through evaluation of different biological activities, including different lactic acid
+bacteria assessment, such as tolerance to different temperatures, pH levels, and bile salt
+conditions. Additional tests such as hydrophobicity, co-aggregation, auto-aggregation, hemolytic
+activity, and competition assay against E.coli strain (PTCC No: 1330, ATCC 8739) were also
+conducted. The study further investigated molecular profiling through 16 S rRNA sequencing,
+antioxidant activity, and the ability of the isolates to mitigate lipopolysaccharide (LPS)-induced
+inflammation in the Caco-2 cell line. The results indicated that the isolates belong to the lactic
+acid bacterium, Lactobacillus brevis, with moderate hydrophobicity, co-aggregation, auto-aggregation
+potency, and proper inhibitory effect against E. coli. Both isolates reduced TNF-α and IL-6
+concentrations in response to LPS challenge in the Caco-2 cell line and demonstrated a great ability
+to scavenge DPPH radicals. These findings suggest that lactic acid bacteria from Iranian native
+dairy products may offer potential health benefits for modulating inflammation and promoting gut
+health. However, further investigation is necessary to fully explore these properties.

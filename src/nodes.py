@@ -924,7 +924,7 @@ def DemocraticClassifyThermalForced(state: Mapping[str, Any]) -> dict:
 # SUMMARY Nodes
 # ---------------------------------------------------------------------------
 def SummaryCreateAccessionLibrary(state: Mapping[str, Any]) -> dict:
-    """Create library fro  literature associated with the ncbi accession"""
+    """Create library from literature associated with the ncbi accession"""
     node='CreateAccessionLibrary'
     nodes = (state.get("nodes") or []) + [node]
 
@@ -941,7 +941,7 @@ def SummaryCreateAccessionLibrary(state: Mapping[str, Any]) -> dict:
     timings[node] = duration
 
 
-    return {'decision': 'ClassifyHostMetadata',
+    return {'decision': 'SummaryClassifyHostMetadata',
             'duration': updated_duration,
             'nodes': nodes,
             'timings': timings,
@@ -1078,6 +1078,13 @@ def SummaryCreateHostLibrary(state: Mapping[str, Any]) -> dict:
     updated_duration = state['duration'] + duration
     timings = state.get("timings", {}).copy()
 
+    if state['paper_dir_size'] == 0 and host_paper_dir_size == 0:
+        return {'decision': 'SummaryClassifyThermalForced',
+                'duration': updated_duration,
+                'timings': timings,
+                'nodes': nodes,}
+
+
 
     return {'decision': 'FilterRelevantLiterature',
             'duration': updated_duration,
@@ -1170,7 +1177,7 @@ def FilterRelevantLiterature(state: Mapping[str, Any]) -> dict:
     timings[node] = duration
 
     return {'relevant_accession_papers': relevant_papers,
-            'relevant_accession_papers_size': len(relevant_papers),
+            'relevant_accession_dir_size': len(relevant_papers),
             'nodes': nodes,
             'duration': updated_duration,
             'decision': 'FilterRelevantHostLiterature',
@@ -1211,6 +1218,13 @@ def FilterRelevantHostLiterature(state: Mapping[str, Any]) -> dict:
     updated_duration=state['duration'] + duration
     timings = state.get("timings", {}).copy()
     timings[node] = duration
+
+    # Go to forced classification if no relevant literature
+    if len(relevant_papers) == 0 and len(state['relevant_accession_papers']) == 0:
+        return {'decision': 'SummaryClassifyThermalForced',
+            'nodes': nodes,
+            'duration': updated_duration,
+            'timings': timings,}
 
     return {'relevant_host_papers': relevant_papers,
             'relevant_host_dir_size': len(relevant_papers),

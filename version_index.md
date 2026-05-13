@@ -1,5 +1,6 @@
 # V9 - Adding all workflows into a single repo. With options to call any of them
 
+---
 
 ## Overview
 Comprehensive repo containing all the outlined strategies
@@ -7,6 +8,7 @@ Comprehensive repo containing all the outlined strategies
 Democratic uses each paper associated with the accession as host as a vote towards the classification. aswell as a 
 forced and normal classification from metadata contributing a vote each respectively.
 
+---
 
 ## Model
 Will use gemma4 moving forward due to its performance on example data in terms of speed and accuracy
@@ -39,12 +41,14 @@ They are well-suited for reasoning, agentic workflows, coding, and multimodal un
     Apache License               
     Version 2.0, January 2004 
 
+---
+
 # Fast Classification
 
 ## 1. Accession Library Creation
 - Builds a structured library of all accession records for downstream processing.
 
----
+
 
 ## 2. Thermal Identification from Metadata
 - Scans metadata to determine whether thermal range information is already present.
@@ -55,12 +59,12 @@ They are well-suited for reasoning, agentic workflows, coding, and multimodal un
 ### IF NOT:
 - Proceed to literature retrieval
 
----
+
 
 ## 3. Accession-linked Literature Analysis
 - Retrieves literature associated with the accession for thermal inference.
 
----
+
 
 ## 4. Thermal Range Identification from Accession Literature
 - Classifies thermal range using accession-linked literature.
@@ -71,7 +75,7 @@ They are well-suited for reasoning, agentic workflows, coding, and multimodal un
 ### IF NOT:
 - Proceed to host identification step
 
----
+
 
 ## 5. Host Identification
 - Identifies host organism associated with the accession.
@@ -83,12 +87,12 @@ They are well-suited for reasoning, agentic workflows, coding, and multimodal un
 ### IF host IS found:
 - Proceed to host literature retrieval
 
----
+
 
 ## 6. Literature Retrieval for Host (Query Search)
 - Retrieves literature associated with the identified host.
 
----
+
 
 ## 7. Thermal Range Identification from Host Literature
 - Classifies thermal range using host-associated literature.
@@ -99,7 +103,7 @@ They are well-suited for reasoning, agentic workflows, coding, and multimodal un
 ### IF NOT:
 - Proceed to final fallback classification
 
----
+
 
 ## 8. Forced Classification Using Phage Metadata
 - Applies final fallback thermal classification using phage-level metadata.
@@ -107,10 +111,11 @@ They are well-suited for reasoning, agentic workflows, coding, and multimodal un
 ### Output:
 - Return thermal range
 
----
+
 
 ![Fast Agentic Workflow](images/FastGraph.png)
 
+---
 
 # Democratic classifiction
 
@@ -118,7 +123,7 @@ They are well-suited for reasoning, agentic workflows, coding, and multimodal un
 ## 1. Accession Library Creation
 - Builds a structured library of all accession records for downstream processing.
 
----
+
 
 ## 2. Host Identification
 - Attempts to identify the host organism directly from accession metadata.
@@ -133,12 +138,12 @@ They are well-suited for reasoning, agentic workflows, coding, and multimodal un
 ### IF host is still NOT found:
 - Continue pipeline without host assignment
 
----
+
 
 ## 3. Accession-linked Literature Retrieval
 - Retrieves all literature associated with the accession record.
 
----
+
 
 ## 4. Thermal Range Classification from Accession papers
 - Performs thermal range classification using:
@@ -150,7 +155,7 @@ They are well-suited for reasoning, agentic workflows, coding, and multimodal un
 ### Output:
 - Accession-level thermal votes
 
----
+
 
 ## 5. Host Literature Retrieval
 - IF a host organism was identified:
@@ -159,7 +164,7 @@ They are well-suited for reasoning, agentic workflows, coding, and multimodal un
 ### IF no host was identified:
 - Skip to final vote aggregation
 
----
+
 
 ## 6. Thermal Range Classification from Host Literature
 - Performs thermal range classification using host-associated literature. (if paper has at least one hit on regex scan)
@@ -169,7 +174,7 @@ They are well-suited for reasoning, agentic workflows, coding, and multimodal un
 ### Output:
 - Host-derived thermal votes
 
----
+
 
 ## 7. Vote Aggregation and Final Thermal Assignment
 - Aggregates all thermal classification votes generated from:
@@ -185,6 +190,7 @@ They are well-suited for reasoning, agentic workflows, coding, and multimodal un
 
 ![Democratic agentic workflow](images/DemocraticGraph.png)
 
+---
 
 # Summary classifiction
 
@@ -192,13 +198,13 @@ They are well-suited for reasoning, agentic workflows, coding, and multimodal un
 - Load accession metadata.
 - Build a local working library for the accession.
 
----
+
 
 ## 2. Retrieve Associated Literature
 - Collect all papers linked to the accession.
 - Store papers as text files for processing.
 
----
+
 
 ## 3. Literature Relevance Screening
 For each paper associated with the accession:
@@ -215,7 +221,7 @@ For each paper associated with the accession:
 ### If not relevant:
 - Remove the paper from the working library.
 
----
+
 
 ## 4. Check for Relevant Phage Literature
 
@@ -240,7 +246,8 @@ For each paper associated with the accession:
 - Generate summaries of the host literature.
 - Save summaries to file.
 
----
+### IF no relevant phage or host papers
+- Fallback to forced metadata classification
 
 ## 5. Final Fallback: Forced Metadata Classification
 
@@ -259,7 +266,7 @@ For each paper associated with the accession:
 
 - Infer the most likely thermal category from metadata alone.
 
----
+
 
 ## 6. Combine and Anonymise Summaries
 ### Trigger condition:
@@ -277,7 +284,7 @@ For each paper associated with the accession:
 ### Purpose:
 - Prevent species-name bias during classification.
 
----
+
 
 ## 7. Thermal Classification
 ### If literature summaries exist:
@@ -291,7 +298,7 @@ For each paper associated with the accession:
 - Mesophile
 - Thermophile
 
----
+
 
 ## 8. Save Outputs
 Store:
@@ -302,6 +309,8 @@ Store:
 - anonymised summaries
 - metadata-only classification (if used)
 - final thermal classification
+
+
 ![Summary agentic workflow](images/SummaryGraph.png)
 
 

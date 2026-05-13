@@ -6,7 +6,28 @@ Reasoning: The title contains the text '[Thermus phage phiYS40]' and the old_nam
 
 
 =============Reasoning for YP_874174 from accession literature=============
+Paper: PMC9324360.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host bacterium, *Thermus thermophilus*, has an optimal growth temperature of 65–72 °C, with minimal and maximal temperatures of 47 °C and 85 °C, respectively [72]. The paper states that the Tt72 pol was characterized from this host. Although the enzyme's optimal activity was found at 55 °C (Figure 8a), the text notes that this finding is 'quite surprising, considering that the optimal temperature for T. thermophilus MAT72 growth is 65–72 °C' [72]. Furthermore, the enzyme exhibits characteristics of proteins derived from thermophiles, with a calculated ri index of 6.01, corresponding to hyperthermophiles (r > 4.5) [73]. The overall context strongly links the phage to a thermophilic host, leading to the classification of the phage's enzyme as thermophilic, despite the measured optimum being lower.
+
+
 =============Reasoning for YP_874174 from host literature=============
+Paper: PMC13049647.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The host organism, Methanothermobacter thermautotrophicus, is described as a 'thermophilic methanogen' in the text. Furthermore, the optimal growth temperature for the host is mentioned in the methods section: 'M. thermautotrophicus strains were cultivated anaerobically in mineral salt (MS) medium at 60 °C when not otherwise stated or at 42 °C (acetoin production) in serum bottles or bioreactors as previously described (Casini et al., 2023; Fink et al., 2021).' The text also states that the host has an 'optimum growth temperature of 60 °C to 65 °C' in the chemostat section. Since the phage is associated with this host, the thermal characteristic is inferred to be thermophilic based on the host's nature and optimal growth conditions (> 45°C).
+
+
+Paper: PMC12956332.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states that 'T. thermophilus is a model organism for studying thermophilic bacteria' and that 'TtAgo exhibited detectable DNA cleavage at 65°C, near its native T. thermophilus growth temperature'. Furthermore, the growth conditions for T. thermophilus HB27 were 'grown at 60°C or 65°C'. Since the definition for thermophile is > 45°C, and the organism is characterized as thermophilic and tested at 60°C/65°C, the classification is thermophile.
+
+
 Paper: PMC13039148.1.txt
 Classification: thermophile
 Confidence: None

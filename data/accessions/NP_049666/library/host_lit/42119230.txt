@@ -1,0 +1,20 @@
+Pediococcus pentosaceus DF29-derived extracellular vesicles ameliorate EPEC-induced intestinal injury via M2 macrophage polarization.
+
+Enteropathogenic Escherichia coli (EPEC) infection remains a major cause of intestinal barrier
+dysfunction and diarrhea, necessitating the development of novel non-antibiotic therapies. While
+Pediococcus pentosaceus (P. pentosaceus) exhibits probiotic potential, the specific role of its
+postbiotic components, particularly extracellular vesicles (EVs), in host-pathogen interactions
+remains obscure. In this study, we systematically evaluated the protective efficacy and underlying
+mechanisms of P. pentosaceus DF29 (DF29) and its derived EVs (PpEVs) against EPEC-induced enteritis.
+Characterization revealed that PpEVs isolated via ultracentrifugation exhibited a typical vesicular
+morphology, high purity, and robust stability under simulated gastrointestinal conditions. In vitro,
+PpEVs were efficiently internalized by macrophages and significantly blunted EPEC-induced pro-
+inflammatory responses. In vivo, oral administration of PpEVs recapitulated the protective effects
+of live DF29, including alleviating body weight loss, reducing disease activity index, and restoring
+histological integrity. Crucially, PpEVs reinforced the intestinal barrier by upregulating tight
+junction proteins, mitigating oxidative stress, and rebalancing the dysbiotic gut microbiota.
+Mechanistically, we demonstrated that PpEVs exerted their anti-inflammatory effects by inhibiting
+the TLR4/MyD88/NF-κB signaling axis, thereby shifting macrophage polarization from an M1
+proinflammatory to an M2 anti-inflammatory phenotype and rectifying the Th1/Th2 and Th17/Treg
+imbalances. Collectively, our findings suggest that PpEVs represent a potential intervention
+strategy to preserve intestinal homeostasis and counteract EPEC-associated inflammation.

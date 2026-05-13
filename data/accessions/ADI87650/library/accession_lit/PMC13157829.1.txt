@@ -1,0 +1,248 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: ISME J
+Journal ID: ISME J
+Journal ID: ismej
+
+The ISME Journal
+
+ISSN: 1751-7362
+EISSN: 1751-7370
+Publisher: Oxford University Press
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC13157829
+PMID: 41967492
+DOI: 10.1093/ismejo/wrag084
+Article ID: wrag084
+Article version: 1
+Subjects: Original Article, AcademicSubjects/SCI00010, AcademicSubjects/SCI00960, AcademicSubjects/SCI01150, AcademicSubjects/SCI02281
+
+A jumbo cyanophage encodes the most comprehensive ribosomal protein set in the known virosphere
+
+https://orcid.org/0000-0002-0934-0920 Meza-Padilla Isaac Department of Biology, University of Waterloo, 200 University Avenue West, Waterloo, ON N2L 3G1, Canada
+
+https://orcid.org/0000-0002-3622-6779 Avrani Sarit Department of Evolutionary and Environmental Biology and Institute of Evolution, University of Haifa, Haifa 3498838, Israel
+
+https://orcid.org/0000-0002-4673-104X Müller Kirsten M Department of Biology, University of Waterloo, 200 University Avenue West, Waterloo, ON N2L 3G1, Canada
+
+https://orcid.org/0000-0002-2220-6136 Nissimov Jozef I Department of Biology, University of Waterloo, 200 University Avenue West, Waterloo, ON N2L 3G1, Canada
+
+Corresponding author. Department of Biology, University of Waterloo, 200 University Avenue West, Waterloo, Ontario, N2L 3G1, Canada. E-mail: imezapad@uwaterloo.ca
+Publication date: 2026 Jan
+Electronic publication date: 2026 Apr 10
+Volume: 20
+Issue: 1
+Electronic Location ID: wrag084
+Received 2025 Oct 21; Revised 2026 Feb 6; Accepted 2026 Apr 7; 2026 May 10
+Copyright: © The Author(s) 2026. Published by Oxford University Press on behalf of the International Society for Microbial Ecology.
+Copyright year: 2026
+License: This is an Open Access article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Keywords: Ribosome, cyanophage, jumbo phage, prophage, Vampirovibrio, Microcystis, horizontal gene transfer, paleovirology, virus ecology, virus evolution
+
+Funding: Secretaría de Ciencia, Humanidades, Tecnología e Innovación (SECIHTI) Becas de Posgrado para Maestrías y Doctorados en Ciencias y Humanidades en el Extranjero scholarship Natural Sciences and Engineering Research Council of Canada (NSERC) RGPIN-2022-03350 DGECR-2022-00329
+Page count: 11
+
+==============================
+Abstract
+
+It has been proposed that a defining distinction between viruses and cells lies in the absence or presence of ribosomal genes, respectively. Recent studies revealing that viruses occasionally encode ribosomal proteins (RPs) have challenged this view. However, so far, only viral genomes with up to three RPs have been discovered. Here, we perform a functional genome analysis of the Microcystis jumbo phage PhiMa05 and show that it encodes six RPs, an RP acetyltransferase, and a ribosome biogenesis protein. To our knowledge, this makes PhiMa05 the first cyanophage reported to encode RPs, as well as the virus with the most comprehensive RP-coding set of the known virosphere. Evolutionary analyses suggest that these viral RP-coding genes may have been horizontally transferred from a temperate ancestor of PhiMa05 to certain members of the Vampirovibrionia, a non-photosynthetic basal lineage of Cyanobacteriota, via the integration of the viral genome. We find that four RPs, the RP acetyltransferase, and the ribosome biogenesis protein of the PhiMa05-like prophages are the only copies of those proteins that the near-complete genomes of some Vampirovibrio hosts possess. We hypothesize that such cellular organisms may depend on the PhiMa05-like prophage for protein synthesis, and hence life itself. Collectively, our results provide evidence for the existence of viruses with particularly enriched sets of RP-coding genes and indicate that, in some cases, such viral genes have been transferred to cells, potentially becoming essential for the survival of the host.
+
+Graphical Abstract
+
+Graphical Abstract
+
+Introduction
+
+A defining distinction between viruses and cells has been proposed to be the absence or presence of ribosomal genes, respectively [1]. This view was recently challenged by the discovery that viral genomes (including jumbo phages) occasionally encode ribosomal proteins (RPs) [2–9]. However, when they do, viruses usually harbor a single RP-coding gene [2–9]. Even giant Tupanviruses, possessing the most complete translational apparatus of the known virosphere, lack RPs altogether [10]. Thus far, to our knowledge, the viral RP-coding record has been held by an uncultivated Megagenomovirus encoding three RPs [9]. Collectively, these intriguing findings prompt the following question: Are there viruses in which selection has particularly favored the acquisition of RP-coding genes?
+
+PhiMa05 is a lytic jumbo phage that contains a ~274 kb linear double-stranded DNA genome with 256 open reading frames (ORFs) and was isolated from an aeration basin of the wastewater treatment plant of a hospital in Thailand [11]. This environmentally and societally relevant virus infects seven toxic, harmful algal bloom-forming Microcystis strains isolated from the eutrophic, fresh-brackish-saline water Songkhla Lake [11, 12]. Whole-genome proteomic [13], major capsid protein [11], and portal protein (Fig. S1) phylogenies place PhiMa05 among freshwater cyanophages. This is consistent with the freshwater nature of its host, Microcystis. Our phylogenetic reconstruction (Fig. S1) strongly supports a close relationship between PhiMa05 and the Saffermanviridae family, a freshwater clade of temperate cyanophages comprised of free viruses and prophages [14].
+
+In the study by Naknaen et al. [11] examining the PhiMa05 genome, 54 ORFs were functionally annotated, however none were identified to be RPs (Table S1). Here, we conduct a functional genome analysis of PhiMa05 and find that it encodes the largest number of RPs discovered in a viral genome to date. We then explore the evolutionary trajectory of the RPs encoded by PhiMa05, elaborating on the ultimate causes and consequences of this set of viral proteins.
+
+Materials and methods
+
+Functional genome analysis
+
+The functional genome analysis of PhiMa05 (GenBank accession number: MW495066.1) was conducted using a combination of NCBI Protein database [15] mining, RefSeq BLASTP [16] searches and, when RPs were detected, InterProScan [17] runs and Foldseek [18] queries against experimentally determined structures in the PDB [19] in order to confirm their annotations using multiple tools. Unless otherwise noted, all tools were executed with default parameters. BLASTP hits with E-values <0.001 were considered significant, as were Foldseek hits with E-values <0.001 and true-positive probabilities of 1 [20, 21]. Structural modeling of PhiMa05 RPs for Foldseek queries was conducted using AlphaFold 3 [22] (AF3), with the exception of bS1. The overall fold of AlphaFold models with predicted template modeling (pTM) scores >0.5 is usually considered similar to that of the true structure [21]. Since AF3 failed to produce a satisfactory model for bS1 (pTM < 0.5), D-I-TASSER [23] was used instead. To ensure optimal modeling accuracy, the following advanced options were activated in D-I-TASSER: using large IMG/JGI metagenomic database to build MSA, predict protein function based on structure model, using AlphaFold2 distances, and using domain partition and assembly module. As with AF3 pTM, an estimated template modeling (eTM) score >0.5 has been used as threshold to denote correctly folded D-I-TASSER models [23]. Prior to Foldseek searches, the predicted local-distance difference test scores of the AF3 models were visually inspected in the native environment of the AlphaFold server and can be found in Fig. S2. The structural alignments generated by Foldseek were visualized using UCSF ChimeraX 1.10 [24]. Additionally, InterProScan runs and AF3-Foldseek queries against experimentally determined structures in the PDB were also applied to the hypothetical proteins of PhiMa05.
+
+Phylogenetic analyses
+
+We reconstructed both broad coverage and Vampirovibrionia-specific phylogenies for PhiMa05 RPs. To compute broad coverage trees, the top 20 RefSeq BLASTP hits of PhiMa05 RPs were aligned using Muscle 5.3 [25] and visualized in SeaView [26]. Blocks of conserved sites were selected via Gblocks [27], and maximum likelihood phylogenies were reconstructed using PhyML 3.1 [28] with the LG amino acid substitution model [29] and 100 bootstrap replicates. Since the ribosome biogenesis tree was dominated by Bacillus spp., we retained one Bacillus homolog (B. altitudinis, the most similar to PhiMa05) and conducted a second BLASTP search excluding the Bacillus genus (NCBI taxonomy ID: 1386) to compute a tree with wider taxonomic coverage. Subsequently, Vampirovibrionia-specific phylogenies were constructed using the top 20 Vampirovibrionia (1798710) and viral (10239) BLASTP hits in the NCBI non-redundant protein sequences database. Vampirovibrio chlorellavorus Vc_AZ_2 (see section 2.3) and V. chlorellavorus Vc_UKR (JGI IMG/MER accession number: 2600254900) RPs were also added to these trees.
+
+In the case of the portal protein alignment, the use of Gblocks with default parameters yielded an insufficient number of positions, resulting in a tree with low bootstrap support for some branches. Therefore, Gblocks was executed with the following parameters for a less stringent selection to increase the robustness of the portal protein tree: allow smaller final blocks, allow gap positions within the final blocks, and allow less strict flanking positions.
+
+Multiple genome alignments
+
+A multiple genome alignment between PhiMa05, V. chlorellavorus Vc_AZ_1 (contig QFWH01000002.1), and V. chlorellavorus Vc_AZ_2 (contig QFWI01000011.1) was performed using progressiveMauve [30]. Since the V. chlorellavorus Vc_AZ_2 genome was not annotated in NCBI, Prokka 1.14.5 [31] was used to annotate it before alignment. After examining the alignment, we observed that the only copies of certain RP-coding genes in Vc_AZ_1 and Vc_AZ_2 were located within PhiMa05-like prophages (see section 3.2). We confirmed their absence elsewhere in the genomes by conducting BLASTP searches with these RPs against the proteomes of Vc_AZ_1 and Vc_AZ_2.
+
+In order to identify RPs located within PhiMa05-like prophages in Vampirovibrionia genomes, multiple genome alignments between PhiMa05 and each Vampirovibrionia genome were performed (Fig. S3). The RPs located within PhiMa05-like prophages were classified accordingly, while the RPs located outside of PhiMa05-like prophages were not identified as PhiMa05-like prophage RPs.
+
+Results
+
+Functional genome analysis of PhiMa05
+
+Our functional genome analysis uncovered six RPs in the PhiMa05 genome, namely, bS1 (ORF 12), bL21 (ORF 13), bL27 (ORF 14), bL33 (ORF 35), uL11 (ORF 38), and uL1 (ORF 39), as well as a ribosome biogenesis GTP-binding YihA/YsxC protein (ORF 108), and an RP S18-alanine N-acetyltransferase (ORF 242; Fig. 1, Table S1). Specifically, NCBI Protein database mining rescued five RPs annotated in GenBank (bS1, bL21, bL27, uL11, and uL1); while BLASTP, InterProScan, and Foldseek queries (Table S2) confirmed those five and revealed three more: bL33, the RP S18-alanine N-acetyltransferase, and the ribosome biogenesis protein (previously annotated only as a “GTP-binding protein”). It is worth noting that, except for uL11, the RPs encoded by PhiMa05 are located moderately close to one another in a prokaryotic ribosome (Fig. 1i). A possible explanation for this observation is that such proteins might interact during the biogenesis of the ribosome or the protein synthesis process. The viral genome also contains a few tRNA genes (tRNA-Trp, EMOOHJMP_00036; tRNA-Asn, EMOOHJMP_00158; and tRNA-Arg, EMOOHJMP_00211; mined from NCBI). To the best of our knowledge, this makes PhiMa05 the first cultivated cyanophage reported to encode RPs, as well as the virus with the most comprehensive RP-coding set of the known virosphere.
+
+Figure 1 RPs encoded in the genome of PhiMa05 and their locations in a bacterial ribosome. (a) bL33, (b) bL21, (c) bL27, (d) uL11, (e) bS1, (f) uL1, (g) ribosome biogenesis GTP-binding YihA/YsxC protein, and (h) RP S18-alanine N-acetyltransferase. (i) Shows a bacterial ribosome (PDB ID: 6BU8; from Escherichia coli) with the RPs encoded in the PhiMa05 genome colored in blue, the remaining large subunit RPs in coral, the remaining small subunit RPs in light salmon, and the RNAs in gray. For (a-h), the structural models of PhiMa05 proteins are colored in black, except for the regions corresponding to their InterPro families, which are colored in royal blue. The top Foldseek PDB hits are colored in orange and structurally aligned to the PhiMa05 structural models. The InterPro family names of the PhiMa05 proteins are displayed next to closed blue circles, while the names of their top Foldseek PDB hits are listed next to closed orange circles. ORF numbers of PhiMa05 proteins are highlighted in bold, and their GenBank accession numbers are indicated in parentheses. Note that the different panels are not to scale. See Table S1 for BLASTP E-values; Table S2 for Foldseek E-values and InterPro family IDs; and Fig. S2 for the predicted local-distance difference test scores of the structural models.
+
+For image description, please refer to the figure legend and surrounding text.
+
+In order to further explore the genomic dark matter of PhiMa05, we also applied InterProScan runs and Foldseek queries to the hypothetical proteins of the virus (Table S3). A hypothetical protein (ORF 225) got an InterProScan hit to the RP uL14 family. However, this result was not consistent among tools. Therefore, we decided not to annotate ORF 225 as an RP in our study. Another highlight was ORF 199, which shares a genomic cluster with PhiMa05 structural proteins. Accordingly, ORF 199 was found to be a structural homolog of the packaged DNA stabilization protein of Salmonella phage P22, a temperate bacteriophage.
+
+Evolutionary analyses
+
+The RPs of PhiMa05 raise questions regarding their evolutionary trajectories. In all of our phylogenetic analyses, the RPs from PhiMa05 are strongly supported as being closely related to Vampirovibrio RPs (Fig. 2a-h). For context, Vampirovibrio is a genus of predatory cyanobacteria that belongs to a basal non-photosynthetic class of the phylum Cyanobacteriota, the Vampirovibrionia (previously Melainabacteria) [32]. The ecology of V. chlorellavorus is quite remarkable, as it is an obligate predator of the green microalga Chlorella [32, 33]. Interestingly, the comparative genomic analyses implemented here reveal that there is a highly conserved PhiMa05-like prophage in the genomes of V. chlorellavorus strains Vc_AZ_1 (GenBank accession number: GCA_003149375.1) and Vc_AZ_2 (Fig. 2i; GCA_003149345.1), which were isolated from outdoor experimental algal cultivation ponds in Arizona [33]. The PhiMa05-like prophages in Vc_AZ_1 and Vc_AZ_2 are flanked on the left side by host genomic regions. Although the Vc_AZ_2 contig ends on the right side before the PhiMa05-like prophage does, the right end of the Vc_AZ_1 prophage is also flanked by a host region (Fig. 2j), providing evidence of integration on both sides of the viral genome in Vc_AZ_1.
+
+Figure 2 Broad coverage phylogenies of PhiMa05 RPs and synteny comparison between the PhiMa05 genome and V. chlorellavorus prophages. (a) bS1, (b) bL21, (c) bL27, (d) bL33, (e) uL11, (f) uL1, (g) ribosome biogenesis GTP-binding YihA/YsxC protein, and (h) RP S18-alanine N-acetyltransferase maximum likelihood phylogenetic trees. The PhiMa05 ORF numbers and protein names are indicated next to the trees. Support values >50 (out of 100 bootstrap replicates) are shown at the nodes. The scale bars indicate the number of amino acid substitutions per site. RefSeq accession numbers are included below the species names. PhiMa05 proteins are highlighted in bold, and PhiMa05-like prophage proteins are colored in blue. (i) Synteny analysis between PhiMa05 (top), V. chlorellavorus Vc_AZ_1 (middle), and V. chlorellavorus Vc_AZ_2 genomes (bottom). The locally colinear blocks (LCBs) corresponding to the PhiMa05 genome are colored in mauve, while the remaining syntenic regions between the Vc_AZ_1 and Vc_AZ_2 contigs are colored in green. The plots within the LCBs display sequence similarity values as a range with the mean value darkened; the height of the similarity profile indicates the level of sequence conservation over a region, calculated as inversely proportional to the average column entropy of the alignment. The coding sequences are displayed as black and white bars below each genome; PhiMa05 RPs and structural proteins (including tail, adaptor, capsid, and portal proteins) are indicated using closed black triangles and circles, respectively. (j) Close-up view of the right ends of the PhiMa05 genome and V. chlorellavorus prophage-containing contigs. Red lines mark the end of the contigs, while the black dotted line highlights the end of the PhiMa05 genome.
+
+For image description, please refer to the figure legend and surrounding text.
+
+PhiMa05 and the Vc_AZ_1 and Vc_AZ_2 prophages do not encode any recognizable integrases. This is in line with previous studies on the Saffermanviridae family of temperate cyanophages, which is the viral lineage most closely related to PhiMa05 (see section 1 and Fig. S1). Viruses in the Saffermanviridae are able to lysogenize their freshwater hosts despite the lack of detectable integrases [14].
+
+Although the degree of conservation between PhiMa05 and V. chlorellavorus prophages is high, they are not perfectly conserved. As can be observed in the multiple genome alignment in Fig. 2i, the sequence conservation is never absolute throughout the PhiMa05-like prophages. A few spots are particularly divergent, as evidenced by the pronounced valleys present in the sequence similarity plots. RP bL33 in the Vc_AZ_2 prophage provides a specific example of divergence and pseudogenization. There is an ORF (HHJJEAIM_00651) where bL33 used to be in the Vc_AZ_2 prophage, but its coding sequence has mutated to such an extent as to bear no detectable homology and almost no sequence similarity to bL33 proteins (Fig. 3). Indeed, when querying ORF 651, no significant similarity can be detected using BLASTP, and InterProScan fails to identify it as part of any protein family. These are signs of pseudogenization and divergence between PhiMa05 and V. chlorellavorus prophages, which comprise another line of evidence supporting the integration of the viral genome.
+
+Figure 3 Alignment of RP bL33. (a) Close-up view of bL33 ORFs in the PhiMa05 genome (top), V. chlorellavorus Vc_AZ_1 (middle), and V. chlorellavorus Vc_AZ_2 (bottom) PhiMa05-like prophages. Black dotted lines enclose bL33 ORFs in PhiMa05 and Vc_AZ_1, and ORF 651 in Vc_AZ_2. The gene colored in green encodes tRNA-Trp. (b) Multiple sequence alignment of PhiMa05 bL33 (GenBank accession number: WMU93230.1), V. chlorellavorus Vc_AZ_1 prophage bL33 (WP_303673316.1), and V. chlorellavorus Vc_AZ_2 ORF 651 (HHJJEAIM_00651). Closed circles denote the intervals of amino acids in PhiMa05 and Vc_AZ_1 proteins corresponding to the bL33 family. No hits were detected when querying ORF 651 in BLASTP and InterProScan.
+
+For image description, please refer to the figure legend and surrounding text.
+
+Most Vampirovibrio RPs in our broad coverage trees belonged to PhiMa05-like prophages (Fig. 2a-h). As such, it was not clear whether PhiMa05 acquired its RP-coding genes from a Vampirovibrio-like host. Therefore, the reconstruction of higher resolution Vampirovibrionia-specific RP phylogenies followed. In these trees, PhiMa05 and PhiMa05-like prophages clustered together and further grouped with Vampirovibrio RPs (Fig. 4). This suggests that the PhiMa05 RP-coding genes may have been acquired by an ancestor of the virus from a Vampirovibrio-like host.
+
+Figure 4 Vampirovibrionia-specific phylogenies of PhiMa05 RPs. (a) bS1, (b) bL21, (c) bL27, (d) bL33, (e) uL11, (f) uL1, (g) ribosome biogenesis GTP-binding YihA/YsxC protein, and (h) RP S18-alanine N-acetyltransferase maximum likelihood phylogenetic trees. The PhiMa05 ORF numbers and protein names are indicated next to the trees. Support values >50 (out of 100 bootstrap replicates) are shown at the nodes. The scale bars indicate the number of amino acid substitutions per site. Accession numbers are included below the species names. PhiMa05 proteins are highlighted in bold, and PhiMa05-like prophage proteins are colored in blue. The parentheses following the accession numbers enclose the identifiers of each RP used to indicate their locations in the genome alignments in Fig. S3.
+
+For image description, please refer to the figure legend and surrounding text.
+
+We observed that uL1, uL11, bL21, bL27, the ribosome biogenesis GTP-binding YihA/YsxC, and the RP S18-alanine N-acetyltransferase of the PhiMa05-like prophages were the only copies of these proteins detected in the near-complete Vc_AZ_1 and Vc_AZ_2 host genomes. Because Vc_AZ_1 and Vc_AZ_2 are contig-level assemblies, we cannot rule out the possibility that the aforementioned RPs are located in contig gaps. However, this is unlikely because the Vc_AZ_1 and Vc_AZ_2 genomes are near complete, and the fraction of potentially missed genes in contig gaps is minimal [32, 33]. Furthermore, Vc_AZ_1 and Vc_AZ_2 lack the same six RPs beyond the copies present in the PhiMa05-like prophages, making it highly improbable that the same six proteins are independently present in gap regions in both strains. Moreover, there is an ORF coding for bL33, which is the only RP-coding gene that has pseudogenized in the PhiMa05-like prophages, located elsewhere in the Vc_AZ_2 genome (HHJJEAIM_02771).
+
+Discussion
+
+In order to interpret the biological implications of RP acquisition in PhiMa05, we begin by examining the functional roles of the RPs encoded by the virus. Protein bS1 enables translation initiation by binding mRNA, recruiting it to the 30S ribosomal subunit, and facilitating the accommodation of the start codon within the decoding center [34, 35]. In addition, bS1 has been found to be involved in trans-translation, a process that rescues stalled ribosomes [36], as well as in regulating its own expression and that of other ribosomal genes [37, 38]. Furthermore, bS1 plays a role in the replication cycle of several bacteriophages. In T4, the host bS1 participates in replication through the activation of the phage endoribonuclease RegB, resulting in the degradation of early viral mRNAs [39]. In bacteriophage Qβ, the cellular bS1 comprises a subunit of the viral replicase complex that acts as a replication initiator and terminator factor [40, 41]. RP bS1 interacts with the temperate phage λ recombination protein β, thus taking part in the recombination process during infection [42, 43]. Beyond bS1, which is frequently lost in bacteria [44], none of the other RPs encoded in PhiMa05 has been reported to exhibit any particular conservation trend.
+
+Together with 23S rRNA, uL1 forms the L1 stalk, a flexible structural element located near the E (exit) site of the ribosome [45]. The L1 stalk mediates the release of tRNA from the E site by interacting with deacylated tRNA during translocation [46]. Similar to bS1, uL1 also works as a repressor that regulates the expression of several RPs, including its own [47]. Research on bL33 is limited, but it has been found to contact tRNAs directly in the E site as well [48]. RP uL11 is part of the L7/L12 stalk on the bacterial 50S subunit, where it takes part in the recruitment and stabilization of GTP-binding translation factors and promotes GTP hydrolysis during translation [38, 49]. Protein bL27 is implicated in 50S subunit assembly and contributes to the peptidyl-transferase reaction by positioning the acceptor end of aminoacyl-tRNAs at the peptidyl transferase center [50, 51]. In contrast, the function of bL21 remains obscure. Overall, it has been experimentally demonstrated that viral RPs can replace cellular homologs in host ribosomes [4]. Consequently, PhiMa05 RPs may replace their Microcystis counterparts during infection.
+
+RP S18-alanine N-acetyltransferase (RimI), as its name suggests, acetylates the N-terminal alanine of bS18 [52–54]. Although the function of bS18 is unknown, it is essential for ribosomal function and cell survival [36]. Not surprisingly, the Vc_AZ_1 and Vc_AZ_2 host genomes encode bS18 in their genomes (WP_303673965.1 and HHJJEAIM_01006, respectively). RimI also catalyzes the acetylation of several other proteins [55–57], including the elongation factor Tu (EF-Tu) [58]. EF-Tu, one of the most abundant and crucial bacterial proteins, is responsible for delivering aminoacyl-tRNAs to the ribosome’s aminoacyl site during protein synthesis [59, 60]. In viruses, EF-Tu plays a role in T4 head assembly and is a subunit of the Qβ replicase [61, 62]. EF-Tu protein-coding genes are present in one copy in the Vc_AZ_1 genome (WP_303672637.1) and in two copies in Vc_AZ_2 (HHJJEAIM_00211 and HHJJEAIM_01385).
+
+The GTP-binding protein YsxC is essential for the biogenesis of the ribosome and the survival of the bacterial cell [63–66]. Its mechanism of action as a placeholder for the essential uL2 protein during ribosome assembly has been recently elucidated. During the biogenesis of the large ribosomal subunit, YsxC binds to the location that will be subsequently occupied by uL2, where it contributes to the folding of several rRNA helices forming the uL2 binding site [67]. Following the release of YsxC, uL2 binds to the site previously occupied by its placeholder, after which the remaining rRNA helices stabilize the uL2 fold, and the region transitions into its mature conformation [67]. As expected, Vc_AZ_1 and Vc_AZ_2 encode bL2 (WP_303672632.1 and HHJJEAIM_00216, respectively).
+
+As described in section 3.2, the genes coding for uL1, uL11, bL21, bL27, RimI, and YsxC in the PhiMa05-like prophages are the only copies detected in the near-complete Vc_AZ_1 and Vc_AZ_2 host genomes. Given the functions of these RPs and considering that the fraction of potentially missed genes in contig gaps in Vc_AZ_1 and Vc_AZ_2 is minimal [32, 33], we hypothesize that both cellular organisms may depend on the PhiMa05-like prophage for ribosome biogenesis, protein synthesis, and hence life itself. Indeed, there are several instances of organisms that rely on integrated viruses or endogenous viral genes to perform essential functions. One such case is mammalian placentation. The mouse syncytin-A gene of retroviral origin is essential for differentiation of trophoblasts and morphogenesis of syncytiotrophoblasts during the development of the placenta [68]. Without this viral gene, mice embryos die during gestation [68]. As for bacteriophages, the mitochondrial gamma DNA polymerase is probably of phage origin [69]; and almost half of sequenced bacterial genomes contain prophages, many of which encode adaptive traits [70].
+
+Based on the results presented here, we propose the following eco-evolutionary scenario (Fig. 5). First, a potentially temperate ancestor of PhiMa05 horizontally acquired RP-coding genes from a Vampirovibrio-like host. Second, the PhiMa05 ancestor integrated its genome in a V. chlorellavorus Vc_AZ_1/2-like host that probably carried its own cellular set of RP-coding genes. Third, the Vc_AZ_1/2-like host lost the cellular copies of the genes coding for uL1, uL11, bL21, bL27, the ribosome biogenesis, and the RP acetyltransferase proteins (i.e. the viral versions of these genes were selected for over their cellular counterparts). As a result, the only genes for four RPs, a ribosome biogenesis protein, and an RP acetyltransferase encoded in the genomes of V. chlorellavorus Vc_AZ_1 and Vc_AZ_2 are of viral (prophage) origin. Whether these prophages are currently inducible remains unclear and should be experimentally and ecologically investigated in future studies. Over the course of evolution, the PhiMa05 ancestor likely experienced an inter-class host range expansion or shift, leading to the current Microcystis-infecting PhiMa05 containing RP-coding genes. Given that jumbo phages have wider host ranges than smaller phages [71], the close association of Vampirovibrionales with toxic Microcystis blooms [72], and the existence of Microcystis phages with exceedingly broad host ranges [73], such host expansion or shift would indeed be possible from an ecological framework. Overall, our findings provide evidence for the existence of viruses with particularly enriched sets of RP-coding genes and indicate that, in some cases, such viral genes have been transferred to cells, potentially becoming essential for the survival of the host.
+
+Figure 5 Eco-evolutionary model for the causes and consequences of PhiMa05 RP-coding genes. In step 1, an ancestor of PhiMa05 horizontally acquired cellular RP genes from a Vampirovibrio-like host. In step 2, there was a viral genome integration event in which a potentially temperate ancestor of PhiMa05 integrated its genome with viral RP genes into a V. chlorellavorus-like host that probably had its own cellular set of RP genes. In step 3b (the cellular side), certain V. chlorellavorus lost the cellular copies of four RP genes, an RP acetyltransferase, and a ribosome biogenesis protein, resulting in V. chlorellavorus strains with only viral versions of these genes. In step 3a (the viral side), the PhiMa05 ancestor experienced a host range expansion or shift, leading to the modern PhiMa05/Microcystis virocell with viral RP coding and horizontal gene transfer (HGT) potential from the viral world into this new cellular genus. Created in BioRender.
+
+For image description, please refer to the figure legend and surrounding text.
+
+Viruses and cells were redefined in 2008 as capsid- and ribosome-encoding organisms, respectively [1]. Several other approaches to the question have been proposed as well [74, 75], including the classic definition of viruses as obligate intracellular parasites. The virocell concept, positing that the infected cell is the actual organism [76], is another insightful development that provides a framework for studying viruses within systems, information [77], and dynamic kinetic stability theories [78, 79]. Certainly, biological systems are replicators that interact and coevolve (and profoundly affect their surroundings) regardless of their viral or cellular nature [80]. As this is a viral RP study, we frame our discussion within a capsid- and ribosome-encoding definition of biological entities and argue that the discoveries presented here support the continuous nature of virus-host systems.
+
+Supplementary Material
+
+Supplementary_Material_wrag084
+
+Acknowledgments
+
+This study would not have been possible without the continuous support of Dr. Esther Padilla Calderón and Dr. Medardo Meza Olea.
+
+Author contributions
+
+I.M.P. conceived the idea, conducted the bioinformatics pipeline, analyzed the data, and wrote the manuscript. S.A., K.M.M., and J.I.N. provided valuable advice and feedback on the manuscript draft. I.M.P and J.I.N. acquired funding. All authors revised and edited the manuscript.
+
+Conflicts of interest
+
+None declared.
+
+Funding
+
+This work was funded by a Secretaría de Ciencia, Humanidades, Tecnología e Innovación (SECIHTI) Becas de Posgrado para Maestrías y Doctorados en Ciencias y Humanidades en el Extranjero scholarship awarded to I.M.P., and Natural Sciences and Engineering Research Council of Canada (NSERC) grants RGPIN-2022-03350 and DGECR-2022-00329 awarded to J.I.N.
+
+Data availability
+
+The structural models of PhiMa05 proteins and the genome annotation files of V. chlorellavorus Vc_AZ_2 have been deposited in Figshare [81]. The rest of the data is included in the manuscript, supplementary material, or available in public databases. Tables are also provided as spreadsheets in Supplementary Data 1. Accession numbers can be found throughout the text.
+
+
+References
+
+1. Raoult  D, Forterre  P. Redefining viruses: lessons from Mimivirus. Nat Rev Microbiol  2008;6:315–9. 10.1038/nrmicro1858 18311164
+2. Sharon  I, Battchikova  N, Aro  EM., et al.  Comparative metagenomics of microbial traits within oceanic viral communities. ISME J  2011;5:1178–90. 10.1038/ismej.2011.2 21307954 PMC3146289
+3. Roux  S, Krupovic  M, Debroas  D., et al.  Assessment of viral community functional potential from viral metagenomes may be hampered by contamination with cellular sequences. Open Biol  2013;3:130160. 10.1098/rsob.130160 24335607 PMC3877843
+4. Mizuno  C, Guyomar  C, Roux  S., et al.  Numerous cultivated and uncultivated viruses encode ribosomal proteins. Nat Commun  2019;10:752. 10.1038/s41467-019-08672-6 30765709 PMC6375957
+5. Al-Shayeb  B, Sachdeva  R, Chen  LX., et al.  Clades of huge phages from across Earth’s ecosystems. Nature  2020;578:425–31. 10.1038/s41586-020-2007-4 32051592 PMC7162821
+6. Liu  Y, Demina  TA, Roux  S., et al.  Diversity, taxonomy, and evolution of archaeal viruses of the class Caudoviricetes. PLoS Biol  2021;19:e3001442. 10.1371/journal.pbio.3001442 34752450 PMC8651126
+7. Chen  LX, Jaffe  AL, Borges  AL., et al.  Phage-encoded ribosomal protein S21 expression is linked to late-stage phage replication. ISME Commun  2022;2:31. 10.1038/s43705-022-00111-w 37938675 PMC9723584
+8. Thomy  J, Schvarcz  CR, McBeain  KA., et al.  Eukaryotic viruses encode the ribosomal protein eL40. npj Viruses  2024;2:51. 10.1038/s44298-024-00060-2 39464202 PMC11499249
+9. Buscaglia  M, Diallo  M, Davis  W., et al.  Megagenomoviruses with nearly five megabase genomes and ribosomal proteins. Research Square  2025. 10.21203/rs.3.rs-8000643/v1
+10. Abrahão  J, Silva  L, Silva  LS., et al.  Tailed giant Tupanvirus possesses the most complete translational apparatus of the known virosphere. Nat Commun  2018;9:749. 10.1038/s41467-018-03168-1 29487281 PMC5829246
+11. Naknaen  A, Suttinun  O, Surachat  K., et al.  A novel jumbo phage PhiMa05 inhibits harmful Microcystis sp. Front Microbiol  2021;12:660351. 10.3389/fmicb.2021.660351 33959116 PMC8093824
+12. Naknaen  A, Ratsameepakai  W, Suttinun  O., et al.  Microcystis sp. co-producing microcystin and saxitoxin from Songkhla Lake Basin, Thailand. Toxins  2021;13:631. 10.3390/toxins13090631 34564635 PMC8472854
+13. Li  Q, Yang  F, Zhou  CZ. Cyanophages: billions of years of coevolution with cyanobacteria. Ann Rev Microbiol  2025;79:29.1–23. 10.1146/annurev-micro-042924-095145 40911772
+14. Shaalan  H, Cattan-Tsaushu  E, Li  K., et al.  Sequencing the genomes of LPP-1, the first isolated cyanophage, and its relative LPP-2 reveal different integration mechanisms in closely related phages. Harmful Algae  2023;124:102409. 10.1016/j.hal.2023.102409 37164560
+15. Sayers  EW, Beck  J, Bolton  EE., et al.  Database resources of the National Center for biotechnology information in 2025. Nucleic Acids Res  2025;53:D20–9. 10.1093/nar/gkae979 39526373 PMC11701734
+16. Altschul  SF, Gish  W, Miller  W., et al.  Basic local alignment search tool. J Mol Biol  1990;215:403–10. 10.1016/S0022-2836(05)80360-2 2231712
+17. Jones  P, Binns  D, Chang  HY., et al.  InterProScan 5: genome-scale protein function classification. Bioinformatics  2014;30:1236–40. 10.1093/bioinformatics/btu031 24451626 PMC3998142
+18. van Kempen  M, Kim  SS, Tumescheit  C., et al.  Fast and accurate protein structure search with Foldseek. Nat Biotechnol  2024;42:243–6. 10.1038/s41587-023-01773-0 37156916 PMC10869269
+19. Burley  SK, Bhatt  R, Bhikadiya  C., et al.  Updated resources for exploring experimentally-determined PDB structures and computed structure models at the RCSB protein data Bank. Nucleic Acids Res  2025;53:D564–74. 10.1093/nar/gkae1091 39607707 PMC11701563
+20. Kim  RS, Karin  EL, Mirdita  M., et al.  BFVD—a large repository of predicted viral protein structures. Nucleic Acids Res  2025;53:D340–7. 10.1093/nar/gkae1119 39574394 PMC11701548
+21. Meza-Padilla  I, Doxey  AC, Nissimov  JI. Cyanobacteriochrome-like GAF folds in phages revealed via AlphaFold proteomic modelling. CSBJ  2025;27:4089–95. 10.1016/j.csbj.2025.09.020 41035505 PMC12481020
+22. Abramson  J, Adler  J, Dunger  J., et al.  Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature  2024;630:493–500. 10.1038/s41586-024-07487-w 38718835 PMC11168924
+23. Zheng  W, Wuyun  Q, Li  Y., et al.  Deep-learning-based single-domain and multidomain protein structure prediction with D-I-TASSER. Nat Biotechnol 2026;44:641–653. 10.1038/s41587-025-02654-4 PMC13090124 40410405
+24. Meng  EC, Goddard  TD, Pettersen  EF., et al.  UCSF ChimeraX: tools for structure building and analysis. Protein Sci  2023;32:e4792. 10.1002/pro.4792 37774136 PMC10588335
+25. Edgar  RC . Muscle5: high-accuracy alignment ensembles enable unbiased assessments of sequence homology and phylogeny. Nat Commun  2022;13:6968. 10.1038/s41467-022-34630-w 36379955 PMC9664440
+26. Gouy  M, Guindon  S, Gascuel  O. SeaView version 4: a multiplatform graphical user interface for sequence alignment and phylogenetic tree building. Mol Biol Evol  2010;27:221–4. 10.1093/molbev/msp259 19854763
+27. Castresana  J . Selection of conserved blocks from multiple alignments for their use in phylogenetic analysis. Mol Biol Evol  2000;17:540–52. 10.1093/oxfordjournals.molbev.a026334 10742046
+28. Guindon  S, Dufayard  JF, Lefort  V., et al.  New algorithms and methods to estimate maximum-likelihood phylogenies: assessing the performance of PhyML 3.0. Syst Biol  2010;59:307–21. 10.1093/sysbio/syq010 20525638
+29. Le  SQ, Gascuel  O. An improved general amino acid replacement matrix. Mol Biol Evol  2008;25:1307–20. 10.1093/molbev/msn067 18367465
+30. Darling  AE, Mau  B, Perna  NT. progressiveMauve: multiple genome alignment with gene gain, loss and rearrangement. PLoS One  2010;5:e11147. 10.1371/journal.pone.0011147 20593022 PMC2892488
+31. Seemann  T . Prokka: rapid prokaryotic genome annotation. Bioinformatics  2014;30:2068–9. 10.1093/bioinformatics/btu153 24642063
+32. Soo  RM, Woodcroft  BJ, Parks  DH., et al.  Back from the dead; the curious tale of the predatory cyanobacterium Vampirovibrio chlorellavorus. PeerJ  2015;3:e968. 10.7717/peerj.968 26038723 PMC4451040
+33. Hovde  BT, Steichen  SA, Starkenburg  SR., et al.  Vampirovibrio chlorellavorus draft genome sequence, annotation, and preliminary characterization of pathogenicity determinants. Phycol Res  2020;68:23–9. 10.1111/pre.12392
+34. D’Urso  G, Chat  S, Gillet  R., et al.  Structural insights into the binding of bS1 to the ribosome. Nucleic Acids Res  2023;51:3410–9. 10.1093/nar/gkad126 36840711 PMC10123108
+35. Shoji  S, Dambacher  CM, Shajani  Z., et al.  Systematic chromosomal deletion of bacterial ribosomal protein genes. J Mol Biol  2011;413:751–61. 10.1016/j.jmb.2011.09.004 21945294 PMC3694390
+36. Saguy  M, Gillet  R, Skorski  P., et al.  Ribosomal protein S1 influences trans-translation in vitro and in vivo. Nucleic Acids Res  2007;35:2368–76. 10.1093/nar/gkm100 17392345 PMC1874662
+37. Aseev  LV, Boni  IV. Extraribosomal functions of bacterial ribosomal proteins. Mol Biol  2011;45:739–50. 10.1134/S0026893311050025 22393776
+38. Skouv  J, Schnier  J, Rasmussen  MD., et al.  Ribosomal protein S1 of Escherichia coli is the effector for regulation of its own synthesis. J Biol Chem  1990;265:17044–9. 10.1016/S0021-9258(17)44866-6 2120211
+39. Durand  S, Richard  G, Bisaglia  M., et al.  Activation of RegB endoribonuclease by S1 ribosomal protein requires an 11 nt conserved sequence. Nucleic Acids Res  2006;34:6549–60. 10.1093/nar/gkl911 17130171 PMC1702504
+40. Takeshita  D, Yamashita  S, Tomita  K. Molecular insights into replication initiation by Qβ replicase using ribosomal protein S1. Nucleic Acids Res  2014;42:10809–22. 10.1093/nar/gku745 25122749 PMC4176380
+41. Vasilyev  NN, Kutlubaeva  ZS, Ugarov  VI., et al.  Ribosomal protein S1 functions as a termination factor in RNA synthesis by Qβ phage replicase. Nat Commun  2013;4:1781. 10.1038/ncomms2807 23653193
+42. Muniyappa  K, Mythili  E. Phage lambda beta protein, a component of general recombination, is associated with host ribosomal S1 protein. Biochem Mol Biol Int  1993;31:1–11.8260932
+43. Venkatesh  TV, Radding  CM. Ribosomal protein S1 and NusA protein complexed to recombination protein beta of phage lambda. J Bacteriol  1993;175:1844–6. 10.1128/jb.175.6.1844-1846.1993 8449891 PMC203990
+44. Nikolaeva  DD, Gelfand  MS, Garushyants  SK. Simplification of ribosomes in bacteria with tiny genomes. Mol Biol Evol  2021;38:58–66. 10.1093/molbev/msaa184 32681797 PMC7782861
+45. Mohan  S, Noller  HF. Recurring RNA structural motifs underlie the mechanics of L1 stalk movement. Nat Commun  2017;8:14285. 10.1038/ncomms14285 28176782 PMC5309774
+46. Agirrezabala  X, Liao  HY, Schreiner  E., et al.  Structural characterization of mRNA-tRNA translocation intermediates. Proc Natl Acad Sci USA  2012;109:6094–9. 10.1073/pnas.1201288109 22467828 PMC3340995
+47. Tishchenko  SV, Nikonova  EY, Nevskaya  NA., et al.  Interactions of ribosomal protein L1 with ribosomal and messenger RNAs. Mol Biol  2006;40:579–86. 10.1134/S0026893306040108 16913224
+48. Korepanov  AP, Korobeinikova  AV, Shestakov  SA., et al.  Protein L5 is crucial for in vivo assembly of the bacterial 50S ribosomal subunit central protuberance. Nucleic Acids Res  2012;40:9153–9. 10.1093/nar/gks676 22821559 PMC3467071
+49. Helgstrand  M, Mandava  CS, Mulder  FA. The ribosomal stalk binds to translation factors IF2, EF-Tu, EF-G and RF3 via a conserved region of the L12 C-terminal domain. J Mol Biol  2007;365:468–79. 10.1016/j.jmb.2006.10.025 17070545
+50. Maguire  BA, Beniaminov  AD, Ramu  H., et al.  A protein component at the heart of an RNA machine: the importance of protein L27 for the function of the bacterial ribosome. Mol Cell  2005;20:427–35. 10.1016/j.molcel.2005.09.009 16285924
+51. Wower  IK, Wower  J, Zimmermann  RA. Ribosomal protein L27 participates in both 50 S subunit assembly and the peptidyl transferase reaction. J Biol Chem  1998;273:19847–52. 10.1074/jbc.273.31.19847 9677420
+52. Isono  K, Isono  S. Ribosomal protein modification in Escherichia coli: II. Studies of a mutant lacking the N-terminal acetylation of protein S18. Mol Gen Genet  1980;177:645–51. 10.1007/BF00272675 6991870
+53. Vetting  MW, Bareich  DC, Yu  M., et al.  Crystal structure of RimI from Salmonella typhimurium LT2, the GNAT responsible for nα-acetylation of ribosomal protein S18. Protein Sci  2008;17:1781–90. 10.1110/ps.035899.108 18596200 PMC2548364
+54. Yoshikawa  A, Isono  S, Sheback  A., et al.  Cloning and nucleotide sequencing of the genes rimI and rimJ which encode enzymes acetylating ribosomal proteins S18 and S5 of Escherichia coli K12. Mol Gen Genet  1987;209:481–8. 10.1007/BF00331153 2828880
+55. Christensen  DG, Meyer  JG, Baumgartner  JT., et al.  Identification of novel protein lysine acetyltransferases in Escherichia coli. MBio  2018;9:10–1128. 10.1128/mbio.01905-18 PMC6199490 30352934
+56. Lee  K, Back  K. Escherichia coli RimI encodes serotonin N-acetyltransferase activity and its overexpression leads to enhanced growth and melatonin biosynthesis. Biomolecules  2023;13:908. 10.3390/biom13060908 37371488 PMC10296253
+57. Pathak  D, Bhat  AH, Sapehia  V., et al.  Biochemical evidence for relaxed substrate specificity of nα-acetyltransferase (Rv3420c/rimI) of Mycobacterium tuberculosis. Sci Rep  2016;6:28892. 10.1038/srep28892 27353550 PMC4926160
+58. Pletnev  PI, Shulenina  O, Evfratov  S., et al.  Ribosomal protein S18 acetyltransferase RimI is responsible for the acetylation of elongation factor Tu. J Biol Chem  2022;298:101914. 10.1016/j.jbc.2022.101914 35398352 PMC9079301
+59. Weijland  A, Harmark  K, Cool  RH., et al.  Elongation factor Tu: a molecular switch in protein biosynthesis. Mol Microbiol  1992;6:683–8. 10.1111/j.1365-2958.1992.tb01516.x 1573997
+60. Zhan  B, Gao  Y, Gao  W., et al.  Structural insights of the elongation factor EF-Tu complexes in protein translation of Mycobacterium tuberculosis. Commun Biol  2022;5:1052. 10.1038/s42003-022-04019-y 36192483 PMC9529903
+61. Bingham  R, Ekunwe  SI, Falk  S., et al.  The major head protein of bacteriophage T4 binds specifically to elongation factor Tu. J Biol Chem  2000;275:23219–26. 10.1074/jbc.M002546200 10801848
+62. Blumenthal  T, Landers  TA, Weber  K. Bacteriophage Qβ replicase contains the protein biosynthesis elongation factors EF Tu and EF Ts. Proc Natl Acad Sci USA  1972;69:1313–7. 10.1073/pnas.69.5.131 4624757 PMC426689
+63. Chan  KH, Wong  KB. Structure of an essential GTPase, YsxC, from Thermotoga maritima. Acta Crystallogr Sect F Struct Biol Cryst Commun  2011;67:640–6. 10.1107/S1744309111011651 PMC3107132 21636901
+64. Cooper  EL, García-Lara  J, Foster  SJ. YsxC, an essential protein in Staphylococcus aureus crucial for ribosome assembly/stability. BMC Microbiol  2009;9:266. 10.1186/1471-2180-9-266 20021644 PMC2811118
+65. Prágai  Z, Harwood  CR. YsxC, a putative GTP-binding protein essential for growth of Bacillus subtilis 168. J Bacteriol 2000  2000;182:6819–23. 10.1128/jb.182.23.6819-6823.2000 PMC111427 11073929
+66. Wicker-Planquart  C, Foucher  AE, Louwagie  M., et al.  Interactions of an essential Bacillus subtilis GTPase, YsxC, with ribosomes. J Bacteriol  2008;190:681–90. 10.1128/jb.01193-07 17981968 PMC2223697
+67. Seffouh  A, Arpin  D, Basu  K., et al.  YsxC is a placeholder for ribosomal protein uL2 during 50S ribosomal subunit assembly. Nucleic Acids Res  2025;53:gkaf1071. 10.1093/nar/gkaf1071 41148149 PMC12560758
+68. Dupressoir  A, Vernochet  C, Bawa  O., et al.  Syncytin-a knockout mice demonstrate the critical role in placentation of a fusogenic, endogenous retrovirus-derived, envelope gene. Proc Natl Acad Sci USA  2009;106:12127–32. 10.1073/pnas.0902925106 19564597 PMC2715540
+69. Filée  J, Forterre  P, Sen-Lin  T., et al.  Evolution of DNA polymerase families: evidences for multiple gene exchange between cellular and viral proteins. J Mol Evol  2002;54:763–73. 10.1007/s00239-001-0078-x 12029358
+70. Touchon  M, Bernheim  A, Rocha  EP. Genetic and life-history traits associated with the distribution of prophages in bacteria. ISME J  2016;10:2744–54. 10.1038/ismej.2016.47 27015004 PMC5113838
+71. Naknaen  A, Samernate  T, Saeju  P., et al.  Nucleus-forming jumbophage PhiKZ therapeutically outcompetes non-nucleus-forming jumbophage Callisto. iScience  2024;27:109790. 10.1016/j.isci.2024.109790 38726363 PMC11079468
+72. Mankiewicz-Boczek  J, Font-Nájera  A. Temporal and functional interrelationships between bacterioplankton communities and the development of a toxigenic Microcystis bloom in a lowland European reservoir. Sci Rep  2022;12:19332. 10.1038/s41598-022-23671-2 36369518 PMC9652341
+73. Zhang  S, He  X, Cao  L., et al.  A novel wide-range freshwater cyanophage MinS1 infecting the harmful cyanobacterium Microcystis aeruginosa. Viruses  2022;14:433. 10.3390/v14020433 35216026 PMC8876498
+74. Cordingley  MG . Viruses: Agents of Evolutionary Invention. Cambridge: Harvard University Press, 2017.
+75. López-García  P . The place of viruses in biology in light of the metabolism-versus-replication-first debate. Hist Philos Life Sci  2012;34:391–406.23316568
+76. Forterre  P . Manipulation of cellular syntheses and the nature of viruses: the virocell concept. C R Chim  2011;14:392–9. 10.1016/j.crci.2010.06.007
+77. Adami  C . Information-theoretic considerations concerning the origin of life. Orig Life Evol Biosph  2015;45:309–17. 10.1007/s11084-015-9439-0 26062909
+78. Lotka  AJ . Contribution to the theory of periodic reactions. J Phys Chem  1910;14:271–4. 10.1021/j150111a004
+79. Pross  A, Khodorkovsky  V. Extending the concept of kinetic stability: toward a paradigm for life. J Phys Org Chem  2004;17:312–6. 10.1002/poc.729
+80. Koonin  EV, Starokadomskyy  P. Are viruses alive? The replicator paradigm sheds decisive light on an old but misguided question. Stud Hist Phil Biol Biomed Sci  2016;59:125–34. 10.1016/j.shpsc.2016.02.016 PMC5406846 26965225
+81. Meza-Padilla  I, Avrani  S, Müller  KM., et al.  Structural models of PhiMa05 ribosomal proteins and genome annotation files of Vampirovibrio chlorellavorus Vc_AZ_2. Figshare 2025. Dataset.  10.6084/m9.figshare.30359512.v2

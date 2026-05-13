@@ -1,0 +1,20 @@
+Unraveling the Antiviral Efficacy of Surfactants: Deactivation of Nonenveloped Viruses through Synergistic Electrostatic Mechanisms.
+
+Surfactants are widely used in virus disinfection; yet the mechanisms by which they deactivate
+viruses, particularly Nonenveloped viruses (NEVs), are not understood in detail. We examined the
+physicochemical interactions of ionic surfactants with viral capsids, correlated them to the
+residual virus infectivity, and introduced a model that enables prediction of antiviral efficacy
+based on capsid biomolecular characteristics. Using the MS2 bacteriophage as a NEV model, we
+assessed the surfactants' antiviral efficacy across a broad pH range using plaque assays. Neither pH
+changes nor ionic surfactants alone significantly impacted NEVs; however, their combination showed
+strong synergy. Within a 60 s contact time, >105 viral load reduction was achieved using anionic
+surfactants at pH < 5 or cationic surfactants at pH > 10. Dynamic and electrophoretic light
+scattering provided data on surfactant-capsid interactions, which we further explored by molecular
+modeling of the capsid charge distributions across pH ranges using protein sequence data. These
+results informed a selective-permeation model describing how surfactant efficacy depends on
+electrostatic interactions─repulsion, attraction, and permeation─with capsid proteins. The model
+predictions were validated using transmission electron microscopy and were applied to accurately
+predict the pH inactivation thresholds of ΦX174 phage. The results indicate that both cationic and
+anionic surfactants could serve as efficient antiviral agents, if the pH of the system favors
+surfactant penetration through both the inner and outer layers of the capsids. They offer a
+theoretical framework for the rational design of antiviral formulations for NEVs.

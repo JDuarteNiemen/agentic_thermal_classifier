@@ -1,0 +1,19 @@
+Geometric ordering in bacterial communities.
+
+The organization of bacteria has a central role in shaping interactions, dynamics, and composition
+within communities and microbiomes. Bacteria form distinct spatial patterns that have often been
+attributed to microbial processes such as chemotaxis, nutrient transport, and signaling. However,
+common patterns are observed across distinct bacteria and conditions, suggesting that a general
+organizing principle could direct bacterial organization. Here, we find that the organization of
+bacteria is explained by geometric ordering that promotes space-filling efficiency, giving rise to
+geometric patterns known as Voronoi tessellations. We find that the Voronoi Growth Model accurately
+predicts bacterial pattern formation in diverse conditions including in biofilms at the liquid-air
+interface, swimming populations, the zebrafish gut, and conditions that promote swarming. The
+patterns are observed in two and three dimensions, at the cm and mm length scales, across diverse
+species (Vibrio cholerae, Pseudomonas aeruginosa, Escherichia coli), arise solely from the
+principles of Voronoi tessellation, and require no detailed knowledge of microbial processes.
+Entropic considerations show that bacteria provide little or no information about the pattern
+formation, which is determined solely by their initial positions and environmental conditions. These
+findings demonstrate that bacterial communities achieve robust, reproducible organization through a
+universal geometric principle, linking microbial patterning to the broader biological context of
+multicellular organization.

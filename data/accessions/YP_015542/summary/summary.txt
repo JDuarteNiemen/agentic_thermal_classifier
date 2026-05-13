@@ -1,5 +1,5 @@
 Summary file for YP_015542
-Number of papers: 4
+Number of papers: 5
 =============Summaries=============
 
 Paper: 36125762.txt
@@ -8,7 +8,10 @@ Thermal Evidence:
 - The enzyme exhibits intrinsic thermostability.
 
 Environmental Context:
-- The source organism is associated with extreme environments.
+- The source organism is associated with extreme environments (hyperthermophile).
+
+Concise Summary:
+The biocatalytic process relies on an enzyme derived from a hyperthermophilic crenarchaeon, which possesses intrinsic thermostability. The source organism is associated with extreme environments.
 
 
 Paper: PMC6339583.1.txt
@@ -17,21 +20,21 @@ Thermal Evidence:
 - Growth temperature range: Not explicitly stated for all organisms, but 37 °C is used for *M. smegmatis* culture.
 - Survival temperature range: Not explicitly stated.
 - Incubation conditions: 15 min at 70 °C (for radiosynthesis); 60 min at 37 °C (for cell uptake experiments).
-- Environmental source/habitat: Not explicitly stated for all organisms.
-- Thermophilic adaptation: The enzyme used for synthesis is from a thermophilic organism.
+- Environmental source/habitat: Not explicitly stated for the enzyme source, but the enzyme is from a hyperthermophilic archaeon.
+- Thermophilic adaptation: The enzyme used for synthesis is from a hyperthermophilic archaeon.
 - Psychrophilic adaptation: Not mentioned.
-- Mesophilic growth: *M. smegmatis* is cultured at 37 °C, suggesting mesophilic conditions.
+- Mesophilic growth: *M. smegmatis* is cultured at 37 °C.
 - Heat tolerance: The enzyme used for synthesis is thermostable, allowing reactions at 70 °C.
 - Cold tolerance: Not mentioned.
-- Enzymes adapted to temperature: The enzyme used for synthesis is from a thermophilic organism.
+- Enzymes adapted to temperature: The enzyme used for synthesis is thermostable.
 - Membrane adaptations: Not mentioned.
 - Thermal stress responses: Not mentioned.
 
 Environmental Context:
-- Habitat/source: The enzyme source is from a hyperthermophilic archaeon. The bacterial model organism (*M. smegmatis*) is cultured at 37 °C.
+- Habitat/source: The enzyme source is a hyperthermophilic archaeon. *M. smegmatis* is used as a model organism, and the enzyme is derived from *Thermoproteus tenax*.
 
 Concise Summary:
-The study utilized an enzyme sourced from a hyperthermophilic archaeon, which is noted for its thermostability, enabling enzymatic reactions at elevated temperatures (e.g., 70 °C) for rapid radiosynthesis. In contrast, the bacterial model organism (*M. smegmatis*) was cultured and tested under conditions mimicking human physiological temperature (37 °C), suggesting mesophilic growth characteristics for this pathogen model. The enzyme's thermostability is a key feature facilitating the synthetic protocol, while the bacterial uptake assays were conducted at 37 °C. The enzyme source is explicitly classified as thermophilic, whereas the bacterial model is associated with mesophilic culture conditions.
+The study utilized an enzyme derived from a hyperthermophilic archaeon, which is noted for its thermostability, enabling enzymatic reactions at elevated temperatures (e.g., 70 °C) for rapid radiosynthesis. In contrast, the model bacterium used for uptake studies (*M. smegmatis*) was cultured at 37 °C, representing mesophilic conditions. The synthesis protocol successfully adapted the enzyme's thermostability to facilitate the conversion of a radiotracer, while the biological uptake assays were conducted under physiological conditions (37 °C). The enzyme itself is explicitly noted as being adapted to high temperatures.
 
 
 Paper: 30206766.txt
@@ -56,6 +59,22 @@ Environmental Context:
 - Source: Hyperthermophilic archaeon, dwelling in hot springs and water holes.
 
 Concise Summary:
-The enzyme utilized for the chemoenzymatic synthesis method is derived from a hyperthermophilic archaeon, exhibiting thermostability and optimal activity in the 70–90 °C range. The organism is explicitly classified as dwelling in hot springs and water holes.
+The enzyme utilized for the chemoenzymatic synthesis method is derived from a hyperthermophilic archaeon, exhibiting thermostability and optimal activity in the 70–90 °C range. This indicates adaptation to high-temperature environments.
+
+
+Paper: PMC5351780.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 37 °C (for *M. smegmatis* culture).
+- Incubation conditions: 37 °C (for *M. smegmatis* culture).
+- Enzyme adapted to temperature: Thermostable trehalose synthase (TreT) from *Thermoproteus tenax*.
+- Reaction temperature: 70 °C (for TreT synthesis).
+- Enzyme stability: The TreT enzyme was stable when stored at 4 °C for several months.
+
+Environmental Context:
+- The enzyme source (*Thermoproteus tenax*) is from a hyperthermophilic archaeon.
+- The model bacterium (*M. smegmatis*) is cultured at 37 °C.
+
+Concise Summary:
+The study utilizes a thermostable trehalose synthase (TreT) sourced from *Thermoproteus tenax*, which is adapted to high temperatures, enabling enzymatic reactions at 70 °C. The model bacterium used for application, *M. smegmatis*, is cultured under standard mesophilic conditions (37 °C). The enzyme itself demonstrates stability when stored at 4 °C, and the overall protocol is designed to be rapid and efficient across these different temperature regimes.
 
 

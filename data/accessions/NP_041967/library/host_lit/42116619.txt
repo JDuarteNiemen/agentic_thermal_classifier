@@ -1,0 +1,17 @@
+Design, Synthesis, In Vitro, and In Silico Assessment of Fluoroquinolone-Sulfonamide Hybrids as Promising Antibacterial Agents.
+
+A new series of hybrid compounds (1-6) incorporating fluoroquinolone and sulfonamide scaffolds has
+been synthesized, characterized, and evaluated for antibacterial activity. The analogs were
+characterized by FT-IR, 1H and 13C NMR, mass spectrometry, and HPLC. Ciprofloxacin (CPX)-based
+derivatives 5 and 6, bearing 4-nitrobenzenesulfonyl and 3-cyanobenzenesulfonyl moieties,
+demonstrated broad-spectrum activity against E. coli, S. aureus, and S. typhimurium. Compound 5
+showed enhanced activity against S. typhimurium (MIC = 0.5 µg/mL), representing 30-fold improvement
+over CPX, and notable efficacy against E. coli (MIC = 2.0 µg/mL). Compound 6 demonstrated consistent
+potency (MIC = 1.0 µg/mL) across all tested strains, achieving 30-fold improvement against S. aureus
+and 15-fold enhancement against S. typhimurium. Structure-activity relationship (SAR) studies
+revealed that electron-withdrawing groups (EWGs) significantly enhanced potency, while electron-
+donating groups (EDGs) reduced activity. Molecular docking showed enhanced binding affinities toward
+relevant bacterial targets: E. coli (PDB ID: 1T7D), S. aureus (PDB ID: 5TW8), and S. typhimurium
+(PDB ID: 2XF4). ADMET predictions suggested acceptable pharmacokinetic and toxicity profiles. These
+findings establish EWG-substituted arylsulfonyl fluoroquinolones, especially compounds 5 and 6, as
+promising antibacterial candidates for further development.

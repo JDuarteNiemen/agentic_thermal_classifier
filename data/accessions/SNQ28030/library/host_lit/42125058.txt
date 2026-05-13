@@ -1,0 +1,15 @@
+Synthesis of depressin, cryptomeridiol and 4-epi-cryptomeridiol enabled by a terpenoid chiral pool-producing platform.
+
+Depressin (1) is a soft coral-derived diterpenoid containing the typical bicyclo[12.1.0]pentadecane
+casbane skeleton and a C5-keto group. Key strategies for the synthesis of depressin, as well as its
+casbene skeleton reported so far focused on the formation of the challenging 14-membered ring
+system. Cryptomeridiol (2) and 4-epi-cryptomeridiol (3) are two eudesmane-type sesquiterpene diols
+produced by a variety of different plants with broad biological activity. Most of the syntheses
+focused on the transformation of chiral pool substrates into their trans-6/6-fused ring system. We
+herein report the synthesis of compounds 1-3 by taking advantage of an expanded chiral pool
+strategy, in which the terpenoid skeletons including casbene (4) and germacrene A (5) were produced
+by an Escherichia coli-based heterologous host harboring the isopentenol utilization pathway and
+corresponding terpene cyclases. Two allylic oxidations of both C13 and C5 positions of the casbene
+skeleton followed by deoxygenation of C13 hydroxy group allowed the synthesis of compound 1 from 4
+in nine steps. Selective acid-mediated 5,10-transannular cyclization of 5 followed by hydration
+reaction furnished both products 2 and 3 in two steps.

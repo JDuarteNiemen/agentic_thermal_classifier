@@ -1,0 +1,608 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: PLoS One
+Journal ID: PLoS One
+Journal ID: plos
+
+PLOS One
+
+EISSN: 1932-6203
+Publisher: PLOS
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC13048471
+PMID: 41931560
+DOI: 10.1371/journal.pone.0344368
+Article ID: PONE-D-25-63366
+Article version: 1
+Subjects: Research Article, Biology and life sciences, Genetics, DNA, DNA recombination, Homologous Recombination, Biology and life sciences, Biochemistry, Nucleic acids, DNA, DNA recombination, Homologous Recombination, Biology and life sciences, Genetics, DNA, DNA recombination, Biology and life sciences, Biochemistry, Nucleic acids, DNA, DNA recombination, Biology and life sciences, Molecular biology, Molecular biology techniques, DNA construction, Plasmid Construction, Research and analysis methods, Molecular biology techniques, DNA construction, Plasmid Construction, Biology and Life Sciences, Biochemistry, Proteins, Recombinant Proteins, Biology and life sciences, Molecular biology, Molecular biology techniques, Cloning, DNA cloning, Research and analysis methods, Molecular biology techniques, Cloning, DNA cloning, Research and Analysis Methods, Animal Studies, Experimental Organism Systems, Model Organisms, Escherichia Coli, Research and Analysis Methods, Model Organisms, Escherichia Coli, Biology and Life Sciences, Microbiology, Medical Microbiology, Microbial Pathogens, Bacterial Pathogens, Escherichia Coli, Medicine and Health Sciences, Pathology and Laboratory Medicine, Pathogens, Microbial Pathogens, Bacterial Pathogens, Escherichia Coli, Biology and Life Sciences, Organisms, Bacteria, Enterobacteriaceae, Escherichia, Escherichia Coli, Biology and Life Sciences, Organisms, Bacteria, Gut Bacteria, Escherichia, Escherichia Coli, Research and Analysis Methods, Animal Studies, Experimental Organism Systems, Prokaryotic Models, Escherichia Coli, Biology and Life Sciences, Molecular Biology, Molecular Biology Techniques, Artificial Gene Amplification and Extension, Polymerase Chain Reaction, Research and Analysis Methods, Molecular Biology Techniques, Artificial Gene Amplification and Extension, Polymerase Chain Reaction, Biology and Life Sciences, Genetics, DNA, Biology and Life Sciences, Biochemistry, Nucleic Acids, DNA
+
+Enhancement of RecET-mediated in vivo linear DNA assembly by a xonA mutation
+
+Enhancement of RecET-mediated in vivo linear DNA assembly by a xonA mutation
+
+https://orcid.org/0000-0002-4873-3081 Sawitzke James A. Conceptualization Funding acquisition Investigation Methodology Project administration Supervision Writing – original draft Writing – review & editing 1 2 ¤a *
+Costantino Nina Conceptualization Investigation Methodology Writing – review & editing 2 3 ¤a
+Caballero Adriana Castillo Investigation Writing – review & editing 1
+Hutchinson Ellen Investigation Writing – review & editing 2 ¤b
+Barenghi Alessandro Investigation Writing – review & editing 1
+Thomason Lynn C. Conceptualization Methodology Supervision Writing – original draft Writing – review & editing 2 4 ¤c
+Court Donald L. Conceptualization Funding acquisition Methodology Project administration Supervision Writing – review & editing 2 4 ¤a
+1 Genetic & Viral Engineering Facility, Epigenetics and Neurobiology Unit, European Molecular Biology Laboratory, Monterotondo (RM), Italy
+2 Gene Regulation and Chromosome Biology Laboratory, Frederick National Laboratory for Cancer Research, National Cancer Institute, Frederick, Maryland, United States of America
+3 RNA Biology Laboratory, Frederick National Laboratory for Cancer Research, National Cancer Institute, Frederick, Maryland, United States of America
+4 Basic Science Program, Frederick National Laboratory for Cancer Research, Frederick, Maryland, United States of America
+Mienda Bashir Sajo Editor
+Federal University Dutse, NIGERIA
+Competing Interests: No authors have competing interests.
+
+¤a Current address: Frederick, Maryland, United States of America
+
+¤b Current address: Ascension Street Vincent Women and Infants Hospital, Indianapolis, Indiana, United States of America
+
+¤c Current address: Eugene, Oregon, United States of America
+
+* E-mail: jim.sawitzke@gmail.com
+Electronic publication date: 2026 Apr 3
+Publication date: 2026
+Volume: 21
+Issue: 4
+Electronic Location ID: e0344368
+Received 2025 Nov 28; Accepted 2026 Feb 19
+License: This is an open access article, free of all copyright, and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the Creative Commons CC0 public domain dedication.
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+
+Enhancement of RecET-mediated in vivo linear DNA assembly by a xonA mutation. 21 4 3 4 2026 e0344368 e0344368 PLoS One 10.1371/journal.pone.0344368 41931560
+Enhancement of RecET-mediated in vivo linear DNA assembly by a xonA mutation. 21 4 3 4 2026 e0344368 e0344368 PLoS One 10.1371/journal.pone.0344368 41931560
+
+Funding: http://dx.doi.org/10.13039/100013060 European Molecular Biology Laboratory https://orcid.org/0000-0002-4873-3081 Sawitzke James A. Intramural Research Program of the National Institutes of Health Court Donald L. National Cancer Institute, National Institutes of Health HHSN261200800001E Court Donald L. This work was supported, in part, by the Intramural Research Program of the National Institutes of Health, National Cancer Institute, Center for Cancer Research through D.L.C. This project has also been partly funded with federal funds from the National Cancer Institute, National Institutes of Health, under contract no. HHSN261200800001E through D.L.C. Funding was provided by the European Molecular Biology Laboratory (EMBL) to J.A.S.
+
+Figure count: 7
+Table count: 2
+Page count: 15
+Data Availability: All relevant data are within the paper and its Supporting Information files.
+
+Data Availability
+
+All relevant data are within the paper and its Supporting Information files.
+
+==============================
+Assembly of intact, replicating plasmids from linear DNA fragments introduced into bacterial cells, i.e., in vivo cloning, is a facile genetic engineering technology that avoids many of the problems associated with standard in vitro cloning. Here, we report characterization of various parameters of in vivo linear DNA assembly mediated by either the RecET recombination system or the bacteriophage λ Red recombination system. As previously observed, RecET is superior to Red for this reaction when the terminal homology is 50 bases. Deletion of the E. coli xonA gene, encoding Exonuclease I, a 3’ → 5’ single-strand DNA exonuclease, substantially improves the efficiency of in vivo linear DNA assembly for both systems. Deletion of the Exonuclease I function allows robust RecET assembly of six DNA segments to create a functional plasmid. The linear DNAs are joined accurately with very few errors. This activity is at least as efficient and accurate as the NEBuilder® HiFi DNA Assembly in vitro method of assembling fragments. This discovery provides a significant improvement to previously reported in vivo linear DNA assembly technologies and provides a faster, less expensive, one-step method for assembling plasmids from multiple fragments.
+
+Introduction
+
+Recombineering is an in vivo genetic engineering technique that utilizes bacteriophage-derived recombination proteins to introduce precise genetic modifications into bacterial chromosomes or episomes. These proteins are able to utilize short (~50 base) homologies with double-stranded (dsDNA) [1,2] or single-stranded (ssDNA) [3] linear DNA acting as substrates. Such phage recombination systems typically include two proteins that are co-expressed and thus act coordinately [4]. A 5’ → 3’ dsDNA-dependent exonuclease [5] processes linear dsDNA to leave single-strand 3’ overhangs; these overhangs are bound by a single-strand annealing protein (SSAP) [6]. This SSAP-ssDNA complex is annealed to its complementary single-strand target sequence in the bacterial cell. Both proteins are required for recombination of dsDNA [1,2,6,7], while only the SSAP is required for ssDNA recombination [3]. For phage λ, these proteins are known as the Red system: the exonuclease is Red Exo (226aa) [5], and the SSAP, Red Beta (261aa) [6–8]. A second commonly used recombineering system, RecET, is derived from the E. coli cryptic prophage Rac [9]. RecE (866aa) is the 5’ → 3’ dsDNA-dependent exonuclease [10]; however, it is nearly four times the size of λ Exo, with the exonuclease domain in the last ~260aa [10,11]. The function of the large, dispensable RecE N-terminus is unknown. RecT (269aa), like λ Beta, is an SSAP [12]. Phage λ also encodes an inhibitor of the E. coli RecBCD nuclease, the Gam protein [13], which allows preservation of linear dsDNA in the bacterial cell. The Rac prophage does not contain a gam gene, although it has been suggested that an equivalent inhibitory function is encoded within the large recE gene [14]. λ gam has been included in some RecET expression constructs and increases RecET-mediated recombination frequencies in some assays [14,15]. While RecE and RecT play analogous roles to λ Exo and Beta [1,12], and RecET can replace Exo and Beta for λ growth and recombination [12,16], there is little sequence identity between the two systems other than a few key amino acids [17,18]. Further, each protein only functions with its genetic companion [4], i.e., RecE only functions with RecT, and not with Redβ. Thus, while both systems can be used in E. coli for recombineering, they may differ in their mechanistic details.
+
+Homology-dependent in vivo recombination enables the efficient assembly of multiple linear dsDNA fragments into a single DNA molecule, typically a plasmid. [15]. The linear DNAs containing the required homologies are introduced into recombination-proficient cells by transformation [19]. In vivo cloning has been adapted for bioprospecting [15] and complex plasmid constructions. This method allows simultaneous incorporation of several genetic elements, such as promoters, genes, and gene tags. The technique avoids the difficulty of sequentially cloning these individual elements and can provide a simple and inexpensive in vivo alternative to Gibson Assembly [20].
+
+Both the Red and RecET recombination systems can perform this homology-dependent reaction, but the RecET system exhibits superior recombination efficiency compared to the Red system [15]. Linear DNA assembly can also be achieved in JC8679, a strain that expresses RecET [21], or in DH5α [22–24], a commercially available strain commonly used for plasmid propagation and cloning. Nozaki and Niki [23] have studied and optimized linear DNA assembly in DH5α and other E. coli strains, expanding the applicability of in vivo recombination for molecular cloning.
+
+In this paper, we report characterization and optimization of various parameters of the in vivo linear DNA assembly reaction mediated by RecET and λ Red. With both systems, we find that deletion of the E. coli xonA gene, encoding Exonuclease I (ExoI), a 3’ → 5’ ssDNA exonuclease [25], improves the efficiency of this DNA assembly reaction. The RecET system allows robust in vivo assembly of at least six DNA fragments in a single reaction, with very few errors. This discovery is a substantial improvement on in vivo linear DNA assembly as compared to other published systems [15,21–24,26–30], exhibiting similar efficiency and accuracy as the most widely used in vitro method for assembling multiple DNA fragments, Gibson Assembly [20].
+
+Materials and methods
+
+Strains, plasmids, and growth conditions
+
+Bacterial strains are derivatives of E. coli K-12 (Table 1). LB media, both liquid and solid agar plates, were used for growth. Ampicillin was used at 100 μg/ml. To test the antibiotic resistance of recombinant plasmids, AmpR colonies were patched to LB plates containing either kanamycin at 30–50 μg/ml or chloramphenicol at 10 μg/ml. To maintain pSIM26, tetracycline was used at 25 μg/ml in liquid LB medium. To screen for blue colonies indicative of correct lacZ assembly and β-galactosidase activity, X-gal was added to LB solid agar plates at a final concentration of 20 μg/ml.
+
+10.1371/journal.pone.0344368.t001 Table 1 Escherichia coli K-12 strains and plasmids.
+
+Strain name	Relevant genotype	Source	
+HME6	W3110 ΔlacU169 galKTYR145UAG λcI857 Δ(cro-bioA)	[3]	
+JS663	W3110 ΔlacU169 galK490 [λ cI857 (int-cIII<>cat exo bet Δgam) Δ (cro-bioA)]	this study	
+JS677	JS663[pSIM26] TetR (Gam producing plasmid)
+
+	this study	
+JS679	W3110 ΔlacU169 galKTYR145UAG [λ cI857 recE recT Δ(cro-bioA)] [pSIM26] TetR	this study	
+JS726	JS679 recA<>spec	this study	
+JS727	JS677 recA<>spec	this study	
+LT1795	W3110 ΔlacU169 galKTYR145UAG λcI857Δ (cro-bioA) [λ (int-cIII)<>gam recE recT]	[31]	
+NC540	W3110 ΔlacU169 galKTYR145UAG ΔxonA λcI857Δ(cro-bioA)	this study	
+NC553	W3110 ΔlacU169 galKTYR145UAG ΔxonA λcI857 Δ(cro-bioA) (int-cIII)<>gam recE recT	this study	
+SIMD63	W3110 ΔlacU169 galKTYR145UAG λcI857 Δ (cro-bioA) [λ (int-cIII)<>recE recT]	[19]	
+Plasmid name	Relevant genotype	Source	
+pLT59	pUC plasmid bla + kan+	[32]	
+pJS103	pUC plasmid bla + lacZ kan+	this study	
+pSIM26	pSC101 gam + tet+	This study	
+
+Generation of linear fragments
+
+Linear DNA fragments were generated by PCR using Platinum Taq HiFi (Invitrogen) or Q5 High-Fidelity 2x Master mix (NEB) and purified using a QIAquick PCR Purification kit (Qiagen) or NucleoSpin Gel and PCR cleanup kit (Macherey-Nagel). DNA oligonucleotides (oligos) and gBlocks were obtained from IDT (Integrated DNA Technologies). Some oligonucleotides were obtained from Eurofins (Eurofins Genomics). Sequences of DNA oligos are in S2 Table. Fragments contained 50 bp of terminal homology unless otherwise noted. Fragments were generated from linear templates as described in Supplementary information, except for lacZ fragments, which were generated by colony PCR [19]. Purified linear DNAs were introduced individually into the relevant host by electroporation, and ampicillin selection was applied to ensure the absence of intact plasmid template contamination. In fragment assembly experiments, 100 ng of each linear DNA was used unless noted. To prevent arcing during electroporation, in six-fragment assembly assays, equal amounts of individual fragments at 100 ng/μL were mixed, keeping the overall DNA concentration at 100 ng/μL but each fragment at 16.7 ng/μL. Cells were electroporated with 2 μl of this mixture; thus, the final concentration of each fragment was 33 ng/μL for six-fragment assembly experiments.
+
+Expression of recombination functions and electroporation
+
+Cells were induced for the recombination functions and prepared for electroporation as previously described [19]. Following introduction of the DNA by electroporation, cells were outgrown in 1 ml LB for 2 hrs at 32 °C, diluted and plated on solid LB medium to score total viable cells, and on LB + Amp to score AmpR plasmid recombinants. Petri plates were incubated at 32 °C. In some experiments, AmpR colonies were patched to either LB + Kan or LB + Cm to screen for resistance as an indication of assembly accuracy. The frequency of fragment joining was calculated as (AmpR/Viable cells)(1x108); normalized to 1x108 cells, approximating the number of cells that survive electroporation under our experimental conditions.
+
+10.1371/journal.pone.0344368.g001 Fig 1 Assembly of two linear DNAs into intact plasmids by λ Red and RecET systems. A. Expression of λ Red or RecET from the PL operon of a defective λ prophage. At 32 °C, the CI857 repressor protein (green circle) is functional and the red or recET genes are not transcribed. At 42 °C, the CI857 repressor unfolds and no longer binds to the operators allowing transcription of the recombination genes from the PL promoter. B. Two-fragment linear DNA assembly. 50 bp of terminal homology is present in each fragment within the ori (origin of DNA replication) or the kan gene, indicated as the single-strand bases. bla encodes β-lactamase which when expressed results in ampicillin resistance (AmpR) C. Recombinant frequency is expressed as the number of AmpR colonies/108 total colonies for the indicated recombineering systems. Error bars indicate standard deviation (s.d.). Results from independent experiments are indicated by the black dots. Assembly was dependent on supplying both DNA fragments and on expression of the λ Red or RecET functions.
+
+Conditions for comparison of NEBuilder® HiFi DNA Assembly and RecET ∆xonA assembly
+
+We used 30 bp homology arms, within the 20–30 bp range commonly used in NEBuilder® HiFi DNA Assembly, as this length yielded robust assembly efficiency in our system. NEBuilder® HiFi DNA Assembly ideally uses ~0.05 pmol of each fragment (0.03–0.2 pmols for the mix in equal molar ratio). For three fragments, we used 100 ng of each fragment, which works out to: fragment 1 (3395 bp – 0.05 pmol), fragment 2 (1131 bp – 0.14 pmol), and fragment 3 (1688 bp – 0.10 pmol). The identical mix was used for assembly by our system using protocols described herein, or by NEBuilder® HiFi DNA Assembly (NEB catalog #E2621) following the manufacturer’s instructions. For three fragments, the NEBuilder® HiFi DNA Assembly was performed at 50 °C for 15 minutes, and 2 μl of the assembly mix was transformed into NEB5α high-efficiency cells (NEB catalog #C2987H) following the manufacturer’s protocol. For six fragments, NEBuilder® HiFi DNA Assembly recommends ~0.05 pmol of each fragment (0.2–0.5 pmols for the mix in equal molar ratio) but suggests up to 10x higher for short fragments. We maintained that concentration, applying the additional criterion that each DNA fragment was used at no less than 30 ng. Thus, for short fragments, the concentration was higher as follows: fragment 2 (552 bp – 0.09 pmol), fragment 4 (100 bp – 0.5 pmol), fragment 4 (400 bp – 0.12 pmol). When used, 5 pmol of the 100-nucleotide oligo was supplied. All other procedures for six-fragment assembly were the same as for three fragments, except for the NEBuilder® HiFi DNA Assembly reaction incubation time, which was 1 hour at 50 °C following the manufacturer’s recommendation.
+
+Analysis of pBR-lacZ plasmids from transformants
+
+In selection experiments, white (Lac⁻) Ampᴿ colonies were isolated on LB + Amp + X-gal. Single colonies were used to inoculate 5 ml overnight cultures in LB broth containing ampicillin, and plasmid DNA was subsequently purified using a Qiagen Miniprep Kit. Plasmids were digested with PstI, which has a single restriction site in the bla gene, and DNA was analyzed on agarose gels to verify that the recovered plasmids were of the expected size. Some plasmids were further analyzed by sequencing the lacZ gene (S3 Fig).
+
+Results and discussion
+
+In vivo assembly of two linear dsDNAs
+
+We first confirmed published observations [15] using the Red and RecET systems. Initially, strains expressing either the λ Red or RecET functions were compared for their ability to assemble plasmids in vivo from two linear DNAs introduced into cells by electroporation. Recombination functions were expressed from the λ PL promoter in single copy on the bacterial chromosome, under control of the temperature-sensitive CI857 repressor (Fig 1A), and standard recombineering techniques were used [19]. One strain (HME6) contains the phage λ Red system, and another (LT1795) contains the RecET system; both strains express λ gam. λ Red (JS663) and RecET (SIMD63) strains lacking gam were also tested.
+
+In these experiments, two dsDNA fragments were used to generate an intact plasmid (pLT59). Each DNA fragment contained a partial origin of DNA replication (ori) and a partial kanamycin resistance (kan) gene (Fig 1B); neither fragment individually can generate a replicating plasmid. Intact plasmids were selected by resistance to ampicillin (AmpR: encoded by the bla gene, found on one of the fragments). Only precise joining of the two DNAs will generate a functional plasmid ori and a KanR gene. The results are shown in Fig 1C.
+
+As previously reported [15], the RecET system is up to 1000-fold more efficient at in vivo linear DNA assembly than is the λ Red system (Fig 1C, Red vs. RecET). When AmpR colonies were patched to LB agar containing kanamycin, the frequency of KanR was > 95% for all strains tested, indicating accurate joining of the junction within the kan gene by either recombination system. Expression of Gam stimulated λ Red-dependent recombination and plasmid assembly ~10-fold, as expected from previous recombination experiments [33]. Interestingly, the presence or absence of Gam did not significantly alter the frequency of linear DNA assembly by RecET, in agreement with a proposal [14] that the larger RecE protein may contain a Gam-like activity. However, from an abundance of caution, in all other RecET experiments described here, we used the Gam-expressing strains to ensure protection of linear DNA from the RecBCD nuclease, which ordinarily would digest the linear DNA substrates.
+
+Effect of increasing terminal homology length on linear DNA assembly
+
+We observed that extending the length of terminal homology progressively increased the frequency of λ Red-mediated recombination such that with 200 bp of homology, Red-mediated recombination is only about 10-fold lower than that achieved with RecET, and with more than 330 bp of homology, the difference between the two systems is only 5-fold (Fig 2). We also found that the increased recombination frequency observed with longer homologies is not dependent on E. coli recombination systems, since mutation of recA did not affect the frequency. The enhancement of Red recombination for linear DNA assembly seen with longer homologies is consistent with our previous results [31], in which we tested in vivo Red- and RecET-mediated intramolecular circularization of a linear dimer plasmid to form a circular monomeric product. This reaction provided extremely long terminal homologies, with a final circular product of ~4.4 kb and an initial linear substrate of twice that length. This reaction was extremely efficient for both Red and RecET, and the two systems gave similar frequencies for this recombination. The requirement of longer homologies for the Red system and the observed differences in plasmid allele inheritance [31] suggest that the two recombination systems process linear substrates differently.
+
+10.1371/journal.pone.0344368.g002 Fig 2 Assembly of two linear DNAs with various homology lengths into intact plasmids by the λ Red and RecET systems. Recombinant frequency is expressed as the number of AmpR colonies/108 total colonies for the indicated recombineering systems. In all cases, λ Gam protein was supplied from the low-copy tetracycline resistant plasmid pSIM26. Homology lengths are indicated on the x-axis, in one case they were 330 bp in the plasmid origin and 599 bp in the kan gene. In the grey bars, the cells are also mutant for recA. Results from independent experiments are indicated by the black circles. Assembly of pLT59 was dependent on supplying both fragments and on expression of the λ Red or RecET functions. Error bars indicate s.d.
+
+Mutation of Exonuclease I function improves recombinant yield for linear DNA assembly
+
+Processing of blunt linear dsDNA ends by either λ Exo or RecE leaves 3’ ssDNA overhangs. If not bound and protected by Beta or RecT, these single strands could be substrates for bacterial 3’ → 5’ exonucleases. Thus, degradation by a host 3’ → 5’ exonuclease could lower recombination efficiency by removing the DNA substrate. Since ExoI is a major E. coli 3’ → 5’ ssDNA exonuclease [25], we asked whether removing ExoI function by deletion of the xonA gene improves the efficiency of linear DNA assembly. We tested the recombination proficiency of strains expressing either λ Red (NC540) or RecET (NC553) deleted for the xonA gene (ΔxonA). As shown in Fig 3, removal of ExoI activity enhanced recovery of recombinant plasmids nearly ~65-fold for the λ Red system and >70-fold for RecET. AmpR colonies from the strains deleted for xonA were patched to L + Kan; > 97% of the isolates were KanR, thus the loss of ExoI function did not affect the fidelity of DNA fragment assembly.
+
+10.1371/journal.pone.0344368.g003 Fig 3 Removal of Exonuclease I activity improves recombinant yield.
+
+The recombinant yield is expressed as the number of AmpR colonies/108 total colonies for the Red and RecET systems, both with Gam expressed. Results from independent experiments are indicated by the black dots. Error bars indicate s.d. All homology lengths are 50 bp.
+
+We also tested the ability of the RecET strain to assemble three DNA fragments to make the same intact plasmid (pLT59, S1 Fig). As before, the DNA junctions bisected ori and the kan gene. In this case, the bla gene encoding ampicillin resistance was also cleaved so that accurate assembly was necessary not only for plasmid replication, but also for resistance to ampicillin (kanamycin resistance was not scored in these experiments). The three fragments were efficiently assembled by the RecET system, and elimination of the ExoI function increased the assembly frequency by ~20-fold (Fig 3).
+
+Two fragment assembly: Dependence on substrate DNA concentration
+
+Since the RecET system is more efficient than the λ Red system for linear DNA assembly, we examined other aspects of RecET-mediated recombination. To ask whether recombination efficiency changes with substrate DNA concentration, a range of linear DNA concentrations was tested in both the xonA+ and ΔxonA RecET expressing strains (Fig 4). The ΔxonA strain showed robust levels of fragment joining even at the lowest DNA concentration tested, 10 ng per fragment.
+
+10.1371/journal.pone.0344368.g004 Fig 4 Dependence of two-fragment linear DNA assembly on DNA concentration.
+
+The data show number of AmpR recombinants/108 viable cells over a range of DNA concentrations. The concentration of each linear dsDNA is indicated. Results from independent experiments are indicated by the circles. Closed circles (●) indicate RecET ΔxonA (NC553); open circles (○) indicate RecET xonA+(LT1795).
+
+Two fragment assembly: recombination dependence on homology length
+
+We asked whether shorter homology lengths are efficient for fragment joining, using a similar design to assemble two linear DNAs, as shown in Fig 1B. With PCR, we amplified pairs of linear dsDNAs with terminal homologies of various lengths, and tested these fragments in the RecET xonA+ vs. the ΔxonA strain. As shown in Fig 5, 30 bp of terminal homology provides near maximal recombination capability, similar to results seen previously in DH5α [23,24,26]. Our RecET results are similar to those of Fu et al. [15] (see their Supplemental Fig 1), where they observed an increase in recombinant frequency as homology length increased from 50 bp to 120 bp. However, homologies longer than 30–50 bp are not required for efficient fragment assembly in the RecET ΔxonA strain and thus PCR products can be generated using DNA oligos as short as 50 nt in total length (30 nt homology plus 20 nt for priming).
+
+10.1371/journal.pone.0344368.g005 Fig 5 Dependence of two-fragment linear DNA assembly on terminal homology length.
+
+The data show the number of AmpR recombinant plasmids/108 viable cells obtained over a range of homology lengths. Results from independent experiments are indicated by the circles. Closed circles (●) indicate RecET ΔxonA (NC553); open circles (○) indicate RecET xonA+(LT1795).
+
+In vivo linear dsDNA assembly of plasmids from six independent linear dsDNA fragments
+
+To test assembly of six linear dsDNA fragments, we designed a plasmid, pBR-lacZ, with the E. coli lacZ open reading frame replacing the tetracycline resistance gene, tet, of pBR322 (Fig 6A). The three fragments comprising the lacZ gene were either made by PCR or synthesized as gBlocks. The plasmid backbone was contained in three other PCR fragments. After the recombination reaction, cells were plated on LB + Amp + X-gal to screen for blue colonies indicating β-galactosidase activity and thus accurate assembly of the lacZ gene. When six DNA fragments were used to assemble pBR-lacZ in the ΔxonA strain expressing RecET, the recombinant frequency was nearly 4.0x104 per 108 viable cells (Fig 6B), only ~10-fold lower than the frequency of the three fragment reaction in the ΔxonA background (compare to Fig 3). Reducing the DNA concentration of each fragment from 100 ng to 33 ng (Materials and methods) may be responsible for much of this reduction in frequency (Fig 4). When all fragments were generated by PCR, ~ 90% of the AmpR colonies obtained from the ΔxonA strain were blue on LB + Amp + X-gal indicator agar, demonstrating β-galactosidase activity and thus correct assembly of the lacZ+gene. When the three fragments encoding lacZ were synthesized as gBlocks (IDT), 84% of the colonies were blue on LB + Amp + X-gal indicator agar. We isolated a total of 113 plasmids from independent white colonies from either the PCR or PCR/gBlock reactions performed in the ΔxonA background. These plasmids were analyzed by restriction analysis (Materials and Methods); in all but one case, the six fragments had assembled correctly. Forty of the 113 plasmids isolated from white colonies were further examined by sequencing the lacZ gene and flanking region; this analysis revealed that most mistakes arise during PCR or gBlock synthesis rather than occurring at the recombinant junction (S3 Fig). In contrast, for LT1795, the xonA+ strain, increasing the number of linear DNA fragments from three to six caused a ~ 340-fold reduction in frequency, with only ~25% of the colonies blue on X-gal indicator. Restriction analysis of four white colonies from this strain revealed incorrect assembly of the plasmid. Thus, the ΔxonA mutation is essential for accurate assembly of six or more fragments by the RecET system.
+
+10.1371/journal.pone.0344368.g006 Fig 6 Assembly of six linear DNA fragments by RecET.
+
+A. Diagram of six-way plasmid assembly for pBR-lacZ. Terminal homologies present in each fragment within the ori, bla, and lacZ genes are indicated by the single-strand bases. One single-strand base indicates a homology of 50-60 bp whereas two single-strand bases indicate a homology of ~100 bp. Similar results were seen when all homologies were 50 bp (S2 Fig). B. Recombinant frequency obtained for six-way plasmid assembly under xonA+ (LT1795) and ΔxonA (NC553) conditions is expressed as the number of AmpR recombinant plasmids/108 viable cells. All experiments used linear dsDNA generated with PCR except for the results shown with the gray bar, where the three linear DNAs comprising the plasmid backbone were made with PCR and the three comprising the lacZ gene were synthesized as gBlocks. Results from independent experiments are indicated by the black dots. Error bars indicate s.d.
+
+Our results (Fig 6B) show that elimination of the host ExoI nuclease function by deletion of the xonA gene substantially increases the efficiency of linear DNA assembly, allowing at least six fragments to be assembled by the RecET system into a functional plasmid (see S2 Fig for additional data). Using the same rigorous test of assembling six linear dsDNA fragments, we asked whether the removal of other host ssDNA exonucleases impacted plasmid assembly. Removal of either the RecJ or ExoX functions did not increase recombination frequencies in the way that removing ExoI did (S1 Text. Supporting results and discussion.).
+
+How does RecET-mediated ∆xonA fragment assembly compare to other in vivo systems?
+
+Over the years, multiple methods have been developed for in vivo plasmid assembly. These methods have allowed assembly of complex plasmids to be designed and constructed with precision and accuracy. Regulatory elements, gene tags, fusions, and antibiotic resistance genes can all be introduced onto a plasmid backbone in a single round of in vivo cloning. However, as the number of fragments to be assembled increases, cloning efficiency can rapidly decrease [22,23,26–28]. Previous methods of in vivo cloning fall into two categories: either using a phage recombination system or an endogenous recombination activity present in some laboratory bacterial strains, such as DH5α.
+
+Fragment assembly in DH5α has been developed by several groups [22–24,26]. The ability to assemble linear dsDNAs has also been seen in other common laboratory bacterial strains [34]. This method requires a minimum of 10 bp of homology, with 30 bp showing optimal results [26]. Surprisingly, electrocompetent cells do not work well for this system; rather, chemically competent cells are needed [22–24,26]. Comparing assembly efficiencies can be difficult because of the non-uniform presentation of results, but it appears that the best published [22] frequency of assembling 2 fragments reported was ~ 8x104 recombinants for 100 ng of vector. In contrast, our method produced ~ 6x105 assembled plasmids with the same amount of DNA. Once more fragments are assembled, i.e., 6, the difference in frequency is more pronounced. Whereas we generated ~ 2x104 plasmid clones from 100 ng of vector, only 4–10 correct clones were recovered from 6 fragment assembly in DH5α [22], suggesting that in this system, the reaction is approaching the limits of recoverability.
+
+The RecET recombination system, active in JC8679 cells, has been shown to assemble two fragments in vivo at a frequency of as high as ~4x104 for 100 ng of vector [21]. The data of Fu et al. [15] and Baker et al. [28] also show robust results for two and four fragments with the RecET system, but fall off sharply when assembly of five different fragments is attempted. This is consistent with our observations in a RecET xonA+ strain (Figs 1C, 3, 6B).
+
+Recently, combinations of two different exonucleases and three different ligases were expressed both in E. coli and in other bacteria in order to assemble dsDNA fragments. In the best case, using T5 exonuclease and T4 DNA ligase, this phage enzyme-assisted in vivo DNA assembly (PEDA) produced up to 3.5x104 plasmid clones per µg vector DNA when two fragments were joined using 40 bp homologies [30]. This is approximately 1000-fold less than the plasmid clones that we generate if we used 1 µg vector DNA. Based on our results, we hypothesize that deleting the xonA gene in their system would also enhance the recovery of recombinant plasmids.
+
+How does RecET-mediated ∆xonA fragment assembly compare to other fragment assembly methods?
+
+Besides traditional cloning with restriction enzymes and ligase, there are many methods for dsDNA assembly of multiple fragments that include in vitro steps. One of the most widely utilized and best methods for linear DNA assembly is Gibson Assembly [20]. This technique involves processing linear dsDNA fragments with overlapping terminal homologies (20–40 bp) in vitro using purified proteins, including exonuclease, polymerase, and ligase activities, resulting in the fusion of these fragments into a single continuous strand. Subsequently, in a second step, the mixture is transformed into E. coli to isolate plasmid candidates. In Fig 7, we present a direct comparison of the plasmid generation frequency from fragment assembly using NEBuilder® HiFi DNA Assembly (a commercially available Gibson Assembly variant kit) and RecET-mediated ∆xonA fragment assembly, employing identical fragment mixes. The fragments possess 30 bp homology at their ends, and the assembly of either three or six fragments is evaluated. The plasmid, pJS103, encodes the E. coli lacZ gene, along with ampicillin- and kanamycin-resistance genes (see Materials and Methods and S4 Fig). Following the assembly reaction, cells are plated on LB + Amp + X-gal to screen for blue colonies, indicative of β-galactosidase activity and hence accurate assembly of the lacZ gene. Subsequently, these colonies were patched onto LB + Kan to confirm the accurate assembly of the kanamycin-resistance gene (Table 2). Efforts were made to maintain optimal conditions for both reactions (Materials and Methods). Our data reveal that both methods yield similar results for frequencies and accuracy. Upon closer inspection, it is apparent that NEBuilder® HiFi DNA Assembly demonstrates a slight advantage with very small fragments (100 bp), suggesting that RecET-mediated assembly may favor longer fragments. However, our results also illustrate that a synthetic 100 nucleotide oligo can serve as a substrate for RecET-mediated ∆xonA assembly, consistent with previous results for RecET [28]. Both methods are highly accurate (Table 2), yet in the rare cases when a white colony is found, it is more likely that the plasmid is kanamycin-sensitive as well, indicating incorrect plasmid assembly.
+
+10.1371/journal.pone.0344368.t002 Table 2 Accuracy of fragment assembly methods.
+
+Assembly Method	# Fragments
+
+(shortest fragment)	% Blue1	Among the Blue
+
+% KanR2Blue	Among the White
+
+% KanR3	
+RecET ∆xonA	3 (1131)	99.2	99.7	60	
+NEB assembly	3 (1131)	96.7	100	18	
+RecET ∆xonA	6 (400)	95.4	98.8	82.9	
+NEB assembly	6 (400)	99.4	98.7	60	
+RecET ∆xonA	6 (100)	96.0	99.0	74.4	
+NEB assembly	6 (100)	96.9	98.1	68.5	
+RecET ∆xonA	6 (ssOligo)	94.7	98.6	59.0	
+NEB assembly	6 (ssOligo)	96.1	98.6	55.8	
+1 Average % blue colonies from all experiments in Fig 7.
+
+2 Average % kanamycin-resistant colonies among those that were blue from all experiments in Fig 7.
+
+3 Average % kanamycin-resistant colonies among those that were white from all experiments in Fig 7.
+
+10.1371/journal.pone.0344368.g007 Fig 7 Assembly of linear DNA fragments by RecET vs NEB Asembly.
+
+Fragments were used to assemble pJS103 (S4 Fig). Either 3 fragments (first two bars) or six fragments were used to assemble the plasmid. “400 bp”, “100 bp”, and “ssOligo” refers to the size of the smallest fragment of the six. All fragments had 30 bp of homology to their partner fragment. Shaded bars indicate plasmids formed from RecET-mediated ∆xonA assembly, and white bars indicate plasmids formed by NEBuilder® HiFi DNA Assembly (shortened to “NEB assembly” for simplicity) following the manufacturers protocols including transformation to commercial NEB5α cells (Materials and Methods). The recombinant yield is expressed as the number of AmpR colonies/108 total colonies. Results from independent experiments are indicated by the black dots. The error bars indicate s.d.
+
+Other in vitro methods, including SLiCE [35] and ZeBrα [27], utilize Red recombination proteins in vitro, followed by a transformation step into competent E. coli. The levels of assembly, however, were 50- to 100-fold lower than our RecET-mediated ∆xonA fragment assembly with a given number of fragments. Another method, SLIC, uses an exonuclease (T4 polymerase) to process the linear fragments in vitro, leading to ssDNA that can anneal and be transformed to isolate recombinants [36]. Again, the RecET-mediated ∆xonA fragment assembly reported in this work is up to 100-fold more efficient than SLIC. A variation of SLIC, ExoCET cloning, also requires in vitro treatment of the DNA with T4 polymerase. It was developed to increase the frequency of “direct DNA cloning”, i.e., retrieval of a specific region of DNA from a complex genome [37]. This method allows retrieval from a genomic mix at a frequency of up to 1.6x104 (normalized to 100 ng vector). Song et al. [29] showed that, for the direct assembly of multiple fragments (not a complex mix), ExoCET was more effective than Gibson Assembly in producing clones containing all intended fragments. Seven fragments were assembled at a frequency of 1.5x102 (normalized to 100 ng vector); and even 13 fragments could be assembled at a frequency of 7.3x101. Our experiments raise the interesting question as to whether a xonA mutation would enhance the efficiency of the ExoCET reaction.
+
+Conclusions and perspectives
+
+Our data demonstrates that use of a strain expressing RecET and deleted for xonA strain gives high levels of accurate recombination using nanogram quantities of substrate DNA and is likely to be the method of choice for in vivo assembly of more than two fragments simultaneously. The technique does not require special vectors, extract preparation, or in vitro reactions before transformation into competent cells. It compares favorably with NEBuilder® HiFi DNA Assembly both in frequency and accuracy. We have used the RecET ΔxonA strain to make a plasmid pool for a two-hybrid analysis by recombining a linearized vector with a PCR-generated DNA [38]. The high efficiency of our system generates many recombinants for analysis. These recombinant clones can be identified phenotypically, with a colony PCR screen, or by plasmid DNA isolation and restriction analysis (Supplementary Information). Like others [15], we have observed that for RecET the recombining homology need not be exactly at the end of the linear DNA and that terminal non-homologies (from a few bases to >5 kb) will be removed during the recombination process, unlike ExoCET recombination [29] or NEBuilder® HiFi DNA Assembly, which will remove up to 10 bp (NEB website). Although we have not tested assembling more than six DNA fragments into a single plasmid, we predict that it will be possible in the RecET ΔxonA strain. We propose that the ΔxonA mutation allows the 3’ ssDNA ends produced by RecE to persist in the cell, allowing enhanced RecT-dependent annealing of complementary sequences to form accurate recombinant products with high efficiency.
+
+Supporting information
+
+S1 Text Supporting results and discussion.
+
+(PDF)
+
+S1 Fig DNA fragments used for the three-way assembly of pLT59.
+
+Terminal homologies present in each fragment within the ori, bla, and kan genes are indicated by the single-stranded bases. One single-strand base indicates a homology of 50–60 bases. The data are shown in Fig 3 of the main paper.
+
+(PDF)
+
+S2 Fig Additional data for in vivo linear assembly from six linear dsDNA fragments.
+
+A. Six PCR fragments were used to assemble the circular plasmid pLT61. Of the six junctions, one is within the plasmid ori, a second is within the bla gene, and two more are within the chloramphenicol resistance gene, cat. B. Elimination of the host ExoI function (i.e., ΔxonA) increased the frequency of plasmid assembly ~1000 fold. When AmpR colonies from the RecET ΔxonA recombination were scored for CmR, 194/200 colonies were CmR, indicating accurate joining of the linear DNA segments. We anticipate that most of the CmS plasmids arose from PCR mistakes or primer synthesis mistakes, as found for the lacZ gene in other six-way assembly experiments (see Fig 6, main paper).
+
+(PDF)
+
+S3 Fig Sequence analysis of white colonies from the pBR-lacZ assembly reactions.
+
+The black bar with cyan segments represents a portion of the pBR-lacZ plasmid. The homology overlaps between fragments used for assembly are shown in cyan. The 3075 bp lacZ open reading frame (orf) is indicated by the grey arrow. The region from the promoter to the translational stop was sequenced; locations of observed mutations are indicated with vertical lines and a colored circle with a number, indicating the isolate number. If multiple mutations were found in an isolate, they are indicated with the same color and number. We did not find increased numbers of mutations in the overlapping homology region where the single-strand annealing occurs A. PCR products were used for assembly. A total of 20 isolates were sequenced and among these, 68 point mutations and 6 insertion or deletions were found. 9 candidates had mutations in the overlap homologies. B. gBlocks were used for assembly. A total of 20 isolates were sequenced and among these, 17 point mutations and 14 insertion or deletions were found. Only 3 isolates had any mutations in the overlap homologies. The 5 candidates not shown were isolates that had apparent synthesis errors containing small repeats.
+
+(PDF)
+
+S4 Fig DNA fragments used for the six-way assembly of pJS103.
+
+Terminal homologies present in each fragment within the ori, kan, lacZ, and bla genes are indicated by the single-strand bases. One single-strand base indicates a homology of 50 bases. Fragment #4 (indicated with a “4”) is always the smallest fragment and, in different experiments, was 100 bp, 400 bp, or even a 100-base oligo as shown in the data in Figure 7 of the main paper. The length of fragment 5 (within lacZ) varies according to the length of fragment 4; when fragment 4 is longer, fragment 5 is shorter, etc.
+
+(PDF)
+
+S1 Table Escherichia coli K-12 strains and plasmids for supporting information.
+
+(PDF)
+
+S2 Table Oligos used.
+
+(XLSX)
+
+We thank Carolyn Court for careful reading of the manuscript and insightful comments. We also thank M. Spencer, N. Shrader, T. Hartley, and K. Pike from the CRTP Genomics Laboratory at the Frederick National Lab for Sanger sequencing. All images in figures were created in their entirety by the authors as follows: Figs 1A, 1B, 6A, S1, S2A and S4 were created in https://BioRender.com; Figs 1C, 2, 3, 4, 5, 6B, 7, S2B were made with Graphpad Prism; and S3 Fig was generated using Snapgene.
+
+DOI: 10.1371/journal.pone.0344368.r001
+
+Author response to Decision Letter 0
+
+Submission Version: 0
+
+Transfer Alert
+
+This paper was transferred from another journal. As a result, its full editorial history (including decision letters, peer reviews and author responses) may not be present.
+
+28 Nov 2025
+
+DOI: 10.1371/journal.pone.0344368.r002
+
+Decision Letter 0
+
+Mienda Bashir Academic Editor
+Copyright: © 2026 Bashir MiendaBashir Mienda
+Copyright year: 2026
+Copyright holder: Bashir MiendaBashir Mienda
+License: This is an open access article, free of all copyright, and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the Creative Commons CC0 public domain dedication.public domain dedication.
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+
+Submission Version: 0
+
+6 Jan 2026
+
+Dear Dr. Sawitzke,
+
+Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE’s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.
+
+Please submit your revised manuscript by Feb 20 2026 11:59PM. If you will need more time than this to complete your revisions, please reply to this message or contact the journal office at plosone@plos.org . When you're ready to submit your revision, log on to https://www.editorialmanager.com/pone/ and select the 'Submissions Needing Revision' folder to locate your manuscript file.. When you're ready to submit your revision, log on to https://www.editorialmanager.com/pone/ and select the 'Submissions Needing Revision' folder to locate your manuscript file.
+
+A letter that responds to each point raised by the academic editor and reviewer(s). You should upload this letter as a separate file labeled 'Response to Reviewers'.
+
+A marked-up copy of your manuscript that highlights changes made to the original version. You should upload this as a separate file labeled 'Revised Manuscript with Track Changes'.
+
+An unmarked version of your revised paper without tracked changes. You should upload this as a separate file labeled 'Manuscript'.
+
+If applicable, we recommend that you deposit your laboratory protocols in protocols.io to enhance the reproducibility of your results. Protocols.io assigns your protocol its own identifier (DOI) so that it can be cited independently in the future. For instructions see: https://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols . Additionally, PLOS ONE offers an option for publishing peer-reviewed Lab Protocol articles, which describe protocols hosted on protocols.io. Read more information on sharing protocols at . Additionally, PLOS ONE offers an option for publishing peer-reviewed Lab Protocol articles, which describe protocols hosted on protocols.io. Read more information on sharing protocols at https://plos.org/protocols?utm_medium=editorial-email&utm_source=authorletters&utm_campaign=protocols ..
+
+We look forward to receiving your revised manuscript.
+
+Kind regards,
+
+Bashir Sajo Mienda, PhD
+
+Academic Editor
+
+PLOS One
+
+Journal Requirements:
+
+When submitting your revision, we need you to address these additional requirements.
+
+1. Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at
+
+https://journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf and
+
+https://journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf
+
+2. Please note that PLOS One has specific guidelines on code sharing for submissions in which author-generated code underpins the findings in the manuscript. In these cases, we expect all author-generated code to be made available without restrictions upon publication of the work. Please review our guidelines at https://journals.plos.org/plosone/s/materials-and-software-sharing#loc-sharing-code and ensure that your code is shared in a way that follows best practice and facilitates reproducibility and reuse.
+
+3. Thank you for stating in your Funding Statement:
+
+“This work was supported, in part, by the Intramural Research Program of the National Institutes of Health, National Cancer Institute, Center for Cancer Research through DLC. This project has also been partly funded with federal funds from the National Cancer Institute, National Institutes of Health, under contract no. HHSN261200800001E through DLC. Funding was provided by EMBL to J.A.S., A.C.C and A.B.”
+
+Please provide an amended statement that declares *all* the funding or sources of support (whether external or internal to your organization) received during this study, as detailed online in our guide for authors at http://journals.plos.org/plosone/s/submit-now. Please also include the statement “There was no additional external funding received for this study.” in your updated Funding Statement.
+
+Please include your amended Funding Statement within your cover letter. We will change the online submission form on your behalf.
+
+4. Thank you for stating the following financial disclosure:
+
+“This work was supported, in part, by the Intramural Research Program of the National Institutes of Health, National Cancer Institute, Center for Cancer Research through DLC. This project has also been partly funded with federal funds from the National Cancer Institute, National Institutes of Health, under contract no. HHSN261200800001E through DLC. Funding was provided by EMBL to J.A.S., A.C.C and A.B.”
+
+Please state what role the funders took in the study. If the funders had no role, please state: "The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript."
+
+If this statement is not correct you must amend it as needed.
+
+Please include this amended Role of Funder statement in your cover letter; we will change the online submission form on your behalf.
+
+5. Please expand the acronym “EMBL” (as indicated in your financial disclosure) so that it states the name of your funders in full.
+
+This information should be included in your cover letter; we will change the online submission form on your behalf.
+
+6. In the online submission form, you indicated that “The data are contained within the manuscript and/or Supporting information files. Data such as primer sequences are available upon request.”
+
+All PLOS journals now require all data underlying the findings described in their manuscript to be freely available to other researchers, either 1. In a public repository, 2. Within the manuscript itself, or 3. Uploaded as supplementary information.
+
+This policy applies to all data except where public deposition would breach compliance with the protocol approved by your research ethics board. If your data cannot be made publicly available for ethical or legal reasons (e.g., public availability would compromise patient privacy), please explain your reasons on resubmission and your exemption request will be escalated for approval.
+
+7. We note that you have included the phrase “data not shown” in your manuscript. Unfortunately, this does not meet our data sharing requirements. PLOS does not permit references to inaccessible data. We require that authors provide all relevant data within the paper, Supporting Information files, or in an acceptable, public repository. Please add a citation to support this phrase or upload the data that corresponds with these findings to a stable repository (such as Figshare or Dryad) and provide and URLs, DOIs, or accession numbers that may be used to access these data. Or, if the data are not a core part of the research being presented in your study, we ask that you remove the phrase that refers to these data.
+
+8. We notice that your supplementary [figures/tables] are included in the manuscript file. Please remove them and upload them with the file type 'Supporting Information'. Please ensure that each Supporting Information file has a legend listed in the manuscript after the references list.
+
+9. Please update your submission to use the PLOS LaTeX template. The template and more information on our requirements for LaTeX submissions can be found at http://journals.plos.org/plosone/s/latex.
+
+10. If the reviewer comments include a recommendation to cite specific previously published works, please review and evaluate these publications to determine whether they are relevant and should be cited. There is no requirement to cite these works unless the editor has indicated otherwise.
+
+11. Please review your reference list to ensure that it is complete and correct. If you have cited papers that have been retracted, please include the rationale for doing so in the manuscript text, or remove these references and replace them with relevant current references. Any changes to the reference list should be mentioned in the rebuttal letter that accompanies your revised manuscript. If you need to cite a retracted article, indicate the article’s retracted status in the References list and also include a citation and full reference for the retraction notice.
+
+[Note: HTML markup is below. Please do not edit.]
+
+Reviewers' comments:
+
+Reviewer's Responses to Questions
+
+Comments to the Author
+
+1. Is the manuscript technically sound, and do the data support the conclusions?
+
+Reviewer #1: Yes
+
+**********
+
+2. Has the statistical analysis been performed appropriately and rigorously? -->?>
+
+Reviewer #1: Yes
+
+**********
+
+3. Have the authors made all data underlying the findings in their manuscript fully available??>
+
+The PLOS Data policy requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data—e.g. participant privacy or use of data from a third party—those must be specified.-->
+
+Reviewer #1: Yes
+
+**********
+
+4. Is the manuscript presented in an intelligible fashion and written in standard English??>
+
+Reviewer #1: Yes
+
+**********
+
+Reviewer #1: The manuscript by Sawitzke et al entitled “Enhancement of RecET-mediated in vivo linear DNA assembly by a xonA mutation” shows how a deletion of the xonA gene, which encodes a 3’ ssDNA exonuclease from E. coli, greatly stimulates the in vivo cloning capabilities following electroporation of linear DNA fragments into a strain that expresses the RecET phage recombination system. The authors first show what was already known, that the RecET system is more efficient at linear DNA fragment annealing compared to the lambda Red recombination system. They test increasing homology lengths where they show that the higher efficiency of the RecET system is most pronounced as smaller homologies (~50 bp).
+
+Their most significant finding is the deletion of xonA results in higher efficiencies with both systems, with up to a 70-fold increase in the case of RecET acting on 2 or 3 overlapping linear fragments. Significantly, the RecET-xonA system allowed 50 bp homologies to work efficiently, allowing homologies to be added to the primers during PCR-amplification of linear DNA fragment substrates. Also, the RecET-xonA system showed the greatest effect relative to the xonA+ strain, where the recombination efficiency was increased 4 orders of magnitude when six fragments with overlapping homologies were used to assemble the recombinant plasmid. In all cases, they followed correct plasmid assembly by selecting of drug-resistant markers or the presence of blue colonies with annealed fragments due to the presence of the lacZ gene in the recombinant plasmid; the accuracy was generally 90% or greater.
+
+Finally, the authors finally compare their in vivo system to NEB’s Gibson assembly in vitro kit and find the two systems generally compatible, suggesting that use of the RecET-xonA strain would save time without the need to treat the linear fragments with DNA modifying enzymes in vitro.
+
+The manuscript is well written and the figures are clear. The experiments are sound and appropriate controls and statistical analyses are appropriate.
+
+Minor points:
+
+The only difficulty I found was that the Figures were not labelled. In particular, the last figure in manuscript entitled “DNA Fragment Assembly” is not discussed in the text. Should this figure be labelled Figure 7B?
+
+On page 6, the reference to “Figure S3” is not correct. Fig. S3 contains lacZ sequence information from white colonies, not patching colonies on to LB-kan or LB-cam plates. Is there some other Supp Figure that shows the patching results?
+
+**********
+
+what does this mean? ). If published, this will include your full peer review and any attached files.). If published, this will include your full peer review and any attached files.
+
+If you choose “no”, your identity will remain anonymous but your review may still be made public.
+
+Do you want your identity to be public for this peer review? For information about this choice, including consent withdrawal, please see our For information about this choice, including consent withdrawal, please see our Privacy Policy .-->
+
+Reviewer #1: No
+
+**********
+
+[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files.]
+
+To ensure your figures meet our technical requirements, please review our figure guidelines: https://journals.plos.org/plosone/s/figures
+
+You may also use PLOS’s free figure tool, NAAS, to help you prepare publication quality figures: https://journals.plos.org/plosone/s/figures#loc-tools-for-figure-preparation.
+
+NAAS will assess whether your figures meet our technical requirements by comparing each figure against our figure specifications.
+
+DOI: 10.1371/journal.pone.0344368.r003
+
+Author response to Decision Letter 1
+
+Submission Version: 1
+
+28 Jan 2026
+
+January 26, 2026
+
+Dear Dr. Mienda,
+
+Thank you for editing and sending out to review our manuscript entitled “Enhancement of RecET mediated in vivo linear DNA assembly by a xonA mutation”. We appreciate your comments and those of the reviewer and have addressed them as follows.
+
+Editor Comments:
+
+1., 2. We have made every effort to format the manuscript to the PLOS One guidelines.
+
+3., 4. We have corrected our funding statement to say, “This work was supported, in part, by the Intramural Research Program of the National Institutes of Health, National Cancer Institute, Center for Cancer Research through D.L.C. This project has also been partly funded with federal funds from the National Cancer Institute, National Institutes of Health, under contract no. HHSN261200800001E through D.L.C. Funding was also provided by the European Molecular Biology Laboratory to J.A.S., A.C.C and A.B. There was no additional external funding received for this study. The funders had no role in the study design, data collection and analysis, decision to publish, or preparation of the manuscript.”
+
+5. We have spelled out “EMBL” in that statement.
+
+6. We have changed the statement, “Sequences of DNA oligos are available upon request” to “Sequences of DNA oligos are in S2 Table” and added S2 Table with their sequences.
+
+7. On line 206 it used to say, “(data not shown)”. We have removed that phrase and made no further changes. The statement indicates the result as is.
+
+8. Supporting information has been moved to separate files as requested. Also, the legends to the supporting files have been added to the main manuscript after the reference list.
+
+10., 11. References have been checked and are accurate to our knowledge.
+
+Reviewer Comments:
+
+1. Figures: Checked that all references to figures are now correct. On line 143, deleted reference to “S3 Fig” as it indeed was incorrect.
+
+Sincerely,
+
+James A. Sawitzke, Ph.D.
+
+jim.sawitzke@gmail.com
+
+Attachment Submitted filename: Response to reviewers.docx
+
+DOI: 10.1371/journal.pone.0344368.r004
+
+Decision Letter 1
+
+Mienda Bashir Academic Editor
+Copyright: © 2026 Bashir MiendaBashir Mienda
+Copyright year: 2026
+Copyright holder: Bashir MiendaBashir Mienda
+License: This is an open access article, free of all copyright, and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the Creative Commons CC0 public domain dedication.public domain dedication.
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+
+Submission Version: 1
+
+20 Feb 2026
+
+Enhancement of RecET-mediated in vivo linear DNA assembly by a xonA mutation
+
+PONE-D-25-63366R1
+
+Dear Dr. Sawitzke,
+
+We’re pleased to inform you that your manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it meets all outstanding technical requirements.
+
+Within one week, you’ll receive an e-mail detailing the required amendments. When these have been addressed, you’ll receive a formal acceptance letter and your manuscript will be scheduled for publication.
+
+An invoice will be generated when your article is formally accepted. Please note, if your institution has a publishing partnership with PLOS and your article meets the relevant criteria, all or part of your publication costs will be covered. Please make sure your user information is up-to-date by logging into Editorial Manager at Editorial Manager®  and clicking the ‘Update My Information' link at the top of the page. For questions related to billing, please contact  and clicking the ‘Update My Information' link at the top of the page. For questions related to billing, please contact billing support ..
+
+If your institution or institutions have a press office, please notify them about your upcoming paper to help maximize its impact. If they’ll be preparing press materials, please inform our press team as soon as possible -- no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact onepress@plos.org.
+
+Kind regards,
+
+Bashir Sajo Mienda, PhD
+
+Academic Editor
+
+PLOS One
+
+Additional Editor Comments (optional):
+
+Reviewers' comments:
+
+DOI: 10.1371/journal.pone.0344368.r005
+
+Acceptance letter
+
+Mienda Bashir Academic Editor
+Copyright: © 2026 Bashir MiendaBashir Mienda
+Copyright year: 2026
+Copyright holder: Bashir MiendaBashir Mienda
+License: This is an open access article, free of all copyright, and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the Creative Commons CC0 public domain dedication.public domain dedication.
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+
+PONE-D-25-63366R1
+
+PLOS One
+
+Dear Dr. Sawitzke,
+
+I'm pleased to inform you that your manuscript has been deemed suitable for publication in PLOS One. Congratulations! Your manuscript is now being handed over to our production team.
+
+At this stage, our production department will prepare your paper for publication. This includes ensuring the following:
+
+* All references, tables, and figures are properly cited
+
+* All relevant supporting information is included in the manuscript submission,
+
+* There are no issues that prevent the paper from being properly typeset
+
+You will receive further instructions from the production team, including instructions on how to review your proof when it is ready. Please keep in mind that we are working through a large volume of accepted articles, so please give us a few days to review your paper and let you know the next and final steps.
+
+Lastly, if your institution or institutions have a press office, please let them know about your upcoming paper now to help maximize its impact. If they'll be preparing press materials, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact onepress@plos.org.
+
+You will receive an invoice from PLOS for your publication fee after your manuscript has reached the completed accept phase. If you receive an email requesting payment before acceptance or for any other service, this may be a phishing scheme. Learn how to identify phishing emails and protect your accounts at https://explore.plos.org/phishing.
+
+If we can help with anything else, please email us at customercare@plos.org.
+
+Thank you for submitting your work to PLOS ONE and supporting open access.
+
+Kind regards,
+
+PLOS ONE Editorial Office Staff
+
+on behalf of
+
+Dr. Bashir Sajo Mienda
+
+Academic Editor
+
+PLOS One
+
+
+References
+
+1 Zhang Y , Buchholz F , Muyrers JP , Stewart AF . A new logic for DNA engineering using recombination in Escherichia coli. Nat Genet. 1998;20(2):123–8. doi: 10.1038/2417 9771703
+2 Yu D , Ellis HM , Lee EC , Jenkins NA , Copeland NG , Court DL . An efficient recombination system for chromosome engineering in Escherichia coli. Proc Natl Acad Sci U S A. 2000;97(11):5978–83. doi: 10.1073/pnas.100127597 10811905 PMC18544
+3 Ellis HM , Yu D , DiTizio T , Court DL . High efficiency mutagenesis, repair, and engineering of chromosomal DNA using single-stranded oligonucleotides. Proc Natl Acad Sci U S A. 2001;98(12):6742–6. doi: 10.1073/pnas.121164898 11381128 PMC34423
+4 Muyrers JP , Zhang Y , Buchholz F , Stewart AF . RecE/RecT and Redalpha/Redbeta initiate double-stranded break repair by specifically interacting with their respective partners. Genes Dev. 2000;14(15):1971–82. doi: 10.1101/gad.14.15.1971 10921910 PMC316823
+5 Little JW . An exonuclease induced by bacteriophage lambda. II. Nature of the enzymatic reaction. J Biol Chem. 1967;242(4):679–86. 6017737
+6 Muniyappa K , Radding CM . The homologous recombination system of phage lambda. Pairing activities of beta protein. J Biol Chem. 1986;261(16):7472–8. doi: 10.1016/s0021-9258(17)38416-8 2940241
+7 Carter DM , Radding CM . The role of exonuclease and beta protein of phage lambda in genetic recombination. II. Substrate specificity and the mode of action of lambda exonuclease. J Biol Chem. 1971;246(8):2502–12. 4928646
+8 Radding CM , Carter DM . The role of exonuclease and beta protein of phage lambda in genetic recombination. 3. Binding to deoxyribonucleic acid. J Biol Chem. 1971;246(8):2513–8. 5553408
+9 Gillen JR , Willis DK , Clark AJ . Genetic analysis of the RecE pathway of genetic recombination in Escherichia coli K-12. J Bacteriol. 1981;145(1):521–32. doi: 10.1128/jb.145.1.521-532.1981 6257642 PMC217302
+10 Joseph JW , Kolodner R . Exonuclease VIII of Escherichia coli. II. Mechanism of action. J Biol Chem. 1983;258(17):10418–24. doi: 10.1016/s0021-9258(17)44473-5 6309804
+11 Chu CC , Templin A , Clark AJ . Suppression of a frameshift mutation in the recE gene of Escherichia coli K-12 occurs by gene fusion. J Bacteriol. 1989;171(4):2101–9. doi: 10.1128/jb.171.4.2101-2109.1989 2649487 PMC209863
+12 Hall SD , Kane MF , Kolodner RD . Identification and characterization of the Escherichia coli RecT protein, a protein encoded by the recE region that promotes renaturation of homologous single-stranded DNA. J Bacteriol. 1993;175(1):277–87. doi: 10.1128/jb.175.1.277-287.1993 8416902 PMC196123
+13 Murphy KC . Lambda Gam protein inhibits the helicase and chi-stimulated recombination activities of Escherichia coli RecBCD enzyme. J Bacteriol. 1991;173(18):5808–21. doi: 10.1128/jb.173.18.5808-5821.1991 1653221 PMC208314
+14 Reyes O , Jedlicki E , Kusnierz JP . Growth of lambda rev in phage P2 lysogenic hosts. Virology. 1981;112(2):651–61. doi: 10.1016/0042-6822(81)90310-x 6266146
+15 Fu J , Bian X , Hu S , Wang H , Huang F , Seibert PM , et al. Full-length RecE enhances linear-linear homologous recombination and facilitates direct cloning for bioprospecting. Nat Biotechnol. 2012;30(5):440–6. doi: 10.1038/nbt.2183 22544021
+16 Gottesman MM , Gottesman ME , Gottesman S , Gellert M . Characterization of bacteriophage lambda reverse as an Escherichia coli phage carrying a unique set of host-derived recombination functions. J Mol Biol. 1974;88(2):471–87. doi: 10.1016/0022-2836(74)90496-3 4616090
+17 Erler A , Wegmann S , Elie-Caille C , Bradshaw CR , Maresca M , Seidel R , et al. Conformational adaptability of Redbeta during DNA annealing and implications for its structural relationship with Rad52. J Mol Biol. 2009;391(3):586–98. doi: 10.1016/j.jmb.2009.06.030 19527729
+18 Matsubara K , Malay AD , Curtis FA , Sharples GJ , Heddle JG . Structural and functional characterization of the Redβ recombinase from bacteriophage λ. PLoS One. 2013;8(11):e78869. doi: 10.1371/journal.pone.0078869 24244379 PMC3823998
+19 Thomason LC , Sawitzke JA , Li X , Costantino N , Court DL . Recombineering: genetic engineering in bacteria using homologous recombination. Curr Protoc Mol Biol. 2014;106:1.16.1-1.16.39. doi: 10.1002/0471142727.mb0116s106 24733238
+20 Gibson DG , Young L , Chuang R-Y , Venter JC , Hutchison CA 3rd , Smith HO . Enzymatic assembly of DNA molecules up to several hundred kilobases. Nat Methods. 2009;6(5):343–5. doi: 10.1038/nmeth.1318 19363495
+21 Oliner JD , Kinzler KW , Vogelstein B . In vivo cloning of PCR products in E. coli. Nucleic Acids Res. 1993;21(22):5192–7. doi: 10.1093/nar/21.22.5192 8255776 PMC310636
+22 Kostylev M , Otwell AE , Richardson RE , Suzuki Y . Cloning Should Be Simple: Escherichia coli DH5α-Mediated Assembly of Multiple DNA Fragments with Short End Homologies. PLoS One. 2015;10(9):e0137466. doi: 10.1371/journal.pone.0137466 26348330 PMC4562628
+23 Nozaki S , Niki H . Exonuclease III (XthA) Enforces In Vivo DNA Cloning of Escherichia coli To Create Cohesive Ends. J Bacteriol. 2019;201(5):e00660-18. doi: 10.1128/JB.00660-18 30530516 PMC6379578
+24 Bubeck P , Winkler M , Bautsch W . Rapid cloning by homologous recombination in vivo. Nucleic Acids Res. 1993;21(15):3601–2. doi: 10.1093/nar/21.15.3601 8346047 PMC331480
+25 Lehman IR , Nussbaum AL . The deoxyribonucleases of escherichia coli. v. on the specificity of exonuclease i (phosphodiesterase). J Biol Chem. 1964;239:2628–36. 14235546
+26 Jacobus AP , Gross J . Optimal cloning of PCR fragments by homologous recombination in Escherichia coli. PLoS One. 2015;10(3):e0119221. doi: 10.1371/journal.pone.0119221 25774528 PMC4361335
+27 Richter D , Bayer K , Toesko T , Schuster S . ZeBRα a universal, multi-fragment DNA-assembly-system with minimal hands-on time requirement. Sci Rep. 2019;9(1):2980. doi: 10.1038/s41598-019-39768-0 30814590 PMC6393441
+28 Baker O , Gupta A , Obst M , Zhang Y , Anastassiadis K , Fu J , et al. RAC-tagging: Recombineering And Cas9-assisted targeting for protein tagging and conditional analyses. Sci Rep. 2016;6:25529. doi: 10.1038/srep25529 27216209 PMC4877586
+29 Song C , Luan J , Cui Q , Duan Q , Li Z , Gao Y , et al. Enhanced Heterologous Spinosad Production from a 79-kb Synthetic Multioperon Assembly. ACS Synth Biol. 2019;8(1):137–47. doi: 10.1021/acssynbio.8b00402 30590919
+30 Pang Q , Ma S , Han H , Jin X , Liu X , Su T , et al. Phage Enzyme-Assisted Direct In Vivo DNA Assembly in Multiple Microorganisms. ACS Synth Biol. 2022;11(4):1477–87. doi: 10.1021/acssynbio.1c00529 35298132
+31 Thomason LC, Costantino N, Court DL. Examining a DNA Replication Requirement for Bacteriophage λ Red- and Rac Prophage RecET-Promoted Recombination in Escherichia coli. mBio. 2016;7(5).10.1128/mBio.01443-16 PMC5021808 27624131
+32 Thomason LC , Costantino N , Shaw DV , Court DL . Multicopy plasmid modification with phage lambda Red recombineering. Plasmid. 2007;58(2):148–58. doi: 10.1016/j.plasmid.2007.03.001 17434584 PMC2706537
+33 Datta S , Costantino N , Zhou X , Court DL . Identification and analysis of recombineering functions from Gram-negative and Gram-positive bacteria and their phages. Proc Natl Acad Sci U S A. 2008;105(5):1626–31. doi: 10.1073/pnas.0709089105 18230724 PMC2234195
+34 Watson JF , García-Nafría J . In vivo DNA assembly using common laboratory bacteria: A re-emerging tool to simplify molecular cloning. J Biol Chem. 2019;294(42):15271–81. doi: 10.1074/jbc.REV119.009109 31522138 PMC6802500
+35 Zhang Y , Werling U , Edelmann W . SLiCE: a novel bacterial cell extract-based DNA cloning method. Nucleic Acids Res. 2012;40(8):e55. doi: 10.1093/nar/gkr1288 22241772 PMC3333860
+36 Li MZ , Elledge SJ . Harnessing homologous recombination in vitro to generate recombinant DNA via SLIC. Nat Methods. 2007;4(3):251–6. doi: 10.1038/nmeth1010 17293868
+37 Wang H , Li Z , Jia R , Yin J , Li A , Xia L , et al. ExoCET: exonuclease in vitro assembly combined with RecET recombination for highly efficient direct DNA cloning from complex genomes. Nucleic Acids Res. 2018;46(5):2697. doi: 10.1093/nar/gkx1296 29272442 PMC5861451
+38 Thomason LC , Morrill K , Murray G , Court C , Shafer B , Schneider TD , et al. Elements in the λ immunity region regulate phage development: beyond the “Genetic Switch”. Mol Microbiol. 2019;112(6):1798–813. doi: 10.1111/mmi.14394 31545538 PMC8103288

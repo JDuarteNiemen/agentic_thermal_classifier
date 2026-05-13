@@ -9,13 +9,13 @@ mutation, six CarE001C variants containing multiple site mutations were generate
 CarE001CA127D mutant as a template through a multiple site-directed mutagenesis approach. The
 recombinant proteins were successfully expressed in Escherichia coli, purified, and confirmed by
 SDS-PAGE and Western blot analyses. Enzyme kinetics assays revealed that all multiple-site mutants
-exhibited significantly reduced esterase activity toward α-naphthyl acetate compared with the wild
+exhibited significantly reduced esterase activity toward α-naphthyl acetate compared with the wild-
 type CarE001C. In vitro metabolism assays indicated that several of these mutants exhibited improved
 hydrolase activity toward specific insecticides. Among them, three mutants (OP4, OP5, and OP6)
 showed elevated hydrolase activities toward chlorpyrifos, with specific activities ranging from 26.3
-to 38.8 nmol·min-1·mg protein-1. Additionally, two mutants demonstrated increased detoxification
+to 38.8 nmol·min-1·mg protein-1. Additionally, two mutants demonstrated increased detoxification
 capacities for beta-cypermethrin and methomyl, exhibiting specific activities of 13.2 and
-1.7 nmol·min-1·mg protein-1, respectively. Collectively, these results suggest that multiple site
+1.7 nmol·min-1·mg protein-1, respectively. Collectively, these results suggest that multiple site
 mutations can significantly alter the catalytic properties of H. armigera CarE001C, leading to
 qualitative changes in insecticide hydrolase activity. This work provides new insights into the
 adaptive potential of insect esterases in insecticide detoxification, thereby deepening our

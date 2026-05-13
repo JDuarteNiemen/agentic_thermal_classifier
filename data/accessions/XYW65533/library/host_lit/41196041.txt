@@ -1,0 +1,25 @@
+Characterization of five environmental phages infecting Escherichia coli K-12 isolated during a phage biology training course.
+
+Phage collections are essential tools for discovering and dissecting bacterial anti-phage defense
+systems. Here, we report the isolation, characterization, and annotated genome sequences of five
+environmental Escherichia coli-infecting phages, obtained during the 2023 Fundamentals of Basic and
+Applied Phage Biology course at Lund University. The phages were isolated using a motile E. coli
+K-12 BW25113 strain, whose motility is conferred by an IS5 insertion upstream of the flhDC operon,
+the master regulator of flagellar synthesis. The isolated Escherichia phages include Lubas (LuPh1)
+and Lucat (LuPh2) of the genus Tequatrovirus; Lupin (LuPh3) and Lucris (LuPh4) of the genus
+Tequintavirus; and Kompetensportalen (LuPh5) of the genus Chivirus. Transmission electron microscopy
+confirmed myovirus and siphovirus morphologies typical of these genera. Consistent with its
+classification in the flagellotropic Chivirus genus, LuPh5 did not infect a poorly motile BW25113
+strain lacking the IS5 element upstream of flhDC, but did infect the motile laboratory Salmonella
+enterica subsp. enterica serovar Typhimurium strain 12023s. By testing a panel of eight previously
+described anti-phage defense systems, we found that LuPh1 and LuPh2 are inhibited by the toxin-
+antitoxin-chaperone CmdTAC system; LuPh5 is inhibited by both the restriction-modification system
+EcoRI and the abortive infection reverse transcriptase AbiK; and all five phages are sensitive to
+the hybrid artificial CmdTA-HigC system. Collectively, our findings expand the toolkit for probing
+phage-host interactions and underscore the pedagogical value of incorporating phage isolation into
+practical training for emerging researchers.IMPORTANCEBacterial anti-phage defense systems are
+central to microbiology and have applications in biotechnology and medicine. Phage collections are
+key tools for uncovering and studying these systems. By isolating and characterizing five E. coli
+K12-infecting phages, including three newly identified species, this work expands resources for
+probing phage-host interactions. It also shows that hands-on phage isolation in educational settings
+can contribute meaningfully to both training and research.

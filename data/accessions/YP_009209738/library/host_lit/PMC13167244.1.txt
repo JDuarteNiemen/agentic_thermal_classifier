@@ -1,0 +1,127 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: Nagoya J Med Sci
+Journal ID: Nagoya J Med Sci
+
+Nagoya Journal of Medical Science
+
+ISSN: 0027-7622
+EISSN: 2186-3326
+Publisher: Nagoya University School of Medicine/Graduate School of Medicine
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC13167244
+DOI: 10.18999/nagjms.88.1.170
+Article version: 1
+Subjects: Note
+
+Towards building a meaningful clinical training program: a comparison of obstetrics and gynecology undergraduate medical education in Germany and Japan
+
+Yoshihara Masato 1 2
+Roisenwasser Lina 3
+Fehm Tanja N. 3
+Nishigori Hiroshi 2
+Kajiyama Hiroaki 1
+1 Department of Obstetrics and Gynecology, Nagoya University Graduate School of Medicine, Nagoya, Japan
+2 Medical Education Center, Nagoya University Graduate School of Medicine, Nagoya, Japan
+3 Department of Obstetrics and Gynecology, The University Hospital of Düsseldorf, Düsseldorf, Germany
+Corresponding Author: Masato Yoshihara, MD, PhD
+
+Department of Obstetrics and Gynecology, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya 466-8550, Japan
+
+TEL: +81-52-744-2261, E-mail: myoshihara1209@med.nagoya-u.ac.jp
+
+Print publication date: 2026 Feb
+Volume: 88
+Issue: 1
+First page: 170
+Last page: 177
+Received 2025 Jun 13; Accepted 2025 Jul 1
+License: This is an Open Access article distributed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. To view the details of this license, please visit (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+License URL: https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Keywords: education, medical, undergraduate, obstetrics and gynecology
+
+==============================
+ABSTRACT
+
+Recent reforms in Japan’s medical education, particularly the revision of the Model Core Curriculum, have emphasized hands-on clinical training to improve student competencies. Despite growing awareness, implementation varies across institutions, and clinical education remains largely observational with limited procedural experience. In contrast, Germany’s medical education, rooted in practical training since the Meiji period influence, integrates structured clinical experience throughout the undergraduate curriculum, culminating in the sixth-year “Praktisches Jahr”. The present study compares undergraduate clinical training in obstetrics and gynecology (OB-GYN) between Japan and Germany, focusing on the author’s experience at the University Hospital of Düsseldorf and Nagoya University Hospital. The OB-GYN training program at Düsseldorf emphasizes direct patient care, clinical reasoning, and active learning through the Mini-Clinical Evaluation Exercise, problem-based learning, and simulation-based ultrasound practice. Educator involvement is institutionalized, and dual-feedback systems enhance accountability. The Nagoya program focuses on simulations and observations, with structured learning in professionalism, basic procedures, and journal clubs, but lacks consistent feedback mechanisms and opportunities for independent clinical reasoning. Therefore, Japan may enhance its undergraduate clinical education by incorporating Germany’s practical training approaches, including structured inpatient case assignments, bidirectional feedback systems, and the greater integration of clinical decision-making. These insights support curriculum reforms that foster student engagement and professional competence. Future efforts need to align these adaptations with Japan’s unique educational and institutional contexts to ensure sustainable improvements in medical education.
+
+INTRODUCTION
+
+Undergraduate medical education in Japan has shifted towards more practical training since the revision of the model core curriculum. This change allows students to gain hands-on experience, with a specified list of medical procedures that students perform under supervision,1 demonstrating a move towards clinical practices grounded in real-world medical settings. While this system, which promotes practical field-based understanding over mere theoretical knowledge,2 is generally welcomed, it is still in the early phase with limited penetration at the field level. Another issue is the necessity and impact of implementing a practical education system within the framework of Japan’s basic postgraduate clinical training. In the context of Japan’s unique circumstances, there is a need to broadly expand undergraduate medical education; however, the specific programs within each specialty serve as the fundamental units of education, and improving them remains a key challenge.
+
+Under these conditions, understanding the clinical education systems of other countries where practical training is already established may offer valuable insights into advancing medical education in Japan. Japan has a long history of adopting German systems, including in medicine, where German-style education has formed the foundation of Japanese medicine since the Meiji period.3 Unlike Japan, Germany lacks a mandatory postgraduate clinical training system and instead emphasizes rigorous practical training within the undergraduate curriculum.4 This structure places considerable responsibility on undergraduate students to acquire essential knowledge and skills before choosing a specialty directly after graduation.
+
+We aim to compare undergraduate medical education in Germany and Japan, analyzing both similarities and differences. The focus will be on obstetrics and gynecology (OB-GYN) education, presenting the author’s experience at the University Hospital of Düsseldorf during training. By contrasting the clinical education systems of both universities, the author outlines perspectives on how current clinical training at their institution may be improved.
+
+COMPARISON OF UNDERGRADUATE MEDICAL EDUCATION IN JAPAN AND GERMANY
+
+Medical education in Japan is a six-year program: the first three years emphasize basic medical sciences and general education, and the latter three years focus on clinical medicine. With the recent core curriculum revision, clinical experience has become a priority, providing students with more opportunities to interact with patients under physician supervision.1,2 However, the quality and content of clinical training vary across universities, and the implementation of effective hands-on clinical training remains a challenge. In medical universities in Japan, clinical practice primarily involves observations, with limited opportunities for students to perform medical procedures. Training generally focuses on supportive tasks, and reforms are underway to extend clinical training hours and standardize evaluation systems. Clinical training assessments largely rely on student initiative and supervisor subjectivity, leading to a lack of standardized evaluation methods. Curriculum standardization and systemic evaluation improvements are needed to address these issues.
+
+German medical schools offer a six-year program divided into three phases.4 Figure 1A shows the whole curriculum of The Medical Faculty at Heinrich Heine University Düsseldorf.5 Phase 1 (Years 1–2) focuses on preclinical studies, covering the human body’s structure and function, disease mechanisms, anatomy, pathology, pharmacology, microbiology, immunology, and ethics. Phase 2 (Years 3–5) comprises clinical studies where students train in major specialties, such as internal medicine, surgery, OB-GYN, and pediatrics, emphasizing hands-on experience in clinical settings. Under supervision, students participate in patient examinations and treatment planning and develop essential diagnostic skills. This phase prioritizes clinical reasoning, fostering an understanding of patient care within the healthcare team. The third phase, or “Praktisches Jahr” (Practical Year) as a clinical internship, occurs in the sixth year. During this intensive one-year internship, students undergo rotations in internal medicine, surgery, and an elective specialty, spending four months in each. They perform medical tasks, such as patient examinations, treatment planning, record-keeping, and participating in surgical assistance. Since Germany has no formal postgraduate clinical training system, this practical year plays a crucial role in building the skills needed for immediate entry into the medical workforce. Students often study abroad and receive financial support during this year, which serves as both economic assistance and motivation.
+
+Fig. 1 Curriculum structures in both universities
+
+Fig. 1A: The medical faculty at Heinrich Heine University Düsseldorf
+
+Fig. 1B: Nagoya University School of Medicine
+
+Figure 1B shows the curriculum structure at Nagoya University, which is divided into four phases. Phase 1 (Years 1) primarily covers general education subjects, alongside introductory medical courses. In phase 2 (Years 2–3), students begin basic medical courses, such as anatomy and physiology, moving to courses including pathology and pharmacology in the third year, and undertake a six-month assignment in a basic science research lab. Clinical subjects begin in phase 3 (Years 4) along with clinical problem-based learning (PBL) and skills training. Following 1st board exams, computer-based testing, and objective structured clinical examinations, students start clinical training in the remainder of the fourth year, which continues until the first semester of the sixth year, phase 4 (Years 5–6), ending with a graduation exam and the national board medical licensing exam.
+
+OB-GYN CLINICAL TRAINING AT THE UNIVERSITY HOSPITAL OF DÜSSELDORF
+
+The OB-GYN undergraduate clinical training at the University Hospital of Düsseldorf is a one-week program conducted in the OB-GYN ward under the supervision of residents and staff physicians. Teaching time is included in the staff’s working hours, allowing educators to focus exclusively on student training without other duties.
+
+An example of the program schedule is shown in Figure 2A. Rotations consist of six students per group, with multiple groups participating simultaneously. On the first day, after orientation, each student is assigned an inpatient as their primary case, visiting their patient’s room to conduct a medical history interview, guided by a pre-distributed form that helps students understand OB-GYN-specific history-taking methods. After history-taking, the instructor assigns a clinical question regarding the patient’s treatment, which students research for the following day’s open-book exam. Examples include indications for radiation therapy in endometrial cancer and molecular classifications in targeted therapy. The program incorporates elements of PBL, with a focus on evidence-based medicine to help students understand its applications in OB-GYN. On the second day, students assist in a pre-assigned surgery as second or third assistants for approximately two hours. They then present their researched findings in an open-book exam, receiving immediate feedback from their instructors. The Mini-Clinical Evaluation Exercise (Mini-CEX), a structured real-time assessment tool used in medical education to evaluate a student’s or trainee’s clinical skills in a direct patient-care setting, is also conducted. In this session, students practice and are evaluated on skills such as breast palpation, with instructors overseeing the procedure. The afternoon includes drafting a referral letter summarizing the assigned patient’s case, which is later reviewed by the instructor. On the fourth day, simulation training involves ultrasound simulators for breast, fetal (transabdominal), and pelvic assessments (transvaginal), where students learn basic measurement techniques and background knowledge. These hands-on tasks cover advanced skills, including a fetal weight estimation and ovarian tumor evaluation, offering highly practical learning experiences. At the end of the day, students submit their completed referral letters to their instructors for feedback. On the fifth day, instructors provide direct feedback on the referral letters, and a summary of the week is given to conclude clinical training.
+
+Fig. 2 Undergraduate clinical training program of obstetrics and gynecology in both universities
+
+Fig. 2A: The University Hospital of Düsseldorf
+
+Fig. 2B: Nagoya University School of Medicine
+
+Mini-CEX: Mini-Clinical Evaluation Exercise
+
+PBL: problem-based learning
+
+A key feature of this program is its strong focus on practical experience. Instructors and students evaluate each other, with this feedback affecting the instructors’ evaluations, thereby reinforcing the quality of education. OB-GYN training also integrates “vertical education”, allowing students to learn alongside related specialties, such as pediatrics. In addition, clinical instructors range from senior physicians to residents, with teaching responsibilities assigned on a weekly rotation rather than by dedicated personnel. The instructional content is standardized and the responsibilities are clearly outlined. Instructor training is implemented through a hierarchical “cascade” system, allowing for the gradual transfer of teaching responsibilities and skills across generations.
+
+OB-GYN CLINICAL TRAINING AT NAGOYA UNIVERSITY
+
+At Nagoya University, the OB-GYN undergraduate training program includes two weeks of in-house training and one week at an affiliated hospital. The affiliated hospital rotation primarily involves observations of real-world practice. A program schedule example is shown in Figure 2B. Groups of six or seven students rotate individually. Training is scheduled during regular clinical hours and is often adjusted for emergencies.
+
+On the first day, students attend a journal club and an orientation where they receive a paper for presentation. This orientation is followed by a mock written exam, which is based on past board exam questions, to gauge current knowledge levels. The second day involves simulator-based delivery and suturing training. In delivery training, students practice the Bishop score assessment and rotation on simulators. Suturing practice includes suturing and knot-tying with artificial skin. The third day focuses on professionalism training using educational films to discuss ethics and values in medicine. The afternoon covers a laparoscopic simulation, introducing students to minimally invasive surgery. On the fourth day, the professor conducts a lecture on OB-GYN, followed by patient consultation shadowing to observe professionalism in action. In the afternoon, students conduct a transabdominal fetal ultrasound simulation. On the fifth day, students conduct an initial patient interview to learn patient history-taking basics. In the second week, students participate in journal club presentations and select cases for surgery assistance. Each student assists in at least one surgery. A PBL session is also held, covering reproductive oncology and other aspects of OB-GYN, examining biopsychosocial issues to teach the distinction between medical and healthcare perspectives.
+
+The program is designed to provide experiential learning primarily through simulations. However, the evaluation system lacks structure and the impact on grading is limited. While this training balances active learning with clinical and surgical experience, the lack of instructor feedback poses a motivational challenge. Regarding education for instructors, each clinical instructor is assigned specific teaching tasks throughout the year and is responsible for setting both the learning objectives and instructional content for the clinical practicum. In contrast, instructor development is promoted through faculty development initiatives organized at the faculty level, with the aim of enhancing the overall teaching competence of clinical educators.
+
+DISCUSSION AND FUTURE PERSPECTIVES
+
+This comparison of undergraduate medical education between Japan and Germany reveals valuable lessons for both countries. Japan may improve student clinical competencies by adopting Germany’s practical approach, particularly in clinical training, where Germany’s Praktisches Jahr provides skills equivalent to Japan’s postgraduate clinical training. The establishment of standardized evaluation criteria and consistent training quality, as in Germany, may enhance Japan’s educational outcomes. Conversely, Germany may consider the benefits of Japan’s staged education model to manage student workload.
+
+Alternatively, expanding on the comparison between Japanese and German undergraduate medical education, several actionable insights may be drawn to enhance Japan’s clinical training approach. The implementation of elements of Germany’s Praktisches Jahr may raise the quality and consistency of practical training while balancing educator workloads. The dual-feedback system in Germany offers a promising model for improving educational outcomes by fostering accountability and motivation among both students and instructors, and the introduction of data-driven methods to measure its impact on skills acquisition and satisfaction may support ongoing curriculum enhancements.
+
+To improve our undergraduate clinical training program, efforts will be made to incorporate the strengths of Düsseldorf University’s training approach. In the current curriculum at Nagoya University, particularly in the second week of surgical training, students are assigned specific cases for hands-on assistance; however, observing other surgeries is optional, and unstructured time is not as effectively utilized as in the first week. While the first week provides an overview of clinical OB-GYN and introduces professionalism in patient interactions, the second week may benefit from the integration of clinical reasoning exercises similar to those practiced at Düsseldorf University. Specifically, each student would be assigned an inpatient as their primary case for two weeks, working as the attending physician under supervision. During daily rounds, students would assess patient symptoms through an OB-GYN-focused interview, developing a treatment plan and reviewing relevant guideline recommendations. They would also summarize supporting clinical evidence from one reference to support their treatment approach. Additionally, drawing on the interdisciplinary concepts in OB-GYN examined in PBL, students would consider potential barriers to fertility preservation if the patient were younger, submitting their findings along with one supporting reference. To boost motivation and provide examples, an archive of similar reports created by previous students would be made accessible. Furthermore, in simulation-based training, a bidirectional feedback system would be implemented. Specifically, an evaluation form for each simulation activity would enable rapid feedback where instructors evaluate students and students evaluate instructors. Student evaluations would focus on whether learning objectives were met, while instructor evaluations would assess the appropriateness of guidance provided to achieve these goals. While formative, this evaluation system’s impact on actual grading may be further examined. By tracking the educational effects of this system, we aim to continuously monitor and improve the quality of clinical training.
+
+Future research needs to continue assessing the long-term effects of the incorporation of hands-on training within undergraduate education, using metrics such as clinical competency, educational satisfaction, and postgraduate success. Moreover, thoughtful adaptation is required, accounting for Japan’s unique educational and cultural contexts to address potential barriers, such as teacher and student workload, as well as alignment with Japan’s existing postgraduate training systems. These targeted improvements may set the foundation for a more practice-oriented medical education in Japan, enhancing both immediate and long-term clinical competency among medical graduates.
+
+CONFLICTS OF INTEREST AND SOURCE OF FUNDING
+
+None declared.
+
+ACKNOWLEDGEMENT
+
+We sincerely appreciate all obstetrics and gynecology physicians at the University Hospital of Düsseldorf and Nagoya University Hospital for their invaluable support and collaborations throughout the course of this study.
+
+Abbreviation
+
+OB-GYN obstetrics and gynecology
+
+
+1 Medical Education Model Core Curriculum Expert Research Committee. The Model Core Curriculum for Medical Education in Japan 2022. Accessed June 13, 2025. https://www.mext.go.jp/content/20250411-mxt_igaku-000028108_00003-2.pdf
+2 Nishigori H. Medical education in Japan. Med Teach. 2024;46(sup1):S4-S10. doi:10.1080/0142159X.2024.2372108
+3 Hattori Y, Ishii K, Yanai K, Endoh M. The large part German medicine has played in the development of experimental pharmacology in Japan. Naunyn Schmiedebergs Arch Pharmacol. 2023;396(1):35–42. doi:10.1007/s00210-022-02308-1
+4 Chenot JF. Undergraduate medical education in Germany. Ger Med Sci. 2009;7:Doc02. doi:10.3205/000061
+5 Heinrich Heine Universität Düsseldorf. Medical Faculty. Accessed June 13, 2025. https://www.medizinstudium.hhu.de/en/

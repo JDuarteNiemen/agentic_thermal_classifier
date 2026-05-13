@@ -1,0 +1,81 @@
+Summary file for YP_010108902
+Number of papers: 6
+=============Summaries=============
+
+Paper: PMC13151707.1.txt
+Thermal Evidence:
+- Optimal growth temperature: Not explicitly stated.
+- Growth temperature range: 19 ± 1°C (for 24–48 h incubation).
+- Survival temperature range: Not explicitly stated.
+- Incubation conditions: 19 ± 3°C for 24 h in light, without shaking.
+- Thermophilic adaptation: No evidence.
+- Psychrophilic adaptation: Implied by isolation from subarctic waters and optimal growth at 19°C.
+- Mesophilic growth: Consistent with growth at 19°C.
+- Heat tolerance: Not explicitly mentioned.
+- Cold tolerance: Implied by isolation from subarctic waters.
+- Enzymes adapted to temperature: Not specified.
+- Membrane adaptations: Not specified.
+- Thermal stress responses: Not specified.
+
+Environmental Context:
+- Habitat/Source: Low-iron waters of the subarctic Northeast Pacific Ocean (surface layers).
+- Extreme Environment: Isolated from iron-limited waters, suggesting adaptation to nutrient limitation, but no explicit classification as extreme (e.g., psychrophile/thermophile) is given.
+- Explicit Classification: No explicit thermal classification provided by the authors.
+
+
+Paper: 42093353.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The organism was isolated from activated sludge.
+- No explicit thermal classification was given by the authors.
+
+
+Paper: 42102175.txt
+Thermal Evidence:
+- No specific optimal growth temperature, growth temperature range, or survival temperature range was provided.
+- No mention of incubation conditions related to temperature was provided.
+- No specific adaptations (thermophilic, psychrophilic, mesophilic, heat/cold tolerance) were explicitly stated.
+
+Environmental Context:
+- The organism was isolated from a marine environment.
+- No explicit thermal classification was given by the authors.
+
+
+Paper: 41950535.txt
+Thermal Evidence:
+- No specific temperature data, optimal growth temperature, growth temperature range, survival temperature range, or incubation conditions were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, temperature-adapted enzymes, membrane adaptations, or thermal stress responses.
+
+Environmental Context:
+- The study utilized naturally infested, continuous-cropping soil as the environmental source/habitat.
+
+
+Paper: 41990662.txt
+Thermal Evidence:
+- No specific optimal, growth range, or survival temperature ranges were provided.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or temperature-adapted enzymes/membranes.
+
+Environmental Context:
+- The study was conducted under field conditions in an agroecosystem (soybean cultivation).
+- The source/habitat mentioned is the rhizosphere soil.
+
+Concise Summary:
+The study details an integrated field strategy using a bio-organic fertilizer and seed coating to mitigate atrazine phytotoxicity in soybeans. The treatment involved the synergistic delivery of an atrazine-degrading bacterium. Microbiome analysis showed enrichment of key bacterial genera and increased abundance of the functional gene *trzN*. The findings establish a microbiome-based strategy for sustaining productivity in herbicide-impacted agroecosystems, but provide no explicit data regarding the temperature optima, ranges, or thermal adaptations of the involved microorganisms.
+
+
+Paper: PMC7077304.1.txt
+Thermal Evidence:
+- No specific optimal or growth temperature range was explicitly stated for the phages or bacteria.
+- Incubation conditions for plaque assays were at room temperature (RT).
+- The initial sampling location was the Baltic Sea, and the water was collected at 2 m depth.
+- The study notes that the sampling temperature was $16.2^	ext{o}	ext{C}$, and the induction experiment was conducted at room temperature ($22^	ext{o}	ext{C}$). 
+- The discussion mentions that temperature increases are a known inducing agent for prophages, and the observed induction levels might be related to the temperature difference between the sampling temperature ($16.2^	ext{o}	ext{C}$) and the room temperature ($22^	ext{o}	ext{C}$). 
+- The phages were isolated from an aquatic environment, and the discussion mentions the potential effect of global temperature increases on viral dynamics.
+
+Environmental Context:
+- The organisms were isolated from the Baltic Sea water at 2 m depth. The discussion notes that the phages and hosts are related to other phages/strains isolated from various aquatic environments, including fish cultures and freshwater sources.
+
+

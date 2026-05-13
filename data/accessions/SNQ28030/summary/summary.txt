@@ -1,5 +1,5 @@
 Summary file for SNQ28030
-Number of papers: 5
+Number of papers: 6
 =============Summaries=============
 
 Paper: 41902306.txt
@@ -20,24 +20,36 @@ Thermal Evidence:
 - No specific temperature data, growth ranges, or thermal adaptation mechanisms (thermophilic, psychrophilic, etc.) were reported for any detected pathogens.
 
 Environmental Context:
-- Pathogens were isolated from human respiratory specimens (nasopharyngeal swabs and bronchoalveolar lavage fluid) of critically ill patients with severe pneumonia in an Intensive Care Unit (ICU) setting.
+- Pathogens were isolated from human respiratory specimens (nasopharyngeal swabs and bronchoalveolar lavage fluid) of critically ill patients with severe pneumonia in an ICU setting.
 
 Concise Summary:
-This study focused on the molecular surveillance of drug-resistant bacterial and fungal pathogens in severe ICU pneumonia using targeted next-generation sequencing. The analysis compared results from non-invasive nasopharyngeal swabs (NPS) against the reference standard, bronchoalveolar lavage fluid (BALF). The detected pathogens included common respiratory flora and opportunistic pathogens, such as *Klebsiella pneumoniae*, *Pseudomonas aeruginosa*, *Acinetobacter baumannii*, *Staphylococcus aureus*, and various fungal species (e.g., *Candida* spp., *Aspergillus* spp.). The study provided detailed concordance metrics (PPA, NPA) for these pathogens but contained no information regarding the optimal growth temperature, temperature ranges, or any specific thermal adaptations of the isolated microbes.
+This study focuses on the molecular surveillance and diagnostic concordance of respiratory pathogens (bacterial, viral, and fungal) in critically ill ICU patients. The analysis utilized targeted next-generation sequencing (tNGS) comparing nasopharyngeal swabs (NPS) to bronchoalveolar lavage fluid (BALF). The pathogens detected include common nosocomial bacteria (e.g., *Acinetobacter baumannii*, *Pseudomonas aeruginosa*, *Staphylococcus aureus*), various viruses (e.g., SARS-CoV-2, Influenza), and fungi (e.g., *Candida* species, *Pneumocystis jirovecii*). The study provides high concordance data for bacterial detection in the context of severe pneumonia but notes variable and often low concordance for fungal and viral pathogens. No information regarding the optimal growth temperature, thermal adaptation, or environmental source beyond the human respiratory tract was provided for any of the identified microorganisms.
 
 
 Paper: 42104428.txt
 Thermal Evidence:
 - No specific optimal growth temperature or growth temperature range was provided.
 - No survival temperature range was provided.
-- No explicit incubation conditions related to temperature were provided, other than the optimization of 'cultivation temperature'.
-- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, or specific temperature-adapted enzymes/membranes was made.
+- Incubation conditions optimized included 'cultivation temperature', but the specific value is not stated.
+- No mention of thermophilic adaptation, psychrophilic adaptation, mesophilic growth, heat tolerance, cold tolerance, enzymes adapted to temperature, membrane adaptations, or thermal stress responses.
 
 Environmental Context:
 - No environmental source or habitat was mentioned.
 
 Concise Summary:
-The study focused on metabolic engineering and bioprocess optimization for high-level shikimic acid production in a bacterium. While fermentation conditions were comprehensively optimized, the provided text does not contain specific data regarding the optimal growth temperature, temperature ranges, or thermal adaptations (thermophilic, psychrophilic, etc.) of the organism. The organism's source or habitat was not reported.
+The study focused on metabolic engineering and bioprocess optimization for high-level shikimic acid production in a bacterium. Optimization included adjusting cultivation temperature, but no specific temperature parameters (optimal, range, or survival) were reported. The organism was not stated to be isolated from an extreme environment, and no explicit thermal classification was provided by the authors.
+
+
+Paper: 42125089.txt
+Thermal Evidence:
+- Rapid temperature elevation to 44.3 °C within 4 min upon NIR irradiation.
+- Release of components occurs under physiological conditions.
+
+Environmental Context:
+- Infected wound model (in vivo application).
+
+Concise Summary:
+The system utilizes photothermal triggering via NIR irradiation to rapidly elevate the local temperature to 44.3 °C, causing structural changes in the nanoplatform shell. Antibacterial activity and component release are designed to occur under physiological conditions. No specific information regarding the optimal growth temperature, growth temperature range, survival temperature range, or adaptation of any microbial species was provided. The application context is an infected wound model, not an isolation from an extreme environment.
 
 
 Paper: PMC13143937.1.txt
@@ -50,7 +62,7 @@ Environmental Context:
 - The organisms were isolated from human clinical samples, indicating a typical human-associated commensal or pathogenic niche, but no extreme environmental source was noted.
 
 Concise Summary:
-The study focused on determining tentative epidemiological cutoff values (TECOFFs) for the antibiotic faropenem against five common human pathogens: *E. coli*, *K. pneumoniae*, *S. aureus*, *H. influenzae*, and *S. pneumoniae*. The methodology involved susceptibility testing using clinical isolates collected from four major Chinese hospitals between 2019 and 2021. The analysis was purely microbiological and pharmacological, establishing antibiotic resistance breakpoints (MIC and inhibition zone diameters) for clinical interpretation. No data regarding the thermal physiology, growth temperature, or environmental adaptation of these bacterial species were presented or analyzed.
+The study focused on determining tentative epidemiological cutoff values (TECOFFs) for the antibiotic faropenem against five common human pathogens: *E. coli*, *K. pneumoniae*, *S. aureus*, *H. influenzae*, and *S. pneumoniae*. The methodology involved susceptibility testing using clinical isolates collected from four major Chinese hospitals between 2019 and 2021. The analysis was purely focused on antimicrobial susceptibility profiles (MIC and inhibition zone diameters) and did not include any characterization of the bacteria's thermal physiology, growth temperature requirements, or environmental adaptation to temperature extremes. The organisms were sourced from clinical human infections, suggesting a typical mesophilic, hospital-associated niche.
 
 
 Paper: PMC13144091.1.txt

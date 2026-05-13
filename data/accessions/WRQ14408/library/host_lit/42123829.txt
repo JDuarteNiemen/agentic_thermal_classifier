@@ -1,0 +1,18 @@
+Synthesis, Spectroscopy Characterization and Biological Evaluation of La(III), Eu(III) and Gd(III) Complexes with Ampicillin: In Vitro Antimicrobial, Cytotoxic and Antiproliferative Activities and Theoretical Frameworks.
+
+This study reports the synthesis, characterization, DFT calculations and in vitro antimicrobial,
+cytotoxic and antiproliferative evaluation of La(III), Eu(III), and Gd(III) metal complexes with
+ampicillin. The compounds were characterized by Thermal Gravimetric Analysis (TGA), elemental
+analysis, ultraviolet-visible spectroscopy (UV-Vis), Fourier-transform infrared spectroscopy (FTIR),
+and proton nuclear magnetic resonance (1H NMR), indicating a 2:1 metal-to-ligand ratio with
+ampicillin, and likely, a coordination through carbonyl, carboxylic and β-lactam groups, with the
+general formula [Ln2(L)(Cl)5(H2O)x] (Ln = La(III), Eu (III), Gd (III), and x = 2 for La(III), 5 for
+Eu(III) and Gd(III), L-ampicillin anion). Antimicrobial studies showed activity against ampicillin-
+resistant Staphylococcus aureus (MIC = 15.6 µg·mL-1) but no activity against Escherichia coli. In
+cytotoxicity studies, all complexes inhibited B16-F10 (murine melanoma) proliferation, with GI50
+values around 140 µg·mL-1. Against U251 (glioma) cell line, only [Eu2(L)(Cl)5(H2O)5] exhibited
+cytotoxicity activity, GI50 = 104 µg·mL-1, and notably, [Eu2(L)(Cl)5(H2O)5] was active against MCF7
+(breast carcinoma) with a GI50 = 8.1 µg·mL-1. However, all complexes exhibited high cytotoxicity in
+NIH-3T3 cells (GI50 = 0.030-2.90 µg·mL-1), indicating limited selectivity between normal and cancer
+cells. Nevertheless, except for the La complex, most compounds were less cytotoxic than doxorubicin,
+highlighting the need for further optimization to improve selectivity.

@@ -1,0 +1,18 @@
+Berberine-Loaded Composite Phospholipid Ethosome Hydrogels: A Therapeutic for Mastitis via Regulating the NF-κB and PI3K/Akt Signaling Pathway.
+
+Mastitis is a common disease in dairy cows, mainly caused by Staphylococcus aureus and Escherichia
+coli. Berberine (BBR) has antibacterial and anti-inflammatory potential, but its application is
+limited due to poor oral absorption and difficulty in reaching mammary tissue. To address this, this
+study developed a BBR-loaded composite ethosome hydrogel (BBR-CEH) to achieve targeted mammary
+delivery through local transdermal administration. The experimental results showed that BBR-CEH has
+good chemical stability and biosafety. Subsequently, a mouse mastitis model was established by
+intraductal injection of 50 µL of bacterial mixture (E. coli:S. aureus = 1:1, each at 1 × 107
+CFU/mL). The results showed that after BBR-CEH treatment, the mRNA expression of TNF-α (tumor
+necrosis factor-alpha), IL-6 (interleukin-6), and IL-1β (interleukin-1 beta) was significantly
+decreased, the mRNA expression of ZO-1 (zonula occludens-1), Occludin, and Claudin-4 was
+significantly increased, and Bax/Bcl-2 (Bcl-2-associated X protein/B-cell lymphoma 2) was
+significantly reduced (p < 0.01), indicating alleviation of mastitis by reducing inflammation,
+improving tight junctions, and inhibiting apoptosis. Finally, network pharmacology and in vivo
+experiments confirmed that its mechanism involves the NF-κB (nuclear factor kappa-B) and PI3K/Akt
+(phosphoinositide 3-kinase/protein kinase B) pathways. Thus, topical BBR-CEH may represent a
+promising new strategy for mastitis treatment.

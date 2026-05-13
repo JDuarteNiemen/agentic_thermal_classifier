@@ -34,10 +34,10 @@ Thermal Evidence:
 - The IMC measurements were conducted over a 30-hour period at isothermal conditions.
 
 Environmental Context:
-- The study was conducted in cacao soils from farms in Arauca, Colombia.
+- The study was conducted in cacao soils from farms in the Arauca department, Colombia.
 
 Concise Summary:
-The metabolic activity assessment utilized isothermal microcalorimetry (IMC) under controlled, thermostable conditions at 25°C over a 30-hour period. No specific information regarding optimal, growth, or survival temperature ranges, or adaptations (thermophilic, psychrophilic, etc.), was provided for the bacterial strains studied. The analysis focused on metabolic flux changes in response to cadmium stress rather than temperature-dependent physiological characterization.
+The metabolic activity of the bacteria was assessed using isothermal microcalorimetry (IMC) under controlled, thermostable conditions at 25°C over a 30-hour period. No specific optimal, growth, or survival temperature ranges, or adaptations (thermophilic, psychrophilic, etc.), were reported for the organism. The organism was isolated from cacao farm soils in the Arauca department, Colombia.
 
 
 Paper: PMC13118963.1.txt

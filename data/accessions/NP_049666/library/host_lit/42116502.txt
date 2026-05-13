@@ -1,0 +1,15 @@
+Identification and rational engineering of a novel zearalenone-degrading enzyme from Fonsecaea erecta.
+
+Zearalenone (ZEN) is a secondary metabolite produced by Fusarium species that threatens food safety
+and animal health. In this study, we identified and isolated a novel ZEN-degrading enzyme FeZ12 from
+Fonsecaea erecta through sequence homology alignment, systematic learning models (SoluProt,
+DeepSoluE), and molecular dynamics (MD) simulations. FeZ12 was successfully heterologously expressed
+in Escherichia coli and exhibited optimal activity at 37 °C and pH 7.0. To enhance enzyme activity
+and thermal stability, multiple FeZ12 mutants were constructed based on structure-guided and
+mutation prediction analyses. Single mutants G179R, P127V, and T9V exhibited 2.8-fold, 2.5-fold, and
+2.2-fold higher activities than the wild type, respectively. The triple mutant T9V/P127V/G179R
+exhibited a 3.2-fold activity increase and markedly improved thermal stability, retaining 65% of its
+activity after incubation at 45 °C for 30 min. MD simulations revealed that mutations stabilized the
+FeZ12 structure and optimized the catalytic geometry. This work provides a practical engineering
+route and a thermostable enzyme candidate for ZEN detoxification in food and feed systems, with
+potential for industrial application.

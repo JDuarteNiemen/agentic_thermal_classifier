@@ -312,7 +312,7 @@ METADATA:
 def RELEVANTLITERATUREPROMPT(organism, paper_text):
     return f"""You are an academic librarian
 You are responsible for filtering our irrelevant literature.
-Does paper mention temperature ranges for the organism in question??
+Does paper mention temperature ranges or environmental sources for the organism in question?
 Paper: {paper_text}
 Organism: {organism}
 

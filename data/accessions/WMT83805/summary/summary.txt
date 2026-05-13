@@ -1,5 +1,5 @@
 Summary file for WMT83805
-Number of papers: 5
+Number of papers: 6
 =============Summaries=============
 
 Paper: PMC12810386.1.txt
@@ -8,11 +8,28 @@ Thermal Evidence:
 - No mention of thermophilic, psychrophilic, mesophilic, or cold tolerance adaptations was made.
 
 Environmental Context:
-- The study was conducted in field conditions in topsoil from forest and pasture sites in central Germany. The climate is characterized by warm summers and a mean annual air temperature of about 9.5 °C.
-- The experiment was conducted in late April 2023, coinciding with periods of optimal temperature conditions that precluded the possibility of overnight soil freezing.
+- The study was conducted in topsoil lysimeters installed in forest and pasture sites in central Germany, under natural field conditions with a mean annual air temperature of about 9.5 °C.
+- The experiment involved long-term monitoring (up to 10 months) under natural precipitation events, which implies survival across ambient soil temperature fluctuations.
 
 Concise Summary:
-The study investigated the transport and survival of marine tracer phages in topsoil under field conditions over a long-term period (up to 10 months). The environmental context was a temperate region (central Germany) with a mean annual air temperature of $\approx 9.5^{\circ}\text{C}$. The experiment was conducted during optimal temperature conditions, avoiding freezing. The analysis focused on phage transport dynamics, infectivity loss, and remobilization, rather than thermal adaptation or growth kinetics. No specific thermal adaptation characteristics were reported for the phages or the soil environment.
+The study investigated the transport and survival of marine tracer phages in topsoil under field conditions (forest and pasture) over a period extending up to 10 months. The environmental context is temperate soil, with a mean annual air temperature of approximately 9.5 °C. The analysis focused on phage transport dynamics, infectivity loss, and remobilization, rather than thermal physiology. No specific data regarding optimal growth temperature, survival temperature range, or thermal adaptations (thermophilic, psychrophilic, etc.) were reported for the phages or the associated microbial community.
+
+
+Paper: PMC10612066.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 20–30 °C.
+- Growth temperature range: 1–40 °C.
+- Survival temperature range: Plaque formation observed across the entire tested range (1–40 °C), including at 1 and 3 °C.
+- Incubation conditions: Tested at 1, 3, and 5–40 °C (in increments of 5 °C) for 1 week under aerobic conditions.
+- Cold tolerance: Characterized as cold-active phages, exhibiting successful propagation at 1 °C.
+- Thermal adaptation classification: Considered psychrotolerant bacteria.
+
+Environmental Context:
+- Habitat/Source: Sediment core samples from the continental shelf in the western Arctic Ocean.
+- Extreme Environment Isolation: Yes, isolated from Arctic sediment.
+
+Concise Summary:
+Two novel phages were isolated from sediment core samples collected from the continental shelf in the western Arctic Ocean. The associated host bacteria were found to be psychrotolerant, exhibiting optimal growth between 20–30 °C but growing across a broad range of 1–40 °C. The phages themselves were characterized as cold-active, demonstrating successful plaque formation and propagation at very low temperatures, specifically 1 °C and 3 °C. Phage production was observed across the entire tested temperature spectrum (1–40 °C), confirming their ability to function in cold environments typical of polar marine sediments. The study provides evidence of phage activity and survival in psychrophilic conditions.
 
 
 Paper: PMC12077203.1.txt
@@ -21,7 +38,7 @@ Thermal Evidence:
 - Growth temperature range: Not specified.
 - Survival temperature range: Not specified.
 - Incubation conditions: Cultivated under strictly aerobic conditions.
-- Environmental source/habitat: Marine biota (mentioned in relation to the genus).
+- Environmental source/habitat: Marine biota (mentioned in relation to genus classification).
 - Thermophilic adaptation: Not mentioned.
 - Psychrophilic adaptation: Not mentioned.
 - Mesophilic growth: Not explicitly stated, but standard laboratory culture conditions (37°C) were used for cell lines.
@@ -32,26 +49,26 @@ Thermal Evidence:
 - Thermal stress responses: Not mentioned.
 
 Environmental Context:
-- Habitat/Source: Marine biota (genus level classification).
+- Habitat/Source: Marine biota (genus classification context). 
 
 Concise Summary:
-The organism was cultured under strictly aerobic conditions. The paper does not provide specific data regarding optimal, growth, or survival temperature ranges, nor does it mention any adaptations to extreme temperatures (thermophilic, psychrophilic, etc.). The genus to which the organism belongs is noted to inhabit marine communities.
+The organism was cultured under strictly aerobic conditions. The paper does not provide specific data regarding optimal, growth, or survival temperature ranges, nor does it mention any specific thermal adaptations (thermophilic, psychrophilic, etc.). The genus classification context links the organism to marine biota. Cell culture experiments were conducted at 37°C, which is a standard mammalian physiological temperature, suggesting mesophilic growth conditions were utilized for *in vitro* assays.
 
 
 Paper: PMC11324256.1.txt
 Thermal Evidence:
-- Optimal growth temperature: 25 °C (for both novel isolates).
-- Growth temperature range: 15–30 °C (for one novel isolate); 15–30 °C (for the other novel isolate).
-- Survival temperature range: 4–40 °C (for one novel isolate); 4–37 °C (for the other novel isolate).
+- Optimal growth temperature: 25 °C (for both novel species).
+- Growth temperature range: 15–30 °C (for the first novel species); 15–30 °C (for the second novel species).
+- Survival temperature range: 4–40 °C (for the first novel species); 4–37 °C (for the second novel species).
 - Incubation conditions: Aerobic growth was tested across a range of temperatures (5–40 °C).
-- Adaptation notes: The genus classification includes species isolated from the Arctic, suggesting cold adaptation potential. The novel isolates are characterized as obligately aerobic.
+- Adaptation notes: The genus classification suggests psychrophilic/psychrotolerant tendencies (e.g., *Psychrosphaera* genus description).
 
 Environmental Context:
 - Habitat/Source: Phycosphere of a marine brown alga (Sargassum species) collected from a coastal area.
-- Extreme Environment: Not explicitly stated as extreme, but isolated from marine environments.
+- Extreme Environment: Not explicitly stated as extreme, but isolated from marine/coastal environments.
 
 Concise Summary:
-Two novel bacterial species were isolated from the phycosphere of a marine brown alga. Both strains exhibit optimal growth at 25 °C and are obligately aerobic. Their general growth temperature ranges are reported between 15–30 °C, with one strain showing a broader survival range up to 40 °C, and the other up to 37 °C. The genus descriptions indicate associations with cold environments (e.g., Arctic isolation). The overall physiological profile suggests mesophilic growth conditions, with no specific evidence of thermophilic adaptation or extreme heat tolerance mentioned for the novel isolates. The isolation source is consistently marine algal biofilms.
+Two novel species were isolated from the phycosphere of a marine brown alga. Both strains exhibited optimal growth at 25 °C. The first novel species demonstrated a growth temperature range of 15–30 °C and a survival range up to 40 °C. The second novel species showed a growth range of 15–30 °C and a survival range up to 37 °C. The general characteristics of the associated genera suggest psychrophilic or psychrotolerant adaptation. The isolation source is consistently marine/coastal, and the study details comprehensive testing across a wide temperature gradient (5–40 °C) to characterize their thermal tolerance.
 
 
 Paper: 41074344.txt
@@ -64,7 +81,7 @@ Environmental Context:
 - The organisms were associated with packed blue mussels (Mytilus edulis) and were studied under refrigerated storage conditions (4 °C).
 
 Concise Summary:
-The study investigated spoilage bacteria associated with blue mussels stored at 4 °C for 15 days. The bacteria were cultured under controlled atmospheric conditions (air or modified atmospheres) on irradiated mussel substrates. No explicit thermal classification or temperature optima were reported; however, the experimental incubation temperature was 4 °C, suggesting conditions relevant to psychrotrophic or psychrophilic activity, though this was not explicitly stated.
+The study investigated spoilage bacteria associated with blue mussels stored at 4 °C for 15 days. The bacteria were cultured under controlled atmospheric conditions (air or modified atmospheres) on irradiated mussel substrates. No explicit thermal classification or temperature optima were reported; however, the experimental incubation temperature was 4 °C, suggesting conditions relevant to psychrotrophic or psychrophilic activity, although no direct evidence of cold tolerance mechanisms was detailed.
 
 
 Paper: 38049269.txt
@@ -79,6 +96,6 @@ Environmental Context:
 - Extreme Environment: Not explicitly stated, but the study focuses on spoilage under controlled, low-temperature storage conditions.
 
 Concise Summary:
-Spoilage bacteria were isolated from blue mussels stored at 4 °C under various modified atmospheres. The study context strongly implies the presence of psychrophilic or psychrotolerant organisms capable of growth and spoilage at refrigeration temperatures. Specific enzymatic activities (protease, lipase, fermentation) were assessed, indicating metabolic function under cold storage conditions. The isolates were characterized based on their ability to thrive in this low-temperature, marine food matrix.
+Spoilage bacteria were isolated from blue mussels stored at 4 °C under various modified atmospheres. The study context strongly implies the presence of psychrophilic or psychrotolerant organisms capable of growth and spoilage at refrigeration temperatures. The analysis focused on characterizing spoilage potential (protease, lipase, fermentation) under these cold storage conditions. The identified bacteria were capable of surviving and proliferating at 4 °C.
 
 

@@ -1,0 +1,17 @@
+Prophylactic Protection Against Salmonella typhimurium Infection by Single-Atom Zinc Catalysts.
+
+Zinc oxide promotes poultry growth, but it tends to agglomerate. This necessitates high doses and
+leads to environmental contamination from unabsorbed, excreted zinc. Undigested zinc is excreted and
+can enter the food chain, increasing the probability of zinc residues in edible poultry tissues
+(muscle, liver, and eggs) and raising concerns for consumer safety. MOF-supported single-atom zinc
+catalysts (SAC) resolve agglomeration by atomic anchoring, enhancing bioavailability. High-
+temperature/high-pressure fixation of Zn2+ surfaces was confirmed by XRD, while FESEM revealed the
+corresponding surface morphology, collectively verifying SAC formation. SAC exhibited potent
+antimicrobial efficacy against key pathogens such as Salmonella typhimurium, Escherichia coli, and
+Staphylococcus aureus (MIC of 3.125 mg/mL, MBC of 25 mg/mL). Co-culture experiments further
+demonstrated that the antibacterial performance of SAC remained stable over a temperature range of
+20-80 °C and a pH range of 2-8, thus exhibiting excellent thermal stability and gastrointestinal
+tolerance. In 7-day-old chicks, SAC alleviated S. typhimurium-induced inflammation, reduced
+bacterial adherence, upregulated claudin-1, preserved gut homeostasis, ameliorated tissue lesions,
+and increased the abundance of Lactobacillus in the cecum, demonstrating promising potential for
+poultry infection control.

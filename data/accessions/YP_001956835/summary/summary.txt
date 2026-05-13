@@ -1,11 +1,51 @@
 Summary file for YP_001956835
-Number of papers: 4
+Number of papers: 7
 =============Summaries=============
+
+Paper: PMC8191949.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C (for *P. chlororaphis* strain 200-B and phage infection).
+- Growth temperature range: 30°C (for *P. chlororaphis* strain 200-B incubation).
+- Incubation conditions: 30°C (for *P. chlororaphis* strain 200-B incubation and phage infection).
+- Other temperatures mentioned: 37°C (for *P. aeruginosa* strains PA01 and PA01-K2733 incubation).
+
+Environmental Context:
+- The organisms were cultured on media components (e.g., LB, HA) and incubated at 30°C or 37°C. No extreme environments or specific thermal adaptations (thermophilic, psychrophilic) were mentioned in relation to the growth conditions or the phages themselves.
+
+
+Paper: PMC6028189.1.txt
+Thermal Evidence:
+- Optimal growth temperature: 30°C (for *P. chlororaphis* strain 200-B and *P. aeruginosa* strain PA01).
+- Growth temperature range: Not explicitly stated, but incubation was performed at 30°C for *P. chlororaphis* and 37°C for *P. aeruginosa*.
+- Survival temperature range: Not mentioned.
+- Incubation conditions: Overnight incubation at 30°C for plate formation; 3 hours incubation at 30°C for *P. chlororaphis* on agarose pads; 2 hours incubation at 37°C for *P. aeruginosa* on agarose pads.
+- Environmental source/habitat: Not specified, but the study utilized laboratory strains of *Pseudomonas* species.
+- Thermal adaptation: No mention of thermophilic, psychrophilic, mesophilic, or heat/cold tolerance adaptations.
+
+Environmental Context:
+- Habitat/Source: Laboratory strains of *Pseudomonas* species.
+
+Concise Summary:
+The experimental procedures detail growth and incubation conditions for the bacterial hosts. *P. chlororaphis* was grown and incubated at 30°C, while *P. aeruginosa* was incubated at 37°C. The phage lysates and subsequent cell culture work were conducted under these specified temperatures. No information regarding the organism's natural environmental source, extreme habitat isolation, or specific thermal adaptations (e.g., mesophilic, thermophilic) was provided in the text.
+
+
+Paper: PMC10149743.1.txt
+Thermal Evidence:
+- In vitro self-assembly of the protein was observed to be accelerated by higher temperatures, but the most well-ordered lattice-like structures were formed at $18^	ext{o}	ext{C}$.
+- Assemblies formed in vitro at $30^	ext{o}	ext{C}$ or $37^	ext{o}	ext{C}$ showed less clear lattice-like features compared to those formed at $18^	ext{o}	ext{C}$.
+- The protein's assembly in the host cell environment was noted to occur under a culture temperature of $30^	ext{o}	ext{C}$, suggesting that host/phage factors are required to maintain ordered assembly at this temperature.
+- The study did not provide explicit data on the optimal growth temperature, survival temperature range, or thermal adaptation classification (e.g., thermophilic, psychrophilic) for the phage or its associated proteins.
+
+Environmental Context:
+- The phage infects *Pseudomonas chlororaphis*.
+- The study did not report isolation from an extreme environment.
+
 
 Paper: PMC13151666.1.txt
 Thermal Evidence:
-- Incubation at room temperature (RT) was used for initial growth (48 hours).
-- Subsequent growth was tested at RT for 72 hours in Tryptic Soy Agar and in LB shaker.
+- Incubation at room temperature (RT) for 48 hours for initial selection.
+- Incubation at RT for 72 hours on tryptic soy agar.
+- Growth in LB shaker at RT.
 
 Environmental Context:
 - Isolated from soil and water samples in Northern Colorado.
@@ -18,14 +58,20 @@ Thermal Evidence:
 - Survival temperature range: Not specified
 - Incubation conditions: 30 °C with shaking (150 rpm)
 - Environmental source/habitat: Not specified
-- Mention of thermal adaptation: None
-- Explicit classification: None
+- Thermophilic adaptation: Not mentioned
+- Psychrophilic adaptation: Not mentioned
+- Mesophilic growth: Implied by incubation at 30 °C
+- Heat tolerance: Not mentioned
+- Cold tolerance: Not mentioned
+- Enzymes adapted to temperature: Not mentioned
+- Membrane adaptations: Not mentioned
+- Thermal stress responses: Not mentioned
 
 Environmental Context:
 - Habitat/source: Not specified
 
 Concise Summary:
-The microorganism was incubated at a constant temperature of 30 °C with shaking at 150 rpm for 24 hours to promote bacterial adhesion. No specific information regarding optimal, growth, or survival temperature ranges, or any mention of thermal adaptation (thermophilic, psychrophilic, mesophilic, etc.) was provided in the text.
+The microorganism was incubated at a constant temperature of 30 °C with shaking at 150 rpm for 24 hours to promote bacterial adhesion. The study does not provide explicit information regarding the optimal, growth, or survival temperature ranges, nor does it mention any specific adaptations to extreme temperatures (thermophilic, psychrophilic, etc.). The incubation condition suggests mesophilic growth conditions were utilized for the experiment.
 
 
 Paper: PMC13106765.1.txt
@@ -37,7 +83,7 @@ Environmental Context:
 - The study was conducted in cacao soils from farms in Arauca, Colombia.
 
 Concise Summary:
-The metabolic activity assessment utilized isothermal microcalorimetry (IMC) under controlled, thermostable conditions at 25°C over a 30-hour period. No specific information regarding optimal, growth, or survival temperature ranges, or adaptations (thermophilic, psychrophilic, etc.), was provided for the bacterial strains studied. The analysis focused on metabolic flux changes in response to cadmium stress rather than temperature-dependent physiological characterization.
+The metabolic activity assessment using isothermal microcalorimetry (IMC) was performed under controlled, isothermal conditions at 25°C over a 30-hour period. No specific optimal, growth, or survival temperature ranges, or adaptations (thermophilic, psychrophilic, etc.), were reported for the microbial community. The analysis focused on monitoring metabolic heat-flow changes in response to cadmium stress, rather than characterizing the organism's thermal niche.
 
 
 Paper: PMC13118963.1.txt
@@ -51,6 +97,6 @@ Environmental Context:
 - The analysis focused on rhizosphere soil samples collected from this agricultural environment.
 
 Concise Summary:
-The paper provides a detailed analysis of rhizosphere microbial communities and soil properties in watermelon grown under continuous cropping in Xinjiang, China. The investigation utilized high-throughput sequencing (16S rRNA and ITS) and correlated microbial shifts with soil physicochemical parameters and crop performance. The study focused on the comparative effects of various exogenous organic amendments (e.g., organic fertilizer, organic acids, amino acids) on soil health and plant growth. No direct evidence regarding the optimal growth temperature, temperature range, or thermal adaptations of the isolated microorganisms was presented in the provided text.
+The provided text is a detailed study on the effects of various exogenous organic amendments on the rhizosphere microbial communities and soil properties of watermelon grown in a field setting in Xinjiang, China. The analysis heavily focuses on soil physicochemical changes, enzyme activities (e.g., alkaline phosphatase, urease, catalase), and microbial community structure (16S rRNA and ITS sequencing). Crucially, the paper does not contain any data, discussion, or mention regarding the optimal growth temperature, temperature ranges, or thermal adaptations (thermophilic, psychrophilic, mesophilic) of the isolated microorganisms. The environmental context is strictly limited to the rhizosphere soil of watermelon crops in an agricultural field setting.
 
 

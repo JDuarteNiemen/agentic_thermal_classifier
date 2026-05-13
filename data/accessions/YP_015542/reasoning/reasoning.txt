@@ -14,6 +14,13 @@ Reasoning: The paper states that the virus infects 'hyperthermophilic archaea of
 
 
 =============Reasoning for YP_015542 from host literature=============
+Paper: PMC5351780.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper mentions that the enzyme used, TreT, is from *Thermoproteus tenax* and is described as a "thermostable" enzyme. Furthermore, the optimal incubation temperature for the reaction is explicitly stated as "Incubate the reaction at 70 °C" (Section 2.3) and "Incubate the cells at 37 °C" (Section 5.1.6) for the host/application, but the enzyme's inherent characteristic is thermostability, and the reaction is run at 70 °C, which is characteristic of a thermophile (> 45°C).
+
+
 Paper: PMC6339583.1.txt
 Classification: thermophile
 Confidence: None

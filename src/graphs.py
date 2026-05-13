@@ -120,9 +120,14 @@ def SummaryGraph():
     graph.add_conditional_edges('SummaryClassifyHostLiterature', route,
                                 {'SummaryCreateHostLibrary': 'SummaryCreateHostLibrary',
                                  'SummaryClassifyThermalForced': 'SummaryClassifyThermalForced',})
+    graph.add_conditional_edges('SummaryCreateHostLibrary', route,
+                                {'SummaryClassifyThermalForced': 'SummaryClassifyThermalForced',
+                                 'FilterRelevantLiterature': 'FilterRelevantLiterature',})
     graph.add_edge('SummaryCreateHostLibrary', 'FilterRelevantLiterature')
     graph.add_edge('FilterRelevantLiterature', 'FilterRelevantHostLiterature')
-    graph.add_edge('FilterRelevantHostLiterature', 'SummariseLiterature')
+    graph.add_conditional_edges('FilterRelevantHostLiterature', route,
+                                {'SummaryClassifyThermalForced': 'SummaryClassifyThermalForced',
+                                 'SummariseLiterature': 'SummariseLiterature',})
     graph.add_edge('SummariseLiterature', 'ClassifySummary')
     graph.add_conditional_edges('ClassifySummary', route,
                                 {'SummaryClassifyThermalForced': 'SummaryClassifyThermalForced',

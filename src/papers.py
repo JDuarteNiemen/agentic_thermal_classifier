@@ -278,22 +278,7 @@ def SearchPubmed(query: str, max_results: int = 20) -> list[str]:
     }).json()
     sleep(0.3)
 
-    pmids = res.get("esearchresult", {}).get("idlist", [])
-
-    res = requests.get(url, params={
-        "db": "pmc",
-        "term": query,
-        "retmode": "json",
-        "retmax": max_results,
-    }).json()
-    sleep(0.3)
-
-    pmcids = res.get("esearchresult", {}).get("idlist", [])
-    pmcids = [f"PMC{pmc}" for pmc in pmcids]
-
-    paper_ids= pmcids + pmids
-
-    return paper_ids
+    return res.get("esearchresult", {}).get("idlist", [])
 
 
 

@@ -36,7 +36,7 @@ Actual: Psychrophile
 Prediction: Mesophile
 Reasoning: Forced
 
-This accession returned no literature. Upon closer inspection the NCBI page for this protein is only upported by one
+This accession returned no literature. Upon closer inspection the NCBI page for this protein is only supported by one
 paper which is yet unpublished
 
 ## WMT83805
@@ -59,8 +59,7 @@ its psychrotropic. From ncbi there is a paper directly evidencing it as a psychr
 paper is not accessed from the literature curation. I can flip this to correct by increasing the number of PMIDs 
 obtained from the query search. I can then run these through a regex scan and flag any papers that do not hit for
 specific key words. 
-After changing how library is curated I have managed to flip this classification into a correct one. I now add a pmc
-search which captures the paper that helps this classification
+
 
 ## YP_009209738
 Actual: Psychrophile
@@ -74,8 +73,7 @@ conditions is mesophile. The source is coastal seawater, which supports mesophil
 
 My thoughts:
 This accession only grabs one unique paper. The same paper is grabbed for both accession and host. This paper does not
-have strong evidence for psychrophilic behaviour. Even after putting it through the altered library curation the 
-classification is still mesophile.
+have strong evidence for psychrophilic behaviour. 
 
 ## YP_112541
 Actual: Psychrophile
@@ -102,7 +100,6 @@ My thoughts:
 This accession had no literature, literature was obtained from the host, however no papers were deemed relevant by the
 relevant node. One paper mentioned isolation but only from the sea and nothing else in the paper is relevant.
 Could potentially add to relevant check to pass the paper if there is any mention of the isolation.
-After changing how papers are deemed as relevant I have managed to flip this into a correct classification of Psychrophile
 
 
 ## YP_010108902
@@ -112,4 +109,3 @@ Reasoning: Forced
 This accession had no literature, literature was obtained from the host, however no papers were deemed relevant by the
 relevant node. One paper mentioned isolation but only from the sea and nothing else in the paper is relevant.
 Could potentially add to relevant check to pass the paper if there is any mention of the isolation.
-After changing how papers are deemed as relevant i have managed to flip this into a correct classification of Psychrophile

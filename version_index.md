@@ -1,4 +1,4 @@
-# V9 - Adding all workflows into a single repo. With options to call any of them
+# V10 - Tweaks to workflow to improve classifications. Packaging repo as a proper module and CLI.
 
 ---
 

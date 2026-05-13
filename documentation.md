@@ -1,4 +1,4 @@
-# 
+# Results for all workflows
 
 **Model:** gemma4  
 
@@ -7,9 +7,45 @@ This branch is a repo of all the 3 different workflows. See the version index fi
 process and the steps taken in each workflow.
 I ran the expanded example dataset through each workflow to compare results between them.
 
+
+# Fast Results
+![Confusion Matrix](results/fast/fast_confusion_matrix.png)
+
+              precision    recall  f1-score   support
+
+        None       0.00      0.00      0.00         0
+   mesophile       0.63      0.95      0.76        20
+psychrophile       1.00      0.40      0.57        20
+ thermophile       1.00      1.00      1.00        20
+
+    accuracy                           0.78        60
+   macro avg       0.66      0.59      0.58        60
+weighted avg       0.88      0.78      0.78        60
+
+
+ Total Duration: 31.95 minutes
+
+
+# Democratic Results
+![Confusion Matrix](results/fast/fast_confusion_matrix.png)
+
+              precision    recall  f1-score   support
+
+   mesophile       0.65      1.00      0.78        20
+        none       0.00      0.00      0.00         0
+psychrophile       1.00      0.40      0.57        20
+ thermophile       1.00      1.00      1.00        20
+
+    accuracy                           0.80        60
+   macro avg       0.66      0.60      0.59        60
+weighted avg       0.88      0.80      0.79        60
+
+
+ Total Duration: 158.11 minutes
+
 # Summary Results
 
-![Confusion Matrix](results/summary_confusion_matrix.png)
+![Confusion Matrix](results/summary/summary_confusion_matrix.png)
 
               precision    recall  f1-score   support
 

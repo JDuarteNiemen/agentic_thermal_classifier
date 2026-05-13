@@ -1,3 +1,0 @@
-Control of transcription termination.
-
-[No abstract available]

@@ -1,8 +1,0 @@
-Nucleotide sequence of bacteriophage T4 gene 23 and the amino acid sequence of its product.
-
-We have determined the nucleotide sequence of gene 23 of bacteriophage T4 by the methods of Maxam
-and Gilbert and of Sanger. The identities of approximately 80% of the amino acid residues of the
-major capsid protein which is encoded by gene 23 were determined additionally by Edman degradation
-of the intact protein and its peptides. Fifteen gene 23 amber mutation sites have been located
-within the sequence, and the 3' transcription termination site for genes 21, 22 and 23 has been
-identified.

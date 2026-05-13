@@ -1,9 +1,0 @@
-Analysis of the baseplate region of phage AR1 that specifically infects Escherichia coli O157:H7.
-
-Phage AR1 that specifically infects Escherichia coli O157:H7 has been characterized previously for
-its primary host contact molecule, the long tail fiber. To strengthen its attachment to the host
-bacteria, the phage may use its baseplate for a second contact. This study investigated the
-characteristics of AR1 baseplate by deducing the responsible genes including wac and genes 9 to 15.
-The wedge pin g11 and the short tail fiber g12 varied the most, whereas the others were highly
-conserved compared with their counterparts in T4. The degrees of gene conservation correlated well
-with the known functions of individual gene products.

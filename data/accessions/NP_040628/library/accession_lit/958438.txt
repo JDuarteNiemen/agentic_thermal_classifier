@@ -1,6 +1,0 @@
-Lambda repressor regulates the switch between PR and Prm promoters.
-
-The DNA region containing the Or operator, Pr and Prm promoters and their transcription initiations
-is sequenced. By binding to Or, repressor turns off Pr, turns on Prm and at higher concentrations
-turns off Prm, regulating its own synthesis. Prm mRNA is unique in beginning immediately with the
-initiation of translation, without a preceding leader sequence.

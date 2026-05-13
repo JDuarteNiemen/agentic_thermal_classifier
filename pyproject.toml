@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "tmp-software"
+version = "0.1.0"
+description = "Protein thermal adaptation prediction toolkit"
+requires-python = ">=3.10"
+
+dependencies = [
+    # Core LLM / agent stack
+    "langchain==1.2.15",
+    "langchain-core==1.3.0",
+    "langchain-ollama==1.1.0",
+
+
+    # CLI
+    "typer==0.23.0",
+
+    # Data / biology
+    "biopython==1.86",
+    "pandas",
+
+    # Parsing
+    "lxml",
+]
+
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "ruff"
+]
+
+
+[project.scripts]
+TMP = "tmp_software.cli:app"
+
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

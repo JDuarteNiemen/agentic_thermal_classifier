@@ -1,0 +1,2 @@
+[console_scripts]
+TMP = tmp_software.cli:app

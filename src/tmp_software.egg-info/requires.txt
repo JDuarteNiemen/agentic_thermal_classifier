@@ -1,0 +1,12 @@
+langchain==1.2.15
+langchain-core==1.3.0
+langchain-ollama==1.1.0
+typer==0.23.0
+biopython==1.86
+pandas
+lxml
+
+[dev]
+pytest
+black
+ruff

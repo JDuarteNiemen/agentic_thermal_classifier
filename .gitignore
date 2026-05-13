@@ -1,0 +1,15 @@
+# Python packaging
+
+*.egg-info/
+
+dist/
+
+build/
+
+__pycache__/
+
+*.pyc
+
+# editable install artifacts
+
+src/*.egg-info/

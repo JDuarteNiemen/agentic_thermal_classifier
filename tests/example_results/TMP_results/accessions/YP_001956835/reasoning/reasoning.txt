@@ -1,0 +1,30 @@
+=============Reasoning for YP_001956835 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Pseudomonas chlororaphis') and the phage name, but no explicit or strongly implied temperature or environmental condition (psychrophile, mesophile, thermophile) is stated.
+
+
+=============Reasoning for YP_001956835 from accession literature=============
+Paper: PMC10149743.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper mentions that the assembly of gp105 in vitro is temperature-dependent. Specifically, it states: "We found that gp105 monomers can self-assemble to form large aggregates in vitro after being incubated at 18°C for several hours..." and "Induction of the assembly at different temperatures showed that higher temperatures can significantly accelerate the self-assembly of gp105... However, analysis of the assemblies formed at 30 or 37°C showed no clear lattice-like structures...". The host bacterium, Pseudomonas chlororaphis, is a common environmental bacterium, and the paper mentions that the cell culture temperature for the experiment was 30°C, which falls within the mesophilic range (15–45°C). The optimal assembly condition observed in vitro was at 18°C, and the host culture temperature was 30°C. Given the host context and the observed assembly behavior around 18°C to 30°C, mesophile is the most appropriate classification based on the provided data.
+
+
+=============Reasoning for YP_001956835 from host literature=============
+Paper: PMC13141931.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the growth conditions for the bacteria used in the study: "Cells were grown at 30°C in a modified Luria-Bertani (MLB) medium..." and "Electroporated cells were incubated in the MLB medium for 3 h at 30°C prior to plating." Since the phage is studied in relation to the host bacterium, and the host is grown at 30°C, this temperature is used to infer the thermal characteristics. 30°C falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_001956835 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Pseudomonas phage 201phi2-1) and its host (Pseudomonas chlororaphis). 2. No explicit thermal range (psychrophile, mesophile, or thermophile) is stated in the metadata. 3. The decision rules require assigning a classification. Since the host, Pseudomonas chlororaphis, is a common environmental bacterium, and no specific environmental context suggesting extreme temperatures is provided, the most probable default classification is mesophile (15–45°C). 4. Therefore, 'mesophile' is assigned as the fallback classification.
+
+

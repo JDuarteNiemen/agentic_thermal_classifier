@@ -1,0 +1,37 @@
+=============Reasoning for SNQ28030 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata does not contain any information regarding the temperature or thermal conditions for the bacteriophage or its host.
+
+
+=============Reasoning for SNQ28030 from accession literature=============
+Paper: PMC13077995.1.txt
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The paper describes the growth and replication of the MS2 bacteriophage in E. coli. The methods section states that the bacteria were maintained in NZCYM media and incubated at 37 °C overnight. Furthermore, plaque assays and infection experiments were performed at 37 °C. Since the phage is studied in the context of its host growing at 37 °C, this temperature is the relevant biological condition, but the paper does not explicitly state the optimal growth temperature for the phage itself, only the host's incubation temperature.
+
+
+=============Reasoning for SNQ28030 from host literature=============
+Paper: PMC13164941.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for the MIC and MBC determination: "The mixtures were incubated at 37 °C for 24 h." Furthermore, the temperature stability test was conducted by incubating samples at "20 °C, 25 °C, 40 °C, 60 °C, and 80 °C," and the subsequent bacterial challenge incubation was performed "at 37 °C with shaking for 24 h." Since the optimal/tested temperature for bacterial activity is 37 °C, this falls within the mesophile range (15–45°C).
+
+
+Paper: PMC13167042.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states that S. canis strains were cultivated on Columbia blood agar plates with 5% sheep’s blood at 37 °C overnight. Additionally, competent cells were generated via growth in brain heart infusion (BHI) media overnight at 37 °C, and the transformants were plated on BHI agar at 28 °C, but the subsequent growth for transposon libraries was done at 37 °C. The general growth conditions mentioned (37°C) fall within the mesophile range (15–45°C).
+
+
+=============Reasoning for SNQ28030 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage 'Emesvirus zinderi' but contains no explicit data regarding its optimal growth temperature or the environment from which it was isolated (beyond the isolate ID 'EnteroPH/GER/L00928-K20_14-03/2014', which suggests a human/gut source, typically mesophilic). 2. No explicit thermal range is present. 3. No environmental context strongly suggests psychrophilic or thermophilic conditions. 4. Therefore, following the decision rules, the system must default to 'mesophile' as the fallback classification.
+
+

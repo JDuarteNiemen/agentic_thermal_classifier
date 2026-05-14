@@ -1,0 +1,16 @@
+=============Reasoning for YP_874174 from metadata=============
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The title contains the text '[Thermus phage phiYS40]' and the old_name is 'Thermus thermophilus phage YS40'. The genus 'Thermus' is associated with thermophilic organisms, and the presence of 'Thermus' in the name strongly implies a thermophilic nature.
+
+
+=============Reasoning for YP_874174 from accession literature=============
+=============Reasoning for YP_874174 from host literature=============
+=============Reasoning for YP_874174 from metadata (Forced)=============
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The target phage is named 'Thermus phage phiYS40' and the associated organism/title mentions 'Thermus'. Thermus is a genus of bacteria known for thriving in high-temperature environments (thermophiles). Therefore, the phage is inferred to be thermophilic, aligning with the definition (>45°C).
+
+

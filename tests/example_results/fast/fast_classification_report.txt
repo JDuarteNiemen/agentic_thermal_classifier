@@ -1,13 +1,14 @@
               precision    recall  f1-score   support
 
+   2010-2020       0.00      0.00      0.00         0
         None       0.00      0.00      0.00         0
-   mesophile       0.63      0.95      0.76        20
+   mesophile       0.70      0.95      0.81        20
 psychrophile       1.00      0.40      0.57        20
  thermophile       1.00      1.00      1.00        20
 
     accuracy                           0.78        60
-   macro avg       0.66      0.59      0.58        60
-weighted avg       0.88      0.78      0.78        60
+   macro avg       0.54      0.47      0.48        60
+weighted avg       0.90      0.78      0.79        60
 
 
- Total Duration: 31.95 minutes
+ Total Duration: 73.59 minutes

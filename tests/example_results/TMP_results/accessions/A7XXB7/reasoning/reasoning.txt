@@ -1,0 +1,51 @@
+=============Reasoning for A7XXB7 from metadata=============
+Classification: thermophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The organism listed is 'Thermus phage P23-45' and the host is 'Thermus thermophilus'. The genus 'Thermus' is associated with thermophilic organisms, implying a thermophilic thermal range.
+
+
+=============Reasoning for A7XXB7 from accession literature=============
+Paper: PMC6397560.1.txt
+Classification: thermophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text explicitly states: "...we established in vitro packaging for the thermophilic bacteriophage P23-45 of Thermus thermophilus. Both the unexpanded procapsid and the expanded mature capsid can package DNA in the presence of packaging ATPase over the 20 °C to 70 °C temperature range, with optimum activity at 50 °C to 65 °C." The phage is identified as 'thermophilic' and the host is 'Thermus thermophilus'. The definition for thermophile is > 45°C, which aligns with the stated optimal activity range (50°C to 65°C).
+
+
+=============Reasoning for A7XXB7 from host literature=============
+Paper: PMC13162202.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that cultures of bacteria were grown in Marine Broth 2216 medium under continuous shaking at 220 rpm at 30 °C. Furthermore, subsequent incubation steps, including growth curves and colony-forming unit assays, were performed at 30 °C. The section on 'Rheology Testing' and 'Tensile Testing' also used incubation temperatures of 4 °C or 30 °C. Since 30 °C falls within the mesophile range (15–45°C), the thermal characteristic is determined to be mesophile.
+
+
+Paper: PMC13039148.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that the host bacterium, *Thermus thermophilus*, is a "thermophilic bacterium" in the Introduction section: "Thermus thermophilus is a Gram-negative, thermophilic bacterium that, due to its efficient DNA uptake system6,7, has been used as a model system for studying T4P assembly and natural transformation for many years." The phage is associated with this host, and the culture conditions used for the experiments further confirm this, as the cells were incubated at 68°C for negative stain EM and 48h at 68°C for cryoET, and the host is identified as *T. thermophilus*.
+
+
+Paper: 42104995.txt
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The enzyme TtAlaDH is sourced from 'Thermus thermophilus'. The text mentions that the immobilization conferred 'enhanced activity at elevated temperatures' and specifically notes that the immobilized enzyme 'retaining approximately 85% of its initial activity at the elevated temperature of 85 °C.' Since 85 °C is significantly above the 45°C threshold, this suggests thermophilic characteristics, consistent with the source organism.
+
+
+Paper: 41906752.txt
+Classification: thermophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The paper discusses the laccase from 'hyperthermophilic Thermus thermophilus (TtL) laccase'. Although no specific optimal temperature is given for the phage, the host/enzyme source is explicitly identified as 'hyperthermophilic', which implies a thermophilic nature. The text also mentions 'engineering of extremophilic laccase for high temperature industrial application.'
+
+
+=============Reasoning for A7XXB7 from metadata (Forced)=============
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The target phage is named 'Thermus phage P23-45' and its host is listed as 'Thermus thermophilus'. The genus 'Thermus' is well-known for containing thermophilic organisms. Therefore, it is strongly inferred that the phage is adapted to high-temperature environments, classifying it as a thermophile (>45°C).
+
+

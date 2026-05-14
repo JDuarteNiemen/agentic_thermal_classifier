@@ -1,0 +1,35 @@
+=============Reasoning for YP_009209738 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata indicates the isolation source is 'seawater', but no specific temperature range or condition is provided to classify it as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for YP_009209738 from accession literature=============
+Paper: PMC4615864.1.txt
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The paper mentions incubation temperatures for the host strain IMCC12002 and the plaque assays. Strain IMCC12002 was established from a colony grown on a plate after two weeks of incubation at 20 °C. The enrichment culture was further incubated at 20 °C for a week. Plaque assays were performed after incubation at 20 °C for a week. The top agar layer was poured onto bottom agar plates, and the plates were incubated at 20 °C for a week. These temperatures relate to the host/assay conditions, not the inherent thermal characteristic of the phage itself, and no explicit classification (psychrophile, mesophile, thermophile) is assigned to the phage based on these conditions.
+
+
+=============Reasoning for YP_009209738 from host literature=============
+Paper: PMC4615864.1.txt
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The paper mentions incubation temperatures for the host strain IMCC12002 and the plaque assays. Strain IMCC12002 was established from a colony grown on a plate after two weeks of incubation at 20 °C. The enrichment culture was further incubated at 20 °C for a week. Plaque assays were performed after incubation at 20 °C for a week. The top agar layer was poured onto bottom agar plates, and the plates were incubated at 20 °C for a week. These temperatures relate to the host/assay conditions, not the inherent thermal characteristic of the phage itself, and no explicit classification (psychrophile, mesophile, thermophile) is assigned to the phage based on these conditions.
+
+
+=============Reasoning for YP_009209738 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the phage was isolated from 'seawater' and the associated organism is 'Polaribacter'.
+2. **Apply Decision Rules:**
+    *   Rule 1 (Explicit evidence): No explicit temperature range is provided.
+    *   Rule 2 (Inference from environment): Seawater environments are highly variable, but general marine environments often support mesophilic life, although some deep-sea or polar waters can be psychrophilic. The isolation source ('seawater') is not specific enough to mandate psychrophile or thermophile classification.
+    *   Rule 3 (Fallback): Since the environmental context ('seawater') is too broad to strongly infer a specific temperature class, the system must default to the fallback classification.
+3. **Conclusion:** The fallback classification is 'mesophile'.
+
+

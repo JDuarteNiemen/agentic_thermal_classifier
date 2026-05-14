@@ -1,0 +1,19 @@
+=============Reasoning for XJP07760 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata indicates the isolation source is 'seawater', but no specific temperature range or condition is provided to classify it as psychrophile, mesophile, or thermophile.
+
+
+=============Reasoning for XJP07760 from accession literature=============
+=============Reasoning for XJP07760 from host literature=============
+=============Reasoning for XJP07760 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. **Analyze Metadata:** The metadata indicates the isolation source is 'seawater' and the host is 'Pseudoalteromonas sp. YM19'.
+2. **Apply Decision Rules:** No explicit thermal range is provided. The isolation source ('seawater') suggests an aquatic environment. While seawater can vary, the general temperature range for most marine microbial life, especially when no specific temperature is given, falls within the moderate range.
+3. **Infer/Default:** Since there is no explicit evidence, and the environment is general seawater, the most probable classification defaults to mesophile (15–45°C), as per the fallback rule (Rule 4).
+4. **Conclusion:** Assign mesophile.
+
+

@@ -1,0 +1,23 @@
+=============Reasoning for YP_001956832 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the host ('Pseudomonas chlororaphis') and the phage name, but no explicit or strongly implied temperature or environmental condition (psychrophile, mesophile, or thermophile) is stated.
+
+
+=============Reasoning for YP_001956832 from accession literature=============
+=============Reasoning for YP_001956832 from host literature=============
+Paper: PMC13141931.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the growth conditions for the bacteria used in the study: "Cells were grown at 30°C in a modified Luria-Bertani (MLB) medium..." and "Electroporated cells were incubated in the MLB medium for 3 h at 30°C prior to plating." Since the phage is studied in relation to the host bacterium, and the host is grown at 30°C, this temperature is used to infer the thermal characteristics. 30°C falls within the mesophile range (15–45°C).
+
+
+=============Reasoning for YP_001956832 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides information about the phage (Pseudomonas phage 201phi2-1) and its host (Pseudomonas chlororaphis). 2. No explicit thermal range (optimal growth temperature, isolation temperature, etc.) is provided in the metadata. 3. The decision rules require assigning a classification. Since no evidence is present, the system must default to the fallback classification. 4. The fallback classification for insufficient evidence is 'mesophile'.
+
+

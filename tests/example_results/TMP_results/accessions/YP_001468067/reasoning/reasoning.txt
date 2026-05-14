@@ -1,0 +1,44 @@
+=============Reasoning for YP_001468067 from metadata=============
+Classification: thermophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The title contains '[Thermus phage P74-26]' and the host is listed as 'Thermus thermophilus'. The genus 'Thermus' is associated with thermophilic organisms, suggesting the phage/host is thermophilic.
+
+
+=============Reasoning for YP_001468067 from accession literature=============
+=============Reasoning for YP_001468067 from host literature=============
+Paper: PMC13162202.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that cultures of bacteria were grown in Marine Broth 2216 medium under continuous shaking at 220 rpm at 30 °C. Furthermore, subsequent incubation steps, including growth curves and colony-forming unit assays, were performed at 30 °C. The section on 'Rheology Testing' and 'Tensile Testing' also used incubation temperatures of 4 °C or 30 °C. Since 30 °C falls within the mesophile range (15–45°C), the thermal characteristic is determined to be mesophile.
+
+
+Paper: PMC13039148.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper explicitly states that the host bacterium, *Thermus thermophilus*, is a "thermophilic bacterium" in the Introduction section: "Thermus thermophilus is a Gram-negative, thermophilic bacterium that, due to its efficient DNA uptake system6,7, has been used as a model system for studying T4P assembly and natural transformation for many years." Furthermore, the culture conditions used for the bacteria are described as incubation at 68°C: "For negative stain electron microscopy, overnight liquid cultures were diluted to an OD of 0.1 and incubated at 68 °C until an OD of 0.6–0.8 was reached. For cryoET, cells from a 24-h pre-culture were transferred onto TM+ plates (containing 2% [wt/vol] agar) and incubated for 48 h at 68 °C."
+
+
+Paper: 42104995.txt
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The enzyme TtAlaDH is sourced from *Thermus thermophilus*. The text mentions that the immobilization conferred 'enhanced activity at elevated temperatures' and specifically notes that the immobilized enzyme 'retaining approximately 85% of its initial activity at the elevated temperature of 85 °C.' Since 85 °C is significantly above the 45°C threshold, this suggests thermophilic characteristics, consistent with the source organism.
+
+
+Paper: 41906752.txt
+Classification: thermophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The paper studies 'hyperthermophilic Thermus thermophilus (TtL) laccase'. Although no specific optimal growth temperature for the phage or enzyme is given, the host organism is identified as 'hyperthermophilic', which implies a thermophilic nature. The text also mentions 'engineering of extremophilic laccase for high temperature industrial application.'
+
+
+=============Reasoning for YP_001468067 from metadata (Forced)=============
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The target phage is named 'Thermus phage P74-26' and its host is listed as 'Thermus thermophilus'. The genus 'Thermus' is well-known for containing thermophilic organisms. Therefore, it is strongly inferred that the phage is adapted to high-temperature environments, classifying it as a thermophile (>45°C).
+
+

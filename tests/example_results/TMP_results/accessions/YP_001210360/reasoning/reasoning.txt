@@ -1,0 +1,100 @@
+=============Reasoning for YP_001210360 from metadata=============
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The isolation source is explicitly stated as 'hot acidic (93degC, pH1.5) spring'. The temperature 93degC indicates a thermophilic environment.
+
+
+=============Reasoning for YP_001210360 from accession literature=============
+Paper: PMC10970483.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly mentions the 'Acidianus bottle-shaped virus (ABV)' in the context of metagenomic analysis of a South African hot spring, alongside other archaeal viruses. The section discussing these findings states: "Regarding archaeal viruses, the researchers found the previously identified viruses His1, His2, Acidianus bottle-shaped virus (ABV), Sulfolobus tengchongensis spindle-shaped virus 2 (STSV2), and Sulfolobus islandicus rudivirus 3 (SIRV3) [14].". Furthermore, the general discussion of viruses from hot springs and extreme environments repeatedly references 'thermophilic' and 'acidophilic' viruses, and the keywords list includes 'thermophile' and 'acidophilic viruses'. The context strongly places ABV within the group of thermophilic/acidophilic viruses.
+
+
+Paper: PMC13107129.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper states that the Rep-Arvir family is found in archaea, including "halophiles, methanogens, and hyperthermophiles." The specific virus studied, SNJ2, is associated with the genus *Natrinema*, and the host strains used for culturing were "haloarchaeal strains were cultured in Halo-2 medium or 23% modified growth medium (MGM) at 45°C, as previously described [42]" and "Amylase activity on plates was assessed following the method of Coronado et al. [48]. Transformants carrying pSNJ2MutP3-19-Hpro-amyH were cultured in 5 ml of 20% HV-Ca medium until reaching the logarithmic phase. After incubating at 45°C for ~2 days..." The abstract also mentions that the findings provide a platform for studying virus-host interactions in "hypersaline environments." Since the paper explicitly mentions the presence of the family in hyperthermophiles and the experimental work was conducted using haloarchaea cultured at 45°C, which is within the mesophilic range but the family is noted to include hyperthermophiles, the most appropriate classification based on the stated diversity and the context of the host environment (halophiles/hyperthermophiles) is thermophile, as the family is characterized across these diverse, often high-temperature, environments. The explicit mention of 'hyperthermophiles' in the abstract is the strongest indicator for the family's thermal capability.
+
+
+Paper: PMC12824867.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text states that "Ampullaviruses specifically infect hyperthermophilic archaea, particularly those belonging to the genus Acidianus." It also mentions that "The only known cultivated representative, Acidianus Bottle-shaped Virus (ABV), has been found in a hot acidic spring in Pozzuoli (Italy)." Furthermore, the text notes that "These viruses contain highly specialized enzymes and structural proteins that make them resistant to extreme temperatures and pH levels, enabling their use in biotechnological applications." The classification of the host as 'hyperthermophilic' directly implies the phage is adapted to high temperatures, fitting the definition of a thermophile (> 45°C).
+
+
+Paper: PMC10791045.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The paper text mentions the following regarding the virus: "Häring M, Rachel R, Peng X et al. . Viral diversity in hot springs of Pozzuoli, Italy, and characterization of a unique archaeal virus, Acidianus bottle-shaped Virus, from a new family, the Ampullaviridae. J Virol. 2005a;79:9904–11. 10.1128/jvi.79.15.9904-9911.2005.16014951 PMC1181580". The citation context for this paper (Häring et al. 2004, 2005b,c, Mochizuki et al. 2010, 2011, 2012, Wang et al. 2018, Kim et al. 2019, Laso-Pérez et al. 2023, Yeats et al. 1982, Martin et al. 1984, Nadal et al. 1986, Bath and Dyall-Smith 1998) lists the virus as being found in the context of 'hyperthermophilic archaea' (as seen in the citation for Bettstetter et al. 2003, which discusses AFV1 infecting hyperthermophilic archaea of the genus Acidianus). Furthermore, the paper discusses 'hyperthermophilic archaeal viruses' in the context of VAPs (Bize et al. 2009, Brumfield et al. 2009, etc.). The genus *Acidianus* is associated with hyperthermophilic environments, which falls under the thermophile definition (> 45°C).
+
+
+Paper: PMC5882107.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The text states that the family Ampullaviridae includes viruses that "replicate in hyperthermophilic archaea from the genus Acidianus." The 'Host range' table entry for the 'Acidianus bottle-shaped virus' confirms this: "Hyperthermophilic archaea from the genus Acidianus; non-lytic." Since the phage replicates in hyperthermophilic archaea, the phage is inferred to be thermophilic. The definition for thermophile is > 45°C, which aligns with hyperthermophilic life.
+
+
+Paper: 17412384.txt
+Classification: thermophile
+Confidence: medium
+Inference Type: inferred
+Reasoning: The paper states that the Acidianus bottle-shaped virus, ABV, "infects strains of the hyperthermophilic archaeal genus Acidianus". Since the phage infects a hyperthermophilic host, the phage is inferred to be adapted to high temperatures, classifying it as a thermophile (> 45°C).
+
+
+=============Reasoning for YP_001210360 from host literature=============
+Paper: PMC11018855.1.txt
+Classification: thermophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text explicitly states that *Acidianus brierleyi* "grows between 45 to 75 °C (Topt 70 °C)" and refers to it as a "hyperthermoacidophilic archaeon." The definition for thermophile is > 45°C, which encompasses the stated optimal growth temperature of 70°C.
+
+
+Paper: PMC11681762.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper discusses microbial communities from hot springs in the Kuril Islands. The general temperature range reported for the sampling sites is 45–94 °C. The Acidic Archaeal group (AA) is explicitly associated with temperatures of 50–94 °C, and the discussion notes that Archaea were absolutely dominant in springs with low pH and higher temperatures (AA), matching classical views of 'major lovers' of the most extreme habitats. Furthermore, the general description of the environment mentions 'hot springs' and the temperature range of 30 to 100 °C. Since the highest recorded temperatures are 94 °C, this strongly indicates a thermophilic environment (> 45°C).
+
+
+Paper: PMC11447690.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The table in the paper lists the optimal temperature (Topt) for several species, including *Acidianus brierleyi*. For *Acidianus brierleyi*, the Topt is explicitly stated as 70°C in Table 1. The definition for thermophile is > 45°C, and 70°C falls into this category. Furthermore, the text mentions that 'extreme thermoacidophiles' are studied, and the general conditions used for bioleaching experiments were 70–75 °C.
+
+
+Paper: PMC8448823.1.txt
+Classification: thermophile
+Confidence: high
+Inference Type: explicit
+Reasoning: The text mentions the growth conditions for the Acidianus convivator strain AA9, which is the host for the Acidianus two-tailed virus (ATV). The text states: "Acidianus convivator strain AA9 was grown at 76 °C in 1× medium including sulphur". Since the phage is associated with this host, and the host is grown at 76°C, this indicates a thermophilic environment for the phage/system.
+
+
+Paper: PMC12662068.1.txt
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The text states that the family Bicaudaviridae "includes viruses that infect hyperthermophilic archaea in the genus Acidianus." Furthermore, the isolation details for Acidianus two-tailed virus specify it was "isolated from a hot acidic spring (87–93°C, pH 1.5–2.0) in Pozzuoli, Italy." Since the host is hyperthermophilic and the isolation source is hot (87–93°C), the phage is inferred to be thermophilic (> 45°C).
+
+
+Paper: 40183960.txt
+Classification: thermophile
+Confidence: None
+Inference Type: inferred
+Reasoning: The paper describes the growth energetics of *Acidianus ambivalens* under anaerobic conditions at 76 °C. Although the target phage is 'Acidianus bottle-shaped virus' and the paper discusses the host bacterium *Acidianus ambivalens*, the only temperature information provided relates to the host's optimal/tested growth condition (76 °C). Since 76 °C is significantly above 45°C, this suggests a thermophilic association, which is the only thermal characteristic that can be inferred.
+
+
+=============Reasoning for YP_001210360 from metadata (Forced)=============
+Classification: thermophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The metadata explicitly states the isolation source as 'hot acidic (93degC, pH1.5) spring'. The temperature of 93°C falls well within the definition of a thermophile (>45°C).
+
+

@@ -25,7 +25,7 @@ def FetchNcbiMetadata(accession: str) -> dict:
 
     max_tries = 5
     for attempt in range(max_tries):
-        search = requests.get(url, params=params, timeout=10)
+        search = requests.get(url, params=params, timeout=300)
         try:
             data = search.json()
             idlist = data["esearchresult"]["idlist"]
@@ -266,7 +266,7 @@ def CleanXml(xml_text: str) -> dict | None:
 
 def SearchPubmed(query: str, max_results: int = 20) -> list[str]:
     """
-    Search PubMed using a text query and return a list of PMIDs.
+    Search PubMed and PubMed Cental using a text query and return a list of PMIDs.
     """
     url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
 
@@ -275,21 +275,30 @@ def SearchPubmed(query: str, max_results: int = 20) -> list[str]:
         "term": query,
         "retmode": "json",
         "retmax": max_results
-    }).json()
-    sleep(0.3)
+    })
+    try:
+        data = res.json()
+        pmids = data.get("esearchresult", {}).get("idlist", [])
+        sleep(0.5)
+    except requests.exceptions.JSONDecodeError:
+        pmids = []
 
-    pmids = res.get("esearchresult", {}).get("idlist", [])
 
+    # Search pubmed Central
     res = requests.get(url, params={
         "db": "pmc",
         "term": query,
         "retmode": "json",
         "retmax": max_results,
-    }).json()
-    sleep(0.3)
+    })
 
-    pmcids = res.get("esearchresult", {}).get("idlist", [])
-    pmcids = [f"PMC{pmc}" for pmc in pmcids]
+    try:
+        data = res.json()
+        pmcids = data.get("esearchresult", {}).get("idlist", [])
+        pmcids = [f"PMC{pmc}" for pmc in pmcids]
+        sleep(0.5)
+    except requests.exceptions.JSONDecodeError:
+        pmcids = []
 
     paper_ids= pmcids + pmids
 

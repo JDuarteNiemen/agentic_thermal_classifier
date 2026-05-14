@@ -1,0 +1,39 @@
+=============Reasoning for NP_040587 from metadata=============
+Classification: None
+Confidence: None
+Inference Type: none
+Reasoning: The metadata provides the organism name ('Escherichia phage Lambda') and its host ('Escherichia coli'), but no explicit or strongly implied temperature ranges (psychrophile, mesophile, or thermophile) are present.
+
+
+=============Reasoning for NP_040587 from accession literature=============
+Paper: 3156406.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states that the fragment mediated antitermination of transcription at "30 degrees C". It also states that "At 42 degrees C, however, antitermination at the lambda tL1 terminator was abolished." Since 30°C falls within the mesophile range (15–45°C), and the experiment details specific temperatures within this range, the characteristic is mesophilic.
+
+
+=============Reasoning for NP_040587 from host literature=============
+Paper: PMC13164941.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states the incubation temperature for the MIC and MBC determination: "The mixtures were incubated at 37 °C for 24 h." Furthermore, the temperature stability test was conducted by incubating samples at "20 °C, 25 °C, 40 °C, 60 °C, and 80 °C," and the subsequent bacterial challenge incubation was performed "at 37 °C with shaking for 24 h." Since the optimal/tested temperature for bacterial activity is 37 °C, which falls within the 15–45°C range, the classification is mesophile. The host organism is Salmonella typhimurium, which typically thrives around mammalian body temperature (37°C).
+
+
+Paper: PMC13167042.1.txt
+Classification: mesophile
+Confidence: None
+Inference Type: explicit
+Reasoning: The text explicitly states several incubation temperatures used for culturing and processing the bacteria. For example, 'S. canis strains were first cultivated on Columbia blood agar plates with 5% sheep’s blood at 37 °C overnight.' Also, 'Competent cells were generated via growth in brain heart infusion (BHI) media overnight without shaking at 37 °C.' Furthermore, 'BHI media was added to recover the cells for 3 h at 28 °C without shaking.' And 'Transposants were selected by overnight growth at 37 °C in a humidified atmosphere containing 5% CO2 on 50 BHI agar plates supplemented with 2 µg ml−1 of erythromycin.' The use of 37°C for primary culturing and selection, and 28°C for recovery/plating, falls within the mesophilic range (15–45°C).
+
+
+=============Reasoning for NP_040587 from metadata (Forced)=============
+Classification: mesophile
+Confidence: None
+Inference Type: forced
+Reasoning: 1. The metadata provides general information about the phage (Escherichia phage Lambda) and its host (Escherichia coli). 
+2. There is no explicit mention of optimal growth temperature, isolation temperature, or environmental temperature range.
+3. Based on the host organism, *Escherichia coli*, which is a well-known mesophile, and the lack of any temperature-specific data, the most probable classification is mesophile, following the fallback rule (Rule 4).
+
+

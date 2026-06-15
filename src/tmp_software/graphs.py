@@ -100,7 +100,7 @@ def DemocraticGraph():
 def SummaryGraph():
     graph = StateGraph(SummaryState)
 
-    # Define nodes
+    # Nodes
     graph.add_node('SummaryCreateAccessionLibrary', SummaryCreateAccessionLibrary)
     graph.add_node('SummaryClassifyHostMetadata', SummaryClassifyHostMetadata)
     graph.add_node('SummaryClassifyHostLiterature', SummaryClassifyHostLiterature)
@@ -111,27 +111,65 @@ def SummaryGraph():
     graph.add_node('ClassifySummary', ClassifySummary)
     graph.add_node('SummaryClassifyThermalForced', SummaryClassifyThermalForced)
 
-    # Define paths
+    # Entry
     graph.add_edge(START, 'SummaryCreateAccessionLibrary')
     graph.add_edge('SummaryCreateAccessionLibrary', 'SummaryClassifyHostMetadata')
-    graph.add_conditional_edges('SummaryClassifyHostMetadata', route,
-                                {'SummaryCreateHostLibrary': 'SummaryCreateHostLibrary',
-                                        'SummaryClassifyHostLiterature': 'SummaryClassifyHostLiterature'})
-    graph.add_conditional_edges('SummaryClassifyHostLiterature', route,
-                                {'SummaryCreateHostLibrary': 'SummaryCreateHostLibrary',
-                                 'SummaryClassifyThermalForced': 'SummaryClassifyThermalForced',})
-    graph.add_conditional_edges('SummaryCreateHostLibrary', route,
-                                {'SummaryClassifyThermalForced': 'SummaryClassifyThermalForced',
-                                 'FilterRelevantLiterature': 'FilterRelevantLiterature',})
-    graph.add_edge('SummaryCreateHostLibrary', 'FilterRelevantLiterature')
+
+    # Host detection branch
+    graph.add_conditional_edges(
+        'SummaryClassifyHostMetadata',
+        route,
+        {
+            'SummaryCreateHostLibrary': 'SummaryCreateHostLibrary',
+            'SummaryClassifyHostLiterature': 'SummaryClassifyHostLiterature',
+        }
+    )
+
+    # Literature host classification
+    graph.add_conditional_edges(
+        'SummaryClassifyHostLiterature',
+        route,
+        {
+            'SummaryCreateHostLibrary': 'SummaryCreateHostLibrary',
+            'SummaryClassifyThermalForced': 'SummaryClassifyThermalForced'
+        }
+    )
+
+    # Host library creation → next step decision
+    graph.add_conditional_edges(
+        'SummaryCreateHostLibrary',
+        route,
+        {
+            'FilterRelevantLiterature': 'FilterRelevantLiterature',
+            'SummaryClassifyThermalForced': 'SummaryClassifyThermalForced',
+        }
+    )
+
+    # Filtering pipeline
     graph.add_edge('FilterRelevantLiterature', 'FilterRelevantHostLiterature')
-    graph.add_conditional_edges('FilterRelevantHostLiterature', route,
-                                {'SummaryClassifyThermalForced': 'SummaryClassifyThermalForced',
-                                 'SummariseLiterature': 'SummariseLiterature',})
+
+    graph.add_conditional_edges(
+        'FilterRelevantHostLiterature',
+        route,
+        {
+            'SummariseLiterature': 'SummariseLiterature',
+            'SummaryClassifyThermalForced': 'SummaryClassifyThermalForced',
+        }
+    )
+
+    # Summarisation chain
     graph.add_edge('SummariseLiterature', 'ClassifySummary')
-    graph.add_conditional_edges('ClassifySummary', route,
-                                {'SummaryClassifyThermalForced': 'SummaryClassifyThermalForced',
-                                 'end': END})
+
+    graph.add_conditional_edges(
+        'ClassifySummary',
+        route,
+        {
+            'end': END,
+            'SummaryClassifyThermalForced': 'SummaryClassifyThermalForced',
+        }
+    )
+
+    # Forced endpoint
     graph.add_edge('SummaryClassifyThermalForced', END)
 
     return graph.compile()

@@ -373,7 +373,7 @@ src/
 
 ## 📜 License
 
-fix this later
+free to use
 
 ---
 

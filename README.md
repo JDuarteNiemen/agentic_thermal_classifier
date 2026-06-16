@@ -373,7 +373,14 @@ src/
 
 ## 📜 License
 
-free to use
+Free to use
+If you use this software in research, please cite:
+
+Jaime Duarte-Niemen (2026)
+
+TMP Agentic Thermal Classifier
+
+GitHub: https://github.com/JDuarteNiemen/agentic_thermal_classifier
 
 ---
 

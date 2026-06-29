@@ -88,7 +88,6 @@ def WriteJson(meta, save_dir):
 
 
 # Getting all pmcids associated with an accession
-
 def FetchPMIDS(accession: str) -> list[dict]:
     """
     Given a protein accession, return associated PubMed ids.
